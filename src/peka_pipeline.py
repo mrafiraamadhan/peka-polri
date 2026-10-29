@@ -132,6 +132,8 @@ RE_TANGGAPAN = regex_kata(TOPIK["tanggapan"])
 RE_JIWA = regex_kata(TOPIK["ancaman_jiwa"])
 RE_BUKTI = regex_kata(TOPIK["bukti"])
 RE_HOAKS = regex_kata(TOPIK["hoaks"])
+RE_BUKAN = regex_kata(TOPIK.get("bukan_keluhan", ["-"]))
+RE_LUAR = regex_kata(TOPIK.get("luar_negeri", ["-"]))
 
 STOP = set("""yang dengan untuk dari pada akan dalam karena ini itu oleh tidak juga saat usai jadi ada kata
 kini masih sudah bisa para satu dua tiga empat lima orang pria wanita warga korban pelaku kasus polisi polri
@@ -255,6 +257,16 @@ def domain(u):
         return ""
 
 
+def buang_ekor_media(judul):
+    """'Judul berita - kumparan.com' -> 'Judul berita' (ekor nama situs yang tidak sama persis dengan nama media)."""
+    m = re.search(r"\s+[-|]\s+([A-Za-z0-9][\w.\- ]{1,40})$", judul or "")
+    if m and ("." in m.group(1) or len(m.group(1).split()) <= 3 and m.group(1)[:1].isupper() is False):
+        return judul[:m.start()].strip()
+    if m and "." in m.group(1):
+        return judul[:m.start()].strip()
+    return judul
+
+
 def google_news(q, kurun="2d"):
     url = "https://news.google.com/rss/search?" + urlencode(
         {"q": f"{q} when:{kurun}", "hl": "id", "gl": "ID", "ceid": "ID:id"})
@@ -266,6 +278,7 @@ def google_news(q, kurun="2d"):
         media = (src.text or "").strip() if src is not None else ""
         if media and judul.endswith(" - " + media):
             judul = judul[: -len(media) - 3].strip()
+        judul = buang_ekor_media(judul)
         hasil.append({"judul": judul, "url": (it.findtext("link") or "").strip(),
                       "media": media or "(tanpa nama media)", "terbit": waktu_rss(it.findtext("pubDate")),
                       "sumber": "Google News"})
@@ -280,7 +293,7 @@ def bing_news(q):
     for it in root.findall("./channel/item"):
         src = it.find("News:Source", ns)
         link = (it.findtext("link") or "").strip()
-        hasil.append({"judul": bersih(it.findtext("title")), "url": link,
+        hasil.append({"judul": buang_ekor_media(bersih(it.findtext("title"))), "url": link,
                       "media": (src.text or "").strip() if src is not None else domain(link),
                       "terbit": waktu_rss(it.findtext("pubDate")), "sumber": "Bing News"})
     return hasil
@@ -317,7 +330,7 @@ def gdelt_timeline(q, mulai, akhir):
               "startdatetime": mulai.strftime("%Y%m%d%H%M%S"), "enddatetime": akhir.strftime("%Y%m%d%H%M%S"),
               "timelinesmooth": 0}
     raw = ambil("https://api.gdeltproject.org/api/v2/doc/doc?" + urlencode(params), f"gdelt_{slug(q)}.json",
-                timeout=45, percobaan=3, jeda=10)
+                timeout=30, percobaan=2, jeda=20)
     teks = raw.decode("utf-8", "ignore").strip()
     j = json.loads(teks)
     harian, total = defaultdict(int), defaultdict(int)
@@ -330,13 +343,24 @@ def gdelt_timeline(q, mulai, akhir):
 
 
 def dengar_gdelt():
+    lama = baca_json("gdelt_tren.json", {})
+    # GDELT berubah harian dan membatasi permintaan; cukup diperbarui setiap 6 jam.
+    if not FIXTURE and lama.get("diperbarui_utc") and NOW - dari_iso(lama["diperbarui_utc"]) < timedelta(hours=6) \
+            and sum(1 for v in lama.get("topik", {}).values() if sum(v.get("artikel", [])) > 0) >= 5:
+        log("dengar GDELT: dilewati, deret masih segar")
+        catat_sumber("Volume berita GDELT (90 hari)", True, len(lama["topik"]),
+                     f"memakai deret {lama['diperbarui_utc']} (diperbarui setiap 6 jam)", "gdelt_tren.json")
+        return lama
     akhir = NOW.replace(minute=0, second=0, microsecond=0)
     mulai = (akhir - timedelta(days=89)).replace(hour=0)
     hari = [(mulai + timedelta(days=i)).strftime("%Y%m%d") for i in range((akhir - mulai).days + 1)]
     keluaran = {"diperbarui_utc": iso(NOW), "hari": [f"{h[:4]}-{h[4:6]}-{h[6:]}" for h in hari], "topik": {}}
     ok, galat = 0, []
-    lama = baca_json("gdelt_tren.json", {})
+    mulai_jam = time.time()
     for t in TOPIK["topik"]:
+        if time.time() - mulai_jam > 360:      # batas 6 menit supaya putaran tidak melewati batas waktu
+            galat.append(f"{t['id']}: dilewati (batas waktu)")
+            continue
         try:
             harian, total = gdelt_timeline(t["gdelt"], mulai, akhir)
             keluaran["topik"][t["id"]] = {"artikel": [harian.get(h, 0) for h in hari],
@@ -351,7 +375,7 @@ def dengar_gdelt():
                 keluaran["topik"][t["id"]] = {"artikel": [peta.get(h, 0) for h in keluaran["hari"]],
                                               "total": [petat.get(h, 0) for h in keluaran["hari"]], "lama": True}
         if not FIXTURE:
-            time.sleep(6)   # GDELT meminta jeda >= 5 detik antar-permintaan
+            time.sleep(10)  # GDELT meminta jeda >= 5 detik antar-permintaan; dibuat lebih longgar
     log(f"dengar GDELT: {ok}/{len(TOPIK['topik'])} topik")
     catat_sumber("Volume berita GDELT (90 hari)", ok > 0, ok, "; ".join(galat[:2]) or f"{ok} topik", "gdelt_tren.json")
     return keluaran
@@ -431,7 +455,13 @@ def pilah(artikel, hoaks, terlihat, kasus):
         if not tid:
             hit["tidak_relevan"] += 1
             continue
+        if RE_BUKAN.search(j):          # kegiatan, sosialisasi, opini, statistik: bukan kejadian yang dikeluhkan
+            hit["bukan_kejadian"] += 1
+            continue
         lk = lokasi(a["judul"])
+        if not lk and RE_LUAR.search(j):  # berita luar negeri
+            hit["luar_negeri"] += 1
+            continue
         if lk:   # kata nama tempat tidak ikut menentukan kemiripan kejadian
             tk = tk - token((lk.get("kab") or "") + " " + lk["prov"]) - TOK_TEMPAT
         a.update({"id": slug(a["url"] or a["judul"]), "topik": tid, "kata": kata, "tok": tk, "lok": lk})
@@ -453,8 +483,12 @@ def pilah(artikel, hoaks, terlihat, kasus):
             if la and lk and la.get("kode_kab") and lk.get("kode_kab") and la["kode_kab"] != lk["kode_kab"]:
                 continue
             sama_kab = bool(la and lk and la.get("kode_kab") and la.get("kode_kab") == lk.get("kode_kab"))
-            ambang = 0.25 if sama_kab else (0.3 if (la and lk) else 0.45)
+            ambang = 0.25 if sama_kab else (0.3 if (la and lk) else 0.35)
             s = mirip(a["tok"], set(k["tok"]))
+            # kab/kota sama + kata kunci kejadian sama (mis. "pembunuhan") dalam 72 jam: hampir pasti kejadian yang sama
+            satu_prov_umum = bool(la and lk and la["kode_prov"] == lk["kode_prov"] and not (la.get("kode_kab") and lk.get("kode_kab")))
+            if (sama_kab or satu_prov_umum) and a["kata"] in k.get("kata", []):
+                s = max(s, ambang + 0.01)
             if s >= ambang and s > skor_terbaik:
                 cocok, skor_terbaik = k, s
         art = {"id": a["id"], "judul": a["judul"], "url": a["url"], "media": a["media"],
@@ -465,6 +499,8 @@ def pilah(artikel, hoaks, terlihat, kasus):
                 cocok["tok"] = sorted(set(cocok["tok"]) | a["tok"])
             cocok["pertama"] = min(cocok["pertama"], art["terbit"])
             cocok["terakhir"] = max(cocok["terakhir"], art["terbit"])
+            if a["kata"] not in cocok.setdefault("kata", []):
+                cocok["kata"].append(a["kata"])
             if not cocok["lok"] and a["lok"]:
                 cocok["lok"] = a["lok"]
             elif cocok["lok"] and a["lok"] and not cocok["lok"].get("kode_kab") and a["lok"].get("kode_kab"):
@@ -472,7 +508,7 @@ def pilah(artikel, hoaks, terlihat, kasus):
             cocok["diperbarui"] = iso(NOW)
             hit["gabung"] += 1
         else:
-            kasus.append({"id": "K" + slug(a["id"] + a["topik"]), "topik": a["topik"], "lok": a["lok"],
+            kasus.append({"id": "K" + slug(a["id"] + a["topik"]), "topik": a["topik"], "lok": a["lok"], "kata": [a["kata"]],
                           "tok": sorted(a["tok"]), "pertama": art["terbit"], "terakhir": art["terbit"],
                           "artikel": [art], "dibuat": iso(NOW), "diperbarui": iso(NOW)})
             hit["kasus_baru"] += 1
@@ -513,6 +549,18 @@ def timbang(k, lonjakan, gempa_darurat):
     lokasi_jelas = bool(lok and lok.get("kode_kab"))
     ancaman = RE_JIWA.search(judul)
     bukti = RE_BUKTI.search(judul)
+    # KABARKAN: apakah tanggapan polisi sudah terlihat di pemberitaan?
+    urut = sorted(k["artikel"], key=lambda a: a["terbit"])
+    tanggap = None
+    for i, a in enumerate(urut):
+        m = RE_TANGGAPAN.search(a["judul"].lower())
+        if m:
+            tanggap = {"terbit": a["terbit"], "judul": a["judul"], "media": a["media"], "url": a["url"],
+                       "kata": m.group(1), "sejak_awal": i == 0}
+            break
+    jeda = None
+    if tanggap and not tanggap["sejak_awal"]:
+        jeda = round((dari_iso(tanggap["terbit"]) - pertama).total_seconds() / 3600, 1)
     alasan = []
     if t.get("jalur_khusus"):
         status = "JALUR KHUSUS"
@@ -537,25 +585,18 @@ def timbang(k, lonjakan, gempa_darurat):
             status = "PANTAU"
             L = lonjakan[kunci]
             alasan.append(f"lonjakan: {L['hari_ini']} kasus 24 jam ≥ 2 × rata-rata {L['rata']:.1f} dan ≥ 5")
-        elif t.get("pidana"):
+        elif t.get("pidana") and lok:
             status = "PANTAU"
             alasan.append("pidana/keselamatan tanpa bukti dan < 3 media" if lokasi_jelas
-                          else "pidana/keselamatan, lokasi baru sampai provinsi atau belum jelas")
+                          else "pidana/keselamatan, lokasi baru sampai provinsi")
         else:
             status = "TERCATAT"
-            alasan.append("tidak ada ambang yang terpenuhi")
-    # KABARKAN: apakah tanggapan polisi sudah terlihat di pemberitaan?
-    urut = sorted(k["artikel"], key=lambda a: a["terbit"])
-    tanggap = None
-    for i, a in enumerate(urut):
-        m = RE_TANGGAPAN.search(a["judul"].lower())
-        if m:
-            tanggap = {"terbit": a["terbit"], "judul": a["judul"], "media": a["media"], "url": a["url"],
-                       "kata": m.group(1), "sejak_awal": i == 0}
-            break
-    jeda = None
-    if tanggap and not tanggap["sejak_awal"]:
-        jeda = round((dari_iso(tanggap["terbit"]) - pertama).total_seconds() / 3600, 1)
+            alasan.append("lokasi belum jelas, masuk rekap pola" if not lok else "tidak ada ambang yang terpenuhi")
+    # Lingkaran tertutup: bila tanggapan polisi/petugas sudah terlihat di pemberitaan, kasus Tindak/Pantau
+    # tidak perlu diteruskan ulang; ia masuk rekap (Tercatat) dengan keterangan sudah ditanggapi.
+    if tanggap and status in ("TINDAK", "PANTAU"):
+        alasan = [f"semula {status.lower()}: " + "; ".join(alasan), f"tanggapan sudah terlihat: “{tanggap['kata']}”"]
+        status = "TERCATAT"
     batas_teks, batas_jam = BATAS[status]
     lewat = bool(batas_jam and not tanggap and umur_jam > batas_jam)
     return {
@@ -731,7 +772,8 @@ def main():
         "langkah": {
             "dengar": {"artikel": hit["masuk"], "sumber": sum(1 for s in STATUS_SUMBER.values() if s["ok"])},
             "pilah": {"relevan": hit["relevan"], "sudah_ada": hit["sudah_ada"], "hoaks": hit["hoaks"],
-                      "tidak_relevan": hit["tidak_relevan"], "kasus_baru": hit["kasus_baru"], "digabung": hit["gabung"]},
+                      "tidak_relevan": hit["tidak_relevan"], "bukan_kejadian": hit["bukan_kejadian"],
+                      "luar_negeri": hit["luar_negeri"], "kasus_baru": hit["kasus_baru"], "digabung": hit["gabung"]},
             "timbang": {s: st.get(s, 0) for s in STATUS_URUT},
             "teruskan": {"polda": len(polda), "kasus": len(perlu)},
             "kabarkan": {"tanggapan_terlihat": len(tanggap), "kasus": len(jendela72),

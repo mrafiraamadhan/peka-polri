@@ -146,20 +146,20 @@
     const L = r.langkah, s = r.status, kb = L.kabarkan;
     const perlu = s["DARURAT"] + s["TINDAK"] + s["JALUR KHUSUS"];
     let t = `Dalam 72 jam terakhir PEKA menyusun <b>${fmt(r.kasus_aktif)} kasus keluhan</b> dari berita daring. `;
-    t += perlu ? `<b>${fmt(perlu)} kasus</b> perlu tindakan segera (${fmt(s["DARURAT"])} darurat, ${fmt(s["TINDAK"])} tindak, ${fmt(s["JALUR KHUSUS"])} jalur khusus ke Propam), diteruskan ke <b>${fmt(L.teruskan.polda)} Polda</b>. ` : "Tidak ada kasus yang memerlukan tindakan segera. ";
+    t += perlu ? `<b>${fmt(perlu)} kasus</b> perlu tindakan segera atau pengawasan (${fmt(s["DARURAT"])} darurat, ${fmt(s["TINDAK"])} tindak, ${fmt(s["JALUR KHUSUS"])} jalur khusus ke Propam), diteruskan ke <b>${fmt(L.teruskan.polda)} Polda</b>. ` : "Tidak ada kasus yang memerlukan tindakan segera. ";
     t += `Tanggapan polisi atau petugas sudah terlihat di pemberitaan pada <b>${fmt(kb.tanggapan_terlihat)} kasus</b>`;
     t += kb.median_jeda_jam != null ? `, dengan median jeda <b>${fmt(kb.median_jeda_jam, 1)} jam</b> setelah berita pertama (${fmt(kb.n_jeda)} kasus yang jedanya terukur). ` : ". ";
     if (kb.melewati_batas) t += `<b>${fmt(kb.melewati_batas)} kasus</b> sudah melewati batas kabar balik statusnya tanpa tanggapan yang terlihat. `;
     const nas = (r.lonjakan_nasional || []).filter(x => x.lonjakan);
     if (nas.length) t += `Secara nasional, volume berita <b>${nas.map(x => x.nama.toLowerCase()).join(", ")}</b> kemarin melampaui 2 × rata-rata 28 hari. `;
-    t += `<span class="kecil">Putaran terakhir membaca ${fmt(L.dengar.artikel)} berita; ${fmt(L.pilah.hoaks)} bertanda hoaks dan ${fmt(L.pilah.tidak_relevan)} yang tidak relevan dibuang.</span>`;
+    t += `<span class="kecil">Putaran terakhir membaca ${fmt(L.dengar.artikel)} berita; ${fmt(L.pilah.hoaks)} bertanda hoaks, ${fmt((L.pilah.bukan_kejadian || 0) + (L.pilah.luar_negeri || 0))} berita kegiatan atau luar negeri, dan ${fmt(L.pilah.tidak_relevan)} yang tidak relevan dibuang.</span>`;
     $("narasi").innerHTML = t;
   }
   function langkah() {
     const r = D.ringkasan, L = r ? r.langkah : null;
     const kol = [
       ["01", "Dengar", L ? fmt(L.dengar.artikel) : "–", "berita terbaca", L ? `dari ${L.dengar.sumber} sumber terbuka pada putaran terakhir` : "berita daring, GDELT, BMKG, MAFINDO"],
-      ["02", "Pilah", L ? fmt(L.pilah.kasus_baru) : "–", "kasus baru", L ? `${fmt(L.pilah.digabung)} berita digabung ke kasus yang ada, ${fmt(L.pilah.sudah_ada)} sudah pernah terbaca, ${fmt(L.pilah.hoaks)} hoaks disaring` : "duplikat, hoaks, topik, lokasi"],
+      ["02", "Pilah", L ? fmt(L.pilah.kasus_baru) : "–", "kasus baru", L ? `${fmt(L.pilah.digabung)} berita digabung ke kasus yang ada; ${fmt(L.pilah.hoaks)} hoaks dan ${fmt((L.pilah.bukan_kejadian || 0) + (L.pilah.luar_negeri || 0))} berita kegiatan atau luar negeri disaring` : "duplikat, hoaks, topik, lokasi"],
       ["03", "Timbang", r ? fmt(r.kasus_aktif) : "–", "kasus aktif", r ? URUT.map(k => `${ST[k].ikon} ${fmt(r.status[k])}`).join(" · ") : "lima status dengan ambang tertulis"],
       ["04", "Teruskan", L ? fmt(L.teruskan.polda) : "–", "Polda", L ? `${fmt(L.teruskan.kasus)} kasus diteruskan ke Polres, Polsek, Bhabinkamtibmas, atau Propam` : "penanggung jawab per wilayah"],
       ["05", "Kabarkan", L ? fmt(L.kabarkan.tanggapan_terlihat) : "–", "tanggapan terlihat", L ? (L.kabarkan.median_jeda_jam != null ? `median ${fmt(L.kabarkan.median_jeda_jam, 1)} jam setelah berita pertama; ` : "") + `${fmt(L.kabarkan.melewati_batas)} melewati batas` : "diterima, diperiksa, selesai"],
@@ -239,16 +239,20 @@
   }
 
   // ------------------------------------------------------------ pantau langsung
-  const PETAK = {
-    "11": [1, 1, "Aceh"], "12": [2, 2, "Sumut"], "13": [2, 3, "Sumbar"], "14": [3, 2, "Riau"], "21": [4, 2, "Kepri"],
-    "15": [3, 3, "Jambi"], "17": [2, 4, "Bklu"], "16": [3, 4, "Sumsel"], "19": [4, 4, "Babel"], "18": [3, 5, "Lpg"],
-    "36": [4, 6, "Banten"], "31": [5, 5, "DKI"], "32": [5, 6, "Jabar"], "33": [6, 6, "Jateng"], "34": [6, 7, "DIY"],
-    "35": [7, 6, "Jatim"], "51": [8, 6, "Bali"], "52": [9, 6, "NTB"], "53": [10, 6, "NTT"],
-    "61": [6, 2, "Kalbar"], "62": [7, 3, "Kalteng"], "63": [8, 3, "Kalsel"], "64": [8, 2, "Kaltim"], "65": [8, 1, "Kaltara"],
-    "75": [10, 1, "Gtlo"], "71": [11, 1, "Sulut"], "72": [10, 2, "Sulteng"], "76": [9, 3, "Sulbar"], "73": [9, 4, "Sulsel"], "74": [10, 4, "Sultra"],
-    "82": [12, 2, "Malut"], "81": [12, 4, "Maluku"], "92": [13, 3, "PBD"], "91": [14, 3, "Pabar"], "94": [15, 3, "Papua"],
-    "96": [14, 4, "Pteng"], "97": [15, 4, "Ppeg"], "95": [15, 5, "Psel"],
+  // Persentase korban kejahatan yang melapor ke polisi menurut provinsi, [2023, 2024].
+  // Sumber: BPS, Statistik Kriminal 2024/2025, Lampiran 49 (Susenas Maret). null = NA di publikasi.
+  const BPS_LAPOR = {
+    "11": [10.64, 17.59], "12": [20.19, 18.43], "13": [14.29, 22.57], "14": [15.66, 20.10], "15": [20.54, 13.24], "16": [23.53, 16.97],
+    "17": [17.55, 24.42], "18": [23.07, 21.21], "19": [16.87, 16.03], "21": [13.74, 27.01], "31": [23.96, 25.48], "32": [26.60, 19.04],
+    "33": [17.49, 21.73], "34": [24.91, 26.14], "35": [24.17, 21.05], "36": [34.11, 17.77], "51": [12.05, 19.21], "52": [27.12, 16.12],
+    "53": [13.42, 20.70], "61": [15.07, 16.61], "62": [33.51, 21.50], "63": [26.02, 18.71], "64": [36.49, 17.74], "65": [23.45, 26.13],
+    "71": [25.21, 19.21], "72": [24.88, 16.59], "73": [21.94, 27.57], "74": [17.89, 38.97], "75": [42.46, 7.91], "76": [25.27, 25.49],
+    "81": [19.09, 19.25], "82": [14.55, 17.12], "91": [35.75, 25.13], "92": [56.51, 41.85], "94": [39.05, 48.60], "95": [26.74, 26.38],
+    "96": [17.29, null], "97": [null, 8.15],
   };
+  const BPS_NASIONAL = [23.36, 20.28];
+  const TITIK_GANTI = { "21": [203.7, 115.5] };   // Kepri: titik dipindah ke sekitar Batam
+  let PETA = null, modePeta = "kasus";
   const NAMA_PROV = {
     "11": "Aceh", "12": "Sumatera Utara", "13": "Sumatera Barat", "14": "Riau", "15": "Jambi", "16": "Sumatera Selatan", "17": "Bengkulu", "18": "Lampung",
     "19": "Kepulauan Bangka Belitung", "21": "Kepulauan Riau", "31": "DKI Jakarta", "32": "Jawa Barat", "33": "Jawa Tengah", "34": "DI Yogyakarta",
@@ -277,6 +281,11 @@
   $("f-urut").onchange = e => { F.urut = e.target.value; daftar(); };
   $("f-cari").oninput = e => { F.cari = e.target.value.trim().toLowerCase(); F.n = 24; daftar(); };
   $("muat-lagi").onclick = () => { F.n += 24; daftar(); };
+  document.querySelectorAll("#mode-peta [data-mode]").forEach(b => b.onclick = () => {
+    modePeta = b.dataset.mode;
+    document.querySelectorAll("#mode-peta [data-mode]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+    peta();
+  });
   function tersaring() {
     let k = D.kasus ? D.kasus.kasus.slice() : [];
     if (F.status) k = k.filter(h => h.status === F.status);
@@ -293,26 +302,62 @@
     $("daftar").innerHTML = k.length ? k.slice(0, F.n).map(kartuKasus).join("") : `<div class="kartu kosong">Tidak ada kasus yang cocok${D.kasus ? "" : " (menunggu putaran pertama)"}.</div>`;
     $("muat-lagi").classList.toggle("sembunyi", k.length <= F.n);
   }
+  async function muatPeta() {
+    try { const r = await fetch("assets/peta_id.json"); if (r.ok) PETA = await r.json(); } catch (e) { /* abaikan */ }
+    peta();
+  }
+  const fmtPersen = v => v == null ? "NA" : fmt(v, 2) + "%";
   function peta() {
+    const el = $("peta"); if (!el) return;
+    if (!PETA) { el.innerHTML = `<p class="kecil">Memuat peta…</p>`; return; }
     const r = D.ringkasan, prov = r ? r.provinsi || {} : {};
     const tot = c => URUT.reduce((s, k) => s + (prov[c] && prov[c][k] ? prov[c][k] : 0), 0);
-    const maks = Math.max(1, ...Object.keys(PETAK).map(tot));
-    const kelas = v => v <= 0 ? 0 : Math.min(6, 1 + Math.floor(5 * Math.log(1 + v) / Math.log(1 + maks)));
-    const el = $("peta");
-    el.style.gridTemplateColumns = "repeat(15, minmax(0,1fr))";
-    el.innerHTML = Object.entries(PETAK).map(([c, [x, y, ab]]) => {
-      const v = tot(c), kl = kelas(v), tertinggi = URUT.find(k => prov[c] && prov[c][k]);
-      const warna = tertinggi ? css("--" + ({ "DARURAT": "darurat", "JALUR KHUSUS": "khusus", "TINDAK": "tindak", "PANTAU": "pantau", "TERCATAT": "tercatat" }[tertinggi]) + "-tanda") : "";
-      return `<button type="button" class="petak" data-l="${kl}" style="grid-column:${x};grid-row:${y};background:var(--seq-${kl})" data-p="${c}" aria-pressed="${F.prov === c}" aria-label="${NAMA_PROV[c]}: ${v} kasus">
-        ${ab}<br><span class="num">${v || ""}</span>${tertinggi ? `<span class="tanda" style="background:${warna}"></span>` : ""}</button>`;
-    }).join("");
-    el.querySelectorAll(".petak").forEach(b => {
-      b.onclick = () => { F.prov = F.prov === b.dataset.p ? "" : b.dataset.p; F.n = 24; isiSaring(); daftar(); peta(); };
-      b.onpointermove = e => { const c = b.dataset.p, p = prov[c] || {}; tunjuk(e, `<b>${NAMA_PROV[c]}</b>${(r && r.provinsi[c]) ? esc(r.provinsi[c].polda) + "<br>" : ""}${URUT.filter(k => p[k]).map(k => `${ST[k].ikon} ${ST[k].nama}: ${p[k]}`).join("<br>") || "tidak ada kasus aktif"}`); };
-      b.onpointerleave = sembunyikan;
+    const maks = Math.max(1, ...Object.keys(PETA.prov).map(tot));
+    const kelasKasus = v => v <= 0 ? 0 : Math.min(6, 1 + Math.floor(5 * Math.log(1 + v) / Math.log(1 + maks)));
+    const BATAS_SENYAP = [70, 75, 80, 85, 90];
+    const kelasSenyap = v => v == null ? -1 : 1 + BATAS_SENYAP.filter(b => v >= b).length;
+    const senyap = c => BPS_LAPOR[c] && BPS_LAPOR[c][1] != null ? +(100 - BPS_LAPOR[c][1]).toFixed(2) : null;
+    const warnaStatus = s => css("--" + ({ "DARURAT": "darurat", "JALUR KHUSUS": "khusus", "TINDAK": "tindak", "PANTAU": "pantau", "TERCATAT": "tercatat" }[s]) + "-tanda");
+    let h = `<svg class="peta-svg" viewBox="${PETA.viewBox}" role="img" aria-label="Peta Indonesia per provinsi">
+      <defs><pattern id="arsir-na" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <rect width="5" height="5" fill="${css("--surface-2")}"/><line x1="0" y1="0" x2="0" y2="5" stroke="${css("--ink-3")}" stroke-width="1.2"/></pattern></defs>`;
+    Object.entries(PETA.prov).forEach(([c, p]) => {
+      const kl = modePeta === "kasus" ? kelasKasus(tot(c)) : kelasSenyap(senyap(c));
+      const isi = kl < 0 ? "url(#arsir-na)" : `var(--seq-${kl})`;
+      h += `<path class="prov${F.prov === c ? " pilih" : ""}" d="${p.d}" fill="${isi}" data-p="${c}"><title>${esc(p.nama)}</title></path>`;
     });
-    $("legenda-peta").innerHTML = `<span>sedikit</span>${[1, 2, 3, 4, 5, 6].map(i => `<i style="background:var(--seq-${i})"></i>`).join("")}<span>banyak kasus</span>
-      <span style="margin-left:14px">titik: ${URUT.map(k => `${ST[k].ikon} ${ST[k].nama}`).join(" · ")}</span>`;
+    if (modePeta === "kasus") {
+      Object.entries(PETA.prov).forEach(([c, p]) => {
+        const v = tot(c); if (!v) return;
+        const tertinggi = URUT.find(k => prov[c] && prov[c][k]);
+        const [x, y] = TITIK_GANTI[c] || [p.cx, p.cy];
+        h += `<circle class="titik" cx="${x}" cy="${y}" r="${(3 + Math.sqrt(v) * 1.7).toFixed(1)}" fill="${warnaStatus(tertinggi)}" data-p="${c}"></circle>`;
+      });
+    }
+    h += `</svg>`;
+    el.innerHTML = h;
+    el.querySelectorAll("[data-p]").forEach(n => {
+      n.onclick = () => { F.prov = F.prov === n.dataset.p ? "" : n.dataset.p; F.n = 24; isiSaring(); daftar(); peta(); };
+      n.onpointermove = e => {
+        const c = n.dataset.p, p = prov[c] || {}, b = BPS_LAPOR[c] || [null, null];
+        tunjuk(e, `<b>${esc(PETA.prov[c].nama)}</b>${r && r.provinsi[c] ? esc(r.provinsi[c].polda) : esc(NAMA_PROV[c] ? "" : "")}<br>` +
+          (URUT.filter(k => p[k]).map(k => `${ST[k].ikon} ${ST[k].nama}: ${p[k]}`).join("<br>") || "tidak ada kasus aktif") +
+          `<br><span class="kecil">Korban yang melapor ke polisi (BPS): ${fmtPersen(b[0])} (2023), <b>${fmtPersen(b[1])}</b> (2024)</span>`);
+      };
+      n.onpointerleave = sembunyikan;
+    });
+    $("legenda-peta").innerHTML = modePeta === "kasus"
+      ? `<span>sedikit</span>${[1, 2, 3, 4, 5, 6].map(i => `<i style="background:var(--seq-${i})"></i>`).join("")}<span>banyak kasus</span>
+         <span style="margin-left:14px">lingkaran = jumlah kasus, warna = status tertinggi: ${URUT.map(k => `${ST[k].ikon} ${ST[k].nama}`).join(" · ")}</span>`
+      : `<span>korban yang <b>tidak</b> melapor ke polisi, 2024:</span>${["< 70%", "70–75%", "75–80%", "80–85%", "85–90%", "≥ 90%"].map((t, i) => `<i style="background:var(--seq-${i + 1})"></i><span>${t}</span>`).join("")}<i style="background:repeating-linear-gradient(45deg,var(--ink-3) 0 1.5px,var(--surface-2) 1.5px 5px)"></i><span>NA (tidak tersedia)</span>`;
+    // panel suara senyap
+    const daftarSenyap = Object.keys(BPS_LAPOR).filter(c => BPS_LAPOR[c][1] != null).sort((a, b) => BPS_LAPOR[a][1] - BPS_LAPOR[b][1]).slice(0, 6);
+    $("senyap").innerHTML = `<div class="kartu blok" style="box-shadow:none">
+      <b>Suara senyap: provinsi dengan korban paling jarang melapor (BPS, 2024)</b>
+      <div class="tabel-wadah" style="margin-top:8px"><table class="tbl"><thead><tr><th>Provinsi</th><th class="n">Melapor 2024</th><th class="n">Tidak melapor</th><th class="n">Kasus PEKA aktif</th></tr></thead><tbody>
+      ${daftarSenyap.map(c => `<tr><td>${esc(PETA.prov[c] ? PETA.prov[c].nama : NAMA_PROV[c])}</td><td class="n">${fmtPersen(BPS_LAPOR[c][1])}</td><td class="n">${fmtPersen(senyap(c))}</td><td class="n">${fmt(tot(c))}</td></tr>`).join("")}
+      </tbody></table></div>
+      <p class="kecil" style="margin:8px 0 0">Nasional: ${fmtPersen(BPS_NASIONAL[1])} korban melapor pada 2024. Di provinsi seperti ini, keluhan yang sampai ke berita hanya puncak gunung es; kanal yang dekat dengan warga (Bhabinkamtibmas, akun resmi Polres, layanan 110) paling dibutuhkan. Angka provinsi berasal dari sampel Susenas yang kecil sehingga dapat naik-turun tajam antartahun.</p></div>`;
   }
 
   // ------------------------------------------------------------ tren
@@ -568,6 +613,7 @@
   // ------------------------------------------------------------ mulai
   buka(location.hash.slice(1) || "ringkasan");
   gambarSemua();
+  muatPeta();
   muat();
   setInterval(muat, 5 * 60 * 1000);            // ambil ulang data setiap 5 menit
   setInterval(() => { sampul(); }, 60 * 1000);  // perbarui "x menit lalu"

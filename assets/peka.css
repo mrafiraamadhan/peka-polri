@@ -331,3 +331,11 @@ label.cek input { margin-top: 3px; width: 18px; height: 18px; flex: none; accent
 footer.kaki-situs { border-top: 1px solid var(--border); padding: 24px 0 40px; font-size: 13px; color: var(--ink-3); }
 footer.kaki-situs p { margin: 4px 0; max-width: 100ch; }
 .muat-lagi { display: block; margin: 14px auto 0; }
+
+/* peta Indonesia */
+.peta-svg { width: 100%; height: auto; display: block; }
+.peta-svg path.prov { stroke: var(--surface); stroke-width: .7; cursor: pointer; transition: opacity .15s; }
+.peta-svg path.prov:hover { stroke: var(--ink); stroke-width: 1.2; }
+.peta-svg path.prov.pilih { stroke: var(--ink); stroke-width: 1.8; }
+.peta-svg circle.titik { stroke: var(--surface); stroke-width: 1.4; cursor: pointer; opacity: .95; }
+.legenda-peta span { white-space: nowrap; }

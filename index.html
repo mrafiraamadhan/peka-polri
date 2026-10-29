@@ -106,9 +106,16 @@
   <!-- ================= PANTAU LANGSUNG ================= -->
   <section class="panel" id="tab-pantau" role="tabpanel" aria-label="Pantau langsung">
     <div class="kartu blok angkat">
-      <div class="label-atas"><b>Peta kasus per provinsi</b> · warna = jumlah kasus aktif, titik = status tertinggi · sentuh petak untuk menyaring</div>
-      <div class="tabel-wadah"><div class="peta" id="peta" style="min-width:640px"></div></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:8px">
+        <div class="label-atas" style="margin:0"><b>Peta Indonesia per provinsi</b> · sentuh provinsi untuk menyaring daftar kasus</div>
+        <div class="saring" role="group" aria-label="Lapisan peta" id="mode-peta" style="margin:0">
+          <button class="chip" type="button" data-mode="kasus" aria-pressed="true">Kasus aktif (PEKA)</button>
+          <button class="chip" type="button" data-mode="senyap" aria-pressed="false">Suara senyap (BPS 2024)</button>
+        </div>
+      </div>
+      <div id="peta"></div>
       <div class="legenda-peta" id="legenda-peta"></div>
+      <div id="senyap" style="margin-top:12px"></div>
     </div>
 
     <h2 class="judul-bagian">Daftar kasus</h2>
@@ -262,18 +269,20 @@
       <thead><tr><th>Sumber</th><th>Pengelola</th><th>Yang dibaca</th><th>Fungsi dalam PEKA</th></tr></thead>
       <tbody>
         <tr><td>Google News RSS (cadangan: Bing News RSS)</td><td>Google; Microsoft</td><td>Judul, media, waktu terbit, tautan berita 2 hari terakhir untuk 10 kueri topik</td><td>Dengar: keluhan yang sudah sampai ke ruang publik</td></tr>
-        <tr><td>GDELT DOC 2.0</td><td>The GDELT Project</td><td>Jumlah artikel berbahasa Indonesia per hari, 90 hari, per topik</td><td>Timbang: pembanding 2 × rata-rata 28 hari tingkat nasional</td></tr>
+        <tr><td>GDELT DOC 2.0</td><td>The GDELT Project</td><td>Jumlah artikel berbahasa Indonesia per hari, 90 hari, per topik (kata kunci berbahasa Inggris karena GDELT mengindeks terjemahannya; diperbarui setiap 6 jam)</td><td>Timbang: pembanding 2 × rata-rata 28 hari tingkat nasional</td></tr>
         <tr><td>Data gempa terbuka</td><td>BMKG</td><td>Gempa terbaru, 15 gempa M 5+, 15 gempa dirasakan</td><td>Konteks keadaan darurat</td></tr>
         <tr><td>TurnBackHoax</td><td>MAFINDO</td><td>Judul klaim hoaks terbaru</td><td>Pilah: penyaring hoaks</td></tr>
         <tr><td>Gazeter wilayah</td><td>Kode wilayah BPS (38 provinsi, 514 kab/kota)</td><td>Nama kab/kota, provinsi, Polda</td><td>Pilah dan teruskan: lokasi sampai Polres</td></tr>
+        <tr><td>Statistik Kriminal 2024/2025, Lampiran 49</td><td>BPS (Susenas Maret)</td><td>Persentase korban kejahatan yang melapor ke polisi menurut provinsi, 2023 dan 2024</td><td>Lapisan peta "Suara senyap": di mana korban paling jarang melapor</td></tr>
+        <tr><td>Batas 38 provinsi</td><td>Indonesia GeoJSON &amp; TopoJSON Maps (38 Provinces), denyherianto, lisensi CC BY 4.0</td><td>Batas provinsi, disederhanakan</td><td>Peta di tab Pantau Langsung</td></tr>
       </tbody></table></div>
 
     <h2 class="judul-bagian">Aturan tiap langkah</h2>
     <div class="kartu tabel-wadah"><table class="tbl">
       <thead><tr><th>Langkah</th><th>Aturan yang dijalankan</th></tr></thead>
       <tbody>
-        <tr><td><b>Pilah</b></td><td>Berita yang sama (tautan atau judul+media sama) hanya dihitung sekali. Judul bertanda <i>hoaks, cek fakta, klarifikasi, tidak benar</i>, atau sangat mirip klaim MAFINDO dibuang. Topik ditentukan dari kata kunci di judul (sembilan topik; berita yang tidak cocok dengan topik mana pun dibuang). Lokasi = nama kab/kota atau provinsi pertama di judul; nama yang juga kata umum (misalnya Malang, Batu, Palu) hanya dihitung bila didahului "di", "Kota", "Kabupaten", atau "Polres", dan nama jalan diabaikan. Berita digabung menjadi satu kasus bila topik dan wilayahnya sama, selisih waktunya ≤ 72 jam, dan judulnya mirip (indeks Jaccard ≥ 0,25–0,45 tanpa kata nama tempat).</td></tr>
-        <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> topik perilaku anggota. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam atau ada bukti (video, rekaman, CCTV). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu.</td></tr>
+        <tr><td><b>Pilah</b></td><td>Berita yang sama (tautan atau judul+media sama) hanya dihitung sekali. Judul bertanda <i>hoaks, cek fakta, klarifikasi, tidak benar</i>, atau sangat mirip klaim MAFINDO dibuang. Berita tentang kegiatan, sosialisasi, statistik, atau opini (misalnya <i>sosialisasi, cegah, seminar, angka</i>) dan berita luar negeri juga dibuang karena bukan kejadian yang dikeluhkan. Topik ditentukan dari kata kunci di judul (sembilan topik). Lokasi = nama kab/kota atau provinsi pertama di judul; nama yang juga kata umum (misalnya Malang, Batu, Palu) hanya dihitung bila didahului "di", "Kota", "Kabupaten", atau "Polres", dan nama jalan diabaikan. Berita digabung menjadi satu kasus bila topik dan wilayahnya sama, selisih waktunya ≤ 72 jam, dan judulnya mirip (indeks Jaccard ≥ 0,25–0,35 tanpa kata nama tempat) atau memuat kata kejadian yang sama di kab/kota yang sama</td></tr>
+        <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> topik perilaku anggota. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam atau ada bukti (video, rekaman, CCTV). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu, termasuk kasus tanpa lokasi. <b>Lingkaran tertutup:</b> kasus Tindak atau Pantau yang beritanya sudah memuat tanggapan polisi atau petugas dipindah ke Tercatat (sudah ditanggapi), sehingga daftar Tindak dan Pantau hanya berisi kasus yang tanggapannya belum terlihat.</td></tr>
         <tr><td><b>Teruskan</b></td><td>Penanggung jawab mengikuti Tabel 4.5 dan wilayah: Polda menurut provinsi (Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan ke Polda Metro Jaya), Polres menurut kab/kota.</td></tr>
         <tr><td><b>Kabarkan</b></td><td>Tanggapan dianggap terlihat bila ada judul dalam kasus itu yang memuat kata seperti <i>ditangkap, diamankan, diperiksa, dicopot, olah TKP, menyelidiki, dievakuasi</i>. Jeda = jam antara berita pertama dan berita tanggapan pertama. Kasus tanpa tanggapan yang melewati batas waktu statusnya (Darurat 1 jam, Pantau 24 jam, Tindak dan Jalur khusus 72 jam) ditandai.</td></tr>
         <tr><td><b>Arsipkan</b></td><td>Setiap kasus disimpan satu baris di <span class="mono">arsip_kasus.csv</span>: tanggal, topik, kode wilayah, status, jumlah media, dan tanggapan. Judul berita dan tautan tidak disimpan di arsip.</td></tr>
@@ -296,7 +305,7 @@
 <footer class="kaki-situs">
   <div class="wadah">
     <p><b>PEKA (Pendengar Keluhan Warga)</b> · purwarupa pendamping karya tulis "Dari 'Percuma Lapor' Menuju Polri yang Peka: Sejarah Saluran Suara Warga kepada Kepolisian (1945–2026) dan Rancangan Sistem Pendengar Keluhan Warga Menuju Indonesia Emas 2045", Lomba Karya Tulis Ilmiah Sejarah Polri 2026. Bukan situs resmi Polri.</p>
-    <p>Sumber: berita daring melalui Google News dan Bing News; The GDELT Project; BMKG (data gempa); MAFINDO/TurnBackHoax; BPS (Statistik Kriminal); Indikator Politik Indonesia. Judul berita adalah milik media masing-masing.</p>
+    <p>Sumber: berita daring melalui Google News dan Bing News; The GDELT Project; BMKG (data gempa); MAFINDO/TurnBackHoax; BPS (Statistik Kriminal); Indikator Politik Indonesia. Batas provinsi: Indonesia GeoJSON &amp; TopoJSON Maps (38 Provinces), denyherianto, CC BY 4.0, disederhanakan. Judul berita adalah milik media masing-masing.</p>
   </div>
 </footer>
 
