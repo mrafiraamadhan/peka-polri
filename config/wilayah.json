@@ -1,0 +1,5506 @@
+{
+"sumber": "Kode wilayah BPS sebelum pemekaran Papua (data edwardsamuel/Wilayah-Administratif-Indonesia); provinsi pemekaran 2022 memakai kode provinsi BPS baru",
+"provinsi": [
+{
+"kode": "11",
+"nama": "Aceh",
+"polda": "Polda Aceh",
+"alias": [
+"Aceh",
+"NAD"
+]
+},
+{
+"kode": "12",
+"nama": "Sumatera Utara",
+"polda": "Polda Sumatera Utara",
+"alias": [
+"Sumatera Utara",
+"Sumut",
+"Polda Sumut"
+]
+},
+{
+"kode": "13",
+"nama": "Sumatera Barat",
+"polda": "Polda Sumatera Barat",
+"alias": [
+"Sumatera Barat",
+"Sumbar",
+"Polda Sumbar"
+]
+},
+{
+"kode": "14",
+"nama": "Riau",
+"polda": "Polda Riau",
+"alias": [
+"Riau"
+]
+},
+{
+"kode": "15",
+"nama": "Jambi",
+"polda": "Polda Jambi",
+"alias": [
+"Jambi"
+]
+},
+{
+"kode": "16",
+"nama": "Sumatera Selatan",
+"polda": "Polda Sumatera Selatan",
+"alias": [
+"Sumatera Selatan",
+"Sumsel",
+"Polda Sumsel"
+]
+},
+{
+"kode": "17",
+"nama": "Bengkulu",
+"polda": "Polda Bengkulu",
+"alias": [
+"Bengkulu"
+]
+},
+{
+"kode": "18",
+"nama": "Lampung",
+"polda": "Polda Lampung",
+"alias": [
+"Lampung"
+]
+},
+{
+"kode": "19",
+"nama": "Kepulauan Bangka Belitung",
+"polda": "Polda Kepulauan Bangka Belitung",
+"alias": [
+"Bangka Belitung",
+"Babel",
+"Polda Babel"
+]
+},
+{
+"kode": "21",
+"nama": "Kepulauan Riau",
+"polda": "Polda Kepulauan Riau",
+"alias": [
+"Kepulauan Riau",
+"Kepri",
+"Polda Kepri"
+]
+},
+{
+"kode": "31",
+"nama": "DKI Jakarta",
+"polda": "Polda Metro Jaya",
+"alias": [
+"DKI Jakarta",
+"Jakarta",
+"DKI",
+"Polda Metro Jaya",
+"Polda Metro",
+"Ibu Kota"
+]
+},
+{
+"kode": "32",
+"nama": "Jawa Barat",
+"polda": "Polda Jawa Barat",
+"alias": [
+"Jawa Barat",
+"Jabar",
+"Polda Jabar"
+]
+},
+{
+"kode": "33",
+"nama": "Jawa Tengah",
+"polda": "Polda Jawa Tengah",
+"alias": [
+"Jawa Tengah",
+"Jateng",
+"Polda Jateng"
+]
+},
+{
+"kode": "34",
+"nama": "DI Yogyakarta",
+"polda": "Polda DI Yogyakarta",
+"alias": [
+"Yogyakarta",
+"Jogja",
+"Yogya",
+"Jogjakarta",
+"DIY",
+"Polda DIY"
+]
+},
+{
+"kode": "35",
+"nama": "Jawa Timur",
+"polda": "Polda Jawa Timur",
+"alias": [
+"Jawa Timur",
+"Jatim",
+"Polda Jatim"
+]
+},
+{
+"kode": "36",
+"nama": "Banten",
+"polda": "Polda Banten",
+"alias": [
+"Banten"
+]
+},
+{
+"kode": "51",
+"nama": "Bali",
+"polda": "Polda Bali",
+"alias": [
+"Bali"
+]
+},
+{
+"kode": "52",
+"nama": "Nusa Tenggara Barat",
+"polda": "Polda Nusa Tenggara Barat",
+"alias": [
+"Nusa Tenggara Barat",
+"NTB",
+"Polda NTB"
+]
+},
+{
+"kode": "53",
+"nama": "Nusa Tenggara Timur",
+"polda": "Polda Nusa Tenggara Timur",
+"alias": [
+"Nusa Tenggara Timur",
+"NTT",
+"Polda NTT"
+]
+},
+{
+"kode": "61",
+"nama": "Kalimantan Barat",
+"polda": "Polda Kalimantan Barat",
+"alias": [
+"Kalimantan Barat",
+"Kalbar",
+"Polda Kalbar"
+]
+},
+{
+"kode": "62",
+"nama": "Kalimantan Tengah",
+"polda": "Polda Kalimantan Tengah",
+"alias": [
+"Kalimantan Tengah",
+"Kalteng",
+"Polda Kalteng"
+]
+},
+{
+"kode": "63",
+"nama": "Kalimantan Selatan",
+"polda": "Polda Kalimantan Selatan",
+"alias": [
+"Kalimantan Selatan",
+"Kalsel",
+"Polda Kalsel"
+]
+},
+{
+"kode": "64",
+"nama": "Kalimantan Timur",
+"polda": "Polda Kalimantan Timur",
+"alias": [
+"Kalimantan Timur",
+"Kaltim",
+"Polda Kaltim"
+]
+},
+{
+"kode": "65",
+"nama": "Kalimantan Utara",
+"polda": "Polda Kalimantan Utara",
+"alias": [
+"Kalimantan Utara",
+"Kaltara",
+"Polda Kaltara"
+]
+},
+{
+"kode": "71",
+"nama": "Sulawesi Utara",
+"polda": "Polda Sulawesi Utara",
+"alias": [
+"Sulawesi Utara",
+"Sulut",
+"Polda Sulut"
+]
+},
+{
+"kode": "72",
+"nama": "Sulawesi Tengah",
+"polda": "Polda Sulawesi Tengah",
+"alias": [
+"Sulawesi Tengah",
+"Sulteng",
+"Polda Sulteng"
+]
+},
+{
+"kode": "73",
+"nama": "Sulawesi Selatan",
+"polda": "Polda Sulawesi Selatan",
+"alias": [
+"Sulawesi Selatan",
+"Sulsel",
+"Polda Sulsel"
+]
+},
+{
+"kode": "74",
+"nama": "Sulawesi Tenggara",
+"polda": "Polda Sulawesi Tenggara",
+"alias": [
+"Sulawesi Tenggara",
+"Sultra",
+"Polda Sultra"
+]
+},
+{
+"kode": "75",
+"nama": "Gorontalo",
+"polda": "Polda Gorontalo",
+"alias": [
+"Gorontalo"
+]
+},
+{
+"kode": "76",
+"nama": "Sulawesi Barat",
+"polda": "Polda Sulawesi Barat",
+"alias": [
+"Sulawesi Barat",
+"Sulbar",
+"Polda Sulbar"
+]
+},
+{
+"kode": "81",
+"nama": "Maluku",
+"polda": "Polda Maluku",
+"alias": [
+"Maluku"
+]
+},
+{
+"kode": "82",
+"nama": "Maluku Utara",
+"polda": "Polda Maluku Utara",
+"alias": [
+"Maluku Utara",
+"Malut",
+"Polda Malut"
+]
+},
+{
+"kode": "91",
+"nama": "Papua Barat",
+"polda": "Polda Papua Barat",
+"alias": [
+"Papua Barat",
+"Polda Papua Barat"
+]
+},
+{
+"kode": "94",
+"nama": "Papua",
+"polda": "Polda Papua",
+"alias": [
+"Papua",
+"Polda Papua"
+]
+},
+{
+"kode": "92",
+"nama": "Papua Barat Daya",
+"polda": "Polda yang membawahi Papua Barat Daya",
+"alias": [
+"Papua Barat Daya"
+]
+},
+{
+"kode": "95",
+"nama": "Papua Selatan",
+"polda": "Polda yang membawahi Papua Selatan",
+"alias": [
+"Papua Selatan"
+]
+},
+{
+"kode": "96",
+"nama": "Papua Tengah",
+"polda": "Polda yang membawahi Papua Tengah",
+"alias": [
+"Papua Tengah"
+]
+},
+{
+"kode": "97",
+"nama": "Papua Pegunungan",
+"polda": "Polda yang membawahi Papua Pegunungan",
+"alias": [
+"Papua Pegunungan"
+]
+}
+],
+"kabkota": [
+{
+"kode": "1101",
+"nama": "Kabupaten Simeulue",
+"inti": "Simeulue",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Simeulue"
+},
+{
+"kode": "1102",
+"nama": "Kabupaten Aceh Singkil",
+"inti": "Aceh Singkil",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Singkil"
+},
+{
+"kode": "1103",
+"nama": "Kabupaten Aceh Selatan",
+"inti": "Aceh Selatan",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Selatan"
+},
+{
+"kode": "1104",
+"nama": "Kabupaten Aceh Tenggara",
+"inti": "Aceh Tenggara",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Tenggara"
+},
+{
+"kode": "1105",
+"nama": "Kabupaten Aceh Timur",
+"inti": "Aceh Timur",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Timur"
+},
+{
+"kode": "1106",
+"nama": "Kabupaten Aceh Tengah",
+"inti": "Aceh Tengah",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Tengah"
+},
+{
+"kode": "1107",
+"nama": "Kabupaten Aceh Barat",
+"inti": "Aceh Barat",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Barat"
+},
+{
+"kode": "1108",
+"nama": "Kabupaten Aceh Besar",
+"inti": "Aceh Besar",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Besar"
+},
+{
+"kode": "1109",
+"nama": "Kabupaten Pidie",
+"inti": "Pidie",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Pidie"
+},
+{
+"kode": "1110",
+"nama": "Kabupaten Bireuen",
+"inti": "Bireuen",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Bireuen"
+},
+{
+"kode": "1111",
+"nama": "Kabupaten Aceh Utara",
+"inti": "Aceh Utara",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Utara"
+},
+{
+"kode": "1112",
+"nama": "Kabupaten Aceh Barat Daya",
+"inti": "Aceh Barat Daya",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Barat Daya"
+},
+{
+"kode": "1113",
+"nama": "Kabupaten Gayo Lues",
+"inti": "Gayo Lues",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Gayo Lues"
+},
+{
+"kode": "1114",
+"nama": "Kabupaten Aceh Tamiang",
+"inti": "Aceh Tamiang",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Tamiang"
+},
+{
+"kode": "1115",
+"nama": "Kabupaten Nagan Raya",
+"inti": "Nagan Raya",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Nagan Raya"
+},
+{
+"kode": "1116",
+"nama": "Kabupaten Aceh Jaya",
+"inti": "Aceh Jaya",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Aceh Jaya"
+},
+{
+"kode": "1117",
+"nama": "Kabupaten Bener Meriah",
+"inti": "Bener Meriah",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Bener Meriah"
+},
+{
+"kode": "1118",
+"nama": "Kabupaten Pidie Jaya",
+"inti": "Pidie Jaya",
+"jenis": "Kabupaten",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres Pidie Jaya"
+},
+{
+"kode": "1171",
+"nama": "Kota Banda Aceh",
+"inti": "Banda Aceh",
+"jenis": "Kota",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres(ta) Banda Aceh"
+},
+{
+"kode": "1172",
+"nama": "Kota Sabang",
+"inti": "Sabang",
+"jenis": "Kota",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres(ta) Sabang"
+},
+{
+"kode": "1173",
+"nama": "Kota Langsa",
+"inti": "Langsa",
+"jenis": "Kota",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres(ta) Langsa"
+},
+{
+"kode": "1174",
+"nama": "Kota Lhokseumawe",
+"inti": "Lhokseumawe",
+"jenis": "Kota",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres(ta) Lhokseumawe"
+},
+{
+"kode": "1175",
+"nama": "Kota Subulussalam",
+"inti": "Subulussalam",
+"jenis": "Kota",
+"prov": "11",
+"rawan": false,
+"polda": "Polda Aceh",
+"polres": "Polres(ta) Subulussalam"
+},
+{
+"kode": "1201",
+"nama": "Kabupaten Nias",
+"inti": "Nias",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": true,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Nias"
+},
+{
+"kode": "1202",
+"nama": "Kabupaten Mandailing Natal",
+"inti": "Mandailing Natal",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Mandailing Natal"
+},
+{
+"kode": "1203",
+"nama": "Kabupaten Tapanuli Selatan",
+"inti": "Tapanuli Selatan",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Tapanuli Selatan"
+},
+{
+"kode": "1204",
+"nama": "Kabupaten Tapanuli Tengah",
+"inti": "Tapanuli Tengah",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Tapanuli Tengah"
+},
+{
+"kode": "1205",
+"nama": "Kabupaten Tapanuli Utara",
+"inti": "Tapanuli Utara",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Tapanuli Utara"
+},
+{
+"kode": "1206",
+"nama": "Kabupaten Toba Samosir",
+"inti": "Toba Samosir",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Toba Samosir"
+},
+{
+"kode": "1207",
+"nama": "Kabupaten Labuhan Batu",
+"inti": "Labuhan Batu",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Labuhan Batu"
+},
+{
+"kode": "1208",
+"nama": "Kabupaten Asahan",
+"inti": "Asahan",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Asahan"
+},
+{
+"kode": "1209",
+"nama": "Kabupaten Simalungun",
+"inti": "Simalungun",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Simalungun"
+},
+{
+"kode": "1210",
+"nama": "Kabupaten Dairi",
+"inti": "Dairi",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": true,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Dairi"
+},
+{
+"kode": "1211",
+"nama": "Kabupaten Karo",
+"inti": "Karo",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": true,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Karo"
+},
+{
+"kode": "1212",
+"nama": "Kabupaten Deli Serdang",
+"inti": "Deli Serdang",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Deli Serdang"
+},
+{
+"kode": "1213",
+"nama": "Kabupaten Langkat",
+"inti": "Langkat",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Langkat"
+},
+{
+"kode": "1214",
+"nama": "Kabupaten Nias Selatan",
+"inti": "Nias Selatan",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Nias Selatan"
+},
+{
+"kode": "1215",
+"nama": "Kabupaten Humbang Hasundutan",
+"inti": "Humbang Hasundutan",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Humbang Hasundutan"
+},
+{
+"kode": "1216",
+"nama": "Kabupaten Pakpak Bharat",
+"inti": "Pakpak Bharat",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": true,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Pakpak Bharat"
+},
+{
+"kode": "1217",
+"nama": "Kabupaten Samosir",
+"inti": "Samosir",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Samosir"
+},
+{
+"kode": "1218",
+"nama": "Kabupaten Serdang Bedagai",
+"inti": "Serdang Bedagai",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Serdang Bedagai"
+},
+{
+"kode": "1219",
+"nama": "Kabupaten Batu Bara",
+"inti": "Batu Bara",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Batu Bara"
+},
+{
+"kode": "1220",
+"nama": "Kabupaten Padang Lawas Utara",
+"inti": "Padang Lawas Utara",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Padang Lawas Utara"
+},
+{
+"kode": "1221",
+"nama": "Kabupaten Padang Lawas",
+"inti": "Padang Lawas",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Padang Lawas"
+},
+{
+"kode": "1222",
+"nama": "Kabupaten Labuhan Batu Selatan",
+"inti": "Labuhan Batu Selatan",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Labuhan Batu Selatan"
+},
+{
+"kode": "1223",
+"nama": "Kabupaten Labuhan Batu Utara",
+"inti": "Labuhan Batu Utara",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Labuhan Batu Utara"
+},
+{
+"kode": "1224",
+"nama": "Kabupaten Nias Utara",
+"inti": "Nias Utara",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Nias Utara"
+},
+{
+"kode": "1225",
+"nama": "Kabupaten Nias Barat",
+"inti": "Nias Barat",
+"jenis": "Kabupaten",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres Nias Barat"
+},
+{
+"kode": "1271",
+"nama": "Kota Sibolga",
+"inti": "Sibolga",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Sibolga"
+},
+{
+"kode": "1272",
+"nama": "Kota Tanjung Balai",
+"inti": "Tanjung Balai",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Tanjung Balai"
+},
+{
+"kode": "1273",
+"nama": "Kota Pematang Siantar",
+"inti": "Pematang Siantar",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Pematang Siantar"
+},
+{
+"kode": "1274",
+"nama": "Kota Tebing Tinggi",
+"inti": "Tebing Tinggi",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Tebing Tinggi"
+},
+{
+"kode": "1275",
+"nama": "Kota Medan",
+"inti": "Medan",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Medan"
+},
+{
+"kode": "1276",
+"nama": "Kota Binjai",
+"inti": "Binjai",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Binjai"
+},
+{
+"kode": "1277",
+"nama": "Kota Padangsidimpuan",
+"inti": "Padangsidimpuan",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Padangsidimpuan"
+},
+{
+"kode": "1278",
+"nama": "Kota Gunungsitoli",
+"inti": "Gunungsitoli",
+"jenis": "Kota",
+"prov": "12",
+"rawan": false,
+"polda": "Polda Sumatera Utara",
+"polres": "Polres(ta) Gunungsitoli"
+},
+{
+"kode": "1301",
+"nama": "Kabupaten Kepulauan Mentawai",
+"inti": "Kepulauan Mentawai",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Kepulauan Mentawai"
+},
+{
+"kode": "1302",
+"nama": "Kabupaten Pesisir Selatan",
+"inti": "Pesisir Selatan",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Pesisir Selatan"
+},
+{
+"kode": "1303",
+"nama": "Kabupaten Solok",
+"inti": "Solok",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": true,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Solok"
+},
+{
+"kode": "1304",
+"nama": "Kabupaten Sijunjung",
+"inti": "Sijunjung",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Sijunjung"
+},
+{
+"kode": "1305",
+"nama": "Kabupaten Tanah Datar",
+"inti": "Tanah Datar",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Tanah Datar"
+},
+{
+"kode": "1306",
+"nama": "Kabupaten Padang Pariaman",
+"inti": "Padang Pariaman",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Padang Pariaman"
+},
+{
+"kode": "1307",
+"nama": "Kabupaten Agam",
+"inti": "Agam",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": true,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Agam"
+},
+{
+"kode": "1308",
+"nama": "Kabupaten Lima Puluh Kota",
+"inti": "Lima Puluh Kota",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Lima Puluh Kota"
+},
+{
+"kode": "1309",
+"nama": "Kabupaten Pasaman",
+"inti": "Pasaman",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Pasaman"
+},
+{
+"kode": "1310",
+"nama": "Kabupaten Solok Selatan",
+"inti": "Solok Selatan",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Solok Selatan"
+},
+{
+"kode": "1311",
+"nama": "Kabupaten Dharmasraya",
+"inti": "Dharmasraya",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Dharmasraya"
+},
+{
+"kode": "1312",
+"nama": "Kabupaten Pasaman Barat",
+"inti": "Pasaman Barat",
+"jenis": "Kabupaten",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres Pasaman Barat"
+},
+{
+"kode": "1371",
+"nama": "Kota Padang",
+"inti": "Padang",
+"jenis": "Kota",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Padang"
+},
+{
+"kode": "1372",
+"nama": "Kota Solok",
+"inti": "Solok",
+"jenis": "Kota",
+"prov": "13",
+"rawan": true,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Solok"
+},
+{
+"kode": "1373",
+"nama": "Kota Sawah Lunto",
+"inti": "Sawah Lunto",
+"jenis": "Kota",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Sawah Lunto"
+},
+{
+"kode": "1374",
+"nama": "Kota Padang Panjang",
+"inti": "Padang Panjang",
+"jenis": "Kota",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Padang Panjang"
+},
+{
+"kode": "1375",
+"nama": "Kota Bukittinggi",
+"inti": "Bukittinggi",
+"jenis": "Kota",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Bukittinggi"
+},
+{
+"kode": "1376",
+"nama": "Kota Payakumbuh",
+"inti": "Payakumbuh",
+"jenis": "Kota",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Payakumbuh"
+},
+{
+"kode": "1377",
+"nama": "Kota Pariaman",
+"inti": "Pariaman",
+"jenis": "Kota",
+"prov": "13",
+"rawan": false,
+"polda": "Polda Sumatera Barat",
+"polres": "Polres(ta) Pariaman"
+},
+{
+"kode": "1401",
+"nama": "Kabupaten Kuantan Singingi",
+"inti": "Kuantan Singingi",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Kuantan Singingi"
+},
+{
+"kode": "1402",
+"nama": "Kabupaten Indragiri Hulu",
+"inti": "Indragiri Hulu",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Indragiri Hulu"
+},
+{
+"kode": "1403",
+"nama": "Kabupaten Indragiri Hilir",
+"inti": "Indragiri Hilir",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Indragiri Hilir"
+},
+{
+"kode": "1404",
+"nama": "Kabupaten Pelalawan",
+"inti": "Pelalawan",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Pelalawan"
+},
+{
+"kode": "1405",
+"nama": "Kabupaten Siak",
+"inti": "Siak",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": true,
+"polda": "Polda Riau",
+"polres": "Polres Siak"
+},
+{
+"kode": "1406",
+"nama": "Kabupaten Kampar",
+"inti": "Kampar",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Kampar"
+},
+{
+"kode": "1407",
+"nama": "Kabupaten Rokan Hulu",
+"inti": "Rokan Hulu",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": true,
+"polda": "Polda Riau",
+"polres": "Polres Rokan Hulu"
+},
+{
+"kode": "1408",
+"nama": "Kabupaten Bengkalis",
+"inti": "Bengkalis",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Bengkalis"
+},
+{
+"kode": "1409",
+"nama": "Kabupaten Rokan Hilir",
+"inti": "Rokan Hilir",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Rokan Hilir"
+},
+{
+"kode": "1410",
+"nama": "Kabupaten Kepulauan Meranti",
+"inti": "Kepulauan Meranti",
+"jenis": "Kabupaten",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres Kepulauan Meranti"
+},
+{
+"kode": "1471",
+"nama": "Kota Pekanbaru",
+"inti": "Pekanbaru",
+"jenis": "Kota",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres(ta) Pekanbaru"
+},
+{
+"kode": "1473",
+"nama": "Kota Dumai",
+"inti": "Dumai",
+"jenis": "Kota",
+"prov": "14",
+"rawan": false,
+"polda": "Polda Riau",
+"polres": "Polres(ta) Dumai"
+},
+{
+"kode": "1501",
+"nama": "Kabupaten Kerinci",
+"inti": "Kerinci",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres Kerinci"
+},
+{
+"kode": "1502",
+"nama": "Kabupaten Merangin",
+"inti": "Merangin",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres Merangin"
+},
+{
+"kode": "1503",
+"nama": "Kabupaten Sarolangun",
+"inti": "Sarolangun",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres Sarolangun"
+},
+{
+"kode": "1504",
+"nama": "Kabupaten Batang Hari",
+"inti": "Batang Hari",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres Batang Hari"
+},
+{
+"kode": "1505",
+"nama": "Kabupaten Muaro Jambi",
+"inti": "Muaro Jambi",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": true,
+"polda": "Polda Jambi",
+"polres": "Polres Muaro Jambi"
+},
+{
+"kode": "1506",
+"nama": "Kabupaten Tanjung Jabung Timur",
+"inti": "Tanjung Jabung Timur",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres Tanjung Jabung Timur"
+},
+{
+"kode": "1507",
+"nama": "Kabupaten Tanjung Jabung Barat",
+"inti": "Tanjung Jabung Barat",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres Tanjung Jabung Barat"
+},
+{
+"kode": "1508",
+"nama": "Kabupaten Tebo",
+"inti": "Tebo",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": true,
+"polda": "Polda Jambi",
+"polres": "Polres Tebo"
+},
+{
+"kode": "1509",
+"nama": "Kabupaten Bungo",
+"inti": "Bungo",
+"jenis": "Kabupaten",
+"prov": "15",
+"rawan": true,
+"polda": "Polda Jambi",
+"polres": "Polres Bungo"
+},
+{
+"kode": "1571",
+"nama": "Kota Jambi",
+"inti": "Jambi",
+"jenis": "Kota",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres(ta) Jambi"
+},
+{
+"kode": "1572",
+"nama": "Kota Sungai Penuh",
+"inti": "Sungai Penuh",
+"jenis": "Kota",
+"prov": "15",
+"rawan": false,
+"polda": "Polda Jambi",
+"polres": "Polres(ta) Sungai Penuh"
+},
+{
+"kode": "1601",
+"nama": "Kabupaten Ogan Komering Ulu",
+"inti": "Ogan Komering Ulu",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Ogan Komering Ulu"
+},
+{
+"kode": "1602",
+"nama": "Kabupaten Ogan Komering Ilir",
+"inti": "Ogan Komering Ilir",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Ogan Komering Ilir"
+},
+{
+"kode": "1603",
+"nama": "Kabupaten Muara Enim",
+"inti": "Muara Enim",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Muara Enim"
+},
+{
+"kode": "1604",
+"nama": "Kabupaten Lahat",
+"inti": "Lahat",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": true,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Lahat"
+},
+{
+"kode": "1605",
+"nama": "Kabupaten Musi Rawas",
+"inti": "Musi Rawas",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Musi Rawas"
+},
+{
+"kode": "1606",
+"nama": "Kabupaten Musi Banyuasin",
+"inti": "Musi Banyuasin",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Musi Banyuasin"
+},
+{
+"kode": "1607",
+"nama": "Kabupaten Banyu Asin",
+"inti": "Banyu Asin",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Banyu Asin"
+},
+{
+"kode": "1608",
+"nama": "Kabupaten Ogan Komering Ulu Selatan",
+"inti": "Ogan Komering Ulu Selatan",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Ogan Komering Ulu Selatan"
+},
+{
+"kode": "1609",
+"nama": "Kabupaten Ogan Komering Ulu Timur",
+"inti": "Ogan Komering Ulu Timur",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Ogan Komering Ulu Timur"
+},
+{
+"kode": "1610",
+"nama": "Kabupaten Ogan Ilir",
+"inti": "Ogan Ilir",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Ogan Ilir"
+},
+{
+"kode": "1611",
+"nama": "Kabupaten Empat Lawang",
+"inti": "Empat Lawang",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Empat Lawang"
+},
+{
+"kode": "1612",
+"nama": "Kabupaten Penukal Abab Lematang Ilir",
+"inti": "Penukal Abab Lematang Ilir",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Penukal Abab Lematang Ilir"
+},
+{
+"kode": "1613",
+"nama": "Kabupaten Musi Rawas Utara",
+"inti": "Musi Rawas Utara",
+"jenis": "Kabupaten",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres Musi Rawas Utara"
+},
+{
+"kode": "1671",
+"nama": "Kota Palembang",
+"inti": "Palembang",
+"jenis": "Kota",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres(ta) Palembang"
+},
+{
+"kode": "1672",
+"nama": "Kota Prabumulih",
+"inti": "Prabumulih",
+"jenis": "Kota",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres(ta) Prabumulih"
+},
+{
+"kode": "1673",
+"nama": "Kota Pagar Alam",
+"inti": "Pagar Alam",
+"jenis": "Kota",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres(ta) Pagar Alam"
+},
+{
+"kode": "1674",
+"nama": "Kota Lubuklinggau",
+"inti": "Lubuklinggau",
+"jenis": "Kota",
+"prov": "16",
+"rawan": false,
+"polda": "Polda Sumatera Selatan",
+"polres": "Polres(ta) Lubuklinggau"
+},
+{
+"kode": "1701",
+"nama": "Kabupaten Bengkulu Selatan",
+"inti": "Bengkulu Selatan",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": false,
+"polda": "Polda Bengkulu",
+"polres": "Polres Bengkulu Selatan"
+},
+{
+"kode": "1702",
+"nama": "Kabupaten Rejang Lebong",
+"inti": "Rejang Lebong",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": false,
+"polda": "Polda Bengkulu",
+"polres": "Polres Rejang Lebong"
+},
+{
+"kode": "1703",
+"nama": "Kabupaten Bengkulu Utara",
+"inti": "Bengkulu Utara",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": false,
+"polda": "Polda Bengkulu",
+"polres": "Polres Bengkulu Utara"
+},
+{
+"kode": "1704",
+"nama": "Kabupaten Kaur",
+"inti": "Kaur",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": true,
+"polda": "Polda Bengkulu",
+"polres": "Polres Kaur"
+},
+{
+"kode": "1705",
+"nama": "Kabupaten Seluma",
+"inti": "Seluma",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": true,
+"polda": "Polda Bengkulu",
+"polres": "Polres Seluma"
+},
+{
+"kode": "1706",
+"nama": "Kabupaten Mukomuko",
+"inti": "Mukomuko",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": false,
+"polda": "Polda Bengkulu",
+"polres": "Polres Mukomuko"
+},
+{
+"kode": "1707",
+"nama": "Kabupaten Lebong",
+"inti": "Lebong",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": true,
+"polda": "Polda Bengkulu",
+"polres": "Polres Lebong"
+},
+{
+"kode": "1708",
+"nama": "Kabupaten Kepahiang",
+"inti": "Kepahiang",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": true,
+"polda": "Polda Bengkulu",
+"polres": "Polres Kepahiang"
+},
+{
+"kode": "1709",
+"nama": "Kabupaten Bengkulu Tengah",
+"inti": "Bengkulu Tengah",
+"jenis": "Kabupaten",
+"prov": "17",
+"rawan": false,
+"polda": "Polda Bengkulu",
+"polres": "Polres Bengkulu Tengah"
+},
+{
+"kode": "1771",
+"nama": "Kota Bengkulu",
+"inti": "Bengkulu",
+"jenis": "Kota",
+"prov": "17",
+"rawan": false,
+"polda": "Polda Bengkulu",
+"polres": "Polres(ta) Bengkulu"
+},
+{
+"kode": "1801",
+"nama": "Kabupaten Lampung Barat",
+"inti": "Lampung Barat",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Lampung Barat"
+},
+{
+"kode": "1802",
+"nama": "Kabupaten Tanggamus",
+"inti": "Tanggamus",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Tanggamus"
+},
+{
+"kode": "1803",
+"nama": "Kabupaten Lampung Selatan",
+"inti": "Lampung Selatan",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Lampung Selatan"
+},
+{
+"kode": "1804",
+"nama": "Kabupaten Lampung Timur",
+"inti": "Lampung Timur",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Lampung Timur"
+},
+{
+"kode": "1805",
+"nama": "Kabupaten Lampung Tengah",
+"inti": "Lampung Tengah",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Lampung Tengah"
+},
+{
+"kode": "1806",
+"nama": "Kabupaten Lampung Utara",
+"inti": "Lampung Utara",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Lampung Utara"
+},
+{
+"kode": "1807",
+"nama": "Kabupaten Way Kanan",
+"inti": "Way Kanan",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": true,
+"polda": "Polda Lampung",
+"polres": "Polres Way Kanan"
+},
+{
+"kode": "1808",
+"nama": "Kabupaten Tulangbawang",
+"inti": "Tulangbawang",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Tulangbawang"
+},
+{
+"kode": "1809",
+"nama": "Kabupaten Pesawaran",
+"inti": "Pesawaran",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Pesawaran"
+},
+{
+"kode": "1810",
+"nama": "Kabupaten Pringsewu",
+"inti": "Pringsewu",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Pringsewu"
+},
+{
+"kode": "1811",
+"nama": "Kabupaten Mesuji",
+"inti": "Mesuji",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Mesuji"
+},
+{
+"kode": "1812",
+"nama": "Kabupaten Tulang Bawang Barat",
+"inti": "Tulang Bawang Barat",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Tulang Bawang Barat"
+},
+{
+"kode": "1813",
+"nama": "Kabupaten Pesisir Barat",
+"inti": "Pesisir Barat",
+"jenis": "Kabupaten",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres Pesisir Barat"
+},
+{
+"kode": "1871",
+"nama": "Kota Bandar Lampung",
+"inti": "Bandar Lampung",
+"jenis": "Kota",
+"prov": "18",
+"rawan": false,
+"polda": "Polda Lampung",
+"polres": "Polres(ta) Bandar Lampung"
+},
+{
+"kode": "1872",
+"nama": "Kota Metro",
+"inti": "Metro",
+"jenis": "Kota",
+"prov": "18",
+"rawan": true,
+"polda": "Polda Lampung",
+"polres": "Polres(ta) Metro"
+},
+{
+"kode": "1901",
+"nama": "Kabupaten Bangka",
+"inti": "Bangka",
+"jenis": "Kabupaten",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres Bangka"
+},
+{
+"kode": "1902",
+"nama": "Kabupaten Belitung",
+"inti": "Belitung",
+"jenis": "Kabupaten",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres Belitung"
+},
+{
+"kode": "1903",
+"nama": "Kabupaten Bangka Barat",
+"inti": "Bangka Barat",
+"jenis": "Kabupaten",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres Bangka Barat"
+},
+{
+"kode": "1904",
+"nama": "Kabupaten Bangka Tengah",
+"inti": "Bangka Tengah",
+"jenis": "Kabupaten",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres Bangka Tengah"
+},
+{
+"kode": "1905",
+"nama": "Kabupaten Bangka Selatan",
+"inti": "Bangka Selatan",
+"jenis": "Kabupaten",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres Bangka Selatan"
+},
+{
+"kode": "1906",
+"nama": "Kabupaten Belitung Timur",
+"inti": "Belitung Timur",
+"jenis": "Kabupaten",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres Belitung Timur"
+},
+{
+"kode": "1971",
+"nama": "Kota Pangkal Pinang",
+"inti": "Pangkal Pinang",
+"jenis": "Kota",
+"prov": "19",
+"rawan": false,
+"polda": "Polda Kepulauan Bangka Belitung",
+"polres": "Polres(ta) Pangkal Pinang"
+},
+{
+"kode": "2101",
+"nama": "Kabupaten Karimun",
+"inti": "Karimun",
+"jenis": "Kabupaten",
+"prov": "21",
+"rawan": false,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres Karimun"
+},
+{
+"kode": "2102",
+"nama": "Kabupaten Bintan",
+"inti": "Bintan",
+"jenis": "Kabupaten",
+"prov": "21",
+"rawan": true,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres Bintan"
+},
+{
+"kode": "2103",
+"nama": "Kabupaten Natuna",
+"inti": "Natuna",
+"jenis": "Kabupaten",
+"prov": "21",
+"rawan": false,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres Natuna"
+},
+{
+"kode": "2104",
+"nama": "Kabupaten Lingga",
+"inti": "Lingga",
+"jenis": "Kabupaten",
+"prov": "21",
+"rawan": true,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres Lingga"
+},
+{
+"kode": "2105",
+"nama": "Kabupaten Kepulauan Anambas",
+"inti": "Kepulauan Anambas",
+"jenis": "Kabupaten",
+"prov": "21",
+"rawan": false,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres Kepulauan Anambas"
+},
+{
+"kode": "2171",
+"nama": "Kota Batam",
+"inti": "Batam",
+"jenis": "Kota",
+"prov": "21",
+"rawan": false,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres(ta) Batam"
+},
+{
+"kode": "2172",
+"nama": "Kota Tanjung Pinang",
+"inti": "Tanjung Pinang",
+"jenis": "Kota",
+"prov": "21",
+"rawan": false,
+"polda": "Polda Kepulauan Riau",
+"polres": "Polres(ta) Tanjung Pinang"
+},
+{
+"kode": "3101",
+"nama": "Kabupaten Kepulauan Seribu",
+"inti": "Kepulauan Seribu",
+"jenis": "Kabupaten",
+"prov": "31",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres Kepulauan Seribu"
+},
+{
+"kode": "3171",
+"nama": "Kota Jakarta Selatan",
+"inti": "Jakarta Selatan",
+"jenis": "Kota",
+"prov": "31",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Jakarta Selatan"
+},
+{
+"kode": "3172",
+"nama": "Kota Jakarta Timur",
+"inti": "Jakarta Timur",
+"jenis": "Kota",
+"prov": "31",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Jakarta Timur"
+},
+{
+"kode": "3173",
+"nama": "Kota Jakarta Pusat",
+"inti": "Jakarta Pusat",
+"jenis": "Kota",
+"prov": "31",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Jakarta Pusat"
+},
+{
+"kode": "3174",
+"nama": "Kota Jakarta Barat",
+"inti": "Jakarta Barat",
+"jenis": "Kota",
+"prov": "31",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Jakarta Barat"
+},
+{
+"kode": "3175",
+"nama": "Kota Jakarta Utara",
+"inti": "Jakarta Utara",
+"jenis": "Kota",
+"prov": "31",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Jakarta Utara"
+},
+{
+"kode": "3201",
+"nama": "Kabupaten Bogor",
+"inti": "Bogor",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Bogor"
+},
+{
+"kode": "3202",
+"nama": "Kabupaten Sukabumi",
+"inti": "Sukabumi",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Sukabumi"
+},
+{
+"kode": "3203",
+"nama": "Kabupaten Cianjur",
+"inti": "Cianjur",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Cianjur"
+},
+{
+"kode": "3204",
+"nama": "Kabupaten Bandung",
+"inti": "Bandung",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Bandung"
+},
+{
+"kode": "3205",
+"nama": "Kabupaten Garut",
+"inti": "Garut",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Garut"
+},
+{
+"kode": "3206",
+"nama": "Kabupaten Tasikmalaya",
+"inti": "Tasikmalaya",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Tasikmalaya"
+},
+{
+"kode": "3207",
+"nama": "Kabupaten Ciamis",
+"inti": "Ciamis",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Ciamis"
+},
+{
+"kode": "3208",
+"nama": "Kabupaten Kuningan",
+"inti": "Kuningan",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Kuningan"
+},
+{
+"kode": "3209",
+"nama": "Kabupaten Cirebon",
+"inti": "Cirebon",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Cirebon"
+},
+{
+"kode": "3210",
+"nama": "Kabupaten Majalengka",
+"inti": "Majalengka",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Majalengka"
+},
+{
+"kode": "3211",
+"nama": "Kabupaten Sumedang",
+"inti": "Sumedang",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Sumedang"
+},
+{
+"kode": "3212",
+"nama": "Kabupaten Indramayu",
+"inti": "Indramayu",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Indramayu"
+},
+{
+"kode": "3213",
+"nama": "Kabupaten Subang",
+"inti": "Subang",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Subang"
+},
+{
+"kode": "3214",
+"nama": "Kabupaten Purwakarta",
+"inti": "Purwakarta",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Purwakarta"
+},
+{
+"kode": "3215",
+"nama": "Kabupaten Karawang",
+"inti": "Karawang",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Karawang"
+},
+{
+"kode": "3216",
+"nama": "Kabupaten Bekasi",
+"inti": "Bekasi",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres Bekasi"
+},
+{
+"kode": "3217",
+"nama": "Kabupaten Bandung Barat",
+"inti": "Bandung Barat",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Bandung Barat"
+},
+{
+"kode": "3218",
+"nama": "Kabupaten Pangandaran",
+"inti": "Pangandaran",
+"jenis": "Kabupaten",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres Pangandaran"
+},
+{
+"kode": "3271",
+"nama": "Kota Bogor",
+"inti": "Bogor",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Bogor"
+},
+{
+"kode": "3272",
+"nama": "Kota Sukabumi",
+"inti": "Sukabumi",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Sukabumi"
+},
+{
+"kode": "3273",
+"nama": "Kota Bandung",
+"inti": "Bandung",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Bandung"
+},
+{
+"kode": "3274",
+"nama": "Kota Cirebon",
+"inti": "Cirebon",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Cirebon"
+},
+{
+"kode": "3275",
+"nama": "Kota Bekasi",
+"inti": "Bekasi",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Bekasi"
+},
+{
+"kode": "3276",
+"nama": "Kota Depok",
+"inti": "Depok",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Depok"
+},
+{
+"kode": "3277",
+"nama": "Kota Cimahi",
+"inti": "Cimahi",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Cimahi"
+},
+{
+"kode": "3278",
+"nama": "Kota Tasikmalaya",
+"inti": "Tasikmalaya",
+"jenis": "Kota",
+"prov": "32",
+"rawan": false,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Tasikmalaya"
+},
+{
+"kode": "3279",
+"nama": "Kota Banjar",
+"inti": "Banjar",
+"jenis": "Kota",
+"prov": "32",
+"rawan": true,
+"polda": "Polda Jawa Barat",
+"polres": "Polres(ta) Banjar"
+},
+{
+"kode": "3301",
+"nama": "Kabupaten Cilacap",
+"inti": "Cilacap",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Cilacap"
+},
+{
+"kode": "3302",
+"nama": "Kabupaten Banyumas",
+"inti": "Banyumas",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Banyumas"
+},
+{
+"kode": "3303",
+"nama": "Kabupaten Purbalingga",
+"inti": "Purbalingga",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Purbalingga"
+},
+{
+"kode": "3304",
+"nama": "Kabupaten Banjarnegara",
+"inti": "Banjarnegara",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Banjarnegara"
+},
+{
+"kode": "3305",
+"nama": "Kabupaten Kebumen",
+"inti": "Kebumen",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Kebumen"
+},
+{
+"kode": "3306",
+"nama": "Kabupaten Purworejo",
+"inti": "Purworejo",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Purworejo"
+},
+{
+"kode": "3307",
+"nama": "Kabupaten Wonosobo",
+"inti": "Wonosobo",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Wonosobo"
+},
+{
+"kode": "3308",
+"nama": "Kabupaten Magelang",
+"inti": "Magelang",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Magelang"
+},
+{
+"kode": "3309",
+"nama": "Kabupaten Boyolali",
+"inti": "Boyolali",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Boyolali"
+},
+{
+"kode": "3310",
+"nama": "Kabupaten Klaten",
+"inti": "Klaten",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Klaten"
+},
+{
+"kode": "3311",
+"nama": "Kabupaten Sukoharjo",
+"inti": "Sukoharjo",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Sukoharjo"
+},
+{
+"kode": "3312",
+"nama": "Kabupaten Wonogiri",
+"inti": "Wonogiri",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Wonogiri"
+},
+{
+"kode": "3313",
+"nama": "Kabupaten Karanganyar",
+"inti": "Karanganyar",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Karanganyar"
+},
+{
+"kode": "3314",
+"nama": "Kabupaten Sragen",
+"inti": "Sragen",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Sragen"
+},
+{
+"kode": "3315",
+"nama": "Kabupaten Grobogan",
+"inti": "Grobogan",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Grobogan"
+},
+{
+"kode": "3316",
+"nama": "Kabupaten Blora",
+"inti": "Blora",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Blora"
+},
+{
+"kode": "3317",
+"nama": "Kabupaten Rembang",
+"inti": "Rembang",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Rembang"
+},
+{
+"kode": "3318",
+"nama": "Kabupaten Pati",
+"inti": "Pati",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": true,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Pati"
+},
+{
+"kode": "3319",
+"nama": "Kabupaten Kudus",
+"inti": "Kudus",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": true,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Kudus"
+},
+{
+"kode": "3320",
+"nama": "Kabupaten Jepara",
+"inti": "Jepara",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Jepara"
+},
+{
+"kode": "3321",
+"nama": "Kabupaten Demak",
+"inti": "Demak",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Demak"
+},
+{
+"kode": "3322",
+"nama": "Kabupaten Semarang",
+"inti": "Semarang",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Semarang"
+},
+{
+"kode": "3323",
+"nama": "Kabupaten Temanggung",
+"inti": "Temanggung",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Temanggung"
+},
+{
+"kode": "3324",
+"nama": "Kabupaten Kendal",
+"inti": "Kendal",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Kendal"
+},
+{
+"kode": "3325",
+"nama": "Kabupaten Batang",
+"inti": "Batang",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": true,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Batang"
+},
+{
+"kode": "3326",
+"nama": "Kabupaten Pekalongan",
+"inti": "Pekalongan",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Pekalongan"
+},
+{
+"kode": "3327",
+"nama": "Kabupaten Pemalang",
+"inti": "Pemalang",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Pemalang"
+},
+{
+"kode": "3328",
+"nama": "Kabupaten Tegal",
+"inti": "Tegal",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": true,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Tegal"
+},
+{
+"kode": "3329",
+"nama": "Kabupaten Brebes",
+"inti": "Brebes",
+"jenis": "Kabupaten",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres Brebes"
+},
+{
+"kode": "3371",
+"nama": "Kota Magelang",
+"inti": "Magelang",
+"jenis": "Kota",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres(ta) Magelang"
+},
+{
+"kode": "3372",
+"nama": "Kota Surakarta",
+"inti": "Surakarta",
+"jenis": "Kota",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres(ta) Surakarta"
+},
+{
+"kode": "3373",
+"nama": "Kota Salatiga",
+"inti": "Salatiga",
+"jenis": "Kota",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres(ta) Salatiga"
+},
+{
+"kode": "3374",
+"nama": "Kota Semarang",
+"inti": "Semarang",
+"jenis": "Kota",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres(ta) Semarang"
+},
+{
+"kode": "3375",
+"nama": "Kota Pekalongan",
+"inti": "Pekalongan",
+"jenis": "Kota",
+"prov": "33",
+"rawan": false,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres(ta) Pekalongan"
+},
+{
+"kode": "3376",
+"nama": "Kota Tegal",
+"inti": "Tegal",
+"jenis": "Kota",
+"prov": "33",
+"rawan": true,
+"polda": "Polda Jawa Tengah",
+"polres": "Polres(ta) Tegal"
+},
+{
+"kode": "3401",
+"nama": "Kabupaten Kulon Progo",
+"inti": "Kulon Progo",
+"jenis": "Kabupaten",
+"prov": "34",
+"rawan": false,
+"polda": "Polda DI Yogyakarta",
+"polres": "Polres Kulon Progo"
+},
+{
+"kode": "3402",
+"nama": "Kabupaten Bantul",
+"inti": "Bantul",
+"jenis": "Kabupaten",
+"prov": "34",
+"rawan": false,
+"polda": "Polda DI Yogyakarta",
+"polres": "Polres Bantul"
+},
+{
+"kode": "3403",
+"nama": "Kabupaten Gunung Kidul",
+"inti": "Gunung Kidul",
+"jenis": "Kabupaten",
+"prov": "34",
+"rawan": true,
+"polda": "Polda DI Yogyakarta",
+"polres": "Polres Gunung Kidul"
+},
+{
+"kode": "3404",
+"nama": "Kabupaten Sleman",
+"inti": "Sleman",
+"jenis": "Kabupaten",
+"prov": "34",
+"rawan": false,
+"polda": "Polda DI Yogyakarta",
+"polres": "Polres Sleman"
+},
+{
+"kode": "3471",
+"nama": "Kota Yogyakarta",
+"inti": "Yogyakarta",
+"jenis": "Kota",
+"prov": "34",
+"rawan": false,
+"polda": "Polda DI Yogyakarta",
+"polres": "Polres(ta) Yogyakarta"
+},
+{
+"kode": "3501",
+"nama": "Kabupaten Pacitan",
+"inti": "Pacitan",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Pacitan"
+},
+{
+"kode": "3502",
+"nama": "Kabupaten Ponorogo",
+"inti": "Ponorogo",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Ponorogo"
+},
+{
+"kode": "3503",
+"nama": "Kabupaten Trenggalek",
+"inti": "Trenggalek",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": true,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Trenggalek"
+},
+{
+"kode": "3504",
+"nama": "Kabupaten Tulungagung",
+"inti": "Tulungagung",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Tulungagung"
+},
+{
+"kode": "3505",
+"nama": "Kabupaten Blitar",
+"inti": "Blitar",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Blitar"
+},
+{
+"kode": "3506",
+"nama": "Kabupaten Kediri",
+"inti": "Kediri",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Kediri"
+},
+{
+"kode": "3507",
+"nama": "Kabupaten Malang",
+"inti": "Malang",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": true,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Malang"
+},
+{
+"kode": "3508",
+"nama": "Kabupaten Lumajang",
+"inti": "Lumajang",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Lumajang"
+},
+{
+"kode": "3509",
+"nama": "Kabupaten Jember",
+"inti": "Jember",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Jember"
+},
+{
+"kode": "3510",
+"nama": "Kabupaten Banyuwangi",
+"inti": "Banyuwangi",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Banyuwangi"
+},
+{
+"kode": "3511",
+"nama": "Kabupaten Bondowoso",
+"inti": "Bondowoso",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Bondowoso"
+},
+{
+"kode": "3512",
+"nama": "Kabupaten Situbondo",
+"inti": "Situbondo",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Situbondo"
+},
+{
+"kode": "3513",
+"nama": "Kabupaten Probolinggo",
+"inti": "Probolinggo",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Probolinggo"
+},
+{
+"kode": "3514",
+"nama": "Kabupaten Pasuruan",
+"inti": "Pasuruan",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Pasuruan"
+},
+{
+"kode": "3515",
+"nama": "Kabupaten Sidoarjo",
+"inti": "Sidoarjo",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Sidoarjo"
+},
+{
+"kode": "3516",
+"nama": "Kabupaten Mojokerto",
+"inti": "Mojokerto",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Mojokerto"
+},
+{
+"kode": "3517",
+"nama": "Kabupaten Jombang",
+"inti": "Jombang",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Jombang"
+},
+{
+"kode": "3518",
+"nama": "Kabupaten Nganjuk",
+"inti": "Nganjuk",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Nganjuk"
+},
+{
+"kode": "3519",
+"nama": "Kabupaten Madiun",
+"inti": "Madiun",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Madiun"
+},
+{
+"kode": "3520",
+"nama": "Kabupaten Magetan",
+"inti": "Magetan",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Magetan"
+},
+{
+"kode": "3521",
+"nama": "Kabupaten Ngawi",
+"inti": "Ngawi",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Ngawi"
+},
+{
+"kode": "3522",
+"nama": "Kabupaten Bojonegoro",
+"inti": "Bojonegoro",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Bojonegoro"
+},
+{
+"kode": "3523",
+"nama": "Kabupaten Tuban",
+"inti": "Tuban",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Tuban"
+},
+{
+"kode": "3524",
+"nama": "Kabupaten Lamongan",
+"inti": "Lamongan",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Lamongan"
+},
+{
+"kode": "3525",
+"nama": "Kabupaten Gresik",
+"inti": "Gresik",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Gresik"
+},
+{
+"kode": "3526",
+"nama": "Kabupaten Bangkalan",
+"inti": "Bangkalan",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Bangkalan"
+},
+{
+"kode": "3527",
+"nama": "Kabupaten Sampang",
+"inti": "Sampang",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Sampang"
+},
+{
+"kode": "3528",
+"nama": "Kabupaten Pamekasan",
+"inti": "Pamekasan",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Pamekasan"
+},
+{
+"kode": "3529",
+"nama": "Kabupaten Sumenep",
+"inti": "Sumenep",
+"jenis": "Kabupaten",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres Sumenep"
+},
+{
+"kode": "3571",
+"nama": "Kota Kediri",
+"inti": "Kediri",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Kediri"
+},
+{
+"kode": "3572",
+"nama": "Kota Blitar",
+"inti": "Blitar",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Blitar"
+},
+{
+"kode": "3573",
+"nama": "Kota Malang",
+"inti": "Malang",
+"jenis": "Kota",
+"prov": "35",
+"rawan": true,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Malang"
+},
+{
+"kode": "3574",
+"nama": "Kota Probolinggo",
+"inti": "Probolinggo",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Probolinggo"
+},
+{
+"kode": "3575",
+"nama": "Kota Pasuruan",
+"inti": "Pasuruan",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Pasuruan"
+},
+{
+"kode": "3576",
+"nama": "Kota Mojokerto",
+"inti": "Mojokerto",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Mojokerto"
+},
+{
+"kode": "3577",
+"nama": "Kota Madiun",
+"inti": "Madiun",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Madiun"
+},
+{
+"kode": "3578",
+"nama": "Kota Surabaya",
+"inti": "Surabaya",
+"jenis": "Kota",
+"prov": "35",
+"rawan": false,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Surabaya"
+},
+{
+"kode": "3579",
+"nama": "Kota Batu",
+"inti": "Batu",
+"jenis": "Kota",
+"prov": "35",
+"rawan": true,
+"polda": "Polda Jawa Timur",
+"polres": "Polres(ta) Batu"
+},
+{
+"kode": "3601",
+"nama": "Kabupaten Pandeglang",
+"inti": "Pandeglang",
+"jenis": "Kabupaten",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Banten",
+"polres": "Polres Pandeglang"
+},
+{
+"kode": "3602",
+"nama": "Kabupaten Lebak",
+"inti": "Lebak",
+"jenis": "Kabupaten",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Banten",
+"polres": "Polres Lebak"
+},
+{
+"kode": "3603",
+"nama": "Kabupaten Tangerang",
+"inti": "Tangerang",
+"jenis": "Kabupaten",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Banten",
+"polres": "Polres Tangerang"
+},
+{
+"kode": "3604",
+"nama": "Kabupaten Serang",
+"inti": "Serang",
+"jenis": "Kabupaten",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Banten",
+"polres": "Polres Serang"
+},
+{
+"kode": "3671",
+"nama": "Kota Tangerang",
+"inti": "Tangerang",
+"jenis": "Kota",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Tangerang"
+},
+{
+"kode": "3672",
+"nama": "Kota Cilegon",
+"inti": "Cilegon",
+"jenis": "Kota",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Banten",
+"polres": "Polres(ta) Cilegon"
+},
+{
+"kode": "3673",
+"nama": "Kota Serang",
+"inti": "Serang",
+"jenis": "Kota",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Banten",
+"polres": "Polres(ta) Serang"
+},
+{
+"kode": "3674",
+"nama": "Kota Tangerang Selatan",
+"inti": "Tangerang Selatan",
+"jenis": "Kota",
+"prov": "36",
+"rawan": false,
+"polda": "Polda Metro Jaya",
+"polres": "Polres(ta) Tangerang Selatan"
+},
+{
+"kode": "5101",
+"nama": "Kabupaten Jembrana",
+"inti": "Jembrana",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Jembrana"
+},
+{
+"kode": "5102",
+"nama": "Kabupaten Tabanan",
+"inti": "Tabanan",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Tabanan"
+},
+{
+"kode": "5103",
+"nama": "Kabupaten Badung",
+"inti": "Badung",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Badung"
+},
+{
+"kode": "5104",
+"nama": "Kabupaten Gianyar",
+"inti": "Gianyar",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Gianyar"
+},
+{
+"kode": "5105",
+"nama": "Kabupaten Klungkung",
+"inti": "Klungkung",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Klungkung"
+},
+{
+"kode": "5106",
+"nama": "Kabupaten Bangli",
+"inti": "Bangli",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": true,
+"polda": "Polda Bali",
+"polres": "Polres Bangli"
+},
+{
+"kode": "5107",
+"nama": "Kabupaten Karang Asem",
+"inti": "Karang Asem",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Karang Asem"
+},
+{
+"kode": "5108",
+"nama": "Kabupaten Buleleng",
+"inti": "Buleleng",
+"jenis": "Kabupaten",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres Buleleng"
+},
+{
+"kode": "5171",
+"nama": "Kota Denpasar",
+"inti": "Denpasar",
+"jenis": "Kota",
+"prov": "51",
+"rawan": false,
+"polda": "Polda Bali",
+"polres": "Polres(ta) Denpasar"
+},
+{
+"kode": "5201",
+"nama": "Kabupaten Lombok Barat",
+"inti": "Lombok Barat",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Lombok Barat"
+},
+{
+"kode": "5202",
+"nama": "Kabupaten Lombok Tengah",
+"inti": "Lombok Tengah",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Lombok Tengah"
+},
+{
+"kode": "5203",
+"nama": "Kabupaten Lombok Timur",
+"inti": "Lombok Timur",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Lombok Timur"
+},
+{
+"kode": "5204",
+"nama": "Kabupaten Sumbawa",
+"inti": "Sumbawa",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Sumbawa"
+},
+{
+"kode": "5205",
+"nama": "Kabupaten Dompu",
+"inti": "Dompu",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Dompu"
+},
+{
+"kode": "5206",
+"nama": "Kabupaten Bima",
+"inti": "Bima",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Bima"
+},
+{
+"kode": "5207",
+"nama": "Kabupaten Sumbawa Barat",
+"inti": "Sumbawa Barat",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Sumbawa Barat"
+},
+{
+"kode": "5208",
+"nama": "Kabupaten Lombok Utara",
+"inti": "Lombok Utara",
+"jenis": "Kabupaten",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres Lombok Utara"
+},
+{
+"kode": "5271",
+"nama": "Kota Mataram",
+"inti": "Mataram",
+"jenis": "Kota",
+"prov": "52",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres(ta) Mataram"
+},
+{
+"kode": "5272",
+"nama": "Kota Bima",
+"inti": "Bima",
+"jenis": "Kota",
+"prov": "52",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Barat",
+"polres": "Polres(ta) Bima"
+},
+{
+"kode": "5301",
+"nama": "Kabupaten Sumba Barat",
+"inti": "Sumba Barat",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Sumba Barat"
+},
+{
+"kode": "5302",
+"nama": "Kabupaten Sumba Timur",
+"inti": "Sumba Timur",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Sumba Timur"
+},
+{
+"kode": "5303",
+"nama": "Kabupaten Kupang",
+"inti": "Kupang",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Kupang"
+},
+{
+"kode": "5304",
+"nama": "Kabupaten Timor Tengah Selatan",
+"inti": "Timor Tengah Selatan",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Timor Tengah Selatan"
+},
+{
+"kode": "5305",
+"nama": "Kabupaten Timor Tengah Utara",
+"inti": "Timor Tengah Utara",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Timor Tengah Utara"
+},
+{
+"kode": "5306",
+"nama": "Kabupaten Belu",
+"inti": "Belu",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Belu"
+},
+{
+"kode": "5307",
+"nama": "Kabupaten Alor",
+"inti": "Alor",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Alor"
+},
+{
+"kode": "5308",
+"nama": "Kabupaten Lembata",
+"inti": "Lembata",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Lembata"
+},
+{
+"kode": "5309",
+"nama": "Kabupaten Flores Timur",
+"inti": "Flores Timur",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Flores Timur"
+},
+{
+"kode": "5310",
+"nama": "Kabupaten Sikka",
+"inti": "Sikka",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Sikka"
+},
+{
+"kode": "5311",
+"nama": "Kabupaten Ende",
+"inti": "Ende",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Ende"
+},
+{
+"kode": "5312",
+"nama": "Kabupaten Ngada",
+"inti": "Ngada",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Ngada"
+},
+{
+"kode": "5313",
+"nama": "Kabupaten Manggarai",
+"inti": "Manggarai",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Manggarai"
+},
+{
+"kode": "5314",
+"nama": "Kabupaten Rote Ndao",
+"inti": "Rote Ndao",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Rote Ndao"
+},
+{
+"kode": "5315",
+"nama": "Kabupaten Manggarai Barat",
+"inti": "Manggarai Barat",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Manggarai Barat"
+},
+{
+"kode": "5316",
+"nama": "Kabupaten Sumba Tengah",
+"inti": "Sumba Tengah",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Sumba Tengah"
+},
+{
+"kode": "5317",
+"nama": "Kabupaten Sumba Barat Daya",
+"inti": "Sumba Barat Daya",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Sumba Barat Daya"
+},
+{
+"kode": "5318",
+"nama": "Kabupaten Nagekeo",
+"inti": "Nagekeo",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Nagekeo"
+},
+{
+"kode": "5319",
+"nama": "Kabupaten Manggarai Timur",
+"inti": "Manggarai Timur",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Manggarai Timur"
+},
+{
+"kode": "5320",
+"nama": "Kabupaten Sabu Raijua",
+"inti": "Sabu Raijua",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Sabu Raijua"
+},
+{
+"kode": "5321",
+"nama": "Kabupaten Malaka",
+"inti": "Malaka",
+"jenis": "Kabupaten",
+"prov": "53",
+"rawan": true,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres Malaka"
+},
+{
+"kode": "5371",
+"nama": "Kota Kupang",
+"inti": "Kupang",
+"jenis": "Kota",
+"prov": "53",
+"rawan": false,
+"polda": "Polda Nusa Tenggara Timur",
+"polres": "Polres(ta) Kupang"
+},
+{
+"kode": "6101",
+"nama": "Kabupaten Sambas",
+"inti": "Sambas",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Sambas"
+},
+{
+"kode": "6102",
+"nama": "Kabupaten Bengkayang",
+"inti": "Bengkayang",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Bengkayang"
+},
+{
+"kode": "6103",
+"nama": "Kabupaten Landak",
+"inti": "Landak",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": true,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Landak"
+},
+{
+"kode": "6104",
+"nama": "Kabupaten Mempawah",
+"inti": "Mempawah",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Mempawah"
+},
+{
+"kode": "6105",
+"nama": "Kabupaten Sanggau",
+"inti": "Sanggau",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Sanggau"
+},
+{
+"kode": "6106",
+"nama": "Kabupaten Ketapang",
+"inti": "Ketapang",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": true,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Ketapang"
+},
+{
+"kode": "6107",
+"nama": "Kabupaten Sintang",
+"inti": "Sintang",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Sintang"
+},
+{
+"kode": "6108",
+"nama": "Kabupaten Kapuas Hulu",
+"inti": "Kapuas Hulu",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": true,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Kapuas Hulu"
+},
+{
+"kode": "6109",
+"nama": "Kabupaten Sekadau",
+"inti": "Sekadau",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Sekadau"
+},
+{
+"kode": "6110",
+"nama": "Kabupaten Melawi",
+"inti": "Melawi",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": true,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Melawi"
+},
+{
+"kode": "6111",
+"nama": "Kabupaten Kayong Utara",
+"inti": "Kayong Utara",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Kayong Utara"
+},
+{
+"kode": "6112",
+"nama": "Kabupaten Kubu Raya",
+"inti": "Kubu Raya",
+"jenis": "Kabupaten",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres Kubu Raya"
+},
+{
+"kode": "6171",
+"nama": "Kota Pontianak",
+"inti": "Pontianak",
+"jenis": "Kota",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres(ta) Pontianak"
+},
+{
+"kode": "6172",
+"nama": "Kota Singkawang",
+"inti": "Singkawang",
+"jenis": "Kota",
+"prov": "61",
+"rawan": false,
+"polda": "Polda Kalimantan Barat",
+"polres": "Polres(ta) Singkawang"
+},
+{
+"kode": "6201",
+"nama": "Kabupaten Kotawaringin Barat",
+"inti": "Kotawaringin Barat",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Kotawaringin Barat"
+},
+{
+"kode": "6202",
+"nama": "Kabupaten Kotawaringin Timur",
+"inti": "Kotawaringin Timur",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Kotawaringin Timur"
+},
+{
+"kode": "6203",
+"nama": "Kabupaten Kapuas",
+"inti": "Kapuas",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": true,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Kapuas"
+},
+{
+"kode": "6204",
+"nama": "Kabupaten Barito Selatan",
+"inti": "Barito Selatan",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Barito Selatan"
+},
+{
+"kode": "6205",
+"nama": "Kabupaten Barito Utara",
+"inti": "Barito Utara",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Barito Utara"
+},
+{
+"kode": "6206",
+"nama": "Kabupaten Sukamara",
+"inti": "Sukamara",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Sukamara"
+},
+{
+"kode": "6207",
+"nama": "Kabupaten Lamandau",
+"inti": "Lamandau",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Lamandau"
+},
+{
+"kode": "6208",
+"nama": "Kabupaten Seruyan",
+"inti": "Seruyan",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Seruyan"
+},
+{
+"kode": "6209",
+"nama": "Kabupaten Katingan",
+"inti": "Katingan",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Katingan"
+},
+{
+"kode": "6210",
+"nama": "Kabupaten Pulang Pisau",
+"inti": "Pulang Pisau",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Pulang Pisau"
+},
+{
+"kode": "6211",
+"nama": "Kabupaten Gunung Mas",
+"inti": "Gunung Mas",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Gunung Mas"
+},
+{
+"kode": "6212",
+"nama": "Kabupaten Barito Timur",
+"inti": "Barito Timur",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Barito Timur"
+},
+{
+"kode": "6213",
+"nama": "Kabupaten Murung Raya",
+"inti": "Murung Raya",
+"jenis": "Kabupaten",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres Murung Raya"
+},
+{
+"kode": "6271",
+"nama": "Kota Palangka Raya",
+"inti": "Palangka Raya",
+"jenis": "Kota",
+"prov": "62",
+"rawan": false,
+"polda": "Polda Kalimantan Tengah",
+"polres": "Polres(ta) Palangka Raya"
+},
+{
+"kode": "6301",
+"nama": "Kabupaten Tanah Laut",
+"inti": "Tanah Laut",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": true,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Tanah Laut"
+},
+{
+"kode": "6302",
+"nama": "Kabupaten Kota Baru",
+"inti": "Kota Baru",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Kota Baru"
+},
+{
+"kode": "6303",
+"nama": "Kabupaten Banjar",
+"inti": "Banjar",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": true,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Banjar"
+},
+{
+"kode": "6304",
+"nama": "Kabupaten Barito Kuala",
+"inti": "Barito Kuala",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Barito Kuala"
+},
+{
+"kode": "6305",
+"nama": "Kabupaten Tapin",
+"inti": "Tapin",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": true,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Tapin"
+},
+{
+"kode": "6306",
+"nama": "Kabupaten Hulu Sungai Selatan",
+"inti": "Hulu Sungai Selatan",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Hulu Sungai Selatan"
+},
+{
+"kode": "6307",
+"nama": "Kabupaten Hulu Sungai Tengah",
+"inti": "Hulu Sungai Tengah",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Hulu Sungai Tengah"
+},
+{
+"kode": "6308",
+"nama": "Kabupaten Hulu Sungai Utara",
+"inti": "Hulu Sungai Utara",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Hulu Sungai Utara"
+},
+{
+"kode": "6309",
+"nama": "Kabupaten Tabalong",
+"inti": "Tabalong",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Tabalong"
+},
+{
+"kode": "6310",
+"nama": "Kabupaten Tanah Bumbu",
+"inti": "Tanah Bumbu",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Tanah Bumbu"
+},
+{
+"kode": "6311",
+"nama": "Kabupaten Balangan",
+"inti": "Balangan",
+"jenis": "Kabupaten",
+"prov": "63",
+"rawan": true,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres Balangan"
+},
+{
+"kode": "6371",
+"nama": "Kota Banjarmasin",
+"inti": "Banjarmasin",
+"jenis": "Kota",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres(ta) Banjarmasin"
+},
+{
+"kode": "6372",
+"nama": "Kota Banjar Baru",
+"inti": "Banjar Baru",
+"jenis": "Kota",
+"prov": "63",
+"rawan": false,
+"polda": "Polda Kalimantan Selatan",
+"polres": "Polres(ta) Banjar Baru"
+},
+{
+"kode": "6401",
+"nama": "Kabupaten Paser",
+"inti": "Paser",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": true,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Paser"
+},
+{
+"kode": "6402",
+"nama": "Kabupaten Kutai Barat",
+"inti": "Kutai Barat",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Kutai Barat"
+},
+{
+"kode": "6403",
+"nama": "Kabupaten Kutai Kartanegara",
+"inti": "Kutai Kartanegara",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Kutai Kartanegara"
+},
+{
+"kode": "6404",
+"nama": "Kabupaten Kutai Timur",
+"inti": "Kutai Timur",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Kutai Timur"
+},
+{
+"kode": "6405",
+"nama": "Kabupaten Berau",
+"inti": "Berau",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": true,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Berau"
+},
+{
+"kode": "6409",
+"nama": "Kabupaten Penajam Paser Utara",
+"inti": "Penajam Paser Utara",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Penajam Paser Utara"
+},
+{
+"kode": "6411",
+"nama": "Kabupaten Mahakam Hulu",
+"inti": "Mahakam Hulu",
+"jenis": "Kabupaten",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres Mahakam Hulu"
+},
+{
+"kode": "6471",
+"nama": "Kota Balikpapan",
+"inti": "Balikpapan",
+"jenis": "Kota",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres(ta) Balikpapan"
+},
+{
+"kode": "6472",
+"nama": "Kota Samarinda",
+"inti": "Samarinda",
+"jenis": "Kota",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres(ta) Samarinda"
+},
+{
+"kode": "6474",
+"nama": "Kota Bontang",
+"inti": "Bontang",
+"jenis": "Kota",
+"prov": "64",
+"rawan": false,
+"polda": "Polda Kalimantan Timur",
+"polres": "Polres(ta) Bontang"
+},
+{
+"kode": "6501",
+"nama": "Kabupaten Malinau",
+"inti": "Malinau",
+"jenis": "Kabupaten",
+"prov": "65",
+"rawan": false,
+"polda": "Polda Kalimantan Utara",
+"polres": "Polres Malinau"
+},
+{
+"kode": "6502",
+"nama": "Kabupaten Bulungan",
+"inti": "Bulungan",
+"jenis": "Kabupaten",
+"prov": "65",
+"rawan": false,
+"polda": "Polda Kalimantan Utara",
+"polres": "Polres Bulungan"
+},
+{
+"kode": "6503",
+"nama": "Kabupaten Tana Tidung",
+"inti": "Tana Tidung",
+"jenis": "Kabupaten",
+"prov": "65",
+"rawan": true,
+"polda": "Polda Kalimantan Utara",
+"polres": "Polres Tana Tidung"
+},
+{
+"kode": "6504",
+"nama": "Kabupaten Nunukan",
+"inti": "Nunukan",
+"jenis": "Kabupaten",
+"prov": "65",
+"rawan": false,
+"polda": "Polda Kalimantan Utara",
+"polres": "Polres Nunukan"
+},
+{
+"kode": "6571",
+"nama": "Kota Tarakan",
+"inti": "Tarakan",
+"jenis": "Kota",
+"prov": "65",
+"rawan": false,
+"polda": "Polda Kalimantan Utara",
+"polres": "Polres(ta) Tarakan"
+},
+{
+"kode": "7101",
+"nama": "Kabupaten Bolaang Mongondow",
+"inti": "Bolaang Mongondow",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": true,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Bolaang Mongondow"
+},
+{
+"kode": "7102",
+"nama": "Kabupaten Minahasa",
+"inti": "Minahasa",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Minahasa"
+},
+{
+"kode": "7103",
+"nama": "Kabupaten Kepulauan Sangihe",
+"inti": "Kepulauan Sangihe",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Kepulauan Sangihe"
+},
+{
+"kode": "7104",
+"nama": "Kabupaten Kepulauan Talaud",
+"inti": "Kepulauan Talaud",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Kepulauan Talaud"
+},
+{
+"kode": "7105",
+"nama": "Kabupaten Minahasa Selatan",
+"inti": "Minahasa Selatan",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Minahasa Selatan"
+},
+{
+"kode": "7106",
+"nama": "Kabupaten Minahasa Utara",
+"inti": "Minahasa Utara",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Minahasa Utara"
+},
+{
+"kode": "7107",
+"nama": "Kabupaten Bolaang Mongondow Utara",
+"inti": "Bolaang Mongondow Utara",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Bolaang Mongondow Utara"
+},
+{
+"kode": "7108",
+"nama": "Kabupaten Siau Tagulandang Biaro",
+"inti": "Siau Tagulandang Biaro",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Siau Tagulandang Biaro"
+},
+{
+"kode": "7109",
+"nama": "Kabupaten Minahasa Tenggara",
+"inti": "Minahasa Tenggara",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Minahasa Tenggara"
+},
+{
+"kode": "7110",
+"nama": "Kabupaten Bolaang Mongondow Selatan",
+"inti": "Bolaang Mongondow Selatan",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Bolaang Mongondow Selatan"
+},
+{
+"kode": "7111",
+"nama": "Kabupaten Bolaang Mongondow Timur",
+"inti": "Bolaang Mongondow Timur",
+"jenis": "Kabupaten",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres Bolaang Mongondow Timur"
+},
+{
+"kode": "7171",
+"nama": "Kota Manado",
+"inti": "Manado",
+"jenis": "Kota",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres(ta) Manado"
+},
+{
+"kode": "7172",
+"nama": "Kota Bitung",
+"inti": "Bitung",
+"jenis": "Kota",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres(ta) Bitung"
+},
+{
+"kode": "7173",
+"nama": "Kota Tomohon",
+"inti": "Tomohon",
+"jenis": "Kota",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres(ta) Tomohon"
+},
+{
+"kode": "7174",
+"nama": "Kota Kotamobagu",
+"inti": "Kotamobagu",
+"jenis": "Kota",
+"prov": "71",
+"rawan": false,
+"polda": "Polda Sulawesi Utara",
+"polres": "Polres(ta) Kotamobagu"
+},
+{
+"kode": "7201",
+"nama": "Kabupaten Banggai Kepulauan",
+"inti": "Banggai Kepulauan",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Banggai Kepulauan"
+},
+{
+"kode": "7202",
+"nama": "Kabupaten Banggai",
+"inti": "Banggai",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Banggai"
+},
+{
+"kode": "7203",
+"nama": "Kabupaten Morowali",
+"inti": "Morowali",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Morowali"
+},
+{
+"kode": "7204",
+"nama": "Kabupaten Poso",
+"inti": "Poso",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": true,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Poso"
+},
+{
+"kode": "7205",
+"nama": "Kabupaten Donggala",
+"inti": "Donggala",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Donggala"
+},
+{
+"kode": "7206",
+"nama": "Kabupaten Toli-Toli",
+"inti": "Toli-Toli",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Toli-Toli"
+},
+{
+"kode": "7207",
+"nama": "Kabupaten Buol",
+"inti": "Buol",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": true,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Buol"
+},
+{
+"kode": "7208",
+"nama": "Kabupaten Parigi Moutong",
+"inti": "Parigi Moutong",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": true,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Parigi Moutong"
+},
+{
+"kode": "7209",
+"nama": "Kabupaten Tojo Una-Una",
+"inti": "Tojo Una-Una",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": true,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Tojo Una-Una"
+},
+{
+"kode": "7210",
+"nama": "Kabupaten Sigi",
+"inti": "Sigi",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": true,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Sigi"
+},
+{
+"kode": "7211",
+"nama": "Kabupaten Banggai Laut",
+"inti": "Banggai Laut",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Banggai Laut"
+},
+{
+"kode": "7212",
+"nama": "Kabupaten Morowali Utara",
+"inti": "Morowali Utara",
+"jenis": "Kabupaten",
+"prov": "72",
+"rawan": false,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres Morowali Utara"
+},
+{
+"kode": "7271",
+"nama": "Kota Palu",
+"inti": "Palu",
+"jenis": "Kota",
+"prov": "72",
+"rawan": true,
+"polda": "Polda Sulawesi Tengah",
+"polres": "Polres(ta) Palu"
+},
+{
+"kode": "7301",
+"nama": "Kabupaten Kepulauan Selayar",
+"inti": "Kepulauan Selayar",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Kepulauan Selayar"
+},
+{
+"kode": "7302",
+"nama": "Kabupaten Bulukumba",
+"inti": "Bulukumba",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Bulukumba"
+},
+{
+"kode": "7303",
+"nama": "Kabupaten Bantaeng",
+"inti": "Bantaeng",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Bantaeng"
+},
+{
+"kode": "7304",
+"nama": "Kabupaten Jeneponto",
+"inti": "Jeneponto",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Jeneponto"
+},
+{
+"kode": "7305",
+"nama": "Kabupaten Takalar",
+"inti": "Takalar",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Takalar"
+},
+{
+"kode": "7306",
+"nama": "Kabupaten Gowa",
+"inti": "Gowa",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": true,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Gowa"
+},
+{
+"kode": "7307",
+"nama": "Kabupaten Sinjai",
+"inti": "Sinjai",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Sinjai"
+},
+{
+"kode": "7308",
+"nama": "Kabupaten Maros",
+"inti": "Maros",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Maros"
+},
+{
+"kode": "7309",
+"nama": "Kabupaten Pangkajene dan Kepulauan",
+"inti": "Pangkajene dan Kepulauan",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Pangkajene dan Kepulauan"
+},
+{
+"kode": "7310",
+"nama": "Kabupaten Barru",
+"inti": "Barru",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": true,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Barru"
+},
+{
+"kode": "7311",
+"nama": "Kabupaten Bone",
+"inti": "Bone",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": true,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Bone"
+},
+{
+"kode": "7312",
+"nama": "Kabupaten Soppeng",
+"inti": "Soppeng",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Soppeng"
+},
+{
+"kode": "7313",
+"nama": "Kabupaten Wajo",
+"inti": "Wajo",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": true,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Wajo"
+},
+{
+"kode": "7314",
+"nama": "Kabupaten Sidenreng Rappang",
+"inti": "Sidenreng Rappang",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Sidenreng Rappang"
+},
+{
+"kode": "7315",
+"nama": "Kabupaten Pinrang",
+"inti": "Pinrang",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Pinrang"
+},
+{
+"kode": "7316",
+"nama": "Kabupaten Enrekang",
+"inti": "Enrekang",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Enrekang"
+},
+{
+"kode": "7317",
+"nama": "Kabupaten Luwu",
+"inti": "Luwu",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": true,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Luwu"
+},
+{
+"kode": "7318",
+"nama": "Kabupaten Tana Toraja",
+"inti": "Tana Toraja",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Tana Toraja"
+},
+{
+"kode": "7322",
+"nama": "Kabupaten Luwu Utara",
+"inti": "Luwu Utara",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Luwu Utara"
+},
+{
+"kode": "7325",
+"nama": "Kabupaten Luwu Timur",
+"inti": "Luwu Timur",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Luwu Timur"
+},
+{
+"kode": "7326",
+"nama": "Kabupaten Toraja Utara",
+"inti": "Toraja Utara",
+"jenis": "Kabupaten",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres Toraja Utara"
+},
+{
+"kode": "7371",
+"nama": "Kota Makassar",
+"inti": "Makassar",
+"jenis": "Kota",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres(ta) Makassar"
+},
+{
+"kode": "7372",
+"nama": "Kota Parepare",
+"inti": "Parepare",
+"jenis": "Kota",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres(ta) Parepare"
+},
+{
+"kode": "7373",
+"nama": "Kota Palopo",
+"inti": "Palopo",
+"jenis": "Kota",
+"prov": "73",
+"rawan": false,
+"polda": "Polda Sulawesi Selatan",
+"polres": "Polres(ta) Palopo"
+},
+{
+"kode": "7401",
+"nama": "Kabupaten Buton",
+"inti": "Buton",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": true,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Buton"
+},
+{
+"kode": "7402",
+"nama": "Kabupaten Muna",
+"inti": "Muna",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": true,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Muna"
+},
+{
+"kode": "7403",
+"nama": "Kabupaten Konawe",
+"inti": "Konawe",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Konawe"
+},
+{
+"kode": "7404",
+"nama": "Kabupaten Kolaka",
+"inti": "Kolaka",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Kolaka"
+},
+{
+"kode": "7405",
+"nama": "Kabupaten Konawe Selatan",
+"inti": "Konawe Selatan",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Konawe Selatan"
+},
+{
+"kode": "7406",
+"nama": "Kabupaten Bombana",
+"inti": "Bombana",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Bombana"
+},
+{
+"kode": "7407",
+"nama": "Kabupaten Wakatobi",
+"inti": "Wakatobi",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Wakatobi"
+},
+{
+"kode": "7408",
+"nama": "Kabupaten Kolaka Utara",
+"inti": "Kolaka Utara",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Kolaka Utara"
+},
+{
+"kode": "7409",
+"nama": "Kabupaten Buton Utara",
+"inti": "Buton Utara",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Buton Utara"
+},
+{
+"kode": "7410",
+"nama": "Kabupaten Konawe Utara",
+"inti": "Konawe Utara",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Konawe Utara"
+},
+{
+"kode": "7411",
+"nama": "Kabupaten Kolaka Timur",
+"inti": "Kolaka Timur",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Kolaka Timur"
+},
+{
+"kode": "7412",
+"nama": "Kabupaten Konawe Kepulauan",
+"inti": "Konawe Kepulauan",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Konawe Kepulauan"
+},
+{
+"kode": "7413",
+"nama": "Kabupaten Muna Barat",
+"inti": "Muna Barat",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Muna Barat"
+},
+{
+"kode": "7414",
+"nama": "Kabupaten Buton Tengah",
+"inti": "Buton Tengah",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Buton Tengah"
+},
+{
+"kode": "7415",
+"nama": "Kabupaten Buton Selatan",
+"inti": "Buton Selatan",
+"jenis": "Kabupaten",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres Buton Selatan"
+},
+{
+"kode": "7471",
+"nama": "Kota Kendari",
+"inti": "Kendari",
+"jenis": "Kota",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres(ta) Kendari"
+},
+{
+"kode": "7472",
+"nama": "Kota Baubau",
+"inti": "Baubau",
+"jenis": "Kota",
+"prov": "74",
+"rawan": false,
+"polda": "Polda Sulawesi Tenggara",
+"polres": "Polres(ta) Baubau"
+},
+{
+"kode": "7501",
+"nama": "Kabupaten Boalemo",
+"inti": "Boalemo",
+"jenis": "Kabupaten",
+"prov": "75",
+"rawan": false,
+"polda": "Polda Gorontalo",
+"polres": "Polres Boalemo"
+},
+{
+"kode": "7502",
+"nama": "Kabupaten Gorontalo",
+"inti": "Gorontalo",
+"jenis": "Kabupaten",
+"prov": "75",
+"rawan": false,
+"polda": "Polda Gorontalo",
+"polres": "Polres Gorontalo"
+},
+{
+"kode": "7503",
+"nama": "Kabupaten Pohuwato",
+"inti": "Pohuwato",
+"jenis": "Kabupaten",
+"prov": "75",
+"rawan": false,
+"polda": "Polda Gorontalo",
+"polres": "Polres Pohuwato"
+},
+{
+"kode": "7504",
+"nama": "Kabupaten Bone Bolango",
+"inti": "Bone Bolango",
+"jenis": "Kabupaten",
+"prov": "75",
+"rawan": false,
+"polda": "Polda Gorontalo",
+"polres": "Polres Bone Bolango"
+},
+{
+"kode": "7505",
+"nama": "Kabupaten Gorontalo Utara",
+"inti": "Gorontalo Utara",
+"jenis": "Kabupaten",
+"prov": "75",
+"rawan": false,
+"polda": "Polda Gorontalo",
+"polres": "Polres Gorontalo Utara"
+},
+{
+"kode": "7571",
+"nama": "Kota Gorontalo",
+"inti": "Gorontalo",
+"jenis": "Kota",
+"prov": "75",
+"rawan": false,
+"polda": "Polda Gorontalo",
+"polres": "Polres(ta) Gorontalo"
+},
+{
+"kode": "7601",
+"nama": "Kabupaten Majene",
+"inti": "Majene",
+"jenis": "Kabupaten",
+"prov": "76",
+"rawan": false,
+"polda": "Polda Sulawesi Barat",
+"polres": "Polres Majene"
+},
+{
+"kode": "7602",
+"nama": "Kabupaten Polewali Mandar",
+"inti": "Polewali Mandar",
+"jenis": "Kabupaten",
+"prov": "76",
+"rawan": true,
+"polda": "Polda Sulawesi Barat",
+"polres": "Polres Polewali Mandar"
+},
+{
+"kode": "7603",
+"nama": "Kabupaten Mamasa",
+"inti": "Mamasa",
+"jenis": "Kabupaten",
+"prov": "76",
+"rawan": false,
+"polda": "Polda Sulawesi Barat",
+"polres": "Polres Mamasa"
+},
+{
+"kode": "7604",
+"nama": "Kabupaten Mamuju",
+"inti": "Mamuju",
+"jenis": "Kabupaten",
+"prov": "76",
+"rawan": false,
+"polda": "Polda Sulawesi Barat",
+"polres": "Polres Mamuju"
+},
+{
+"kode": "7605",
+"nama": "Kabupaten Mamuju Utara",
+"inti": "Mamuju Utara",
+"jenis": "Kabupaten",
+"prov": "76",
+"rawan": false,
+"polda": "Polda Sulawesi Barat",
+"polres": "Polres Mamuju Utara"
+},
+{
+"kode": "7606",
+"nama": "Kabupaten Mamuju Tengah",
+"inti": "Mamuju Tengah",
+"jenis": "Kabupaten",
+"prov": "76",
+"rawan": false,
+"polda": "Polda Sulawesi Barat",
+"polres": "Polres Mamuju Tengah"
+},
+{
+"kode": "8101",
+"nama": "Kabupaten Maluku Tenggara Barat",
+"inti": "Maluku Tenggara Barat",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Maluku Tenggara Barat"
+},
+{
+"kode": "8102",
+"nama": "Kabupaten Maluku Tenggara",
+"inti": "Maluku Tenggara",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Maluku Tenggara"
+},
+{
+"kode": "8103",
+"nama": "Kabupaten Maluku Tengah",
+"inti": "Maluku Tengah",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Maluku Tengah"
+},
+{
+"kode": "8104",
+"nama": "Kabupaten Buru",
+"inti": "Buru",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": true,
+"polda": "Polda Maluku",
+"polres": "Polres Buru"
+},
+{
+"kode": "8105",
+"nama": "Kabupaten Kepulauan Aru",
+"inti": "Kepulauan Aru",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Kepulauan Aru"
+},
+{
+"kode": "8106",
+"nama": "Kabupaten Seram Bagian Barat",
+"inti": "Seram Bagian Barat",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Seram Bagian Barat"
+},
+{
+"kode": "8107",
+"nama": "Kabupaten Seram Bagian Timur",
+"inti": "Seram Bagian Timur",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Seram Bagian Timur"
+},
+{
+"kode": "8108",
+"nama": "Kabupaten Maluku Barat Daya",
+"inti": "Maluku Barat Daya",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Maluku Barat Daya"
+},
+{
+"kode": "8109",
+"nama": "Kabupaten Buru Selatan",
+"inti": "Buru Selatan",
+"jenis": "Kabupaten",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres Buru Selatan"
+},
+{
+"kode": "8171",
+"nama": "Kota Ambon",
+"inti": "Ambon",
+"jenis": "Kota",
+"prov": "81",
+"rawan": false,
+"polda": "Polda Maluku",
+"polres": "Polres(ta) Ambon"
+},
+{
+"kode": "8172",
+"nama": "Kota Tual",
+"inti": "Tual",
+"jenis": "Kota",
+"prov": "81",
+"rawan": true,
+"polda": "Polda Maluku",
+"polres": "Polres(ta) Tual"
+},
+{
+"kode": "8201",
+"nama": "Kabupaten Halmahera Barat",
+"inti": "Halmahera Barat",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Halmahera Barat"
+},
+{
+"kode": "8202",
+"nama": "Kabupaten Halmahera Tengah",
+"inti": "Halmahera Tengah",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Halmahera Tengah"
+},
+{
+"kode": "8203",
+"nama": "Kabupaten Kepulauan Sula",
+"inti": "Kepulauan Sula",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Kepulauan Sula"
+},
+{
+"kode": "8204",
+"nama": "Kabupaten Halmahera Selatan",
+"inti": "Halmahera Selatan",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Halmahera Selatan"
+},
+{
+"kode": "8205",
+"nama": "Kabupaten Halmahera Utara",
+"inti": "Halmahera Utara",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Halmahera Utara"
+},
+{
+"kode": "8206",
+"nama": "Kabupaten Halmahera Timur",
+"inti": "Halmahera Timur",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Halmahera Timur"
+},
+{
+"kode": "8207",
+"nama": "Kabupaten Pulau Morotai",
+"inti": "Pulau Morotai",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": true,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Pulau Morotai"
+},
+{
+"kode": "8208",
+"nama": "Kabupaten Pulau Taliabu",
+"inti": "Pulau Taliabu",
+"jenis": "Kabupaten",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres Pulau Taliabu"
+},
+{
+"kode": "8271",
+"nama": "Kota Ternate",
+"inti": "Ternate",
+"jenis": "Kota",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres(ta) Ternate"
+},
+{
+"kode": "8272",
+"nama": "Kota Tidore Kepulauan",
+"inti": "Tidore Kepulauan",
+"jenis": "Kota",
+"prov": "82",
+"rawan": false,
+"polda": "Polda Maluku Utara",
+"polres": "Polres(ta) Tidore Kepulauan"
+},
+{
+"kode": "9101",
+"nama": "Kabupaten Fakfak",
+"inti": "Fakfak",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": true,
+"polda": "Polda Papua Barat",
+"polres": "Polres Fakfak"
+},
+{
+"kode": "9102",
+"nama": "Kabupaten Kaimana",
+"inti": "Kaimana",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": true,
+"polda": "Polda Papua Barat",
+"polres": "Polres Kaimana"
+},
+{
+"kode": "9103",
+"nama": "Kabupaten Teluk Wondama",
+"inti": "Teluk Wondama",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": false,
+"polda": "Polda Papua Barat",
+"polres": "Polres Teluk Wondama"
+},
+{
+"kode": "9104",
+"nama": "Kabupaten Teluk Bintuni",
+"inti": "Teluk Bintuni",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": false,
+"polda": "Polda Papua Barat",
+"polres": "Polres Teluk Bintuni"
+},
+{
+"kode": "9105",
+"nama": "Kabupaten Manokwari",
+"inti": "Manokwari",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": false,
+"polda": "Polda Papua Barat",
+"polres": "Polres Manokwari"
+},
+{
+"kode": "9106",
+"nama": "Kabupaten Sorong Selatan",
+"inti": "Sorong Selatan",
+"jenis": "Kabupaten",
+"prov": "92",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Barat Daya",
+"polres": "Polres Sorong Selatan"
+},
+{
+"kode": "9107",
+"nama": "Kabupaten Sorong",
+"inti": "Sorong",
+"jenis": "Kabupaten",
+"prov": "92",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Barat Daya",
+"polres": "Polres Sorong"
+},
+{
+"kode": "9108",
+"nama": "Kabupaten Raja Ampat",
+"inti": "Raja Ampat",
+"jenis": "Kabupaten",
+"prov": "92",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Barat Daya",
+"polres": "Polres Raja Ampat"
+},
+{
+"kode": "9109",
+"nama": "Kabupaten Tambrauw",
+"inti": "Tambrauw",
+"jenis": "Kabupaten",
+"prov": "92",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Barat Daya",
+"polres": "Polres Tambrauw"
+},
+{
+"kode": "9110",
+"nama": "Kabupaten Maybrat",
+"inti": "Maybrat",
+"jenis": "Kabupaten",
+"prov": "92",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Barat Daya",
+"polres": "Polres Maybrat"
+},
+{
+"kode": "9111",
+"nama": "Kabupaten Manokwari Selatan",
+"inti": "Manokwari Selatan",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": false,
+"polda": "Polda Papua Barat",
+"polres": "Polres Manokwari Selatan"
+},
+{
+"kode": "9112",
+"nama": "Kabupaten Pegunungan Arfak",
+"inti": "Pegunungan Arfak",
+"jenis": "Kabupaten",
+"prov": "91",
+"rawan": false,
+"polda": "Polda Papua Barat",
+"polres": "Polres Pegunungan Arfak"
+},
+{
+"kode": "9171",
+"nama": "Kota Sorong",
+"inti": "Sorong",
+"jenis": "Kota",
+"prov": "92",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Barat Daya",
+"polres": "Polres(ta) Sorong"
+},
+{
+"kode": "9401",
+"nama": "Kabupaten Merauke",
+"inti": "Merauke",
+"jenis": "Kabupaten",
+"prov": "95",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Selatan",
+"polres": "Polres Merauke"
+},
+{
+"kode": "9402",
+"nama": "Kabupaten Jayawijaya",
+"inti": "Jayawijaya",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Jayawijaya"
+},
+{
+"kode": "9403",
+"nama": "Kabupaten Jayapura",
+"inti": "Jayapura",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": false,
+"polda": "Polda Papua",
+"polres": "Polres Jayapura"
+},
+{
+"kode": "9404",
+"nama": "Kabupaten Nabire",
+"inti": "Nabire",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Nabire"
+},
+{
+"kode": "9408",
+"nama": "Kabupaten Kepulauan Yapen",
+"inti": "Kepulauan Yapen",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": false,
+"polda": "Polda Papua",
+"polres": "Polres Kepulauan Yapen"
+},
+{
+"kode": "9409",
+"nama": "Kabupaten Biak Numfor",
+"inti": "Biak Numfor",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": false,
+"polda": "Polda Papua",
+"polres": "Polres Biak Numfor"
+},
+{
+"kode": "9410",
+"nama": "Kabupaten Paniai",
+"inti": "Paniai",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Paniai"
+},
+{
+"kode": "9411",
+"nama": "Kabupaten Puncak Jaya",
+"inti": "Puncak Jaya",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Puncak Jaya"
+},
+{
+"kode": "9412",
+"nama": "Kabupaten Mimika",
+"inti": "Mimika",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Mimika"
+},
+{
+"kode": "9413",
+"nama": "Kabupaten Boven Digoel",
+"inti": "Boven Digoel",
+"jenis": "Kabupaten",
+"prov": "95",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Selatan",
+"polres": "Polres Boven Digoel"
+},
+{
+"kode": "9414",
+"nama": "Kabupaten Mappi",
+"inti": "Mappi",
+"jenis": "Kabupaten",
+"prov": "95",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Selatan",
+"polres": "Polres Mappi"
+},
+{
+"kode": "9415",
+"nama": "Kabupaten Asmat",
+"inti": "Asmat",
+"jenis": "Kabupaten",
+"prov": "95",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Selatan",
+"polres": "Polres Asmat"
+},
+{
+"kode": "9416",
+"nama": "Kabupaten Yahukimo",
+"inti": "Yahukimo",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Yahukimo"
+},
+{
+"kode": "9417",
+"nama": "Kabupaten Pegunungan Bintang",
+"inti": "Pegunungan Bintang",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Pegunungan Bintang"
+},
+{
+"kode": "9418",
+"nama": "Kabupaten Tolikara",
+"inti": "Tolikara",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Tolikara"
+},
+{
+"kode": "9419",
+"nama": "Kabupaten Sarmi",
+"inti": "Sarmi",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": true,
+"polda": "Polda Papua",
+"polres": "Polres Sarmi"
+},
+{
+"kode": "9420",
+"nama": "Kabupaten Keerom",
+"inti": "Keerom",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": true,
+"polda": "Polda Papua",
+"polres": "Polres Keerom"
+},
+{
+"kode": "9426",
+"nama": "Kabupaten Waropen",
+"inti": "Waropen",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": true,
+"polda": "Polda Papua",
+"polres": "Polres Waropen"
+},
+{
+"kode": "9427",
+"nama": "Kabupaten Supiori",
+"inti": "Supiori",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": true,
+"polda": "Polda Papua",
+"polres": "Polres Supiori"
+},
+{
+"kode": "9428",
+"nama": "Kabupaten Mamberamo Raya",
+"inti": "Mamberamo Raya",
+"jenis": "Kabupaten",
+"prov": "94",
+"rawan": false,
+"polda": "Polda Papua",
+"polres": "Polres Mamberamo Raya"
+},
+{
+"kode": "9429",
+"nama": "Kabupaten Nduga",
+"inti": "Nduga",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Nduga"
+},
+{
+"kode": "9430",
+"nama": "Kabupaten Lanny Jaya",
+"inti": "Lanny Jaya",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Lanny Jaya"
+},
+{
+"kode": "9431",
+"nama": "Kabupaten Mamberamo Tengah",
+"inti": "Mamberamo Tengah",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Mamberamo Tengah"
+},
+{
+"kode": "9432",
+"nama": "Kabupaten Yalimo",
+"inti": "Yalimo",
+"jenis": "Kabupaten",
+"prov": "97",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Pegunungan",
+"polres": "Polres Yalimo"
+},
+{
+"kode": "9433",
+"nama": "Kabupaten Puncak",
+"inti": "Puncak",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Puncak"
+},
+{
+"kode": "9434",
+"nama": "Kabupaten Dogiyai",
+"inti": "Dogiyai",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Dogiyai"
+},
+{
+"kode": "9435",
+"nama": "Kabupaten Intan Jaya",
+"inti": "Intan Jaya",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": false,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Intan Jaya"
+},
+{
+"kode": "9436",
+"nama": "Kabupaten Deiyai",
+"inti": "Deiyai",
+"jenis": "Kabupaten",
+"prov": "96",
+"rawan": true,
+"polda": "Polda yang membawahi Papua Tengah",
+"polres": "Polres Deiyai"
+},
+{
+"kode": "9471",
+"nama": "Kota Jayapura",
+"inti": "Jayapura",
+"jenis": "Kota",
+"prov": "94",
+"rawan": false,
+"polda": "Polda Papua",
+"polres": "Polres(ta) Jayapura"
+}
+]
+}
