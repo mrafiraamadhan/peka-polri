@@ -1,14 +1,14 @@
 {
- "diperbarui_utc": "2026-10-29T21:59:03Z",
+ "diperbarui_utc": "2026-10-29T22:50:12Z",
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 28,
   "TINDAK": 22,
-  "PANTAU": 64,
-  "TERCATAT": 455
+  "PANTAU": 66,
+  "TERCATAT": 471
  },
- "kasus_aktif": 570,
+ "kasus_aktif": 588,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -16,23 +16,23 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 49
+   "kasus": 52
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 81
+   "kasus": 84
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 54
+   "kasus": 57
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 136
+   "kasus": 139
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 61
+   "kasus": 63
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -44,7 +44,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 103
+   "kasus": 107
   }
  },
  "provinsi": {
@@ -54,7 +54,7 @@
    "DARURAT": 1,
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 13
+   "TERCATAT": 14
   },
   "14": {
    "nama": "Riau",
@@ -89,6 +89,7 @@
    "nama": "Sumatera Selatan",
    "polda": "Polda Sumatera Selatan",
    "JALUR KHUSUS": 1,
+   "PANTAU": 1,
    "TERCATAT": 4
   },
   "63": {
@@ -138,7 +139,7 @@
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "JALUR KHUSUS": 1,
-   "PANTAU": 4,
+   "PANTAU": 5,
    "TERCATAT": 5
   },
   "72": {
@@ -177,7 +178,7 @@
    "polda": "Polda Jawa Tengah",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 6
+   "TERCATAT": 7
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -190,7 +191,7 @@
    "polda": "Polda Bali",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 5
+   "TERCATAT": 7
   },
   "15": {
    "nama": "Jambi",
@@ -201,7 +202,8 @@
   "96": {
    "nama": "Papua Tengah",
    "polda": "Polda yang membawahi Papua Tengah",
-   "PANTAU": 1
+   "PANTAU": 1,
+   "TERCATAT": 1
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -262,43 +264,48 @@
    "nama": "Papua Selatan",
    "polda": "Polda yang membawahi Papua Selatan",
    "TERCATAT": 1
+  },
+  "17": {
+   "nama": "Bengkulu",
+   "polda": "Polda Bengkulu",
+   "TERCATAT": 1
   }
  },
  "langkah": {
   "dengar": {
-   "artikel": 914,
+   "artikel": 909,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 6,
-   "sudah_ada": 901,
+   "relevan": 27,
+   "sudah_ada": 874,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 6,
-   "luar_negeri": 0,
-   "kasus_baru": 2,
-   "digabung": 4
+   "tidak_relevan": 4,
+   "bukan_kejadian": 3,
+   "luar_negeri": 1,
+   "kasus_baru": 18,
+   "digabung": 9
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 28,
    "TINDAK": 22,
-   "PANTAU": 64,
-   "TERCATAT": 455
+   "PANTAU": 66,
+   "TERCATAT": 471
   },
   "teruskan": {
    "polda": 30,
-   "kasus": 115
+   "kasus": 117
   },
   "kabarkan": {
-   "tanggapan_terlihat": 263,
-   "kasus": 570,
-   "median_jeda_jam": 5.9,
-   "n_jeda": 27,
+   "tanggapan_terlihat": 267,
+   "kasus": 588,
+   "median_jeda_jam": 5.3,
+   "n_jeda": 28,
    "melewati_batas": 13
   },
   "arsipkan": {
-   "baris": 570,
+   "baris": 588,
    "bulan": 1,
    "hari_riwayat": 3
   }
