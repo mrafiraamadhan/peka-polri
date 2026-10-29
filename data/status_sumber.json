@@ -1,0 +1,39 @@
+{
+ "diperbarui_utc": "2026-10-29T08:08:11Z",
+ "sumber": {
+  "Berita daring (Google News RSS)": {
+   "dicek_utc": "2026-10-29T08:08:37Z",
+   "ok": true,
+   "n": 912,
+   "pesan": "10 dari 10 kueri berhasil",
+   "berkas": "kasus_terkini.json"
+  },
+  "Daftar hoaks TurnBackHoax (MAFINDO)": {
+   "dicek_utc": "2026-10-29T08:08:38Z",
+   "ok": true,
+   "n": 10,
+   "pesan": "10 klaim terbaru",
+   "berkas": "ringkasan.json"
+  },
+  "Gempa BMKG": {
+   "dicek_utc": "2026-10-29T08:08:39Z",
+   "ok": true,
+   "n": 3,
+   "pesan": "3 dari 3 berkas",
+   "berkas": "bmkg.json"
+  },
+  "Volume berita GDELT (90 hari)": {
+   "dicek_utc": "2026-10-29T08:19:19Z",
+   "ok": true,
+   "n": 5,
+   "pesan": "perempuan_anak: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2; narkoba: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2",
+   "berkas": "gdelt_tren.json"
+  }
+ },
+ "log": [
+  "08:08:12 PEKA mulai 2026-10-29T08:08:11Z ",
+  "08:08:37 dengar berita: 912 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "08:19:19 dengar GDELT: 5/9 topik",
+  "08:19:21 pilah: {'masuk': 912, 'tidak_relevan': 30, 'hoaks': 6, 'sudah_ada': 11, 'kasus_baru': 683, 'gabung': 182, 'relevan': 865}"
+ ]
+}

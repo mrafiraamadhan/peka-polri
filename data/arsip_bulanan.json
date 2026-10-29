@@ -1,0 +1,72 @@
+{
+ "diperbarui_utc": "2026-10-29T08:08:11Z",
+ "bulan": [
+  {
+   "bulan": "2026-10",
+   "kasus": 683,
+   "topik": {
+    "konflik": 70,
+    "anggota": 61,
+    "perempuan_anak": 79,
+    "penipuan": 65,
+    "jalanan": 148,
+    "lalulintas": 72,
+    "narkoba": 100,
+    "darurat": 83,
+    "layanan": 5
+   },
+   "status": {
+    "DARURAT": 1,
+    "JALUR KHUSUS": 61,
+    "TINDAK": 27,
+    "PANTAU": 506,
+    "TERCATAT": 88
+   },
+   "provinsi_teratas": [
+    [
+     "Jawa Timur",
+     79
+    ],
+    [
+     "Jawa Barat",
+     33
+    ],
+    [
+     "Sumatera Utara",
+     27
+    ],
+    [
+     "Jawa Tengah",
+     21
+    ],
+    [
+     "Aceh",
+     19
+    ],
+    [
+     "DI Yogyakarta",
+     18
+    ],
+    [
+     "Lampung",
+     18
+    ],
+    [
+     "Riau",
+     17
+    ],
+    [
+     "Nusa Tenggara Barat",
+     17
+    ],
+    [
+     "Sumatera Selatan",
+     13
+    ]
+   ],
+   "tanggapan_terlihat": 110,
+   "median_jeda_jam": 1.9,
+   "n_jeda": 9
+  }
+ ]
+}
