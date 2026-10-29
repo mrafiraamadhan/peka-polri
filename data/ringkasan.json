@@ -1,14 +1,14 @@
 {
- "diperbarui_utc": "2026-10-29T18:38:23Z",
+ "diperbarui_utc": "2026-10-29T19:29:51Z",
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 27,
   "TINDAK": 22,
-  "PANTAU": 61,
-  "TERCATAT": 442
+  "PANTAU": 62,
+  "TERCATAT": 446
  },
- "kasus_aktif": 552,
+ "kasus_aktif": 557,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -16,19 +16,19 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 47
+   "kasus": 48
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 76
+   "kasus": 77
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 51
+   "kasus": 53
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 133
+   "kasus": 134
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -53,7 +53,7 @@
    "polda": "Polda Riau",
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 7
   },
   "35": {
@@ -75,7 +75,7 @@
    "polda": "Polda Lampung",
    "JALUR KHUSUS": 2,
    "PANTAU": 3,
-   "TERCATAT": 7
+   "TERCATAT": 8
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -182,7 +182,7 @@
    "polda": "Polda Bali",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -265,58 +265,47 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 914,
-   "sumber": 4
+   "artikel": 910,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 16,
-   "sudah_ada": 892,
+   "relevan": 17,
+   "sudah_ada": 885,
    "hoaks": 0,
-   "tidak_relevan": 2,
+   "tidak_relevan": 4,
    "bukan_kejadian": 3,
    "luar_negeri": 1,
-   "kasus_baru": 6,
-   "digabung": 10
+   "kasus_baru": 5,
+   "digabung": 12
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 27,
    "TINDAK": 22,
-   "PANTAU": 61,
-   "TERCATAT": 442
+   "PANTAU": 62,
+   "TERCATAT": 446
   },
   "teruskan": {
    "polda": 30,
-   "kasus": 110
+   "kasus": 111
   },
   "kabarkan": {
-   "tanggapan_terlihat": 253,
-   "kasus": 552,
-   "median_jeda_jam": 4.8,
-   "n_jeda": 25,
+   "tanggapan_terlihat": 257,
+   "kasus": 557,
+   "median_jeda_jam": 5.3,
+   "n_jeda": 26,
    "melewati_batas": 11
   },
   "arsipkan": {
-   "baris": 552,
+   "baris": 557,
    "bulan": 1,
    "hari_riwayat": 3
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [
-  {
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kemarin": 0,
-   "rata28": 10.7,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 3,
- "gempa_darurat": [
-  "95"
- ],
+ "gempa_darurat": [],
  "hoaks_terbaru": [
   {
    "judul": "[PENIPUAN] Lowongan Kerja iBox",

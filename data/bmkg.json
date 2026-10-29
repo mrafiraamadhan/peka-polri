@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-10-29T18:38:23Z",
+ "diperbarui_utc": "2026-10-29T19:29:51Z",
  "terbaru": {
-  "waktu_utc": "2026-10-29T03:26:49Z",
-  "magnitudo": 6.0,
-  "kedalaman": "120 km",
-  "wilayah": "Pusat gempa berada di darat 153 km tenggara Oksibil",
+  "waktu_utc": "2026-10-29T18:58:30Z",
+  "magnitudo": 4.3,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 31 km Timur Laut Kabupaten Gayolues",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Boven Digoel, II Jayapura, II Merauke",
-  "koordinat": "-5.45,141.90",
-  "prov": "Papua Selatan",
-  "kode_prov": "95"
+  "dirasakan": "III Takengon",
+  "koordinat": "4.18,97.55",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-10-29T18:58:30Z",
+   "magnitudo": 4.3,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 31 km Timur Laut Kabupaten Gayolues",
+   "potensi": null,
+   "dirasakan": "III Takengon",
+   "koordinat": "4.18,97.55",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-10-29T03:26:49Z",
    "magnitudo": 6.0,
@@ -165,17 +176,6 @@
    "koordinat": "-10.19,123.71",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-10-19T13:46:11Z",
-   "magnitudo": 4.2,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di darat 26 km Timur Laut Kab. Gayo Lues",
-   "potensi": null,
-   "dirasakan": "III Kab. Gayo Lues, II Aceh Timur",
-   "koordinat": "4.16,97.51",
-   "prov": "Aceh",
-   "kode_prov": "11"
   }
  ],
  "m5": [
