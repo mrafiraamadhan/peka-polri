@@ -2,21 +2,22 @@ name: PEKA - dengar keluhan publik
 
 on:
   schedule:
-    # Setiap jam pada menit ke-17 (GitHub menjalankan jadwal "sebisanya", bisa mundur 5-30 menit).
+    # Setiap jam pada menit ke-17. GitHub menjalankan jadwal "sebisanya": bisa mundur berjam-jam
+    # atau terlewat saat sibuk. Karena itu ada cadangan berantai pada job `berikutnya` di bawah.
     - cron: "17 * * * *"
   workflow_dispatch:      # bisa dijalankan manual dari tab Actions -> Run workflow
 
 permissions:
   contents: write         # supaya bot boleh menyimpan hasil ke folder data/
-
-concurrency:
-  group: peka-pipeline
-  cancel-in-progress: false
+  actions: write          # supaya putaran ini boleh menjadwalkan putaran berikutnya
 
 jobs:
   dengar:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
+    concurrency:
+      group: peka-pipeline
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
 
@@ -40,3 +41,40 @@ jobs:
           # tarik dulu commit terbaru (misalnya bila index.html baru diunggah) agar push tidak ditolak
           git pull --rebase origin main
           git push
+
+  # Cadangan bila jadwal GitHub terlambat atau terlewat.
+  # Job ini menunggu lewat "wait timer" pada environment `jeda-sejam` (atur sekali di
+  # Settings -> Environments -> jeda-sejam -> Wait timer 50 menit). Selama menunggu, tidak ada
+  # runner yang dipakai. Setelah itu job menjalankan putaran berikutnya, sehingga PEKA tetap
+  # berputar kira-kira setiap jam walau jadwal cron tidak datang.
+  # Pengaman: bila wait timer belum diatur (jeda < 40 menit), putaran berikutnya TIDAK dijalankan,
+  # supaya tidak terjadi putaran beruntun tanpa jeda. Bila sudah ada putaran lain yang menunggu
+  # atau berjalan, job ini juga tidak menambah putaran baru.
+  berikutnya:
+    needs: dengar
+    if: ${{ always() && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    environment: jeda-sejam
+    steps:
+      - name: Jadwalkan putaran berikutnya
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          mulai=$(gh api "repos/$REPO/actions/runs/$RUN_ID" --jq .run_started_at)
+          jeda=$(( ( $(date -u +%s) - $(date -u -d "$mulai" +%s) ) / 60 ))
+          echo "Putaran ini dimulai $mulai, sudah $jeda menit."
+          if [ "$jeda" -lt 40 ]; then
+            echo "::notice::Wait timer environment jeda-sejam belum diatur (jeda $jeda menit). Putaran berikutnya diserahkan ke jadwal cron."
+            exit 0
+          fi
+          lain=$(gh run list -R "$REPO" --workflow peka.yml --limit 20 --json databaseId,status \
+                 --jq "[.[] | select(.status != \"completed\" and .databaseId != $RUN_ID)] | length")
+          if [ "$lain" -gt 0 ]; then
+            echo "Sudah ada $lain putaran lain yang menunggu atau berjalan; tidak menambah putaran."
+            exit 0
+          fi
+          gh workflow run peka.yml -R "$REPO" --ref main
+          echo "Putaran berikutnya sudah dijalankan."
