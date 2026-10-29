@@ -1,15 +1,15 @@
 {
- "diperbarui_utc": "2026-10-29T20:16:45Z",
+ "diperbarui_utc": "2026-10-29T21:07:55Z",
  "terbaru": {
-  "waktu_utc": "2026-10-29T18:58:30Z",
-  "magnitudo": 4.3,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di darat 31 km Timur Laut Kabupaten Gayolues",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Takengon",
-  "koordinat": "4.18,97.55",
-  "prov": null,
-  "kode_prov": null
+  "waktu_utc": "2026-10-29T20:32:13Z",
+  "magnitudo": 5.3,
+  "kedalaman": "10 km",
+  "wilayah": "139 km BaratLaut TUAL-MALUKU",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "-4.40,132.49",
+  "prov": "Maluku",
+  "kode_prov": "81"
  },
  "dirasakan": [
   {
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-10-29T20:32:13Z",
+   "magnitudo": 5.3,
+   "kedalaman": "10 km",
+   "wilayah": "139 km BaratLaut TUAL-MALUKU",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-4.40,132.49",
+   "prov": "Maluku",
+   "kode_prov": "81"
+  },
+  {
    "waktu_utc": "2026-10-29T03:26:49Z",
    "magnitudo": 6.0,
    "kedalaman": "120 km",
@@ -332,17 +343,6 @@
    "koordinat": "-8.77,116.14",
    "prov": "Nusa Tenggara Barat",
    "kode_prov": "52"
-  },
-  {
-   "waktu_utc": "2026-10-06T13:11:23Z",
-   "magnitudo": 5.3,
-   "kedalaman": "10 km",
-   "wilayah": "219 km TimurLaut TARAKAN-KALTARA",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "4.94,118.77",
-   "prov": "Kalimantan Utara",
-   "kode_prov": "65"
   }
  ]
 }
