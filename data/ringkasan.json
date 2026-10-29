@@ -1,14 +1,14 @@
 {
- "diperbarui_utc": "2026-10-29T21:07:55Z",
+ "diperbarui_utc": "2026-10-29T21:59:03Z",
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 28,
   "TINDAK": 22,
-  "PANTAU": 63,
-  "TERCATAT": 454
+  "PANTAU": 64,
+  "TERCATAT": 455
  },
- "kasus_aktif": 568,
+ "kasus_aktif": 570,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -20,7 +20,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 80
+   "kasus": 81
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -44,7 +44,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 102
+   "kasus": 103
   }
  },
  "provinsi": {
@@ -138,7 +138,7 @@
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "JALUR KHUSUS": 1,
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 5
   },
   "72": {
@@ -192,6 +192,12 @@
    "PANTAU": 3,
    "TERCATAT": 5
   },
+  "15": {
+   "nama": "Jambi",
+   "polda": "Polda Jambi",
+   "PANTAU": 3,
+   "TERCATAT": 3
+  },
   "96": {
    "nama": "Papua Tengah",
    "polda": "Polda yang membawahi Papua Tengah",
@@ -207,12 +213,6 @@
    "nama": "Gorontalo",
    "polda": "Polda Gorontalo",
    "PANTAU": 1
-  },
-  "15": {
-   "nama": "Jambi",
-   "polda": "Polda Jambi",
-   "PANTAU": 3,
-   "TERCATAT": 3
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -270,35 +270,35 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 899,
+   "relevan": 6,
+   "sudah_ada": 901,
    "hoaks": 0,
-   "tidak_relevan": 3,
-   "bukan_kejadian": 3,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 6,
    "luar_negeri": 0,
-   "kasus_baru": 6,
-   "digabung": 3
+   "kasus_baru": 2,
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 28,
    "TINDAK": 22,
-   "PANTAU": 63,
-   "TERCATAT": 454
+   "PANTAU": 64,
+   "TERCATAT": 455
   },
   "teruskan": {
    "polda": 30,
-   "kasus": 114
+   "kasus": 115
   },
   "kabarkan": {
    "tanggapan_terlihat": 263,
-   "kasus": 568,
+   "kasus": 570,
    "median_jeda_jam": 5.9,
    "n_jeda": 27,
-   "melewati_batas": 12
+   "melewati_batas": 13
   },
   "arsipkan": {
-   "baris": 568,
+   "baris": 570,
    "bulan": 1,
    "hari_riwayat": 3
   }
