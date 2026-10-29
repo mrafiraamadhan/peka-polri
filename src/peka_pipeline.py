@@ -127,10 +127,13 @@ def regex_kata(kata):
     return re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(k) for k in kata) + r")(?![a-z0-9])")
 
 
-RE_TOPIK = [(t["id"], regex_kata(t["kata"])) for t in TOPIK["topik"]]
+RE_TOPIK = [(t["id"], regex_kata(t["kata"]), regex_kata(t["kecuali"]) if t.get("kecuali") else None)
+            for t in TOPIK["topik"]]
+RE_POLISI = regex_kata(TOPIK.get("kata_polisi", ["polisi", "polri"]))
 RE_TANGGAPAN = regex_kata(TOPIK["tanggapan"])
 RE_JIWA = regex_kata(TOPIK["ancaman_jiwa"])
 RE_BUKTI = regex_kata(TOPIK["bukti"])
+RE_BERAT = regex_kata(TOPIK.get("korban_berat", ["-"]))
 RE_HOAKS = regex_kata(TOPIK["hoaks"])
 RE_BUKAN = regex_kata(TOPIK.get("bukan_keluhan", ["-"]))
 RE_LUAR = regex_kata(TOPIK.get("luar_negeri", ["-"]))
@@ -234,8 +237,11 @@ def lokasi(teks):
 
 def topik_dari(judul):
     j = (judul or "").lower()
-    for tid, rx in RE_TOPIK:
+    for tid, rx, kecuali in RE_TOPIK:
         m = rx.search(j)
+        # pengecualian: "oknum anggota DPRD" bukan keluhan tentang anggota Polri, kecuali judulnya juga menyebut polisi
+        if m and kecuali and kecuali.search(j) and not RE_POLISI.search(j):
+            continue
         if m:
             return tid, m.group(1)
     return None, None
@@ -332,6 +338,9 @@ def gdelt_timeline(q, mulai, akhir):
     raw = ambil("https://api.gdeltproject.org/api/v2/doc/doc?" + urlencode(params), f"gdelt_{slug(q)}.json",
                 timeout=30, percobaan=1)
     teks = raw.decode("utf-8", "ignore").strip()
+    if not teks.startswith("{"):
+        # GDELT kadang menjawab HTTP 200 berisi teks "please limit requests"; perlakukan seperti 429
+        raise RuntimeError(("429 " if "limit" in teks.lower() else "") + "jawaban GDELT bukan JSON: " + teks[:60])
     j = json.loads(teks)
     harian, total = defaultdict(int), defaultdict(int)
     for seri in j.get("timeline", []):
@@ -548,7 +557,9 @@ BATAS = {"DARURAT": ("Diteruskan ≤5 menit", 1), "TINDAK": ("Pemeriksaan ≤24 
          "PANTAU": ("≤24 jam", 24), "TERCATAT": ("Rekap mingguan", None), "JALUR KHUSUS": ("Tanda terima ≤72 jam", 72)}
 
 
-def penanggung_jawab(status, lok):
+def penanggung_jawab(status, lok, berat=False, topik=None):
+    if status == "JALUR KHUSUS" and not lok:
+        return "Divisi Propam Polri; tembusan Kompolnas (lokasi belum jelas, tidak dikirim ke satuan wilayah)"
     if not lok:
         return "Belum dapat diteruskan: lokasi belum jelas (dipetakan manual oleh piket Polres terdekat)"
     polda, polres = lok["polda"], lok.get("polres")
@@ -556,6 +567,10 @@ def penanggung_jawab(status, lok):
         return f"Piket SPKT {polres or polda} dan layanan 110"
     if not polres and status in ("TINDAK", "PANTAU", "TERCATAT"):
         return f"{polda}: dipetakan ke Polres setempat setelah lokasi diperjelas"
+    if status == "TINDAK" and topik == "lalulintas":   # kecelakaan dan pelanggaran lalu lintas ditangani Satlantas
+        return f"Kasat Lantas {polres}; Kapolsek setempat ({polda})"
+    if status == "TINDAK" and berat:
+        return f"Kasat Reskrim {polres}; Kapolsek setempat ({polda})"
     if status == "TINDAK":
         return f"Kapolsek setempat; Kasat Reskrim {polres} bila pidana berat ({polda})"
     if status == "PANTAU":
@@ -575,6 +590,7 @@ def timbang(k, lonjakan, gempa_darurat):
     lokasi_jelas = bool(lok and lok.get("kode_kab"))
     ancaman = RE_JIWA.search(judul)
     bukti = RE_BUKTI.search(judul)
+    berat = RE_BERAT.search(judul)       # korban jiwa, luka berat, atau kekerasan seksual
     # KABARKAN: apakah tanggapan polisi sudah terlihat di pemberitaan?
     urut = sorted(k["artikel"], key=lambda a: a["terbit"])
     tanggap = None
@@ -599,11 +615,15 @@ def timbang(k, lonjakan, gempa_darurat):
         else:
             alasan += [f"baru terjadi ({umur_jam:.0f} jam)", f"ancaman jiwa: “{ancaman.group(1)}”",
                        "lokasi jelas", f"{len(media)} media"]
-    elif t.get("pidana") and lokasi_jelas and (len(media) >= MIN_MEDIA_TINDAK or bukti):
+    elif t.get("pidana") and lokasi_jelas and (len(media) >= MIN_MEDIA_TINDAK or bukti or berat):
         status = "TINDAK"
         alasan.append("pidana/keselamatan")
-        alasan.append(f"{len(media)} media berbeda ≥ {MIN_MEDIA_TINDAK} dalam 72 jam" if len(media) >= MIN_MEDIA_TINDAK
-                      else f"ada bukti: “{bukti.group(1)}”")
+        if berat:
+            alasan.append(f"korban jiwa, luka berat, atau kekerasan seksual: “{berat.group(1)}”")
+        elif len(media) >= MIN_MEDIA_TINDAK:
+            alasan.append(f"{len(media)} media berbeda ≥ {MIN_MEDIA_TINDAK} dalam 72 jam")
+        else:
+            alasan.append(f"ada bukti: “{bukti.group(1)}”")
         alasan.append("lokasi jelas")
     else:
         kunci = (lok["kode_prov"] if lok else None, k["topik"])
@@ -613,7 +633,7 @@ def timbang(k, lonjakan, gempa_darurat):
             alasan.append(f"lonjakan: {L['hari_ini']} kasus 24 jam ≥ 2 × rata-rata {L['rata']:.1f} dan ≥ 5")
         elif t.get("pidana") and lok:
             status = "PANTAU"
-            alasan.append("pidana/keselamatan tanpa bukti dan < 3 media" if lokasi_jelas
+            alasan.append("pidana/keselamatan tanpa bukti, tanpa korban berat, dan < 3 media" if lokasi_jelas
                           else "pidana/keselamatan, lokasi baru sampai provinsi")
         else:
             status = "TERCATAT"
@@ -629,8 +649,8 @@ def timbang(k, lonjakan, gempa_darurat):
     return {
         "id": k["id"], "topik": k["topik"], "topik_nama": t["nama"], "status": status, "status_awal": status_awal,
         "alasan": alasan,
-        "lok": lok, "penanggung_jawab": penanggung_jawab(status, lok), "batas_waktu": batas_teks,
-        "penanggung_jawab_awal": penanggung_jawab(status_awal, lok), "batas_awal": BATAS[status_awal][0],
+        "lok": lok, "penanggung_jawab": penanggung_jawab(status, lok, bool(berat), k["topik"]), "batas_waktu": batas_teks,
+        "penanggung_jawab_awal": penanggung_jawab(status_awal, lok, bool(berat), k["topik"]), "batas_awal": BATAS[status_awal][0],
         "pertama": k["pertama"], "terakhir": k["terakhir"], "umur_jam": round(umur_jam, 1),
         "n_media": len(media), "n_artikel": len(k["artikel"]), "media": media[:8],
         "judul": urut[0]["judul"],
@@ -686,7 +706,7 @@ def hitung_lonjakan(arsip, aktif):
     awal = min((r["tanggal_wib"] for r in arsip.values()), default=None)
     hari_riwayat = 0
     harian = Counter()
-    batas_bawah = (NOW - timedelta(days=29)).astimezone(WIB).strftime("%Y-%m-%d")
+    batas_bawah = (NOW - timedelta(days=28)).astimezone(WIB).strftime("%Y-%m-%d")
     kemarin = (NOW - timedelta(days=1)).astimezone(WIB).strftime("%Y-%m-%d")
     for r in arsip.values():
         if batas_bawah <= r["tanggal_wib"] <= kemarin:
@@ -706,6 +726,8 @@ def hitung_lonjakan(arsip, aktif):
 def lonjakan_nasional(gd):
     out = []
     for tid, s in gd.get("topik", {}).items():
+        if s.get("lama"):          # deret lama tidak dipakai untuk menilai lonjakan kemarin
+            continue
         a = s["artikel"]
         if len(a) < 30:
             continue
@@ -778,19 +800,19 @@ def papan_kabar_balik(arsip):
             tanpa += 1
             continue
         b = per[polda]
-        sa = r.get("status_awal") or r["status"]
+        sa = r.get("status_awal") or ""      # baris arsip versi lama tidak punya status awal
         tg = int(r["tanggapan_terlihat"] or 0)
         b["kasus"] += 1
         b["tanggap"] += tg
         b["topik"][r["topik"]] += 1
+        if r["status"] == "JALUR KHUSUS" or sa == "JALUR KHUSUS":
+            b["jalur_khusus"] += 1
         if sa in PERLU:
             b["perlu"] += 1
             b["perlu_tanggap"] += tg
-        if sa == "JALUR KHUSUS":
-            b["jalur_khusus"] += 1
-        b["lewat"] += int(r.get("melewati_batas") or 0)
-        if r["jeda_tanggapan_jam"] not in ("", None):
-            b["jeda"].append(float(r["jeda_tanggapan_jam"]))
+            b["lewat"] += int(r.get("melewati_batas") or 0)
+            if r["jeda_tanggapan_jam"] not in ("", None):
+                b["jeda"].append(float(r["jeda_tanggapan_jam"]))
     out = []
     for b in per.values():
         out.append({"polda": b["polda"], "provinsi": b["provinsi"], "kasus": b["kasus"], "perlu": b["perlu"],
@@ -828,10 +850,10 @@ def titik_rawan(arsip):
         polda, polres = polda_dari(rs[0])
         out.append({"kode_kab": kab, "kabkota": rs[0]["kabkota"], "kode_prov": rs[0]["kode_prov"],
                     "provinsi": rs[0]["provinsi"], "polda": polda, "polres": polres, "topik": tp,
-                    "nama": TOPIK_BY[tp]["nama"], "kejadian": len(kejadian), "kasus": len(rs),
+                    "nama": TOPIK_BY.get(tp, {}).get("nama", tp), "kejadian": len(kejadian), "kasus": len(rs),
                     "tanggal": [k[0]["tanggal_wib"] for k in kejadian],
                     "kejadian_ditanggapi": sum(1 for k in kejadian if any(int(r["tanggapan_terlihat"] or 0) for r in k)),
-                    "penanggung_jawab": f"Kasat Binmas {polres or polda} bersama pemerintah daerah"})
+                    "penanggung_jawab": (f"Kasat Binmas {polres}" if polres else f"Dirbinmas {polda}") + " bersama pemerintah daerah"})
     out.sort(key=lambda x: (-x["kejadian"], -x["kasus"], x["kabkota"]))
     return out
 
@@ -845,6 +867,20 @@ def main():
     batas = iso(NOW - SIMPAN)
     terlihat = {k: v for k, v in terlihat.items() if v and v >= batas}
     kasus = [k for k in kasus if k["terakhir"] >= batas]
+    # Aturan dapat diperbaiki (mis. kata pengecualian baru). Kasus di cache disaring ulang dengan aturan
+    # terbaru supaya salah golong lama tidak terus tampil; kasus yang tidak lolos dihapus juga dari arsip.
+    salah_golong = set()
+    for k in kasus:
+        k["artikel"] = [a for a in k["artikel"] if topik_dari(a["judul"])[0] == k["topik"]
+                        and not RE_BUKAN.search(a["judul"].lower())]
+        if k["artikel"]:
+            k["pertama"] = min(a["terbit"] for a in k["artikel"])
+            k["terakhir"] = max(a["terbit"] for a in k["artikel"])
+        else:
+            salah_golong.add(k["id"])
+    kasus = [k for k in kasus if k["artikel"]]
+    if salah_golong:
+        log("saring ulang:", len(salah_golong), "kasus lama tidak lolos aturan terbaru")
 
     artikel = dengar_berita()
     hoaks = dengar_hoaks()
@@ -865,6 +901,8 @@ def main():
             gempa_darurat.add(g["kode_prov"])
 
     arsip = muat_arsip()
+    for i in salah_golong:
+        arsip.pop(i, None)
     aktif_kasus = [k for k in kasus if NOW - dari_iso(k["terakhir"]) <= JENDELA]
     # timbang dua kali: putaran pertama untuk menghitung lonjakan, putaran kedua memakai lonjakan
     awal = [timbang(k, {}, gempa_darurat) for k in aktif_kasus]
