@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-10-29T23:41:24Z",
+ "diperbarui_utc": "2026-10-29T23:57:46Z",
  "jendela_hari": 30,
  "hari_riwayat": 3,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 294,
+ "kasus_tanpa_polda": 295,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -97,23 +97,23 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 17,
-   "perlu": 14,
-   "perlu_tanggap": 9,
-   "persen_tanggap": 64.3,
-   "tanggap": 9,
+   "kasus": 18,
+   "perlu": 15,
+   "perlu_tanggap": 10,
+   "persen_tanggap": 66.7,
+   "tanggap": 10,
    "jalur_khusus": 1,
    "melewati_batas": 2,
    "median_jeda_jam": 0.4,
    "n_jeda": 1,
    "topik_teratas": [
     [
-     "jalanan",
+     "konflik",
      5
     ],
     [
-     "konflik",
-     4
+     "jalanan",
+     5
     ],
     [
      "darurat",
@@ -238,6 +238,64 @@
    ]
   },
   {
+   "polda": "Polda Bali",
+   "provinsi": [
+    "51"
+   ],
+   "kasus": 12,
+   "perlu": 10,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 60.0,
+   "tanggap": 6,
+   "jalur_khusus": 0,
+   "melewati_batas": 2,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "penipuan",
+     5
+    ],
+    [
+     "lalulintas",
+     2
+    ],
+    [
+     "narkoba",
+     2
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Jawa Tengah",
+   "provinsi": [
+    "33"
+   ],
+   "kasus": 12,
+   "perlu": 10,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 60.0,
+   "tanggap": 6,
+   "jalur_khusus": 0,
+   "melewati_batas": 0,
+   "median_jeda_jam": 4.6,
+   "n_jeda": 3,
+   "topik_teratas": [
+    [
+     "jalanan",
+     4
+    ],
+    [
+     "perempuan_anak",
+     2
+    ],
+    [
+     "penipuan",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Barat",
    "provinsi": [
     "61"
@@ -262,64 +320,6 @@
     ],
     [
      "perempuan_anak",
-     2
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Bali",
-   "provinsi": [
-    "51"
-   ],
-   "kasus": 11,
-   "perlu": 9,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 55.6,
-   "tanggap": 5,
-   "jalur_khusus": 0,
-   "melewati_batas": 2,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "penipuan",
-     5
-    ],
-    [
-     "lalulintas",
-     2
-    ],
-    [
-     "layanan",
-     1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Jawa Tengah",
-   "provinsi": [
-    "33"
-   ],
-   "kasus": 11,
-   "perlu": 9,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 55.6,
-   "tanggap": 5,
-   "jalur_khusus": 0,
-   "melewati_batas": 0,
-   "median_jeda_jam": 4.6,
-   "n_jeda": 3,
-   "topik_teratas": [
-    [
-     "jalanan",
-     4
-    ],
-    [
-     "perempuan_anak",
-     2
-    ],
-    [
-     "darurat",
      2
     ]
    ]
@@ -408,6 +408,35 @@
    ]
   },
   {
+   "polda": "Polda Sumatera Selatan",
+   "provinsi": [
+    "16"
+   ],
+   "kasus": 7,
+   "perlu": 7,
+   "perlu_tanggap": 4,
+   "persen_tanggap": 57.1,
+   "tanggap": 4,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": 16.9,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     4
+    ],
+    [
+     "jalanan",
+     2
+    ],
+    [
+     "anggota",
+     1
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Selatan",
    "provinsi": [
     "63"
@@ -490,35 +519,6 @@
     ],
     [
      "narkoba",
-     1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sumatera Selatan",
-   "provinsi": [
-    "16"
-   ],
-   "kasus": 6,
-   "perlu": 6,
-   "perlu_tanggap": 4,
-   "persen_tanggap": 66.7,
-   "tanggap": 4,
-   "jalur_khusus": 1,
-   "melewati_batas": 0,
-   "median_jeda_jam": 16.9,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     3
-    ],
-    [
-     "jalanan",
-     2
-    ],
-    [
-     "anggota",
      1
     ]
    ]
@@ -636,7 +636,7 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 5,
+   "kasus": 6,
    "perlu": 2,
    "perlu_tanggap": 1,
    "persen_tanggap": 50.0,
@@ -648,7 +648,7 @@
    "topik_teratas": [
     [
      "darurat",
-     3
+     4
     ],
     [
      "lalulintas",
@@ -734,11 +734,11 @@
    "n_jeda": 1,
    "topik_teratas": [
     [
-     "narkoba",
+     "perempuan_anak",
      1
     ],
     [
-     "perempuan_anak",
+     "narkoba",
      1
     ]
    ]
