@@ -8,5 +8,6 @@ Diisi otomatis oleh `src/peka_pipeline.py` setiap jam. Jangan diedit manual.
 - `bmkg.json` - gempa terbaru, gempa M 5+, dan gempa dirasakan (sumber: BMKG)
 - `arsip_kasus.csv` - arsip satu baris per kasus, tanpa judul, tautan, atau identitas
 - `arsip_bulanan.json` - rekap bulanan untuk Pusat Sejarah Polri
+- `polda.json` - papan kabar balik per Polda (30 hari) dan titik rawan berulang
 - `status_sumber.json` - kapan tiap sumber dicek, berhasil atau gagal, dan log singkat
 - `_kasus_cache.json`, `_terlihat.json` - cache internal (dihapus otomatis setelah 4 hari)

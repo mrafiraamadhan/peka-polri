@@ -19,7 +19,18 @@
     lalulintas: "Lalu lintas", layanan: "Layanan kepolisian", darurat: "Bencana dan keadaan darurat",
   };
   const lencana = s => `<span class="lencana s-${ST[s].cls}">${ST[s].ikon} ${ST[s].nama}</span>`;
-  const D = { ringkasan: null, kasus: null, gdelt: null, bmkg: null, arsip: null, sumber: null };
+  const D = { ringkasan: null, kasus: null, gdelt: null, bmkg: null, arsip: null, sumber: null, polda: null };
+  const SITUS = /github\.io$/.test(location.hostname) ? location.origin + location.pathname : "https://mrafiraamadhan.github.io/peka-polri/";
+  const BATAS_JAM = { "DARURAT": 1, "TINDAK": 72, "PANTAU": 24, "JALUR KHUSUS": 72, "TERCATAT": null };
+  function qrSvg(teks) {
+    try {
+      if (typeof qrcode !== "function") return "";
+      const q = qrcode(0, "M"); q.addData(teks); q.make();
+      return q.createSvgTag({ cellSize: 4, margin: 2, scalable: true });
+    } catch (e) { return ""; }
+  }
+  const simpan = (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* abaikan */ } };
+  const baca = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
   const F = { status: "", topik: "", prov: "", urut: "status", cari: "", n: 24 };
   let topikTren = "jalanan";
 
@@ -59,9 +70,11 @@
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", gambarGrafik);
 
   // ------------------------------------------------------------ tab
-  const TABS = ["ringkasan", "pantau", "tren", "uji", "arsip", "sejarah", "metodologi"];
+  const TABS = ["ringkasan", "pantau", "polda", "tren", "uji", "arsip", "sejarah", "metodologi"];
+  let tabAktif = "ringkasan", lacakTunda = null;
   function buka(tab, gulir) {
     if (!TABS.includes(tab)) tab = "ringkasan";
+    tabAktif = tab;
     document.querySelectorAll(".tabbtn").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab ? "true" : "false"));
     document.querySelectorAll(".panel").forEach(p => p.classList.toggle("aktif", p.id === "tab-" + tab));
     if (location.hash !== "#" + tab) history.replaceState(null, "", "#" + tab);
@@ -76,7 +89,12 @@
     const a = e.target.closest("[data-ke]");
     if (a) { e.preventDefault(); buka(a.dataset.ke, "paksa"); }
   });
-  addEventListener("hashchange", () => buka(location.hash.slice(1)));
+  function rute() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h.startsWith("lacak=")) { bukaLacak(h.slice(6)); return; }
+    buka(h);
+  }
+  addEventListener("hashchange", rute);
 
   // ------------------------------------------------------------ data
   async function ambil(nama) {
@@ -87,14 +105,16 @@
     } catch (e) { return null; }
   }
   async function muat() {
-    const [ri, ka, gd, bm, ar, su] = await Promise.all(["ringkasan.json", "kasus_terkini.json", "gdelt_tren.json", "bmkg.json", "arsip_bulanan.json", "status_sumber.json"].map(ambil));
-    Object.assign(D, { ringkasan: ri, kasus: ka, gdelt: gd, bmkg: bm, arsip: ar, sumber: su });
+    const [ri, ka, gd, bm, ar, su, po] = await Promise.all(["ringkasan.json", "kasus_terkini.json", "gdelt_tren.json", "bmkg.json", "arsip_bulanan.json", "status_sumber.json", "polda.json"].map(ambil));
+    Object.assign(D, { ringkasan: ri, kasus: ka, gdelt: gd, bmkg: bm, arsip: ar, sumber: su, polda: po });
     gambarSemua();
+    if (lacakTunda) { const id = lacakTunda; lacakTunda = null; bukaLacak(id); }
   }
 
   function gambarSemua() {
     sampul(); spanduk(); kartuStatus(); narasi(); langkah(); prioritas(); sumber();
-    isiSaring(); peta(); daftar(); lonjakanWilayah(); multi(); gempa(); hoaks(); arsip();
+    isiSaring(); peta(); daftar(); isiPolda(); lembar(); papan(); titikRawan();
+    lonjakanWilayah(); multi(); gempa(); hoaks(); arsip();
     gambarGrafik();
   }
   function gambarGrafik() {
@@ -188,7 +208,8 @@
           <dt>Diberitakan</dt><dd>${fmt(h.n_media)} media · ${fmt(h.n_artikel)} berita</dd></dl>
       <div class="alasan">${(h.alasan || []).map(a => `<code>${esc(a)}</code>`).join("")}</div>
       ${kabar}
-      <details class="artikel"><summary>Berita dalam kasus ini (${fmt(h.n_artikel)})</summary><ul>${art}</ul></details>
+      <div class="kaki-kasus"><details class="artikel"><summary>Berita dalam kasus ini (${fmt(h.n_artikel)})</summary><ul>${art}</ul></details>
+      <a class="lacak-tautan" href="#lacak=${esc(h.id)}">Lacak kabar →</a></div>
     </article>`;
   }
   function prioritas() {
@@ -348,17 +369,167 @@
     });
     $("legenda-peta").innerHTML = modePeta === "kasus"
       ? `<span>sedikit</span>${[1, 2, 3, 4, 5, 6].map(i => `<i style="background:var(--seq-${i})"></i>`).join("")}<span>banyak kasus</span>
-         <span style="margin-left:14px">lingkaran = jumlah kasus, warna = status tertinggi: ${URUT.map(k => `${ST[k].ikon} ${ST[k].nama}`).join(" · ")}</span>`
+         <span style="margin-left:14px;white-space:normal">lingkaran = jumlah kasus, warna = status tertinggi: ${URUT.map(k => `${ST[k].ikon} ${ST[k].nama}`).join(" · ")}</span>`
       : `<span>korban yang <b>tidak</b> melapor ke polisi, 2024:</span>${["< 70%", "70–75%", "75–80%", "80–85%", "85–90%", "≥ 90%"].map((t, i) => `<i style="background:var(--seq-${i + 1})"></i><span>${t}</span>`).join("")}<i style="background:repeating-linear-gradient(45deg,var(--ink-3) 0 1.5px,var(--surface-2) 1.5px 5px)"></i><span>NA (tidak tersedia)</span>`;
     // panel suara senyap
-    const daftarSenyap = Object.keys(BPS_LAPOR).filter(c => BPS_LAPOR[c][1] != null).sort((a, b) => BPS_LAPOR[a][1] - BPS_LAPOR[b][1]).slice(0, 6);
+    const daftarSenyap = Object.keys(BPS_LAPOR).filter(c => rata2(c) != null).sort((a, b) => rata2(a) - rata2(b)).slice(0, 6);
     $("senyap").innerHTML = `<div class="kartu blok" style="box-shadow:none">
-      <b>Suara senyap: provinsi dengan korban paling jarang melapor (BPS, 2024)</b>
-      <div class="tabel-wadah" style="margin-top:8px"><table class="tbl"><thead><tr><th>Provinsi</th><th class="n">Melapor 2024</th><th class="n">Tidak melapor</th><th class="n">Kasus PEKA aktif</th></tr></thead><tbody>
-      ${daftarSenyap.map(c => `<tr><td>${esc(PETA.prov[c] ? PETA.prov[c].nama : NAMA_PROV[c])}</td><td class="n">${fmtPersen(BPS_LAPOR[c][1])}</td><td class="n">${fmtPersen(senyap(c))}</td><td class="n">${fmt(tot(c))}</td></tr>`).join("")}
+      <b>Suara senyap: provinsi yang konsisten paling jarang melapor (rata-rata BPS 2023–2024)</b>
+      <div class="tabel-wadah" style="margin-top:8px"><table class="tbl"><thead><tr><th>Provinsi</th><th class="n">Melapor 2023</th><th class="n">Melapor 2024</th><th class="n">Rata-rata</th><th class="n">Kasus PEKA aktif</th></tr></thead><tbody>
+      ${daftarSenyap.map(c => `<tr><td>${esc(PETA.prov[c] ? PETA.prov[c].nama : NAMA_PROV[c])}</td><td class="n">${fmtPersen(BPS_LAPOR[c][0])}</td><td class="n">${fmtPersen(BPS_LAPOR[c][1])}</td><td class="n"><b>${fmtPersen(rata2(c))}</b></td><td class="n">${fmt(tot(c))}</td></tr>`).join("")}
       </tbody></table></div>
-      <p class="kecil" style="margin:8px 0 0">Nasional: ${fmtPersen(BPS_NASIONAL[1])} korban melapor pada 2024. Di provinsi seperti ini, keluhan yang sampai ke berita hanya puncak gunung es; kanal yang dekat dengan warga (Bhabinkamtibmas, akun resmi Polres, layanan 110) paling dibutuhkan. Angka provinsi berasal dari sampel Susenas yang kecil sehingga dapat naik-turun tajam antartahun.</p></div>`;
+      <p class="kecil" style="margin:8px 0 0">Nasional: ${fmtPersen(BPS_NASIONAL[0])} (2023) dan ${fmtPersen(BPS_NASIONAL[1])} (2024) korban melapor. Tabel memakai rata-rata dua tahun karena angka provinsi berasal dari sampel Susenas yang kecil dan dapat naik-turun tajam; Gorontalo, misalnya, 42,46% pada 2023 lalu 7,91% pada 2024. Provinsi yang konsisten senyap adalah calon lokasi uji coba PEKA: di sana keluhan yang sampai ke berita hanya puncak gunung es, sehingga kanal yang dekat dengan warga (Bhabinkamtibmas, akun resmi Polres, layanan 110) paling dibutuhkan.</p></div>`;
   }
+  const rata2 = c => BPS_LAPOR[c] && BPS_LAPOR[c][0] != null && BPS_LAPOR[c][1] != null ? +((BPS_LAPOR[c][0] + BPS_LAPOR[c][1]) / 2).toFixed(2) : null;
+
+  // ------------------------------------------------------------ per Polda
+  let poldaPilih = baca("peka-polda") || "";
+  const URUT_PERLU = ["DARURAT", "JALUR KHUSUS", "TINDAK", "PANTAU"];
+  const PROV_POLDA = {};   // Polda -> [kode provinsi], dari polda.json
+  function kasusPolda(p) { return (D.kasus ? D.kasus.kasus : []).filter(h => h.lok && h.lok.polda === p); }
+  function perluPolda(p) {
+    return kasusPolda(p).filter(h => URUT_PERLU.includes(h.status) && !h.tanggapan)
+      .sort((a, b) => (URUT.indexOf(a.status) - URUT.indexOf(b.status)) || ((b.melewati_batas ? 1 : 0) - (a.melewati_batas ? 1 : 0)) || a.pertama.localeCompare(b.pertama));
+  }
+  const namaPolda = p => p.replace("Polda yang membawahi ", "Polda (wilayah) ");
+  function isiPolda() {
+    const sel = $("f-polda"); if (!sel) return;
+    const papanP = D.polda ? D.polda.polda : [];
+    papanP.forEach(r => { PROV_POLDA[r.polda] = r.provinsi; });
+    const semua = papanP.length ? papanP.map(r => r.polda) : [...new Set((D.kasus ? D.kasus.kasus : []).filter(h => h.lok).map(h => h.lok.polda))];
+    const nPerlu = {}; semua.forEach(p => nPerlu[p] = perluPolda(p).length);
+    if (!poldaPilih || !semua.includes(poldaPilih)) poldaPilih = semua.slice().sort((a, b) => nPerlu[b] - nPerlu[a] || a.localeCompare(b))[0] || "";
+    sel.innerHTML = semua.slice().sort((a, b) => a.localeCompare(b)).map(p => `<option value="${esc(p)}">${esc(namaPolda(p))} · ${fmt(nPerlu[p])} perlu tindak lanjut</option>`).join("");
+    sel.value = poldaPilih;
+  }
+  $("f-polda").onchange = e => { poldaPilih = e.target.value; simpan("peka-polda", poldaPilih); lembar(); papan(); };
+  function lembar() {
+    const el = $("lembar"); if (!el) return;
+    if (!D.kasus || !poldaPilih) { el.innerHTML = `<div class="kosong">Ringkasan pagi muncul setelah putaran pertama.</div>`; return; }
+    const p = poldaPilih, aktif = kasusPolda(p), perlu = perluPolda(p);
+    const lewat = aktif.filter(h => h.melewati_batas).length, tg = aktif.filter(h => h.tanggapan).length;
+    const baris = D.polda ? D.polda.polda.find(r => r.polda === p) : null;
+    const prov = (PROV_POLDA[p] || [...new Set(aktif.map(h => h.lok.kode_prov))]);
+    const waktu = D.ringkasan ? wib(D.ringkasan.diperbarui_utc) : wib(D.kasus.diperbarui_utc);
+    const kpi = [[fmt(aktif.length), "kasus aktif", "berita terakhir ≤ 72 jam"], [fmt(perlu.length), "perlu ditindaklanjuti", "berstatus Darurat, Jalur khusus, Tindak, atau Pantau dan belum terlihat ditanggapi"],
+      [fmt(lewat), "melewati batas", "tanpa tanggapan yang terlihat"], [fmt(tg), "sudah terlihat ditanggapi", "tanggapan muncul di berita"]];
+    const N = 10;
+    const tabel = perlu.length ? `<div class="tabel-wadah"><table class="tbl lembar-tbl"><thead><tr><th>Status</th><th>Kab/kota</th><th>Kejadian</th><th>Penanggung jawab</th><th>Batas waktu</th></tr></thead><tbody>${perlu.slice(0, N).map(h => {
+      const pj = h.penanggung_jawab.replace(/\s*\(Polda[^)]*\)$/, "");
+      return `<tr><td>${lencana(h.status)}</td><td>${esc(h.lok.kab ? h.lok.kab.replace(/^Kabupaten /, "Kab. ") : "(provinsi)")}</td>
+        <td><a href="#lacak=${esc(h.id)}">${esc(h.judul.length > 120 ? h.judul.slice(0, 117) + "…" : h.judul)}</a><div class="kecil">pertama ${lalu(h.pertama)} · ${fmt(h.n_media)} media</div></td>
+        <td>${esc(pj)}</td><td>${h.melewati_batas ? `<b class="merah">⚠ lewat</b><div class="kecil">${esc(h.batas_waktu)}</div>` : esc(h.batas_waktu)}</td></tr>`;
+    }).join("")}</tbody></table></div>${perlu.length > N ? `<p class="kecil" style="margin:6px 0 0">dan ${fmt(perlu.length - N)} kasus lain; daftar lengkap di tab Pantau Langsung.</p>` : ""}`
+      : `<p style="margin:0">Tidak ada kasus yang perlu ditindaklanjuti dalam 72 jam terakhir.</p>`;
+    const sejak = D.polda && D.polda.arsip_sejak_utc ? new Date(D.polda.arsip_sejak_utc) : null;
+    const kurun = sejak && (Date.now() - sejak) < 30 * 864e5 ? `sejak arsip dimulai ${wib(D.polda.arsip_sejak_utc, { hour: undefined, minute: undefined }).replace(" WIB", "")}` : "30 hari terakhir";
+    const kb = baris && baris.perlu ? `Dari <b>${fmt(baris.perlu)}</b> kasus yang perlu ditindaklanjuti (${kurun}), tanggapan terlihat pada <b>${fmt(baris.perlu_tanggap)}</b> kasus (${fmt(baris.persen_tanggap, 0)}%)${baris.median_jeda_jam != null ? `, median jeda <b>${fmt(baris.median_jeda_jam, 1)} jam</b>` : ""}. ${fmt(baris.melewati_batas)} melewati batas; ${fmt(baris.jalur_khusus)} masuk jalur khusus ke Propam.`
+      : `Belum ada kasus perlu tindak lanjut di arsip (${kurun}).`;
+    const sn = prov.filter(c => BPS_LAPOR[c]).map(c => {
+      const b = BPS_LAPOR[c], r2 = rata2(c), nas = (BPS_NASIONAL[0] + BPS_NASIONAL[1]) / 2;
+      return `<b>${esc(NAMA_PROV[c])}</b>: korban yang melapor ke polisi ${fmtPersen(b[0])} (2023) dan ${fmtPersen(b[1])} (2024); nasional ${fmtPersen(BPS_NASIONAL[1])} (2024).${r2 != null && r2 < nas ? " Rata-rata dua tahunnya di bawah nasional: perkuat kanal yang dekat dengan warga." : ""}`;
+    }).join("<br>") || "—";
+    const rw = D.polda ? (D.polda.titik_rawan || []).filter(t => t.polda === p) : [];
+    const ar = D.polda ? D.polda.aturan_rawan : null;
+    const rawanHtml = rw.length ? `<ul class="rapat">${rw.map(t => `<li><b>${esc(t.kabkota)}</b> · ${esc(t.nama)}: ${fmt(t.kejadian)} kejadian (${t.tanggal.map(d => tglPendek(d)).join(", ")}) → ${esc(t.penanggung_jawab)}</li>`).join("")}</ul>`
+      : `<p style="margin:0">Belum ada. Aturan: ≥ ${ar ? ar.min_kejadian : 3} kejadian terpisah pada topik yang sama di satu kab/kota dalam ${ar ? ar.jendela_hari : 30} hari.</p>`;
+    const qr = qrSvg(SITUS + "#polda");
+    el.innerHTML = `<header class="lembar-kepala">
+        <div><div class="lembar-label">RINGKASAN PAGI · PEKA</div><h3>${esc(namaPolda(p))}</h3>
+          <div class="kecil">${prov.map(c => esc(NAMA_PROV[c] || c)).join(", ")} · data putaran ${waktu}</div></div>
+        ${qr ? `<div class="lembar-qr">${qr}<span>versi terbaru</span></div>` : ""}
+      </header>
+      <div class="lembar-kpi">${kpi.map(k => `<div><div class="num besar">${k[0]}</div><b>${k[1]}</b><div class="kecil">${k[2]}</div></div>`).join("")}</div>
+      <h4>Perlu ditindaklanjuti hari ini</h4>${tabel}
+      <div class="lembar-dua">
+        <section><h4>Kabar balik</h4><p>${kb}</p></section>
+        <section><h4>Suara senyap (BPS)</h4><p>${sn}</p></section>
+      </div>
+      <section><h4>Titik rawan berulang</h4>${rawanHtml}</section>
+      <footer class="lembar-kaki">Disusun otomatis oleh purwarupa PEKA dari judul berita publik; setiap kasus perlu diverifikasi petugas sebelum ditindak. Indikatif, bukan penilaian kinerja. Bukan kanal resmi Polri. ${esc(SITUS)}</footer>`;
+  }
+  function papan() {
+    const el = $("tabel-papan"); if (!el) return;
+    const P = D.polda ? D.polda.polda.filter(r => r.kasus) : [];
+    if (!P.length) { el.innerHTML = `<tbody><tr><td class="kosong">Papan terisi setelah arsip memuat kasus.</td></tr></tbody>`; $("papan-ket").textContent = ""; return; }
+    el.innerHTML = `<thead><tr><th>Polda</th><th class="n">Kasus</th><th class="n">Perlu tindak lanjut</th><th>Tanggapan terlihat</th><th class="n">Median jeda</th><th class="n">Melewati batas</th><th class="n">Jalur khusus</th><th class="n">Korban melapor, BPS 2024</th></tr></thead><tbody>` +
+      P.map(r => {
+        const pc = r.persen_tanggap, bps = r.provinsi.map(c => BPS_LAPOR[c] ? BPS_LAPOR[c][1] : null).filter(v => v != null);
+        return `<tr class="baris-polda${r.polda === poldaPilih ? " pilih" : ""}" data-polda="${esc(r.polda)}" tabindex="0">
+          <td>${esc(namaPolda(r.polda))}</td><td class="n">${fmt(r.kasus)}</td><td class="n">${fmt(r.perlu)}</td>
+          <td>${r.perlu ? `<div class="batang-pc"><span style="width:${pc || 0}%"></span></div><span class="num kecil">${fmt(r.perlu_tanggap)} dari ${fmt(r.perlu)} · <b>${fmt(pc, 0)}%</b></span>` : `<span class="kecil">—</span>`}</td>
+          <td class="n">${r.median_jeda_jam != null ? fmt(r.median_jeda_jam, 1) + " jam" : "—"}</td>
+          <td class="n">${r.melewati_batas ? `<b class="merah">${fmt(r.melewati_batas)}</b>` : "0"}</td><td class="n">${fmt(r.jalur_khusus)}</td>
+          <td class="n">${bps.length ? bps.map(v => fmtPersen(v)).join(" / ") : "NA"}</td></tr>`;
+      }).join("") + "</tbody>";
+    const tot = P.reduce((s, r) => s + r.perlu, 0), tt = P.reduce((s, r) => s + r.perlu_tanggap, 0);
+    const kosong = D.polda.polda.length - P.length;
+    $("papan-ket").innerHTML = `Seluruh Polda: tanggapan terlihat pada ${fmt(tt)} dari ${fmt(tot)} kasus perlu tindak lanjut (${fmt(tot ? 100 * tt / tot : null, 0)}%). ${fmt(kosong)} Polda lain belum memiliki kasus di arsip; ${fmt(D.polda.kasus_tanpa_polda)} kasus belum dapat dipetakan ke Polda karena judul beritanya tidak menyebut tempat. Diperbarui ${lalu(D.polda.diperbarui_utc)}.`;
+    el.querySelectorAll("[data-polda]").forEach(tr => {
+      const pilih = () => { poldaPilih = tr.dataset.polda; simpan("peka-polda", poldaPilih); isiPolda(); lembar(); papan(); $("lembar").scrollIntoView({ behavior: "smooth", block: "start" }); };
+      tr.onclick = pilih; tr.onkeydown = e => { if (e.key === "Enter") pilih(); };
+    });
+  }
+  function titikRawan() {
+    const el = $("titik-rawan"); if (!el) return;
+    const P = D.polda;
+    if (!P) { el.innerHTML = `<div class="kartu blok kecil">Menunggu putaran pertama.</div>`; return; }
+    const rw = P.titik_rawan || [], ar = P.aturan_rawan || { min_kejadian: 3, jendela_hari: 30, sela_jam: 72 };
+    if (!rw.length) {
+      const hari = P.arsip_sejak_utc ? Math.max(0, Math.floor((new Date(P.diperbarui_utc) - new Date(P.arsip_sejak_utc)) / 864e5)) : 0;
+      el.innerHTML = `<div class="kartu blok"><b>Belum ada titik rawan berulang.</b> Arsip baru mencakup sekitar <b>${fmt(hari)} hari</b> berita. Aturan ini menyala sendiri ketika satu kab/kota mencatat ≥ ${ar.min_kejadian} kejadian terpisah (berselang ≥ ${ar.sela_jam} jam) pada topik yang sama dalam ${ar.jendela_hari} hari; biasanya setelah arsip berjalan beberapa minggu.</div>`;
+      return;
+    }
+    el.innerHTML = `<div class="kartu tabel-wadah"><table class="tbl"><thead><tr><th>Kab/kota</th><th>Polda</th><th>Topik</th><th class="n">Kejadian</th><th>Tanggal kejadian</th><th class="n">Ditanggapi</th><th>Diteruskan ke</th></tr></thead><tbody>` +
+      rw.map(t => `<tr><td><b>${esc(t.kabkota)}</b><div class="kecil">${esc(t.provinsi)}</div></td><td>${esc(namaPolda(t.polda || ""))}</td><td>${esc(t.nama)}</td><td class="n">${fmt(t.kejadian)}</td><td>${t.tanggal.map(d => tglPendek(d)).join(", ")}</td><td class="n">${fmt(t.kejadian_ditanggapi)} dari ${fmt(t.kejadian)}</td><td>${esc(t.penanggung_jawab)}</td></tr>`).join("") + "</tbody></table></div>";
+  }
+  $("cetak").onclick = () => { document.body.classList.add("cetak-polda"); window.print(); };
+  let temaSebelum = null;
+  addEventListener("beforeprint", () => { temaSebelum = document.documentElement.dataset.theme || null; document.documentElement.dataset.theme = "light"; });
+  addEventListener("afterprint", () => {
+    document.body.classList.remove("cetak-polda");
+    if (temaSebelum) document.documentElement.dataset.theme = temaSebelum; else delete document.documentElement.dataset.theme;
+  });
+
+  // ------------------------------------------------------------ lacak kabar
+  function bukaLacak(id) {
+    const dlg = $("lacak");
+    if (!D.kasus) { lacakTunda = id; return; }
+    const h = D.kasus.kasus.find(x => x.id === id);
+    const url = SITUS + "#lacak=" + encodeURIComponent(id);
+    let isi;
+    if (!h) {
+      isi = `<div class="lacak-kepala"><span class="lacak-label">LACAK KABAR · ${esc(id)}</span><button type="button" class="tutup" aria-label="Tutup">✕</button></div>
+        <h3 id="lacak-judul">Kasus tidak lagi aktif</h3><p>Kasus ini sudah keluar dari jendela 72 jam. Ringkasannya tetap tersimpan di arsip suara publik tanpa judul dan tanpa nama.</p>`;
+    } else {
+      const sAwal = h.status_awal || h.status, tutup = sAwal !== h.status;
+      const jam = BATAS_JAM[sAwal], tenggat = jam ? new Date(new Date(h.pertama).getTime() + jam * 3.6e6).toISOString() : null;
+      const pjAwal = h.penanggung_jawab_awal || h.penanggung_jawab, batasAwal = h.batas_awal || h.batas_waktu;
+      const lok = h.lok ? (h.lok.kab ? `${h.lok.kab}, ${h.lok.prov}` : h.lok.prov) : "Lokasi belum jelas";
+      const tg = h.tanggapan;
+      const langkahL = [
+        ["selesai", "Diterima", `Keluhan terdengar ${wib(h.pertama)} dari ${fmt(h.n_media)} media (${fmt(h.n_artikel)} berita).`],
+        ["selesai", "Ditimbang", `${lencana(h.status)} <span class="alasan" style="display:inline-flex">${(h.alasan || []).map(a => `<code>${esc(a)}</code>`).join("")}</span>`],
+        ["selesai", "Diteruskan untuk diperiksa", `${tutup ? `Sebagai kasus ${ST[sAwal].nama}: ` : ""}${esc(pjAwal)}.<br><span class="kecil">Batas: ${esc(batasAwal)}${tenggat ? ` · tenggat ${wib(tenggat)}` : ""}</span>`],
+        tg ? ["selesai", "Tanggapan terlihat", tg.sejak_awal ? `Tanggapan sudah ada sejak berita pertama (“${esc(tg.kata)}”).` : `${wib(tg.terbit)}, <b>${fmt(h.jeda_tanggapan_jam, 1)} jam</b> setelah berita pertama · ${esc(tg.media)}: “${esc(tg.judul)}”`]
+          : [h.melewati_batas ? "lewat" : "kini", "Tanggapan", h.melewati_batas ? `⚠ Melewati batas tanpa tanggapan yang terlihat. Pada sistem di Polri, kasus ini otomatis naik ke atasan penanggung jawab.` : `⏳ Belum terlihat. Halaman ini berubah sendiri begitu tanggapan muncul.`],
+        ["selesai", tutup ? "Ditutup dan diarsipkan" : "Diarsipkan", (tutup ? "Karena tanggapan sudah terlihat, kasus keluar dari daftar tindak lanjut dan masuk rekap. " : "") + "Ringkasan tanpa judul dan tanpa nama tersimpan di Arsip Suara Publik untuk Pusat Sejarah Polri."],
+      ];
+      const qr = qrSvg(url);
+      isi = `<div class="lacak-kepala"><span class="lacak-label">LACAK KABAR · ${esc(h.id)}</span><button type="button" class="tutup" aria-label="Tutup">✕</button></div>
+        <h3 id="lacak-judul">${esc(h.judul)}</h3>
+        <div class="kecil">📍 ${esc(lok)} · ${esc(h.topik_nama)}</div>
+        <ol class="linimasa">${langkahL.map(l => `<li class="${l[0]}"><b>${l[1]}</b><div>${l[2]}</div></li>`).join("")}</ol>
+        <div class="contoh-surat">${qr ? `<div class="qr">${qr}</div>` : ""}
+          <div><b>Contoh kode pada surat</b><p>Pada sistem yang dipasang di Polri, kode seperti ini dicetak pada surat tanda terima laporan, SP2HP, dan SP3D. Warga cukup memindainya untuk melihat halaman ini: status, penanggung jawab, dan tenggat, tanpa identitas siapa pun dan tanpa harus datang ke kantor polisi.</p><span class="mono kecil">${esc(url)}</span></div></div>
+        <p class="kecil" style="margin:10px 0 0">Purwarupa: langkah di atas dibaca dari berita publik, bukan dari laporan polisi.</p>`;
+    }
+    $("lacak-isi").innerHTML = isi;
+    $("lacak-isi").querySelector(".tutup").onclick = () => dlg.close();
+    if (!dlg.open) { try { dlg.showModal(); } catch (e) { dlg.setAttribute("open", ""); } }
+  }
+  $("lacak").addEventListener("close", () => { if (location.hash.startsWith("#lacak=")) history.replaceState(null, "", "#" + tabAktif); });
+  $("lacak").addEventListener("click", e => { if (e.target === $("lacak")) $("lacak").close(); });
 
   // ------------------------------------------------------------ tren
   function lonjakanWilayah() {
@@ -611,7 +782,8 @@
   $("pagar").innerHTML = PAGAR.map(p => `<div class="kartu"><b>${p[0]}</b><p>${p[1]}</p><div class="terapan">✓ ${p[2]}</div></div>`).join("");
 
   // ------------------------------------------------------------ mulai
-  buka(location.hash.slice(1) || "ringkasan");
+  const awal = decodeURIComponent(location.hash.slice(1));
+  if (awal.startsWith("lacak=")) { buka("pantau"); lacakTunda = awal.slice(6); } else buka(awal || "ringkasan");
   gambarSemua();
   muatPeta();
   muat();

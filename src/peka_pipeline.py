@@ -330,7 +330,7 @@ def gdelt_timeline(q, mulai, akhir):
               "startdatetime": mulai.strftime("%Y%m%d%H%M%S"), "enddatetime": akhir.strftime("%Y%m%d%H%M%S"),
               "timelinesmooth": 0}
     raw = ambil("https://api.gdeltproject.org/api/v2/doc/doc?" + urlencode(params), f"gdelt_{slug(q)}.json",
-                timeout=30, percobaan=2, jeda=20)
+                timeout=30, percobaan=1)
     teks = raw.decode("utf-8", "ignore").strip()
     j = json.loads(teks)
     harian, total = defaultdict(int), defaultdict(int)
@@ -343,41 +343,67 @@ def gdelt_timeline(q, mulai, akhir):
 
 
 def dengar_gdelt():
+    """Volume berita GDELT 90 hari per topik. GDELT membatasi permintaan (galat 429), terutama dari server
+    bersama seperti GitHub Actions. Karena itu: tiap topik cukup diperbarui setiap 6 jam, topik yang paling
+    lama tidak diperbarui didahulukan, putaran berhenti meminta begitu terkena 429, dan topik yang belum
+    terbarui tetap memakai deret lama sehingga grafik tidak kosong."""
     lama = baca_json("gdelt_tren.json", {})
-    # GDELT berubah harian dan membatasi permintaan; cukup diperbarui setiap 6 jam.
-    if not FIXTURE and lama.get("diperbarui_utc") and NOW - dari_iso(lama["diperbarui_utc"]) < timedelta(hours=6) \
-            and sum(1 for v in lama.get("topik", {}).values() if sum(v.get("artikel", [])) > 0) >= 5:
-        log("dengar GDELT: dilewati, deret masih segar")
-        catat_sumber("Volume berita GDELT (90 hari)", True, len(lama["topik"]),
-                     f"memakai deret {lama['diperbarui_utc']} (diperbarui setiap 6 jam)", "gdelt_tren.json")
-        return lama
     akhir = NOW.replace(minute=0, second=0, microsecond=0)
     mulai = (akhir - timedelta(days=89)).replace(hour=0)
     hari = [(mulai + timedelta(days=i)).strftime("%Y%m%d") for i in range((akhir - mulai).days + 1)]
     keluaran = {"diperbarui_utc": iso(NOW), "hari": [f"{h[:4]}-{h[4:6]}-{h[6:]}" for h in hari], "topik": {}}
-    ok, galat = 0, []
+    lama_topik, lama_hari = lama.get("topik", {}), lama.get("hari") or []
+
+    def pakai_lama(tid):
+        if tid in lama_topik and lama_hari:
+            L = lama_topik[tid]
+            peta = dict(zip(lama_hari, L.get("artikel", [])))
+            petat = dict(zip(lama_hari, L.get("total", [0] * len(lama_hari))))
+            keluaran["topik"][tid] = {"artikel": [peta.get(h, 0) for h in keluaran["hari"]],
+                                      "total": [petat.get(h, 0) for h in keluaran["hari"]], "lama": True,
+                                      "diperbarui_utc": L.get("diperbarui_utc")}
+
+    def umur(tid):
+        t = (lama_topik.get(tid) or {}).get("diperbarui_utc")
+        return NOW - dari_iso(t) if t else timedelta(days=999)
+
+    perlu = [t for t in TOPIK["topik"] if FIXTURE or umur(t["id"]) >= timedelta(hours=6)]
+    perlu.sort(key=lambda t: -umur(t["id"]).total_seconds())
+    ok, galat, berhenti = 0, [], None
     mulai_jam = time.time()
     for t in TOPIK["topik"]:
-        if time.time() - mulai_jam > 360:      # batas 6 menit supaya putaran tidak melewati batas waktu
-            galat.append(f"{t['id']}: dilewati (batas waktu)")
+        if t not in perlu:
+            pakai_lama(t["id"])
+    for t in perlu:
+        if berhenti is None and time.time() - mulai_jam > 240:
+            berhenti = "batas waktu putaran"
+        if berhenti:
+            galat.append(f"{t['id']}: dilewati ({berhenti})")
+            pakai_lama(t["id"])
             continue
         try:
             harian, total = gdelt_timeline(t["gdelt"], mulai, akhir)
             keluaran["topik"][t["id"]] = {"artikel": [harian.get(h, 0) for h in hari],
-                                          "total": [total.get(h, 0) for h in hari]}
+                                          "total": [total.get(h, 0) for h in hari], "diperbarui_utc": iso(NOW)}
             ok += 1
         except Exception as e:  # noqa: BLE001
             galat.append(f"{t['id']}: {str(e)[:80]}")
-            # pakai deret lama bila ada, supaya grafik tidak kosong
-            if lama.get("topik", {}).get(t["id"]) and lama.get("hari"):
-                peta = dict(zip(lama["hari"], lama["topik"][t["id"]]["artikel"]))
-                petat = dict(zip(lama["hari"], lama["topik"][t["id"]].get("total", [0] * len(lama["hari"]))))
-                keluaran["topik"][t["id"]] = {"artikel": [peta.get(h, 0) for h in keluaran["hari"]],
-                                              "total": [petat.get(h, 0) for h in keluaran["hari"]], "lama": True}
-        if not FIXTURE:
-            time.sleep(10)  # GDELT meminta jeda >= 5 detik antar-permintaan; dibuat lebih longgar
-    log(f"dengar GDELT: {ok}/{len(TOPIK['topik'])} topik")
-    catat_sumber("Volume berita GDELT (90 hari)", ok > 0, ok, "; ".join(galat[:2]) or f"{ok} topik", "gdelt_tren.json")
+            pakai_lama(t["id"])
+            if "429" in str(e):
+                berhenti = "GDELT membatasi permintaan (429)"
+        if not FIXTURE and not berhenti:
+            time.sleep(8)   # GDELT meminta jeda >= 5 detik antar-permintaan
+    keluaran["topik"] = {t["id"]: keluaran["topik"][t["id"]] for t in TOPIK["topik"] if t["id"] in keluaran["topik"]}
+    segar = sum(1 for v in keluaran["topik"].values() if not v.get("lama"))
+    if not perlu:
+        log("dengar GDELT: semua topik masih segar (< 6 jam)")
+        catat_sumber("Volume berita GDELT (90 hari)", True, len(keluaran["topik"]),
+                     "deret per topik diperbarui setiap 6 jam; semua masih segar", "gdelt_tren.json")
+    else:
+        log(f"dengar GDELT: {ok}/{len(perlu)} topik diperbarui" + (f" | berhenti: {berhenti}" if berhenti else ""))
+        pesan = f"{ok} dari {len(perlu)} topik diperbarui; topik lain memakai deret terakhir" + (f" ({berhenti})" if berhenti else "")
+        catat_sumber("Volume berita GDELT (90 hari)", ok > 0, len(keluaran["topik"]), pesan, "gdelt_tren.json")
+    keluaran["topik_segar"] = segar
     return keluaran
 
 
@@ -594,14 +620,17 @@ def timbang(k, lonjakan, gempa_darurat):
             alasan.append("lokasi belum jelas, masuk rekap pola" if not lok else "tidak ada ambang yang terpenuhi")
     # Lingkaran tertutup: bila tanggapan polisi/petugas sudah terlihat di pemberitaan, kasus Tindak/Pantau
     # tidak perlu diteruskan ulang; ia masuk rekap (Tercatat) dengan keterangan sudah ditanggapi.
+    status_awal = status
     if tanggap and status in ("TINDAK", "PANTAU"):
         alasan = [f"semula {status.lower()}: " + "; ".join(alasan), f"tanggapan sudah terlihat: “{tanggap['kata']}”"]
         status = "TERCATAT"
     batas_teks, batas_jam = BATAS[status]
     lewat = bool(batas_jam and not tanggap and umur_jam > batas_jam)
     return {
-        "id": k["id"], "topik": k["topik"], "topik_nama": t["nama"], "status": status, "alasan": alasan,
+        "id": k["id"], "topik": k["topik"], "topik_nama": t["nama"], "status": status, "status_awal": status_awal,
+        "alasan": alasan,
         "lok": lok, "penanggung_jawab": penanggung_jawab(status, lok), "batas_waktu": batas_teks,
+        "penanggung_jawab_awal": penanggung_jawab(status_awal, lok), "batas_awal": BATAS[status_awal][0],
         "pertama": k["pertama"], "terakhir": k["terakhir"], "umur_jam": round(umur_jam, 1),
         "n_media": len(media), "n_artikel": len(k["artikel"]), "media": media[:8],
         "judul": urut[0]["judul"],
@@ -614,7 +643,7 @@ def timbang(k, lonjakan, gempa_darurat):
 # ============================================================ ARSIPKAN
 KOLOM_ARSIP = ["id", "pertama_utc", "tanggal_wib", "bulan", "topik", "kode_prov", "provinsi", "kode_kab", "kabkota",
                "status", "n_media", "n_artikel", "tanggapan_terlihat", "tanggapan_sejak_awal", "jeda_tanggapan_jam",
-               "diperbarui_utc"]
+               "diperbarui_utc", "polda", "polres", "status_awal", "melewati_batas"]
 
 
 def muat_arsip():
@@ -644,7 +673,8 @@ def ke_arsip(h):
             "status": h["status"], "n_media": h["n_media"], "n_artikel": h["n_artikel"],
             "tanggapan_terlihat": int(bool(tg)), "tanggapan_sejak_awal": int(bool(tg and tg["sejak_awal"])),
             "jeda_tanggapan_jam": "" if h["jeda_tanggapan_jam"] is None else h["jeda_tanggapan_jam"],
-            "diperbarui_utc": iso(NOW)}
+            "diperbarui_utc": iso(NOW), "polda": lok.get("polda") or "", "polres": lok.get("polres") or "",
+            "status_awal": h.get("status_awal") or h["status"], "melewati_batas": int(bool(h["melewati_batas"]))}
 
 
 def hitung_lonjakan(arsip, aktif):
@@ -707,6 +737,102 @@ def ringkas_bulanan(arsip):
                     "provinsi_teratas": b["prov"].most_common(10), "tanggapan_terlihat": b["tanggapan"],
                     "median_jeda_jam": round(statistics.median(b["jeda"]), 1) if b["jeda"] else None,
                     "n_jeda": len(b["jeda"])})
+    return out
+
+
+# ============================================================ PAPAN KABAR BALIK & TITIK RAWAN
+JENDELA_PAPAN = timedelta(days=30)
+PERLU = ("DARURAT", "JALUR KHUSUS", "TINDAK", "PANTAU")
+MIN_KEJADIAN_RAWAN = 3                 # >= 3 kejadian terpisah, topik sama, kab/kota sama, 30 hari
+SELA_KEJADIAN = timedelta(hours=72)    # kasus yang berselang < 72 jam dianggap kejadian yang sama
+KAB_BY = {k["kode"]: k for k in WIL["kabkota"]}
+
+
+def polda_dari(r):
+    if r.get("polda"):
+        return r["polda"], r.get("polres") or None
+    if r.get("kode_kab") in KAB_BY:
+        k = KAB_BY[r["kode_kab"]]
+        return k["polda"], k["polres"]
+    if r.get("kode_prov") in PROV:
+        return PROV[r["kode_prov"]]["polda"], None
+    return None, None
+
+
+def papan_kabar_balik(arsip):
+    """Per Polda, 30 hari: berapa kasus yang perlu ditindaklanjuti dan berapa yang tanggapannya terlihat.
+    Indikatif: sumbernya berita, jadi ini bukan peringkat kinerja."""
+    batas = iso(NOW - JENDELA_PAPAN)
+    per = {}
+    for p in WIL["provinsi"]:
+        b = per.setdefault(p["polda"], {"polda": p["polda"], "provinsi": [], "kasus": 0, "perlu": 0,
+                                        "perlu_tanggap": 0, "tanggap": 0, "jalur_khusus": 0, "lewat": 0,
+                                        "jeda": [], "topik": Counter()})
+        b["provinsi"].append(p["kode"])
+    tanpa = 0
+    for r in arsip.values():
+        if r["pertama_utc"] < batas:
+            continue
+        polda, _ = polda_dari(r)
+        if polda not in per:
+            tanpa += 1
+            continue
+        b = per[polda]
+        sa = r.get("status_awal") or r["status"]
+        tg = int(r["tanggapan_terlihat"] or 0)
+        b["kasus"] += 1
+        b["tanggap"] += tg
+        b["topik"][r["topik"]] += 1
+        if sa in PERLU:
+            b["perlu"] += 1
+            b["perlu_tanggap"] += tg
+        if sa == "JALUR KHUSUS":
+            b["jalur_khusus"] += 1
+        b["lewat"] += int(r.get("melewati_batas") or 0)
+        if r["jeda_tanggapan_jam"] not in ("", None):
+            b["jeda"].append(float(r["jeda_tanggapan_jam"]))
+    out = []
+    for b in per.values():
+        out.append({"polda": b["polda"], "provinsi": b["provinsi"], "kasus": b["kasus"], "perlu": b["perlu"],
+                    "perlu_tanggap": b["perlu_tanggap"],
+                    "persen_tanggap": round(100 * b["perlu_tanggap"] / b["perlu"], 1) if b["perlu"] else None,
+                    "tanggap": b["tanggap"], "jalur_khusus": b["jalur_khusus"], "melewati_batas": b["lewat"],
+                    "median_jeda_jam": round(statistics.median(b["jeda"]), 1) if b["jeda"] else None,
+                    "n_jeda": len(b["jeda"]), "topik_teratas": b["topik"].most_common(3)})
+    out.sort(key=lambda x: (-x["perlu"], -x["kasus"], x["polda"]))
+    return out, tanpa
+
+
+def titik_rawan(arsip):
+    """Masalah, bukan kejadian (Goldstein, 1979): kab/kota dengan >= 3 kejadian terpisah pada topik yang sama
+    dalam 30 hari. Kasus yang berselang < 72 jam dihitung satu kejadian, karena satu kejadian besar
+    dapat terpecah menjadi beberapa kasus bila judul beritanya berbeda."""
+    batas = iso(NOW - JENDELA_PAPAN)
+    grup = defaultdict(list)
+    for r in arsip.values():
+        if r["pertama_utc"] >= batas and r["kode_kab"]:
+            grup[(r["kode_kab"], r["topik"])].append(r)
+    out = []
+    for (kab, tp), rs in grup.items():
+        rs.sort(key=lambda r: r["pertama_utc"])
+        kejadian, mulai = [], None
+        for r in rs:
+            t = dari_iso(r["pertama_utc"])
+            if mulai is None or t - mulai >= SELA_KEJADIAN:
+                kejadian.append([r])
+                mulai = t
+            else:
+                kejadian[-1].append(r)
+        if len(kejadian) < MIN_KEJADIAN_RAWAN:
+            continue
+        polda, polres = polda_dari(rs[0])
+        out.append({"kode_kab": kab, "kabkota": rs[0]["kabkota"], "kode_prov": rs[0]["kode_prov"],
+                    "provinsi": rs[0]["provinsi"], "polda": polda, "polres": polres, "topik": tp,
+                    "nama": TOPIK_BY[tp]["nama"], "kejadian": len(kejadian), "kasus": len(rs),
+                    "tanggal": [k[0]["tanggal_wib"] for k in kejadian],
+                    "kejadian_ditanggapi": sum(1 for k in kejadian if any(int(r["tanggapan_terlihat"] or 0) for r in k)),
+                    "penanggung_jawab": f"Kasat Binmas {polres or polda} bersama pemerintah daerah"})
+    out.sort(key=lambda x: (-x["kejadian"], -x["kasus"], x["kabkota"]))
     return out
 
 
@@ -794,6 +920,16 @@ def main():
     tulis_json("gdelt_tren.json", gd)
     tulis_json("bmkg.json", bmkg)
     tulis_json("arsip_bulanan.json", {"diperbarui_utc": iso(NOW), "bulan": ringkas_bulanan(arsip)})
+    papan, tanpa_polda = papan_kabar_balik(arsip)
+    rawan = titik_rawan(arsip)
+    awal_arsip = min((r["pertama_utc"] for r in arsip.values()), default=None)
+    tulis_json("polda.json", {"diperbarui_utc": iso(NOW), "jendela_hari": JENDELA_PAPAN.days,
+                              "hari_riwayat": hari_riwayat, "arsip_sejak_utc": awal_arsip,
+                              "kasus_tanpa_polda": tanpa_polda, "polda": papan,
+                              "titik_rawan": rawan[:60], "aturan_rawan": {
+                                  "min_kejadian": MIN_KEJADIAN_RAWAN, "sela_jam": int(SELA_KEJADIAN.total_seconds() // 3600),
+                                  "jendela_hari": JENDELA_PAPAN.days}})
+    log(f"papan Polda: {sum(1 for p in papan if p['kasus'])} Polda berkasus | titik rawan: {len(rawan)}")
     # cache internal
     for k in kasus:
         k["tok"] = sorted(k["tok"])[:40]

@@ -28,6 +28,7 @@
       <div id="navtabs" role="tablist">
         <button class="tabbtn" role="tab" data-tab="ringkasan">Ringkasan</button>
         <button class="tabbtn" role="tab" data-tab="pantau">Pantau Langsung <span class="bulat" id="nb-pantau">·</span></button>
+        <button class="tabbtn" role="tab" data-tab="polda">Per Polda</button>
         <button class="tabbtn" role="tab" data-tab="tren">Tren &amp; Lonjakan</button>
         <button class="tabbtn" role="tab" data-tab="uji">Uji Ambang</button>
         <button class="tabbtn" role="tab" data-tab="arsip">Arsip Suara Publik</button>
@@ -54,7 +55,7 @@
   </svg>
   <div class="wadah">
     <span class="pil"><span class="denyut" id="denyut"></span><span id="pil-teks">Memuat pantauan…</span></span>
-    <h1 id="judul-utama">Mendengar lebih awal,<br><em>sebelum menunggu viral</em></h1>
+    <h1 id="judul-utama">Didengar sebelum viral,<br><em>dikabari sampai tuntas</em></h1>
     <p class="lead">PEKA membaca keluhan publik dari sumber terbuka <b>setiap jam</b>, memilahnya menjadi kasus, menimbangnya dengan ambang tertulis, meneruskannya ke penanggung jawab di wilayahnya, memeriksa apakah tanggapan sudah terlihat, lalu mengarsipkannya untuk sejarah kepolisian.</p>
     <div class="aksi">
       <a class="tombol utama" href="#pantau" data-ke="pantau">Lihat pantauan langsung</a>
@@ -134,6 +135,34 @@
     <p class="kecil" id="jumlah-saring"></p>
     <div class="daftar-kasus grid-2" id="daftar"></div>
     <button class="chip muat-lagi sembunyi" id="muat-lagi" type="button">Tampilkan lebih banyak</button>
+  </section>
+
+  <!-- ================= PER POLDA ================= -->
+  <section class="panel" id="tab-polda" role="tabpanel" aria-label="Per Polda">
+    <div class="kartu blok angkat tanpa-cetak">
+      <div class="atas-polda">
+        <div>
+          <div class="label-atas" style="margin:0 0 4px"><b>Ringkasan pagi per Polda</b> · satu halaman untuk apel pagi Polda atau Polres, disusun ulang setiap jam</div>
+          <p class="kecil" style="margin:0">Pilih Polda, lalu cetak atau simpan sebagai PDF. Isinya: kasus yang perlu ditindaklanjuti beserta penanggung jawab dan batas waktunya, kabar balik 30 hari, titik rawan berulang, dan suara senyap BPS di wilayah itu.</p>
+        </div>
+        <div class="saring" style="margin:0">
+          <select id="f-polda" aria-label="Pilih Polda"></select>
+          <button class="chip" id="cetak" type="button">🖨 Cetak atau simpan PDF</button>
+        </div>
+      </div>
+    </div>
+    <article class="kartu lembar" id="lembar" aria-label="Ringkasan pagi Polda terpilih"></article>
+
+    <div class="tanpa-cetak">
+      <h2 class="judul-bagian">Papan kabar balik per Polda</h2>
+      <p class="sub-bagian">Untuk pertanyaan pengawasan Itwasum dan Kompolnas: dari kasus yang perlu ditindaklanjuti (Darurat, Jalur khusus, Tindak, Pantau) dalam 30 hari, berapa yang tanggapannya sudah terlihat, berapa lama jedanya, dan berapa yang melewati batas. <b>Papan ini indikatif, bukan peringkat kinerja.</b> Sumbernya berita, dan berita tentang polisi yang sudah bertindak lebih sering ditulis daripada keluhan yang diabaikan. Sentuh baris untuk membuka ringkasan pagi Polda itu.</p>
+      <div class="kartu tabel-wadah"><table class="tbl" id="tabel-papan"></table></div>
+      <p class="kecil" id="papan-ket"></p>
+
+      <h2 class="judul-bagian">Titik rawan berulang: masalah, bukan kejadian</h2>
+      <p class="sub-bagian">Pemolisian berbasis masalah (Goldstein, 1979; Bab II naskah): bila kejadian dengan topik yang sama terus berulang di satu kabupaten/kota, yang perlu diselesaikan adalah masalahnya, bukan hanya kejadiannya satu per satu. PEKA menandai kab/kota dengan <b>≥ 3 kejadian terpisah</b> pada topik yang sama dalam <b>30 hari</b>. Kasus yang berselang kurang dari 72 jam dihitung satu kejadian, karena satu peristiwa besar dapat terpecah menjadi beberapa kasus. Titik rawan diteruskan ke Kasat Binmas bersama pemerintah daerah.</p>
+      <div id="titik-rawan"></div>
+    </div>
   </section>
 
   <!-- ================= TREN ================= -->
@@ -269,7 +298,7 @@
       <thead><tr><th>Sumber</th><th>Pengelola</th><th>Yang dibaca</th><th>Fungsi dalam PEKA</th></tr></thead>
       <tbody>
         <tr><td>Google News RSS (cadangan: Bing News RSS)</td><td>Google; Microsoft</td><td>Judul, media, waktu terbit, tautan berita 2 hari terakhir untuk 10 kueri topik</td><td>Dengar: keluhan yang sudah sampai ke ruang publik</td></tr>
-        <tr><td>GDELT DOC 2.0</td><td>The GDELT Project</td><td>Jumlah artikel berbahasa Indonesia per hari, 90 hari, per topik (kata kunci berbahasa Inggris karena GDELT mengindeks terjemahannya; diperbarui setiap 6 jam)</td><td>Timbang: pembanding 2 × rata-rata 28 hari tingkat nasional</td></tr>
+        <tr><td>GDELT DOC 2.0</td><td>The GDELT Project</td><td>Jumlah artikel berbahasa Indonesia per hari, 90 hari, per topik (kata kunci berbahasa Inggris karena GDELT mengindeks terjemahannya; tiap topik diperbarui setiap 6 jam, dan bila GDELT membatasi permintaan, deret terakhir tetap dipakai)</td><td>Timbang: pembanding 2 × rata-rata 28 hari tingkat nasional</td></tr>
         <tr><td>Data gempa terbuka</td><td>BMKG</td><td>Gempa terbaru, 15 gempa M 5+, 15 gempa dirasakan</td><td>Konteks keadaan darurat</td></tr>
         <tr><td>TurnBackHoax</td><td>MAFINDO</td><td>Judul klaim hoaks terbaru</td><td>Pilah: penyaring hoaks</td></tr>
         <tr><td>Gazeter wilayah</td><td>Kode wilayah BPS (38 provinsi, 514 kab/kota)</td><td>Nama kab/kota, provinsi, Polda</td><td>Pilah dan teruskan: lokasi sampai Polres</td></tr>
@@ -285,7 +314,11 @@
         <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> topik perilaku anggota. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam atau ada bukti (video, rekaman, CCTV). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu, termasuk kasus tanpa lokasi. <b>Lingkaran tertutup:</b> kasus Tindak atau Pantau yang beritanya sudah memuat tanggapan polisi atau petugas dipindah ke Tercatat (sudah ditanggapi), sehingga daftar Tindak dan Pantau hanya berisi kasus yang tanggapannya belum terlihat.</td></tr>
         <tr><td><b>Teruskan</b></td><td>Penanggung jawab mengikuti Tabel 4.5 dan wilayah: Polda menurut provinsi (Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan ke Polda Metro Jaya), Polres menurut kab/kota.</td></tr>
         <tr><td><b>Kabarkan</b></td><td>Tanggapan dianggap terlihat bila ada judul dalam kasus itu yang memuat kata seperti <i>ditangkap, diamankan, diperiksa, dicopot, olah TKP, menyelidiki, dievakuasi</i>. Jeda = jam antara berita pertama dan berita tanggapan pertama. Kasus tanpa tanggapan yang melewati batas waktu statusnya (Darurat 1 jam, Pantau 24 jam, Tindak dan Jalur khusus 72 jam) ditandai.</td></tr>
-        <tr><td><b>Arsipkan</b></td><td>Setiap kasus disimpan satu baris di <span class="mono">arsip_kasus.csv</span>: tanggal, topik, kode wilayah, status, jumlah media, dan tanggapan. Judul berita dan tautan tidak disimpan di arsip.</td></tr>
+        <tr><td><b>Arsipkan</b></td><td>Setiap kasus disimpan satu baris di <span class="mono">arsip_kasus.csv</span>: tanggal, topik, kode wilayah, Polda dan Polres, status awal dan akhir, jumlah media, dan tanggapan. Judul berita dan tautan tidak disimpan di arsip.</td></tr>
+        <tr><td><b>Lacak kabar</b></td><td>Setiap kasus aktif punya halaman lacak (tombol <i>Lacak kabar</i> pada kartu kasus): diterima, ditimbang, diteruskan ke siapa dengan batas waktu kapan, dan apakah tanggapan sudah terlihat. Pada sistem di Polri, halaman seperti ini dibuka dari kode QR pada surat tanda terima laporan, SP2HP, atau SP3D, tanpa menampilkan identitas siapa pun.</td></tr>
+        <tr><td><b>Papan kabar balik</b></td><td>Per Polda, 30 hari terakhir dari arsip: kasus yang status awalnya Darurat, Jalur khusus, Tindak, atau Pantau dihitung sebagai <i>perlu ditindaklanjuti</i>; persentase = yang tanggapannya terlihat di pemberitaan; median jeda dan jumlah yang melewati batas ikut ditampilkan. Polda menurut gazeter (Polda Metro Jaya untuk Jakarta, Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan).</td></tr>
+        <tr><td><b>Titik rawan berulang</b></td><td>Kab/kota dengan ≥ 3 kejadian terpisah pada topik yang sama dalam 30 hari. Kasus pada kab/kota dan topik yang sama yang berselang &lt; 72 jam dihitung satu kejadian. Aturan ini menyala sendiri setelah arsip cukup panjang.</td></tr>
+        <tr><td><b>Ringkasan pagi</b></td><td>Lembar satu halaman per Polda, disusun di peramban dari data putaran terakhir: kasus perlu tindak lanjut (paling mendesak dulu), kabar balik 30 hari, titik rawan, dan persentase korban yang melapor menurut BPS untuk provinsi Polda itu.</td></tr>
       </tbody></table></div>
 
     <h2 class="judul-bagian">Lima pagar etika, dan penerapannya di purwarupa ini</h2>
@@ -295,8 +328,9 @@
     <div class="kartu blok"><ul style="margin:0;padding-left:18px">
       <li>Berita bukan keluhan langsung. Yang tidak diberitakan tidak terbaca; justru itulah alasan PEKA perlu memakai kanal internal Polri.</li>
       <li>Topik, lokasi, dan tanggapan ditentukan dengan kata kunci, bukan pemahaman isi. Kesalahan klasifikasi mungkin terjadi, sehingga setiap status perlu diverifikasi petugas.</li>
-      <li>Google News RSS mengembalikan paling banyak 100 berita per kueri, dan GDELT tidak mencakup semua media daerah.</li>
+      <li>Google News RSS mengembalikan paling banyak 100 berita per kueri, dan GDELT tidak mencakup semua media daerah. GDELT juga sering membatasi permintaan dari server GitHub, sehingga deret per topik dapat tertinggal beberapa jam.</li>
       <li>Ambang lonjakan wilayah baru berlaku setelah riwayat arsip mencapai 7 hari; sebelumnya status Pantau hanya berasal dari aturan per kasus.</li>
+      <li>Satu peristiwa besar (misalnya kericuhan) dapat terpecah menjadi beberapa kasus bila judul beritanya sangat berbeda. Karena itu titik rawan berulang menghitung kejadian yang berselang ≥ 72 jam, bukan jumlah kasus.</li>
       <li>GitHub menjalankan jadwal "sebisanya", sehingga putaran bisa terlambat 5–30 menit.</li>
     </ul></div>
   </section>
@@ -304,12 +338,14 @@
 
 <footer class="kaki-situs">
   <div class="wadah">
-    <p><b>PEKA (Pendengar Keluhan Warga)</b> · purwarupa pendamping karya tulis "Dari 'Percuma Lapor' Menuju Polri yang Peka: Sejarah Saluran Suara Warga kepada Kepolisian (1945–2026) dan Rancangan Sistem Pendengar Keluhan Warga Menuju Indonesia Emas 2045", Lomba Karya Tulis Ilmiah Sejarah Polri 2026. Bukan situs resmi Polri.</p>
-    <p>Sumber: berita daring melalui Google News dan Bing News; The GDELT Project; BMKG (data gempa); MAFINDO/TurnBackHoax; BPS (Statistik Kriminal); Indikator Politik Indonesia. Batas provinsi: Indonesia GeoJSON &amp; TopoJSON Maps (38 Provinces), denyherianto, CC BY 4.0, disederhanakan. Judul berita adalah milik media masing-masing.</p>
+    <p><b>PEKA (Pendengar Keluhan Warga)</b> · purwarupa pendamping karya tulis "Didengar Sebelum Viral: Delapan Dekade Suara Warga kepada Kepolisian (1945–2026) dan PEKA, Sistem Pendengar Keluhan Warga untuk Reformasi Polri Menuju Indonesia Emas 2045", Lomba Karya Tulis Ilmiah Sejarah Polri 2026. Bukan situs resmi Polri.</p>
+    <p>Sumber: berita daring melalui Google News dan Bing News; The GDELT Project; BMKG (data gempa); MAFINDO/TurnBackHoax; BPS (Statistik Kriminal); Indikator Politik Indonesia. Batas provinsi: Indonesia GeoJSON &amp; TopoJSON Maps (38 Provinces), denyherianto, CC BY 4.0, disederhanakan. Kode QR: qrcode-generator, Kazuhiko Arase, lisensi MIT. Judul berita adalah milik media masing-masing.</p>
   </div>
 </footer>
 
+<dialog class="lacak" id="lacak" aria-labelledby="lacak-judul"><div id="lacak-isi"></div></dialog>
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script src="assets/vendor/qrcode.js"></script>
 <script src="assets/peka.js"></script>
 </body>
 </html>

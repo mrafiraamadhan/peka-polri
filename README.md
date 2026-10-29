@@ -1,7 +1,8 @@
 # PEKA - Pendengar Keluhan Warga (purwarupa)
 
-Purwarupa pendamping karya tulis **"Dari 'Percuma Lapor' Menuju Polri yang Peka"** untuk
-Lomba Karya Tulis Ilmiah Sejarah Polri 2026. **Bukan situs resmi Polri.**
+Purwarupa pendamping karya tulis **"Didengar Sebelum Viral: Delapan Dekade Suara Warga kepada
+Kepolisian (1945–2026) dan PEKA, Sistem Pendengar Keluhan Warga untuk Reformasi Polri Menuju
+Indonesia Emas 2045"** untuk Lomba Karya Tulis Ilmiah Sejarah Polri 2026. **Bukan situs resmi Polri.**
 
 Situs: https://mrafiraamadhan.github.io/peka-polri/
 
@@ -21,11 +22,22 @@ yang menerapkan enam langkah PEKA pada **sumber terbuka saja**:
 
 Unggahan media sosial **tidak** dibaca. Tidak ada identitas orang yang disimpan.
 
+## Alat untuk menutup lingkaran
+
+- **Lacak kabar**: setiap kasus aktif punya halaman `#lacak=<id>` (diterima, ditimbang, diteruskan, tanggapan,
+  diarsipkan) beserta kode QR, sebagai contoh kode yang dicetak pada surat tanda terima laporan, SP2HP, dan SP3D.
+- **Ringkasan pagi per Polda** (tab Per Polda): satu halaman siap cetak untuk apel pagi.
+- **Papan kabar balik per Polda**: 30 hari, persentase kasus perlu tindak lanjut yang tanggapannya terlihat,
+  median jeda, dan yang melewati batas. Indikatif, bukan peringkat kinerja.
+- **Titik rawan berulang**: kab/kota dengan >= 3 kejadian terpisah (berselang >= 72 jam) pada topik yang sama
+  dalam 30 hari, untuk pemolisian berbasis masalah.
+
 ## Berkas
 
 - `index.html` - papan pantau (menu tab, mode gelap/terang)
 - `src/peka_pipeline.py` - pipeline; `src/buat_wilayah.py` - penyusun gazeter wilayah
 - `config/topik.json` - kata kunci sembilan topik; `config/wilayah.json` - 38 provinsi, 514 kab/kota, Polda
 - `data/` - keluaran pipeline (diperbarui otomatis)
+- `assets/vendor/qrcode.js` - pembuat kode QR (qrcode-generator, Kazuhiko Arase, lisensi MIT)
 
 Sumber data gempa: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika).
