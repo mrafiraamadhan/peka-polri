@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/peka.css">
+<link rel="stylesheet" href="assets/peka.css?v=20261029e">
 </head>
 <body>
 
@@ -81,6 +81,14 @@
       <div class="status-grid" id="kartu-status"></div>
       <div class="narasi" id="narasi">Memuat…</div>
     </div>
+    <div class="kartu blok panduan">
+      <b>Cara membaca dalam satu menit</b>
+      <ol>
+        <li>Kartu di atas: berapa kasus di tiap status. Klik satu kartu untuk melihat daftarnya.</li>
+        <li>Di daftar, tekan <b>Lacak kabar</b> pada satu kasus: diterima, ditimbang, diteruskan ke siapa, dan apakah tanggapan sudah terlihat (Subbab 4.3.7).</li>
+        <li>Buka tab <a href="#polda" data-ke="polda">Per Polda</a> untuk ringkasan pagi satu halaman dan papan kabar balik, atau tab <a href="#sejarah" data-ke="sejarah">Sejarah &amp; Data</a> untuk enam babak dan "seandainya PEKA sudah ada".</li>
+      </ol>
+    </div>
 
     <h2 class="judul-bagian">Enam langkah PEKA, langsung dari putaran terakhir</h2>
     <p class="sub-bagian">Setiap kolom adalah satu langkah rancangan pada Subbab 4.3.2 naskah. Angka di bawahnya dihitung oleh pipeline pada putaran terakhir, bukan contoh.</p>
@@ -93,7 +101,7 @@
     <div class="grid-2" style="margin-top:8px">
       <div>
         <h2 class="judul-bagian">Kasus per topik</h2>
-        <p class="sub-bagian">Sembilan topik keluhan pada naskah. Sentuh batang untuk melihat angkanya.</p>
+        <p class="sub-bagian">Sembilan topik keluhan pada naskah. Klik batang untuk membuka daftar kasus topik itu.</p>
         <div class="kartu blok"><svg class="grafik" id="g-topik" role="img" aria-label="Jumlah kasus aktif per topik"></svg></div>
       </div>
       <div>
@@ -116,10 +124,11 @@
       </div>
       <div id="peta"></div>
       <div class="legenda-peta" id="legenda-peta"></div>
+      <div id="prov-pilih" class="prov-pilih sembunyi" aria-live="polite"></div>
       <div id="senyap" style="margin-top:12px"></div>
     </div>
 
-    <h2 class="judul-bagian">Daftar kasus</h2>
+    <h2 class="judul-bagian" id="judul-daftar">Daftar kasus</h2>
     <p class="sub-bagian">Satu kasus = kumpulan berita tentang kejadian yang sama di lokasi yang sama dalam 72 jam. Judul berita mengarah ke medianya masing-masing.</p>
     <div class="saring" role="group" aria-label="Saring status" id="saring-status"></div>
     <div class="saring">
@@ -168,7 +177,7 @@
   <!-- ================= TREN ================= -->
   <section class="panel" id="tab-tren" role="tabpanel" aria-label="Tren dan lonjakan">
     <div class="kartu blok angkat">
-      <div class="label-atas"><b>Lonjakan per wilayah</b> · ambang Tabel 4.5: kasus 24 jam ≥ 2 × rata-rata harian 28 hari dan ≥ 5</div>
+      <div class="label-atas"><b>Lonjakan per wilayah</b> · ambang Tabel 4.6: kasus 24 jam ≥ 2 × rata-rata harian 28 hari dan ≥ 5</div>
       <div id="lonjakan-wilayah"></div>
     </div>
 
@@ -201,13 +210,14 @@
   <!-- ================= UJI AMBANG ================= -->
   <section class="panel" id="tab-uji" role="tabpanel" aria-label="Uji ambang status">
     <div class="kartu blok angkat">
-      <div class="label-atas"><b>Coba ambang status</b> · aturan yang sama dengan Tabel 4.5 naskah</div>
+      <div class="label-atas"><b>Coba ambang status</b> · aturan yang sama dengan Tabel 4.6 naskah</div>
       <div class="alat">
         <div>
           <div class="preset" role="group" aria-label="Contoh keluhan">
             <button class="chip" type="button" data-preset="darurat">Penjambretan sedang terjadi</button>
             <button class="chip" type="button" data-preset="tindak" aria-pressed="true">Begal, 4 warga mengunggah</button>
             <button class="chip" type="button" data-preset="pantau">Lonjakan keluhan curanmor</button>
+            <button class="chip" type="button" data-preset="berat">Lansia tewas dianiaya</button>
             <button class="chip" type="button" data-preset="anggota">Laporan ditolak petugas</button>
             <button class="chip" type="button" data-preset="tercatat">Keluhan antrean SKCK</button>
           </div>
@@ -219,6 +229,7 @@
               <label class="cek"><input type="checkbox" id="u-jiwa"> Ada ancaman terhadap keselamatan jiwa</label>
               <label class="cek"><input type="checkbox" id="u-lokasi"> Lokasi jelas</label>
               <label class="cek"><input type="checkbox" id="u-bukti"> Disertai bukti (foto, video, atau titik lokasi)</label>
+              <label class="cek"><input type="checkbox" id="u-berat"> Ada korban jiwa, luka berat, atau kekerasan seksual</label>
               <label class="cek"><input type="checkbox" id="u-anggota"> Keluhan tentang perilaku anggota (pungli, kekerasan, laporan ditolak)</label>
             </fieldset>
             <div class="angka3">
@@ -241,7 +252,7 @@
       </div>
     </div>
     <h2 class="judul-bagian">Tabel status yang dipakai</h2>
-    <p class="sub-bagian">Sama dengan Tabel 4.5 naskah. Pada pantauan langsung, "akun berbeda" diganti "media berbeda", dan "bukti" dibaca dari judul berita (video, rekaman, CCTV).</p>
+    <p class="sub-bagian">Sama dengan Tabel 4.6 naskah. Pada pantauan langsung, "akun berbeda" diganti "media berbeda", dan "bukti" dibaca dari judul berita (video, rekaman, CCTV).</p>
     <div class="kartu tabel-wadah"><table class="tbl" id="tabel-status"></table></div>
   </section>
 
@@ -263,17 +274,20 @@
   <!-- ================= SEJARAH & DATA ================= -->
   <section class="panel" id="tab-sejarah" role="tabpanel" aria-label="Sejarah dan data">
     <div class="kartu blok angkat">
-      <div class="label-atas"><b>Enam babak saluran suara warga kepada kepolisian, 1945–2026</b> · ringkasan Bab IV naskah</div>
+      <div class="label-atas"><b>Enam babak saluran suara warga kepada kepolisian, dari masa kolonial sampai 2026</b> · ringkasan Subbab 4.1 naskah</div>
       <div class="babak" id="babak"></div>
     </div>
     <h2 class="judul-bagian">Sembilan kasus: menunggu lama, bergerak cepat</h2>
     <p class="sub-bagian">Waktu dari laporan atau kejadian awal sampai viral (biru tua), lalu sampai tindakan polisi yang terlihat publik (biru muda). Skala logaritma. Garis merah putus-putus = batas kabar balik PEKA, 3 hari. Label memakai lokasi, bukan nama korban.</p>
     <div class="kartu blok"><div class="kasus9" id="kasus9"></div>
-      <p class="kecil" style="margin:10px 0 0">Median sekitar 118 hari menunggu (8 kasus yang punya tanggal awal; sekitar 85 hari bila hanya 6 kasus yang dihitung dari aduan) dan 3 hari bergerak setelah viral. Kasus dipilih karena akhirnya viral, jadi ini ilustrasi, bukan ukuran nasional.</p></div>
+      <p class="kecil" style="margin:10px 0 0">Batang atas: dari laporan atau kejadian awal sampai viral. Batang bawah: dari viral sampai tindakan polisi. Keduanya memakai skala logaritma yang sama; garis merah putus-putus = 3 hari. Pada 6 kasus yang tanggal awalnya berupa aduan kepada lembaga negara, median jeda sampai viral sekitar 85 hari (sekitar 118 hari bila 2 kasus yang hanya punya tanggal kejadian ikut dihitung); setelah viral, median 3 hari sampai tindakan. Tanda ~ = tanggal perkiraan. Kasus dipilih karena akhirnya viral, jadi ini ilustrasi, bukan ukuran nasional.</p></div>
+    <h2 class="judul-bagian">Seandainya PEKA sudah ada saat itu</h2>
+    <p class="sub-bagian">Aturan PEKA diterapkan pada lima kasus dari Subbab 4.1 naskah (Tabel 4.2): aturan mana yang akan menyala, dan kapan. Ini cara membaca sejarah sebagai uji rancangan.</p>
+    <div class="kartu tabel-wadah"><table class="tbl" id="seandainya"></table></div>
     <div class="grid-2" style="margin-top:8px">
       <div>
         <h2 class="judul-bagian">Korban yang melapor kepada polisi</h2>
-        <p class="sub-bagian">Persen korban kejahatan, BPS (Susenas). Korban kekerasan juga indikator SDGs 16.3.1(a).</p>
+        <p class="sub-bagian">Persen korban kejahatan, BPS (Susenas). Korban kekerasan juga indikator SDGs 16.3.1(a). Pada 2024, 0,73% penduduk menjadi korban kejahatan; dengan 281,6 juta penduduk, <b>sekitar 1,6 juta korban tidak melapor</b> ke polisi.</p>
         <div class="kartu blok"><svg class="grafik" id="g-bps" role="img" aria-label="Persentase korban yang melapor 2019 sampai 2024"></svg>
           <div class="legenda"><span><i style="border-color:var(--biru)"></i>korban kejahatan kekerasan</span><span><i style="border-color:var(--garis-2)"></i>seluruh korban kejahatan</span></div></div>
       </div>
@@ -289,8 +303,8 @@
   <section class="panel" id="tab-metodologi" role="tabpanel" aria-label="Metodologi">
     <div class="kartu blok angkat">
       <div class="label-atas"><b>Metodologi</b> · semua aturan, ambang, dan sumber dibuka di sini</div>
-      <p style="margin:0 0 10px">Halaman ini adalah purwarupa lapisan <b>dengar–pilah–timbang–teruskan–kabarkan–arsipkan</b> pada rancangan PEKA. Karena kanal internal Polri (110, aplikasi pengaduan, akun resmi) tidak terbuka untuk umum, purwarupa ini memakai <b>berita daring</b> sebagai pengganti keluhan: berita adalah keluhan yang sudah sampai ke ruang publik. Bila PEKA dipasang di Polri, kanal internal menjadi sumber utama dan berita menjadi pembanding (Tabel 4.4 naskah).</p>
-      <p style="margin:0" class="kecil">Pipeline: <span class="mono">src/peka_pipeline.py</span>, dijalankan GitHub Actions setiap jam (menit ke-17). Kode, kata kunci, dan gazeter wilayah ada di repositori yang sama dengan halaman ini.</p>
+      <p style="margin:0 0 10px">Halaman ini adalah purwarupa lapisan <b>dengar–pilah–timbang–teruskan–kabarkan–arsipkan</b> pada rancangan PEKA. Karena kanal internal Polri (110, aplikasi pengaduan, akun resmi) tidak terbuka untuk umum, purwarupa ini memakai <b>berita daring</b> sebagai pengganti keluhan: berita adalah keluhan yang sudah sampai ke ruang publik. Bila PEKA dipasang di Polri, kanal internal menjadi sumber utama dan berita menjadi pembanding (Tabel 4.5 naskah).</p>
+      <p style="margin:0" class="kecil">Pipeline: <span class="mono">src/peka_pipeline.py</span>, dijalankan GitHub Actions setiap jam (menit ke-17, dengan cadangan berantai bila jadwal GitHub terlambat). Rancangan lengkapnya ada pada Subbab 4.3 naskah; purwarupa ini Subbab 4.3.9. Kode, kata kunci, dan gazeter wilayah ada di repositori yang sama dengan halaman ini.</p>
     </div>
 
     <h2 class="judul-bagian">Sumber data</h2>
@@ -311,9 +325,9 @@
       <thead><tr><th>Langkah</th><th>Aturan yang dijalankan</th></tr></thead>
       <tbody>
         <tr><td><b>Pilah</b></td><td>Berita yang sama (tautan atau judul+media sama) hanya dihitung sekali. Judul bertanda <i>hoaks, cek fakta, klarifikasi, tidak benar</i>, atau sangat mirip klaim MAFINDO dibuang. Berita tentang kegiatan, sosialisasi, statistik, atau opini (misalnya <i>sosialisasi, cegah, seminar, angka</i>) dan berita luar negeri juga dibuang karena bukan kejadian yang dikeluhkan. Topik ditentukan dari kata kunci di judul (sembilan topik). Lokasi = nama kab/kota atau provinsi pertama di judul; nama yang juga kata umum (misalnya Malang, Batu, Palu) hanya dihitung bila didahului "di", "Kota", "Kabupaten", atau "Polres", dan nama jalan diabaikan. Berita digabung menjadi satu kasus bila topik dan wilayahnya sama, selisih waktunya ≤ 72 jam, dan judulnya mirip (indeks Jaccard ≥ 0,25–0,35 tanpa kata nama tempat) atau memuat kata kejadian yang sama di kab/kota yang sama</td></tr>
-        <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> topik perilaku anggota. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam atau ada bukti (video, rekaman, CCTV). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu, termasuk kasus tanpa lokasi. <b>Lingkaran tertutup:</b> kasus Tindak atau Pantau yang beritanya sudah memuat tanggapan polisi atau petugas dipindah ke Tercatat (sudah ditanggapi), sehingga daftar Tindak dan Pantau hanya berisi kasus yang tanggapannya belum terlihat.</td></tr>
-        <tr><td><b>Teruskan</b></td><td>Penanggung jawab mengikuti Tabel 4.5 dan wilayah: Polda menurut provinsi (Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan ke Polda Metro Jaya), Polres menurut kab/kota.</td></tr>
-        <tr><td><b>Kabarkan</b></td><td>Tanggapan dianggap terlihat bila ada judul dalam kasus itu yang memuat kata seperti <i>ditangkap, diamankan, diperiksa, dicopot, olah TKP, menyelidiki, dievakuasi</i>. Jeda = jam antara berita pertama dan berita tanggapan pertama. Kasus tanpa tanggapan yang melewati batas waktu statusnya (Darurat 1 jam, Pantau 24 jam, Tindak dan Jalur khusus 72 jam) ditandai.</td></tr>
+        <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> topik perilaku anggota. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam, ada bukti (video, rekaman, CCTV), atau ada korban jiwa, luka berat, atau kekerasan seksual (<i>tewas, dibunuh, luka parah, diperkosa, pencabulan</i>, dan sejenisnya). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu, termasuk kasus tanpa lokasi. <b>Lingkaran tertutup:</b> kasus Tindak atau Pantau yang beritanya sudah memuat tanggapan polisi atau petugas dipindah ke Tercatat (sudah ditanggapi), sehingga daftar Tindak dan Pantau hanya berisi kasus yang tanggapannya belum terlihat.</td></tr>
+        <tr><td><b>Teruskan</b></td><td>Penanggung jawab mengikuti Tabel 4.6 dan wilayah: Polda menurut provinsi (Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan ke Polda Metro Jaya), Polres menurut kab/kota.</td></tr>
+        <tr><td><b>Kabarkan</b></td><td>Tanggapan dianggap terlihat bila ada judul dalam kasus itu yang memuat kata seperti <i>ditangkap, diamankan, diperiksa, dicopot, olah TKP, menyelidiki, dievakuasi</i>. Jeda = jam antara berita pertama dan berita tanggapan pertama. Kasus tanpa tanggapan yang melewati batas waktu statusnya (Darurat 1 jam karena purwarupa berputar setiap jam, padahal batas rancangannya ≤5 menit; Pantau 24 jam; Tindak dan Jalur khusus 72 jam) ditandai.</td></tr>
         <tr><td><b>Arsipkan</b></td><td>Setiap kasus disimpan satu baris di <span class="mono">arsip_kasus.csv</span>: tanggal, topik, kode wilayah, Polda dan Polres, status awal dan akhir, jumlah media, dan tanggapan. Judul berita dan tautan tidak disimpan di arsip.</td></tr>
         <tr><td><b>Lacak kabar</b></td><td>Setiap kasus aktif punya halaman lacak (tombol <i>Lacak kabar</i> pada kartu kasus): diterima, ditimbang, diteruskan ke siapa dengan batas waktu kapan, dan apakah tanggapan sudah terlihat. Pada sistem di Polri, halaman seperti ini dibuka dari kode QR pada surat tanda terima laporan, SP2HP, atau SP3D, tanpa menampilkan identitas siapa pun.</td></tr>
         <tr><td><b>Papan kabar balik</b></td><td>Per Polda, 30 hari terakhir dari arsip: kasus yang status awalnya Darurat, Jalur khusus, Tindak, atau Pantau dihitung sebagai <i>perlu ditindaklanjuti</i>; persentase = yang tanggapannya terlihat di pemberitaan; median jeda dan jumlah yang melewati batas ikut ditampilkan. Polda menurut gazeter (Polda Metro Jaya untuk Jakarta, Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan).</td></tr>
@@ -321,7 +335,7 @@
         <tr><td><b>Ringkasan pagi</b></td><td>Lembar satu halaman per Polda, disusun di peramban dari data putaran terakhir: kasus perlu tindak lanjut (paling mendesak dulu), kabar balik 30 hari, titik rawan, dan persentase korban yang melapor menurut BPS untuk provinsi Polda itu.</td></tr>
       </tbody></table></div>
 
-    <h2 class="judul-bagian">Lima pagar etika, dan penerapannya di purwarupa ini</h2>
+    <h2 class="judul-bagian">Lima pagar etika dan penerapannya di purwarupa ini (Subbab 4.3.5)</h2>
     <div class="pagar" id="pagar"></div>
 
     <h2 class="judul-bagian">Keterbatasan</h2>
@@ -331,7 +345,7 @@
       <li>Google News RSS mengembalikan paling banyak 100 berita per kueri, dan GDELT tidak mencakup semua media daerah. GDELT juga sering membatasi permintaan dari server GitHub, sehingga deret per topik dapat tertinggal beberapa jam.</li>
       <li>Ambang lonjakan wilayah baru berlaku setelah riwayat arsip mencapai 7 hari; sebelumnya status Pantau hanya berasal dari aturan per kasus.</li>
       <li>Satu peristiwa besar (misalnya kericuhan) dapat terpecah menjadi beberapa kasus bila judul beritanya sangat berbeda. Karena itu titik rawan berulang menghitung kejadian yang berselang ≥ 72 jam, bukan jumlah kasus.</li>
-      <li>GitHub menjalankan jadwal "sebisanya", sehingga putaran bisa terlambat 5–30 menit.</li>
+      <li>GitHub menjalankan jadwal "sebisanya": putaran dapat terlambat, bahkan berjam-jam saat antrean padat. Karena itu setiap putaran juga menjadwalkan putaran berikutnya sendiri sebagai cadangan.</li>
     </ul></div>
   </section>
 </main>
@@ -345,7 +359,7 @@
 
 <dialog class="lacak" id="lacak" aria-labelledby="lacak-judul"><div id="lacak-isi"></div></dialog>
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
-<script src="assets/vendor/qrcode.js"></script>
-<script src="assets/peka.js"></script>
+<script src="assets/vendor/qrcode.js?v=20261029e"></script>
+<script src="assets/peka.js?v=20261029e"></script>
 </body>
 </html>

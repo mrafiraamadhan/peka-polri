@@ -1,8 +1,6 @@
 # PEKA - Pendengar Keluhan Warga (purwarupa)
 
-Purwarupa pendamping karya tulis **"Didengar Sebelum Viral: Delapan Dekade Suara Warga kepada
-Kepolisian (1945–2026) dan PEKA, Sistem Pendengar Keluhan Warga untuk Reformasi Polri Menuju
-Indonesia Emas 2045"** untuk Lomba Karya Tulis Ilmiah Sejarah Polri 2026. **Bukan situs resmi Polri.**
+Purwarupa pendamping karya tulis **"Didengar Sebelum Viral: Delapan Dekade Suara Warga kepada Kepolisian (1945–2026) dan PEKA, Sistem Pendengar Keluhan Warga untuk Reformasi Polri Menuju Indonesia Emas 2045"** untuk Lomba Karya Tulis Ilmiah Sejarah Polri 2026. **Bukan situs resmi Polri.**
 
 Situs: https://mrafiraamadhan.github.io/peka-polri/
 
@@ -15,12 +13,22 @@ yang menerapkan enam langkah PEKA pada **sumber terbuka saja**:
 |---|---|
 | Dengar | Berita daring (Google News RSS; cadangan Bing News RSS), volume berita GDELT 90 hari, gempa BMKG, daftar hoaks TurnBackHoax (MAFINDO) |
 | Pilah | Buang duplikat, saring berita bertanda hoaks atau cek fakta, beri topik (9 topik) dan lokasi sampai kabupaten/kota, gabungkan berita tentang kejadian yang sama menjadi satu kasus |
-| Timbang | Status Darurat, Tindak, Pantau, Tercatat, atau Jalur khusus dengan ambang tertulis (Tabel 4.5 naskah) |
+| Timbang | Status Darurat, Tindak, Pantau, Tercatat, atau Jalur khusus dengan ambang tertulis (Tabel 4.6 naskah) |
 | Teruskan | Penanggung jawab menurut wilayah: Polda, Polres, Polsek/Bhabinkamtibmas, atau Propam |
 | Kabarkan | Memeriksa apakah tanggapan polisi atau petugas sudah terlihat di pemberitaan dan berapa jam jedanya |
 | Arsipkan | `data/arsip_kasus.csv` dan `data/arsip_bulanan.json`: ringkasan tanpa identitas untuk Pusat Sejarah Polri |
 
 Unggahan media sosial **tidak** dibaca. Tidak ada identitas orang yang disimpan.
+
+**Cadangan jadwal.** Jadwal cron GitHub bisa terlambat atau terlewat. Karena itu setiap putaran, setelah
+menunggu lewat *wait timer* environment `jeda-sejam`, menjalankan putaran berikutnya sendiri. Atur sekali:
+Settings → Environments → New environment `jeda-sejam` → centang *Wait timer* → 50 menit → Save.
+Bila environment ini belum diatur, putaran berantai tidak dijalankan dan PEKA bergantung pada cron saja.
+
+**Aturan dapat dikoreksi.** Salah golong yang ditemukan diperbaiki di `config/topik.json`
+(misalnya `bukan_keluhan` untuk razia rutin dan imbauan, `kecuali` untuk "oknum anggota DPRD").
+Kasus yang tersimpan disaring ulang dengan aturan terbaru pada putaran berikutnya, dan riwayat perubahannya
+terbuka di daftar commit.
 
 ## Alat untuk menutup lingkaran
 
