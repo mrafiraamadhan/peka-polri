@@ -1,0 +1,42 @@
+name: PEKA - dengar keluhan publik
+
+on:
+  schedule:
+    # Setiap jam pada menit ke-17 (GitHub menjalankan jadwal "sebisanya", bisa mundur 5-30 menit).
+    - cron: "17 * * * *"
+  workflow_dispatch:      # bisa dijalankan manual dari tab Actions -> Run workflow
+
+permissions:
+  contents: write         # supaya bot boleh menyimpan hasil ke folder data/
+
+concurrency:
+  group: peka-pipeline
+  cancel-in-progress: false
+
+jobs:
+  dengar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Pasang dependensi
+        run: pip install -r requirements.txt
+
+      - name: Jalankan PEKA (dengar, pilah, timbang, teruskan, kabarkan, arsipkan)
+        run: python src/peka_pipeline.py
+        continue-on-error: true
+
+      - name: Simpan hasil
+        run: |
+          git config user.name "peka-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: pembaruan PEKA $(date -u +%Y-%m-%dT%H:%MZ)"
+          # tarik dulu commit terbaru (misalnya bila index.html baru diunggah) agar push tidak ditolak
+          git pull --rebase origin main
+          git push
