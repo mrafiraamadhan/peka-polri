@@ -1,75 +1,67 @@
 {
- "diperbarui_utc": "2026-10-29T12:43:01Z",
+ "diperbarui_utc": "2026-10-29T14:51:11Z",
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 24,
-  "TINDAK": 6,
-  "PANTAU": 61,
-  "TERCATAT": 313
+  "JALUR KHUSUS": 25,
+  "TINDAK": 21,
+  "PANTAU": 55,
+  "TERCATAT": 365
  },
- "kasus_aktif": 404,
+ "kasus_aktif": 466,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 24
+   "kasus": 25
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 41
+   "kasus": 39
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 59
+   "kasus": 65
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 40
+   "kasus": 41
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 101
+   "kasus": 116
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 36
+   "kasus": 52
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 44
+   "kasus": 49
   },
   "layanan": {
    "nama": "Layanan kepolisian",
-   "kasus": 5
+   "kasus": 4
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 54
+   "kasus": 75
   }
  },
  "provinsi": {
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
-   "JALUR KHUSUS": 4,
-   "PANTAU": 1,
-   "TERCATAT": 2
+   "JALUR KHUSUS": 3,
+   "TINDAK": 1,
+   "TERCATAT": 4
   },
   "35": {
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 5,
-   "TINDAK": 2,
-   "PANTAU": 17,
-   "TERCATAT": 23
-  },
-  "63": {
-   "nama": "Kalimantan Selatan",
-   "polda": "Polda Kalimantan Selatan",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 1,
-   "PANTAU": 2,
-   "TERCATAT": 3
+   "TINDAK": 7,
+   "PANTAU": 13,
+   "TERCATAT": 27
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -82,7 +74,7 @@
    "polda": "Polda Lampung",
    "JALUR KHUSUS": 2,
    "PANTAU": 3,
-   "TERCATAT": 6
+   "TERCATAT": 7
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -90,30 +82,32 @@
    "JALUR KHUSUS": 1,
    "TERCATAT": 4
   },
+  "63": {
+   "nama": "Kalimantan Selatan",
+   "polda": "Polda Kalimantan Selatan",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 3,
+   "TERCATAT": 3
+  },
   "62": {
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 2
+   "TERCATAT": 3
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
-   "TINDAK": 1,
-   "PANTAU": 6,
-   "TERCATAT": 16
-  },
-  "11": {
-   "nama": "Aceh",
-   "polda": "Polda Aceh",
-   "TINDAK": 1,
-   "TERCATAT": 14
+   "TINDAK": 3,
+   "PANTAU": 5,
+   "TERCATAT": 21
   },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
+   "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 1,
    "TERCATAT": 3
@@ -121,37 +115,68 @@
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
-   "PANTAU": 2,
-   "TERCATAT": 3
-  },
-  "51": {
-   "nama": "Bali",
-   "polda": "Polda Bali",
-   "PANTAU": 4,
-   "TERCATAT": 3
+   "JALUR KHUSUS": 1,
+   "PANTAU": 3,
+   "TERCATAT": 4
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
+   "TINDAK": 1,
+   "PANTAU": 4,
+   "TERCATAT": 3
+  },
+  "11": {
+   "nama": "Aceh",
+   "polda": "Polda Aceh",
+   "TINDAK": 1,
+   "TERCATAT": 16
+  },
+  "36": {
+   "nama": "Banten",
+   "polda": "Polda Banten",
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 5
+  },
+  "33": {
+   "nama": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "TINDAK": 2,
+   "PANTAU": 3,
+   "TERCATAT": 5
+  },
+  "72": {
+   "nama": "Sulawesi Tengah",
+   "polda": "Polda Sulawesi Tengah",
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 4
+  },
+  "61": {
+   "nama": "Kalimantan Barat",
+   "polda": "Polda Kalimantan Barat",
+   "TINDAK": 1,
+   "TERCATAT": 6
+  },
+  "51": {
+   "nama": "Bali",
+   "polda": "Polda Bali",
+   "TINDAK": 1,
+   "PANTAU": 3,
+   "TERCATAT": 4
+  },
+  "12": {
+   "nama": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 2
+   "TERCATAT": 13
   },
   "96": {
    "nama": "Papua Tengah",
    "polda": "Polda yang membawahi Papua Tengah",
    "PANTAU": 1
-  },
-  "72": {
-   "nama": "Sulawesi Tengah",
-   "polda": "Polda Sulawesi Tengah",
-   "PANTAU": 2,
-   "TERCATAT": 3
-  },
-  "61": {
-   "nama": "Kalimantan Barat",
-   "polda": "Polda Kalimantan Barat",
-   "PANTAU": 1,
-   "TERCATAT": 6
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -159,28 +184,22 @@
    "PANTAU": 1,
    "TERCATAT": 1
   },
-  "36": {
-   "nama": "Banten",
-   "polda": "Polda Banten",
-   "PANTAU": 2,
-   "TERCATAT": 5
-  },
   "53": {
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "PANTAU": 3,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "75": {
    "nama": "Gorontalo",
    "polda": "Polda Gorontalo",
    "PANTAU": 1
   },
-  "33": {
-   "nama": "Jawa Tengah",
-   "polda": "Polda Jawa Tengah",
+  "15": {
+   "nama": "Jambi",
+   "polda": "Polda Jambi",
    "PANTAU": 3,
-   "TERCATAT": 4
+   "TERCATAT": 2
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -191,30 +210,18 @@
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
-   "PANTAU": 2,
-   "TERCATAT": 1
+   "PANTAU": 1,
+   "TERCATAT": 2
   },
   "91": {
    "nama": "Papua Barat",
    "polda": "Polda Papua Barat",
    "PANTAU": 1
   },
-  "15": {
-   "nama": "Jambi",
-   "polda": "Polda Jambi",
-   "PANTAU": 2,
-   "TERCATAT": 2
-  },
-  "12": {
-   "nama": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "PANTAU": 2,
-   "TERCATAT": 13
-  },
   "21": {
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
-   "TERCATAT": 2
+   "TERCATAT": 3
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -249,59 +256,65 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 911,
+   "artikel": 910,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 622,
-   "sudah_ada": 8,
+   "relevan": 153,
+   "sudah_ada": 699,
    "hoaks": 3,
-   "tidak_relevan": 68,
-   "bukan_kejadian": 186,
-   "luar_negeri": 24,
-   "kasus_baru": 404,
-   "digabung": 218
+   "tidak_relevan": 19,
+   "bukan_kejadian": 34,
+   "luar_negeri": 2,
+   "kasus_baru": 78,
+   "digabung": 75
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 24,
-   "TINDAK": 6,
-   "PANTAU": 61,
-   "TERCATAT": 313
+   "JALUR KHUSUS": 25,
+   "TINDAK": 21,
+   "PANTAU": 55,
+   "TERCATAT": 365
   },
   "teruskan": {
    "polda": 26,
-   "kasus": 91
+   "kasus": 101
   },
   "kabarkan": {
-   "tanggapan_terlihat": 193,
-   "kasus": 404,
-   "median_jeda_jam": 5.9,
-   "n_jeda": 17,
-   "melewati_batas": 8
+   "tanggapan_terlihat": 215,
+   "kasus": 466,
+   "median_jeda_jam": 5.3,
+   "n_jeda": 18,
+   "melewati_batas": 9
   },
   "arsipkan": {
-   "baris": 404,
+   "baris": 466,
    "bulan": 1,
-   "hari_riwayat": 0
+   "hari_riwayat": 2
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [
-  {
-   "topik": "anggota",
-   "nama": "Perilaku anggota",
-   "kemarin": 0,
-   "rata28": 1.2,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
- "hari_riwayat": 0,
+ "lonjakan_nasional": [],
+ "hari_riwayat": 2,
  "gempa_darurat": [
   "95"
  ],
  "hoaks_terbaru": [
+  {
+   "judul": "[PENIPUAN] Lowongan Kerja iBox",
+   "url": "https://turnbackhoax.id/articles/37326-penipuan-lowongan-kerja-ibox",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Pendaftaran Program Tebus Pupuk Murah dari Pemerintah",
+   "url": "https://turnbackhoax.id/articles/37325-penipuan-pendaftaran-program-tebus-pupuk-murah-dari-pemerintah",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Tautan Pendaftaran Lowongan Kerja Amerta Indah Otsuka (Pocari Sweat)",
+   "url": "https://turnbackhoax.id/articles/37324-penipuan-tautan-pendaftaran-lowongan-kerja-amerta-indah-otsuka-pocari-sweat",
+   "terbit": null
+  },
   {
    "judul": "[PENIPUAN] Akun Telegram Pendaftaran Program Bedah Rumah Kementerian PKP",
    "url": "https://turnbackhoax.id/articles/37323-penipuan-akun-telegram-pendaftaran-program-bedah-rumah-kementerian-pkp",
@@ -315,21 +328,6 @@
   {
    "judul": "[PENIPUAN] Kuis Berhadiah dari Menteri Pertanian",
    "url": "https://turnbackhoax.id/articles/37320-penipuan-kuis-berhadiah-dari-menteri-pertanian",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] BMKG Prediksi Suhu Indonesia Bakal Sentuh 50 Derajat Celsius",
-   "url": "https://turnbackhoax.id/articles/37313-salah-bmkg-prediksi-suhu-indonesia-bakal-sentuh-50-derajat-celsius",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] KLHK Menyatakan Orang Utan Kalimantan Punah Total",
-   "url": "https://turnbackhoax.id/articles/37312-salah-klhk-menyatakan-orang-utan-kalimantan-punah-total",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Kemendikbud Terapkan Masa Belajar SMA 4 Tahun",
-   "url": "https://turnbackhoax.id/articles/37310-salah-kemendikbud-terapkan-masa-belajar-sma-4-tahun",
    "terbit": null
   }
  ]
