@@ -1,28 +1,28 @@
 {
- "diperbarui_utc": "2026-10-30T06:34:38Z",
+ "diperbarui_utc": "2026-10-30T07:25:47Z",
  "jendela_hari": 30,
  "hari_riwayat": 3,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 374,
+ "kasus_tanpa_polda": 382,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 72,
-   "perlu": 66,
-   "perlu_tanggap": 44,
-   "persen_tanggap": 66.7,
-   "tanggap": 45,
+   "kasus": 73,
+   "perlu": 67,
+   "perlu_tanggap": 46,
+   "persen_tanggap": 68.7,
+   "tanggap": 47,
    "jalur_khusus": 5,
    "melewati_batas": 4,
-   "median_jeda_jam": 6.2,
-   "n_jeda": 10,
+   "median_jeda_jam": 8.3,
+   "n_jeda": 11,
    "topik_teratas": [
     [
      "jalanan",
-     27
+     28
     ],
     [
      "lalulintas",
@@ -39,10 +39,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 45,
-   "perlu": 36,
+   "kasus": 47,
+   "perlu": 37,
    "perlu_tanggap": 20,
-   "persen_tanggap": 55.6,
+   "persen_tanggap": 54.1,
    "tanggap": 20,
    "jalur_khusus": 1,
    "melewati_batas": 3,
@@ -55,7 +55,7 @@
     ],
     [
      "darurat",
-     9
+     10
     ],
     [
      "konflik",
@@ -97,7 +97,7 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 21,
+   "kasus": 22,
    "perlu": 17,
    "perlu_tanggap": 12,
    "persen_tanggap": 70.6,
@@ -117,7 +117,7 @@
     ],
     [
      "darurat",
-     4
+     5
     ]
    ]
   },
@@ -180,6 +180,35 @@
    ]
   },
   {
+   "polda": "Polda Jawa Tengah",
+   "provinsi": [
+    "33"
+   ],
+   "kasus": 16,
+   "perlu": 13,
+   "perlu_tanggap": 7,
+   "persen_tanggap": 53.8,
+   "tanggap": 8,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": 4.6,
+   "n_jeda": 3,
+   "topik_teratas": [
+    [
+     "jalanan",
+     5
+    ],
+    [
+     "darurat",
+     3
+    ],
+    [
+     "perempuan_anak",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Riau",
    "provinsi": [
     "14"
@@ -209,40 +238,11 @@
    ]
   },
   {
-   "polda": "Polda Jawa Tengah",
-   "provinsi": [
-    "33"
-   ],
-   "kasus": 15,
-   "perlu": 13,
-   "perlu_tanggap": 7,
-   "persen_tanggap": 53.8,
-   "tanggap": 7,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": 4.6,
-   "n_jeda": 3,
-   "topik_teratas": [
-    [
-     "jalanan",
-     5
-    ],
-    [
-     "perempuan_anak",
-     2
-    ],
-    [
-     "penipuan",
-     2
-    ]
-   ]
-  },
-  {
    "polda": "Polda Bali",
    "provinsi": [
     "51"
    ],
-   "kasus": 15,
+   "kasus": 16,
    "perlu": 12,
    "perlu_tanggap": 6,
    "persen_tanggap": 50.0,
@@ -257,12 +257,41 @@
      7
     ],
     [
+     "darurat",
+     3
+    ],
+    [
      "narkoba",
      2
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Nusa Tenggara Timur",
+   "provinsi": [
+    "53"
+   ],
+   "kasus": 12,
+   "perlu": 12,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 50.0,
+   "tanggap": 6,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": 18.2,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "jalanan",
+     5
+    ],
+    [
+     "penipuan",
+     3
     ],
     [
      "lalulintas",
-     2
+     1
     ]
    ]
   },
@@ -292,35 +321,6 @@
     [
      "perempuan_anak",
      2
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Nusa Tenggara Timur",
-   "provinsi": [
-    "53"
-   ],
-   "kasus": 11,
-   "perlu": 11,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 45.5,
-   "tanggap": 5,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     5
-    ],
-    [
-     "penipuan",
-     2
-    ],
-    [
-     "lalulintas",
-     1
     ]
    ]
   },
@@ -383,6 +383,64 @@
    ]
   },
   {
+   "polda": "Polda Kepulauan Riau",
+   "provinsi": [
+    "21"
+   ],
+   "kasus": 9,
+   "perlu": 9,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 66.7,
+   "tanggap": 6,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     4
+    ],
+    [
+     "perempuan_anak",
+     3
+    ],
+    [
+     "lalulintas",
+     1
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sumatera Selatan",
+   "provinsi": [
+    "16"
+   ],
+   "kasus": 9,
+   "perlu": 9,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 66.7,
+   "tanggap": 6,
+   "jalur_khusus": 2,
+   "melewati_batas": 1,
+   "median_jeda_jam": 16.9,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     4
+    ],
+    [
+     "jalanan",
+     3
+    ],
+    [
+     "anggota",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sulawesi Selatan",
    "provinsi": [
     "73"
@@ -436,35 +494,6 @@
     ],
     [
      "penipuan",
-     1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sumatera Selatan",
-   "provinsi": [
-    "16"
-   ],
-   "kasus": 8,
-   "perlu": 8,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 62.5,
-   "tanggap": 5,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": 16.9,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     4
-    ],
-    [
-     "jalanan",
-     3
-    ],
-    [
-     "anggota",
      1
     ]
    ]
@@ -586,35 +615,6 @@
    ]
   },
   {
-   "polda": "Polda Kepulauan Riau",
-   "provinsi": [
-    "21"
-   ],
-   "kasus": 5,
-   "perlu": 5,
-   "perlu_tanggap": 3,
-   "persen_tanggap": 60.0,
-   "tanggap": 3,
-   "jalur_khusus": 0,
-   "melewati_batas": 1,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     3
-    ],
-    [
-     "lalulintas",
-     1
-    ],
-    [
-     "perempuan_anak",
-     1
-    ]
-   ]
-  },
-  {
    "polda": "Polda Banten",
    "provinsi": [
     "36"
@@ -639,6 +639,35 @@
     ],
     [
      "lalulintas",
+     1
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "provinsi": [
+    "19"
+   ],
+   "kasus": 6,
+   "perlu": 4,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 25.0,
+   "tanggap": 2,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "darurat",
+     2
+    ],
+    [
+     "penipuan",
+     1
+    ],
+    [
+     "narkoba",
      1
     ]
    ]
@@ -698,35 +727,6 @@
    ]
   },
   {
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "provinsi": [
-    "19"
-   ],
-   "kasus": 5,
-   "perlu": 3,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 33.3,
-   "tanggap": 2,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "darurat",
-     2
-    ],
-    [
-     "penipuan",
-     1
-    ],
-    [
-     "narkoba",
-     1
-    ]
-   ]
-  },
-  {
    "polda": "Polda yang membawahi Papua Tengah",
    "provinsi": [
     "96"
@@ -747,6 +747,35 @@
     ],
     [
      "darurat",
+     1
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Bengkulu",
+   "provinsi": [
+    "17"
+   ],
+   "kasus": 3,
+   "perlu": 3,
+   "perlu_tanggap": 3,
+   "persen_tanggap": 100.0,
+   "tanggap": 3,
+   "jalur_khusus": 0,
+   "melewati_batas": 0,
+   "median_jeda_jam": 0.2,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "jalanan",
+     1
+    ],
+    [
+     "perempuan_anak",
+     1
+    ],
+    [
+     "narkoba",
      1
     ]
    ]
@@ -805,31 +834,6 @@
     ],
     [
      "darurat",
-     1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Bengkulu",
-   "provinsi": [
-    "17"
-   ],
-   "kasus": 2,
-   "perlu": 2,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 100.0,
-   "tanggap": 2,
-   "jalur_khusus": 0,
-   "melewati_batas": 0,
-   "median_jeda_jam": 0.2,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "perempuan_anak",
-     1
-    ],
-    [
-     "narkoba",
      1
     ]
    ]
