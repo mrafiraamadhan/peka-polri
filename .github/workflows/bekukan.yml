@@ -1,0 +1,49 @@
+name: PEKA - bekukan data uji naskah
+
+# Dijalankan manual dari tab Actions. Memproses ulang cache kasus suatu commit dengan aturan terbaru
+# dan menyimpan hasilnya di uji-naskah/<tanggal>/, supaya angka naskah dapat diperiksa dan diulang.
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: "Commit data sumber"
+        required: true
+        default: "cc23927"
+      tanggal:
+        description: "Nama folder di uji-naskah/"
+        required: true
+        default: "2026-10-30"
+      jam:
+        description: "Jam putaran (PEKA_NOW, ISO UTC)"
+        required: true
+        default: "2026-10-30T04:15:02+00:00"
+
+permissions:
+  contents: write
+
+jobs:
+  bekukan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    concurrency:
+      group: peka-pipeline
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Pasang dependensi
+        run: pip install -r requirements.txt
+      - name: Bekukan data uji
+        run: python uji/bekukan.py "${{ inputs.commit }}" "${{ inputs.tanggal }}" "${{ inputs.jam }}"
+      - name: Simpan hasil
+        run: |
+          git config user.name "peka-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add uji-naskah/
+          git diff --cached --quiet || git commit -m "uji: bekukan data uji naskah ${{ inputs.tanggal }} dari ${{ inputs.commit }}"
+          git pull --rebase origin main
+          git push
