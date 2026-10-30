@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-10-30T19:27:27Z",
+ "diperbarui_utc": "2026-10-30T20:19:27Z",
  "jendela_hari": 30,
  "hari_riwayat": 4,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 437,
+ "kasus_tanpa_polda": 440,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 102,
-   "perlu": 49,
+   "kasus": 104,
+   "perlu": 51,
    "perlu_tanggap": 13,
-   "persen_tanggap": 26.5,
+   "persen_tanggap": 25.5,
    "tanggap": 56,
    "jalur_khusus": 9,
    "melewati_batas": 13,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     40
+     42
     ],
     [
      "perempuan_anak",
@@ -68,11 +68,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 33,
+   "kasus": 34,
    "perlu": 16,
    "perlu_tanggap": 4,
    "persen_tanggap": 25.0,
-   "tanggap": 13,
+   "tanggap": 14,
    "jalur_khusus": 2,
    "melewati_batas": 1,
    "median_jeda_jam": 7.5,
@@ -213,11 +213,11 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 17,
+   "kasus": 19,
    "perlu": 9,
    "perlu_tanggap": 1,
    "persen_tanggap": 11.1,
-   "tanggap": 5,
+   "tanggap": 6,
    "jalur_khusus": 6,
    "melewati_batas": 2,
    "median_jeda_jam": 4.8,
@@ -229,11 +229,11 @@
     ],
     [
      "jalanan",
-     5
+     6
     ],
     [
      "darurat",
-     4
+     5
     ]
    ]
   },
@@ -451,7 +451,7 @@
    "persen_tanggap": 25.0,
    "tanggap": 16,
    "jalur_khusus": 1,
-   "melewati_batas": 1,
+   "melewati_batas": 2,
    "median_jeda_jam": 10.4,
    "n_jeda": 1,
    "topik_teratas": [
