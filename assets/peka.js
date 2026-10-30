@@ -76,6 +76,7 @@
   function buka(tab, gulir, tetapHash) {
     if (!TABS.includes(tab)) tab = "ringkasan";
     tabAktif = tab;
+    document.body.dataset.tab = tab;
     document.querySelectorAll(".tabbtn").forEach(b => {
       const aktif = b.dataset.tab === tab;
       b.setAttribute("aria-selected", aktif ? "true" : "false");
@@ -104,15 +105,18 @@
   addEventListener("hashchange", rute);
 
   // ------------------------------------------------------------ data
-  async function ambil(nama) {
+  // ?data=uji-naskah/2026-10-30 membuka salinan data beku yang dipakai naskah (lihat folder uji-naskah/).
+  const DATA_DIR = (() => { try { const v = new URLSearchParams(location.search).get("data"); return v && /^uji-naskah\/[0-9a-z\-]+$/i.test(v) ? v + "/" : "data/"; } catch (e) { return "data/"; } })();
+  const SNAPSHOT = "uji-naskah/2026-10-30/";
+  async function ambil(nama, dir) {
     try {
-      const r = await fetch("data/" + nama + "?t=" + Date.now(), { cache: "no-store" });
+      const r = await fetch((dir || DATA_DIR) + nama + "?t=" + Date.now(), { cache: "no-store" });
       if (!r.ok) return null;
       return await r.json();
     } catch (e) { return null; }
   }
   async function muat() {
-    const [ri, ka, gd, bm, ar, su, po] = await Promise.all(["ringkasan.json", "kasus_terkini.json", "gdelt_tren.json", "bmkg.json", "arsip_bulanan.json", "status_sumber.json", "polda.json"].map(ambil));
+    const [ri, ka, gd, bm, ar, su, po] = await Promise.all(["ringkasan.json", "kasus_terkini.json", "gdelt_tren.json", "bmkg.json", "arsip_bulanan.json", "status_sumber.json", "polda.json"].map(n => ambil(n)));
     Object.assign(D, { ringkasan: ri, kasus: ka, gdelt: gd, bmkg: bm, arsip: ar, sumber: su, polda: po });
     gambarSemua();
     if (lacakTunda) { const id = lacakTunda; lacakTunda = null; bukaLacak(id); }
@@ -149,8 +153,12 @@
   }
   function spanduk() {
     const el = $("spanduk-data");
+    if (DATA_DIR !== "data/" && D.ringkasan) {
+      el.innerHTML = `<div class="spanduk">Anda melihat <b>data uji yang dibekukan untuk naskah</b> (putaran ${wib(D.ringkasan.diperbarui_utc)}, aturan versi ${esc(D.ringkasan.versi_aturan || "-")}). Angka Subbab 4.3.9 naskah berasal dari data ini. <a href="./">Kembali ke pantauan langsung</a>.</div>`;
+      return;
+    }
     if (!D.ringkasan) {
-      el.innerHTML = `<div class="spanduk">Data pantauan langsung belum ada. Pemilik repositori perlu menjalankan alur kerja <b>PEKA - dengar keluhan publik</b> sekali dari tab <b>Actions</b> di GitHub; setelah itu halaman terisi sendiri setiap jam. Tab Uji Ambang, Sejarah &amp; Data, dan Metodologi tetap dapat dipakai.</div>`;
+      el.innerHTML = `<div class="spanduk">Data pantauan langsung belum ada. Pemilik repositori perlu menjalankan alur kerja <b>PEKA - dengar keluhan publik</b> sekali dari tab <b>Actions</b> di GitHub; setelah itu halaman terisi sendiri kira-kira setiap jam. Tab Uji Ambang, Sejarah &amp; Data, dan Metodologi tetap dapat dipakai.</div>`;
     } else if (umurJam(D.ringkasan.diperbarui_utc) > 3) {
       el.innerHTML = `<div class="spanduk">Putaran terakhir ${lalu(D.ringkasan.diperbarui_utc)}. Jadwal GitHub kadang mundur; data di bawah tetap hasil putaran terakhir.</div>`;
     } else el.innerHTML = "";
@@ -177,7 +185,7 @@
     const L = r.langkah, s = r.status, kb = L.kabarkan;
     const perlu = s["DARURAT"] + s["TINDAK"] + s["JALUR KHUSUS"];
     let t = `Dalam 72 jam terakhir PEKA menyusun <b>${fmt(r.kasus_aktif)} kasus keluhan</b> dari berita daring. `;
-    t += (perlu || s["PANTAU"]) ? `<b>${fmt(perlu)} kasus</b> perlu tindakan segera (${fmt(s["DARURAT"])} darurat, ${fmt(s["TINDAK"])} tindak, ${fmt(s["JALUR KHUSUS"])} jalur khusus ke Propam); bersama ${fmt(s["PANTAU"])} kasus Pantau, <b>${fmt(L.teruskan.kasus)} kasus</b> diteruskan ke <b>${fmt(L.teruskan.polda)} Polda</b>. ` : "Tidak ada kasus yang memerlukan tindakan segera. ";
+    t += (perlu || s["PANTAU"]) ? `<b>${fmt(perlu)} kasus</b> perlu tindakan segera (${fmt(s["DARURAT"])} darurat, ${fmt(s["TINDAK"])} tindak, ${fmt(s["JALUR KHUSUS"])} jalur khusus ke Propam atau pengawas penyidikan); bersama ${fmt(s["PANTAU"])} kasus Pantau, <b>${fmt(L.teruskan.kasus)} kasus</b> diteruskan ke <b>${fmt(L.teruskan.polda)} Polda</b>. ` : "Tidak ada kasus yang memerlukan tindakan segera. ";
     t += `Tanggapan polisi atau petugas sudah terlihat di pemberitaan pada <b>${fmt(kb.tanggapan_terlihat)} kasus</b>`;
     t += kb.median_jeda_jam != null ? `, dengan median jeda <b>${fmt(kb.median_jeda_jam, 1)} jam</b> setelah berita pertama (${fmt(kb.n_jeda)} kasus yang jedanya terukur). ` : ". ";
     if (kb.melewati_batas) t += `<b>${fmt(kb.melewati_batas)} kasus</b> sudah melewati batas kabar balik statusnya tanpa tanggapan yang terlihat. `;
@@ -358,7 +366,8 @@
     const kelasKasus = v => v <= 0 ? 0 : Math.min(6, 1 + Math.floor(5 * Math.log(1 + v) / Math.log(1 + maks)));
     const BATAS_SENYAP = [70, 75, 80, 85, 90];
     const kelasSenyap = v => v == null ? -1 : 1 + BATAS_SENYAP.filter(b => v >= b).length;
-    const senyap = c => BPS_LAPOR[c] && BPS_LAPOR[c][1] != null ? +(100 - BPS_LAPOR[c][1]).toFixed(2) : null;
+    // rata-rata 2023–2024 karena angka provinsi berasal dari sampel kecil; satu tahun saja bisa menyesatkan
+    const senyap = c => { const b = BPS_LAPOR[c], v = rata2(c) != null ? rata2(c) : (b ? (b[1] != null ? b[1] : b[0]) : null); return v == null ? null : +(100 - v).toFixed(2); };
     const warnaStatus = s => css("--" + ({ "DARURAT": "darurat", "JALUR KHUSUS": "khusus", "TINDAK": "tindak", "PANTAU": "pantau", "TERCATAT": "tercatat" }[s]) + "-tanda");
     let h = `<svg class="peta-svg" viewBox="${PETA.viewBox}" role="img" aria-label="Peta Indonesia per provinsi">
       <defs><pattern id="arsir-na" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
@@ -384,14 +393,14 @@
         const c = n.dataset.p, p = prov[c] || {}, b = BPS_LAPOR[c] || [null, null];
         tunjuk(e, `<b>${esc(PETA.prov[c].nama)}</b>${r && r.provinsi[c] ? esc(r.provinsi[c].polda) : esc(NAMA_PROV[c] ? "" : "")}<br>` +
           (URUT.filter(k => p[k]).map(k => `${ST[k].ikon} ${ST[k].nama}: ${p[k]}`).join("<br>") || "tidak ada kasus aktif") +
-          `<br><span class="kecil">Korban yang melapor ke polisi (BPS): ${fmtPersen(b[0])} (2023), <b>${fmtPersen(b[1])}</b> (2024)</span>`);
+          `<br><span class="kecil">Korban yang melapor ke polisi (BPS): ${fmtPersen(b[0])} (2023), ${fmtPersen(b[1])} (2024)${b[0] != null && b[1] != null && Math.abs(b[0] - b[1]) > 10 ? " · <b>naik-turun > 10 poin, baca hati-hati</b>" : ""}</span>`);
       };
       n.onpointerleave = sembunyikan;
     });
     $("legenda-peta").innerHTML = modePeta === "kasus"
       ? `<span>sedikit</span>${[1, 2, 3, 4, 5, 6].map(i => `<i style="background:var(--seq-${i})"></i>`).join("")}<span>banyak kasus</span>
          <span style="margin-left:14px;white-space:normal">lingkaran = jumlah kasus, warna = status tertinggi: ${URUT.map(k => `${ST[k].ikon} ${ST[k].nama}`).join(" · ")}</span>`
-      : `<span>korban yang <b>tidak</b> melapor ke polisi, 2024:</span>${["< 70%", "70–75%", "75–80%", "80–85%", "85–90%", "≥ 90%"].map((t, i) => `<i style="background:var(--seq-${i + 1})"></i><span>${t}</span>`).join("")}<i style="background:repeating-linear-gradient(45deg,var(--ink-3) 0 1.5px,var(--surface-2) 1.5px 5px)"></i><span>NA (tidak tersedia)</span>`;
+      : `<span>korban yang <b>tidak</b> melapor ke polisi, rata-rata 2023–2024:</span>${["< 70%", "70–75%", "75–80%", "80–85%", "85–90%", "≥ 90%"].map((t, i) => `<i style="background:var(--seq-${i + 1})"></i><span>${t}</span>`).join("")}<i style="background:repeating-linear-gradient(45deg,var(--ink-3) 0 1.5px,var(--surface-2) 1.5px 5px)"></i><span>NA (tidak tersedia)</span>`;
     panelProv();
     // panel suara senyap: hanya pada lapisan Suara senyap, supaya daftar kasus langsung di bawah peta
     $("senyap").classList.toggle("sembunyi", modePeta !== "senyap");
@@ -490,9 +499,9 @@
     const N = 10;
     const tabel = perlu.length ? `<div class="tabel-wadah"><table class="tbl lembar-tbl"><thead><tr><th>Status</th><th>Kab/kota</th><th>Kejadian</th><th>Penanggung jawab</th><th>Batas waktu</th></tr></thead><tbody>${perlu.slice(0, N).map(h => {
       const pj = h.penanggung_jawab.replace(/\s*\(Polda[^)]*\)$/, "");
-      return `<tr><td>${lencana(h.status)}</td><td>${esc(h.lok.kab ? h.lok.kab.replace(/^Kabupaten /, "Kab. ") : "(provinsi)")}</td>
-        <td><a href="#lacak=${esc(h.id)}">${esc(h.judul.length > 120 ? h.judul.slice(0, 117) + "…" : h.judul)}</a><div class="kecil">pertama ${lalu(h.pertama)} · ${fmt(h.n_media)} media</div></td>
-        <td>${esc(pj)}</td><td>${h.melewati_batas ? `<b class="merah">⚠ lewat</b><div class="kecil">${esc(h.batas_waktu)}</div>` : esc(h.batas_waktu)}</td></tr>`;
+      return `<tr><td data-l="Status">${lencana(h.status)}</td><td data-l="Kab/kota">${esc(h.lok.kab ? h.lok.kab.replace(/^Kabupaten /, "Kab. ") : "(provinsi)")}</td>
+        <td data-l="Kejadian"><a href="#lacak=${esc(h.id)}">${esc(h.judul.length > 120 ? h.judul.slice(0, 117) + "…" : h.judul)}</a><div class="kecil">pertama ${lalu(h.pertama)} · ${fmt(h.n_media)} media</div></td>
+        <td data-l="Penanggung jawab">${esc(pj)}</td><td data-l="Batas waktu">${h.melewati_batas ? `<b class="merah">⚠ lewat</b><div class="kecil">${esc(h.batas_waktu)}</div>` : esc(h.batas_waktu)}</td></tr>`;
     }).join("")}</tbody></table></div>${perlu.length > N ? `<p class="kecil" style="margin:6px 0 0">dan ${fmt(perlu.length - N)} kasus lain; daftar lengkap di tab Pantau Langsung.</p>` : ""}`
       : `<p style="margin:0">Tidak ada kasus yang perlu ditindaklanjuti dalam 72 jam terakhir.</p>`;
     const sejak = D.polda && D.polda.arsip_sejak_utc ? new Date(D.polda.arsip_sejak_utc) : null;
@@ -567,11 +576,11 @@
   });
 
   // ------------------------------------------------------------ lacak kabar
-  let ARSIP_ID = null, arsipDimuat = false;
+  let ARSIP_ID = null, arsipDimuat = false, SNAP_KASUS = null;
   async function muatArsipId() {
     arsipDimuat = true;
     try {
-      const r = await fetch("data/arsip_kasus.csv?t=" + Date.now(), { cache: "no-store" });
+      const r = await fetch(DATA_DIR + "arsip_kasus.csv?t=" + Date.now(), { cache: "no-store" });
       if (!r.ok) return;
       const baris = (await r.text()).trim().split(/\r?\n/), kol = baris[0].split(",");
       ARSIP_ID = {};
@@ -581,12 +590,14 @@
   function bukaLacak(id) {
     const dlg = $("lacak");
     if (!D.kasus) { lacakTunda = id; return; }
-    const h = D.kasus.kasus.find(x => x.id === id);
+    let h = D.kasus.kasus.find(x => x.id === id), dariUji = false;
+    if (!h && SNAP_KASUS) { h = SNAP_KASUS.find(x => x.id === id); dariUji = !!h; }
     const url = SITUS + "#lacak=" + encodeURIComponent(id);
     let isi;
     if (!h) {
       const r = ARSIP_ID ? ARSIP_ID[id] : null;
       if (!ARSIP_ID && !arsipDimuat) { muatArsipId().then(() => bukaLacak(id)); return; }
+      if (!r && SNAP_KASUS === null) { ambil("kasus_terkini.json", SNAPSHOT).then(j => { SNAP_KASUS = j ? j.kasus : []; bukaLacak(id); }); return; }
       isi = `<div class="lacak-kepala"><span class="lacak-label">LACAK KABAR · ${esc(id)}</span><button type="button" class="tutup" aria-label="Tutup">✕</button></div>` + (r
         ? `<h3 id="lacak-judul">Kasus sudah keluar dari jendela 72 jam</h3>
            <ol class="linimasa">
@@ -594,9 +605,9 @@
              <li class="selesai"><b>Ditimbang</b><div>Status awal ${ST[r.status_awal || r.status] ? lencana(r.status_awal || r.status) : esc(r.status_awal || r.status)}, status akhir ${ST[r.status] ? lencana(r.status) : esc(r.status)} · ${esc(TOPIK[r.topik] || r.topik)}</div></li>
              <li class="selesai"><b>Diteruskan</b><div>${esc(r.kabkota || r.provinsi || "lokasi belum jelas")}${r.polda ? " · " + esc(r.polda) : ""}${r.polres ? " · " + esc(r.polres) : ""}</div></li>
              <li class="${+r.tanggapan_terlihat ? "selesai" : (+r.melewati_batas ? "lewat" : "kini")}"><b>Tanggapan</b><div>${+r.tanggapan_terlihat ? (r.jeda_tanggapan_jam ? `Terlihat ${fmt(+r.jeda_tanggapan_jam, 1)} jam setelah berita pertama.` : "Terlihat sejak berita pertama.") : (+r.melewati_batas ? "Melewati batas tanpa tanggapan yang terlihat." : "Tidak terlihat di pemberitaan selama kasus aktif.")}</div></li>
-             <li class="selesai"><b>Diarsipkan</b><div>Ringkasan ini dibaca dari arsip suara publik, tanpa judul dan tanpa nama.</div></li>
+             <li class="selesai"><b>Diarsipkan</b><div>Ringkasan ini dibaca dari arsip suara publik, tanpa judul dan tanpa nama.${r.koreksi ? ` <b>Dikoreksi:</b> ${esc(r.koreksi)}; baris tetap disimpan tetapi tidak ikut dihitung.` : ""}</div></li>
            </ol>`
-        : `<h3 id="lacak-judul">Kasus tidak ditemukan</h3><p>Kode ini tidak ada pada data purwarupa saat ini. Contoh kode pada naskah (Gambar 4.9) memakai data uji 29 Oktober 2026, sedangkan arsip purwarupa terus berganti.</p>`);
+        : `<h3 id="lacak-judul">Kasus tidak ditemukan</h3><p>Kode ini tidak ada pada data purwarupa saat ini maupun pada data uji yang dibekukan untuk naskah.</p>`);
     } else {
       const sAwal = h.status_awal || h.status, tutup = sAwal !== h.status;
       const jam = BATAS_JAM[sAwal], tenggat = jam ? new Date(new Date(h.pertama).getTime() + jam * 3.6e6).toISOString() : null;
@@ -618,7 +629,7 @@
         <ol class="linimasa">${langkahL.map(l => `<li class="${l[0]}"><b>${l[1]}</b><div>${l[2]}</div></li>`).join("")}</ol>
         <div class="contoh-surat">${qr ? `<div class="qr">${qr}</div>` : ""}
           <div><b>Contoh kode pada surat</b><p>Pada sistem yang dipasang di Polri, kode seperti ini dicetak pada surat tanda terima laporan, SP2HP, dan SP3D. Warga cukup memindainya untuk melihat halaman ini: status, penanggung jawab, dan tenggat, tanpa identitas siapa pun dan tanpa harus datang ke kantor polisi.</p><span class="mono kecil">${esc(url)}</span></div></div>
-        <p class="kecil" style="margin:10px 0 0">Purwarupa: langkah di atas dibaca dari berita publik, bukan dari laporan polisi.</p>`;
+        <p class="kecil" style="margin:10px 0 0">Purwarupa: langkah di atas dibaca dari berita publik, bukan dari laporan polisi.${dariUji ? " Kasus ini diambil dari data uji yang dibekukan untuk naskah (folder uji-naskah di repositori)." : ""}</p>`;
     }
     $("lacak-isi").innerHTML = isi;
     $("lacak-isi").querySelector(".tutup").onclick = () => dlg.close();
@@ -757,22 +768,25 @@
 
   // ------------------------------------------------------------ uji ambang (Tabel 4.6)
   const PRESET = {
-    darurat: { pidana: 1, berlangsung: 1, jiwa: 1, lokasi: 1, bukti: 0, berat: 0, anggota: 0, akun: 1, hariini: 2, rata: 1.5 },
-    tindak: { pidana: 1, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 0, anggota: 0, akun: 4, hariini: 3, rata: 2 },
-    berat: { pidana: 1, berlangsung: 0, jiwa: 1, lokasi: 1, bukti: 0, berat: 1, anggota: 0, akun: 1, hariini: 1, rata: 1 },
-    pantau: { pidana: 0, berlangsung: 0, jiwa: 0, lokasi: 0, bukti: 0, berat: 0, anggota: 0, akun: 2, hariini: 9, rata: 3.5 },
-    anggota: { pidana: 1, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 0, anggota: 1, akun: 1, hariini: 1, rata: 1 },
-    tercatat: { pidana: 0, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 0, anggota: 0, akun: 1, hariini: 2, rata: 3 },
+    darurat: { pidana: 1, berlangsung: 1, jiwa: 1, lokasi: 1, bukti: 0, berat: 0, anggota: 0, perkara: 0, akun: 1, hariini: 2, rata: 1.5 },
+    tindak: { pidana: 1, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 0, anggota: 0, perkara: 0, akun: 4, hariini: 3, rata: 2 },
+    berat: { pidana: 1, berlangsung: 0, jiwa: 1, lokasi: 1, bukti: 0, berat: 1, anggota: 0, perkara: 0, akun: 1, hariini: 1, rata: 1 },
+    pantau: { pidana: 0, berlangsung: 0, jiwa: 0, lokasi: 0, bukti: 0, berat: 0, anggota: 0, perkara: 0, akun: 2, hariini: 9, rata: 3.5 },
+    anggota: { pidana: 1, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 0, anggota: 1, perkara: 0, akun: 1, hariini: 1, rata: 1 },
+    perkara: { pidana: 1, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 1, anggota: 0, perkara: 1, akun: 2, hariini: 1, rata: 1 },
+    tercatat: { pidana: 0, berlangsung: 0, jiwa: 0, lokasi: 1, bukti: 0, berat: 0, anggota: 0, perkara: 0, akun: 1, hariini: 2, rata: 3 },
   };
-  const CIRI = ["pidana", "berlangsung", "jiwa", "lokasi", "bukti", "berat", "anggota"];
+  const CIRI = ["pidana", "berlangsung", "jiwa", "lokasi", "bukti", "berat", "anggota", "perkara"];
   // Urutan sama dengan pipeline: jalur khusus, darurat, tindak, pantau, tercatat.
   function timbangUji(x) {
     const why = [];
-    if (x.anggota) { why.push("<code>keluhan tentang perilaku anggota</code>"); return { s: "JALUR KHUSUS", t: "Diteruskan ke Propam dengan tembusan Kompolnas; tidak dikirim ke satuan yang dikeluhkan", pj: "Propam Polda; tembusan Kompolnas", b: "Tanda terima ≤72 jam", biaya: "jalur terpisah", why }; }
-    if (x.berlangsung && x.jiwa && x.lokasi) { why.push("<code>sedang berlangsung</code> + <code>ancaman jiwa</code> + <code>lokasi jelas</code>"); return { s: "DARURAT", t: "Teruskan ke piket SPKT dan layanan 110; verifikasi sambil bergerak", pj: "Piket SPKT Polres atau Polsek", b: "Diteruskan ≤5 menit", biaya: "biaya tindakan tinggi", why }; }
-    if (x.pidana && x.lokasi && (x.bukti || x.berat || x.akun >= 3)) { why.push("<code>pidana/keselamatan</code> + <code>lokasi jelas</code> + " + (x.berat ? "<code>korban jiwa, luka berat, atau kekerasan seksual</code>" : x.bukti ? "<code>ada bukti</code>" : `<code>${fmt(x.akun)} akun berbeda ≥ 3 dalam 72 jam</code>`)); return { s: "TINDAK", t: "Periksa lokasi, hubungi pelapor, tindak sesuai hasil pemeriksaan", pj: x.berat ? "Kasat Reskrim Polres; Kapolsek setempat" : "Kapolsek; Kasat Reskrim bila pidana berat", b: "Pemeriksaan ≤24 jam; kabar balik ≤72 jam", biaya: "biaya tindakan sedang", why }; }
+    if (x.perkara) { why.push("<code>keluhan atas penanganan perkara</code> (laporan mandek, SP2HP tidak diterima, penghentian)"); return { s: "JALUR KHUSUS", t: "Diteruskan ke pengawas penyidikan dan inspektorat; tidak dikirim ke penyidik yang dikeluhkan", pj: "Bagwassidik Direktorat Reserse Polda dan Itwasda; tembusan Kompolnas (perkara di Polda: Biro Wassidik Bareskrim dan Itwasum)", b: "Tanda terima ≤72 jam; SP3D ≤20 hari kerja", biaya: "jalur terpisah", why }; }
+    if (x.anggota && x.berat) { why.push("<code>keluhan tentang anggota</code> + <code>korban jiwa, luka berat, atau kekerasan</code>"); return { s: "JALUR KHUSUS", t: "Kekerasan oleh aparat: Propam dan reserse satu tingkat di atas satuan pelaku; satu laporan cukup", pj: "Bidpropam Polda dan Ditreskrimum Polda; tembusan Kompolnas; Komnas HAM bila ada kematian atau penyiksaan", b: "Tanda terima ≤24 jam; SP3D ≤20 hari kerja", biaya: "jalur terpisah", why }; }
+    if (x.anggota) { why.push("<code>keluhan tentang perilaku anggota</code>"); return { s: "JALUR KHUSUS", t: "Diteruskan ke Propam satu tingkat di atas satuan yang dikeluhkan; tidak dikirim ke satuan itu sendiri", pj: "Anggota Polsek: Seksi Propam Polres · anggota Polres: Bidpropam Polda · anggota Polda: Divpropam Polri; tembusan Kompolnas", b: "Tanda terima ≤72 jam; SP3D ≤20 hari kerja", biaya: "jalur terpisah", why }; }
+    if (x.berlangsung && x.jiwa && x.lokasi) { why.push("<code>sedang berlangsung</code> + <code>ancaman jiwa</code> + <code>lokasi jelas</code>"); return { s: "DARURAT", t: "Teruskan ke layanan 110 dan Sat Samapta; verifikasi sambil bergerak. Dari berita, status ini hanya pembanding kanal 110", pj: "Layanan 110 dan Sat Samapta Polres", b: "Diteruskan ≤5 menit", biaya: "biaya tindakan tinggi", why }; }
+    if (x.pidana && x.lokasi && (x.bukti || x.berat || x.akun >= 3)) { why.push("<code>pidana/keselamatan</code> + <code>lokasi jelas</code> + " + (x.berat ? "<code>korban jiwa, luka berat, atau kekerasan seksual</code>" : x.bukti ? "<code>ada bukti</code>" : `<code>${fmt(x.akun)} akun berbeda ≥ 3 dalam 72 jam</code>`)); return { s: "TINDAK", t: "Periksa lokasi, hubungi pelapor, tindak sesuai hasil pemeriksaan", pj: x.berat ? "Kasat Reskrim Polres; Kapolsek setempat (Unit PPA untuk perempuan dan anak; Kasat Lantas untuk kecelakaan)" : "Kapolsek; Kasat Reskrim bila pidana berat", b: "Pemeriksaan ≤24 jam; kabar balik ≤72 jam", biaya: "biaya tindakan sedang", why }; }
     const lonjak = x.hariini >= 2 * x.rata && x.hariini >= 5;
-    if (lonjak || x.pidana) { why.push(lonjak ? `<code>${fmt(x.hariini)} kasus hari ini ≥ 2 × rata-rata ${fmt(x.rata, 1)} dan ≥ 5</code>` : "<code>pidana/keselamatan</code> tanpa bukti, tanpa korban berat, dan < 3 akun (atau lokasi belum jelas)"); return { s: "PANTAU", t: "Pemeriksaan murah: Bhabinkamtibmas menghubungi pelapor atau mengecek lokasi", pj: "Bhabinkamtibmas; bila belum ada, Kanit Binmas Polsek atau polisi RW", b: "≤24 jam", biaya: "biaya tindakan rendah", why }; }
+    if (lonjak || x.pidana) { why.push(lonjak ? `<code>${fmt(x.hariini)} kasus hari ini ≥ 2 × rata-rata ${fmt(x.rata, 1)} dan ≥ 5</code>` : "<code>pidana/keselamatan</code> tanpa bukti, tanpa korban berat, dan < 3 akun (atau lokasi belum jelas)"); return { s: "PANTAU", t: "Pemeriksaan murah: Bhabinkamtibmas menghubungi pelapor atau mengecek lokasi", pj: "Kanit Reskrim Polsek; Bhabinkamtibmas menghubungi warga", b: "≤24 jam", biaya: "biaya tindakan rendah", why }; }
     why.push("tidak ada ambang yang terpenuhi");
     return { s: "TERCATAT", t: "Masuk rekap pola keluhan; pelapor menerima jawaban berisi kanal resmi", pj: "Kasat Binmas Polres", b: "Rekap mingguan", biaya: "biaya tindakan sangat rendah", why };
   }
@@ -783,7 +797,7 @@
     p.textContent = ST[r.s].ikon + " " + ST[r.s].nama.toUpperCase(); p.className = "pill s-" + ST[r.s].cls;
     $("u-tindakan").textContent = r.t; $("u-pj").textContent = r.pj; $("u-batas").textContent = r.b; $("u-biaya").textContent = r.biaya;
     $("u-mengapa").innerHTML = "Aturan yang terpenuhi: " + r.why.join("; ");
-    $("u-khusus").classList.toggle("sembunyi", !x.anggota);
+    $("u-khusus").classList.toggle("sembunyi", !(x.anggota || x.perkara));
   }
   function pakaiPreset(n) {
     const v = PRESET[n]; CIRI.forEach(k => $("u-" + k).checked = !!v[k]);
@@ -795,11 +809,14 @@
   $("f-uji").addEventListener("input", () => { document.querySelectorAll("[data-preset]").forEach(b => b.setAttribute("aria-pressed", "false")); uji(); });
   $("f-uji").addEventListener("submit", e => e.preventDefault());
   $("tabel-status").innerHTML = `<thead><tr><th>Status</th><th>Kondisi (ambang awal)</th><th>Tindakan</th><th>Penanggung jawab</th><th>Batas waktu</th></tr></thead><tbody>
-    <tr><td>${lencana("DARURAT")}</td><td>Kejadian sedang berlangsung, ada ancaman terhadap keselamatan jiwa, dan lokasi jelas</td><td>Teruskan ke piket SPKT dan layanan 110; verifikasi sambil bergerak</td><td>Piket SPKT Polres atau Polsek</td><td>Diteruskan ≤5 menit</td></tr>
-    <tr><td>${lencana("TINDAK")}</td><td>Kejadian pidana atau keselamatan dengan lokasi jelas yang disertai bukti, menimbulkan korban jiwa, luka berat, atau kekerasan seksual, atau dilaporkan ≥3 akun berbeda dalam 72 jam</td><td>Periksa lokasi, hubungi pelapor, tindak sesuai hasil pemeriksaan</td><td>Kapolsek; Kasat Reskrim bila pidana berat; Kasat Lantas untuk kecelakaan</td><td>Pemeriksaan ≤24 jam; kabar balik ≤72 jam</td></tr>
-    <tr><td>${lencana("PANTAU")}</td><td>Kasus harian satu topik di satu wilayah ≥2 × rata-rata 28 hari dan minimal 5; atau satu keluhan pidana tanpa bukti</td><td>Pemeriksaan murah: Bhabinkamtibmas menghubungi pelapor atau mengecek lokasi</td><td>Bhabinkamtibmas; bila belum ada, Kanit Binmas Polsek atau polisi RW</td><td>≤24 jam</td></tr>
-    <tr><td>${lencana("TERCATAT")}</td><td>Selain kondisi di atas</td><td>Masuk rekap pola keluhan; pelapor menerima jawaban berisi kanal resmi</td><td>Kasat Binmas Polres</td><td>Rekap mingguan</td></tr>
-    <tr><td>${lencana("JALUR KHUSUS")}</td><td>Keluhan tentang pungutan liar, kekerasan, atau penolakan laporan oleh anggota</td><td>Diteruskan ke Propam dengan tembusan Kompolnas; tidak dikirim ke satuan yang dikeluhkan</td><td>Propam Polda; Kompolnas</td><td>Tanda terima ≤72 jam</td></tr></tbody>`;
+    <tr><td>${lencana("DARURAT")}</td><td>Kejadian sedang berlangsung, ada ancaman terhadap keselamatan jiwa, dan lokasi jelas. Kanal utamanya tetap 110; dari berita, status ini hanya pembanding</td><td>Teruskan ke layanan 110 dan Sat Samapta; verifikasi sambil bergerak</td><td>Layanan 110 dan Sat Samapta Polres; bencana: BPBD dan Basarnas memimpin, Polri mendukung</td><td>Diteruskan ≤5 menit</td></tr>
+    <tr><td>${lencana("TINDAK")}</td><td>Kejadian pidana atau keselamatan dengan lokasi jelas yang disertai bukti, menimbulkan korban jiwa, luka berat, atau kekerasan seksual, atau dilaporkan ≥3 akun berbeda dalam 72 jam</td><td>Periksa lokasi, hubungi pelapor, tindak sesuai hasil pemeriksaan</td><td>Kapolsek; Kasat Reskrim bila pidana berat; Unit PPA untuk perempuan dan anak; Kasat Resnarkoba untuk narkoba; Kasat Lantas untuk kecelakaan</td><td>Pemeriksaan ≤24 jam; kabar balik ≤72 jam</td></tr>
+    <tr><td>${lencana("PANTAU")}</td><td>Kasus harian satu topik di satu wilayah ≥2 × rata-rata 28 hari dan minimal 5; atau satu keluhan pidana tanpa bukti</td><td>Pemeriksaan murah: Bhabinkamtibmas menghubungi pelapor atau mengecek lokasi</td><td>Kanit Reskrim Polsek; Bhabinkamtibmas menghubungi warga</td><td>≤24 jam</td></tr>
+    <tr><td>${lencana("TERCATAT")}</td><td>Selain kondisi di atas, termasuk tindakan tegas yang dilaporkan polisi sendiri tanpa keberatan</td><td>Masuk rekap pola keluhan; pelapor menerima jawaban berisi kanal resmi</td><td>Kasat Binmas Polres</td><td>Rekap mingguan</td></tr>
+    <tr><td>${lencana("JALUR KHUSUS")}</td><td>(a) Perilaku anggota: pungli, arogansi, pelanggaran disiplin atau etik</td><td>Propam satu tingkat di atas satuan yang dikeluhkan; tidak dikirim ke satuan itu sendiri</td><td>Anggota Polsek: Seksi Propam Polres · anggota Polres: Bidpropam Polda · anggota Polda: Divpropam Polri; tembusan Kompolnas</td><td>Tanda terima ≤72 jam; SP3D ≤20 hari kerja</td></tr>
+    <tr><td>${lencana("JALUR KHUSUS")}</td><td>(b) Kekerasan oleh aparat, kematian dalam tahanan, salah tembak</td><td>Propam dan reserse satu tingkat di atas; satu laporan cukup</td><td>Bidpropam dan Ditreskrimum Polda (pelaku di Polda: Divpropam dan Bareskrim); tembusan Kompolnas; Komnas HAM bila ada kematian atau penyiksaan</td><td>Tanda terima ≤24 jam</td></tr>
+    <tr><td>${lencana("JALUR KHUSUS")}</td><td>(c) Keluhan atas penanganan perkara: laporan mandek, SP2HP tidak diterima, penghentian penyidikan</td><td>Diteruskan ke pengawas penyidikan dan inspektorat; tidak dikirim ke penyidik yang dikeluhkan</td><td>Bagwassidik Direktorat Reserse Polda dan Itwasda (perkara di Polda: Biro Wassidik Bareskrim dan Itwasum); tembusan Kompolnas</td><td>Tanda terima ≤72 jam; SP3D ≤20 hari kerja</td></tr>
+    <tr><td>${lencana("JALUR KHUSUS")}</td><td>(d) Laporan warga ditolak atau warga disuruh pulang</td><td>Diteruskan ke inspektorat; Propam bila ada unsur perilaku</td><td>Itwasda; Bidpropam Polda bila ada unsur perilaku</td><td>Tanda terima ≤72 jam</td></tr></tbody>`;
   pakaiPreset("tindak");
 
   // ------------------------------------------------------------ sejarah & data
