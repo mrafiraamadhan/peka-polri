@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-10-30T15:25:27Z",
+ "diperbarui_utc": "2026-10-30T16:17:09Z",
  "versi_aturan": "2026-10-30",
  "jalur_khusus_jenis": {
   "anggota": 40,
@@ -12,9 +12,9 @@
   "JALUR KHUSUS": 49,
   "TINDAK": 39,
   "PANTAU": 118,
-  "TERCATAT": 812
+  "TERCATAT": 811
  },
- "kasus_aktif": 1018,
+ "kasus_aktif": 1017,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -42,7 +42,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 62
+   "kasus": 61
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -92,7 +92,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 6,
    "PANTAU": 11,
-   "TERCATAT": 44
+   "TERCATAT": 43
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -301,37 +301,37 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 911,
-   "sumber": 4
+   "artikel": 0,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 50,
-   "sudah_ada": 843,
+   "relevan": 0,
+   "sudah_ada": 0,
    "hoaks": 0,
-   "tidak_relevan": 5,
-   "bukan_kejadian": 12,
-   "luar_negeri": 1,
-   "kasus_baru": 24,
-   "digabung": 26
+   "tidak_relevan": 0,
+   "bukan_kejadian": 0,
+   "luar_negeri": 0,
+   "kasus_baru": 0,
+   "digabung": 0
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 49,
    "TINDAK": 39,
    "PANTAU": 118,
-   "TERCATAT": 812
+   "TERCATAT": 811
   },
   "teruskan": {
    "polda": 32,
    "kasus": 206
   },
   "kabarkan": {
-   "tanggapan_terlihat": 425,
-   "kasus": 1018,
-   "tanggapan_sejak_berita_pertama": 378,
+   "tanggapan_terlihat": 424,
+   "kasus": 1017,
+   "tanggapan_sejak_berita_pertama": 377,
    "median_jeda_jam": 4.6,
    "n_jeda": 47,
-   "melewati_batas": 57
+   "melewati_batas": 58
   },
   "arsipkan": {
    "baris": 1090,
@@ -341,16 +341,7 @@
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [
-  {
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kemarin": 0,
-   "rata28": 1.8,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 3,
  "gempa_darurat": [],
  "hoaks_terbaru": [
