@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-10-30T21:10:39Z",
+ "diperbarui_utc": "2026-10-30T22:01:51Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-10-30T21:11:08Z",
+   "dicek_utc": "2026-10-30T22:02:19Z",
    "ok": true,
    "n": 908,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-10-30T21:11:09Z",
+   "dicek_utc": "2026-10-30T22:02:21Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-10-30T21:11:10Z",
+   "dicek_utc": "2026-10-30T22:02:21Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-10-30T21:11:28Z",
+   "dicek_utc": "2026-10-30T22:02:41Z",
    "ok": false,
    "n": 9,
-   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 8 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "21:10:40 PEKA mulai 2026-10-30T21:10:39Z ",
-  "21:11:08 dengar berita: 908 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "21:11:28 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "21:11:28 pilah: {'masuk': 908, 'sudah_ada': 893, 'bukan_kejadian': 7, 'tidak_relevan': 1, 'gabung': 5, 'kasus_baru': 2, 'relevan': 7}",
-  "21:11:28 papan Polda: 36 Polda berkasus | titik rawan: 0"
+  "22:01:51 PEKA mulai 2026-10-30T22:01:51Z ",
+  "22:02:19 dengar berita: 908 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "22:02:41 dengar GDELT: 0/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "22:02:41 pilah: {'masuk': 908, 'sudah_ada': 897, 'bukan_kejadian': 3, 'tidak_relevan': 1, 'gabung': 3, 'kasus_baru': 4, 'relevan': 7}",
+  "22:02:41 papan Polda: 36 Polda berkasus | titik rawan: 0"
  ]
 }
