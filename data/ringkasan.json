@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-10-30T09:56:15Z",
+ "diperbarui_utc": "2026-10-30T10:47:46Z",
  "versi_aturan": "2026-10-30",
  "jalur_khusus_jenis": {
   "anggota": 34,
@@ -10,11 +10,11 @@
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 43,
-  "TINDAK": 36,
-  "PANTAU": 98,
-  "TERCATAT": 663
+  "TINDAK": 38,
+  "PANTAU": 99,
+  "TERCATAT": 695
  },
- "kasus_aktif": 840,
+ "kasus_aktif": 875,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -22,27 +22,27 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 66
+   "kasus": 67
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 130
+   "kasus": 137
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 86
+   "kasus": 92
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 200
+   "kasus": 209
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 73
+   "kasus": 74
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 56
+   "kasus": 57
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 189
+   "kasus": 199
   }
  },
  "provinsi": {
@@ -58,6 +58,7 @@
    "nama": "Riau",
    "polda": "Polda Riau",
    "JALUR KHUSUS": 5,
+   "TINDAK": 1,
    "PANTAU": 2,
    "TERCATAT": 11
   },
@@ -65,9 +66,9 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 6,
-   "TINDAK": 8,
-   "PANTAU": 23,
-   "TERCATAT": 46
+   "TINDAK": 9,
+   "PANTAU": 22,
+   "TERCATAT": 47
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -91,7 +92,15 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 6,
    "PANTAU": 10,
-   "TERCATAT": 41
+   "TERCATAT": 43
+  },
+  "21": {
+   "nama": "Kepulauan Riau",
+   "polda": "Polda Kepulauan Riau",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 2,
+   "PANTAU": 2,
+   "TERCATAT": 6
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -105,7 +114,7 @@
    "polda": "Polda Lampung",
    "JALUR KHUSUS": 1,
    "PANTAU": 3,
-   "TERCATAT": 15
+   "TERCATAT": 16
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -136,7 +145,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 11
+   "TERCATAT": 12
   },
   "82": {
    "nama": "Maluku Utara",
@@ -156,8 +165,8 @@
    "polda": "Polda Banten",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 2,
-   "TERCATAT": 20
+   "PANTAU": 3,
+   "TERCATAT": 22
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -171,16 +180,8 @@
    "polda": "Polda Jawa Tengah",
    "JALUR KHUSUS": 2,
    "TINDAK": 4,
-   "PANTAU": 3,
-   "TERCATAT": 13
-  },
-  "21": {
-   "nama": "Kepulauan Riau",
-   "polda": "Polda Kepulauan Riau",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 2,
-   "PANTAU": 2,
-   "TERCATAT": 6
+   "PANTAU": 4,
+   "TERCATAT": 14
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -193,7 +194,7 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "TINDAK": 3,
-   "PANTAU": 5,
+   "PANTAU": 6,
    "TERCATAT": 36
   },
   "61": {
@@ -254,19 +255,19 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 2,
-   "TERCATAT": 26
+   "TERCATAT": 27
   },
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "PANTAU": 1,
-   "TERCATAT": 3
+   "TERCATAT": 5
   },
   "96": {
    "nama": "Papua Tengah",
    "polda": "Polda yang membawahi Papua Tengah",
-   "PANTAU": 2,
-   "TERCATAT": 2
+   "PANTAU": 1,
+   "TERCATAT": 4
   },
   "94": {
    "nama": "Papua",
@@ -281,7 +282,7 @@
   "76": {
    "nama": "Sulawesi Barat",
    "polda": "Polda Sulawesi Barat",
-   "TERCATAT": 2
+   "TERCATAT": 3
   },
   "95": {
    "nama": "Papua Selatan",
@@ -291,40 +292,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 910,
-   "sumber": 2
+   "artikel": 911,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 70,
-   "sudah_ada": 804,
-   "hoaks": 0,
-   "tidak_relevan": 6,
-   "bukan_kejadian": 29,
-   "luar_negeri": 1,
-   "kasus_baru": 36,
-   "digabung": 34
+   "relevan": 60,
+   "sudah_ada": 815,
+   "hoaks": 3,
+   "tidak_relevan": 9,
+   "bukan_kejadian": 19,
+   "luar_negeri": 5,
+   "kasus_baru": 35,
+   "digabung": 25
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 43,
-   "TINDAK": 36,
-   "PANTAU": 98,
-   "TERCATAT": 663
+   "TINDAK": 38,
+   "PANTAU": 99,
+   "TERCATAT": 695
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 177
+   "kasus": 180
   },
   "kabarkan": {
-   "tanggapan_terlihat": 358,
-   "kasus": 840,
-   "tanggapan_sejak_berita_pertama": 322,
+   "tanggapan_terlihat": 373,
+   "kasus": 875,
+   "tanggapan_sejak_berita_pertama": 335,
    "median_jeda_jam": 4.7,
-   "n_jeda": 36,
-   "melewati_batas": 38
+   "n_jeda": 38,
+   "melewati_batas": 39
   },
   "arsipkan": {
-   "baris": 907,
+   "baris": 942,
    "dikoreksi": 67,
    "bulan": 1,
    "hari_riwayat": 3
@@ -334,5 +335,36 @@
  "lonjakan_nasional": [],
  "hari_riwayat": 3,
  "gempa_darurat": [],
- "hoaks_terbaru": []
+ "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Malaysia dan Brunei Layangkan Denda ke Indonesia atas Kerugian Asap Karhutla",
+   "url": "https://turnbackhoax.id/articles/37333-salah-malaysia-dan-brunei-layangkan-denda-ke-indonesia-atas-kerugian-asap-karhutla",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Gaji Guru Naik 60% Mulai 2027",
+   "url": "https://turnbackhoax.id/articles/37331-salah-gaji-guru-naik-60-mulai-2027",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Lowongan Kerja iBox",
+   "url": "https://turnbackhoax.id/articles/37326-penipuan-lowongan-kerja-ibox",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Pendaftaran Program Tebus Pupuk Murah dari Pemerintah",
+   "url": "https://turnbackhoax.id/articles/37325-penipuan-pendaftaran-program-tebus-pupuk-murah-dari-pemerintah",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Tautan Pendaftaran Lowongan Kerja Amerta Indah Otsuka (Pocari Sweat)",
+   "url": "https://turnbackhoax.id/articles/37324-penipuan-tautan-pendaftaran-lowongan-kerja-amerta-indah-otsuka-pocari-sweat",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Akun Telegram Pendaftaran Program Bedah Rumah Kementerian PKP",
+   "url": "https://turnbackhoax.id/articles/37323-penipuan-akun-telegram-pendaftaran-program-bedah-rumah-kementerian-pkp",
+   "terbit": null
+  }
+ ]
 }
