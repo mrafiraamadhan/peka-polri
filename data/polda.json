@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-10-30T22:01:51Z",
+ "diperbarui_utc": "2026-10-30T22:53:01Z",
  "jendela_hari": 30,
  "hari_riwayat": 4,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 441,
+ "kasus_tanpa_polda": 446,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -180,6 +180,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Selatan",
+   "provinsi": [
+    "73"
+   ],
+   "kasus": 20,
+   "perlu": 10,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 10.0,
+   "tanggap": 6,
+   "jalur_khusus": 7,
+   "melewati_batas": 2,
+   "median_jeda_jam": 4.8,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "anggota",
+     7
+    ],
+    [
+     "jalanan",
+     6
+    ],
+    [
+     "darurat",
+     5
+    ]
+   ]
+  },
+  {
    "polda": "Polda Metro Jaya",
    "provinsi": [
     "31"
@@ -209,59 +238,30 @@
    ]
   },
   {
-   "polda": "Polda Sulawesi Selatan",
-   "provinsi": [
-    "73"
-   ],
-   "kasus": 19,
-   "perlu": 9,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 11.1,
-   "tanggap": 6,
-   "jalur_khusus": 6,
-   "melewati_batas": 2,
-   "median_jeda_jam": 4.8,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "anggota",
-     6
-    ],
-    [
-     "jalanan",
-     6
-    ],
-    [
-     "darurat",
-     5
-    ]
-   ]
-  },
-  {
    "polda": "Polda Kepulauan Riau",
    "provinsi": [
     "21"
    ],
-   "kasus": 18,
+   "kasus": 19,
    "perlu": 8,
    "perlu_tanggap": 1,
    "persen_tanggap": 12.5,
-   "tanggap": 11,
-   "jalur_khusus": 4,
+   "tanggap": 12,
+   "jalur_khusus": 5,
    "melewati_batas": 2,
    "median_jeda_jam": 5.4,
    "n_jeda": 1,
    "topik_teratas": [
+    [
+     "anggota",
+     5
+    ],
     [
      "narkoba",
      5
     ],
     [
      "jalanan",
-     4
-    ],
-    [
-     "perempuan_anak",
      4
     ]
    ]
@@ -335,7 +335,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 16,
    "jalur_khusus": 2,
-   "melewati_batas": 1,
+   "melewati_batas": 2,
    "median_jeda_jam": 16.9,
    "n_jeda": 1,
    "topik_teratas": [
