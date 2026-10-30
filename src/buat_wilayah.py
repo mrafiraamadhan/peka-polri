@@ -147,7 +147,10 @@ for kode, prov, nama in reg:
 METRO = {"Kota Bekasi", "Kabupaten Bekasi", "Kota Depok", "Kota Tangerang", "Kota Tangerang Selatan"}
 for k in kabkota:
     k["polda"] = "Polda Metro Jaya" if k["nama"] in METRO else PROV[k["prov"]][1]
-    k["polres"] = ("Polres" if k["jenis"] == "Kabupaten" else "Polres(ta)") + " " + k["inti"]
+    k["polres"] = ""
+import sys; sys.path.insert(0, str(ROOT / "src"))
+from nama_satuan import terapkan   # nama satuan resmi: Polres Metro, Polrestabes, Polresta, Polres ... Kota
+terapkan(kabkota)
 provinsi = [{"kode": k, "nama": v[0], "polda": v[1], "alias": v[2]} for k, v in PROV.items()]
 out = {"sumber": "Kode wilayah BPS sebelum pemekaran Papua (data edwardsamuel/Wilayah-Administratif-Indonesia); provinsi pemekaran 2022 memakai kode provinsi BPS baru",
        "provinsi": provinsi, "kabkota": kabkota}
