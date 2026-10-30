@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/peka.css?v=20261029e">
+<link rel="stylesheet" href="assets/peka.css?v=20261030a">
 </head>
 <body>
 
@@ -56,14 +56,14 @@
   <div class="wadah">
     <span class="pil"><span class="denyut" id="denyut"></span><span id="pil-teks">Memuat pantauan…</span></span>
     <h1 id="judul-utama">Didengar sebelum viral,<br><em>dikabari sampai tuntas</em></h1>
-    <p class="lead">PEKA membaca keluhan publik dari sumber terbuka <b>setiap jam</b>, memilahnya menjadi kasus, menimbangnya dengan ambang tertulis, meneruskannya ke penanggung jawab di wilayahnya, memeriksa apakah tanggapan sudah terlihat, lalu mengarsipkannya untuk sejarah kepolisian.</p>
+    <p class="lead">PEKA membaca keluhan publik dari sumber terbuka <b>kira-kira setiap jam</b>, memilahnya menjadi kasus, menimbangnya dengan ambang tertulis, meneruskannya ke penanggung jawab di wilayahnya, memeriksa apakah tanggapan sudah terlihat, lalu mengarsipkannya untuk sejarah kepolisian.</p>
     <div class="aksi">
       <a class="tombol utama" href="#pantau" data-ke="pantau">Lihat pantauan langsung</a>
       <a class="tombol kedua" href="#uji" data-ke="uji">Coba ambang status</a>
     </div>
     <div class="meta-sampul">
       <span><b>Dirancang untuk:</b> Polri (satuan wilayah, Itwasum, Propam, Divisi Humas) · Kompolnas · Pusat Sejarah Polri</span>
-      <span><b id="m-sumber">5 sumber terbuka</b> · diperbarui otomatis setiap jam</span>
+      <span><b id="m-sumber">5 sumber terbuka</b> · diperbarui otomatis kira-kira setiap jam</span>
       <span><b>Diperbarui terakhir:</b> <span id="m-waktu">—</span></span>
     </div>
     <p class="peringatan-resmi"><b>Purwarupa independen</b> pendamping karya tulis untuk LKTI Sejarah Polri 2026, <b>bukan kanal resmi Polri</b>. Media sosial tidak dibaca; yang dibaca hanya judul berita publik dan data terbuka. Dalam keadaan darurat, hubungi <b>110</b>.</p>
@@ -119,7 +119,7 @@
         <div class="label-atas" style="margin:0"><b>Peta Indonesia per provinsi</b> · sentuh provinsi untuk menyaring daftar kasus</div>
         <div class="saring" role="group" aria-label="Lapisan peta" id="mode-peta" style="margin:0">
           <button class="chip" type="button" data-mode="kasus" aria-pressed="true">Kasus aktif (PEKA)</button>
-          <button class="chip" type="button" data-mode="senyap" aria-pressed="false">Suara senyap (BPS 2024)</button>
+          <button class="chip" type="button" data-mode="senyap" aria-pressed="false">Suara senyap (BPS 2023–2024)</button>
         </div>
       </div>
       <div id="peta"></div>
@@ -219,6 +219,7 @@
             <button class="chip" type="button" data-preset="pantau">Lonjakan keluhan curanmor</button>
             <button class="chip" type="button" data-preset="berat">Lansia tewas dianiaya</button>
             <button class="chip" type="button" data-preset="anggota">Laporan ditolak petugas</button>
+            <button class="chip" type="button" data-preset="perkara">Kasus pemerkosaan mandek 3 tahun</button>
             <button class="chip" type="button" data-preset="tercatat">Keluhan antrean SKCK</button>
           </div>
           <form id="f-uji" novalidate>
@@ -231,6 +232,7 @@
               <label class="cek"><input type="checkbox" id="u-bukti"> Disertai bukti (foto, video, atau titik lokasi)</label>
               <label class="cek"><input type="checkbox" id="u-berat"> Ada korban jiwa, luka berat, atau kekerasan seksual</label>
               <label class="cek"><input type="checkbox" id="u-anggota"> Keluhan tentang perilaku anggota (pungli, kekerasan, laporan ditolak)</label>
+              <label class="cek"><input type="checkbox" id="u-perkara"> Keluhan atas penanganan perkara (laporan mandek, SP2HP tidak diterima)</label>
             </fieldset>
             <div class="angka3">
               <label for="u-akun">Akun/media berbeda, 72 jam<input id="u-akun" type="number" min="0" step="1" inputmode="numeric"></label>
@@ -246,7 +248,7 @@
             <dt>Penanggung jawab</dt><dd id="u-pj"></dd>
             <dt>Batas waktu</dt><dd id="u-batas"></dd>
           </dl>
-          <div class="khusus-uji sembunyi" id="u-khusus"><b>Jalur khusus perilaku anggota.</b> Diteruskan ke Propam dengan tembusan Kompolnas, tidak dikirim ke satuan yang dikeluhkan. Tanda terima ≤72 jam.</div>
+          <div class="khusus-uji sembunyi" id="u-khusus"><b>Jalur khusus.</b> Keluhan tentang anggota atau tentang penanganan perkara diterima satu tingkat di atas satuan yang dikeluhkan dan tidak pernah dikirim ke satuan itu sendiri. Pelajaran dari kasus Sum Kuning (1970) dan Luwu Timur (2019–2021).</div>
           <div class="mengapa" id="u-mengapa"></div>
         </div>
       </div>
@@ -324,13 +326,13 @@
     <div class="kartu tabel-wadah"><table class="tbl">
       <thead><tr><th>Langkah</th><th>Aturan yang dijalankan</th></tr></thead>
       <tbody>
-        <tr><td><b>Pilah</b></td><td>Berita yang sama (tautan atau judul+media sama) hanya dihitung sekali. Judul bertanda <i>hoaks, cek fakta, klarifikasi, tidak benar</i>, atau sangat mirip klaim MAFINDO dibuang. Berita tentang kegiatan, sosialisasi, statistik, atau opini (misalnya <i>sosialisasi, cegah, seminar, angka</i>) dan berita luar negeri juga dibuang karena bukan kejadian yang dikeluhkan. Topik ditentukan dari kata kunci di judul (sembilan topik). Lokasi = nama kab/kota atau provinsi pertama di judul; nama yang juga kata umum (misalnya Malang, Batu, Palu) hanya dihitung bila didahului "di", "Kota", "Kabupaten", atau "Polres", dan nama jalan diabaikan. Berita digabung menjadi satu kasus bila topik dan wilayahnya sama, selisih waktunya ≤ 72 jam, dan judulnya mirip (indeks Jaccard ≥ 0,25–0,35 tanpa kata nama tempat) atau memuat kata kejadian yang sama di kab/kota yang sama</td></tr>
-        <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> topik perilaku anggota. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam, ada bukti (video, rekaman, CCTV), atau ada korban jiwa, luka berat, atau kekerasan seksual (<i>tewas, dibunuh, luka parah, diperkosa, pencabulan</i>, dan sejenisnya). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu, termasuk kasus tanpa lokasi. <b>Lingkaran tertutup:</b> kasus Tindak atau Pantau yang beritanya sudah memuat tanggapan polisi atau petugas dipindah ke Tercatat (sudah ditanggapi), sehingga daftar Tindak dan Pantau hanya berisi kasus yang tanggapannya belum terlihat.</td></tr>
-        <tr><td><b>Teruskan</b></td><td>Penanggung jawab mengikuti Tabel 4.6 dan wilayah: Polda menurut provinsi (Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan ke Polda Metro Jaya), Polres menurut kab/kota.</td></tr>
+        <tr><td><b>Pilah</b></td><td>Berita yang sama (tautan atau judul+media sama) hanya dihitung sekali. Judul bertanda <i>hoaks, cek fakta, klarifikasi, tidak benar</i>, atau sangat mirip klaim MAFINDO dibuang. Berita tentang kegiatan, sosialisasi, statistik, opini, atau persidangan (misalnya <i>sosialisasi, pemusnahan, seminar, angka, vonis</i>; berita sidang etik tetap dipakai untuk topik perilaku anggota) dan berita luar negeri juga dibuang karena bukan kejadian yang dikeluhkan. Topik ditentukan dari kata kunci di judul (sembilan topik). Lokasi = nama kab/kota atau provinsi pertama di judul; bila judul hanya menyebut kecamatan ("Polsek Kajang", "di Carenang"), dipakai daftar kecamatan yang namanya unik secara nasional. Nama yang juga kata umum (misalnya Malang, Batu, Palu) hanya dihitung bila didahului "di", "Kota", "Kabupaten", atau "Polres"; nama jalan dan tempat tujuan ("dipulangkan ke …") diabaikan. Berita digabung menjadi satu kasus bila topik dan wilayahnya sama, selisih waktunya ≤ 72 jam, dan judulnya mirip (indeks Jaccard ≥ 0,25–0,35 tanpa kata nama tempat) atau memuat kata kejadian yang sama di kab/kota yang sama</td></tr>
+        <tr><td><b>Timbang</b></td><td><span class="lencana s-KHUSUS">🟣 Jalur khusus</span> perilaku anggota, kekerasan oleh aparat, keluhan atas penanganan perkara (<i>mandek, sudah lapor dua kali, SP2HP</i>), atau laporan yang ditolak. Tindakan tegas yang dilaporkan polisi sendiri (<i>buron ditembak</i>) masuk Tercatat kecuali ada keberatan, kata <i>diduga</i>, atau salah tembak. <span class="lencana s-DARURAT">🔴 Darurat</span> bencana atau konflik ≤ 12 jam, ada kata ancaman jiwa, lokasi sampai kab/kota, ≥ 2 media; atau gempa signifikan BMKG. <span class="lencana s-TINDAK">🟠 Tindak</span> pidana/keselamatan, lokasi sampai kab/kota, dan ≥ 3 media berbeda dalam 72 jam, ada bukti (video, rekaman, CCTV), atau ada korban jiwa, luka berat, atau kekerasan seksual (<i>tewas, dibunuh, luka parah, diperkosa, pencabulan</i>, dan sejenisnya). <span class="lencana s-PANTAU">🟡 Pantau</span> pidana tanpa syarat Tindak, atau lonjakan wilayah. <span class="lencana s-TERCATAT">🟢 Tercatat</span> selain itu, termasuk kasus tanpa lokasi. <b>Lingkaran tertutup:</b> kasus Tindak atau Pantau yang beritanya sudah memuat tanggapan polisi atau petugas dipindah ke Tercatat (sudah ditanggapi), sehingga daftar Tindak dan Pantau hanya berisi kasus yang tanggapannya belum terlihat.</td></tr>
+        <tr><td><b>Teruskan</b></td><td>Penanggung jawab mengikuti Tabel 4.6 dan wilayah: Polda menurut provinsi (Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan ke Polda Metro Jaya), Polres menurut kab/kota dengan nama satuan resmi (Polres Metro, Polrestabes, Polresta, Polres … Kota). Jalur khusus tidak pernah dikirim ke satuan yang dikeluhkan: keluhan diterima satu tingkat di atasnya (Seksi Propam Polres untuk anggota Polsek, Bidpropam Polda untuk anggota Polres, Divpropam untuk anggota Polda), keluhan penanganan perkara ke Bagwassidik Direktorat Reserse Polda dan Itwasda, sesuai Perpol 2/2024. Pada kasus jalur khusus, nama anggota di judul disingkat menjadi inisial karena belum ada putusan.</td></tr>
         <tr><td><b>Kabarkan</b></td><td>Tanggapan dianggap terlihat bila ada judul dalam kasus itu yang memuat kata seperti <i>ditangkap, diamankan, diperiksa, dicopot, olah TKP, menyelidiki, dievakuasi</i>. Jeda = jam antara berita pertama dan berita tanggapan pertama. Kasus tanpa tanggapan yang melewati batas waktu statusnya (Darurat 1 jam karena purwarupa berputar setiap jam, padahal batas rancangannya ≤5 menit; Pantau 24 jam; Tindak dan Jalur khusus 72 jam) ditandai.</td></tr>
-        <tr><td><b>Arsipkan</b></td><td>Setiap kasus disimpan satu baris di <span class="mono">arsip_kasus.csv</span>: tanggal, topik, kode wilayah, Polda dan Polres, status awal dan akhir, jumlah media, dan tanggapan. Judul berita dan tautan tidak disimpan di arsip.</td></tr>
+        <tr><td><b>Arsipkan</b></td><td>Setiap kasus disimpan satu baris di <span class="mono">arsip_kasus.csv</span>: tanggal, topik, kode wilayah, Polda dan Polres, status awal dan akhir, jumlah media, dan tanggapan. Judul berita dan tautan tidak disimpan di arsip. Arsip hanya bertambah: bila aturan diperbaiki dan kasus lama ternyata salah golong, barisnya tidak dihapus tetapi diberi keterangan koreksi beserta versi aturannya, dan tidak ikut dihitung.</td></tr>
         <tr><td><b>Lacak kabar</b></td><td>Setiap kasus aktif punya halaman lacak (tombol <i>Lacak kabar</i> pada kartu kasus): diterima, ditimbang, diteruskan ke siapa dengan batas waktu kapan, dan apakah tanggapan sudah terlihat. Pada sistem di Polri, halaman seperti ini dibuka dari kode QR pada surat tanda terima laporan, SP2HP, atau SP3D, tanpa menampilkan identitas siapa pun.</td></tr>
-        <tr><td><b>Papan kabar balik</b></td><td>Per Polda, 30 hari terakhir dari arsip: kasus yang status awalnya Darurat, Jalur khusus, Tindak, atau Pantau dihitung sebagai <i>perlu ditindaklanjuti</i>; persentase = yang tanggapannya terlihat di pemberitaan; median jeda dan jumlah yang melewati batas ikut ditampilkan. Polda menurut gazeter (Polda Metro Jaya untuk Jakarta, Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan).</td></tr>
+        <tr><td><b>Papan kabar balik</b></td><td>Per Polda, 30 hari terakhir dari arsip: kasus yang status awalnya Darurat, Jalur khusus, Tindak, atau Pantau dihitung sebagai <i>perlu ditindaklanjuti</i>; kasus yang tanggapannya sudah ada sejak berita pertama (umumnya rilis penindakan) tidak dihitung karena tidak pernah menunggu; persentase = yang tanggapannya terlihat di pemberitaan; median jeda dan jumlah yang melewati batas ikut ditampilkan. Polda menurut gazeter (Polda Metro Jaya untuk Jakarta, Bekasi, Depok, Kota Tangerang, dan Tangerang Selatan).</td></tr>
         <tr><td><b>Titik rawan berulang</b></td><td>Kab/kota dengan ≥ 3 kejadian terpisah pada topik yang sama dalam 30 hari. Kasus pada kab/kota dan topik yang sama yang berselang &lt; 72 jam dihitung satu kejadian. Aturan ini menyala sendiri setelah arsip cukup panjang.</td></tr>
         <tr><td><b>Ringkasan pagi</b></td><td>Lembar satu halaman per Polda, disusun di peramban dari data putaran terakhir: kasus perlu tindak lanjut (paling mendesak dulu), kabar balik 30 hari, titik rawan, dan persentase korban yang melapor menurut BPS untuk provinsi Polda itu.</td></tr>
       </tbody></table></div>
@@ -340,6 +342,7 @@
 
     <h2 class="judul-bagian">Keterbatasan</h2>
     <div class="kartu blok"><ul style="margin:0;padding-left:18px">
+      <li><b>Uji presisi</b> pada data uji 30 Oktober 2026 (142 kasus acak, benih 20261030): status Jalur khusus dan Tindak tepat 83%, Pantau hanya 24% (banyak derau dan tindakan polisi yang tidak terbaca), dan 6 dari 18 keluhan tentang polisi belum masuk jalur khusus. Label dan hasilnya terbuka di folder <a href="https://github.com/mrafiraamadhan/peka-polri/tree/main/uji-naskah/2026-10-30">uji-naskah/2026-10-30</a>; data ujinya dapat dibuka di <a href="?data=uji-naskah/2026-10-30">halaman ini</a>.</li>
       <li>Berita bukan keluhan langsung. Yang tidak diberitakan tidak terbaca; justru itulah alasan PEKA perlu memakai kanal internal Polri.</li>
       <li>Topik, lokasi, dan tanggapan ditentukan dengan kata kunci, bukan pemahaman isi. Kesalahan klasifikasi mungkin terjadi, sehingga setiap status perlu diverifikasi petugas.</li>
       <li>Google News RSS mengembalikan paling banyak 100 berita per kueri, dan GDELT tidak mencakup semua media daerah. GDELT juga sering membatasi permintaan dari server GitHub, sehingga deret per topik dapat tertinggal beberapa jam.</li>
@@ -359,7 +362,7 @@
 
 <dialog class="lacak" id="lacak" aria-labelledby="lacak-judul"><div id="lacak-isi"></div></dialog>
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
-<script src="assets/vendor/qrcode.js?v=20261029e"></script>
-<script src="assets/peka.js?v=20261029e"></script>
+<script src="assets/vendor/qrcode.js?v=20261030a"></script>
+<script src="assets/peka.js?v=20261030a"></script>
 </body>
 </html>

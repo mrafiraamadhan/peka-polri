@@ -6,7 +6,7 @@ Situs: https://mrafiraamadhan.github.io/peka-polri/
 
 ## Cara kerja
 
-Setiap jam, GitHub Actions (`.github/workflows/peka.yml`) menjalankan `src/peka_pipeline.py`,
+Kira-kira setiap jam, GitHub Actions (`.github/workflows/peka.yml`) menjalankan `src/peka_pipeline.py`,
 yang menerapkan enam langkah PEKA pada **sumber terbuka saja**:
 
 | Langkah | Yang dikerjakan |
@@ -18,7 +18,8 @@ yang menerapkan enam langkah PEKA pada **sumber terbuka saja**:
 | Kabarkan | Memeriksa apakah tanggapan polisi atau petugas sudah terlihat di pemberitaan dan berapa jam jedanya |
 | Arsipkan | `data/arsip_kasus.csv` dan `data/arsip_bulanan.json`: ringkasan tanpa identitas untuk Pusat Sejarah Polri |
 
-Unggahan media sosial **tidak** dibaca. Tidak ada identitas orang yang disimpan.
+Unggahan media sosial **tidak** dibaca. Judul berita disimpan sebagaimana terbit (sumber publik); nama anggota pada kasus
+jalur khusus disingkat menjadi inisial; arsip untuk Pusat Sejarah Polri tidak memuat judul, tautan, atau nama.
 
 **Cadangan jadwal.** Jadwal cron GitHub bisa terlambat atau terlewat. Karena itu setiap putaran, setelah
 menunggu lewat *wait timer* environment `jeda-sejam`, menjalankan putaran berikutnya sendiri. Atur sekali:
@@ -27,8 +28,21 @@ Bila environment ini belum diatur, putaran berantai tidak dijalankan dan PEKA be
 
 **Aturan dapat dikoreksi.** Salah golong yang ditemukan diperbaiki di `config/topik.json`
 (misalnya `bukan_keluhan` untuk razia rutin dan imbauan, `kecuali` untuk "oknum anggota DPRD").
-Kasus yang tersimpan disaring ulang dengan aturan terbaru pada putaran berikutnya, dan riwayat perubahannya
-terbuka di daftar commit.
+Kasus yang tersimpan disaring ulang dengan aturan terbaru pada putaran berikutnya. Arsip hanya bertambah:
+baris yang ternyata salah golong diberi keterangan `koreksi` dan versi aturannya, tidak dihapus.
+Riwayat perubahan aturan terbuka di daftar commit; versi aturan tercatat di `ringkasan.json` (`versi_aturan`).
+
+**Rute jalur khusus.** Keluhan tidak pernah dikirim ke satuan yang dikeluhkan (Perpol 2/2024):
+perilaku anggota ke Propam satu tingkat di atasnya (Seksi Propam Polres untuk anggota Polsek, Bidpropam Polda
+untuk anggota Polres, Divpropam untuk anggota Polda); kekerasan oleh aparat ke Propam dan reserse satu tingkat
+di atasnya dengan tembusan Kompolnas dan Komnas HAM; keluhan atas penanganan perkara (laporan mandek, SP2HP)
+ke Bagwassidik Direktorat Reserse Polda dan Itwasda; laporan yang ditolak ke Itwasda. Nama anggota pada
+kasus jalur khusus disingkat menjadi inisial karena belum ada putusan.
+
+**Data uji naskah.** Angka Subbab 4.3.9 naskah berasal dari satu putaran yang salinannya dibekukan di
+`uji-naskah/2026-10-30/` (data, versi aturan, dan berkas label uji presisi; lihat README di folder itu).
+Buka dengan `?data=uji-naskah/2026-10-30` di alamat situs. Sampel uji ditarik dengan `uji/sampel_presisi.py`
+(benih 20261030) dan dinilai dengan `uji/buku_kode.md`.
 
 ## Alat untuk menutup lingkaran
 
@@ -44,7 +58,9 @@ terbuka di daftar commit.
 
 - `index.html` - papan pantau (menu tab, mode gelap/terang)
 - `src/peka_pipeline.py` - pipeline; `src/buat_wilayah.py` - penyusun gazeter wilayah
-- `config/topik.json` - kata kunci sembilan topik; `config/wilayah.json` - 38 provinsi, 514 kab/kota, Polda
+- `config/topik.json` - kata kunci sembilan topik dan aturan rute; `config/wilayah.json` - 38 provinsi, 514 kab/kota, Polda,
+  nama Polres resmi (`src/nama_satuan.py`); `config/districts.csv` - daftar kecamatan untuk petunjuk lokasi
+  (sumber yang sama dengan daftar kab/kota: edwardsamuel/Wilayah-Administratif-Indonesia)
 - `data/` - keluaran pipeline (diperbarui otomatis)
 - `assets/vendor/qrcode.js` - pembuat kode QR (qrcode-generator, Kazuhiko Arase, lisensi MIT)
 
