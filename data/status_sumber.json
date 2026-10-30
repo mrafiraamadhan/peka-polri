@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-10-29T23:57:46Z",
+ "diperbarui_utc": "2026-10-30T00:48:51Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-10-29T23:58:11Z",
+   "dicek_utc": "2026-10-30T00:49:17Z",
    "ok": true,
-   "n": 913,
+   "n": 912,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-10-29T23:58:13Z",
+   "dicek_utc": "2026-10-30T00:49:19Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-10-29T23:58:13Z",
+   "dicek_utc": "2026-10-30T00:49:19Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-10-29T23:58:30Z",
-   "ok": false,
-   "n": 3,
-   "pesan": "0 dari 8 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "dicek_utc": "2026-10-30T00:49:58Z",
+   "ok": true,
+   "n": 4,
+   "pesan": "1 dari 9 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "23:57:46 PEKA mulai 2026-10-29T23:57:46Z ",
-  "23:58:11 dengar berita: 913 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "23:58:30 dengar GDELT: 0/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "23:58:30 pilah: {'masuk': 913, 'sudah_ada': 899, 'bukan_kejadian': 4, 'gabung': 4, 'kasus_baru': 6, 'relevan': 10}",
-  "23:58:30 papan Polda: 35 Polda berkasus | titik rawan: 0"
+  "00:48:52 PEKA mulai 2026-10-30T00:48:51Z ",
+  "00:49:17 dengar berita: 912 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "00:49:58 dengar GDELT: 1/9 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "00:49:58 pilah: {'masuk': 912, 'sudah_ada': 881, 'bukan_kejadian': 5, 'tidak_relevan': 3, 'gabung': 10, 'kasus_baru': 13, 'relevan': 23}",
+  "00:49:58 papan Polda: 35 Polda berkasus | titik rawan: 0"
  ]
 }
