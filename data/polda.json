@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-10-30T20:19:27Z",
+ "diperbarui_utc": "2026-10-30T21:10:39Z",
  "jendela_hari": 30,
  "hari_riwayat": 4,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -470,6 +470,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Tengah",
+   "provinsi": [
+    "72"
+   ],
+   "kasus": 11,
+   "perlu": 4,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 6,
+   "jalur_khusus": 1,
+   "melewati_batas": 2,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "narkoba",
+     4
+    ],
+    [
+     "konflik",
+     3
+    ],
+    [
+     "perempuan_anak",
+     1
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Timur",
    "provinsi": [
     "64"
@@ -528,35 +557,6 @@
    ]
   },
   {
-   "polda": "Polda Sulawesi Tengah",
-   "provinsi": [
-    "72"
-   ],
-   "kasus": 10,
-   "perlu": 3,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 6,
-   "jalur_khusus": 1,
-   "melewati_batas": 2,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "konflik",
-     3
-    ],
-    [
-     "narkoba",
-     3
-    ],
-    [
-     "perempuan_anak",
-     1
-    ]
-   ]
-  },
-  {
    "polda": "Polda Jambi",
    "provinsi": [
     "15"
@@ -581,6 +581,35 @@
     ],
     [
      "konflik",
+     1
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sulawesi Tenggara",
+   "provinsi": [
+    "74"
+   ],
+   "kasus": 7,
+   "perlu": 3,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 4,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "narkoba",
+     3
+    ],
+    [
+     "jalanan",
+     2
+    ],
+    [
+     "anggota",
      1
     ]
    ]
@@ -698,35 +727,6 @@
     [
      "jalanan",
      2
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Tenggara",
-   "provinsi": [
-    "74"
-   ],
-   "kasus": 6,
-   "perlu": 2,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 4,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "narkoba",
-     3
-    ],
-    [
-     "jalanan",
-     2
-    ],
-    [
-     "anggota",
-     1
     ]
    ]
   },
