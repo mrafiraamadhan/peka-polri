@@ -1,28 +1,28 @@
 {
- "diperbarui_utc": "2026-10-30T01:40:19Z",
+ "diperbarui_utc": "2026-10-30T02:31:35Z",
  "jendela_hari": 30,
  "hari_riwayat": 3,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 317,
+ "kasus_tanpa_polda": 333,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 58,
-   "perlu": 54,
-   "perlu_tanggap": 32,
-   "persen_tanggap": 59.3,
-   "tanggap": 33,
+   "kasus": 61,
+   "perlu": 56,
+   "perlu_tanggap": 34,
+   "persen_tanggap": 60.7,
+   "tanggap": 35,
    "jalur_khusus": 5,
    "melewati_batas": 3,
-   "median_jeda_jam": 8.3,
+   "median_jeda_jam": 4.2,
    "n_jeda": 7,
    "topik_teratas": [
     [
      "jalanan",
-     21
+     22
     ],
     [
      "perempuan_anak",
@@ -39,13 +39,13 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 34,
-   "perlu": 27,
+   "kasus": 36,
+   "perlu": 28,
    "perlu_tanggap": 17,
-   "persen_tanggap": 63.0,
+   "persen_tanggap": 60.7,
    "tanggap": 17,
    "jalur_khusus": 1,
-   "melewati_batas": 1,
+   "melewati_batas": 2,
    "median_jeda_jam": 5.9,
    "n_jeda": 3,
    "topik_teratas": [
@@ -55,7 +55,7 @@
     ],
     [
      "darurat",
-     7
+     8
     ],
     [
      "konflik",
@@ -68,11 +68,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 23,
-   "perlu": 20,
-   "perlu_tanggap": 12,
-   "persen_tanggap": 60.0,
-   "tanggap": 13,
+   "kasus": 25,
+   "perlu": 22,
+   "perlu_tanggap": 14,
+   "persen_tanggap": 63.6,
+   "tanggap": 16,
    "jalur_khusus": 0,
    "melewati_batas": 2,
    "median_jeda_jam": null,
@@ -80,11 +80,11 @@
    "topik_teratas": [
     [
      "narkoba",
-     8
+     9
     ],
     [
      "jalanan",
-     5
+     6
     ],
     [
      "darurat",
@@ -151,6 +151,35 @@
    ]
   },
   {
+   "polda": "Polda Riau",
+   "provinsi": [
+    "14"
+   ],
+   "kasus": 14,
+   "perlu": 11,
+   "perlu_tanggap": 7,
+   "persen_tanggap": 63.6,
+   "tanggap": 7,
+   "jalur_khusus": 3,
+   "melewati_batas": 0,
+   "median_jeda_jam": 10.0,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "anggota",
+     3
+    ],
+    [
+     "darurat",
+     3
+    ],
+    [
+     "narkoba",
+     3
+    ]
+   ]
+  },
+  {
    "polda": "Polda Nusa Tenggara Timur",
    "provinsi": [
     "53"
@@ -209,44 +238,15 @@
    ]
   },
   {
-   "polda": "Polda Riau",
-   "provinsi": [
-    "14"
-   ],
-   "kasus": 13,
-   "perlu": 10,
-   "perlu_tanggap": 7,
-   "persen_tanggap": 70.0,
-   "tanggap": 7,
-   "jalur_khusus": 3,
-   "melewati_batas": 0,
-   "median_jeda_jam": 10.0,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "anggota",
-     3
-    ],
-    [
-     "darurat",
-     3
-    ],
-    [
-     "lalulintas",
-     2
-    ]
-   ]
-  },
-  {
    "polda": "Polda Bali",
    "provinsi": [
     "51"
    ],
-   "kasus": 12,
+   "kasus": 13,
    "perlu": 10,
    "perlu_tanggap": 6,
    "persen_tanggap": 60.0,
-   "tanggap": 6,
+   "tanggap": 7,
    "jalur_khusus": 0,
    "melewati_batas": 2,
    "median_jeda_jam": null,
@@ -300,7 +300,7 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 10,
+   "kasus": 11,
    "perlu": 10,
    "perlu_tanggap": 8,
    "persen_tanggap": 80.0,
@@ -823,6 +823,31 @@
    ]
   },
   {
+   "polda": "Polda yang membawahi Papua Selatan",
+   "provinsi": [
+    "95"
+   ],
+   "kasus": 2,
+   "perlu": 1,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 100.0,
+   "tanggap": 1,
+   "jalur_khusus": 0,
+   "melewati_batas": 0,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     1
+    ],
+    [
+     "darurat",
+     1
+    ]
+   ]
+  },
+  {
    "polda": "Polda yang membawahi Papua Tengah",
    "provinsi": [
     "96"
@@ -906,27 +931,6 @@
    "topik_teratas": [
     [
      "lalulintas",
-     1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda yang membawahi Papua Selatan",
-   "provinsi": [
-    "95"
-   ],
-   "kasus": 1,
-   "perlu": 1,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 100.0,
-   "tanggap": 1,
-   "jalur_khusus": 0,
-   "melewati_batas": 0,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
      1
     ]
    ]
