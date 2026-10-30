@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-10-30T05:43:33Z",
+ "diperbarui_utc": "2026-10-30T06:34:38Z",
  "terbaru": {
-  "waktu_utc": "2026-10-29T20:32:13Z",
-  "magnitudo": 5.3,
+  "waktu_utc": "2026-10-30T06:03:45Z",
+  "magnitudo": 3.7,
   "kedalaman": "10 km",
-  "wilayah": "139 km BaratLaut TUAL-MALUKU",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
-  "koordinat": "-4.40,132.49",
-  "prov": "Maluku",
-  "kode_prov": "81"
+  "wilayah": "Pusat gempa berada di 20 km Timur Laut Kota Sorong",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "II-III Sorong",
+  "koordinat": "-0.72,131.38",
+  "prov": "Papua Barat Daya",
+  "kode_prov": "92"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-10-30T06:03:45Z",
+   "magnitudo": 3.7,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di 20 km Timur Laut Kota Sorong",
+   "potensi": null,
+   "dirasakan": "II-III Sorong",
+   "koordinat": "-0.72,131.38",
+   "prov": "Papua Barat Daya",
+   "kode_prov": "92"
+  },
   {
    "waktu_utc": "2026-10-29T18:58:30Z",
    "magnitudo": 4.3,
@@ -165,17 +176,6 @@
    "koordinat": "-8.37,116.99",
    "prov": "Nusa Tenggara Barat",
    "kode_prov": "52"
-  },
-  {
-   "waktu_utc": "2026-10-20T09:56:38Z",
-   "magnitudo": 3.4,
-   "kedalaman": "4 km",
-   "wilayah": "Pusat gempa berada di darat 30km Barat Daya Kab. Kupang",
-   "potensi": null,
-   "dirasakan": "III Kab. Kupang, III Kota Kupang",
-   "koordinat": "-10.19,123.71",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [

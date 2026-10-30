@@ -1,18 +1,18 @@
 {
- "diperbarui_utc": "2026-10-30T05:43:33Z",
+ "diperbarui_utc": "2026-10-30T06:34:38Z",
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 31,
+  "JALUR KHUSUS": 32,
   "TINDAK": 28,
-  "PANTAU": 87,
-  "TERCATAT": 622
+  "PANTAU": 89,
+  "TERCATAT": 633
  },
- "kasus_aktif": 768,
+ "kasus_aktif": 782,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 31
+   "kasus": 32
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -20,15 +20,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 123
+   "kasus": 126
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 80
+   "kasus": 82
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 185
+   "kasus": 188
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -36,7 +36,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 57
+   "kasus": 58
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -44,7 +44,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 158
+   "kasus": 162
   }
  },
  "provinsi": {
@@ -54,7 +54,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 7
+   "TERCATAT": 8
   },
   "35": {
    "nama": "Jawa Timur",
@@ -62,13 +62,13 @@
    "JALUR KHUSUS": 5,
    "TINDAK": 7,
    "PANTAU": 14,
-   "TERCATAT": 44
+   "TERCATAT": 46
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
    "polda": "Polda Nusa Tenggara Barat",
    "JALUR KHUSUS": 1,
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 7
   },
   "18": {
@@ -83,7 +83,7 @@
    "polda": "Polda Sumatera Selatan",
    "JALUR KHUSUS": 1,
    "PANTAU": 2,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -103,8 +103,8 @@
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 5,
-   "PANTAU": 9,
-   "TERCATAT": 30
+   "PANTAU": 10,
+   "TERCATAT": 32
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -112,7 +112,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "31": {
    "nama": "DKI Jakarta",
@@ -284,39 +284,39 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 911,
+   "artikel": 908,
    "sumber": 3
   },
   "pilah": {
    "relevan": 33,
-   "sudah_ada": 862,
+   "sudah_ada": 842,
    "hoaks": 0,
-   "tidak_relevan": 3,
-   "bukan_kejadian": 12,
-   "luar_negeri": 1,
-   "kasus_baru": 17,
-   "digabung": 16
+   "tidak_relevan": 9,
+   "bukan_kejadian": 22,
+   "luar_negeri": 2,
+   "kasus_baru": 14,
+   "digabung": 19
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 31,
+   "JALUR KHUSUS": 32,
    "TINDAK": 28,
-   "PANTAU": 87,
-   "TERCATAT": 622
+   "PANTAU": 89,
+   "TERCATAT": 633
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 146
+   "kasus": 149
   },
   "kabarkan": {
-   "tanggapan_terlihat": 340,
-   "kasus": 768,
-   "median_jeda_jam": 6.5,
-   "n_jeda": 36,
-   "melewati_batas": 29
+   "tanggapan_terlihat": 345,
+   "kasus": 782,
+   "median_jeda_jam": 5.9,
+   "n_jeda": 37,
+   "melewati_batas": 30
   },
   "arsipkan": {
-   "baris": 768,
+   "baris": 782,
    "bulan": 1,
    "hari_riwayat": 3
   }
@@ -326,6 +326,11 @@
  "hari_riwayat": 3,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Gaji Guru Naik 60% Mulai 2027",
+   "url": "https://turnbackhoax.id/articles/37331-salah-gaji-guru-naik-60-mulai-2027",
+   "terbit": null
+  },
   {
    "judul": "[PENIPUAN] Lowongan Kerja iBox",
    "url": "https://turnbackhoax.id/articles/37326-penipuan-lowongan-kerja-ibox",
@@ -349,11 +354,6 @@
   {
    "judul": "[SALAH] Kantor DPRD Tidak Boleh Jadi Lokasi Unjuk Rasa",
    "url": "https://turnbackhoax.id/articles/37322-salah-kantor-dprd-tidak-boleh-jadi-lokasi-unjuk-rasa",
-   "terbit": null
-  },
-  {
-   "judul": "[PENIPUAN] Kuis Berhadiah dari Menteri Pertanian",
-   "url": "https://turnbackhoax.id/articles/37320-penipuan-kuis-berhadiah-dari-menteri-pertanian",
    "terbit": null
   }
  ]
