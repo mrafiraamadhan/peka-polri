@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-10-30T09:04:38Z",
+ "diperbarui_utc": "2026-10-30T09:56:15Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-10-30T09:05:06Z",
+   "dicek_utc": "2026-10-30T09:56:42Z",
    "ok": true,
-   "n": 908,
+   "n": 910,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-10-30T09:05:08Z",
-   "ok": true,
-   "n": 10,
-   "pesan": "10 klaim terbaru",
+   "dicek_utc": "2026-10-30T09:57:06Z",
+   "ok": false,
+   "n": 0,
+   "pesan": "403 Client Error: Forbidden for url: https://turnbackhoax.id/feed/",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-10-30T09:05:09Z",
+   "dicek_utc": "2026-10-30T09:57:07Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-10-30T09:05:51Z",
-   "ok": true,
+   "dicek_utc": "2026-10-30T09:57:25Z",
+   "ok": false,
    "n": 7,
-   "pesan": "1 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 6 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "09:04:39 PEKA mulai 2026-10-30T09:04:38Z ",
-  "09:05:06 dengar berita: 908 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "09:05:51 dengar GDELT: 1/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "09:05:51 pilah: {'masuk': 908, 'sudah_ada': 817, 'tidak_relevan': 8, 'hoaks': 1, 'bukan_kejadian': 30, 'gabung': 18, 'kasus_baru': 34, 'relevan': 52}",
-  "09:05:51 papan Polda: 35 Polda berkasus | titik rawan: 0"
+  "09:56:16 PEKA mulai 2026-10-30T09:56:15Z ",
+  "09:56:42 dengar berita: 910 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "09:57:25 dengar GDELT: 0/6 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "09:57:25 pilah: {'masuk': 910, 'tidak_relevan': 6, 'sudah_ada': 804, 'bukan_kejadian': 29, 'luar_negeri': 1, 'kasus_baru': 36, 'gabung': 34, 'relevan': 70}",
+  "09:57:25 papan Polda: 35 Polda berkasus | titik rawan: 0"
  ]
 }
