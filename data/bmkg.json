@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-10-30T10:47:46Z",
+ "diperbarui_utc": "2026-10-30T11:38:55Z",
  "terbaru": {
-  "waktu_utc": "2026-10-30T06:03:45Z",
-  "magnitudo": 3.7,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di 20 km Timur Laut Kota Sorong",
+  "waktu_utc": "2026-10-30T10:29:39Z",
+  "magnitudo": 3.5,
+  "kedalaman": "3 km",
+  "wilayah": "Pusat gempa berada di darat 7 km barat daya Samosir",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II-III Sorong",
-  "koordinat": "-0.72,131.38",
-  "prov": "Papua Barat Daya",
-  "kode_prov": "92"
+  "dirasakan": "II Pangururan, II Kec. Ronggur Nihuta",
+  "koordinat": "2.57,98.66",
+  "prov": "Sumatera Utara",
+  "kode_prov": "12"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-10-30T10:29:39Z",
+   "magnitudo": 3.5,
+   "kedalaman": "3 km",
+   "wilayah": "Pusat gempa berada di darat 7 km barat daya Samosir",
+   "potensi": null,
+   "dirasakan": "II Pangururan, II Kec. Ronggur Nihuta",
+   "koordinat": "2.57,98.66",
+   "prov": "Sumatera Utara",
+   "kode_prov": "12"
+  },
   {
    "waktu_utc": "2026-10-30T06:03:45Z",
    "magnitudo": 3.7,
@@ -165,17 +176,6 @@
    "koordinat": "3.79,95.72",
    "prov": "Aceh",
    "kode_prov": "11"
-  },
-  {
-   "waktu_utc": "2026-10-20T11:28:11Z",
-   "magnitudo": 3.7,
-   "kedalaman": "15 km",
-   "wilayah": "Pusat gempa berada di laut 6 km Barat Laut Pulau Saringi",
-   "potensi": null,
-   "dirasakan": "III Kab. Sumbawa",
-   "koordinat": "-8.37,116.99",
-   "prov": "Nusa Tenggara Barat",
-   "kode_prov": "52"
   }
  ],
  "m5": [
