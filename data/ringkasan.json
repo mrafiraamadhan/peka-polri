@@ -1,18 +1,18 @@
 {
- "diperbarui_utc": "2026-10-30T00:48:51Z",
+ "diperbarui_utc": "2026-10-30T01:40:19Z",
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
-  "JALUR KHUSUS": 28,
+  "DARURAT": 2,
+  "JALUR KHUSUS": 29,
   "TINDAK": 22,
-  "PANTAU": 71,
-  "TERCATAT": 506
+  "PANTAU": 72,
+  "TERCATAT": 524
  },
- "kasus_aktif": 628,
+ "kasus_aktif": 649,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 28
+   "kasus": 29
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -20,15 +20,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 89
+   "kasus": 94
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 66
+   "kasus": 69
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 148
+   "kasus": 153
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -44,16 +44,16 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 121
+   "kasus": 128
   }
  },
  "provinsi": {
   "12": {
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
-   "DARURAT": 1,
+   "DARURAT": 2,
    "TINDAK": 1,
-   "PANTAU": 6,
+   "PANTAU": 5,
    "TERCATAT": 15
   },
   "14": {
@@ -104,14 +104,14 @@
    "polda": "Polda Kalimantan Tengah",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
-   "PANTAU": 5,
+   "PANTAU": 6,
    "TERCATAT": 27
   },
   "73": {
@@ -142,6 +142,13 @@
    "PANTAU": 5,
    "TERCATAT": 5
   },
+  "19": {
+   "nama": "Kepulauan Bangka Belitung",
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 1,
+   "TERCATAT": 2
+  },
   "72": {
    "nama": "Sulawesi Tengah",
    "polda": "Polda Sulawesi Tengah",
@@ -167,7 +174,7 @@
    "polda": "Polda Banten",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 10
+   "TERCATAT": 11
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -217,16 +224,10 @@
    "polda": "Polda Gorontalo",
    "PANTAU": 1
   },
-  "19": {
-   "nama": "Kepulauan Bangka Belitung",
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "PANTAU": 1,
-   "TERCATAT": 2
-  },
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 3
   },
   "91": {
@@ -274,54 +275,45 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 912,
-   "sumber": 4
+   "artikel": 909,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 23,
-   "sudah_ada": 881,
+   "relevan": 40,
+   "sudah_ada": 837,
    "hoaks": 0,
-   "tidak_relevan": 3,
-   "bukan_kejadian": 5,
-   "luar_negeri": 0,
-   "kasus_baru": 13,
-   "digabung": 10
+   "tidak_relevan": 14,
+   "bukan_kejadian": 17,
+   "luar_negeri": 1,
+   "kasus_baru": 21,
+   "digabung": 19
   },
   "timbang": {
-   "DARURAT": 1,
-   "JALUR KHUSUS": 28,
+   "DARURAT": 2,
+   "JALUR KHUSUS": 29,
    "TINDAK": 22,
-   "PANTAU": 71,
-   "TERCATAT": 506
+   "PANTAU": 72,
+   "TERCATAT": 524
   },
   "teruskan": {
    "polda": 30,
-   "kasus": 122
+   "kasus": 125
   },
   "kabarkan": {
-   "tanggapan_terlihat": 278,
-   "kasus": 628,
+   "tanggapan_terlihat": 284,
+   "kasus": 649,
    "median_jeda_jam": 5.3,
    "n_jeda": 28,
-   "melewati_batas": 16
+   "melewati_batas": 18
   },
   "arsipkan": {
-   "baris": 628,
+   "baris": 649,
    "bulan": 1,
    "hari_riwayat": 3
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [
-  {
-   "topik": "penipuan",
-   "nama": "Penipuan dan kejahatan daring",
-   "kemarin": 0,
-   "rata28": 5.2,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 3,
  "gempa_darurat": [],
  "hoaks_terbaru": [
