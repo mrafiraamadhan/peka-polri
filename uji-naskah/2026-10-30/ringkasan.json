@@ -1,0 +1,382 @@
+{
+ "diperbarui_utc": "2026-10-30T04:15:02Z",
+ "versi_aturan": "2026-10-30",
+ "jalur_khusus_jenis": {
+  "anggota": 26,
+  "kekerasan": 2,
+  "perkara": 7
+ },
+ "jendela_jam": 72,
+ "status": {
+  "DARURAT": 1,
+  "JALUR KHUSUS": 35,
+  "TINDAK": 29,
+  "PANTAU": 72,
+  "TERCATAT": 514
+ },
+ "kasus_aktif": 651,
+ "topik": {
+  "anggota": {
+   "nama": "Perilaku anggota",
+   "kasus": 30
+  },
+  "perempuan_anak": {
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kasus": 50
+  },
+  "narkoba": {
+   "nama": "Narkoba",
+   "kasus": 92
+  },
+  "penipuan": {
+   "nama": "Penipuan dan kejahatan daring",
+   "kasus": 64
+  },
+  "jalanan": {
+   "nama": "Kejahatan jalanan",
+   "kasus": 159
+  },
+  "konflik": {
+   "nama": "Konflik dan kerumunan",
+   "kasus": 64
+  },
+  "lalulintas": {
+   "nama": "Lalu lintas",
+   "kasus": 50
+  },
+  "layanan": {
+   "nama": "Layanan kepolisian",
+   "kasus": 2
+  },
+  "darurat": {
+   "nama": "Bencana dan keadaan darurat",
+   "kasus": 140
+  }
+ },
+ "provinsi": {
+  "12": {
+   "nama": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "DARURAT": 1,
+   "TINDAK": 1,
+   "PANTAU": 3,
+   "TERCATAT": 28
+  },
+  "14": {
+   "nama": "Riau",
+   "polda": "Polda Riau",
+   "JALUR KHUSUS": 4,
+   "TINDAK": 1,
+   "PANTAU": 2,
+   "TERCATAT": 8
+  },
+  "35": {
+   "nama": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "JALUR KHUSUS": 6,
+   "TINDAK": 7,
+   "PANTAU": 15,
+   "TERCATAT": 37
+  },
+  "52": {
+   "nama": "Nusa Tenggara Barat",
+   "polda": "Polda Nusa Tenggara Barat",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 1,
+   "TERCATAT": 6
+  },
+  "73": {
+   "nama": "Sulawesi Selatan",
+   "polda": "Polda Sulawesi Selatan",
+   "JALUR KHUSUS": 6,
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 6
+  },
+  "32": {
+   "nama": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "JALUR KHUSUS": 2,
+   "TINDAK": 5,
+   "PANTAU": 6,
+   "TERCATAT": 32
+  },
+  "72": {
+   "nama": "Sulawesi Tengah",
+   "polda": "Polda Sulawesi Tengah",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 2,
+   "TERCATAT": 3
+  },
+  "18": {
+   "nama": "Lampung",
+   "polda": "Polda Lampung",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 3,
+   "TERCATAT": 10
+  },
+  "16": {
+   "nama": "Sumatera Selatan",
+   "polda": "Polda Sumatera Selatan",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 1,
+   "PANTAU": 2,
+   "TERCATAT": 9
+  },
+  "63": {
+   "nama": "Kalimantan Selatan",
+   "polda": "Polda Kalimantan Selatan",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 4
+  },
+  "62": {
+   "nama": "Kalimantan Tengah",
+   "polda": "Polda Kalimantan Tengah",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 1,
+   "TERCATAT": 5
+  },
+  "31": {
+   "nama": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 2,
+   "TERCATAT": 6
+  },
+  "82": {
+   "nama": "Maluku Utara",
+   "polda": "Polda Maluku Utara",
+   "JALUR KHUSUS": 1,
+   "TERCATAT": 1
+  },
+  "53": {
+   "nama": "Nusa Tenggara Timur",
+   "polda": "Polda Nusa Tenggara Timur",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 3,
+   "TERCATAT": 5
+  },
+  "36": {
+   "nama": "Banten",
+   "polda": "Polda Banten",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 1,
+   "PANTAU": 2,
+   "TERCATAT": 16
+  },
+  "19": {
+   "nama": "Kepulauan Bangka Belitung",
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 1,
+   "TERCATAT": 3
+  },
+  "33": {
+   "nama": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 3,
+   "PANTAU": 2,
+   "TERCATAT": 10
+  },
+  "34": {
+   "nama": "DI Yogyakarta",
+   "polda": "Polda DI Yogyakarta",
+   "TINDAK": 1,
+   "PANTAU": 11,
+   "TERCATAT": 5
+  },
+  "21": {
+   "nama": "Kepulauan Riau",
+   "polda": "Polda Kepulauan Riau",
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 3
+  },
+  "61": {
+   "nama": "Kalimantan Barat",
+   "polda": "Polda Kalimantan Barat",
+   "TINDAK": 2,
+   "PANTAU": 2,
+   "TERCATAT": 8
+  },
+  "71": {
+   "nama": "Sulawesi Utara",
+   "polda": "Polda Sulawesi Utara",
+   "TINDAK": 1,
+   "TERCATAT": 2
+  },
+  "51": {
+   "nama": "Bali",
+   "polda": "Polda Bali",
+   "TINDAK": 1,
+   "PANTAU": 4,
+   "TERCATAT": 5
+  },
+  "65": {
+   "nama": "Kalimantan Utara",
+   "polda": "Polda Kalimantan Utara",
+   "PANTAU": 1,
+   "TERCATAT": 1
+  },
+  "15": {
+   "nama": "Jambi",
+   "polda": "Polda Jambi",
+   "PANTAU": 2,
+   "TERCATAT": 3
+  },
+  "75": {
+   "nama": "Gorontalo",
+   "polda": "Polda Gorontalo",
+   "PANTAU": 1
+  },
+  "91": {
+   "nama": "Papua Barat",
+   "polda": "Polda Papua Barat",
+   "PANTAU": 1
+  },
+  "64": {
+   "nama": "Kalimantan Timur",
+   "polda": "Polda Kalimantan Timur",
+   "PANTAU": 1,
+   "TERCATAT": 10
+  },
+  "74": {
+   "nama": "Sulawesi Tenggara",
+   "polda": "Polda Sulawesi Tenggara",
+   "PANTAU": 1,
+   "TERCATAT": 1
+  },
+  "11": {
+   "nama": "Aceh",
+   "polda": "Polda Aceh",
+   "PANTAU": 1,
+   "TERCATAT": 20
+  },
+  "13": {
+   "nama": "Sumatera Barat",
+   "polda": "Polda Sumatera Barat",
+   "PANTAU": 1,
+   "TERCATAT": 2
+  },
+  "94": {
+   "nama": "Papua",
+   "polda": "Polda Papua",
+   "TERCATAT": 4
+  },
+  "96": {
+   "nama": "Papua Tengah",
+   "polda": "Polda yang membawahi Papua Tengah",
+   "TERCATAT": 2
+  },
+  "76": {
+   "nama": "Sulawesi Barat",
+   "polda": "Polda Sulawesi Barat",
+   "TERCATAT": 2
+  },
+  "17": {
+   "nama": "Bengkulu",
+   "polda": "Polda Bengkulu",
+   "TERCATAT": 3
+  },
+  "95": {
+   "nama": "Papua Selatan",
+   "polda": "Polda yang membawahi Papua Selatan",
+   "TERCATAT": 3
+  }
+ },
+ "langkah": {
+  "dengar": {
+   "artikel": 909,
+   "sumber": 4
+  },
+  "pilah": {
+   "relevan": 38,
+   "sudah_ada": 849,
+   "hoaks": 0,
+   "tidak_relevan": 5,
+   "bukan_kejadian": 14,
+   "luar_negeri": 3,
+   "kasus_baru": 21,
+   "digabung": 17
+  },
+  "timbang": {
+   "DARURAT": 1,
+   "JALUR KHUSUS": 35,
+   "TINDAK": 29,
+   "PANTAU": 72,
+   "TERCATAT": 514
+  },
+  "teruskan": {
+   "polda": 30,
+   "kasus": 137
+  },
+  "kabarkan": {
+   "tanggapan_terlihat": 283,
+   "kasus": 651,
+   "tanggapan_sejak_berita_pertama": 254,
+   "median_jeda_jam": 4.6,
+   "n_jeda": 29,
+   "melewati_batas": 29
+  },
+  "arsipkan": {
+   "baris": 719,
+   "dikoreksi": 68,
+   "bulan": 1,
+   "hari_riwayat": 3
+  }
+ },
+ "lonjakan_wilayah": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kemarin": 0,
+   "rata28": 1.3,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
+ "hari_riwayat": 3,
+ "gempa_darurat": [],
+ "hoaks_terbaru": [
+  {
+   "judul": "[PENIPUAN] Lowongan Kerja iBox",
+   "url": "https://turnbackhoax.id/articles/37326-penipuan-lowongan-kerja-ibox",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Pendaftaran Program Tebus Pupuk Murah dari Pemerintah",
+   "url": "https://turnbackhoax.id/articles/37325-penipuan-pendaftaran-program-tebus-pupuk-murah-dari-pemerintah",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Tautan Pendaftaran Lowongan Kerja Amerta Indah Otsuka (Pocari Sweat)",
+   "url": "https://turnbackhoax.id/articles/37324-penipuan-tautan-pendaftaran-lowongan-kerja-amerta-indah-otsuka-pocari-sweat",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Akun Telegram Pendaftaran Program Bedah Rumah Kementerian PKP",
+   "url": "https://turnbackhoax.id/articles/37323-penipuan-akun-telegram-pendaftaran-program-bedah-rumah-kementerian-pkp",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Kantor DPRD Tidak Boleh Jadi Lokasi Unjuk Rasa",
+   "url": "https://turnbackhoax.id/articles/37322-salah-kantor-dprd-tidak-boleh-jadi-lokasi-unjuk-rasa",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Kuis Berhadiah dari Menteri Pertanian",
+   "url": "https://turnbackhoax.id/articles/37320-penipuan-kuis-berhadiah-dari-menteri-pertanian",
+   "terbit": null
+  }
+ ],
+ "uji_naskah": {
+  "commit_sumber": "cc23927",
+  "waktu_commit_utc": "2026-10-30T04:15:02Z",
+  "versi_aturan": "2026-10-30",
+  "catatan": "Cache kasus commit cc23927 diproses ulang dengan aturan versi 2026-10-30 tanpa pengambilan sumber baru. Angka dengar dan pilah, hoaks, gempa, GDELT, dan status sumber disalin dari putaran asli commit itu."
+ }
+}
