@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-10-31T00:39:42Z",
+ "diperbarui_utc": "2026-10-31T01:31:02Z",
  "jendela_hari": 30,
  "hari_riwayat": 4,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 456,
+ "kasus_tanpa_polda": 465,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 104,
+   "kasus": 106,
    "perlu": 51,
    "perlu_tanggap": 13,
    "persen_tanggap": 25.5,
-   "tanggap": 56,
+   "tanggap": 57,
    "jalur_khusus": 9,
    "melewati_batas": 14,
    "median_jeda_jam": 6.3,
@@ -29,8 +29,8 @@
      14
     ],
     [
-     "penipuan",
-     12
+     "darurat",
+     13
     ]
    ]
   },
@@ -97,10 +97,10 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 23,
-   "perlu": 17,
+   "kasus": 24,
+   "perlu": 18,
    "perlu_tanggap": 3,
-   "persen_tanggap": 17.6,
+   "persen_tanggap": 16.7,
    "tanggap": 8,
    "jalur_khusus": 0,
    "melewati_batas": 10,
@@ -116,8 +116,8 @@
      2
     ],
     [
-     "penipuan",
-     1
+     "lalulintas",
+     2
     ]
    ]
   },
@@ -147,6 +147,35 @@
     [
      "jalanan",
      5
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Metro Jaya",
+   "provinsi": [
+    "31"
+   ],
+   "kasus": 34,
+   "perlu": 10,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 20.0,
+   "tanggap": 17,
+   "jalur_khusus": 1,
+   "melewati_batas": 3,
+   "median_jeda_jam": 0.4,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "darurat",
+     10
+    ],
+    [
+     "konflik",
+     6
+    ],
+    [
+     "jalanan",
+     6
     ]
    ]
   },
@@ -209,52 +238,23 @@
    ]
   },
   {
-   "polda": "Polda Metro Jaya",
-   "provinsi": [
-    "31"
-   ],
-   "kasus": 33,
-   "perlu": 9,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 22.2,
-   "tanggap": 17,
-   "jalur_khusus": 1,
-   "melewati_batas": 3,
-   "median_jeda_jam": 0.4,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "darurat",
-     10
-    ],
-    [
-     "konflik",
-     6
-    ],
-    [
-     "jalanan",
-     6
-    ]
-   ]
-  },
-  {
    "polda": "Polda Kepulauan Riau",
    "provinsi": [
     "21"
    ],
-   "kasus": 19,
+   "kasus": 20,
    "perlu": 8,
    "perlu_tanggap": 1,
    "persen_tanggap": 12.5,
-   "tanggap": 12,
-   "jalur_khusus": 5,
+   "tanggap": 13,
+   "jalur_khusus": 6,
    "melewati_batas": 2,
    "median_jeda_jam": 5.4,
    "n_jeda": 1,
    "topik_teratas": [
     [
      "anggota",
-     5
+     6
     ],
     [
      "narkoba",
@@ -271,7 +271,7 @@
    "provinsi": [
     "51"
    ],
-   "kasus": 18,
+   "kasus": 19,
    "perlu": 8,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
@@ -287,7 +287,7 @@
     ],
     [
      "darurat",
-     5
+     6
     ],
     [
      "narkoba",
