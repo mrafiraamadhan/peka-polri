@@ -1,12 +1,12 @@
 {
- "diperbarui_utc": "2026-10-31T20:49:11Z",
+ "diperbarui_utc": "2026-10-31T21:40:25Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
   "anggota": 27,
   "kekerasan": 1
  },
- "anggota_sudah_ditangani": 24,
+ "anggota_sudah_ditangani": 23,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
@@ -19,7 +19,7 @@
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 53
+   "kasus": 52
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 253
+   "kasus": 255
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -39,7 +39,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 97
+   "kasus": 96
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -173,7 +173,7 @@
    "polda": "Polda Riau",
    "TINDAK": 3,
    "PANTAU": 7,
-   "TERCATAT": 22
+   "TERCATAT": 21
   },
   "76": {
    "nama": "Sulawesi Barat",
@@ -313,14 +313,14 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 3,
-   "sudah_ada": 903,
+   "relevan": 7,
+   "sudah_ada": 898,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 1,
+   "bukan_kejadian": 2,
    "luar_negeri": 0,
    "kasus_baru": 2,
-   "digabung": 1
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 0,
@@ -336,13 +336,13 @@
   "kabarkan": {
    "tanggapan_terlihat": 625,
    "kasus": 1437,
-   "tanggapan_sejak_berita_pertama": 555,
+   "tanggapan_sejak_berita_pertama": 556,
    "median_jeda_jam": 6.2,
-   "n_jeda": 70,
+   "n_jeda": 69,
    "melewati_batas": 92
   },
   "arsipkan": {
-   "baris": 1582,
+   "baris": 1584,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 5

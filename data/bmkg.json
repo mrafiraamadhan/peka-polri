@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-10-31T20:49:11Z",
+ "diperbarui_utc": "2026-10-31T21:40:25Z",
  "terbaru": {
-  "waktu_utc": "2026-10-31T08:23:13Z",
-  "magnitudo": 3.5,
-  "kedalaman": "4 km",
-  "wilayah": "Pusat gempa berada di laut 13 km tenggara Bahodopi",
+  "waktu_utc": "2026-10-31T20:48:49Z",
+  "magnitudo": 2.8,
+  "kedalaman": "10 km",
+  "wilayah": "Pusat gempa berada di darat 14 km Timur Laut Kendari",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Morowali",
-  "koordinat": "-2.87,122.21",
-  "prov": "Sulawesi Tengah",
-  "kode_prov": "72"
+  "dirasakan": "II - III Kota Kendari",
+  "koordinat": "-3.92,122.63",
+  "prov": "Sulawesi Tenggara",
+  "kode_prov": "74"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-10-31T20:48:49Z",
+   "magnitudo": 2.8,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di darat 14 km Timur Laut Kendari",
+   "potensi": null,
+   "dirasakan": "II - III Kota Kendari",
+   "koordinat": "-3.92,122.63",
+   "prov": "Sulawesi Tenggara",
+   "kode_prov": "74"
+  },
   {
    "waktu_utc": "2026-10-31T08:23:13Z",
    "magnitudo": 3.5,
@@ -165,17 +176,6 @@
    "koordinat": "-3.11,102.14",
    "prov": "Bengkulu",
    "kode_prov": "17"
-  },
-  {
-   "waktu_utc": "2026-10-21T11:58:36Z",
-   "magnitudo": 2.5,
-   "kedalaman": "3 km",
-   "wilayah": "Pusat gempa berada di darat 9 km utara Tanggamus",
-   "potensi": null,
-   "dirasakan": "II Tanggamus",
-   "koordinat": "-5.40,104.68",
-   "prov": "Lampung",
-   "kode_prov": "18"
   }
  ],
  "m5": [

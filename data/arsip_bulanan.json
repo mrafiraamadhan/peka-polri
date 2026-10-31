@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-10-31T20:49:11Z",
+ "diperbarui_utc": "2026-10-31T21:40:25Z",
  "bulan": [
   {
    "bulan": "2026-10",
@@ -69,17 +69,17 @@
   },
   {
    "bulan": "2026-11",
-   "kasus": 9,
+   "kasus": 11,
    "topik": {
     "jalanan": 1,
     "perempuan_anak": 1,
-    "narkoba": 1,
+    "narkoba": 3,
     "darurat": 2,
     "konflik": 3,
     "penipuan": 1
    },
    "status": {
-    "TERCATAT": 8,
+    "TERCATAT": 10,
     "PANTAU": 1
    },
    "provinsi_teratas": [
@@ -96,7 +96,7 @@
      1
     ]
    ],
-   "tanggapan_terlihat": 4,
+   "tanggapan_terlihat": 5,
    "median_jeda_jam": null,
    "n_jeda": 0
   }
