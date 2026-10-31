@@ -24,3 +24,19 @@ Folder ini membekukan data uji kedua Subbab 4.3.9 naskah. Buka di situs dengan `
 
 Pelabelan dikerjakan dalam dua putaran terpisah dengan bantuan model bahasa besar yang diberi buku kode yang sama.
 Label terbuka agar dapat diperiksa ulang oleh pelabel manusia.
+
+## Ukuran tambahan
+
+`ukuran_tambahan.json` dibuat dengan `python uji/ukuran_tambahan.py` (dari akar repositori, perlu riwayat git). Isinya:
+
+- definisi ketat uji kedua diterapkan pada 13 kasus jalur khusus uji pertama (`../2026-10-30/label_ulang_jk_v1031.csv`):
+  jalur khusus 7/13, jalur khusus dan Tindak 14/23, daftar tindak lanjut 28/82;
+- sensitivitas jalur khusus (keluhan tentang polisi atau perkara yang semestinya masuk jalur khusus dan memang masuk):
+  7/13 pada uji pertama, 9/14 pada uji kedua;
+- perkara anggota yang sudah ditangani: 5/5 tepat, tetapi hanya 5/9 dikenali (tiga dari empat yang terlewat adalah
+  pecahan satu kejadian di Batam); status tetap tepat pada 7/9;
+- jalur khusus, Tindak, dan Darurat: 24/31;
+- cek kebocoran: dari 56 kata kunci baru versi 2026-10-31, hanya *kuasa hukum desak* yang muncul di judul sampel uji kedua
+  tetapi tidak di data uji pertama. Kata itu berasal dari galat uji pertama (desakan kuasa hukum agar polsek menangkap
+  terlapor). Aturan baru diunggah sesudah batas data uji kedua, sehingga cek ini menggantikan klaim bahwa kasus uji kedua
+  tidak pernah terlihat.
