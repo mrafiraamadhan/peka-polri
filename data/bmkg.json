@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-10-31T08:21:00Z",
+ "diperbarui_utc": "2026-10-31T09:12:29Z",
  "terbaru": {
-  "waktu_utc": "2026-10-31T05:39:20Z",
-  "magnitudo": 4.8,
-  "kedalaman": "28 km",
-  "wilayah": "Pusat gempa berada di laut 97 km barat Kodi, Sumba Barat Daya",
+  "waktu_utc": "2026-10-31T08:23:13Z",
+  "magnitudo": 3.5,
+  "kedalaman": "4 km",
+  "wilayah": "Pusat gempa berada di laut 13 km tenggara Bahodopi",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Sumbawa",
-  "koordinat": "-9.45,118.11",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "II - III Morowali",
+  "koordinat": "-2.87,122.21",
+  "prov": "Sulawesi Tengah",
+  "kode_prov": "72"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-10-31T08:23:13Z",
+   "magnitudo": 3.5,
+   "kedalaman": "4 km",
+   "wilayah": "Pusat gempa berada di laut 13 km tenggara Bahodopi",
+   "potensi": null,
+   "dirasakan": "II - III Morowali",
+   "koordinat": "-2.87,122.21",
+   "prov": "Sulawesi Tengah",
+   "kode_prov": "72"
+  },
   {
    "waktu_utc": "2026-10-31T05:39:20Z",
    "magnitudo": 4.8,
@@ -163,17 +174,6 @@
    "potensi": null,
    "dirasakan": "II Tanggamus",
    "koordinat": "-5.40,104.68",
-   "prov": "Lampung",
-   "kode_prov": "18"
-  },
-  {
-   "waktu_utc": "2026-10-21T11:03:28Z",
-   "magnitudo": 3.9,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 10 km utara Tanggamus",
-   "potensi": null,
-   "dirasakan": "III Ulu Belu, Tanggamus, III Pulau Panggung, Tanggamus",
-   "koordinat": "-5.39,104.68",
    "prov": "Lampung",
    "kode_prov": "18"
   }
