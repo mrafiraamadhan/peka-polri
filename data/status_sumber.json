@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-10-31T01:31:02Z",
+ "diperbarui_utc": "2026-10-31T02:20:34Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-10-31T01:31:29Z",
+   "dicek_utc": "2026-10-31T02:21:02Z",
    "ok": true,
-   "n": 909,
+   "n": 907,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-10-31T01:31:31Z",
+   "dicek_utc": "2026-10-31T02:21:03Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-10-31T01:31:33Z",
+   "dicek_utc": "2026-10-31T02:21:04Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-10-31T01:31:54Z",
+   "dicek_utc": "2026-10-31T02:21:27Z",
    "ok": false,
    "n": 9,
    "pesan": "0 dari 9 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
@@ -31,10 +31,10 @@
   }
  },
  "log": [
-  "01:31:02 PEKA mulai 2026-10-31T01:31:02Z ",
-  "01:31:29 dengar berita: 909 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "01:31:54 dengar GDELT: 0/9 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "01:31:54 pilah: {'masuk': 909, 'sudah_ada': 868, 'bukan_kejadian': 10, 'tidak_relevan': 5, 'luar_negeri': 3, 'kasus_baru': 15, 'gabung': 8, 'relevan': 23}",
-  "01:31:54 papan Polda: 36 Polda berkasus | titik rawan: 0"
+  "02:20:34 PEKA mulai 2026-10-31T02:20:34Z ",
+  "02:21:02 dengar berita: 907 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "02:21:27 dengar GDELT: 0/9 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "02:21:27 pilah: {'masuk': 907, 'sudah_ada': 867, 'tidak_relevan': 3, 'bukan_kejadian': 14, 'gabung': 16, 'kasus_baru': 7, 'relevan': 23}",
+  "02:21:27 papan Polda: 36 Polda berkasus | titik rawan: 0"
  ]
 }
