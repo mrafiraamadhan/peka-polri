@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/peka.css?v=20261030a">
+<link rel="stylesheet" href="assets/peka.css?v=20261031a">
 </head>
 <body>
 
@@ -342,7 +342,7 @@
 
     <h2 class="judul-bagian">Keterbatasan</h2>
     <div class="kartu blok"><ul style="margin:0;padding-left:18px">
-      <li><b>Uji presisi</b> pada data uji 30 Oktober 2026 (142 kasus acak, benih 20261030): status Jalur khusus dan Tindak tepat 83%, Pantau hanya 24% (banyak derau dan tindakan polisi yang tidak terbaca), dan 6 dari 18 keluhan tentang polisi belum masuk jalur khusus. Label dan hasilnya terbuka di folder <a href="https://github.com/mrafiraamadhan/peka-polri/tree/main/uji-naskah/2026-10-30">uji-naskah/2026-10-30</a>; data ujinya dapat dibuka di <a href="?data=uji-naskah/2026-10-30">halaman ini</a>.</li>
+      <li><b>Dua uji presisi.</b> Uji pertama (data 30 Oktober 2026, 142 kasus, aturan versi 30 Oktober): Jalur khusus dan Tindak tepat 19/23, Pantau 24%, salah tutup 2/96. Uji kedua (aturan versi 31 Oktober yang sudah dikoreksi, 149 kasus yang belum pernah dilihat): Jalur khusus dan Tindak tepat 24/30, Pantau 26%, salah tutup 0/103. Koreksi kata kunci menghapus salah tutup tetapi tidak menaikkan presisi Pantau; untuk itu diperlukan kanal internal dan pemeriksaan petugas. Label dibuat dengan bantuan model bahasa dan terbuka di <a href="https://github.com/mrafiraamadhan/peka-polri/tree/main/uji-naskah">uji-naskah</a>; data ujinya dapat dibuka di <a href="?data=uji-naskah/2026-10-30">uji pertama</a> dan <a href="?data=uji-naskah/2026-10-31">uji kedua</a>.</li>
       <li>Berita bukan keluhan langsung. Yang tidak diberitakan tidak terbaca; justru itulah alasan PEKA perlu memakai kanal internal Polri.</li>
       <li>Topik, lokasi, dan tanggapan ditentukan dengan kata kunci, bukan pemahaman isi. Kesalahan klasifikasi mungkin terjadi, sehingga setiap status perlu diverifikasi petugas.</li>
       <li>Google News RSS mengembalikan paling banyak 100 berita per kueri, dan GDELT tidak mencakup semua media daerah. GDELT juga sering membatasi permintaan dari server GitHub, sehingga deret per topik dapat tertinggal beberapa jam.</li>
@@ -363,6 +363,6 @@
 <dialog class="lacak" id="lacak" aria-labelledby="lacak-judul"><div id="lacak-isi"></div></dialog>
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
 <script src="assets/vendor/qrcode.js?v=20261030a"></script>
-<script src="assets/peka.js?v=20261030a"></script>
+<script src="assets/peka.js?v=20261031a"></script>
 </body>
 </html>

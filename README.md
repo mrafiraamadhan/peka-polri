@@ -36,12 +36,15 @@ Riwayat perubahan aturan terbuka di daftar commit; versi aturan tercatat di `rin
 perilaku anggota ke Propam satu tingkat di atasnya (Seksi Propam Polres untuk anggota Polsek, Bidpropam Polda
 untuk anggota Polres, Divpropam untuk anggota Polda); kekerasan oleh aparat ke Propam dan reserse satu tingkat
 di atasnya dengan tembusan Kompolnas dan Komnas HAM; keluhan atas penanganan perkara (laporan mandek, SP2HP)
-ke Bagwassidik Direktorat Reserse Polda dan Itwasda; laporan yang ditolak ke Itwasda. Nama anggota pada
-kasus jalur khusus disingkat menjadi inisial karena belum ada putusan.
+ke Bagwassidik Direktorat Reserse Polda dan Itwasda; laporan yang ditolak ke Itwasda. Kompolnas menerima tembusan per
+kasus untuk kekerasan aparat dan rekap bulanan untuk jalur khusus lainnya. Sejak aturan versi 2026-10-31, perilaku anggota
+yang sudah diperiksa Propam atau diproses penyidik tidak diteruskan ulang, tetapi dipantau kabar baliknya oleh Itwasda.
+Nama anggota pada kasus bertopik perilaku anggota disingkat menjadi inisial karena belum ada putusan.
 
-**Data uji naskah.** Angka Subbab 4.3.9 naskah berasal dari satu putaran yang salinannya dibekukan di
-`uji-naskah/2026-10-30/` (data, versi aturan, dan berkas label uji presisi; lihat README di folder itu).
-Buka dengan `?data=uji-naskah/2026-10-30` di alamat situs. Sampel uji ditarik dengan `uji/sampel_presisi.py`
+**Data uji naskah.** Angka Subbab 4.3.9 naskah berasal dari dua putaran yang salinannya dibekukan di
+`uji-naskah/2026-10-30/` (uji pertama, aturan versi 2026-10-30) dan `uji-naskah/2026-10-31/` (uji kedua, aturan versi
+2026-10-31, hanya kasus baru). Keduanya dibuat ulang oleh alur kerja `bekukan.yml` dan memuat data, versi aturan, serta berkas label uji presisi
+(lihat README di setiap folder). Buka dengan `?data=uji-naskah/2026-10-30` atau `?data=uji-naskah/2026-10-31` di alamat situs. Sampel uji ditarik dengan `uji/sampel_presisi.py`
 (benih 20261030) dan dinilai dengan `uji/buku_kode.md`.
 
 ## Alat untuk menutup lingkaran
