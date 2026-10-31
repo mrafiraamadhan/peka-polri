@@ -1,43 +1,43 @@
 {
- "diperbarui_utc": "2026-10-31T07:29:45Z",
+ "diperbarui_utc": "2026-10-31T08:21:00Z",
  "bulan": [
   {
    "bulan": "2026-10",
-   "kasus": 1236,
+   "kasus": 1261,
    "topik": {
-    "lalulintas": 83,
-    "anggota": 55,
-    "perempuan_anak": 85,
-    "jalanan": 278,
-    "penipuan": 123,
-    "narkoba": 213,
-    "konflik": 89,
-    "darurat": 306,
+    "lalulintas": 86,
+    "anggota": 56,
+    "perempuan_anak": 87,
+    "jalanan": 286,
+    "penipuan": 125,
+    "narkoba": 216,
+    "konflik": 91,
+    "darurat": 310,
     "layanan": 4
    },
    "status": {
-    "TERCATAT": 1024,
+    "TERCATAT": 1047,
     "JALUR KHUSUS": 42,
     "TINDAK": 47,
-    "PANTAU": 120,
-    "DARURAT": 3
+    "PANTAU": 121,
+    "DARURAT": 4
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     116
+     120
     ],
     [
      "Jawa Barat",
-     76
+     77
     ],
     [
      "Sumatera Utara",
-     55
+     57
     ],
     [
      "Jawa Tengah",
-     46
+     47
     ],
     [
      "Aceh",
@@ -49,7 +49,7 @@
     ],
     [
      "Riau",
-     29
+     30
     ],
     [
      "DI Yogyakarta",
@@ -64,9 +64,9 @@
      23
     ]
    ],
-   "tanggapan_terlihat": 531,
-   "median_jeda_jam": 6.0,
-   "n_jeda": 59
+   "tanggapan_terlihat": 547,
+   "median_jeda_jam": 5.7,
+   "n_jeda": 62
   }
  ]
 }
