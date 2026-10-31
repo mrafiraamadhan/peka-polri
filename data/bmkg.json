@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-10-31T05:45:20Z",
+ "diperbarui_utc": "2026-10-31T06:38:37Z",
  "terbaru": {
-  "waktu_utc": "2026-10-30T10:29:39Z",
-  "magnitudo": 3.5,
-  "kedalaman": "3 km",
-  "wilayah": "Pusat gempa berada di darat 7 km barat daya Samosir",
+  "waktu_utc": "2026-10-31T05:39:20Z",
+  "magnitudo": 4.8,
+  "kedalaman": "28 km",
+  "wilayah": "Pusat gempa berada di laut 97 km barat Kodi, Sumba Barat Daya",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Pangururan, II Kec. Ronggur Nihuta",
-  "koordinat": "2.57,98.66",
-  "prov": "Sumatera Utara",
-  "kode_prov": "12"
+  "dirasakan": "III Sumbawa",
+  "koordinat": "-9.45,118.11",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-10-31T05:39:20Z",
+   "magnitudo": 4.8,
+   "kedalaman": "28 km",
+   "wilayah": "Pusat gempa berada di laut 97 km barat Kodi, Sumba Barat Daya",
+   "potensi": null,
+   "dirasakan": "III Sumbawa",
+   "koordinat": "-9.45,118.11",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-10-30T10:29:39Z",
    "magnitudo": 3.5,
@@ -165,17 +176,6 @@
    "koordinat": "-5.39,104.68",
    "prov": "Lampung",
    "kode_prov": "18"
-  },
-  {
-   "waktu_utc": "2026-10-20T16:29:35Z",
-   "magnitudo": 5.4,
-   "kedalaman": "74 km",
-   "wilayah": "Pusat gempa berada di laut 59 km barat daya Meulaboh",
-   "potensi": null,
-   "dirasakan": "III Kab. Aceh Selatan, III Kab. Simeulue, III-IV Kab. Aceh Barat, III-IV Kab. Aceh Barat Daya, II Kab. Bener Meriah, II-III Kota Banda Aceh, II-III Kab. Aceh Besar , III-IV Kab. Nagan Raya",
-   "koordinat": "3.79,95.72",
-   "prov": "Aceh",
-   "kode_prov": "11"
   }
  ],
  "m5": [
