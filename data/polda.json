@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-10-31T18:17:39Z",
+ "diperbarui_utc": "2026-10-31T19:09:02Z",
  "jendela_hari": 30,
  "hari_riwayat": 5,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 601,
+ "kasus_tanpa_polda": 604,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,11 +39,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 79,
+   "kasus": 80,
    "perlu": 27,
    "perlu_tanggap": 4,
    "persen_tanggap": 14.8,
-   "tanggap": 33,
+   "tanggap": 34,
    "jalur_khusus": 3,
    "melewati_batas": 9,
    "median_jeda_jam": 6.6,
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     21
+     22
     ],
     [
      "narkoba",
@@ -68,11 +68,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 59,
+   "kasus": 60,
    "perlu": 21,
    "perlu_tanggap": 5,
    "persen_tanggap": 23.8,
-   "tanggap": 27,
+   "tanggap": 28,
    "jalur_khusus": 3,
    "melewati_batas": 4,
    "median_jeda_jam": 10.0,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     13
+     14
     ],
     [
      "penipuan",
@@ -184,7 +184,7 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 73,
+   "kasus": 74,
    "perlu": 12,
    "perlu_tanggap": 1,
    "persen_tanggap": 8.3,
@@ -200,7 +200,7 @@
     ],
     [
      "darurat",
-     21
+     22
     ],
     [
      "jalanan",
@@ -300,11 +300,11 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 45,
+   "kasus": 46,
    "perlu": 6,
    "perlu_tanggap": 1,
    "persen_tanggap": 16.7,
-   "tanggap": 26,
+   "tanggap": 27,
    "jalur_khusus": 0,
    "melewati_batas": 3,
    "median_jeda_jam": 1.9,
@@ -316,7 +316,7 @@
     ],
     [
      "narkoba",
-     15
+     16
     ],
     [
      "jalanan",
@@ -358,12 +358,12 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 18,
+   "kasus": 19,
    "perlu": 6,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 10,
-   "jalur_khusus": 0,
+   "tanggap": 11,
+   "jalur_khusus": 1,
    "melewati_batas": 3,
    "median_jeda_jam": null,
    "n_jeda": 0,
@@ -702,6 +702,35 @@
    ]
   },
   {
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "provinsi": [
+    "19"
+   ],
+   "kasus": 9,
+   "perlu": 3,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 3,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "darurat",
+     4
+    ],
+    [
+     "narkoba",
+     2
+    ],
+    [
+     "jalanan",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda yang membawahi Papua Tengah",
    "provinsi": [
     "96"
@@ -748,35 +777,6 @@
     [
      "jalanan",
      6
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "provinsi": [
-    "19"
-   ],
-   "kasus": 8,
-   "perlu": 2,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 3,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "darurat",
-     4
-    ],
-    [
-     "jalanan",
-     2
-    ],
-    [
-     "narkoba",
-     1
     ]
    ]
   },
