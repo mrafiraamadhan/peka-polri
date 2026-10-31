@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-10-31T17:26:27Z",
+ "diperbarui_utc": "2026-10-31T18:17:39Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 83
+   "kasus": 82
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 365
+   "kasus": 366
   }
  },
  "provinsi": {
@@ -85,7 +85,7 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 8,
    "PANTAU": 13,
-   "TERCATAT": 61
+   "TERCATAT": 62
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -292,7 +292,7 @@
   "94": {
    "nama": "Papua",
    "polda": "Polda Papua",
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -311,13 +311,13 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 11,
-   "sudah_ada": 887,
+   "relevan": 7,
+   "sudah_ada": 893,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 4,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 6,
    "luar_negeri": 0,
-   "kasus_baru": 6,
+   "kasus_baru": 2,
    "digabung": 5
   },
   "timbang": {
@@ -332,15 +332,15 @@
    "kasus": 228
   },
   "kabarkan": {
-   "tanggapan_terlihat": 620,
+   "tanggapan_terlihat": 619,
    "kasus": 1421,
-   "tanggapan_sejak_berita_pertama": 550,
+   "tanggapan_sejak_berita_pertama": 549,
    "median_jeda_jam": 6.2,
    "n_jeda": 70,
-   "melewati_batas": 90
+   "melewati_batas": 91
   },
   "arsipkan": {
-   "baris": 1563,
+   "baris": 1565,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 5
