@@ -24,3 +24,9 @@ Ukuran yang dilaporkan (dengan selang kepercayaan Wilson 95%):
 - **keluhan tentang polisi yang masuk jalur khusus** = kasus dengan L_jenis keluhan_polisi atau keluhan_perkara
   yang berstatus Jalur khusus, dibagi semua kasus dengan L_jenis itu;
 - **tanggapan terlewat** = L_tanggapan = terlewat dibagi kasus relevan.
+
+Catatan aturan versi 2026-10-31 (uji kedua): perilaku anggota yang sudah diperiksa Propam atau diproses penyidik berstatus
+Tercatat dengan jenis `anggota_ditangani` (dipantau kabar baliknya oleh Itwasda, rekap bulanan Kompolnas); status itu
+dinilai **tepat** bila kasusnya memang sudah ditangani. Ukuran **keluhan tentang polisi yang keluar dari lingkungan yang
+dikeluhkan** = kasus dengan L_jenis keluhan_polisi atau keluhan_perkara yang berstatus Jalur khusus atau berjenis
+`anggota_ditangani`, dibagi semua kasus dengan L_jenis itu.
