@@ -1,0 +1,194 @@
+{
+ "relevansi": {
+  "pembilang": 103,
+  "penyebut": 149,
+  "nilai": 0.6913,
+  "wilson95": [
+   0.6131,
+   0.7599
+  ]
+ },
+ "relevan | JALUR KHUSUS": {
+  "pembilang": 10,
+  "penyebut": 12,
+  "nilai": 0.8333,
+  "wilson95": [
+   0.552,
+   0.953
+  ]
+ },
+ "relevan | TINDAK": {
+  "pembilang": 18,
+  "penyebut": 18,
+  "nilai": 1.0,
+  "wilson95": [
+   0.8241,
+   1
+  ]
+ },
+ "relevan | PANTAU": {
+  "pembilang": 33,
+  "penyebut": 53,
+  "nilai": 0.6226,
+  "wilson95": [
+   0.4881,
+   0.7406
+  ]
+ },
+ "relevan | TERCATAT": {
+  "pembilang": 41,
+  "penyebut": 65,
+  "nilai": 0.6308,
+  "wilson95": [
+   0.5092,
+   0.7377
+  ]
+ },
+ "presisi daftar tindak lanjut": {
+  "pembilang": 38,
+  "penyebut": 84,
+  "nilai": 0.4524,
+  "wilson95": [
+   0.3504,
+   0.5586
+  ]
+ },
+ "  presisi | JALUR KHUSUS": {
+  "pembilang": 9,
+  "penyebut": 12,
+  "nilai": 0.75,
+  "wilson95": [
+   0.4677,
+   0.9111
+  ]
+ },
+ "  presisi | TINDAK": {
+  "pembilang": 15,
+  "penyebut": 18,
+  "nilai": 0.8333,
+  "wilson95": [
+   0.6078,
+   0.9416
+  ]
+ },
+ "  presisi | PANTAU": {
+  "pembilang": 14,
+  "penyebut": 53,
+  "nilai": 0.2642,
+  "wilson95": [
+   0.1644,
+   0.3958
+  ]
+ },
+ "status tepat (semua)": {
+  "pembilang": 101,
+  "penyebut": 149,
+  "nilai": 0.6779,
+  "wilson95": [
+   0.5992,
+   0.7476
+  ]
+ },
+ "rute tepat (relevan, lokasi terisi)": {
+  "pembilang": 49,
+  "penyebut": 89,
+  "nilai": 0.5506,
+  "wilson95": [
+   0.4473,
+   0.6497
+  ]
+ },
+ "lokasi benar (relevan, judul sebut tempat)": {
+  "pembilang": 63,
+  "penyebut": 86,
+  "nilai": 0.7326,
+  "wilson95": [
+   0.6305,
+   0.8147
+  ]
+ },
+ "salah tutup (relevan)": {
+  "pembilang": 0,
+  "penyebut": 103,
+  "nilai": 0.0,
+  "wilson95": [
+   0,
+   0.036
+  ]
+ },
+ "tanggapan terlewat (relevan)": {
+  "pembilang": 16,
+  "penyebut": 103,
+  "nilai": 0.1553,
+  "wilson95": [
+   0.0979,
+   0.2375
+  ]
+ },
+ "kappa_L_relevan": [
+  0.96,
+  0.9110320284697508,
+  50
+ ],
+ "kappa_L_jenis": [
+  0.92,
+  0.8953427524856097,
+  50
+ ],
+ "lok_sepakat": 0.98,
+ "presisi berbiaya tinggi (JK+Tindak)": {
+  "pembilang": 24,
+  "penyebut": 31,
+  "nilai": 0.7742,
+  "wilson95": [
+   0.6019,
+   0.8861
+  ]
+ },
+ "rute tepat bila status tepat": {
+  "pembilang": 49,
+  "penyebut": 65,
+  "nilai": 0.7538,
+  "wilson95": [
+   0.6369,
+   0.8424
+  ]
+ },
+ "keluhan polisi/perkara masuk jalur khusus": {
+  "pembilang": 10,
+  "penyebut": 23,
+  "nilai": 0.4348,
+  "wilson95": [
+   0.2563,
+   0.6319
+  ]
+ },
+ "keluhan polisi ditangani di luar satuan (JK atau dipantau)": {
+  "pembilang": 15,
+  "penyebut": 23,
+  "nilai": 0.6522,
+  "wilson95": [
+   0.4489,
+   0.8119
+  ]
+ },
+ "presisi JK+Tindak": {
+  "pembilang": 24,
+  "penyebut": 30,
+  "nilai": 0.8,
+  "wilson95": [
+   0.6269,
+   0.905
+  ]
+ },
+ "anggota sudah ditangani tepat": {
+  "pembilang": 5,
+  "penyebut": 5,
+  "nilai": 1.0,
+  "wilson95": [
+   0.5655,
+   1
+  ]
+ },
+ "_catatan": "Uji kedua: aturan versi 2026-10-31, hanya kasus yang berita pertamanya terbit sesudah 2026-10-30T04:15:02Z. Definisi ukuran mengikuti uji/buku_kode.md; status dinilai ketat. Kesepakatan dihitung antara dua putaran pelabelan dengan model bahasa yang sama, hanya untuk label tahap 1."
+}
