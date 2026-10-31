@@ -142,14 +142,17 @@ RE_POLDA_LV = regex_kata(TOPIK.get("tingkat_polda", ["-"]))       # unit tingkat
 RE_POLRES_LV = regex_kata(TOPIK.get("tingkat_polres", ["-"]))     # unit tingkat Polres/Polsek disebut
 RE_POLSEK_LV = regex_kata(TOPIK.get("tingkat_polsek", ["-"]))
 RE_POLRES_SAJA = regex_kata(TOPIK.get("tingkat_polres_saja", ["-"]))
-RE_DESAK = regex_kata(TOPIK.get("desak", ["-"]))                  # tuntutan warga, bukan tanggapan polisi
+RE_DESAK = regex_kata(TOPIK.get("desak", ["-"]))
+RE_SUDAH = regex_kata(TOPIK.get("anggota_sudah_ditangani", ["-"]))  # perilaku anggota yang sudah diproses Propam/penyidik
+# tujuan aduan ("lapor ke Propam Polda X") bukan tingkat satuan yang dikeluhkan
+RE_TUJUAN_ADUAN = re.compile(r"(?:lapor|melapor|melaporkan|laporkan|mengadu|adukan|diadukan|dilaporkan)\s+(?:\S+\s+){0,3}?ke\s+(?:propam|paminal|bidpropam|divpropam)?\s*(?:mabes\s+)?(?:polri|polda(?:\s+\S+)?)", re.I)                  # tuntutan warga, bukan tanggapan polisi
 RE_TOLAK = regex_kata(TOPIK.get("penolakan_laporan", ["-"]))
 RE_KEKERASAN = regex_kata(TOPIK.get("kekerasan_aparat", ["-"]))
 RE_TEGAS = regex_kata(TOPIK.get("tindakan_tegas", ["-"]))
 RE_TEGAS_KONTEKS = regex_kata(TOPIK.get("tindakan_tegas_konteks", ["-"]))
 RE_TEGAS_RAGU = regex_kata(TOPIK.get("tindakan_tegas_ragu", ["-"]))
 RE_BUKAN_SIDANG = regex_kata(TOPIK.get("bukan_keluhan_kecuali_anggota", ["-"]))
-VERSI_ATURAN = "2026-10-30"
+VERSI_ATURAN = "2026-10-31"
 
 
 def bukan_keluhan(judul, tid):
@@ -250,7 +253,8 @@ def bangun_kecamatan():
             "harapan", "mekar", "sentosa", "indah", "permai", "lubuk", "kuala", "lembah", "bukit", "padang", "talang",
             "kelapa", "pinang", "durian", "melati", "mawar", "cempaka", "garuda", "rajawali", "pelabuhan", "terminal",
             "jalan", "rumah", "sekolah", "lapangan", "kantor", "perumahan", "pangkalan", "benteng", "kubu", "tapal",
-            "batas", "hilir", "hulu", "ilir", "dalam", "luar", "lintas", "raya", "jaya", "agung", "mulia", "sakti"}
+            "batas", "hilir", "hulu", "ilir", "dalam", "luar", "lintas", "raya", "jaya", "agung", "mulia", "sakti",
+            "panjang", "maron"}
     peta = {}
     for nama, kode in per.items():
         n = nama.lower()
@@ -273,6 +277,8 @@ TOK_TEMPAT = {w.lower() for w in ALIAS_KAB} | {w.lower() for p in WIL["provinsi"
 
 
 RE_TUJUAN = re.compile(r"(?:dipulangkan|dibawa|diterbangkan|dikirim|dimakamkan|dirujuk|diberangkatkan|pulang)\s+(?:ke|di)\s+$", re.I)
+RE_TUJUAN2 = re.compile(r"(?:diamankan|dibawa|dipindahkan|digelandang|diterbangkan)(?:\s+\S+){0,4}\s+ke\s+$", re.I)
+RE_POLDA_DEPAN = re.compile(r"(?:polda|kapolda|wakapolda)\s+$", re.I)  # "Polda Jambi" = provinsi, bukan Kota Jambi
 RE_JALAN = re.compile(r"(?:jalan(?:\s+raya|\s+lintas)?|jl\.?(?:\s+raya)?|jln\.?|gang|gg\.?|simpang|tol|bandara|stasiun|terminal|pasar|rs|rsud|universitas|univ\.?)\s+$", re.I)
 
 
@@ -286,6 +292,10 @@ def lokasi(teks):
             if RE_JALAN.search(teks[max(0, m.start(1) - 14):m.start(1)]):
                 continue
             if RE_TUJUAN.search(teks[max(0, m.start(1) - 20):m.start(1)]):
+                continue
+            if RE_TUJUAN2.search(teks[max(0, m.start(1) - 60):m.start(1)]):
+                continue
+            if "kab" in target and RE_POLDA_DEPAN.search(teks[max(0, m.start(1) - 12):m.start(1)]):
                 continue
             temu.append((m.start(1), -prio, -(m.end(1) - m.start(1)), target))
     if RE_KEC is not None:
@@ -643,21 +653,23 @@ def penanggung_jawab(status, lok, berat=False, topik=None, jenis=None, tingkat="
     if status == "JALUR KHUSUS":
         if jenis == "perkara":
             if atas:
-                return "Biro Wassidik Bareskrim dan Itwasum Polri; tembusan Kompolnas" + ket
-            return f"Bagwassidik {DIT_RESERSE.get(topik, 'Ditreskrimum')} {polda} dan Itwasda {polda}; tembusan Kompolnas"
+                return "Biro Wassidik Bareskrim dan Itwasum Polri; rekap bulanan Kompolnas" + ket
+            return f"Bagwassidik {DIT_RESERSE.get(topik, 'Ditreskrimum')} {polda} dan Itwasda {polda}; rekap bulanan Kompolnas"
         if jenis == "penolakan":
             if atas:
-                return "Itwasum Polri; Divpropam bila ada unsur perilaku; tembusan Kompolnas" + ket
-            return f"Itwasda {polda}; Bidpropam {polda} bila ada unsur perilaku; tembusan Kompolnas"
+                return "Itwasum Polri; Divpropam bila ada unsur perilaku; rekap bulanan Kompolnas" + ket
+            return f"Itwasda {polda}; Bidpropam {polda} bila ada unsur perilaku; rekap bulanan Kompolnas"
         if jenis == "kekerasan":
             if atas:
-                return "Divpropam Polri dan Bareskrim (aspek pidana); tembusan Kompolnas" + KOMNAS_HAM + ket
-            return f"Bidpropam {polda} dan Ditreskrimum {polda} (aspek pidana); tembusan Kompolnas" + KOMNAS_HAM
+                return "Divpropam Polri dan Bareskrim (aspek pidana); tembusan per kasus Kompolnas" + KOMNAS_HAM + ket
+            return f"Bidpropam {polda} dan Ditreskrimum {polda} (aspek pidana); tembusan per kasus Kompolnas" + KOMNAS_HAM
         if atas:
-            return "Divpropam Polri; tembusan Kompolnas" + ket
+            return "Divpropam Polri; tembusan per kasus Kompolnas" + ket
         if tingkat == "polsek" and polres:
             return f"Seksi Propam {polres}; tembusan Bidpropam {polda}"
-        return f"Bidpropam {polda}; tembusan Kompolnas"
+        return f"Bidpropam {polda}; rekap bulanan Kompolnas"
+    if jenis == "anggota_ditangani":
+        return (f"Itwasda {polda} memantau kabar balik" if polda else "Itwasum Polri memantau kabar balik") + "; rekap bulanan Kompolnas"
     if not lok:
         return "Belum dapat diteruskan: lokasi belum jelas (dipetakan manual oleh piket Polres terdekat)"
     if topik == "darurat" and status in ("DARURAT", "TINDAK", "PANTAU"):
@@ -746,9 +758,10 @@ def timbang(k, lonjakan, gempa_darurat):
     tegas = RE_TEGAS.search(judul)
     if not (tegas and RE_TEGAS_KONTEKS.search(judul)) or RE_TEGAS_RAGU.search(judul) or keras:
         tegas = None
-    if RE_POLDA_LV.search(judul) and not RE_POLRES_LV.search(judul):
+    judul_tk = RE_TUJUAN_ADUAN.sub(" ", judul)
+    if RE_POLDA_LV.search(judul_tk) and not RE_POLRES_LV.search(judul_tk):
         tingkat = "polda"
-    elif RE_POLSEK_LV.search(judul) and not RE_POLRES_SAJA.search(judul):
+    elif RE_POLSEK_LV.search(judul_tk) and not RE_POLRES_SAJA.search(judul_tk):
         tingkat = "polsek"
     else:
         tingkat = "polres"
@@ -766,6 +779,12 @@ def timbang(k, lonjakan, gempa_darurat):
         status, jenis = "JALUR KHUSUS", "perkara"
         alasan.append(f"keluhan atas penanganan perkara: “{perkara.group(1)}” → pengawas penyidikan (Wassidik) "
                       "dan inspektorat, tidak dikirim ke penyidik yang dikeluhkan")
+    elif t.get("jalur_khusus") and not keras and RE_SUDAH.search(judul):
+        # sejak versi 2026-10-31: anggota yang sudah diperiksa Propam atau diproses penyidik tidak diteruskan ulang;
+        # kasus dipantau kabar baliknya oleh Itwasda dan masuk rekap bulanan Kompolnas
+        status, jenis = "TERCATAT", "anggota_ditangani"
+        alasan.append(f"perilaku anggota yang sudah ditangani: “{RE_SUDAH.search(judul).group(1)}” → dipantau kabar "
+                      "baliknya, masuk rekap bulanan Kompolnas")
     elif t.get("jalur_khusus"):
         status, jenis = "JALUR KHUSUS", ("kekerasan" if keras else "anggota")
         alasan.append(("kekerasan oleh aparat: “" + keras.group(1) + "” → Propam dan reserse satu tingkat di atasnya"
@@ -811,6 +830,7 @@ def timbang(k, lonjakan, gempa_darurat):
     if status == "JALUR KHUSUS" and jenis == "kekerasan":
         batas_teks, batas_jam = "Tanda terima ≤24 jam; SP3D ≤20 hari kerja", 24
     lewat = bool(batas_jam and not tanggap and umur_jam > batas_jam)
+    rahasia = status == "JALUR KHUSUS" or bool(t.get("jalur_khusus"))   # nama anggota disingkat bila belum ada putusan
     return {
         "id": k["id"], "topik": k["topik"], "topik_nama": t["nama"], "status": status, "status_awal": status_awal,
         "alasan": alasan,
@@ -821,11 +841,11 @@ def timbang(k, lonjakan, gempa_darurat):
         "batas_awal": batas_teks if status_awal == status else BATAS[status_awal][0],
         "pertama": k["pertama"], "terakhir": k["terakhir"], "umur_jam": round(umur_jam, 1),
         "n_media": len(media), "n_artikel": len(k["artikel"]), "media": media[:8],
-        "judul": samar(urut[0]["judul"]) if status == "JALUR KHUSUS" else urut[0]["judul"],
-        "artikel": [{"judul": samar(a["judul"]) if status == "JALUR KHUSUS" else a["judul"],
+        "judul": samar(urut[0]["judul"]) if rahasia else urut[0]["judul"],
+        "artikel": [{"judul": samar(a["judul"]) if rahasia else a["judul"],
                      "media": a["media"], "url": a["url"], "terbit": a["terbit"]}
                     for a in sorted(k["artikel"], key=lambda a: a["terbit"], reverse=True)[:6]],
-        "tanggapan": ({**tanggap, "judul": samar(tanggap["judul"])} if tanggap and status == "JALUR KHUSUS" else tanggap),
+        "tanggapan": ({**tanggap, "judul": samar(tanggap["judul"])} if tanggap and rahasia else tanggap),
         "jeda_tanggapan_jam": jeda, "melewati_batas": lewat,
     }
 
@@ -1117,6 +1137,7 @@ def main():
         "diperbarui_utc": iso(NOW),
         "versi_aturan": VERSI_ATURAN,
         "jalur_khusus_jenis": dict(Counter(h["jenis_khusus"] for h in hasil if h["status"] == "JALUR KHUSUS")),
+        "anggota_sudah_ditangani": sum(1 for h in hasil if h.get("jenis_khusus") == "anggota_ditangani"),
         "jendela_jam": 72,
         "status": {s: st.get(s, 0) for s in STATUS_URUT},
         "kasus_aktif": len(hasil),
