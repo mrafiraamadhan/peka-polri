@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-01T16:43:39Z",
+ "diperbarui_utc": "2026-11-01T17:35:17Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-01T16:44:10Z",
+   "dicek_utc": "2026-11-01T17:35:48Z",
    "ok": true,
    "n": 906,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-01T16:44:11Z",
+   "dicek_utc": "2026-11-01T17:35:50Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-01T16:44:12Z",
+   "dicek_utc": "2026-11-01T17:35:51Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-01T16:44:48Z",
+   "dicek_utc": "2026-11-01T17:36:30Z",
    "ok": true,
    "n": 9,
-   "pesan": "1 dari 9 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "1 dari 8 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "16:43:40 PEKA mulai 2026-11-01T16:43:39Z ",
-  "16:44:10 dengar berita: 906 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "16:44:48 dengar GDELT: 1/9 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "16:44:48 pilah: {'masuk': 906, 'sudah_ada': 875, 'tidak_relevan': 3, 'bukan_kejadian': 5, 'gabung': 14, 'kasus_baru': 9, 'relevan': 23}",
-  "16:44:49 papan Polda: 37 Polda berkasus | titik rawan: 0"
+  "17:35:18 PEKA mulai 2026-11-01T17:35:17Z ",
+  "17:35:48 dengar berita: 906 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "17:36:30 dengar GDELT: 1/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "17:36:30 pilah: {'masuk': 906, 'sudah_ada': 879, 'tidak_relevan': 5, 'bukan_kejadian': 8, 'luar_negeri': 1, 'gabung': 6, 'kasus_baru': 7, 'relevan': 13}",
+  "17:36:31 papan Polda: 37 Polda berkasus | titik rawan: 0"
  ]
 }
