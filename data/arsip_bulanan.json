@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-01T07:40:55Z",
+ "diperbarui_utc": "2026-11-01T08:32:18Z",
  "bulan": [
   {
    "bulan": "2026-10",
@@ -16,9 +16,9 @@
     "layanan": 4
    },
    "status": {
-    "TERCATAT": 1250,
+    "TERCATAT": 1251,
     "JALUR KHUSUS": 48,
-    "TINDAK": 60,
+    "TINDAK": 59,
     "PANTAU": 141
    },
    "provinsi_teratas": [
@@ -40,7 +40,7 @@
     ],
     [
      "Aceh",
-     46
+     47
     ],
     [
      "Riau",
@@ -63,45 +63,45 @@
      28
     ]
    ],
-   "tanggapan_terlihat": 659,
-   "median_jeda_jam": 7.5,
-   "n_jeda": 76
+   "tanggapan_terlihat": 661,
+   "median_jeda_jam": 8.0,
+   "n_jeda": 78
   },
   {
    "bulan": "2026-11",
-   "kasus": 155,
+   "kasus": 169,
    "topik": {
-    "jalanan": 30,
-    "perempuan_anak": 5,
-    "narkoba": 39,
-    "darurat": 46,
-    "konflik": 8,
-    "penipuan": 11,
+    "jalanan": 32,
+    "perempuan_anak": 6,
+    "narkoba": 44,
+    "darurat": 50,
+    "konflik": 9,
+    "penipuan": 12,
     "anggota": 1,
     "lalulintas": 15
    },
    "status": {
-    "TERCATAT": 133,
-    "PANTAU": 17,
+    "TERCATAT": 144,
+    "PANTAU": 20,
     "JALUR KHUSUS": 2,
     "TINDAK": 3
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     10
+     11
     ],
     [
      "Lampung",
      8
     ],
     [
-     "Sumatera Utara",
-     7
+     "DKI Jakarta",
+     8
     ],
     [
-     "DKI Jakarta",
-     6
+     "Sumatera Utara",
+     7
     ],
     [
      "Sulawesi Tengah",
@@ -112,25 +112,25 @@
      4
     ],
     [
+     "Aceh",
+     4
+    ],
+    [
      "Jawa Barat",
      3
     ],
     [
-     "Aceh",
+     "Kalimantan Timur",
      3
     ],
     [
      "Kepulauan Riau",
      2
-    ],
-    [
-     "Kalimantan Timur",
-     2
     ]
    ],
-   "tanggapan_terlihat": 64,
-   "median_jeda_jam": 0.3,
-   "n_jeda": 1
+   "tanggapan_terlihat": 69,
+   "median_jeda_jam": 1.1,
+   "n_jeda": 2
   }
  ]
 }
