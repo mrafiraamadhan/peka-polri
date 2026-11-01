@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-01T02:46:55Z",
+ "diperbarui_utc": "2026-11-01T03:39:14Z",
  "jendela_hari": 30,
  "hari_riwayat": 5,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 630,
+ "kasus_tanpa_polda": 637,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 134,
-   "perlu": 56,
+   "kasus": 135,
+   "perlu": 57,
    "perlu_tanggap": 13,
-   "persen_tanggap": 23.2,
+   "persen_tanggap": 22.8,
    "tanggap": 65,
    "jalur_khusus": 4,
    "melewati_batas": 19,
@@ -45,7 +45,7 @@
    "persen_tanggap": 14.8,
    "tanggap": 35,
    "jalur_khusus": 3,
-   "melewati_batas": 9,
+   "melewati_batas": 10,
    "median_jeda_jam": 6.6,
    "n_jeda": 4,
    "topik_teratas": [
@@ -74,7 +74,7 @@
    "persen_tanggap": 22.7,
    "tanggap": 28,
    "jalur_khusus": 4,
-   "melewati_batas": 4,
+   "melewati_batas": 5,
    "median_jeda_jam": 10.0,
    "n_jeda": 5,
    "topik_teratas": [
@@ -184,11 +184,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 78,
+   "kasus": 79,
    "perlu": 13,
    "perlu_tanggap": 1,
    "persen_tanggap": 7.7,
-   "tanggap": 49,
+   "tanggap": 50,
    "jalur_khusus": 0,
    "melewati_batas": 7,
    "median_jeda_jam": 1.0,
@@ -204,7 +204,7 @@
     ],
     [
      "jalanan",
-     15
+     16
     ]
    ]
   },
@@ -213,11 +213,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 56,
+   "kasus": 57,
    "perlu": 12,
    "perlu_tanggap": 4,
    "persen_tanggap": 33.3,
-   "tanggap": 36,
+   "tanggap": 37,
    "jalur_khusus": 1,
    "melewati_batas": 2,
    "median_jeda_jam": 3.3,
@@ -232,8 +232,8 @@
      13
     ],
     [
-     "konflik",
-     8
+     "narkoba",
+     9
     ]
    ]
   },
@@ -296,15 +296,44 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Selatan",
+   "provinsi": [
+    "63"
+   ],
+   "kasus": 17,
+   "perlu": 7,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 28.6,
+   "tanggap": 7,
+   "jalur_khusus": 1,
+   "melewati_batas": 1,
+   "median_jeda_jam": 28.1,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "jalanan",
+     5
+    ],
+    [
+     "darurat",
+     4
+    ],
+    [
+     "anggota",
+     3
+    ]
+   ]
+  },
+  {
    "polda": "Polda Aceh",
    "provinsi": [
     "11"
    ],
-   "kasus": 46,
+   "kasus": 47,
    "perlu": 6,
    "perlu_tanggap": 1,
    "persen_tanggap": 16.7,
-   "tanggap": 27,
+   "tanggap": 28,
    "jalur_khusus": 0,
    "melewati_batas": 3,
    "median_jeda_jam": 1.9,
@@ -393,7 +422,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 10,
    "jalur_khusus": 0,
-   "melewati_batas": 3,
+   "melewati_batas": 4,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [
@@ -408,35 +437,6 @@
     [
      "konflik",
      1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kalimantan Selatan",
-   "provinsi": [
-    "63"
-   ],
-   "kasus": 16,
-   "perlu": 6,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 33.3,
-   "tanggap": 7,
-   "jalur_khusus": 1,
-   "melewati_batas": 1,
-   "median_jeda_jam": 28.1,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "jalanan",
-     4
-    ],
-    [
-     "darurat",
-     4
-    ],
-    [
-     "anggota",
-     3
     ]
    ]
   },
@@ -528,6 +528,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Barat",
+   "provinsi": [
+    "76"
+   ],
+   "kasus": 9,
+   "perlu": 4,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 5,
+   "jalur_khusus": 0,
+   "melewati_batas": 2,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     5
+    ],
+    [
+     "perempuan_anak",
+     3
+    ],
+    [
+     "konflik",
+     1
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sulawesi Tenggara",
    "provinsi": [
     "74"
@@ -552,35 +581,6 @@
     ],
     [
      "anggota",
-     1
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Barat",
-   "provinsi": [
-    "76"
-   ],
-   "kasus": 8,
-   "perlu": 4,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 4,
-   "jalur_khusus": 0,
-   "melewati_batas": 1,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     5
-    ],
-    [
-     "perempuan_anak",
-     2
-    ],
-    [
-     "konflik",
      1
     ]
    ]
