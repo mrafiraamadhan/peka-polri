@@ -1,11 +1,11 @@
 {
- "diperbarui_utc": "2026-11-01T05:21:43Z",
+ "diperbarui_utc": "2026-11-01T05:58:32Z",
  "bulan": [
   {
    "bulan": "2026-10",
-   "kasus": 1497,
+   "kasus": 1498,
    "topik": {
-    "lalulintas": 102,
+    "lalulintas": 103,
     "anggota": 64,
     "perempuan_anak": 98,
     "jalanan": 361,
@@ -16,7 +16,7 @@
     "layanan": 4
    },
    "status": {
-    "TERCATAT": 1249,
+    "TERCATAT": 1250,
     "JALUR KHUSUS": 48,
     "TINDAK": 60,
     "PANTAU": 140
@@ -56,39 +56,44 @@
     ],
     [
      "DI Yogyakarta",
-     29
+     30
     ],
     [
      "Lampung",
      28
     ]
    ],
-   "tanggapan_terlihat": 657,
+   "tanggapan_terlihat": 658,
    "median_jeda_jam": 7.4,
    "n_jeda": 75
   },
   {
    "bulan": "2026-11",
-   "kasus": 97,
+   "kasus": 116,
    "topik": {
-    "jalanan": 19,
-    "perempuan_anak": 3,
-    "narkoba": 25,
-    "darurat": 26,
+    "jalanan": 22,
+    "perempuan_anak": 4,
+    "narkoba": 28,
+    "darurat": 30,
     "konflik": 7,
-    "penipuan": 8,
-    "lalulintas": 9
+    "penipuan": 11,
+    "lalulintas": 13,
+    "anggota": 1
    },
    "status": {
-    "TERCATAT": 87,
-    "PANTAU": 8,
-    "JALUR KHUSUS": 1,
-    "TINDAK": 1
+    "TERCATAT": 99,
+    "PANTAU": 13,
+    "TINDAK": 2,
+    "JALUR KHUSUS": 2
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     6
+     9
+    ],
+    [
+     "Lampung",
+     7
     ],
     [
      "Sumatera Utara",
@@ -99,19 +104,19 @@
      5
     ],
     [
-     "Lampung",
-     5
-    ],
-    [
      "Sulawesi Tengah",
      4
     ],
     [
-     "Kalimantan Timur",
+     "Riau",
+     3
+    ],
+    [
+     "Kepulauan Riau",
      2
     ],
     [
-     "Riau",
+     "Kalimantan Timur",
      2
     ],
     [
@@ -119,15 +124,11 @@
      2
     ],
     [
-     "Jambi",
-     1
-    ],
-    [
-     "Kepulauan Riau",
-     1
+     "DI Yogyakarta",
+     2
     ]
    ],
-   "tanggapan_terlihat": 44,
+   "tanggapan_terlihat": 50,
    "median_jeda_jam": null,
    "n_jeda": 0
   }
