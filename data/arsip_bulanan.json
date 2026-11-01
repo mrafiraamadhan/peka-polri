@@ -1,11 +1,11 @@
 {
- "diperbarui_utc": "2026-11-01T05:58:32Z",
+ "diperbarui_utc": "2026-11-01T06:49:41Z",
  "bulan": [
   {
    "bulan": "2026-10",
-   "kasus": 1498,
+   "kasus": 1499,
    "topik": {
-    "lalulintas": 103,
+    "lalulintas": 104,
     "anggota": 64,
     "perempuan_anak": 98,
     "jalanan": 361,
@@ -19,12 +19,12 @@
     "TERCATAT": 1250,
     "JALUR KHUSUS": 48,
     "TINDAK": 60,
-    "PANTAU": 140
+    "PANTAU": 141
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     132
+     133
     ],
     [
      "Jawa Barat",
@@ -32,7 +32,7 @@
     ],
     [
      "Sumatera Utara",
-     74
+     75
     ],
     [
      "Jawa Tengah",
@@ -63,33 +63,33 @@
      28
     ]
    ],
-   "tanggapan_terlihat": 658,
-   "median_jeda_jam": 7.4,
-   "n_jeda": 75
+   "tanggapan_terlihat": 659,
+   "median_jeda_jam": 7.5,
+   "n_jeda": 76
   },
   {
    "bulan": "2026-11",
-   "kasus": 116,
+   "kasus": 139,
    "topik": {
-    "jalanan": 22,
+    "jalanan": 28,
     "perempuan_anak": 4,
-    "narkoba": 28,
-    "darurat": 30,
-    "konflik": 7,
+    "narkoba": 34,
+    "darurat": 39,
+    "konflik": 8,
     "penipuan": 11,
-    "lalulintas": 13,
-    "anggota": 1
+    "anggota": 1,
+    "lalulintas": 14
    },
    "status": {
-    "TERCATAT": 99,
-    "PANTAU": 13,
-    "TINDAK": 2,
-    "JALUR KHUSUS": 2
+    "TERCATAT": 120,
+    "PANTAU": 14,
+    "JALUR KHUSUS": 2,
+    "TINDAK": 3
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     9
+     10
     ],
     [
      "Lampung",
@@ -97,15 +97,19 @@
     ],
     [
      "Sumatera Utara",
-     5
+     6
     ],
     [
      "DKI Jakarta",
-     5
+     6
     ],
     [
      "Sulawesi Tengah",
      4
+    ],
+    [
+     "Jawa Barat",
+     3
     ],
     [
      "Riau",
@@ -120,15 +124,11 @@
      2
     ],
     [
-     "Sulawesi Barat",
-     2
-    ],
-    [
-     "DI Yogyakarta",
+     "Kalimantan Selatan",
      2
     ]
    ],
-   "tanggapan_terlihat": 50,
+   "tanggapan_terlihat": 58,
    "median_jeda_jam": null,
    "n_jeda": 0
   }

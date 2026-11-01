@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-01T05:58:32Z",
+ "diperbarui_utc": "2026-11-01T06:49:41Z",
  "terbaru": {
-  "waktu_utc": "2026-10-31T20:48:49Z",
-  "magnitudo": 2.8,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di darat 14 km Timur Laut Kendari",
+  "waktu_utc": "2026-11-01T05:38:59Z",
+  "magnitudo": 4.1,
+  "kedalaman": "6 km",
+  "wilayah": "Pusat gempa berada di darat 24 km Barat Daya Kab. Pidie Jaya-Aceh",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Kota Kendari",
-  "koordinat": "-3.92,122.63",
-  "prov": "Sulawesi Tenggara",
-  "kode_prov": "74"
+  "dirasakan": "",
+  "koordinat": "4.79,96.20",
+  "prov": "Aceh",
+  "kode_prov": "11"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-01T05:38:59Z",
+   "magnitudo": 4.1,
+   "kedalaman": "6 km",
+   "wilayah": "Pusat gempa berada di darat 24 km Barat Daya Kab. Pidie Jaya-Aceh",
+   "potensi": null,
+   "dirasakan": "",
+   "koordinat": "4.79,96.20",
+   "prov": "Aceh",
+   "kode_prov": "11"
+  },
   {
    "waktu_utc": "2026-10-31T20:48:49Z",
    "magnitudo": 2.8,
@@ -165,17 +176,6 @@
    "koordinat": "4.24,97.65",
    "prov": "Aceh",
    "kode_prov": "11"
-  },
-  {
-   "waktu_utc": "2026-10-22T10:57:49Z",
-   "magnitudo": 5.2,
-   "kedalaman": "120 km",
-   "wilayah": "Pusat gempa berada di darat 6 km BaratLaut Lebong",
-   "potensi": null,
-   "dirasakan": "III Kota Bengkulu, II - III Curup, III Arga Makmur",
-   "koordinat": "-3.11,102.14",
-   "prov": "Bengkulu",
-   "kode_prov": "17"
   }
  ],
  "m5": [
