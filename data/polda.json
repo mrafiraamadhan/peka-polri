@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-01T21:28:21Z",
+ "diperbarui_utc": "2026-11-01T22:19:51Z",
  "jendela_hari": 30,
  "hari_riwayat": 6,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -10,11 +10,11 @@
    "provinsi": [
     "35"
    ],
-   "kasus": 155,
+   "kasus": 156,
    "perlu": 69,
    "perlu_tanggap": 14,
    "persen_tanggap": 20.3,
-   "tanggap": 72,
+   "tanggap": 73,
    "jalur_khusus": 6,
    "melewati_batas": 26,
    "median_jeda_jam": 9.4,
@@ -39,7 +39,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 88,
+   "kasus": 90,
    "perlu": 30,
    "perlu_tanggap": 4,
    "persen_tanggap": 13.3,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "darurat",
-     27
+     29
     ],
     [
      "jalanan",
@@ -68,7 +68,7 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 69,
+   "kasus": 70,
    "perlu": 25,
    "perlu_tanggap": 6,
    "persen_tanggap": 24.0,
@@ -80,7 +80,7 @@
    "topik_teratas": [
     [
      "darurat",
-     24
+     25
     ],
     [
      "jalanan",
@@ -219,7 +219,7 @@
    "persen_tanggap": 40.0,
    "tanggap": 47,
    "jalur_khusus": 1,
-   "melewati_batas": 4,
+   "melewati_batas": 5,
    "median_jeda_jam": 3.3,
    "n_jeda": 6,
    "topik_teratas": [
@@ -393,7 +393,7 @@
    "persen_tanggap": 28.6,
    "tanggap": 25,
    "jalur_khusus": 2,
-   "melewati_batas": 2,
+   "melewati_batas": 3,
    "median_jeda_jam": 10.7,
    "n_jeda": 2,
    "topik_teratas": [
@@ -474,11 +474,11 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 14,
+   "kasus": 16,
    "perlu": 6,
    "perlu_tanggap": 1,
    "persen_tanggap": 16.7,
-   "tanggap": 9,
+   "tanggap": 11,
    "jalur_khusus": 3,
    "melewati_batas": 3,
    "median_jeda_jam": 18.2,
@@ -486,14 +486,14 @@
    "topik_teratas": [
     [
      "jalanan",
-     7
-    ],
-    [
-     "penipuan",
-     3
+     8
     ],
     [
      "anggota",
+     4
+    ],
+    [
+     "penipuan",
      3
     ]
    ]
