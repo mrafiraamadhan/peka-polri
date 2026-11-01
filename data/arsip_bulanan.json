@@ -1,13 +1,13 @@
 {
- "diperbarui_utc": "2026-11-01T15:52:26Z",
+ "diperbarui_utc": "2026-11-01T16:43:39Z",
  "bulan": [
   {
    "bulan": "2026-10",
-   "kasus": 1504,
+   "kasus": 1505,
    "topik": {
     "lalulintas": 105,
     "anggota": 64,
-    "perempuan_anak": 100,
+    "perempuan_anak": 101,
     "jalanan": 363,
     "penipuan": 148,
     "narkoba": 253,
@@ -16,7 +16,7 @@
     "layanan": 4
    },
    "status": {
-    "TERCATAT": 1253,
+    "TERCATAT": 1254,
     "JALUR KHUSUS": 48,
     "TINDAK": 62,
     "PANTAU": 141
@@ -63,27 +63,27 @@
      28
     ]
    ],
-   "tanggapan_terlihat": 663,
+   "tanggapan_terlihat": 664,
    "median_jeda_jam": 8.3,
-   "n_jeda": 79
+   "n_jeda": 80
   },
   {
    "bulan": "2026-11",
-   "kasus": 294,
+   "kasus": 302,
    "topik": {
-    "jalanan": 67,
+    "jalanan": 69,
     "perempuan_anak": 12,
-    "narkoba": 71,
-    "darurat": 75,
+    "narkoba": 72,
+    "darurat": 78,
     "konflik": 20,
-    "penipuan": 22,
+    "penipuan": 23,
     "anggota": 7,
-    "lalulintas": 19,
+    "lalulintas": 20,
     "layanan": 1
    },
    "status": {
-    "TERCATAT": 250,
-    "PANTAU": 30,
+    "TERCATAT": 257,
+    "PANTAU": 31,
     "JALUR KHUSUS": 7,
     "TINDAK": 7
    },
@@ -109,11 +109,15 @@
      8
     ],
     [
+     "Jawa Tengah",
+     7
+    ],
+    [
      "Aceh",
      7
     ],
     [
-     "Jawa Tengah",
+     "Sumatera Barat",
      6
     ],
     [
@@ -121,15 +125,11 @@
      5
     ],
     [
-     "Sumatera Barat",
-     5
-    ],
-    [
      "Riau",
      4
     ]
    ],
-   "tanggapan_terlihat": 123,
+   "tanggapan_terlihat": 125,
    "median_jeda_jam": 0.7,
    "n_jeda": 5
   }
