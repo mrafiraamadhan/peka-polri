@@ -1,14 +1,14 @@
 {
- "diperbarui_utc": "2026-11-01T13:18:32Z",
+ "diperbarui_utc": "2026-11-01T14:09:45Z",
  "bulan": [
   {
    "bulan": "2026-10",
-   "kasus": 1499,
+   "kasus": 1500,
    "topik": {
     "lalulintas": 104,
     "anggota": 64,
     "perempuan_anak": 98,
-    "jalanan": 361,
+    "jalanan": 362,
     "penipuan": 148,
     "narkoba": 253,
     "konflik": 100,
@@ -16,10 +16,10 @@
     "layanan": 4
    },
    "status": {
-    "TERCATAT": 1251,
+    "TERCATAT": 1250,
     "JALUR KHUSUS": 48,
-    "TINDAK": 60,
-    "PANTAU": 140
+    "TINDAK": 61,
+    "PANTAU": 141
    },
    "provinsi_teratas": [
     [
@@ -28,7 +28,7 @@
     ],
     [
      "Jawa Barat",
-     93
+     94
     ],
     [
      "Sumatera Utara",
@@ -59,7 +59,7 @@
      30
     ],
     [
-     "Lampung",
+     "Sulawesi Selatan",
      28
     ]
    ],
@@ -69,67 +69,67 @@
   },
   {
    "bulan": "2026-11",
-   "kasus": 249,
+   "kasus": 264,
    "topik": {
-    "jalanan": 51,
+    "jalanan": 55,
     "perempuan_anak": 8,
     "narkoba": 63,
-    "darurat": 63,
-    "konflik": 17,
+    "darurat": 69,
+    "konflik": 20,
     "penipuan": 22,
-    "anggota": 4,
+    "anggota": 6,
     "lalulintas": 20,
     "layanan": 1
    },
    "status": {
-    "TERCATAT": 211,
-    "PANTAU": 29,
-    "JALUR KHUSUS": 4,
-    "TINDAK": 5
+    "TERCATAT": 222,
+    "PANTAU": 30,
+    "JALUR KHUSUS": 6,
+    "TINDAK": 6
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     17
-    ],
-    [
-     "Lampung",
-     10
+     19
     ],
     [
      "Sumatera Utara",
-     9
+     11
+    ],
+    [
+     "Lampung",
+     11
     ],
     [
      "DKI Jakarta",
-     8
+     9
     ],
     [
      "Jawa Barat",
-     6
+     7
     ],
     [
      "Aceh",
      6
     ],
     [
+     "Sulawesi Tengah",
+     5
+    ],
+    [
      "Sumatera Barat",
      5
     ],
     [
-     "Sulawesi Tengah",
+     "Jawa Tengah",
      4
     ],
     [
      "Riau",
      4
-    ],
-    [
-     "Kalimantan Barat",
-     4
     ]
    ],
-   "tanggapan_terlihat": 104,
+   "tanggapan_terlihat": 106,
    "median_jeda_jam": 0.7,
    "n_jeda": 5
   }
