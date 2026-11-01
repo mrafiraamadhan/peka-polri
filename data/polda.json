@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-01T00:12:56Z",
+ "diperbarui_utc": "2026-11-01T01:04:10Z",
  "jendela_hari": 30,
  "hari_riwayat": 5,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -10,7 +10,7 @@
    "provinsi": [
     "35"
    ],
-   "kasus": 131,
+   "kasus": 132,
    "perlu": 56,
    "perlu_tanggap": 13,
    "persen_tanggap": 23.2,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     27
+     28
     ],
     [
      "penipuan",
@@ -103,7 +103,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 10,
    "jalur_khusus": 1,
-   "melewati_batas": 11,
+   "melewati_batas": 12,
    "median_jeda_jam": 6.0,
    "n_jeda": 3,
    "topik_teratas": [
@@ -184,11 +184,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 76,
+   "kasus": 77,
    "perlu": 13,
    "perlu_tanggap": 1,
    "persen_tanggap": 7.7,
-   "tanggap": 47,
+   "tanggap": 48,
    "jalur_khusus": 0,
    "melewati_batas": 7,
    "median_jeda_jam": 1.0,
@@ -196,7 +196,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     28
+     29
     ],
     [
      "darurat",
@@ -470,6 +470,35 @@
    ]
   },
   {
+   "polda": "Polda Lampung",
+   "provinsi": [
+    "18"
+   ],
+   "kasus": 29,
+   "perlu": 4,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 22,
+   "jalur_khusus": 1,
+   "melewati_batas": 2,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     13
+    ],
+    [
+     "narkoba",
+     6
+    ],
+    [
+     "perempuan_anak",
+     3
+    ]
+   ]
+  },
+  {
    "polda": "Polda Nusa Tenggara Barat",
    "provinsi": [
     "52"
@@ -557,35 +586,6 @@
    ]
   },
   {
-   "polda": "Polda Lampung",
-   "provinsi": [
-    "18"
-   ],
-   "kasus": 28,
-   "perlu": 3,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 22,
-   "jalur_khusus": 1,
-   "melewati_batas": 2,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     12
-    ],
-    [
-     "narkoba",
-     6
-    ],
-    [
-     "perempuan_anak",
-     3
-    ]
-   ]
-  },
-  {
    "polda": "Polda Banten",
    "provinsi": [
     "36"
@@ -648,11 +648,11 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 18,
+   "kasus": 19,
    "perlu": 3,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 11,
+   "tanggap": 12,
    "jalur_khusus": 1,
    "melewati_batas": 2,
    "median_jeda_jam": null,
