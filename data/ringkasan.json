@@ -1,8 +1,8 @@
 {
- "diperbarui_utc": "2026-11-01T23:38:50Z",
+ "diperbarui_utc": "2026-11-02T00:30:01Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "anggota": 26,
+  "anggota": 25,
   "perkara": 5,
   "kekerasan": 1
  },
@@ -10,16 +10,16 @@
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 32,
+  "JALUR KHUSUS": 31,
   "TINDAK": 52,
-  "PANTAU": 133,
-  "TERCATAT": 1218
+  "PANTAU": 134,
+  "TERCATAT": 1216
  },
- "kasus_aktif": 1435,
+ "kasus_aktif": 1433,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 49
+   "kasus": 48
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 287
+   "kasus": 288
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 383
+   "kasus": 381
   }
  },
  "provinsi": {
@@ -61,7 +61,7 @@
    "JALUR KHUSUS": 5,
    "TINDAK": 4,
    "PANTAU": 9,
-   "TERCATAT": 44
+   "TERCATAT": 43
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -83,7 +83,7 @@
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 3,
-   "TINDAK": 6,
+   "TINDAK": 5,
    "PANTAU": 14,
    "TERCATAT": 57
   },
@@ -94,14 +94,6 @@
    "TINDAK": 1,
    "PANTAU": 2,
    "TERCATAT": 4
-  },
-  "19": {
-   "nama": "Kepulauan Bangka Belitung",
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 8
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -152,7 +144,7 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 7,
+   "PANTAU": 8,
    "TERCATAT": 67
   },
   "21": {
@@ -202,6 +194,13 @@
    "TINDAK": 1,
    "TERCATAT": 4
   },
+  "19": {
+   "nama": "Kepulauan Bangka Belitung",
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 8
+  },
   "91": {
    "nama": "Papua Barat",
    "polda": "Polda Papua Barat",
@@ -209,12 +208,19 @@
    "PANTAU": 1,
    "TERCATAT": 4
   },
+  "11": {
+   "nama": "Aceh",
+   "polda": "Polda Aceh",
+   "TINDAK": 1,
+   "PANTAU": 6,
+   "TERCATAT": 42
+  },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -222,17 +228,11 @@
    "PANTAU": 3,
    "TERCATAT": 13
   },
-  "11": {
-   "nama": "Aceh",
-   "polda": "Polda Aceh",
-   "PANTAU": 7,
-   "TERCATAT": 43
-  },
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "PANTAU": 4,
-   "TERCATAT": 13
+   "TERCATAT": 14
   },
   "18": {
    "nama": "Lampung",
@@ -282,6 +282,11 @@
    "PANTAU": 1,
    "TERCATAT": 7
   },
+  "92": {
+   "nama": "Papua Barat Daya",
+   "polda": "Polda yang membawahi Papua Barat Daya",
+   "PANTAU": 1
+  },
   "65": {
    "nama": "Kalimantan Utara",
    "polda": "Polda Kalimantan Utara",
@@ -306,46 +311,55 @@
  "langkah": {
   "dengar": {
    "artikel": 905,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 21,
-   "sudah_ada": 872,
+   "relevan": 22,
+   "sudah_ada": 861,
    "hoaks": 0,
-   "tidak_relevan": 5,
-   "bukan_kejadian": 4,
-   "luar_negeri": 3,
-   "kasus_baru": 7,
+   "tidak_relevan": 7,
+   "bukan_kejadian": 13,
+   "luar_negeri": 2,
+   "kasus_baru": 8,
    "digabung": 14
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 32,
+   "JALUR KHUSUS": 31,
    "TINDAK": 52,
-   "PANTAU": 133,
-   "TERCATAT": 1218
+   "PANTAU": 134,
+   "TERCATAT": 1216
   },
   "teruskan": {
-   "polda": 33,
+   "polda": 34,
    "kasus": 217
   },
   "kabarkan": {
-   "tanggapan_terlihat": 646,
-   "kasus": 1435,
-   "tanggapan_sejak_berita_pertama": 572,
-   "median_jeda_jam": 8.0,
-   "n_jeda": 74,
-   "melewati_batas": 109
+   "tanggapan_terlihat": 644,
+   "kasus": 1433,
+   "tanggapan_sejak_berita_pertama": 569,
+   "median_jeda_jam": 7.7,
+   "n_jeda": 75,
+   "melewati_batas": 110
   },
   "arsipkan": {
-   "baris": 1919,
+   "baris": 1927,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 6
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kemarin": 0,
+   "rata28": 1.6,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 6,
  "gempa_darurat": [],
  "hoaks_terbaru": [
