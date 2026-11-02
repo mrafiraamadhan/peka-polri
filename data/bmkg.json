@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-02T07:36:58Z",
+ "diperbarui_utc": "2026-11-02T08:28:13Z",
  "terbaru": {
-  "waktu_utc": "2026-11-02T00:53:11Z",
-  "magnitudo": 5.5,
-  "kedalaman": "130 km",
-  "wilayah": "Pusat gempa berada di laut 169 km BaratLaut Tanimbar",
+  "waktu_utc": "2026-11-02T08:13:10Z",
+  "magnitudo": 5.3,
+  "kedalaman": "148 km",
+  "wilayah": "Pusat gempa berada di darat 1 km Barat Daya Tomohon",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Saumlaki",
-  "koordinat": "-7.08,130.07",
-  "prov": null,
-  "kode_prov": null
+  "dirasakan": "II - III Ternate, II Minahasa",
+  "koordinat": "1.31,124.83",
+  "prov": "Sulawesi Utara",
+  "kode_prov": "71"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-02T08:13:10Z",
+   "magnitudo": 5.3,
+   "kedalaman": "148 km",
+   "wilayah": "Pusat gempa berada di darat 1 km Barat Daya Tomohon",
+   "potensi": null,
+   "dirasakan": "II - III Ternate, II Minahasa",
+   "koordinat": "1.31,124.83",
+   "prov": "Sulawesi Utara",
+   "kode_prov": "71"
+  },
   {
    "waktu_utc": "2026-11-02T00:53:11Z",
    "magnitudo": 5.5,
@@ -165,20 +176,20 @@
    "koordinat": "-8.45,121.45",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-10-25T12:47:26Z",
-   "magnitudo": 3.8,
-   "kedalaman": "6 km",
-   "wilayah": "Pusat gempa berada di laut 13 km timur laut Kota Sorong",
-   "potensi": null,
-   "dirasakan": "II Kota Sorong",
-   "koordinat": "-0.73,131.39",
-   "prov": "Papua Barat Daya",
-   "kode_prov": "92"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-02T08:13:10Z",
+   "magnitudo": 5.3,
+   "kedalaman": "148 km",
+   "wilayah": "1 km BaratDaya TOMOHON-SULUT",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "1.31,124.83",
+   "prov": "Sulawesi Utara",
+   "kode_prov": "71"
+  },
   {
    "waktu_utc": "2026-11-02T00:53:11Z",
    "magnitudo": 5.5,
@@ -330,17 +341,6 @@
    "potensi": "Tidak berpotensi tsunami",
    "dirasakan": null,
    "koordinat": "0.77,126.03",
-   "prov": "Sulawesi Utara",
-   "kode_prov": "71"
-  },
-  {
-   "waktu_utc": "2026-10-08T08:07:56Z",
-   "magnitudo": 5.8,
-   "kedalaman": "10 km",
-   "wilayah": "230 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "5.66,125.19",
    "prov": "Sulawesi Utara",
    "kode_prov": "71"
   }
