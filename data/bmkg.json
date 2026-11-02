@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-02T10:11:52Z",
+ "diperbarui_utc": "2026-11-02T10:58:59Z",
  "terbaru": {
-  "waktu_utc": "2026-11-02T08:13:10Z",
-  "magnitudo": 5.3,
-  "kedalaman": "148 km",
-  "wilayah": "Pusat gempa berada di darat 1 km Barat Daya Tomohon",
+  "waktu_utc": "2026-11-02T09:58:58Z",
+  "magnitudo": 2.6,
+  "kedalaman": "8 km",
+  "wilayah": "Pusat gempa berada di darat 9 km Utara Kota Jayapura",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Ternate, II Minahasa",
-  "koordinat": "1.31,124.83",
-  "prov": "Sulawesi Utara",
-  "kode_prov": "71"
+  "dirasakan": "III Jayapura",
+  "koordinat": "-2.49,140.66",
+  "prov": "Papua",
+  "kode_prov": "94"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-02T09:58:58Z",
+   "magnitudo": 2.6,
+   "kedalaman": "8 km",
+   "wilayah": "Pusat gempa berada di darat 9 km Utara Kota Jayapura",
+   "potensi": null,
+   "dirasakan": "III Jayapura",
+   "koordinat": "-2.49,140.66",
+   "prov": "Papua",
+   "kode_prov": "94"
+  },
   {
    "waktu_utc": "2026-11-02T08:13:10Z",
    "magnitudo": 5.3,
@@ -165,17 +176,6 @@
    "koordinat": "-9.20,110.39",
    "prov": "DI Yogyakarta",
    "kode_prov": "34"
-  },
-  {
-   "waktu_utc": "2026-10-26T04:53:42Z",
-   "magnitudo": 4.9,
-   "kedalaman": "13 km",
-   "wilayah": "Pusat gempa berada di laut 30 km timur laut Mbay, Nagekeo",
-   "potensi": null,
-   "dirasakan": "III Bajawa, III Maumere, II - III Ruteng",
-   "koordinat": "-8.45,121.45",
-   "prov": null,
-   "kode_prov": null
   }
  ],
  "m5": [
