@@ -1,8 +1,8 @@
 {
- "diperbarui_utc": "2026-11-02T21:37:32Z",
+ "diperbarui_utc": "2026-11-02T22:29:11Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "anggota": 21,
+  "anggota": 20,
   "perkara": 9,
   "kekerasan": 2
  },
@@ -10,24 +10,24 @@
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 32,
-  "TINDAK": 57,
-  "PANTAU": 408,
-  "TERCATAT": 1014
+  "JALUR KHUSUS": 31,
+  "TINDAK": 58,
+  "PANTAU": 407,
+  "TERCATAT": 1018
  },
- "kasus_aktif": 1511,
+ "kasus_aktif": 1514,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 47
+   "kasus": 46
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 88
+   "kasus": 89
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 316
+   "kasus": 317
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 89
+   "kasus": 90
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 446
+   "kasus": 447
   }
  },
  "provinsi": {
@@ -66,7 +66,7 @@
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
-   "JALUR KHUSUS": 3,
+   "JALUR KHUSUS": 2,
    "TINDAK": 4,
    "PANTAU": 6,
    "TERCATAT": 6
@@ -77,15 +77,15 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 17,
    "PANTAU": 72,
-   "TERCATAT": 52
+   "TERCATAT": 51
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 2,
-   "TINDAK": 7,
+   "TINDAK": 8,
    "PANTAU": 10,
-   "TERCATAT": 60
+   "TERCATAT": 62
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -200,14 +200,14 @@
    "polda": "Polda Riau",
    "TINDAK": 1,
    "PANTAU": 8,
-   "TERCATAT": 26
+   "TERCATAT": 27
   },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 1,
    "PANTAU": 24,
-   "TERCATAT": 8
+   "TERCATAT": 7
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -316,36 +316,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 893,
+   "relevan": 16,
+   "sudah_ada": 885,
    "hoaks": 0,
    "tidak_relevan": 0,
    "bukan_kejadian": 4,
-   "luar_negeri": 0,
+   "luar_negeri": 1,
    "kasus_baru": 6,
-   "digabung": 3
+   "digabung": 10
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 32,
-   "TINDAK": 57,
-   "PANTAU": 408,
-   "TERCATAT": 1014
+   "JALUR KHUSUS": 31,
+   "TINDAK": 58,
+   "PANTAU": 407,
+   "TERCATAT": 1018
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 497
+   "kasus": 496
   },
   "kabarkan": {
-   "tanggapan_terlihat": 652,
-   "kasus": 1511,
-   "tanggapan_sejak_berita_pertama": 568,
+   "tanggapan_terlihat": 651,
+   "kasus": 1514,
+   "tanggapan_sejak_berita_pertama": 566,
    "median_jeda_jam": 7.7,
-   "n_jeda": 84,
-   "melewati_batas": 235
+   "n_jeda": 85,
+   "melewati_batas": 233
   },
   "arsipkan": {
-   "baris": 2455,
+   "baris": 2461,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 7
@@ -365,7 +365,7 @@
    "prov": "Tanpa lokasi",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 86,
+   "hari_ini": 87,
    "rata": 41.29
   },
   {
