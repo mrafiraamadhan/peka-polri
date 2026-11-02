@@ -1,8 +1,8 @@
 {
- "diperbarui_utc": "2026-11-02T22:29:11Z",
+ "diperbarui_utc": "2026-11-02T23:20:22Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "anggota": 20,
+  "anggota": 19,
   "perkara": 9,
   "kekerasan": 2
  },
@@ -10,36 +10,36 @@
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 31,
-  "TINDAK": 58,
-  "PANTAU": 407,
-  "TERCATAT": 1018
+  "JALUR KHUSUS": 30,
+  "TINDAK": 59,
+  "PANTAU": 387,
+  "TERCATAT": 1041
  },
- "kasus_aktif": 1514,
+ "kasus_aktif": 1517,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 46
+   "kasus": 45
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 89
+   "kasus": 90
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 317
+   "kasus": 316
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 104
+   "kasus": 103
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 356
+   "kasus": 357
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 63
+   "kasus": 62
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 447
+   "kasus": 452
   }
  },
  "provinsi": {
@@ -85,7 +85,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 8,
    "PANTAU": 10,
-   "TERCATAT": 62
+   "TERCATAT": 63
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -121,8 +121,8 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
-   "TINDAK": 3,
-   "PANTAU": 12,
+   "TINDAK": 4,
+   "PANTAU": 11,
    "TERCATAT": 55
   },
   "91": {
@@ -206,8 +206,8 @@
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 1,
-   "PANTAU": 24,
-   "TERCATAT": 7
+   "PANTAU": 23,
+   "TERCATAT": 8
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -280,7 +280,7 @@
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
    "PANTAU": 1,
-   "TERCATAT": 18
+   "TERCATAT": 19
   },
   "92": {
    "nama": "Papua Barat Daya",
@@ -316,36 +316,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 16,
-   "sudah_ada": 885,
+   "relevan": 15,
+   "sudah_ada": 876,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 4,
-   "luar_negeri": 1,
-   "kasus_baru": 6,
-   "digabung": 10
+   "tidak_relevan": 3,
+   "bukan_kejadian": 10,
+   "luar_negeri": 2,
+   "kasus_baru": 9,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 31,
-   "TINDAK": 58,
-   "PANTAU": 407,
-   "TERCATAT": 1018
+   "JALUR KHUSUS": 30,
+   "TINDAK": 59,
+   "PANTAU": 387,
+   "TERCATAT": 1041
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 496
+   "kasus": 476
   },
   "kabarkan": {
-   "tanggapan_terlihat": 651,
-   "kasus": 1514,
+   "tanggapan_terlihat": 652,
+   "kasus": 1517,
    "tanggapan_sejak_berita_pertama": 566,
-   "median_jeda_jam": 7.7,
-   "n_jeda": 85,
-   "melewati_batas": 233
+   "median_jeda_jam": 8.0,
+   "n_jeda": 86,
+   "melewati_batas": 220
   },
   "arsipkan": {
-   "baris": 2461,
+   "baris": 2470,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 7
@@ -355,25 +355,17 @@
   {
    "kode_prov": null,
    "prov": "Tanpa lokasi",
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "hari_ini": 18,
-   "rata": 9.0
-  },
-  {
-   "kode_prov": null,
-   "prov": "Tanpa lokasi",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 87,
-   "rata": 41.29
+   "hari_ini": 89,
+   "rata": 41.14
   },
   {
    "kode_prov": "35",
    "prov": "Jawa Timur",
    "topik": "perempuan_anak",
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "hari_ini": 8,
+   "hari_ini": 7,
    "rata": 3.14
   },
   {
@@ -381,7 +373,7 @@
    "prov": "Jawa Timur",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 24,
+   "hari_ini": 25,
    "rata": 8.43
   },
   {
