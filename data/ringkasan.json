@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-02T18:42:59Z",
+ "diperbarui_utc": "2026-11-02T19:34:17Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "anggota": 22,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 33,
-  "TINDAK": 56,
-  "PANTAU": 407,
-  "TERCATAT": 1005
+  "TINDAK": 55,
+  "PANTAU": 408,
+  "TERCATAT": 1011
  },
- "kasus_aktif": 1502,
+ "kasus_aktif": 1508,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 311
+   "kasus": 315
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 351
+   "kasus": 352
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 443
+   "kasus": 444
   }
  },
  "provinsi": {
@@ -70,7 +70,7 @@
    "JALUR KHUSUS": 7,
    "TINDAK": 2,
    "PANTAU": 7,
-   "TERCATAT": 45
+   "TERCATAT": 46
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -84,7 +84,7 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 3,
-   "TINDAK": 18,
+   "TINDAK": 17,
    "PANTAU": 72,
    "TERCATAT": 52
   },
@@ -201,7 +201,7 @@
    "polda": "Polda Riau",
    "TINDAK": 1,
    "PANTAU": 8,
-   "TERCATAT": 24
+   "TERCATAT": 25
   },
   "51": {
    "nama": "Bali",
@@ -250,8 +250,8 @@
   "52": {
    "nama": "Nusa Tenggara Barat",
    "polda": "Polda Nusa Tenggara Barat",
-   "PANTAU": 1,
-   "TERCATAT": 10
+   "PANTAU": 2,
+   "TERCATAT": 11
   },
   "18": {
    "nama": "Lampung",
@@ -313,40 +313,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 906,
+   "artikel": 907,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 12,
-   "sudah_ada": 887,
-   "hoaks": 1,
-   "tidak_relevan": 3,
-   "bukan_kejadian": 2,
-   "luar_negeri": 1,
+   "relevan": 14,
+   "sudah_ada": 877,
+   "hoaks": 0,
+   "tidak_relevan": 2,
+   "bukan_kejadian": 8,
+   "luar_negeri": 6,
    "kasus_baru": 7,
-   "digabung": 5
+   "digabung": 7
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 33,
-   "TINDAK": 56,
-   "PANTAU": 407,
-   "TERCATAT": 1005
+   "TINDAK": 55,
+   "PANTAU": 408,
+   "TERCATAT": 1011
   },
   "teruskan": {
    "polda": 36,
    "kasus": 497
   },
   "kabarkan": {
-   "tanggapan_terlihat": 645,
-   "kasus": 1502,
-   "tanggapan_sejak_berita_pertama": 561,
+   "tanggapan_terlihat": 648,
+   "kasus": 1508,
+   "tanggapan_sejak_berita_pertama": 564,
    "median_jeda_jam": 7.7,
    "n_jeda": 84,
    "melewati_batas": 236
   },
   "arsipkan": {
-   "baris": 2436,
+   "baris": 2443,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 7
@@ -406,7 +406,7 @@
    "prov": "Riau",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 8,
+   "hari_ini": 9,
    "rata": 2.86
   },
   {
