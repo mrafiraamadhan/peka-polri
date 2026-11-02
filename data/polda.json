@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-02T02:13:03Z",
+ "diperbarui_utc": "2026-11-02T02:29:09Z",
  "jendela_hari": 30,
  "hari_riwayat": 6,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 790,
+ "kasus_tanpa_polda": 791,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 160,
-   "perlu": 72,
+   "kasus": 162,
+   "perlu": 73,
    "perlu_tanggap": 14,
-   "persen_tanggap": 19.4,
+   "persen_tanggap": 19.2,
    "tanggap": 73,
    "jalur_khusus": 6,
    "melewati_batas": 27,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     34
+     35
     ],
     [
      "penipuan",
@@ -126,11 +126,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 89,
-   "perlu": 17,
+   "kasus": 92,
+   "perlu": 18,
    "perlu_tanggap": 3,
-   "persen_tanggap": 17.6,
-   "tanggap": 58,
+   "persen_tanggap": 16.7,
+   "tanggap": 60,
    "jalur_khusus": 1,
    "melewati_batas": 10,
    "median_jeda_jam": 15.8,
@@ -138,15 +138,15 @@
    "topik_teratas": [
     [
      "narkoba",
-     30
+     32
+    ],
+    [
+     "jalanan",
+     23
     ],
     [
      "darurat",
      23
-    ],
-    [
-     "jalanan",
-     22
     ]
    ]
   },
@@ -190,7 +190,7 @@
    "persen_tanggap": 25.0,
    "tanggap": 25,
    "jalur_khusus": 2,
-   "melewati_batas": 6,
+   "melewati_batas": 7,
    "median_jeda_jam": 18.4,
    "n_jeda": 4,
    "topik_teratas": [
@@ -702,6 +702,31 @@
    ]
   },
   {
+   "polda": "Polda Papua Barat",
+   "provinsi": [
+    "91"
+   ],
+   "kasus": 8,
+   "perlu": 4,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 4,
+   "jalur_khusus": 1,
+   "melewati_batas": 2,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     7
+    ],
+    [
+     "anggota",
+     1
+    ]
+   ]
+  },
+  {
    "polda": "Polda Banten",
    "provinsi": [
     "36"
@@ -789,27 +814,6 @@
    ]
   },
   {
-   "polda": "Polda Papua Barat",
-   "provinsi": [
-    "91"
-   ],
-   "kasus": 7,
-   "perlu": 3,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 4,
-   "jalur_khusus": 0,
-   "melewati_batas": 2,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     7
-    ]
-   ]
-  },
-  {
    "polda": "Polda Kalimantan Utara",
    "provinsi": [
     "65"
@@ -849,7 +853,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 8,
    "jalur_khusus": 1,
-   "melewati_batas": 0,
+   "melewati_batas": 1,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [

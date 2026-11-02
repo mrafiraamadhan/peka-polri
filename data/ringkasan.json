@@ -1,8 +1,8 @@
 {
- "diperbarui_utc": "2026-11-02T02:13:03Z",
+ "diperbarui_utc": "2026-11-02T02:29:09Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "anggota": 25,
+  "anggota": 26,
   "perkara": 5,
   "kekerasan": 1
  },
@@ -10,24 +10,24 @@
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 31,
-  "TINDAK": 50,
-  "PANTAU": 136,
-  "TERCATAT": 1201
+  "JALUR KHUSUS": 32,
+  "TINDAK": 51,
+  "PANTAU": 137,
+  "TERCATAT": 1203
  },
- "kasus_aktif": 1419,
+ "kasus_aktif": 1424,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 48
+   "kasus": 49
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 82
+   "kasus": 83
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 284
+   "kasus": 286
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 340
+   "kasus": 342
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 376
+   "kasus": 375
   }
  },
  "provinsi": {
@@ -60,9 +60,9 @@
    "polda": "Polda Jawa Timur",
    "DARURAT": 1,
    "JALUR KHUSUS": 4,
-   "TINDAK": 15,
+   "TINDAK": 16,
    "PANTAU": 22,
-   "TERCATAT": 82
+   "TERCATAT": 83
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -145,8 +145,16 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 8,
-   "TERCATAT": 62
+   "PANTAU": 9,
+   "TERCATAT": 63
+  },
+  "91": {
+   "nama": "Papua Barat",
+   "polda": "Polda Papua Barat",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 4
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -201,13 +209,6 @@
    "TINDAK": 1,
    "PANTAU": 1,
    "TERCATAT": 8
-  },
-  "91": {
-   "nama": "Papua Barat",
-   "polda": "Polda Papua Barat",
-   "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 4
   },
   "11": {
    "nama": "Aceh",
@@ -312,47 +313,56 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 905,
-   "sumber": 3
+   "artikel": 904,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 43,
-   "sudah_ada": 831,
-   "hoaks": 1,
-   "tidak_relevan": 10,
-   "bukan_kejadian": 17,
-   "luar_negeri": 3,
-   "kasus_baru": 17,
-   "digabung": 26
+   "relevan": 22,
+   "sudah_ada": 866,
+   "hoaks": 0,
+   "tidak_relevan": 5,
+   "bukan_kejadian": 9,
+   "luar_negeri": 2,
+   "kasus_baru": 7,
+   "digabung": 15
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 31,
-   "TINDAK": 50,
-   "PANTAU": 136,
-   "TERCATAT": 1201
+   "JALUR KHUSUS": 32,
+   "TINDAK": 51,
+   "PANTAU": 137,
+   "TERCATAT": 1203
   },
   "teruskan": {
    "polda": 35,
-   "kasus": 218
+   "kasus": 221
   },
   "kabarkan": {
-   "tanggapan_terlihat": 640,
-   "kasus": 1419,
-   "tanggapan_sejak_berita_pertama": 565,
+   "tanggapan_terlihat": 641,
+   "kasus": 1424,
+   "tanggapan_sejak_berita_pertama": 566,
    "median_jeda_jam": 7.7,
    "n_jeda": 75,
-   "melewati_batas": 110
+   "melewati_batas": 112
   },
   "arsipkan": {
-   "baris": 1959,
+   "baris": 1966,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 6
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kemarin": 0,
+   "rata28": 7.1,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 6,
  "gempa_darurat": [],
  "hoaks_terbaru": [
