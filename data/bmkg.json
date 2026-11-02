@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-02T00:30:01Z",
+ "diperbarui_utc": "2026-11-02T01:21:52Z",
  "terbaru": {
-  "waktu_utc": "2026-11-01T05:38:59Z",
-  "magnitudo": 4.1,
-  "kedalaman": "6 km",
-  "wilayah": "Pusat gempa berada di darat 24 km Barat Daya Kab. Pidie Jaya-Aceh",
+  "waktu_utc": "2026-11-02T00:53:11Z",
+  "magnitudo": 5.5,
+  "kedalaman": "130 km",
+  "wilayah": "Pusat gempa berada di laut 169 km BaratLaut Tanimbar",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "",
-  "koordinat": "4.79,96.20",
-  "prov": "Aceh",
-  "kode_prov": "11"
+  "dirasakan": "II Saumlaki",
+  "koordinat": "-7.08,130.07",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-02T00:53:11Z",
+   "magnitudo": 5.5,
+   "kedalaman": "130 km",
+   "wilayah": "Pusat gempa berada di laut 169 km BaratLaut Tanimbar",
+   "potensi": null,
+   "dirasakan": "II Saumlaki",
+   "koordinat": "-7.08,130.07",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-01T05:38:59Z",
    "magnitudo": 4.1,
@@ -165,20 +176,20 @@
    "koordinat": "-0.73,131.39",
    "prov": "Papua Barat Daya",
    "kode_prov": "92"
-  },
-  {
-   "waktu_utc": "2026-10-25T07:40:01Z",
-   "magnitudo": 4.7,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 44 km barat Kab. Aceh Tamiang",
-   "potensi": null,
-   "dirasakan": "IV Gayo Lues",
-   "koordinat": "4.24,97.65",
-   "prov": "Aceh",
-   "kode_prov": "11"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-02T00:53:11Z",
+   "magnitudo": 5.5,
+   "kedalaman": "130 km",
+   "wilayah": "169 km BaratLaut TANIMBAR",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-7.08,130.07",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-10-29T20:32:13Z",
    "magnitudo": 5.3,
@@ -332,17 +343,6 @@
    "koordinat": "5.66,125.19",
    "prov": "Sulawesi Utara",
    "kode_prov": "71"
-  },
-  {
-   "waktu_utc": "2026-10-06T20:15:26Z",
-   "magnitudo": 5.2,
-   "kedalaman": "92 km",
-   "wilayah": "9 km Tenggara LOMBOKBARAT-NTB",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-8.77,116.14",
-   "prov": "Nusa Tenggara Barat",
-   "kode_prov": "52"
   }
  ]
 }
