@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-02T13:33:31Z",
+ "diperbarui_utc": "2026-11-02T14:25:11Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "anggota": 23,
@@ -9,13 +9,13 @@
  "anggota_sudah_ditangani": 22,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 7,
+  "DARURAT": 6,
   "JALUR KHUSUS": 33,
   "TINDAK": 55,
-  "PANTAU": 142,
-  "TERCATAT": 1256
+  "PANTAU": 146,
+  "TERCATAT": 1251
  },
- "kasus_aktif": 1493,
+ "kasus_aktif": 1491,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,15 +27,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 302
+   "kasus": 301
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 115
+   "kasus": 113
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 347
+   "kasus": 349
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,17 +51,17 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 432
+   "kasus": 431
   }
  },
  "provinsi": {
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
-   "DARURAT": 3,
+   "DARURAT": 2,
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 26
+   "TERCATAT": 27
   },
   "35": {
    "nama": "Jawa Timur",
@@ -70,7 +70,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 18,
    "PANTAU": 27,
-   "TERCATAT": 96
+   "TERCATAT": 95
   },
   "11": {
    "nama": "Aceh",
@@ -86,7 +86,7 @@
    "DARURAT": 1,
    "JALUR KHUSUS": 3,
    "TINDAK": 6,
-   "PANTAU": 10,
+   "PANTAU": 11,
    "TERCATAT": 56
   },
   "33": {
@@ -95,14 +95,14 @@
    "JALUR KHUSUS": 8,
    "TINDAK": 3,
    "PANTAU": 7,
-   "TERCATAT": 48
+   "TERCATAT": 47
   },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 3,
    "TINDAK": 2,
-   "PANTAU": 6,
+   "PANTAU": 7,
    "TERCATAT": 8
   },
   "63": {
@@ -132,8 +132,8 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
-   "PANTAU": 10,
-   "TERCATAT": 55
+   "PANTAU": 11,
+   "TERCATAT": 54
   },
   "91": {
    "nama": "Papua Barat",
@@ -203,14 +203,14 @@
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 1,
-   "PANTAU": 4,
-   "TERCATAT": 11
+   "PANTAU": 5,
+   "TERCATAT": 10
   },
   "17": {
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "TINDAK": 1,
-   "TERCATAT": 3
+   "TERCATAT": 4
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -229,7 +229,7 @@
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "PANTAU": 3,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -316,39 +316,39 @@
  "langkah": {
   "dengar": {
    "artikel": 908,
-   "sumber": 2
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 63,
-   "sudah_ada": 811,
+   "relevan": 44,
+   "sudah_ada": 830,
    "hoaks": 0,
-   "tidak_relevan": 6,
-   "bukan_kejadian": 19,
-   "luar_negeri": 9,
-   "kasus_baru": 17,
-   "digabung": 46
+   "tidak_relevan": 11,
+   "bukan_kejadian": 17,
+   "luar_negeri": 6,
+   "kasus_baru": 16,
+   "digabung": 28
   },
   "timbang": {
-   "DARURAT": 7,
+   "DARURAT": 6,
    "JALUR KHUSUS": 33,
    "TINDAK": 55,
-   "PANTAU": 142,
-   "TERCATAT": 1256
+   "PANTAU": 146,
+   "TERCATAT": 1251
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 237
+   "kasus": 240
   },
   "kabarkan": {
-   "tanggapan_terlihat": 642,
-   "kasus": 1493,
+   "tanggapan_terlihat": 640,
+   "kasus": 1491,
    "tanggapan_sejak_berita_pertama": 556,
-   "median_jeda_jam": 7.7,
-   "n_jeda": 86,
-   "melewati_batas": 112
+   "median_jeda_jam": 7.5,
+   "n_jeda": 84,
+   "melewati_batas": 111
   },
   "arsipkan": {
-   "baris": 2356,
+   "baris": 2372,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 6
@@ -358,5 +358,36 @@
  "lonjakan_nasional": [],
  "hari_riwayat": 6,
  "gempa_darurat": [],
- "hoaks_terbaru": []
+ "hoaks_terbaru": [
+  {
+   "judul": "[PENIPUAN] Tautan Program Bantuan Rumah Gratis",
+   "url": "https://turnbackhoax.id/articles/37348-penipuan-tautan-program-bantuan-rumah-gratis",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Rutin Konsumsi Bawang Merah Bisa Obati Diabetes Tipe 1",
+   "url": "https://turnbackhoax.id/articles/37347-salah-rutin-konsumsi-bawang-merah-bisa-obati-diabetes-tipe-1",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] BPJS Bakal Dihapus, Diganti Klinik Kopdes",
+   "url": "https://turnbackhoax.id/articles/37338-salah-bpjs-bakal-dihapus-diganti-klinik-kopdes",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Tautan Pendaftaran Seleksi Petugas Haji 2027",
+   "url": "https://turnbackhoax.id/articles/37337-penipuan-tautan-pendaftaran-seleksi-petugas-haji-2027",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Malaysia dan Brunei Layangkan Denda ke Indonesia atas Kerugian Asap Karhutla",
+   "url": "https://turnbackhoax.id/articles/37333-salah-malaysia-dan-brunei-layangkan-denda-ke-indonesia-atas-kerugian-asap-karhutla",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Gaji Guru Naik 60% Mulai 2027",
+   "url": "https://turnbackhoax.id/articles/37331-salah-gaji-guru-naik-60-mulai-2027",
+   "terbit": null
+  }
+ ]
 }
