@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-03T21:00:38Z",
+ "diperbarui_utc": "2026-11-03T21:52:20Z",
  "terbaru": {
-  "waktu_utc": "2026-11-03T15:37:50Z",
-  "magnitudo": 4.8,
-  "kedalaman": "87 km",
-  "wilayah": "Pusat gempa berada di laut 86 km Selatan Kota Gorontalo",
+  "waktu_utc": "2026-11-03T20:28:35Z",
+  "magnitudo": 4.1,
+  "kedalaman": "6 km",
+  "wilayah": "Pusat gempa berada di darat 61 km utara Luwu Timur",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Kab. Gorontalo, II - III Kab. Bone Bolango, II - III Kab. Gorontalo Utara, II - III Kota Gorontalo, II - III Kab. Banggai, II - III Kab. Banggai Kepulauan",
-  "koordinat": "-0.20,123.32",
-  "prov": "Gorontalo",
-  "kode_prov": "75"
+  "dirasakan": "II - III Morowali Utara",
+  "koordinat": "-2.08,121.02",
+  "prov": "Sulawesi Selatan",
+  "kode_prov": "73"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-03T20:28:35Z",
+   "magnitudo": 4.1,
+   "kedalaman": "6 km",
+   "wilayah": "Pusat gempa berada di darat 61 km utara Luwu Timur",
+   "potensi": null,
+   "dirasakan": "II - III Morowali Utara",
+   "koordinat": "-2.08,121.02",
+   "prov": "Sulawesi Selatan",
+   "kode_prov": "73"
+  },
   {
    "waktu_utc": "2026-11-03T15:37:50Z",
    "magnitudo": 4.8,
@@ -165,17 +176,6 @@
    "koordinat": "-6.34,130.52",
    "prov": "Papua Barat Daya",
    "kode_prov": "92"
-  },
-  {
-   "waktu_utc": "2026-10-28T11:59:15Z",
-   "magnitudo": 3.4,
-   "kedalaman": "4 km",
-   "wilayah": "Pusat gempa berada di darat 10 km Utara Tanggamus",
-   "potensi": null,
-   "dirasakan": "II Kotaagung, II Sumberejo, II Ulu Belu, II Talang Padang, II Pulau Panggung, II Sukoharjo",
-   "koordinat": "-5.40,104.66",
-   "prov": "Lampung",
-   "kode_prov": "18"
   }
  ],
  "m5": [
