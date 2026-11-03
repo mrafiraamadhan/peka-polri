@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-03T21:52:20Z",
+ "diperbarui_utc": "2026-11-03T22:43:50Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 16,
@@ -12,10 +12,10 @@
   "DARURAT": 0,
   "JALUR KHUSUS": 39,
   "TINDAK": 64,
-  "PANTAU": 171,
-  "TERCATAT": 1313
+  "PANTAU": 172,
+  "TERCATAT": 1311
  },
- "kasus_aktif": 1587,
+ "kasus_aktif": 1586,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -31,7 +31,7 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 102
+   "kasus": 103
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -39,11 +39,11 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 63
+   "kasus": 61
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 77
+   "kasus": 78
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 478
+   "kasus": 477
   }
  },
  "provinsi": {
@@ -85,14 +85,14 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 8,
    "PANTAU": 12,
-   "TERCATAT": 58
+   "TERCATAT": 59
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "JALUR KHUSUS": 2,
    "TINDAK": 4,
-   "PANTAU": 16,
+   "PANTAU": 17,
    "TERCATAT": 37
   },
   "16": {
@@ -284,7 +284,7 @@
    "nama": "Banten",
    "polda": "Polda Banten",
    "PANTAU": 3,
-   "TERCATAT": 24
+   "TERCATAT": 23
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -313,39 +313,39 @@
  "langkah": {
   "dengar": {
    "artikel": 905,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 15,
-   "sudah_ada": 886,
+   "relevan": 10,
+   "sudah_ada": 879,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 3,
-   "luar_negeri": 0,
+   "tidak_relevan": 3,
+   "bukan_kejadian": 10,
+   "luar_negeri": 3,
    "kasus_baru": 6,
-   "digabung": 9
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 39,
    "TINDAK": 64,
-   "PANTAU": 171,
-   "TERCATAT": 1313
+   "PANTAU": 172,
+   "TERCATAT": 1311
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 274
+   "kasus": 275
   },
   "kabarkan": {
-   "tanggapan_terlihat": 690,
-   "kasus": 1587,
-   "tanggapan_sejak_berita_pertama": 595,
+   "tanggapan_terlihat": 691,
+   "kasus": 1586,
+   "tanggapan_sejak_berita_pertama": 596,
    "median_jeda_jam": 10.4,
    "n_jeda": 95,
-   "melewati_batas": 128
+   "melewati_batas": 130
   },
   "arsipkan": {
-   "baris": 2946,
+   "baris": 2952,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 8
@@ -401,7 +401,16 @@
    "rata": 3.88
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "layanan",
+   "nama": "Layanan kepolisian",
+   "kemarin": 0,
+   "rata28": 3.0,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 8,
  "gempa_darurat": [],
  "hoaks_terbaru": [
