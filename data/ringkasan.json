@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-03T18:25:14Z",
+ "diperbarui_utc": "2026-11-03T19:16:55Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 15,
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 358
+   "kasus": 359
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,11 +35,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 344
+   "kasus": 345
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 67
+   "kasus": 64
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 475
+   "kasus": 476
   }
  },
  "provinsi": {
@@ -62,7 +62,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 10,
-   "TERCATAT": 48
+   "TERCATAT": 47
   },
   "35": {
    "nama": "Jawa Timur",
@@ -312,18 +312,18 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 905,
-   "sumber": 3
+   "artikel": 909,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 13,
-   "sudah_ada": 882,
-   "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 9,
+   "relevan": 8,
+   "sudah_ada": 890,
+   "hoaks": 1,
+   "tidak_relevan": 4,
+   "bukan_kejadian": 6,
    "luar_negeri": 0,
-   "kasus_baru": 3,
-   "digabung": 10
+   "kasus_baru": 4,
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 1,
@@ -337,15 +337,15 @@
    "kasus": 274
   },
   "kabarkan": {
-   "tanggapan_terlihat": 691,
+   "tanggapan_terlihat": 690,
    "kasus": 1583,
-   "tanggapan_sejak_berita_pertama": 597,
+   "tanggapan_sejak_berita_pertama": 596,
    "median_jeda_jam": 10.2,
    "n_jeda": 94,
    "melewati_batas": 129
   },
   "arsipkan": {
-   "baris": 2933,
+   "baris": 2937,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 8
@@ -401,7 +401,16 @@
    "rata": 3.88
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kemarin": 0,
+   "rata28": 0.0,
+   "rasio": null,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 8,
  "gempa_darurat": [],
  "hoaks_terbaru": [
