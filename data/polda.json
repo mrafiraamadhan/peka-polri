@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-03T17:39:59Z",
+ "diperbarui_utc": "2026-11-03T18:25:14Z",
  "jendela_hari": 30,
  "hari_riwayat": 8,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -335,7 +335,7 @@
    "persen_tanggap": 15.4,
    "tanggap": 34,
    "jalur_khusus": 5,
-   "melewati_batas": 4,
+   "melewati_batas": 5,
    "median_jeda_jam": 10.7,
    "n_jeda": 2,
    "topik_teratas": [
@@ -470,6 +470,35 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Tengah",
+   "provinsi": [
+    "62"
+   ],
+   "kasus": 27,
+   "perlu": 8,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 25.0,
+   "tanggap": 16,
+   "jalur_khusus": 2,
+   "melewati_batas": 3,
+   "median_jeda_jam": 28.9,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "narkoba",
+     14
+    ],
+    [
+     "darurat",
+     5
+    ],
+    [
+     "jalanan",
+     3
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Selatan",
    "provinsi": [
     "63"
@@ -523,35 +552,6 @@
     ],
     [
      "perempuan_anak",
-     3
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kalimantan Tengah",
-   "provinsi": [
-    "62"
-   ],
-   "kasus": 24,
-   "perlu": 7,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 28.6,
-   "tanggap": 14,
-   "jalur_khusus": 2,
-   "melewati_batas": 3,
-   "median_jeda_jam": 28.9,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "narkoba",
-     11
-    ],
-    [
-     "darurat",
-     5
-    ],
-    [
-     "jalanan",
      3
     ]
    ]
