@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-03T20:09:03Z",
+ "diperbarui_utc": "2026-11-03T21:00:38Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 15,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 38,
-  "TINDAK": 64,
-  "PANTAU": 171,
-  "TERCATAT": 1308
+  "TINDAK": 65,
+  "PANTAU": 170,
+  "TERCATAT": 1309
  },
- "kasus_aktif": 1582,
+ "kasus_aktif": 1583,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 476
+   "kasus": 477
   }
  },
  "provinsi": {
@@ -68,8 +68,8 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 6,
-   "TINDAK": 17,
-   "PANTAU": 22,
+   "TINDAK": 18,
+   "PANTAU": 21,
    "TERCATAT": 121
   },
   "33": {
@@ -125,7 +125,7 @@
    "polda": "Polda Papua Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "TERCATAT": 5
+   "TERCATAT": 4
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -316,21 +316,21 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 8,
-   "sudah_ada": 894,
+   "relevan": 9,
+   "sudah_ada": 893,
    "hoaks": 0,
    "tidak_relevan": 1,
    "bukan_kejadian": 2,
    "luar_negeri": 0,
-   "kasus_baru": 1,
+   "kasus_baru": 2,
    "digabung": 7
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 38,
-   "TINDAK": 64,
-   "PANTAU": 171,
-   "TERCATAT": 1308
+   "TINDAK": 65,
+   "PANTAU": 170,
+   "TERCATAT": 1309
   },
   "teruskan": {
    "polda": 36,
@@ -338,14 +338,14 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 690,
-   "kasus": 1582,
+   "kasus": 1583,
    "tanggapan_sejak_berita_pertama": 595,
    "median_jeda_jam": 10.4,
    "n_jeda": 95,
    "melewati_batas": 129
   },
   "arsipkan": {
-   "baris": 2938,
+   "baris": 2940,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 8
