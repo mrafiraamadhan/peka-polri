@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-03T19:16:55Z",
+ "diperbarui_utc": "2026-11-03T20:09:03Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 15,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 38,
   "TINDAK": 64,
   "PANTAU": 171,
-  "TERCATAT": 1309
+  "TERCATAT": 1308
  },
- "kasus_aktif": 1583,
+ "kasus_aktif": 1582,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,15 +27,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 359
+   "kasus": 358
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 101
+   "kasus": 100
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 345
+   "kasus": 346
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -70,7 +70,7 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 17,
    "PANTAU": 22,
-   "TERCATAT": 120
+   "TERCATAT": 121
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -78,7 +78,7 @@
    "JALUR KHUSUS": 7,
    "TINDAK": 3,
    "PANTAU": 6,
-   "TERCATAT": 47
+   "TERCATAT": 48
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -133,7 +133,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 7
+   "TERCATAT": 6
   },
   "96": {
    "nama": "Papua Tengah",
@@ -312,25 +312,25 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 909,
-   "sumber": 4
+   "artikel": 905,
+   "sumber": 3
   },
   "pilah": {
    "relevan": 8,
-   "sudah_ada": 890,
-   "hoaks": 1,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 6,
+   "sudah_ada": 894,
+   "hoaks": 0,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 2,
    "luar_negeri": 0,
-   "kasus_baru": 4,
-   "digabung": 4
+   "kasus_baru": 1,
+   "digabung": 7
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 38,
    "TINDAK": 64,
    "PANTAU": 171,
-   "TERCATAT": 1309
+   "TERCATAT": 1308
   },
   "teruskan": {
    "polda": 36,
@@ -338,14 +338,14 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 690,
-   "kasus": 1583,
-   "tanggapan_sejak_berita_pertama": 596,
-   "median_jeda_jam": 10.2,
-   "n_jeda": 94,
+   "kasus": 1582,
+   "tanggapan_sejak_berita_pertama": 595,
+   "median_jeda_jam": 10.4,
+   "n_jeda": 95,
    "melewati_batas": 129
   },
   "arsipkan": {
-   "baris": 2937,
+   "baris": 2938,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 8
@@ -401,16 +401,7 @@
    "rata": 3.88
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kemarin": 0,
-   "rata28": 0.0,
-   "rasio": null,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 8,
  "gempa_darurat": [],
  "hoaks_terbaru": [
