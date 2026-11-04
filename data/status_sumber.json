@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-04T21:18:58Z",
+ "diperbarui_utc": "2026-11-04T22:10:39Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-04T21:19:31Z",
+   "dicek_utc": "2026-11-04T22:11:08Z",
    "ok": true,
    "n": 904,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-04T21:19:32Z",
+   "dicek_utc": "2026-11-04T22:11:10Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-04T21:19:33Z",
+   "dicek_utc": "2026-11-04T22:11:11Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-04T21:20:15Z",
-   "ok": true,
+   "dicek_utc": "2026-11-04T22:11:30Z",
+   "ok": false,
    "n": 9,
-   "pesan": "1 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "21:18:59 PEKA mulai 2026-11-04T21:18:58Z ",
-  "21:19:31 dengar berita: 904 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "21:20:15 dengar GDELT: 1/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "21:20:15 pilah: {'masuk': 904, 'sudah_ada': 897, 'tidak_relevan': 2, 'bukan_kejadian': 1, 'gabung': 2, 'kasus_baru': 2, 'relevan': 4}",
-  "21:20:15 papan Polda: 38 Polda berkasus | titik rawan: 1"
+  "22:10:39 PEKA mulai 2026-11-04T22:10:39Z ",
+  "22:11:08 dengar berita: 904 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "22:11:30 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "22:11:30 pilah: {'masuk': 904, 'sudah_ada': 883, 'bukan_kejadian': 4, 'tidak_relevan': 2, 'gabung': 10, 'kasus_baru': 5, 'relevan': 15}",
+  "22:11:31 papan Polda: 38 Polda berkasus | titik rawan: 1"
  ]
 }
