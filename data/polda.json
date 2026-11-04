@@ -1,16 +1,16 @@
 {
- "diperbarui_utc": "2026-11-04T00:49:39Z",
+ "diperbarui_utc": "2026-11-04T01:40:55Z",
  "jendela_hari": 30,
  "hari_riwayat": 8,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1218,
+ "kasus_tanpa_polda": 1226,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 270,
+   "kasus": 272,
    "perlu": 110,
    "perlu_tanggap": 23,
    "persen_tanggap": 20.9,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "darurat",
-     79
+     81
     ],
     [
      "jalanan",
@@ -64,35 +64,6 @@
    ]
   },
   {
-   "polda": "Polda Metro Jaya",
-   "provinsi": [
-    "31"
-   ],
-   "kasus": 118,
-   "perlu": 45,
-   "perlu_tanggap": 14,
-   "persen_tanggap": 31.1,
-   "tanggap": 77,
-   "jalur_khusus": 3,
-   "melewati_batas": 15,
-   "median_jeda_jam": 2.5,
-   "n_jeda": 14,
-   "topik_teratas": [
-    [
-     "narkoba",
-     36
-    ],
-    [
-     "jalanan",
-     27
-    ],
-    [
-     "darurat",
-     25
-    ]
-   ]
-  },
-  {
    "polda": "Polda Jawa Tengah",
    "provinsi": [
     "33"
@@ -103,7 +74,7 @@
    "persen_tanggap": 21.6,
    "tanggap": 53,
    "jalur_khusus": 8,
-   "melewati_batas": 17,
+   "melewati_batas": 19,
    "median_jeda_jam": 10.2,
    "n_jeda": 8,
    "topik_teratas": [
@@ -118,6 +89,35 @@
     [
      "penipuan",
      10
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Metro Jaya",
+   "provinsi": [
+    "31"
+   ],
+   "kasus": 119,
+   "perlu": 36,
+   "perlu_tanggap": 14,
+   "persen_tanggap": 38.9,
+   "tanggap": 78,
+   "jalur_khusus": 3,
+   "melewati_batas": 10,
+   "median_jeda_jam": 2.5,
+   "n_jeda": 14,
+   "topik_teratas": [
+    [
+     "narkoba",
+     36
+    ],
+    [
+     "jalanan",
+     27
+    ],
+    [
+     "darurat",
+     25
     ]
    ]
   },
@@ -764,11 +764,11 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 28,
+   "kasus": 29,
    "perlu": 5,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 19,
+   "tanggap": 20,
    "jalur_khusus": 1,
    "melewati_batas": 3,
    "median_jeda_jam": null,
@@ -776,7 +776,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     11
+     12
     ],
     [
      "darurat",
