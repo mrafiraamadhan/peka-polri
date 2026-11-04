@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-04T20:34:13Z",
+ "diperbarui_utc": "2026-11-04T21:18:58Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 19,
@@ -77,7 +77,7 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 6,
    "PANTAU": 7,
-   "TERCATAT": 47
+   "TERCATAT": 48
   },
   "32": {
    "nama": "Jawa Barat",
@@ -316,14 +316,14 @@
    "sumber": 4
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 896,
+   "relevan": 4,
+   "sudah_ada": 897,
    "hoaks": 0,
-   "tidak_relevan": 0,
+   "tidak_relevan": 2,
    "bukan_kejadian": 1,
    "luar_negeri": 0,
    "kasus_baru": 2,
-   "digabung": 5
+   "digabung": 2
   },
   "timbang": {
    "DARURAT": 0,
@@ -337,15 +337,15 @@
    "kasus": 255
   },
   "kabarkan": {
-   "tanggapan_terlihat": 728,
+   "tanggapan_terlihat": 729,
    "kasus": 1679,
-   "tanggapan_sejak_berita_pertama": 626,
+   "tanggapan_sejak_berita_pertama": 627,
    "median_jeda_jam": 8.7,
    "n_jeda": 102,
    "melewati_batas": 115
   },
   "arsipkan": {
-   "baris": 3354,
+   "baris": 3356,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 9
@@ -379,11 +379,11 @@
  ],
  "lonjakan_nasional": [
   {
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
    "kemarin": 1,
-   "rata28": 1.1,
-   "rasio": 0.93,
+   "rata28": 8.5,
+   "rasio": 0.12,
    "lonjakan": false
   }
  ],
