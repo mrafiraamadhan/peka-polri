@@ -1,8 +1,8 @@
 {
- "diperbarui_utc": "2026-11-04T18:51:41Z",
+ "diperbarui_utc": "2026-11-04T19:42:58Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 18,
+  "perkara": 19,
   "anggota": 28,
   "kekerasan": 1
  },
@@ -10,12 +10,12 @@
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 47,
+  "JALUR KHUSUS": 48,
   "TINDAK": 65,
   "PANTAU": 142,
-  "TERCATAT": 1423
+  "TERCATAT": 1425
  },
- "kasus_aktif": 1677,
+ "kasus_aktif": 1680,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 390
+   "kasus": 393
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 350
+   "kasus": 349
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 83
+   "kasus": 84
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -61,7 +61,7 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 13,
    "PANTAU": 22,
-   "TERCATAT": 143
+   "TERCATAT": 142
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -188,7 +188,7 @@
    "polda": "Polda Lampung",
    "TINDAK": 3,
    "PANTAU": 6,
-   "TERCATAT": 31
+   "TERCATAT": 32
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -316,36 +316,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 894,
+   "relevan": 10,
+   "sudah_ada": 889,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 3,
+   "bukan_kejadian": 5,
    "luar_negeri": 0,
-   "kasus_baru": 2,
-   "digabung": 5
+   "kasus_baru": 4,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 47,
+   "JALUR KHUSUS": 48,
    "TINDAK": 65,
    "PANTAU": 142,
-   "TERCATAT": 1423
+   "TERCATAT": 1425
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 254
+   "kasus": 255
   },
   "kabarkan": {
-   "tanggapan_terlihat": 727,
-   "kasus": 1677,
-   "tanggapan_sejak_berita_pertama": 625,
+   "tanggapan_terlihat": 728,
+   "kasus": 1680,
+   "tanggapan_sejak_berita_pertama": 626,
    "median_jeda_jam": 8.7,
    "n_jeda": 102,
-   "melewati_batas": 114
+   "melewati_batas": 115
   },
   "arsipkan": {
-   "baris": 3348,
+   "baris": 3352,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 9
@@ -365,7 +365,7 @@
    "prov": "Lampung",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 5,
+   "hari_ini": 6,
    "rata": 1.78
   },
   {
