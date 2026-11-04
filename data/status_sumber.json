@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-03T23:58:01Z",
+ "diperbarui_utc": "2026-11-04T00:49:39Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-03T23:58:30Z",
+   "dicek_utc": "2026-11-04T00:50:10Z",
    "ok": true,
-   "n": 905,
+   "n": 909,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-03T23:58:32Z",
+   "dicek_utc": "2026-11-04T00:50:12Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-03T23:58:33Z",
+   "dicek_utc": "2026-11-04T00:50:13Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-03T23:59:13Z",
-   "ok": true,
+   "dicek_utc": "2026-11-04T00:50:33Z",
+   "ok": false,
    "n": 9,
-   "pesan": "1 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 6 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "23:58:02 PEKA mulai 2026-11-03T23:58:01Z ",
-  "23:58:30 dengar berita: 905 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "23:59:13 dengar GDELT: 1/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "23:59:13 pilah: {'masuk': 905, 'sudah_ada': 889, 'bukan_kejadian': 3, 'luar_negeri': 1, 'kasus_baru': 4, 'gabung': 8, 'relevan': 12}",
-  "23:59:13 papan Polda: 38 Polda berkasus | titik rawan: 0"
+  "00:49:39 PEKA mulai 2026-11-04T00:49:39Z ",
+  "00:50:10 dengar berita: 909 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "00:50:33 dengar GDELT: 0/6 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "00:50:33 pilah: {'masuk': 909, 'sudah_ada': 873, 'bukan_kejadian': 9, 'tidak_relevan': 4, 'gabung': 13, 'kasus_baru': 10, 'relevan': 23}",
+  "00:50:33 papan Polda: 38 Polda berkasus | titik rawan: 0"
  ]
 }
