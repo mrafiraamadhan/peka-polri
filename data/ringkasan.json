@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-04T19:42:58Z",
+ "diperbarui_utc": "2026-11-04T20:34:13Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 19,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 48,
   "TINDAK": 65,
   "PANTAU": 142,
-  "TERCATAT": 1425
+  "TERCATAT": 1424
  },
- "kasus_aktif": 1680,
+ "kasus_aktif": 1679,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 393
+   "kasus": 392
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 349
+   "kasus": 350
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 84
+   "kasus": 83
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -61,7 +61,7 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 13,
    "PANTAU": 22,
-   "TERCATAT": 142
+   "TERCATAT": 143
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -313,24 +313,24 @@
  "langkah": {
   "dengar": {
    "artikel": 904,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 10,
-   "sudah_ada": 889,
+   "relevan": 7,
+   "sudah_ada": 896,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 5,
+   "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 4,
-   "digabung": 6
+   "kasus_baru": 2,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 48,
    "TINDAK": 65,
    "PANTAU": 142,
-   "TERCATAT": 1425
+   "TERCATAT": 1424
   },
   "teruskan": {
    "polda": 36,
@@ -338,14 +338,14 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 728,
-   "kasus": 1680,
+   "kasus": 1679,
    "tanggapan_sejak_berita_pertama": 626,
    "median_jeda_jam": 8.7,
    "n_jeda": 102,
    "melewati_batas": 115
   },
   "arsipkan": {
-   "baris": 3352,
+   "baris": 3354,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 9
@@ -366,7 +366,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 6,
-   "rata": 1.78
+   "rata": 1.89
   },
   {
    "kode_prov": "52",
@@ -377,7 +377,16 @@
    "rata": 1.33
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kemarin": 1,
+   "rata28": 1.1,
+   "rasio": 0.93,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 9,
  "gempa_darurat": [],
  "hoaks_terbaru": [
