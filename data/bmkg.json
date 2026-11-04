@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-04T07:58:34Z",
+ "diperbarui_utc": "2026-11-04T08:49:47Z",
  "terbaru": {
-  "waktu_utc": "2026-11-04T00:50:34Z",
-  "magnitudo": 4.4,
-  "kedalaman": "15 km",
-  "wilayah": "Pusat gempa berada di laut 88 km timur laut Ruteng, Manggarai",
+  "waktu_utc": "2026-11-04T07:56:34Z",
+  "magnitudo": 3.4,
+  "kedalaman": "10 km",
+  "wilayah": "Pusat gempa berada di darat 40 km timur laut Sigi",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Kab. Manggarai",
-  "koordinat": "-7.94,120.89",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "III Sigi, II Palu",
+  "koordinat": "-1.14,120.15",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-04T07:56:34Z",
+   "magnitudo": 3.4,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di darat 40 km timur laut Sigi",
+   "potensi": null,
+   "dirasakan": "III Sigi, II Palu",
+   "koordinat": "-1.14,120.15",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-04T00:50:34Z",
    "magnitudo": 4.4,
@@ -165,17 +176,6 @@
    "koordinat": "-0.72,131.38",
    "prov": "Papua Barat Daya",
    "kode_prov": "92"
-  },
-  {
-   "waktu_utc": "2026-10-29T18:58:30Z",
-   "magnitudo": 4.3,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di darat 31 km Timur Laut Kabupaten Gayolues",
-   "potensi": null,
-   "dirasakan": "III Takengon",
-   "koordinat": "4.18,97.55",
-   "prov": null,
-   "kode_prov": null
   }
  ],
  "m5": [
