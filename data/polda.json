@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-04T23:53:08Z",
+ "diperbarui_utc": "2026-11-05T00:44:20Z",
  "jendela_hari": 30,
  "hari_riwayat": 9,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1399,
+ "kasus_tanpa_polda": 1404,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -45,7 +45,7 @@
    "persen_tanggap": 11.3,
    "tanggap": 65,
    "jalur_khusus": 3,
-   "melewati_batas": 26,
+   "melewati_batas": 27,
    "median_jeda_jam": 6.1,
    "n_jeda": 6,
    "topik_teratas": [
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 139,
-   "perlu": 50,
+   "kasus": 140,
+   "perlu": 51,
    "perlu_tanggap": 16,
-   "persen_tanggap": 32.0,
+   "persen_tanggap": 31.4,
    "tanggap": 85,
    "jalur_khusus": 4,
    "melewati_batas": 17,
@@ -213,10 +213,10 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 72,
-   "perlu": 25,
+   "kasus": 73,
+   "perlu": 26,
    "perlu_tanggap": 6,
-   "persen_tanggap": 24.0,
+   "persen_tanggap": 23.1,
    "tanggap": 47,
    "jalur_khusus": 2,
    "melewati_batas": 13,
@@ -225,7 +225,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     29
+     30
     ],
     [
      "lalulintas",
@@ -325,6 +325,64 @@
    ]
   },
   {
+   "polda": "Polda Nusa Tenggara Barat",
+   "provinsi": [
+    "52"
+   ],
+   "kasus": 46,
+   "perlu": 14,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 14.3,
+   "tanggap": 31,
+   "jalur_khusus": 2,
+   "melewati_batas": 5,
+   "median_jeda_jam": 6.7,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "jalanan",
+     13
+    ],
+    [
+     "narkoba",
+     12
+    ],
+    [
+     "perempuan_anak",
+     5
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Kepulauan Riau",
+   "provinsi": [
+    "21"
+   ],
+   "kasus": 34,
+   "perlu": 14,
+   "perlu_tanggap": 4,
+   "persen_tanggap": 28.6,
+   "tanggap": 22,
+   "jalur_khusus": 1,
+   "melewati_batas": 6,
+   "median_jeda_jam": 11.4,
+   "n_jeda": 4,
+   "topik_teratas": [
+    [
+     "jalanan",
+     8
+    ],
+    [
+     "narkoba",
+     8
+    ],
+    [
+     "anggota",
+     7
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kepulauan Bangka Belitung",
    "provinsi": [
     "19"
@@ -379,64 +437,6 @@
     [
      "darurat",
      6
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Nusa Tenggara Barat",
-   "provinsi": [
-    "52"
-   ],
-   "kasus": 45,
-   "perlu": 13,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 15.4,
-   "tanggap": 31,
-   "jalur_khusus": 2,
-   "melewati_batas": 5,
-   "median_jeda_jam": 6.7,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "jalanan",
-     13
-    ],
-    [
-     "narkoba",
-     12
-    ],
-    [
-     "perempuan_anak",
-     5
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kepulauan Riau",
-   "provinsi": [
-    "21"
-   ],
-   "kasus": 33,
-   "perlu": 13,
-   "perlu_tanggap": 4,
-   "persen_tanggap": 30.8,
-   "tanggap": 22,
-   "jalur_khusus": 1,
-   "melewati_batas": 6,
-   "median_jeda_jam": 11.4,
-   "n_jeda": 4,
-   "topik_teratas": [
-    [
-     "jalanan",
-     8
-    ],
-    [
-     "narkoba",
-     8
-    ],
-    [
-     "anggota",
-     7
     ]
    ]
   },
@@ -673,6 +673,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Barat",
+   "provinsi": [
+    "76"
+   ],
+   "kasus": 17,
+   "perlu": 7,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 8,
+   "jalur_khusus": 0,
+   "melewati_batas": 5,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     6
+    ],
+    [
+     "perempuan_anak",
+     4
+    ],
+    [
+     "konflik",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Papua Barat",
    "provinsi": [
     "91"
@@ -756,35 +785,6 @@
     [
      "darurat",
      3
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Barat",
-   "provinsi": [
-    "76"
-   ],
-   "kasus": 15,
-   "perlu": 6,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 7,
-   "jalur_khusus": 0,
-   "melewati_batas": 5,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     5
-    ],
-    [
-     "perempuan_anak",
-     4
-    ],
-    [
-     "konflik",
-     2
     ]
    ]
   },
@@ -1123,6 +1123,25 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "2171",
+   "kabkota": "Kota Batam",
+   "kode_prov": "21",
+   "provinsi": "Kepulauan Riau",
+   "polda": "Polda Kepulauan Riau",
+   "polres": "Polresta Barelang",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 3,
+   "kasus": 4,
+   "tanggal": [
+    "2026-10-27",
+    "2026-10-31",
+    "2026-11-04"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
