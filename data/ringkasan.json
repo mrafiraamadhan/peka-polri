@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-05T18:43:41Z",
+ "diperbarui_utc": "2026-11-05T19:34:57Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 19,
@@ -12,10 +12,10 @@
   "DARURAT": 0,
   "JALUR KHUSUS": 49,
   "TINDAK": 75,
-  "PANTAU": 147,
-  "TERCATAT": 1359
+  "PANTAU": 149,
+  "TERCATAT": 1360
  },
- "kasus_aktif": 1630,
+ "kasus_aktif": 1633,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -31,11 +31,11 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 126
+   "kasus": 127
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 323
+   "kasus": 324
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 73
+   "kasus": 74
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -77,7 +77,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -92,7 +92,7 @@
    "polda": "Polda Bali",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 4,
+   "PANTAU": 5,
    "TERCATAT": 35
   },
   "31": {
@@ -176,8 +176,8 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
-   "PANTAU": 5,
-   "TERCATAT": 44
+   "PANTAU": 6,
+   "TERCATAT": 43
   },
   "11": {
    "nama": "Aceh",
@@ -319,40 +319,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 910,
-   "sumber": 3
+   "artikel": 909,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 1,
-   "sudah_ada": 906,
+   "relevan": 10,
+   "sudah_ada": 897,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 1,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 2,
    "luar_negeri": 0,
-   "kasus_baru": 1,
-   "digabung": 0
+   "kasus_baru": 5,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 49,
    "TINDAK": 75,
-   "PANTAU": 147,
-   "TERCATAT": 1359
+   "PANTAU": 149,
+   "TERCATAT": 1360
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 271
+   "kasus": 273
   },
   "kabarkan": {
-   "tanggapan_terlihat": 712,
-   "kasus": 1630,
-   "tanggapan_sejak_berita_pertama": 617,
+   "tanggapan_terlihat": 711,
+   "kasus": 1633,
+   "tanggapan_sejak_berita_pertama": 616,
    "median_jeda_jam": 10.5,
    "n_jeda": 95,
    "melewati_batas": 103
   },
   "arsipkan": {
-   "baris": 3815,
+   "baris": 3820,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 10
@@ -373,7 +373,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 5,
-   "rata": 1.2
+   "rata": 1.3
   },
   {
    "kode_prov": null,
@@ -400,7 +400,16 @@
    "rata": 1.5
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "anggota",
+   "nama": "Perilaku anggota",
+   "kemarin": 0,
+   "rata28": 1.0,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 10,
  "gempa_darurat": [],
  "hoaks_terbaru": [
