@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-05T17:41:38Z",
+ "diperbarui_utc": "2026-11-05T18:32:53Z",
  "jendela_hari": 30,
  "hari_riwayat": 10,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1575,
+ "kasus_tanpa_polda": 1578,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,11 +39,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 179,
+   "kasus": 180,
    "perlu": 60,
    "perlu_tanggap": 7,
    "persen_tanggap": 11.7,
-   "tanggap": 74,
+   "tanggap": 75,
    "jalur_khusus": 3,
    "melewati_batas": 32,
    "median_jeda_jam": 1.8,
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     52
+     53
     ],
     [
      "narkoba",
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 133,
-   "perlu": 46,
+   "kasus": 134,
+   "perlu": 47,
    "perlu_tanggap": 9,
-   "persen_tanggap": 19.6,
+   "persen_tanggap": 19.1,
    "tanggap": 61,
    "jalur_khusus": 10,
    "melewati_batas": 22,
@@ -300,7 +300,7 @@
    "provinsi": [
     "51"
    ],
-   "kasus": 73,
+   "kasus": 74,
    "perlu": 18,
    "perlu_tanggap": 2,
    "persen_tanggap": 11.1,
@@ -312,7 +312,7 @@
    "topik_teratas": [
     [
      "darurat",
-     43
+     44
     ],
     [
      "narkoba",
@@ -499,6 +499,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Tenggara",
+   "provinsi": [
+    "74"
+   ],
+   "kasus": 35,
+   "perlu": 11,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 9.1,
+   "tanggap": 23,
+   "jalur_khusus": 1,
+   "melewati_batas": 6,
+   "median_jeda_jam": 18.4,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     16
+    ],
+    [
+     "jalanan",
+     7
+    ],
+    [
+     "penipuan",
+     4
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Selatan",
    "provinsi": [
     "63"
@@ -524,35 +553,6 @@
     [
      "narkoba",
      6
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Tenggara",
-   "provinsi": [
-    "74"
-   ],
-   "kasus": 34,
-   "perlu": 11,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 9.1,
-   "tanggap": 22,
-   "jalur_khusus": 1,
-   "melewati_batas": 6,
-   "median_jeda_jam": 18.4,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     15
-    ],
-    [
-     "jalanan",
-     7
-    ],
-    [
-     "penipuan",
-     4
     ]
    ]
   },
