@@ -1,28 +1,28 @@
 {
- "diperbarui_utc": "2026-11-05T05:51:18Z",
+ "diperbarui_utc": "2026-11-05T06:42:34Z",
  "jendela_hari": 30,
  "hari_riwayat": 9,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1442,
+ "kasus_tanpa_polda": 1455,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 319,
-   "perlu": 120,
+   "kasus": 324,
+   "perlu": 123,
    "perlu_tanggap": 28,
-   "persen_tanggap": 23.3,
-   "tanggap": 151,
-   "jalur_khusus": 11,
+   "persen_tanggap": 22.8,
+   "tanggap": 152,
+   "jalur_khusus": 12,
    "melewati_batas": 64,
    "median_jeda_jam": 12.6,
    "n_jeda": 28,
    "topik_teratas": [
     [
      "darurat",
-     95
+     96
     ],
     [
      "jalanan",
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     45
+     47
     ]
    ]
   },
@@ -39,7 +39,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 164,
+   "kasus": 165,
    "perlu": 54,
    "perlu_tanggap": 6,
    "persen_tanggap": 11.1,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "darurat",
-     52
+     53
     ],
     [
      "jalanan",
@@ -68,13 +68,13 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 142,
-   "perlu": 53,
+   "kasus": 143,
+   "perlu": 54,
    "perlu_tanggap": 16,
-   "persen_tanggap": 30.2,
+   "persen_tanggap": 29.6,
    "tanggap": 85,
    "jalur_khusus": 4,
-   "melewati_batas": 18,
+   "melewati_batas": 20,
    "median_jeda_jam": 1.6,
    "n_jeda": 16,
    "topik_teratas": [
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     31
+     32
     ],
     [
      "darurat",
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 130,
-   "perlu": 45,
+   "kasus": 131,
+   "perlu": 46,
    "perlu_tanggap": 9,
-   "persen_tanggap": 20.0,
+   "persen_tanggap": 19.6,
    "tanggap": 61,
    "jalur_khusus": 10,
    "melewati_batas": 21,
@@ -151,6 +151,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Selatan",
+   "provinsi": [
+    "73"
+   ],
+   "kasus": 53,
+   "perlu": 29,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 20.7,
+   "tanggap": 24,
+   "jalur_khusus": 8,
+   "melewati_batas": 15,
+   "median_jeda_jam": 6.2,
+   "n_jeda": 6,
+   "topik_teratas": [
+    [
+     "jalanan",
+     19
+    ],
+    [
+     "anggota",
+     9
+    ],
+    [
+     "konflik",
+     7
+    ]
+   ]
+  },
+  {
    "polda": "Polda Riau",
    "provinsi": [
     "14"
@@ -176,35 +205,6 @@
     [
      "jalanan",
      10
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Selatan",
-   "provinsi": [
-    "73"
-   ],
-   "kasus": 52,
-   "perlu": 28,
-   "perlu_tanggap": 6,
-   "persen_tanggap": 21.4,
-   "tanggap": 24,
-   "jalur_khusus": 8,
-   "melewati_batas": 14,
-   "median_jeda_jam": 6.2,
-   "n_jeda": 6,
-   "topik_teratas": [
-    [
-     "jalanan",
-     19
-    ],
-    [
-     "anggota",
-     9
-    ],
-    [
-     "konflik",
-     6
     ]
    ]
   },
@@ -242,10 +242,10 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 96,
-   "perlu": 22,
+   "kasus": 98,
+   "perlu": 23,
    "perlu_tanggap": 5,
-   "persen_tanggap": 22.7,
+   "persen_tanggap": 21.7,
    "tanggap": 48,
    "jalur_khusus": 0,
    "melewati_batas": 13,
@@ -254,7 +254,7 @@
    "topik_teratas": [
     [
      "darurat",
-     43
+     44
     ],
     [
      "narkoba",
@@ -358,10 +358,10 @@
    "provinsi": [
     "21"
    ],
-   "kasus": 34,
-   "perlu": 14,
+   "kasus": 35,
+   "perlu": 15,
    "perlu_tanggap": 4,
-   "persen_tanggap": 28.6,
+   "persen_tanggap": 26.7,
    "tanggap": 22,
    "jalur_khusus": 1,
    "melewati_batas": 6,
@@ -370,7 +370,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     8
+     9
     ],
     [
      "narkoba",
@@ -387,13 +387,13 @@
    "provinsi": [
     "19"
    ],
-   "kasus": 27,
+   "kasus": 29,
    "perlu": 14,
    "perlu_tanggap": 1,
    "persen_tanggap": 7.1,
-   "tanggap": 11,
+   "tanggap": 12,
    "jalur_khusus": 4,
-   "melewati_batas": 7,
+   "melewati_batas": 8,
    "median_jeda_jam": 3.1,
    "n_jeda": 1,
    "topik_teratas": [
@@ -403,7 +403,7 @@
     ],
     [
      "darurat",
-     4
+     5
     ],
     [
      "anggota",
@@ -445,7 +445,7 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 39,
+   "kasus": 40,
    "perlu": 11,
    "perlu_tanggap": 1,
    "persen_tanggap": 9.1,
@@ -461,7 +461,7 @@
     ],
     [
      "darurat",
-     8
+     9
     ],
     [
      "jalanan",
@@ -590,11 +590,11 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 53,
+   "kasus": 54,
    "perlu": 8,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 35,
+   "tanggap": 36,
    "jalur_khusus": 3,
    "melewati_batas": 4,
    "median_jeda_jam": null,
@@ -610,7 +610,7 @@
     ],
     [
      "narkoba",
-     7
+     8
     ]
    ]
   },
@@ -677,22 +677,22 @@
    "provinsi": [
     "65"
    ],
-   "kasus": 24,
+   "kasus": 26,
    "perlu": 7,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 15,
+   "tanggap": 17,
    "jalur_khusus": 0,
    "melewati_batas": 5,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [
     [
-     "jalanan",
-     9
+     "narkoba",
+     11
     ],
     [
-     "narkoba",
+     "jalanan",
      9
     ],
     [
@@ -764,7 +764,7 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 33,
+   "kasus": 34,
    "perlu": 6,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
@@ -779,11 +779,11 @@
      14
     ],
     [
-     "jalanan",
-     5
+     "darurat",
+     6
     ],
     [
-     "darurat",
+     "jalanan",
      5
     ]
    ]
@@ -876,6 +876,35 @@
    ]
   },
   {
+   "polda": "Polda Maluku",
+   "provinsi": [
+    "81"
+   ],
+   "kasus": 14,
+   "perlu": 4,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 25.0,
+   "tanggap": 10,
+   "jalur_khusus": 2,
+   "melewati_batas": 2,
+   "median_jeda_jam": 1.0,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     5
+    ],
+    [
+     "anggota",
+     3
+    ],
+    [
+     "darurat",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Bengkulu",
    "provinsi": [
     "17"
@@ -900,35 +929,6 @@
     ],
     [
      "perempuan_anak",
-     2
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Maluku",
-   "provinsi": [
-    "81"
-   ],
-   "kasus": 13,
-   "perlu": 4,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 25.0,
-   "tanggap": 9,
-   "jalur_khusus": 2,
-   "melewati_batas": 2,
-   "median_jeda_jam": 1.0,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     5
-    ],
-    [
-     "anggota",
-     3
-    ],
-    [
-     "darurat",
      2
     ]
    ]
@@ -992,6 +992,35 @@
    ]
   },
   {
+   "polda": "Polda yang membawahi Papua Selatan",
+   "provinsi": [
+    "95"
+   ],
+   "kasus": 11,
+   "perlu": 2,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 3,
+   "jalur_khusus": 0,
+   "melewati_batas": 0,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "darurat",
+     6
+    ],
+    [
+     "jalanan",
+     3
+    ],
+    [
+     "lalulintas",
+     1
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sulawesi Utara",
    "provinsi": [
     "71"
@@ -1017,35 +1046,6 @@
     [
      "lalulintas",
      2
-    ]
-   ]
-  },
-  {
-   "polda": "Polda yang membawahi Papua Selatan",
-   "provinsi": [
-    "95"
-   ],
-   "kasus": 10,
-   "perlu": 2,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 3,
-   "jalur_khusus": 0,
-   "melewati_batas": 0,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "darurat",
-     5
-    ],
-    [
-     "jalanan",
-     3
-    ],
-    [
-     "lalulintas",
-     1
     ]
    ]
   },
@@ -1161,6 +1161,25 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3309",
+   "kabkota": "Kabupaten Boyolali",
+   "kode_prov": "33",
+   "provinsi": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "polres": "Polres Boyolali",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 3,
+   "kasus": 4,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-02",
+    "2026-11-05"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Boyolali bersama pemerintah daerah"
   },
   {
    "kode_kab": "2171",
