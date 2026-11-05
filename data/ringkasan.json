@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-05T02:25:36Z",
+ "diperbarui_utc": "2026-11-05T03:16:56Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 19,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 46,
   "TINDAK": 64,
   "PANTAU": 145,
-  "TERCATAT": 1405
+  "TERCATAT": 1401
  },
- "kasus_aktif": 1660,
+ "kasus_aktif": 1656,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,15 +27,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 384
+   "kasus": 388
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 112
+   "kasus": 113
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 352
+   "kasus": 353
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 83
+   "kasus": 82
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 491
+   "kasus": 482
   }
  },
  "provinsi": {
@@ -61,22 +61,22 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 11,
    "PANTAU": 23,
-   "TERCATAT": 146
+   "TERCATAT": 148
   },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 2,
-   "TINDAK": 2,
+   "TINDAK": 3,
    "PANTAU": 4,
-   "TERCATAT": 16
+   "TERCATAT": 15
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 9,
-   "PANTAU": 15,
+   "PANTAU": 16,
    "TERCATAT": 68
   },
   "16": {
@@ -101,7 +101,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 36
+   "TERCATAT": 37
   },
   "31": {
    "nama": "DKI Jakarta",
@@ -109,7 +109,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 5,
    "PANTAU": 14,
-   "TERCATAT": 44
+   "TERCATAT": 42
   },
   "92": {
    "nama": "Papua Barat Daya",
@@ -137,7 +137,7 @@
    "polda": "Polda Jambi",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -145,7 +145,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 4,
    "PANTAU": 3,
-   "TERCATAT": 21
+   "TERCATAT": 22
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -174,7 +174,7 @@
    "polda": "Polda Aceh",
    "TINDAK": 3,
    "PANTAU": 7,
-   "TERCATAT": 42
+   "TERCATAT": 40
   },
   "18": {
    "nama": "Lampung",
@@ -187,8 +187,8 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "TINDAK": 3,
-   "PANTAU": 9,
-   "TERCATAT": 44
+   "PANTAU": 7,
+   "TERCATAT": 45
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -202,20 +202,14 @@
    "polda": "Polda Sulawesi Tengah",
    "TINDAK": 1,
    "PANTAU": 1,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
    "TINDAK": 3,
-   "PANTAU": 5,
+   "PANTAU": 6,
    "TERCATAT": 33
-  },
-  "95": {
-   "nama": "Papua Selatan",
-   "polda": "Polda yang membawahi Papua Selatan",
-   "TINDAK": 1,
-   "TERCATAT": 4
   },
   "91": {
    "nama": "Papua Barat",
@@ -242,13 +236,13 @@
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
    "PANTAU": 1,
-   "TERCATAT": 13
+   "TERCATAT": 14
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "PANTAU": 6,
-   "TERCATAT": 8
+   "TERCATAT": 7
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -278,13 +272,13 @@
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "PANTAU": 1,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "82": {
    "nama": "Maluku Utara",
    "polda": "Polda Maluku Utara",
    "PANTAU": 1,
-   "TERCATAT": 7
+   "TERCATAT": 8
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -296,7 +290,7 @@
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "PANTAU": 1,
-   "TERCATAT": 17
+   "TERCATAT": 14
   },
   "94": {
    "nama": "Papua",
@@ -309,6 +303,11 @@
    "polda": "Polda Bengkulu",
    "PANTAU": 1,
    "TERCATAT": 3
+  },
+  "95": {
+   "nama": "Papua Selatan",
+   "polda": "Polda yang membawahi Papua Selatan",
+   "TERCATAT": 4
   }
  },
  "langkah": {
@@ -317,50 +316,42 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 36,
-   "sudah_ada": 850,
+   "relevan": 42,
+   "sudah_ada": 842,
    "hoaks": 0,
-   "tidak_relevan": 5,
-   "bukan_kejadian": 13,
-   "luar_negeri": 0,
+   "tidak_relevan": 4,
+   "bukan_kejadian": 15,
+   "luar_negeri": 1,
    "kasus_baru": 16,
-   "digabung": 20
+   "digabung": 26
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 46,
    "TINDAK": 64,
    "PANTAU": 145,
-   "TERCATAT": 1405
+   "TERCATAT": 1401
   },
   "teruskan": {
-   "polda": 37,
+   "polda": 36,
    "kasus": 255
   },
   "kabarkan": {
-   "tanggapan_terlihat": 716,
-   "kasus": 1660,
-   "tanggapan_sejak_berita_pertama": 615,
+   "tanggapan_terlihat": 719,
+   "kasus": 1656,
+   "tanggapan_sejak_berita_pertama": 616,
    "median_jeda_jam": 9.6,
-   "n_jeda": 101,
-   "melewati_batas": 110
+   "n_jeda": 103,
+   "melewati_batas": 113
   },
   "arsipkan": {
-   "baris": 3415,
+   "baris": 3431,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 9
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "18",
-   "prov": "Lampung",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "hari_ini": 7,
-   "rata": 1.89
-  },
   {
    "kode_prov": "52",
    "prov": "Nusa Tenggara Barat",
@@ -376,12 +367,25 @@
    "nama": "Konflik dan kerumunan",
    "hari_ini": 6,
    "rata": 1.67
+  },
+  {
+   "kode_prov": "18",
+   "prov": "Lampung",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 6,
+   "rata": 1.89
   }
  ],
  "lonjakan_nasional": [],
  "hari_riwayat": 9,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] \"JKT MEMBARA !! RUMAH DIN4S MPR DI BAKAR HINGG4 H4BIS\"",
+   "url": "https://turnbackhoax.id/articles/37365-salah-jkt-membara-rumah-din4s-mpr-di-bakar-hingg4-h4bis",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Mendes PDT Marah karena Warga Tidak Belanja di Kopdes",
    "url": "https://turnbackhoax.id/articles/37359-salah-mendes-pdt-marah-karena-warga-tidak-belanja-di-kopdes",
@@ -405,11 +409,6 @@
   {
    "judul": "[SALAH] Rutin Konsumsi Bawang Merah Bisa Obati Diabetes Tipe 1",
    "url": "https://turnbackhoax.id/articles/37347-salah-rutin-konsumsi-bawang-merah-bisa-obati-diabetes-tipe-1",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] BPJS Bakal Dihapus, Diganti Klinik Kopdes",
-   "url": "https://turnbackhoax.id/articles/37338-salah-bpjs-bakal-dihapus-diganti-klinik-kopdes",
    "terbit": null
   }
  ]
