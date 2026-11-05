@@ -1,16 +1,16 @@
 {
- "diperbarui_utc": "2026-11-05T23:00:52Z",
+ "diperbarui_utc": "2026-11-05T23:52:19Z",
  "jendela_hari": 30,
  "hari_riwayat": 10,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1586,
+ "kasus_tanpa_polda": 1593,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 351,
+   "kasus": 352,
    "perlu": 133,
    "perlu_tanggap": 29,
    "persen_tanggap": 21.8,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "darurat",
-     102
+     103
     ],
     [
      "jalanan",
@@ -97,11 +97,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 134,
+   "kasus": 135,
    "perlu": 47,
    "perlu_tanggap": 10,
    "persen_tanggap": 21.3,
-   "tanggap": 62,
+   "tanggap": 63,
    "jalur_khusus": 10,
    "melewati_batas": 22,
    "median_jeda_jam": 10.2,
@@ -117,7 +117,7 @@
     ],
     [
      "narkoba",
-     13
+     14
     ]
    ]
   },
@@ -190,7 +190,7 @@
    "persen_tanggap": 20.7,
    "tanggap": 24,
    "jalur_khusus": 8,
-   "melewati_batas": 14,
+   "melewati_batas": 15,
    "median_jeda_jam": 6.2,
    "n_jeda": 6,
    "topik_teratas": [
@@ -242,7 +242,7 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 105,
+   "kasus": 106,
    "perlu": 24,
    "perlu_tanggap": 7,
    "persen_tanggap": 29.2,
@@ -254,7 +254,7 @@
    "topik_teratas": [
     [
      "darurat",
-     47
+     48
     ],
     [
      "narkoba",
@@ -735,11 +735,11 @@
    "provinsi": [
     "82"
    ],
-   "kasus": 23,
+   "kasus": 24,
    "perlu": 7,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 10,
+   "tanggap": 11,
    "jalur_khusus": 2,
    "melewati_batas": 2,
    "median_jeda_jam": null,
@@ -751,7 +751,7 @@
     ],
     [
      "narkoba",
-     5
+     6
     ],
     [
      "jalanan",
