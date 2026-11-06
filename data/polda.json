@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-06T21:44:02Z",
+ "diperbarui_utc": "2026-11-06T22:35:13Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1761,
+ "kasus_tanpa_polda": 1763,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 387,
-   "perlu": 144,
+   "kasus": 389,
+   "perlu": 145,
    "perlu_tanggap": 32,
-   "persen_tanggap": 22.2,
-   "tanggap": 184,
+   "persen_tanggap": 22.1,
+   "tanggap": 185,
    "jalur_khusus": 15,
    "melewati_batas": 79,
    "median_jeda_jam": 14.2,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "darurat",
-     110
+     111
     ],
     [
      "jalanan",
@@ -358,15 +358,15 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 66,
-   "perlu": 17,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 5.9,
-   "tanggap": 42,
+   "kasus": 67,
+   "perlu": 18,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 11.1,
+   "tanggap": 43,
    "jalur_khusus": 3,
    "melewati_batas": 10,
-   "median_jeda_jam": 21.3,
-   "n_jeda": 1,
+   "median_jeda_jam": 10.7,
+   "n_jeda": 2,
    "topik_teratas": [
     [
      "jalanan",
@@ -374,7 +374,7 @@
     ],
     [
      "darurat",
-     14
+     15
     ],
     [
      "lalulintas",
@@ -1201,6 +1201,25 @@
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3672",
+   "kabkota": "Kota Cilegon",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Banten",
+   "polres": "Polres Cilegon",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 3,
+   "kasus": 8,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-03",
+    "2026-11-07"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Cilegon bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1671",
    "kabkota": "Kota Palembang",
    "kode_prov": "16",
@@ -1731,6 +1750,25 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Gunung Mas bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3517",
+   "kabkota": "Kabupaten Jombang",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polres Jombang",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 3,
+   "kasus": 3,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-03",
+    "2026-11-07"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polres Jombang bersama pemerintah daerah"
   },
   {
    "kode_kab": "1371",
