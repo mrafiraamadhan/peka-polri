@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-06T02:47:54Z",
+ "diperbarui_utc": "2026-11-06T03:39:10Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 19,
-  "anggota": 30,
+  "anggota": 31,
   "kekerasan": 1
  },
- "anggota_sudah_ditangani": 23,
+ "anggota_sudah_ditangani": 24,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 50,
-  "TINDAK": 70,
-  "PANTAU": 143,
-  "TERCATAT": 1336
+  "JALUR KHUSUS": 51,
+  "TINDAK": 71,
+  "PANTAU": 142,
+  "TERCATAT": 1331
  },
- "kasus_aktif": 1599,
+ "kasus_aktif": 1595,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 58
+   "kasus": 60
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -27,11 +27,11 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 387
+   "kasus": 389
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 128
+   "kasus": 126
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 69
+   "kasus": 68
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 470
+   "kasus": 465
   }
  },
  "provinsi": {
@@ -59,7 +59,7 @@
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 1,
-   "TINDAK": 3,
+   "TINDAK": 4,
    "PANTAU": 2,
    "TERCATAT": 13
   },
@@ -69,7 +69,7 @@
    "JALUR KHUSUS": 7,
    "TINDAK": 11,
    "PANTAU": 19,
-   "TERCATAT": 142
+   "TERCATAT": 144
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -77,15 +77,15 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 3,
    "PANTAU": 1,
-   "TERCATAT": 12
+   "TERCATAT": 13
   },
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "JALUR KHUSUS": 3,
    "TINDAK": 7,
-   "PANTAU": 6,
-   "TERCATAT": 42
+   "PANTAU": 7,
+   "TERCATAT": 43
   },
   "51": {
    "nama": "Bali",
@@ -107,7 +107,7 @@
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "JALUR KHUSUS": 1,
-   "PANTAU": 5,
+   "PANTAU": 4,
    "TERCATAT": 12
   },
   "92": {
@@ -143,7 +143,7 @@
   "21": {
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
-   "JALUR KHUSUS": 1,
+   "JALUR KHUSUS": 2,
    "TINDAK": 1,
    "PANTAU": 1,
    "TERCATAT": 9
@@ -160,7 +160,7 @@
    "polda": "Polda Lampung",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 5,
+   "PANTAU": 4,
    "TERCATAT": 33
   },
   "82": {
@@ -169,7 +169,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 6
+   "TERCATAT": 7
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -177,14 +177,14 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 5,
-   "TERCATAT": 44
+   "TERCATAT": 45
   },
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "TINDAK": 2,
    "PANTAU": 6,
-   "TERCATAT": 39
+   "TERCATAT": 37
   },
   "14": {
    "nama": "Riau",
@@ -198,7 +198,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 9,
    "PANTAU": 19,
-   "TERCATAT": 64
+   "TERCATAT": 61
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -218,7 +218,6 @@
    "nama": "Sulawesi Barat",
    "polda": "Polda Sulawesi Barat",
    "TINDAK": 1,
-   "PANTAU": 1,
    "TERCATAT": 2
   },
   "64": {
@@ -226,7 +225,7 @@
    "polda": "Polda Kalimantan Timur",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 14
+   "TERCATAT": 13
   },
   "91": {
    "nama": "Papua Barat",
@@ -246,7 +245,7 @@
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "TINDAK": 1,
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 2
   },
   "53": {
@@ -273,7 +272,7 @@
    "nama": "Papua",
    "polda": "Polda Papua",
    "PANTAU": 2,
-   "TERCATAT": 4
+   "TERCATAT": 3
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -303,7 +302,7 @@
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "PANTAU": 1,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "95": {
    "nama": "Papua Selatan",
@@ -314,7 +313,7 @@
   "96": {
    "nama": "Papua Tengah",
    "polda": "Polda yang membawahi Papua Tengah",
-   "TERCATAT": 2
+   "TERCATAT": 3
   }
  },
  "langkah": {
@@ -323,50 +322,42 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 42,
-   "sudah_ada": 846,
-   "hoaks": 1,
-   "tidak_relevan": 6,
+   "relevan": 38,
+   "sudah_ada": 843,
+   "hoaks": 0,
+   "tidak_relevan": 13,
    "bukan_kejadian": 13,
-   "luar_negeri": 0,
+   "luar_negeri": 1,
    "kasus_baru": 18,
-   "digabung": 24
+   "digabung": 20
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 50,
-   "TINDAK": 70,
-   "PANTAU": 143,
-   "TERCATAT": 1336
+   "JALUR KHUSUS": 51,
+   "TINDAK": 71,
+   "PANTAU": 142,
+   "TERCATAT": 1331
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 263
+   "kasus": 264
   },
   "kabarkan": {
    "tanggapan_terlihat": 706,
-   "kasus": 1599,
+   "kasus": 1595,
    "tanggapan_sejak_berita_pertama": 610,
    "median_jeda_jam": 13.9,
    "n_jeda": 96,
-   "melewati_batas": 103
+   "melewati_batas": 107
   },
   "arsipkan": {
-   "baris": 3886,
+   "baris": 3904,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 10
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "61",
-   "prov": "Kalimantan Barat",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "hari_ini": 5,
-   "rata": 1.3
-  },
   {
    "kode_prov": null,
    "prov": "Tanpa lokasi",
