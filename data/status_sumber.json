@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-06T18:27:05Z",
+ "diperbarui_utc": "2026-11-06T19:18:21Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-06T18:27:36Z",
+   "dicek_utc": "2026-11-06T19:18:52Z",
    "ok": true,
-   "n": 895,
+   "n": 894,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-06T18:27:38Z",
+   "dicek_utc": "2026-11-06T19:18:54Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-06T18:27:38Z",
+   "dicek_utc": "2026-11-06T19:18:55Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-06T18:27:58Z",
-   "ok": false,
+   "dicek_utc": "2026-11-06T19:19:36Z",
+   "ok": true,
    "n": 9,
-   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "1 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "18:27:05 PEKA mulai 2026-11-06T18:27:05Z ",
-  "18:27:36 dengar berita: 895 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "18:27:58 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "18:27:58 pilah: {'masuk': 895, 'sudah_ada': 878, 'bukan_kejadian': 5, 'luar_negeri': 1, 'kasus_baru': 6, 'gabung': 5, 'relevan': 11}",
-  "18:27:58 papan Polda: 38 Polda berkasus | titik rawan: 32"
+  "19:18:22 PEKA mulai 2026-11-06T19:18:21Z ",
+  "19:18:52 dengar berita: 894 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "19:19:36 dengar GDELT: 1/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "19:19:36 pilah: {'masuk': 894, 'sudah_ada': 876, 'bukan_kejadian': 6, 'gabung': 6, 'kasus_baru': 6, 'relevan': 12}",
+  "19:19:36 papan Polda: 38 Polda berkasus | titik rawan: 34"
  ]
 }

@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-06T18:27:05Z",
+ "diperbarui_utc": "2026-11-06T19:18:21Z",
  "terbaru": {
-  "waktu_utc": "2026-11-06T17:38:52Z",
-  "magnitudo": 3.3,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di laut 54 km Tenggara Morowali",
+  "waktu_utc": "2026-11-06T18:32:08Z",
+  "magnitudo": 3.5,
+  "kedalaman": "18 km",
+  "wilayah": "Pusat gempa berada di laut 34 km barat daya Lombok Utara",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Bungku Morowali",
-  "koordinat": "-2.96,122.31",
-  "prov": "Sulawesi Tengah",
-  "kode_prov": "72"
+  "dirasakan": "II Mataram, II Lombok Barat, II Lombok Tengah",
+  "koordinat": "-8.48,115.87",
+  "prov": "Nusa Tenggara Barat",
+  "kode_prov": "52"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-06T18:32:08Z",
+   "magnitudo": 3.5,
+   "kedalaman": "18 km",
+   "wilayah": "Pusat gempa berada di laut 34 km barat daya Lombok Utara",
+   "potensi": null,
+   "dirasakan": "II Mataram, II Lombok Barat, II Lombok Tengah",
+   "koordinat": "-8.48,115.87",
+   "prov": "Nusa Tenggara Barat",
+   "kode_prov": "52"
+  },
   {
    "waktu_utc": "2026-11-06T17:38:52Z",
    "magnitudo": 3.3,
@@ -165,17 +176,6 @@
    "koordinat": "-2.87,122.21",
    "prov": "Sulawesi Tengah",
    "kode_prov": "72"
-  },
-  {
-   "waktu_utc": "2026-10-31T05:39:20Z",
-   "magnitudo": 4.8,
-   "kedalaman": "28 km",
-   "wilayah": "Pusat gempa berada di laut 97 km barat Kodi, Sumba Barat Daya",
-   "potensi": null,
-   "dirasakan": "III Sumbawa",
-   "koordinat": "-9.45,118.11",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [

@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-06T18:27:05Z",
+ "diperbarui_utc": "2026-11-06T19:18:21Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1753,
+ "kasus_tanpa_polda": 1756,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 385,
-   "perlu": 143,
+   "kasus": 387,
+   "perlu": 144,
    "perlu_tanggap": 32,
-   "persen_tanggap": 22.4,
+   "persen_tanggap": 22.2,
    "tanggap": 184,
    "jalur_khusus": 15,
    "melewati_batas": 79,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "darurat",
-     109
+     110
     ],
     [
      "jalanan",
@@ -68,10 +68,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 197,
-   "perlu": 65,
+   "kasus": 198,
+   "perlu": 66,
    "perlu_tanggap": 9,
-   "persen_tanggap": 13.8,
+   "persen_tanggap": 13.6,
    "tanggap": 84,
    "jalur_khusus": 3,
    "melewati_batas": 37,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     56
+     57
     ],
     [
      "narkoba",
@@ -132,7 +132,7 @@
    "persen_tanggap": 18.2,
    "tanggap": 105,
    "jalur_khusus": 2,
-   "melewati_batas": 27,
+   "melewati_batas": 28,
    "median_jeda_jam": 1.5,
    "n_jeda": 8,
    "topik_teratas": [
@@ -1182,6 +1182,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Madiun Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3271",
+   "kabkota": "Kota Bogor",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polresta Bogor Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 10,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1671",
    "kabkota": "Kota Palembang",
    "kode_prov": "16",
@@ -1275,6 +1294,25 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3578",
+   "kabkota": "Kota Surabaya",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polrestabes Surabaya",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 3,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
   },
   {
    "kode_kab": "3524",
