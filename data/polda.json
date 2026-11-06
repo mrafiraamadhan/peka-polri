@@ -1,24 +1,24 @@
 {
- "diperbarui_utc": "2026-11-06T15:00:14Z",
+ "diperbarui_utc": "2026-11-06T15:52:23Z",
  "jendela_hari": 30,
  "hari_riwayat": 10,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1741,
+ "kasus_tanpa_polda": 1742,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 383,
-   "perlu": 142,
-   "perlu_tanggap": 30,
-   "persen_tanggap": 21.1,
-   "tanggap": 181,
+   "kasus": 385,
+   "perlu": 143,
+   "perlu_tanggap": 31,
+   "persen_tanggap": 21.7,
+   "tanggap": 183,
    "jalur_khusus": 15,
    "melewati_batas": 80,
-   "median_jeda_jam": 14.2,
-   "n_jeda": 30,
+   "median_jeda_jam": 13.9,
+   "n_jeda": 31,
    "topik_teratas": [
     [
      "darurat",
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 168,
+   "kasus": 169,
    "perlu": 76,
    "perlu_tanggap": 17,
    "persen_tanggap": 22.4,
-   "tanggap": 90,
+   "tanggap": 91,
    "jalur_khusus": 4,
    "melewati_batas": 35,
    "median_jeda_jam": 1.8,
@@ -59,7 +59,7 @@
     ],
     [
      "jalanan",
-     35
+     36
     ]
    ]
   },
@@ -74,7 +74,7 @@
    "persen_tanggap": 13.8,
    "tanggap": 84,
    "jalur_khusus": 3,
-   "melewati_batas": 36,
+   "melewati_batas": 37,
    "median_jeda_jam": 1.8,
    "n_jeda": 9,
    "topik_teratas": [
@@ -126,11 +126,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 162,
+   "kasus": 163,
    "perlu": 44,
    "perlu_tanggap": 8,
    "persen_tanggap": 18.2,
-   "tanggap": 103,
+   "tanggap": 104,
    "jalur_khusus": 2,
    "melewati_batas": 27,
    "median_jeda_jam": 1.5,
@@ -138,7 +138,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     67
+     68
     ],
     [
      "jalanan",
@@ -213,11 +213,11 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 52,
+   "kasus": 53,
    "perlu": 28,
    "perlu_tanggap": 4,
    "persen_tanggap": 14.3,
-   "tanggap": 21,
+   "tanggap": 22,
    "jalur_khusus": 1,
    "melewati_batas": 22,
    "median_jeda_jam": 6.8,
@@ -225,7 +225,7 @@
    "topik_teratas": [
     [
      "konflik",
-     22
+     23
     ],
     [
      "jalanan",
@@ -242,10 +242,10 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 114,
-   "perlu": 26,
+   "kasus": 116,
+   "perlu": 27,
    "perlu_tanggap": 8,
-   "persen_tanggap": 30.8,
+   "persen_tanggap": 29.6,
    "tanggap": 59,
    "jalur_khusus": 0,
    "melewati_batas": 16,
@@ -254,11 +254,11 @@
    "topik_teratas": [
     [
      "darurat",
-     51
+     52
     ],
     [
      "narkoba",
-     34
+     35
     ],
     [
      "jalanan",
@@ -271,11 +271,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 84,
+   "kasus": 85,
    "perlu": 22,
    "perlu_tanggap": 6,
    "persen_tanggap": 27.3,
-   "tanggap": 59,
+   "tanggap": 60,
    "jalur_khusus": 3,
    "melewati_batas": 15,
    "median_jeda_jam": 28.5,
@@ -283,7 +283,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     33
+     34
     ],
     [
      "narkoba",
@@ -596,7 +596,7 @@
    "persen_tanggap": 9.1,
    "tanggap": 24,
    "jalur_khusus": 1,
-   "melewati_batas": 7,
+   "melewati_batas": 8,
    "median_jeda_jam": 18.4,
    "n_jeda": 1,
    "topik_teratas": [
@@ -731,6 +731,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Barat",
+   "provinsi": [
+    "76"
+   ],
+   "kasus": 18,
+   "perlu": 8,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 8,
+   "jalur_khusus": 0,
+   "melewati_batas": 5,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     6
+    ],
+    [
+     "perempuan_anak",
+     4
+    ],
+    [
+     "konflik",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Papua Barat",
    "provinsi": [
     "91"
@@ -785,35 +814,6 @@
     [
      "jalanan",
      5
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Barat",
-   "provinsi": [
-    "76"
-   ],
-   "kasus": 17,
-   "perlu": 7,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 8,
-   "jalur_khusus": 0,
-   "melewati_batas": 5,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     6
-    ],
-    [
-     "perempuan_anak",
-     4
-    ],
-    [
-     "konflik",
-     2
     ]
    ]
   },
