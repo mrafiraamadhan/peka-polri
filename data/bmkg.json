@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-06T19:18:21Z",
+ "diperbarui_utc": "2026-11-06T20:09:59Z",
  "terbaru": {
-  "waktu_utc": "2026-11-06T18:32:08Z",
-  "magnitudo": 3.5,
-  "kedalaman": "18 km",
-  "wilayah": "Pusat gempa berada di laut 34 km barat daya Lombok Utara",
+  "waktu_utc": "2026-11-06T19:07:01Z",
+  "magnitudo": 4.9,
+  "kedalaman": "10 km",
+  "wilayah": "Pusat gempa berada di darat 47 km Timur Laut Sigi",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Mataram, II Lombok Barat, II Lombok Tengah",
-  "koordinat": "-8.48,115.87",
-  "prov": "Nusa Tenggara Barat",
-  "kode_prov": "52"
+  "dirasakan": "IV Sigi, III Palu",
+  "koordinat": "-1.13,120.22",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-06T19:07:01Z",
+   "magnitudo": 4.9,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di darat 47 km Timur Laut Sigi",
+   "potensi": null,
+   "dirasakan": "IV Sigi, III Palu",
+   "koordinat": "-1.13,120.22",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-06T18:32:08Z",
    "magnitudo": 3.5,
@@ -165,17 +176,6 @@
    "koordinat": "-3.92,122.63",
    "prov": "Sulawesi Tenggara",
    "kode_prov": "74"
-  },
-  {
-   "waktu_utc": "2026-10-31T08:23:13Z",
-   "magnitudo": 3.5,
-   "kedalaman": "4 km",
-   "wilayah": "Pusat gempa berada di laut 13 km tenggara Bahodopi",
-   "potensi": null,
-   "dirasakan": "II - III Morowali",
-   "koordinat": "-2.87,122.21",
-   "prov": "Sulawesi Tengah",
-   "kode_prov": "72"
   }
  ],
  "m5": [
