@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-06T20:52:28Z",
+ "diperbarui_utc": "2026-11-06T21:44:02Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1757,
+ "kasus_tanpa_polda": 1761,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,19 +39,19 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 172,
-   "perlu": 77,
-   "perlu_tanggap": 17,
-   "persen_tanggap": 22.1,
+   "kasus": 173,
+   "perlu": 81,
+   "perlu_tanggap": 18,
+   "persen_tanggap": 22.2,
    "tanggap": 92,
    "jalur_khusus": 4,
    "melewati_batas": 35,
-   "median_jeda_jam": 1.8,
-   "n_jeda": 17,
+   "median_jeda_jam": 2.6,
+   "n_jeda": 18,
    "topik_teratas": [
     [
      "darurat",
-     40
+     41
     ],
     [
      "narkoba",
@@ -271,10 +271,10 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 87,
-   "perlu": 23,
+   "kasus": 89,
+   "perlu": 25,
    "perlu_tanggap": 6,
-   "persen_tanggap": 26.1,
+   "persen_tanggap": 24.0,
    "tanggap": 61,
    "jalur_khusus": 3,
    "melewati_batas": 15,
@@ -350,6 +350,35 @@
     [
      "anggota",
      7
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 66,
+   "perlu": 17,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 5.9,
+   "tanggap": 42,
+   "jalur_khusus": 3,
+   "melewati_batas": 10,
+   "median_jeda_jam": 21.3,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "jalanan",
+     20
+    ],
+    [
+     "darurat",
+     14
+    ],
+    [
+     "lalulintas",
+     9
     ]
    ]
   },
@@ -437,35 +466,6 @@
     [
      "darurat",
      6
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 66,
-   "perlu": 13,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 7.7,
-   "tanggap": 42,
-   "jalur_khusus": 3,
-   "melewati_batas": 8,
-   "median_jeda_jam": 21.3,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "jalanan",
-     20
-    ],
-    [
-     "darurat",
-     14
-    ],
-    [
-     "lalulintas",
-     9
     ]
    ]
   },
@@ -710,7 +710,7 @@
    "perlu": 8,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 26,
+   "tanggap": 27,
    "jalur_khusus": 1,
    "melewati_batas": 5,
    "median_jeda_jam": null,
@@ -1334,6 +1334,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3671",
+   "kabkota": "Kota Tangerang",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Tangerang Kota",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 3,
+   "kasus": 6,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-02",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -1465,25 +1484,6 @@
    ],
    "kejadian_ditanggapi": 0,
    "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3671",
-   "kabkota": "Kota Tangerang",
-   "kode_prov": "36",
-   "provinsi": "Banten",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Tangerang Kota",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-02",
-    "2026-11-06"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3309",
