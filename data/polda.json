@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-06T17:34:56Z",
+ "diperbarui_utc": "2026-11-06T18:27:05Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1750,
+ "kasus_tanpa_polda": 1753,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 171,
+   "kasus": 172,
    "perlu": 77,
    "perlu_tanggap": 17,
    "persen_tanggap": 22.1,
-   "tanggap": 91,
+   "tanggap": 92,
    "jalur_khusus": 4,
    "melewati_batas": 35,
    "median_jeda_jam": 1.8,
@@ -103,7 +103,7 @@
    "persen_tanggap": 20.4,
    "tanggap": 72,
    "jalur_khusus": 10,
-   "melewati_batas": 24,
+   "melewati_batas": 25,
    "median_jeda_jam": 10.2,
    "n_jeda": 10,
    "topik_teratas": [
@@ -209,35 +209,6 @@
    ]
   },
   {
-   "polda": "Polda Aceh",
-   "provinsi": [
-    "11"
-   ],
-   "kasus": 117,
-   "perlu": 28,
-   "perlu_tanggap": 8,
-   "persen_tanggap": 28.6,
-   "tanggap": 59,
-   "jalur_khusus": 0,
-   "melewati_batas": 16,
-   "median_jeda_jam": 12.0,
-   "n_jeda": 8,
-   "topik_teratas": [
-    [
-     "darurat",
-     52
-    ],
-    [
-     "narkoba",
-     35
-    ],
-    [
-     "jalanan",
-     10
-    ]
-   ]
-  },
-  {
    "polda": "Polda DI Yogyakarta",
    "provinsi": [
     "34"
@@ -263,6 +234,35 @@
     [
      "darurat",
      7
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Aceh",
+   "provinsi": [
+    "11"
+   ],
+   "kasus": 117,
+   "perlu": 27,
+   "perlu_tanggap": 8,
+   "persen_tanggap": 29.6,
+   "tanggap": 59,
+   "jalur_khusus": 0,
+   "melewati_batas": 15,
+   "median_jeda_jam": 12.0,
+   "n_jeda": 8,
+   "topik_teratas": [
+    [
+     "darurat",
+     52
+    ],
+    [
+     "narkoba",
+     35
+    ],
+    [
+     "jalanan",
+     10
     ]
    ]
   },
@@ -445,11 +445,11 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 65,
+   "kasus": 66,
    "perlu": 13,
    "perlu_tanggap": 1,
    "persen_tanggap": 7.7,
-   "tanggap": 41,
+   "tanggap": 42,
    "jalur_khusus": 3,
    "melewati_batas": 8,
    "median_jeda_jam": 21.3,
@@ -464,8 +464,8 @@
      14
     ],
     [
-     "narkoba",
-     8
+     "lalulintas",
+     9
     ]
    ]
   },
@@ -474,7 +474,7 @@
    "provinsi": [
     "64"
    ],
-   "kasus": 57,
+   "kasus": 58,
    "perlu": 13,
    "perlu_tanggap": 3,
    "persen_tanggap": 23.1,
@@ -486,7 +486,7 @@
    "topik_teratas": [
     [
      "darurat",
-     19
+     20
     ],
     [
      "narkoba",

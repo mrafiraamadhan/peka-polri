@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-06T17:34:56Z",
+ "diperbarui_utc": "2026-11-06T18:27:05Z",
  "terbaru": {
-  "waktu_utc": "2026-11-06T10:30:55Z",
-  "magnitudo": 4.3,
-  "kedalaman": "17 km",
-  "wilayah": "Pusat gempa berada di darat 130 km barat laut Kep. Mentawai",
+  "waktu_utc": "2026-11-06T17:38:52Z",
+  "magnitudo": 3.3,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di laut 54 km Tenggara Morowali",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Siberut Barat, III Siberut Utara, II Siberut Tengah, I Kab. Nias Selatan",
-  "koordinat": "-1.19,98.73",
-  "prov": "Sumatera Utara",
-  "kode_prov": "12"
+  "dirasakan": "II - III Bungku Morowali",
+  "koordinat": "-2.96,122.31",
+  "prov": "Sulawesi Tengah",
+  "kode_prov": "72"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-06T17:38:52Z",
+   "magnitudo": 3.3,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di laut 54 km Tenggara Morowali",
+   "potensi": null,
+   "dirasakan": "II - III Bungku Morowali",
+   "koordinat": "-2.96,122.31",
+   "prov": "Sulawesi Tengah",
+   "kode_prov": "72"
+  },
   {
    "waktu_utc": "2026-11-06T10:30:55Z",
    "magnitudo": 4.3,
@@ -165,17 +176,6 @@
    "koordinat": "-9.45,118.11",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-10-30T10:29:39Z",
-   "magnitudo": 3.5,
-   "kedalaman": "3 km",
-   "wilayah": "Pusat gempa berada di darat 7 km barat daya Samosir",
-   "potensi": null,
-   "dirasakan": "II Pangururan, II Kec. Ronggur Nihuta",
-   "koordinat": "2.57,98.66",
-   "prov": "Sumatera Utara",
-   "kode_prov": "12"
   }
  ],
  "m5": [
