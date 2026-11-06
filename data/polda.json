@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-06T00:14:04Z",
+ "diperbarui_utc": "2026-11-06T01:05:18Z",
  "jendela_hari": 30,
  "hari_riwayat": 10,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1595,
+ "kasus_tanpa_polda": 1597,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 352,
+   "kasus": 354,
    "perlu": 133,
    "perlu_tanggap": 29,
    "persen_tanggap": 21.8,
-   "tanggap": 163,
+   "tanggap": 165,
    "jalur_khusus": 13,
    "melewati_batas": 69,
    "median_jeda_jam": 13.9,
@@ -26,11 +26,11 @@
     ],
     [
      "jalanan",
-     75
+     76
     ],
     [
      "narkoba",
-     50
+     51
     ]
    ]
   },
@@ -39,10 +39,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 180,
-   "perlu": 60,
+   "kasus": 181,
+   "perlu": 61,
    "perlu_tanggap": 7,
-   "persen_tanggap": 11.7,
+   "persen_tanggap": 11.5,
    "tanggap": 75,
    "jalur_khusus": 3,
    "melewati_batas": 32,
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     53
+     54
     ],
     [
      "narkoba",
@@ -97,13 +97,13 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 135,
-   "perlu": 47,
+   "kasus": 136,
+   "perlu": 48,
    "perlu_tanggap": 10,
-   "persen_tanggap": 21.3,
+   "persen_tanggap": 20.8,
    "tanggap": 63,
    "jalur_khusus": 10,
-   "melewati_batas": 22,
+   "melewati_batas": 23,
    "median_jeda_jam": 10.2,
    "n_jeda": 10,
    "topik_teratas": [
@@ -117,7 +117,7 @@
     ],
     [
      "narkoba",
-     14
+     15
     ]
    ]
   },
@@ -126,11 +126,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 147,
+   "kasus": 148,
    "perlu": 39,
    "perlu_tanggap": 8,
    "persen_tanggap": 20.5,
-   "tanggap": 94,
+   "tanggap": 95,
    "jalur_khusus": 2,
    "melewati_batas": 23,
    "median_jeda_jam": 1.5,
@@ -277,7 +277,7 @@
    "persen_tanggap": 28.6,
    "tanggap": 59,
    "jalur_khusus": 2,
-   "melewati_batas": 12,
+   "melewati_batas": 13,
    "median_jeda_jam": 28.5,
    "n_jeda": 6,
    "topik_teratas": [
@@ -300,10 +300,10 @@
    "provinsi": [
     "51"
    ],
-   "kasus": 75,
-   "perlu": 19,
+   "kasus": 76,
+   "perlu": 20,
    "perlu_tanggap": 2,
-   "persen_tanggap": 10.5,
+   "persen_tanggap": 10.0,
    "tanggap": 20,
    "jalur_khusus": 1,
    "melewati_batas": 13,
@@ -503,7 +503,7 @@
    "provinsi": [
     "64"
    ],
-   "kasus": 47,
+   "kasus": 48,
    "perlu": 11,
    "perlu_tanggap": 3,
    "persen_tanggap": 27.3,
@@ -515,7 +515,7 @@
    "topik_teratas": [
     [
      "darurat",
-     17
+     18
     ],
     [
      "narkoba",
@@ -1237,6 +1237,25 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3210",
+   "kabkota": "Kabupaten Majalengka",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Majalengka",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 5,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Majalengka bersama pemerintah daerah"
   },
   {
    "kode_kab": "3309",
