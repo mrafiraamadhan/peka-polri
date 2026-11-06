@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-06T11:04:44Z",
+ "diperbarui_utc": "2026-11-06T11:56:00Z",
  "terbaru": {
-  "waktu_utc": "2026-11-04T07:56:34Z",
-  "magnitudo": 3.4,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di darat 40 km timur laut Sigi",
+  "waktu_utc": "2026-11-06T10:30:55Z",
+  "magnitudo": 4.3,
+  "kedalaman": "17 km",
+  "wilayah": "Pusat gempa berada di darat 130 km barat laut Kep. Mentawai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Sigi, II Palu",
-  "koordinat": "-1.14,120.15",
-  "prov": null,
-  "kode_prov": null
+  "dirasakan": "III Siberut Barat, III Siberut Utara, II Siberut Tengah, I Kab. Nias Selatan",
+  "koordinat": "-1.19,98.73",
+  "prov": "Sumatera Utara",
+  "kode_prov": "12"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-06T10:30:55Z",
+   "magnitudo": 4.3,
+   "kedalaman": "17 km",
+   "wilayah": "Pusat gempa berada di darat 130 km barat laut Kep. Mentawai",
+   "potensi": null,
+   "dirasakan": "III Siberut Barat, III Siberut Utara, II Siberut Tengah, I Kab. Nias Selatan",
+   "koordinat": "-1.19,98.73",
+   "prov": "Sumatera Utara",
+   "kode_prov": "12"
+  },
   {
    "waktu_utc": "2026-11-04T07:56:34Z",
    "magnitudo": 3.4,
@@ -165,17 +176,6 @@
    "koordinat": "2.57,98.66",
    "prov": "Sumatera Utara",
    "kode_prov": "12"
-  },
-  {
-   "waktu_utc": "2026-10-30T06:03:45Z",
-   "magnitudo": 3.7,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di 20 km Timur Laut Kota Sorong",
-   "potensi": null,
-   "dirasakan": "II-III Sorong",
-   "koordinat": "-0.72,131.38",
-   "prov": "Papua Barat Daya",
-   "kode_prov": "92"
   }
  ],
  "m5": [
