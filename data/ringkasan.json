@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-06T09:21:30Z",
+ "diperbarui_utc": "2026-11-06T10:12:48Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 14,
@@ -11,31 +11,31 @@
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 47,
-  "TINDAK": 70,
-  "PANTAU": 147,
-  "TERCATAT": 1267
+  "TINDAK": 66,
+  "PANTAU": 149,
+  "TERCATAT": 1256
  },
- "kasus_aktif": 1532,
+ "kasus_aktif": 1519,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 54
+   "kasus": 53
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 90
+   "kasus": 88
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 374
+   "kasus": 368
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 119
+   "kasus": 116
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 298
+   "kasus": 292
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 66
+   "kasus": 67
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 455
+   "kasus": 459
   }
  },
  "provinsi": {
@@ -77,7 +77,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 3,
    "PANTAU": 1,
-   "TERCATAT": 12
+   "TERCATAT": 13
   },
   "35": {
    "nama": "Jawa Timur",
@@ -85,13 +85,12 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 11,
    "PANTAU": 16,
-   "TERCATAT": 137
+   "TERCATAT": 132
   },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
    "JALUR KHUSUS": 1,
-   "TINDAK": 1,
    "PANTAU": 5,
    "TERCATAT": 27
   },
@@ -100,7 +99,7 @@
    "polda": "Polda Metro Jaya",
    "JALUR KHUSUS": 2,
    "TINDAK": 1,
-   "PANTAU": 26,
+   "PANTAU": 27,
    "TERCATAT": 20
   },
   "33": {
@@ -130,7 +129,7 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 21
+   "TERCATAT": 20
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -146,7 +145,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 29
+   "TERCATAT": 28
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -176,8 +175,8 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
-   "PANTAU": 7,
-   "TERCATAT": 45
+   "PANTAU": 8,
+   "TERCATAT": 44
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -185,7 +184,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 1,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "14": {
    "nama": "Riau",
@@ -197,16 +196,16 @@
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
-   "TINDAK": 9,
+   "TINDAK": 8,
    "PANTAU": 17,
-   "TERCATAT": 68
+   "TERCATAT": 69
   },
   "65": {
    "nama": "Kalimantan Utara",
    "polda": "Polda Kalimantan Utara",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "76": {
    "nama": "Sulawesi Barat",
@@ -228,13 +227,6 @@
    "PANTAU": 2,
    "TERCATAT": 8
   },
-  "91": {
-   "nama": "Papua Barat",
-   "polda": "Polda Papua Barat",
-   "TINDAK": 3,
-   "PANTAU": 1,
-   "TERCATAT": 3
-  },
   "36": {
    "nama": "Banten",
    "polda": "Polda Banten",
@@ -254,7 +246,14 @@
    "polda": "Polda Sulawesi Tenggara",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 13
+   "TERCATAT": 12
+  },
+  "91": {
+   "nama": "Papua Barat",
+   "polda": "Polda Papua Barat",
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 3
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -320,40 +319,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 900,
-   "sumber": 3
+   "artikel": 898,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 42,
-   "sudah_ada": 821,
+   "relevan": 45,
+   "sudah_ada": 827,
    "hoaks": 1,
-   "tidak_relevan": 6,
-   "bukan_kejadian": 30,
-   "luar_negeri": 0,
-   "kasus_baru": 22,
-   "digabung": 20
+   "tidak_relevan": 5,
+   "bukan_kejadian": 19,
+   "luar_negeri": 1,
+   "kasus_baru": 15,
+   "digabung": 30
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 47,
-   "TINDAK": 70,
-   "PANTAU": 147,
-   "TERCATAT": 1267
+   "TINDAK": 66,
+   "PANTAU": 149,
+   "TERCATAT": 1256
   },
   "teruskan": {
    "polda": 37,
-   "kasus": 265
+   "kasus": 263
   },
   "kabarkan": {
-   "tanggapan_terlihat": 666,
-   "kasus": 1532,
-   "tanggapan_sejak_berita_pertama": 581,
-   "median_jeda_jam": 13.4,
-   "n_jeda": 85,
+   "tanggapan_terlihat": 655,
+   "kasus": 1519,
+   "tanggapan_sejak_berita_pertama": 572,
+   "median_jeda_jam": 14.3,
+   "n_jeda": 83,
    "melewati_batas": 117
   },
   "arsipkan": {
-   "baris": 4057,
+   "baris": 4072,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 10
@@ -365,8 +364,16 @@
    "prov": "Kalimantan Utara",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 6,
+   "hari_ini": 5,
    "rata": 1.9
+  },
+  {
+   "kode_prov": "16",
+   "prov": "Sumatera Selatan",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 1.6
   },
   {
    "kode_prov": "32",
@@ -385,10 +392,24 @@
    "rata": 1.8
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kemarin": 0,
+   "rata28": 0.0,
+   "rasio": null,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 10,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Le Minerale Sebagai Sponsor Kegiatan Aksi Deklarasi Sumpah Pemuda Pada 29 Oktober 2026",
+   "url": "https://turnbackhoax.id/articles/37388-salah-le-minerale-sebagai-sponsor-kegiatan-aksi-deklarasi-sumpah-pemuda-pada-29-oktober-2026",
+   "terbit": null
+  },
   {
    "judul": "[PENIPUAN] Tautan Informasi Program Pertanian",
    "url": "https://turnbackhoax.id/articles/37378-penipuan-tautan-informasi-program-pertanian",
@@ -412,11 +433,6 @@
   {
    "judul": "[SALAH] Tiga Pemanjat Patung Bundaran HI dari Greenpeace Tercatat sebagai Kader PDIP Sejak 2025",
    "url": "https://turnbackhoax.id/articles/37374-salah-tiga-pemanjat-patung-bundaran-hi-dari-greenpeace-tercatat-sebagai-kader-pdip-sejak-2025",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Kakek Penjual Keripik ditendang oleh Satpol PP",
-   "url": "https://turnbackhoax.id/articles/37370-salah-kakek-penjual-keripik-ditendang-oleh-satpol-pp",
    "terbit": null
   }
  ]

@@ -1,22 +1,22 @@
 {
- "diperbarui_utc": "2026-11-06T09:21:30Z",
+ "diperbarui_utc": "2026-11-06T10:12:48Z",
  "jendela_hari": 30,
  "hari_riwayat": 10,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1677,
+ "kasus_tanpa_polda": 1686,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 369,
-   "perlu": 136,
+   "kasus": 370,
+   "perlu": 137,
    "perlu_tanggap": 30,
-   "persen_tanggap": 22.1,
+   "persen_tanggap": 21.9,
    "tanggap": 174,
    "jalur_khusus": 13,
-   "melewati_batas": 75,
+   "melewati_batas": 76,
    "median_jeda_jam": 14.2,
    "n_jeda": 30,
    "topik_teratas": [
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     55
+     56
     ]
    ]
   },
@@ -39,10 +39,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 163,
-   "perlu": 72,
+   "kasus": 164,
+   "perlu": 73,
    "perlu_tanggap": 17,
-   "persen_tanggap": 23.6,
+   "persen_tanggap": 23.3,
    "tanggap": 89,
    "jalur_khusus": 4,
    "melewati_batas": 35,
@@ -68,11 +68,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 193,
+   "kasus": 194,
    "perlu": 64,
    "perlu_tanggap": 8,
    "persen_tanggap": 12.5,
-   "tanggap": 82,
+   "tanggap": 83,
    "jalur_khusus": 3,
    "melewati_batas": 35,
    "median_jeda_jam": 1.4,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     54
+     55
     ],
     [
      "narkoba",
@@ -126,10 +126,10 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 155,
-   "perlu": 42,
+   "kasus": 156,
+   "perlu": 43,
    "perlu_tanggap": 8,
-   "persen_tanggap": 19.0,
+   "persen_tanggap": 18.6,
    "tanggap": 98,
    "jalur_khusus": 2,
    "melewati_batas": 25,
@@ -138,7 +138,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     63
+     64
     ],
     [
      "jalanan",
@@ -358,11 +358,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 62,
+   "kasus": 63,
    "perlu": 16,
    "perlu_tanggap": 3,
    "persen_tanggap": 18.8,
-   "tanggap": 43,
+   "tanggap": 44,
    "jalur_khusus": 5,
    "melewati_batas": 5,
    "median_jeda_jam": 14.7,
@@ -374,7 +374,7 @@
     ],
     [
      "narkoba",
-     19
+     20
     ],
     [
      "darurat",
@@ -422,7 +422,7 @@
    "persen_tanggap": 6.7,
    "tanggap": 16,
    "jalur_khusus": 4,
-   "melewati_batas": 8,
+   "melewati_batas": 9,
    "median_jeda_jam": 3.1,
    "n_jeda": 1,
    "topik_teratas": [
@@ -532,7 +532,7 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 28,
+   "kasus": 29,
    "perlu": 12,
    "perlu_tanggap": 2,
    "persen_tanggap": 16.7,
@@ -1391,6 +1391,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Lampung Utara bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1606",
+   "kabkota": "Kabupaten Musi Banyuasin",
+   "kode_prov": "16",
+   "provinsi": "Sumatera Selatan",
+   "polda": "Polda Sumatera Selatan",
+   "polres": "Polres Musi Banyuasin",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 3,
+   "kasus": 4,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-03",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Musi Banyuasin bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5102",
    "kabkota": "Kabupaten Tabanan",
    "kode_prov": "51",
@@ -1503,25 +1522,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Gunung Mas bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1606",
-   "kabkota": "Kabupaten Musi Banyuasin",
-   "kode_prov": "16",
-   "provinsi": "Sumatera Selatan",
-   "polda": "Polda Sumatera Selatan",
-   "polres": "Polres Musi Banyuasin",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 3,
-   "kasus": 3,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-03",
-    "2026-11-06"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Musi Banyuasin bersama pemerintah daerah"
   },
   {
    "kode_kab": "1371",
