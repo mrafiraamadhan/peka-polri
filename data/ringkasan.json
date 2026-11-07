@@ -1,21 +1,21 @@
 {
- "diperbarui_utc": "2026-11-07T14:50:09Z",
+ "diperbarui_utc": "2026-11-07T15:41:48Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 11,
+  "perkara": 12,
   "anggota": 24,
   "kekerasan": 2
  },
  "anggota_sudah_ditangani": 15,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 2,
-  "JALUR KHUSUS": 37,
+  "DARURAT": 1,
+  "JALUR KHUSUS": 38,
   "TINDAK": 64,
-  "PANTAU": 148,
-  "TERCATAT": 1178
+  "PANTAU": 147,
+  "TERCATAT": 1175
  },
- "kasus_aktif": 1429,
+ "kasus_aktif": 1425,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,27 +23,27 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 95
+   "kasus": 94
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 313
+   "kasus": 312
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 115
+   "kasus": 114
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 279
+   "kasus": 278
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 66
+   "kasus": 68
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 72
+   "kasus": 71
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,19 +51,10 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 446
+   "kasus": 445
   }
  },
  "provinsi": {
-  "52": {
-   "nama": "Nusa Tenggara Barat",
-   "polda": "Polda Nusa Tenggara Barat",
-   "DARURAT": 1,
-   "JALUR KHUSUS": 2,
-   "TINDAK": 1,
-   "PANTAU": 7,
-   "TERCATAT": 12
-  },
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
@@ -71,7 +62,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 37
+   "TERCATAT": 38
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -140,6 +131,14 @@
    "PANTAU": 8,
    "TERCATAT": 46
   },
+  "52": {
+   "nama": "Nusa Tenggara Barat",
+   "polda": "Polda Nusa Tenggara Barat",
+   "JALUR KHUSUS": 2,
+   "TINDAK": 1,
+   "PANTAU": 7,
+   "TERCATAT": 13
+  },
   "15": {
    "nama": "Jambi",
    "polda": "Polda Jambi",
@@ -152,7 +151,7 @@
    "polda": "Polda Sumatera Barat",
    "JALUR KHUSUS": 1,
    "PANTAU": 10,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -167,7 +166,7 @@
    "polda": "Polda Aceh",
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 36
+   "TERCATAT": 35
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -194,7 +193,7 @@
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 1,
-   "PANTAU": 10,
+   "PANTAU": 9,
    "TERCATAT": 21
   },
   "14": {
@@ -230,7 +229,7 @@
    "polda": "Polda Banten",
    "TINDAK": 5,
    "PANTAU": 3,
-   "TERCATAT": 24
+   "TERCATAT": 22
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -320,39 +319,39 @@
  "langkah": {
   "dengar": {
    "artikel": 860,
-   "sumber": 4
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 29,
-   "sudah_ada": 820,
+   "relevan": 23,
+   "sudah_ada": 830,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 10,
-   "luar_negeri": 1,
-   "kasus_baru": 19,
-   "digabung": 10
+   "bukan_kejadian": 7,
+   "luar_negeri": 0,
+   "kasus_baru": 9,
+   "digabung": 14
   },
   "timbang": {
-   "DARURAT": 2,
-   "JALUR KHUSUS": 37,
+   "DARURAT": 1,
+   "JALUR KHUSUS": 38,
    "TINDAK": 64,
-   "PANTAU": 148,
-   "TERCATAT": 1178
+   "PANTAU": 147,
+   "TERCATAT": 1175
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 251
+   "kasus": 250
   },
   "kabarkan": {
-   "tanggapan_terlihat": 614,
-   "kasus": 1429,
-   "tanggapan_sejak_berita_pertama": 543,
+   "tanggapan_terlihat": 609,
+   "kasus": 1425,
+   "tanggapan_sejak_berita_pertama": 538,
    "median_jeda_jam": 14.4,
    "n_jeda": 71,
-   "melewati_batas": 114
+   "melewati_batas": 117
   },
   "arsipkan": {
-   "baris": 4531,
+   "baris": 4540,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 11
@@ -368,16 +367,7 @@
    "rata": 1.45
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kemarin": 1,
-   "rata28": 1.6,
-   "rasio": 0.62,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 11,
  "gempa_darurat": [],
  "hoaks_terbaru": [
