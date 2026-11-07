@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T00:17:39Z",
+ "diperbarui_utc": "2026-11-07T00:54:56Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -74,7 +74,7 @@
    "persen_tanggap": 13.6,
    "tanggap": 84,
    "jalur_khusus": 3,
-   "melewati_batas": 37,
+   "melewati_batas": 38,
    "median_jeda_jam": 1.8,
    "n_jeda": 9,
    "topik_teratas": [
@@ -300,7 +300,7 @@
    "provinsi": [
     "51"
    ],
-   "kasus": 81,
+   "kasus": 82,
    "perlu": 23,
    "perlu_tanggap": 2,
    "persen_tanggap": 8.7,
@@ -312,7 +312,7 @@
    "topik_teratas": [
     [
      "darurat",
-     46
+     47
     ],
     [
      "narkoba",
@@ -383,6 +383,35 @@
    ]
   },
   {
+   "polda": "Polda Kepulauan Riau",
+   "provinsi": [
+    "21"
+   ],
+   "kasus": 41,
+   "perlu": 18,
+   "perlu_tanggap": 4,
+   "persen_tanggap": 22.2,
+   "tanggap": 25,
+   "jalur_khusus": 2,
+   "melewati_batas": 7,
+   "median_jeda_jam": 11.4,
+   "n_jeda": 4,
+   "topik_teratas": [
+    [
+     "jalanan",
+     11
+    ],
+    [
+     "anggota",
+     8
+    ],
+    [
+     "narkoba",
+     8
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sumatera Selatan",
    "provinsi": [
     "16"
@@ -408,35 +437,6 @@
     [
      "darurat",
      7
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kepulauan Riau",
-   "provinsi": [
-    "21"
-   ],
-   "kasus": 40,
-   "perlu": 17,
-   "perlu_tanggap": 4,
-   "persen_tanggap": 23.5,
-   "tanggap": 25,
-   "jalur_khusus": 2,
-   "melewati_batas": 7,
-   "median_jeda_jam": 11.4,
-   "n_jeda": 4,
-   "topik_teratas": [
-    [
-     "jalanan",
-     10
-    ],
-    [
-     "anggota",
-     8
-    ],
-    [
-     "narkoba",
-     8
     ]
    ]
   },
@@ -822,11 +822,11 @@
    "provinsi": [
     "96"
    ],
-   "kasus": 16,
+   "kasus": 17,
    "perlu": 7,
    "perlu_tanggap": 2,
    "persen_tanggap": 28.6,
-   "tanggap": 6,
+   "tanggap": 7,
    "jalur_khusus": 1,
    "melewati_batas": 3,
    "median_jeda_jam": 9.4,
@@ -837,11 +837,11 @@
      5
     ],
     [
-     "narkoba",
-     3
+     "jalanan",
+     4
     ],
     [
-     "jalanan",
+     "narkoba",
      3
     ]
    ]
@@ -1201,6 +1201,25 @@
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "2171",
+   "kabkota": "Kota Batam",
+   "kode_prov": "21",
+   "provinsi": "Kepulauan Riau",
+   "polda": "Polda Kepulauan Riau",
+   "polres": "Polresta Barelang",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 8,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3672",
    "kabkota": "Kota Cilegon",
    "kode_prov": "36",
@@ -1294,25 +1313,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Manokwari bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "2171",
-   "kabkota": "Kota Batam",
-   "kode_prov": "21",
-   "provinsi": "Kepulauan Riau",
-   "polda": "Polda Kepulauan Riau",
-   "polres": "Polresta Barelang",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-01",
-    "2026-11-06"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
   },
   {
    "kode_kab": "3578",
