@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T22:10:50Z",
+ "diperbarui_utc": "2026-11-07T22:43:37Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 12,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 36,
   "TINDAK": 62,
   "PANTAU": 148,
-  "TERCATAT": 1170
+  "TERCATAT": 1167
  },
- "kasus_aktif": 1417,
+ "kasus_aktif": 1414,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 270
+   "kasus": 267
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -78,7 +78,7 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 15,
    "PANTAU": 16,
-   "TERCATAT": 103
+   "TERCATAT": 102
   },
   "51": {
    "nama": "Bali",
@@ -122,7 +122,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 9,
-   "TERCATAT": 42
+   "TERCATAT": 41
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -173,7 +173,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 6,
    "PANTAU": 13,
-   "TERCATAT": 62
+   "TERCATAT": 60
   },
   "17": {
    "nama": "Bengkulu",
@@ -317,40 +317,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 856,
+   "artikel": 854,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 4,
-   "sudah_ada": 850,
+   "relevan": 6,
+   "sudah_ada": 845,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 2,
-   "luar_negeri": 0,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 1,
+   "luar_negeri": 1,
    "kasus_baru": 1,
-   "digabung": 3
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 36,
    "TINDAK": 62,
    "PANTAU": 148,
-   "TERCATAT": 1170
+   "TERCATAT": 1167
   },
   "teruskan": {
    "polda": 36,
    "kasus": 247
   },
   "kabarkan": {
-   "tanggapan_terlihat": 598,
-   "kasus": 1417,
-   "tanggapan_sejak_berita_pertama": 530,
+   "tanggapan_terlihat": 595,
+   "kasus": 1414,
+   "tanggapan_sejak_berita_pertama": 527,
    "median_jeda_jam": 14.6,
    "n_jeda": 68,
    "melewati_batas": 122
   },
   "arsipkan": {
-   "baris": 4572,
+   "baris": 4573,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 12
