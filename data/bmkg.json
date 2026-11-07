@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-07T19:36:46Z",
+ "diperbarui_utc": "2026-11-07T20:28:22Z",
  "terbaru": {
-  "waktu_utc": "2026-11-07T10:05:52Z",
-  "magnitudo": 3.0,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di darat 31 km utara Lombok Timur",
+  "waktu_utc": "2026-11-07T18:54:12Z",
+  "magnitudo": 3.3,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 20 km timur Kendari",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Lombok Timur",
-  "koordinat": "-8.37,116.54",
-  "prov": "Nusa Tenggara Barat",
-  "kode_prov": "52"
+  "dirasakan": "",
+  "koordinat": "-4.01,122.69",
+  "prov": "Sulawesi Tenggara",
+  "kode_prov": "74"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-07T18:54:12Z",
+   "magnitudo": 3.3,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 20 km timur Kendari",
+   "potensi": null,
+   "dirasakan": "",
+   "koordinat": "-4.01,122.69",
+   "prov": "Sulawesi Tenggara",
+   "kode_prov": "74"
+  },
   {
    "waktu_utc": "2026-11-07T10:05:52Z",
    "magnitudo": 3.0,
@@ -165,17 +176,6 @@
    "koordinat": "-7.08,130.07",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-11-01T05:38:59Z",
-   "magnitudo": 4.1,
-   "kedalaman": "6 km",
-   "wilayah": "Pusat gempa berada di darat 24 km Barat Daya Kab. Pidie Jaya-Aceh",
-   "potensi": null,
-   "dirasakan": "",
-   "koordinat": "4.79,96.20",
-   "prov": "Aceh",
-   "kode_prov": "11"
   }
  ],
  "m5": [

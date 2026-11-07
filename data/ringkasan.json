@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T19:36:46Z",
+ "diperbarui_utc": "2026-11-07T20:28:22Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 12,
@@ -23,11 +23,11 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 93
+   "kasus": 94
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 307
+   "kasus": 308
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 275
+   "kasus": 274
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 452
+   "kasus": 451
   }
  },
  "provinsi": {
@@ -62,7 +62,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 35
+   "TERCATAT": 36
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -78,7 +78,7 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 15,
    "PANTAU": 16,
-   "TERCATAT": 105
+   "TERCATAT": 106
   },
   "51": {
    "nama": "Bali",
@@ -159,7 +159,7 @@
    "polda": "Polda Aceh",
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 36
+   "TERCATAT": 35
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -254,7 +254,7 @@
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
    "PANTAU": 4,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -317,18 +317,18 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 858,
-   "sumber": 4
+   "artikel": 857,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 850,
+   "relevan": 8,
+   "sudah_ada": 844,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 1,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 4,
    "luar_negeri": 0,
    "kasus_baru": 3,
-   "digabung": 4
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 1,
@@ -342,15 +342,15 @@
    "kasus": 247
   },
   "kabarkan": {
-   "tanggapan_terlihat": 601,
+   "tanggapan_terlihat": 602,
    "kasus": 1422,
-   "tanggapan_sejak_berita_pertama": 531,
+   "tanggapan_sejak_berita_pertama": 532,
    "median_jeda_jam": 14.6,
    "n_jeda": 70,
-   "melewati_batas": 120
+   "melewati_batas": 121
   },
   "arsipkan": {
-   "baris": 4564,
+   "baris": 4567,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 12
@@ -366,16 +366,7 @@
    "rata": 1.92
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kemarin": 12,
-   "rata28": 7.2,
-   "rasio": 1.67,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 12,
  "gempa_darurat": [],
  "hoaks_terbaru": [
