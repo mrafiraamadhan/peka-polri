@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T13:57:43Z",
+ "diperbarui_utc": "2026-11-07T13:58:47Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 11,
@@ -12,10 +12,10 @@
   "DARURAT": 1,
   "JALUR KHUSUS": 37,
   "TINDAK": 61,
-  "PANTAU": 145,
+  "PANTAU": 146,
   "TERCATAT": 1175
  },
- "kasus_aktif": 1419,
+ "kasus_aktif": 1420,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -39,7 +39,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 65
+   "kasus": 66
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -272,7 +272,7 @@
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
-   "PANTAU": 2,
+   "PANTAU": 3,
    "TERCATAT": 9
   },
   "95": {
@@ -319,39 +319,39 @@
  "langkah": {
   "dengar": {
    "artikel": 860,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 36,
-   "sudah_ada": 803,
+   "relevan": 1,
+   "sudah_ada": 859,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 17,
-   "luar_negeri": 2,
-   "kasus_baru": 17,
-   "digabung": 19
+   "tidak_relevan": 0,
+   "bukan_kejadian": 0,
+   "luar_negeri": 0,
+   "kasus_baru": 1,
+   "digabung": 0
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 37,
    "TINDAK": 61,
-   "PANTAU": 145,
+   "PANTAU": 146,
    "TERCATAT": 1175
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 244
+   "kasus": 245
   },
   "kabarkan": {
    "tanggapan_terlihat": 615,
-   "kasus": 1419,
+   "kasus": 1420,
    "tanggapan_sejak_berita_pertama": 544,
    "median_jeda_jam": 14.4,
    "n_jeda": 71,
    "melewati_batas": 109
   },
   "arsipkan": {
-   "baris": 4511,
+   "baris": 4512,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 11
@@ -367,7 +367,16 @@
    "rata": 1.45
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "anggota",
+   "nama": "Perilaku anggota",
+   "kemarin": 4,
+   "rata28": 1.0,
+   "rasio": 4.15,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 11,
  "gempa_darurat": [],
  "hoaks_terbaru": [

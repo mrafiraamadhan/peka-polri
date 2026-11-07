@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T13:57:43Z",
+ "diperbarui_utc": "2026-11-07T13:58:47Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -180,6 +180,35 @@
    ]
   },
   {
+   "polda": "Polda DI Yogyakarta",
+   "provinsi": [
+    "34"
+   ],
+   "kasus": 57,
+   "perlu": 32,
+   "perlu_tanggap": 5,
+   "persen_tanggap": 15.6,
+   "tanggap": 23,
+   "jalur_khusus": 1,
+   "melewati_batas": 22,
+   "median_jeda_jam": 6.0,
+   "n_jeda": 5,
+   "topik_teratas": [
+    [
+     "konflik",
+     26
+    ],
+    [
+     "lalulintas",
+     8
+    ],
+    [
+     "jalanan",
+     8
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sulawesi Selatan",
    "provinsi": [
     "73"
@@ -205,35 +234,6 @@
     [
      "konflik",
      7
-    ]
-   ]
-  },
-  {
-   "polda": "Polda DI Yogyakarta",
-   "provinsi": [
-    "34"
-   ],
-   "kasus": 56,
-   "perlu": 31,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 16.1,
-   "tanggap": 23,
-   "jalur_khusus": 1,
-   "melewati_batas": 22,
-   "median_jeda_jam": 6.0,
-   "n_jeda": 5,
-   "topik_teratas": [
-    [
-     "konflik",
-     25
-    ],
-    [
-     "lalulintas",
-     8
-    ],
-    [
-     "jalanan",
-     8
     ]
    ]
   },
