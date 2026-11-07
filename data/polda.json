@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-06T23:26:26Z",
+ "diperbarui_utc": "2026-11-07T00:17:39Z",
  "jendela_hari": 30,
  "hari_riwayat": 11,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1765,
+ "kasus_tanpa_polda": 1770,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 389,
-   "perlu": 145,
+   "kasus": 390,
+   "perlu": 146,
    "perlu_tanggap": 32,
-   "persen_tanggap": 22.1,
+   "persen_tanggap": 21.9,
    "tanggap": 185,
    "jalur_khusus": 15,
    "melewati_batas": 79,
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     59
+     60
     ]
    ]
   },
@@ -184,11 +184,11 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 56,
+   "kasus": 57,
    "perlu": 30,
    "perlu_tanggap": 6,
    "persen_tanggap": 20.0,
-   "tanggap": 26,
+   "tanggap": 27,
    "jalur_khusus": 8,
    "melewati_batas": 16,
    "median_jeda_jam": 6.2,
@@ -480,7 +480,7 @@
    "persen_tanggap": 23.1,
    "tanggap": 29,
    "jalur_khusus": 0,
-   "melewati_batas": 6,
+   "melewati_batas": 7,
    "median_jeda_jam": 1.7,
    "n_jeda": 3,
    "topik_teratas": [
@@ -557,6 +557,35 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Tengah",
+   "provinsi": [
+    "62"
+   ],
+   "kasus": 41,
+   "perlu": 13,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 15.4,
+   "tanggap": 21,
+   "jalur_khusus": 2,
+   "melewati_batas": 8,
+   "median_jeda_jam": 28.9,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "narkoba",
+     20
+    ],
+    [
+     "darurat",
+     9
+    ],
+    [
+     "penipuan",
+     3
+    ]
+   ]
+  },
+  {
    "polda": "Polda Jambi",
    "provinsi": [
     "15"
@@ -582,35 +611,6 @@
     [
      "narkoba",
      6
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kalimantan Tengah",
-   "provinsi": [
-    "62"
-   ],
-   "kasus": 39,
-   "perlu": 11,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 18.2,
-   "tanggap": 21,
-   "jalur_khusus": 2,
-   "melewati_batas": 8,
-   "median_jeda_jam": 28.9,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "narkoba",
-     20
-    ],
-    [
-     "darurat",
-     9
-    ],
-    [
-     "jalanan",
-     3
     ]
    ]
   },
@@ -648,7 +648,7 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 29,
+   "kasus": 30,
    "perlu": 11,
    "perlu_tanggap": 2,
    "persen_tanggap": 18.2,
