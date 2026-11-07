@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-07T12:14:56Z",
+ "diperbarui_utc": "2026-11-07T13:06:09Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-07T12:15:25Z",
+   "dicek_utc": "2026-11-07T13:06:40Z",
    "ok": true,
-   "n": 867,
+   "n": 865,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-07T12:15:26Z",
+   "dicek_utc": "2026-11-07T13:06:42Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-07T12:15:27Z",
+   "dicek_utc": "2026-11-07T13:06:42Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-07T12:15:47Z",
-   "ok": false,
+   "dicek_utc": "2026-11-07T13:07:21Z",
+   "ok": true,
    "n": 9,
-   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "1 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "12:14:56 PEKA mulai 2026-11-07T12:14:56Z ",
-  "12:15:25 dengar berita: 867 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "12:15:47 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "12:15:47 pilah: {'masuk': 867, 'sudah_ada': 817, 'bukan_kejadian': 23, 'tidak_relevan': 3, 'hoaks': 1, 'gabung': 12, 'kasus_baru': 11, 'relevan': 23}",
-  "12:15:47 papan Polda: 38 Polda berkasus | titik rawan: 43"
+  "13:06:10 PEKA mulai 2026-11-07T13:06:09Z ",
+  "13:06:40 dengar berita: 865 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "13:07:21 dengar GDELT: 1/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "13:07:21 pilah: {'masuk': 865, 'sudah_ada': 810, 'tidak_relevan': 4, 'bukan_kejadian': 17, 'kasus_baru': 20, 'gabung': 14, 'relevan': 34}",
+  "13:07:21 papan Polda: 38 Polda berkasus | titik rawan: 44"
  ]
 }
