@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T13:58:47Z",
+ "diperbarui_utc": "2026-11-07T14:50:09Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 11,
@@ -9,13 +9,13 @@
  "anggota_sudah_ditangani": 15,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
+  "DARURAT": 2,
   "JALUR KHUSUS": 37,
-  "TINDAK": 61,
-  "PANTAU": 146,
-  "TERCATAT": 1175
+  "TINDAK": 64,
+  "PANTAU": 148,
+  "TERCATAT": 1178
  },
- "kasus_aktif": 1420,
+ "kasus_aktif": 1429,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,19 +23,19 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 91
+   "kasus": 95
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 312
+   "kasus": 313
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 116
+   "kasus": 115
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 277
+   "kasus": 279
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 443
+   "kasus": 446
   }
  },
  "provinsi": {
@@ -63,6 +63,15 @@
    "TINDAK": 1,
    "PANTAU": 7,
    "TERCATAT": 12
+  },
+  "33": {
+   "nama": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "DARURAT": 1,
+   "JALUR KHUSUS": 1,
+   "TINDAK": 4,
+   "PANTAU": 5,
+   "TERCATAT": 37
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -76,9 +85,9 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 4,
-   "TINDAK": 14,
+   "TINDAK": 15,
    "PANTAU": 17,
-   "TERCATAT": 109
+   "TERCATAT": 108
   },
   "51": {
    "nama": "Bali",
@@ -87,14 +96,6 @@
    "TINDAK": 2,
    "PANTAU": 6,
    "TERCATAT": 20
-  },
-  "33": {
-   "nama": "Jawa Tengah",
-   "polda": "Polda Jawa Tengah",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 3,
-   "PANTAU": 5,
-   "TERCATAT": 38
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -120,8 +121,8 @@
    "polda": "Polda Lampung",
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
-   "PANTAU": 4,
-   "TERCATAT": 26
+   "PANTAU": 5,
+   "TERCATAT": 27
   },
   "82": {
    "nama": "Maluku Utara",
@@ -144,7 +145,7 @@
    "polda": "Polda Jambi",
    "JALUR KHUSUS": 1,
    "PANTAU": 3,
-   "TERCATAT": 11
+   "TERCATAT": 12
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -159,14 +160,14 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 3,
-   "TERCATAT": 17
+   "TERCATAT": 18
   },
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 37
+   "TERCATAT": 36
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -179,7 +180,7 @@
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "TINDAK": 6,
-   "PANTAU": 12,
+   "PANTAU": 13,
    "TERCATAT": 66
   },
   "17": {
@@ -199,7 +200,7 @@
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
-   "TINDAK": 3,
+   "TINDAK": 4,
    "PANTAU": 5,
    "TERCATAT": 26
   },
@@ -322,36 +323,36 @@
    "sumber": 4
   },
   "pilah": {
-   "relevan": 1,
-   "sudah_ada": 859,
+   "relevan": 29,
+   "sudah_ada": 820,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 0,
-   "luar_negeri": 0,
-   "kasus_baru": 1,
-   "digabung": 0
+   "bukan_kejadian": 10,
+   "luar_negeri": 1,
+   "kasus_baru": 19,
+   "digabung": 10
   },
   "timbang": {
-   "DARURAT": 1,
+   "DARURAT": 2,
    "JALUR KHUSUS": 37,
-   "TINDAK": 61,
-   "PANTAU": 146,
-   "TERCATAT": 1175
+   "TINDAK": 64,
+   "PANTAU": 148,
+   "TERCATAT": 1178
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 245
+   "kasus": 251
   },
   "kabarkan": {
-   "tanggapan_terlihat": 615,
-   "kasus": 1420,
-   "tanggapan_sejak_berita_pertama": 544,
+   "tanggapan_terlihat": 614,
+   "kasus": 1429,
+   "tanggapan_sejak_berita_pertama": 543,
    "median_jeda_jam": 14.4,
    "n_jeda": 71,
-   "melewati_batas": 109
+   "melewati_batas": 114
   },
   "arsipkan": {
-   "baris": 4512,
+   "baris": 4531,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 11
@@ -369,11 +370,11 @@
  ],
  "lonjakan_nasional": [
   {
-   "topik": "anggota",
-   "nama": "Perilaku anggota",
-   "kemarin": 4,
-   "rata28": 1.0,
-   "rasio": 4.15,
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kemarin": 1,
+   "rata28": 1.6,
+   "rasio": 0.62,
    "lonjakan": false
   }
  ],
