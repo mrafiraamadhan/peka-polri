@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-07T22:43:37Z",
+ "diperbarui_utc": "2026-11-07T23:34:46Z",
  "jendela_hari": 30,
  "hari_riwayat": 12,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1908,
+ "kasus_tanpa_polda": 1907,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -68,7 +68,7 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 180,
+   "kasus": 181,
    "perlu": 66,
    "perlu_tanggap": 18,
    "persen_tanggap": 27.3,
@@ -80,7 +80,7 @@
    "topik_teratas": [
     [
      "darurat",
-     45
+     46
     ],
     [
      "narkoba",
@@ -296,6 +296,35 @@
    ]
   },
   {
+   "polda": "Polda Bali",
+   "provinsi": [
+    "51"
+   ],
+   "kasus": 86,
+   "perlu": 24,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 8.3,
+   "tanggap": 23,
+   "jalur_khusus": 1,
+   "melewati_batas": 19,
+   "median_jeda_jam": 16.8,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "darurat",
+     49
+    ],
+    [
+     "narkoba",
+     12
+    ],
+    [
+     "penipuan",
+     10
+    ]
+   ]
+  },
+  {
    "polda": "Polda Nusa Tenggara Barat",
    "provinsi": [
     "52"
@@ -321,35 +350,6 @@
     [
      "anggota",
      7
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Bali",
-   "provinsi": [
-    "51"
-   ],
-   "kasus": 86,
-   "perlu": 23,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 8.7,
-   "tanggap": 23,
-   "jalur_khusus": 1,
-   "melewati_batas": 17,
-   "median_jeda_jam": 16.8,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "darurat",
-     49
-    ],
-    [
-     "narkoba",
-     12
-    ],
-    [
-     "penipuan",
-     10
     ]
    ]
   },
@@ -416,8 +416,8 @@
    "provinsi": [
     "13"
    ],
-   "kasus": 53,
-   "perlu": 18,
+   "kasus": 54,
+   "perlu": 19,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
    "tanggap": 29,
@@ -428,7 +428,7 @@
    "topik_teratas": [
     [
      "darurat",
-     23
+     24
     ],
     [
      "jalanan",
@@ -938,8 +938,8 @@
    "provinsi": [
     "75"
    ],
-   "kasus": 10,
-   "perlu": 5,
+   "kasus": 11,
+   "perlu": 6,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
    "tanggap": 4,
@@ -949,12 +949,12 @@
    "n_jeda": 0,
    "topik_teratas": [
     [
-     "jalanan",
+     "perempuan_anak",
      3
     ],
     [
-     "perempuan_anak",
-     2
+     "jalanan",
+     3
     ],
     [
      "lalulintas",
