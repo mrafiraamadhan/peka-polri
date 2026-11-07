@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T18:45:31Z",
+ "diperbarui_utc": "2026-11-07T19:36:46Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 12,
@@ -12,10 +12,10 @@
   "DARURAT": 1,
   "JALUR KHUSUS": 36,
   "TINDAK": 62,
-  "PANTAU": 147,
-  "TERCATAT": 1174
+  "PANTAU": 148,
+  "TERCATAT": 1175
  },
- "kasus_aktif": 1420,
+ "kasus_aktif": 1422,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 94
+   "kasus": 93
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -35,11 +35,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 274
+   "kasus": 275
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 69
+   "kasus": 70
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 451
+   "kasus": 452
   }
  },
  "provinsi": {
@@ -173,7 +173,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 6,
    "PANTAU": 13,
-   "TERCATAT": 64
+   "TERCATAT": 63
   },
   "17": {
    "nama": "Bengkulu",
@@ -265,7 +265,7 @@
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 9
   },
   "95": {
@@ -317,40 +317,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 859,
-   "sumber": 3
+   "artikel": 858,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 6,
+   "relevan": 7,
    "sudah_ada": 850,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 3,
+   "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 1,
-   "digabung": 5
+   "kasus_baru": 3,
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 36,
    "TINDAK": 62,
-   "PANTAU": 147,
-   "TERCATAT": 1174
+   "PANTAU": 148,
+   "TERCATAT": 1175
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 246
+   "kasus": 247
   },
   "kabarkan": {
-   "tanggapan_terlihat": 602,
-   "kasus": 1420,
-   "tanggapan_sejak_berita_pertama": 532,
+   "tanggapan_terlihat": 601,
+   "kasus": 1422,
+   "tanggapan_sejak_berita_pertama": 531,
    "median_jeda_jam": 14.6,
    "n_jeda": 70,
    "melewati_batas": 120
   },
   "arsipkan": {
-   "baris": 4561,
+   "baris": 4564,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 12
@@ -366,7 +366,16 @@
    "rata": 1.92
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kemarin": 12,
+   "rata28": 7.2,
+   "rasio": 1.67,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 12,
  "gempa_darurat": [],
  "hoaks_terbaru": [

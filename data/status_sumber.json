@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-07T18:45:31Z",
+ "diperbarui_utc": "2026-11-07T19:36:46Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-07T18:46:01Z",
+   "dicek_utc": "2026-11-07T19:37:16Z",
    "ok": true,
-   "n": 859,
+   "n": 858,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-07T18:46:03Z",
+   "dicek_utc": "2026-11-07T19:37:18Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-07T18:46:04Z",
+   "dicek_utc": "2026-11-07T19:37:19Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-07T18:46:24Z",
-   "ok": false,
+   "dicek_utc": "2026-11-07T19:38:01Z",
+   "ok": true,
    "n": 9,
-   "pesan": "0 dari 6 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "1 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "18:45:31 PEKA mulai 2026-11-07T18:45:31Z ",
-  "18:46:01 dengar berita: 859 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "18:46:24 dengar GDELT: 0/6 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "18:46:24 pilah: {'masuk': 859, 'sudah_ada': 850, 'bukan_kejadian': 3, 'gabung': 5, 'kasus_baru': 1, 'relevan': 6}",
-  "18:46:25 papan Polda: 38 Polda berkasus | titik rawan: 45"
+  "19:36:46 PEKA mulai 2026-11-07T19:36:46Z ",
+  "19:37:16 dengar berita: 858 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "19:38:01 dengar GDELT: 1/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "19:38:01 pilah: {'masuk': 858, 'sudah_ada': 850, 'bukan_kejadian': 1, 'gabung': 4, 'kasus_baru': 3, 'relevan': 7}",
+  "19:38:01 papan Polda: 38 Polda berkasus | titik rawan: 45"
  ]
 }
