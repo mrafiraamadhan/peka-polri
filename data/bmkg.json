@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-07T10:32:30Z",
+ "diperbarui_utc": "2026-11-07T11:23:43Z",
  "terbaru": {
-  "waktu_utc": "2026-11-06T19:07:01Z",
-  "magnitudo": 4.9,
+  "waktu_utc": "2026-11-07T10:05:52Z",
+  "magnitudo": 3.0,
   "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di darat 47 km Timur Laut Sigi",
+  "wilayah": "Pusat gempa berada di darat 31 km utara Lombok Timur",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "IV Sigi, III Palu",
-  "koordinat": "-1.13,120.22",
-  "prov": null,
-  "kode_prov": null
+  "dirasakan": "II Lombok Timur",
+  "koordinat": "-8.37,116.54",
+  "prov": "Nusa Tenggara Barat",
+  "kode_prov": "52"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-07T10:05:52Z",
+   "magnitudo": 3.0,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di darat 31 km utara Lombok Timur",
+   "potensi": null,
+   "dirasakan": "II Lombok Timur",
+   "koordinat": "-8.37,116.54",
+   "prov": "Nusa Tenggara Barat",
+   "kode_prov": "52"
+  },
   {
    "waktu_utc": "2026-11-06T19:07:01Z",
    "magnitudo": 4.9,
@@ -165,17 +176,6 @@
    "koordinat": "4.79,96.20",
    "prov": "Aceh",
    "kode_prov": "11"
-  },
-  {
-   "waktu_utc": "2026-10-31T20:48:49Z",
-   "magnitudo": 2.8,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 14 km Timur Laut Kendari",
-   "potensi": null,
-   "dirasakan": "II - III Kota Kendari",
-   "koordinat": "-3.92,122.63",
-   "prov": "Sulawesi Tenggara",
-   "kode_prov": "74"
   }
  ],
  "m5": [
