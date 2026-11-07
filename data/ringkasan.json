@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T21:19:33Z",
+ "diperbarui_utc": "2026-11-07T22:10:50Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 12,
@@ -12,10 +12,10 @@
   "DARURAT": 1,
   "JALUR KHUSUS": 36,
   "TINDAK": 62,
-  "PANTAU": 149,
-  "TERCATAT": 1176
+  "PANTAU": 148,
+  "TERCATAT": 1170
  },
- "kasus_aktif": 1424,
+ "kasus_aktif": 1417,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 273
+   "kasus": 270
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 70
+   "kasus": 68
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 453
+   "kasus": 451
   }
  },
  "provinsi": {
@@ -78,14 +78,14 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 15,
    "PANTAU": 16,
-   "TERCATAT": 106
+   "TERCATAT": 103
   },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 6,
+   "PANTAU": 5,
    "TERCATAT": 22
   },
   "62": {
@@ -130,7 +130,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 1,
    "PANTAU": 7,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "15": {
    "nama": "Jambi",
@@ -173,7 +173,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 6,
    "PANTAU": 13,
-   "TERCATAT": 63
+   "TERCATAT": 62
   },
   "17": {
    "nama": "Bengkulu",
@@ -317,40 +317,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 859,
+   "artikel": 856,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 6,
+   "relevan": 4,
    "sudah_ada": 850,
    "hoaks": 0,
    "tidak_relevan": 0,
    "bukan_kejadian": 2,
-   "luar_negeri": 1,
-   "kasus_baru": 4,
-   "digabung": 2
+   "luar_negeri": 0,
+   "kasus_baru": 1,
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 36,
    "TINDAK": 62,
-   "PANTAU": 149,
-   "TERCATAT": 1176
+   "PANTAU": 148,
+   "TERCATAT": 1170
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 248
+   "kasus": 247
   },
   "kabarkan": {
-   "tanggapan_terlihat": 601,
-   "kasus": 1424,
-   "tanggapan_sejak_berita_pertama": 531,
+   "tanggapan_terlihat": 598,
+   "kasus": 1417,
+   "tanggapan_sejak_berita_pertama": 530,
    "median_jeda_jam": 14.6,
-   "n_jeda": 70,
-   "melewati_batas": 123
+   "n_jeda": 68,
+   "melewati_batas": 122
   },
   "arsipkan": {
-   "baris": 4571,
+   "baris": 4572,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 12
