@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-07T18:15:28Z",
+ "diperbarui_utc": "2026-11-07T18:45:31Z",
  "jendela_hari": 30,
  "hari_riwayat": 12,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -615,6 +615,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Tengah",
+   "provinsi": [
+    "72"
+   ],
+   "kasus": 48,
+   "perlu": 12,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 31,
+   "jalur_khusus": 1,
+   "melewati_batas": 7,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "narkoba",
+     15
+    ],
+    [
+     "darurat",
+     10
+    ],
+    [
+     "jalanan",
+     9
+    ]
+   ]
+  },
+  {
    "polda": "Polda Jambi",
    "provinsi": [
     "15"
@@ -669,35 +698,6 @@
     [
      "anggota",
      5
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Tengah",
-   "provinsi": [
-    "72"
-   ],
-   "kasus": 47,
-   "perlu": 11,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 31,
-   "jalur_khusus": 1,
-   "melewati_batas": 7,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "narkoba",
-     15
-    ],
-    [
-     "darurat",
-     10
-    ],
-    [
-     "jalanan",
-     9
     ]
    ]
   },
@@ -1600,6 +1600,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
   },
   {
+   "kode_kab": "7271",
+   "kabkota": "Kota Palu",
+   "kode_prov": "72",
+   "provinsi": "Sulawesi Tengah",
+   "polda": "Polda Sulawesi Tengah",
+   "polres": "Polresta Palu",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 3,
+   "kasus": 5,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-01",
+    "2026-11-07"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polresta Palu bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "6472",
    "kabkota": "Kota Samarinda",
    "kode_prov": "64",
@@ -1845,25 +1864,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "7271",
-   "kabkota": "Kota Palu",
-   "kode_prov": "72",
-   "provinsi": "Sulawesi Tengah",
-   "polda": "Polda Sulawesi Tengah",
-   "polres": "Polresta Palu",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 3,
-   "kasus": 4,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-01",
-    "2026-11-07"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polresta Palu bersama pemerintah daerah"
   },
   {
    "kode_kab": "3374",
