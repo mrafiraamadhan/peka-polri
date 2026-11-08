@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-08T05:53:12Z",
+ "diperbarui_utc": "2026-11-08T06:44:43Z",
  "jendela_hari": 30,
  "hari_riwayat": 12,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1937,
+ "kasus_tanpa_polda": 1944,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 413,
-   "perlu": 153,
+   "kasus": 414,
+   "perlu": 154,
    "perlu_tanggap": 32,
-   "persen_tanggap": 20.9,
+   "persen_tanggap": 20.8,
    "tanggap": 193,
    "jalur_khusus": 16,
    "melewati_batas": 85,
@@ -35,52 +35,23 @@
    ]
   },
   {
-   "polda": "Polda Jawa Barat",
-   "provinsi": [
-    "32"
-   ],
-   "kasus": 212,
-   "perlu": 71,
-   "perlu_tanggap": 10,
-   "persen_tanggap": 14.1,
-   "tanggap": 91,
-   "jalur_khusus": 3,
-   "melewati_batas": 43,
-   "median_jeda_jam": 2.9,
-   "n_jeda": 10,
-   "topik_teratas": [
-    [
-     "darurat",
-     66
-    ],
-    [
-     "jalanan",
-     63
-    ],
-    [
-     "narkoba",
-     28
-    ]
-   ]
-  },
-  {
    "polda": "Polda Metro Jaya",
    "provinsi": [
     "31"
    ],
-   "kasus": 185,
-   "perlu": 68,
+   "kasus": 186,
+   "perlu": 84,
    "perlu_tanggap": 18,
-   "persen_tanggap": 26.5,
+   "persen_tanggap": 21.4,
    "tanggap": 94,
    "jalur_khusus": 4,
-   "melewati_batas": 34,
+   "melewati_batas": 46,
    "median_jeda_jam": 2.6,
    "n_jeda": 18,
    "topik_teratas": [
     [
      "darurat",
-     48
+     49
     ],
     [
      "narkoba",
@@ -93,11 +64,40 @@
    ]
   },
   {
+   "polda": "Polda Jawa Barat",
+   "provinsi": [
+    "32"
+   ],
+   "kasus": 213,
+   "perlu": 71,
+   "perlu_tanggap": 10,
+   "persen_tanggap": 14.1,
+   "tanggap": 92,
+   "jalur_khusus": 3,
+   "melewati_batas": 43,
+   "median_jeda_jam": 2.9,
+   "n_jeda": 10,
+   "topik_teratas": [
+    [
+     "darurat",
+     66
+    ],
+    [
+     "jalanan",
+     64
+    ],
+    [
+     "narkoba",
+     28
+    ]
+   ]
+  },
+  {
    "polda": "Polda Jawa Tengah",
    "provinsi": [
     "33"
    ],
-   "kasus": 168,
+   "kasus": 169,
    "perlu": 55,
    "perlu_tanggap": 11,
    "persen_tanggap": 20.0,
@@ -109,7 +109,7 @@
    "topik_teratas": [
     [
      "darurat",
-     49
+     50
     ],
     [
      "jalanan",
@@ -185,14 +185,14 @@
     "34"
    ],
    "kasus": 59,
-   "perlu": 34,
-   "perlu_tanggap": 6,
-   "persen_tanggap": 17.6,
+   "perlu": 33,
+   "perlu_tanggap": 5,
+   "persen_tanggap": 15.2,
    "tanggap": 24,
    "jalur_khusus": 1,
-   "melewati_batas": 22,
-   "median_jeda_jam": 6.8,
-   "n_jeda": 6,
+   "melewati_batas": 23,
+   "median_jeda_jam": 6.0,
+   "n_jeda": 5,
    "topik_teratas": [
     [
      "konflik",
@@ -213,11 +213,11 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 63,
+   "kasus": 64,
    "perlu": 32,
    "perlu_tanggap": 6,
    "persen_tanggap": 18.8,
-   "tanggap": 30,
+   "tanggap": 31,
    "jalur_khusus": 8,
    "melewati_batas": 16,
    "median_jeda_jam": 6.2,
@@ -248,7 +248,7 @@
    "persen_tanggap": 28.6,
    "tanggap": 61,
    "jalur_khusus": 0,
-   "melewati_batas": 19,
+   "melewati_batas": 20,
    "median_jeda_jam": 12.0,
    "n_jeda": 8,
    "topik_teratas": [
@@ -271,11 +271,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 101,
+   "kasus": 102,
    "perlu": 28,
    "perlu_tanggap": 7,
    "persen_tanggap": 25.0,
-   "tanggap": 69,
+   "tanggap": 70,
    "jalur_khusus": 5,
    "melewati_batas": 17,
    "median_jeda_jam": 36.6,
@@ -287,7 +287,7 @@
     ],
     [
      "narkoba",
-     23
+     24
     ],
     [
      "darurat",
@@ -383,35 +383,6 @@
    ]
   },
   {
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "provinsi": [
-    "19"
-   ],
-   "kasus": 41,
-   "perlu": 22,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 4.5,
-   "tanggap": 17,
-   "jalur_khusus": 4,
-   "melewati_batas": 12,
-   "median_jeda_jam": 3.1,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     12
-    ],
-    [
-     "darurat",
-     11
-    ],
-    [
-     "jalanan",
-     9
-    ]
-   ]
-  },
-  {
    "polda": "Polda Kepulauan Riau",
    "provinsi": [
     "21"
@@ -451,7 +422,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 30,
    "jalur_khusus": 1,
-   "melewati_batas": 12,
+   "melewati_batas": 13,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [
@@ -466,6 +437,35 @@
     [
      "narkoba",
      7
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "provinsi": [
+    "19"
+   ],
+   "kasus": 42,
+   "perlu": 17,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 5.9,
+   "tanggap": 18,
+   "jalur_khusus": 4,
+   "melewati_batas": 11,
+   "median_jeda_jam": 3.1,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     13
+    ],
+    [
+     "darurat",
+     11
+    ],
+    [
+     "jalanan",
+     9
     ]
    ]
   },
@@ -615,6 +615,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Tenggara",
+   "provinsi": [
+    "74"
+   ],
+   "kasus": 41,
+   "perlu": 13,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 7.7,
+   "tanggap": 27,
+   "jalur_khusus": 1,
+   "melewati_batas": 8,
+   "median_jeda_jam": 18.4,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     16
+    ],
+    [
+     "jalanan",
+     10
+    ],
+    [
+     "penipuan",
+     4
+    ]
+   ]
+  },
+  {
    "polda": "Polda Jambi",
    "provinsi": [
     "15"
@@ -698,35 +727,6 @@
     [
      "jalanan",
      9
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Tenggara",
-   "provinsi": [
-    "74"
-   ],
-   "kasus": 40,
-   "perlu": 12,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 8.3,
-   "tanggap": 27,
-   "jalur_khusus": 1,
-   "melewati_batas": 8,
-   "median_jeda_jam": 18.4,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     16
-    ],
-    [
-     "jalanan",
-     10
-    ],
-    [
-     "penipuan",
-     4
     ]
    ]
   },
@@ -1487,6 +1487,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3524",
+   "kabkota": "Kabupaten Lamongan",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polres Lamongan",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 3,
+   "kasus": 6,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-03",
+    "2026-11-07"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1218",
    "kabkota": "Kabupaten Serdang Bedagai",
    "kode_prov": "12",
@@ -1542,25 +1561,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3524",
-   "kabkota": "Kabupaten Lamongan",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polres Lamongan",
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-03",
-    "2026-11-07"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
   },
   {
    "kode_kab": "3210",
