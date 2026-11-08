@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-07T23:34:46Z",
+ "diperbarui_utc": "2026-11-08T00:26:02Z",
  "jendela_hari": 30,
  "hari_riwayat": 12,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1907,
+ "kasus_tanpa_polda": 1909,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -16,7 +16,7 @@
    "persen_tanggap": 21.2,
    "tanggap": 190,
    "jalur_khusus": 15,
-   "melewati_batas": 83,
+   "melewati_batas": 84,
    "median_jeda_jam": 14.2,
    "n_jeda": 32,
    "topik_teratas": [
@@ -31,6 +31,35 @@
     [
      "narkoba",
      62
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Metro Jaya",
+   "provinsi": [
+    "31"
+   ],
+   "kasus": 183,
+   "perlu": 81,
+   "perlu_tanggap": 18,
+   "persen_tanggap": 22.2,
+   "tanggap": 94,
+   "jalur_khusus": 4,
+   "melewati_batas": 45,
+   "median_jeda_jam": 2.6,
+   "n_jeda": 18,
+   "topik_teratas": [
+    [
+     "darurat",
+     48
+    ],
+    [
+     "narkoba",
+     41
+    ],
+    [
+     "jalanan",
+     36
     ]
    ]
   },
@@ -60,35 +89,6 @@
     [
      "narkoba",
      28
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Metro Jaya",
-   "provinsi": [
-    "31"
-   ],
-   "kasus": 181,
-   "perlu": 66,
-   "perlu_tanggap": 18,
-   "persen_tanggap": 27.3,
-   "tanggap": 93,
-   "jalur_khusus": 4,
-   "melewati_batas": 33,
-   "median_jeda_jam": 2.6,
-   "n_jeda": 18,
-   "topik_teratas": [
-    [
-     "darurat",
-     46
-    ],
-    [
-     "narkoba",
-     41
-    ],
-    [
-     "jalanan",
-     36
     ]
    ]
   },
@@ -963,6 +963,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Utara",
+   "provinsi": [
+    "71"
+   ],
+   "kasus": 21,
+   "perlu": 5,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 20.0,
+   "tanggap": 9,
+   "jalur_khusus": 0,
+   "melewati_batas": 2,
+   "median_jeda_jam": 6.3,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "darurat",
+     8
+    ],
+    [
+     "jalanan",
+     6
+    ],
+    [
+     "lalulintas",
+     2
+    ]
+   ]
+  },
+  {
    "polda": "Polda Papua",
    "provinsi": [
     "94"
@@ -992,40 +1021,11 @@
    ]
   },
   {
-   "polda": "Polda Sulawesi Utara",
-   "provinsi": [
-    "71"
-   ],
-   "kasus": 20,
-   "perlu": 4,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 25.0,
-   "tanggap": 9,
-   "jalur_khusus": 0,
-   "melewati_batas": 2,
-   "median_jeda_jam": 6.3,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "darurat",
-     8
-    ],
-    [
-     "jalanan",
-     5
-    ],
-    [
-     "lalulintas",
-     2
-    ]
-   ]
-  },
-  {
    "polda": "Polda yang membawahi Papua Selatan",
    "provinsi": [
     "95"
    ],
-   "kasus": 14,
+   "kasus": 15,
    "perlu": 2,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
@@ -1037,7 +1037,7 @@
    "topik_teratas": [
     [
      "darurat",
-     9
+     10
     ],
     [
      "jalanan",
