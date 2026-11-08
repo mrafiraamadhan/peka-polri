@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-08T19:17:30Z",
+ "diperbarui_utc": "2026-11-08T20:08:42Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 32,
   "TINDAK": 52,
   "PANTAU": 117,
-  "TERCATAT": 1003
+  "TERCATAT": 1000
  },
- "kasus_aktif": 1208,
+ "kasus_aktif": 1205,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 77
+   "kasus": 76
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -31,7 +31,7 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 83
+   "kasus": 81
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -312,13 +312,13 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 6,
-   "sudah_ada": 845,
+   "relevan": 3,
+   "sudah_ada": 850,
    "hoaks": 0,
    "tidak_relevan": 1,
-   "bukan_kejadian": 4,
+   "bukan_kejadian": 2,
    "luar_negeri": 0,
-   "kasus_baru": 3,
+   "kasus_baru": 0,
    "digabung": 3
   },
   "timbang": {
@@ -326,19 +326,19 @@
    "JALUR KHUSUS": 32,
    "TINDAK": 52,
    "PANTAU": 117,
-   "TERCATAT": 1003
+   "TERCATAT": 1000
   },
   "teruskan": {
    "polda": 34,
    "kasus": 205
   },
   "kabarkan": {
-   "tanggapan_terlihat": 508,
-   "kasus": 1208,
-   "tanggapan_sejak_berita_pertama": 444,
+   "tanggapan_terlihat": 507,
+   "kasus": 1205,
+   "tanggapan_sejak_berita_pertama": 443,
    "median_jeda_jam": 13.9,
    "n_jeda": 64,
-   "melewati_batas": 106
+   "melewati_batas": 107
   },
   "arsipkan": {
    "baris": 4843,
