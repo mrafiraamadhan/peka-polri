@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-08T02:27:06Z",
+ "diperbarui_utc": "2026-11-08T03:18:15Z",
  "jendela_hari": 30,
  "hari_riwayat": 12,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 1918,
+ "kasus_tanpa_polda": 1920,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -16,7 +16,7 @@
    "persen_tanggap": 21.2,
    "tanggap": 191,
    "jalur_khusus": 15,
-   "melewati_batas": 84,
+   "melewati_batas": 85,
    "median_jeda_jam": 14.2,
    "n_jeda": 32,
    "topik_teratas": [
@@ -69,12 +69,12 @@
     "31"
    ],
    "kasus": 184,
-   "perlu": 68,
+   "perlu": 67,
    "perlu_tanggap": 18,
-   "persen_tanggap": 26.5,
+   "persen_tanggap": 26.9,
    "tanggap": 94,
    "jalur_khusus": 4,
-   "melewati_batas": 35,
+   "melewati_batas": 34,
    "median_jeda_jam": 2.6,
    "n_jeda": 18,
    "topik_teratas": [
@@ -155,11 +155,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 97,
+   "kasus": 98,
    "perlu": 34,
    "perlu_tanggap": 7,
    "persen_tanggap": 20.6,
-   "tanggap": 60,
+   "tanggap": 61,
    "jalur_khusus": 2,
    "melewati_batas": 21,
    "median_jeda_jam": 4.8,
@@ -171,7 +171,7 @@
     ],
     [
      "lalulintas",
-     14
+     15
     ],
     [
      "jalanan",
@@ -186,13 +186,13 @@
    ],
    "kasus": 58,
    "perlu": 33,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 15.2,
-   "tanggap": 23,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 18.2,
+   "tanggap": 24,
    "jalur_khusus": 1,
    "melewati_batas": 22,
-   "median_jeda_jam": 6.0,
-   "n_jeda": 5,
+   "median_jeda_jam": 6.8,
+   "n_jeda": 6,
    "topik_teratas": [
     [
      "konflik",
@@ -358,12 +358,12 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 76,
-   "perlu": 21,
+   "kasus": 77,
+   "perlu": 22,
    "perlu_tanggap": 3,
-   "persen_tanggap": 14.3,
+   "persen_tanggap": 13.6,
    "tanggap": 51,
-   "jalur_khusus": 6,
+   "jalur_khusus": 7,
    "melewati_batas": 8,
    "median_jeda_jam": 14.7,
    "n_jeda": 3,
@@ -422,7 +422,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 29,
    "jalur_khusus": 1,
-   "melewati_batas": 10,
+   "melewati_batas": 11,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [
@@ -509,7 +509,7 @@
    "persen_tanggap": 7.1,
    "tanggap": 30,
    "jalur_khusus": 2,
-   "melewati_batas": 8,
+   "melewati_batas": 9,
    "median_jeda_jam": 0.0,
    "n_jeda": 1,
    "topik_teratas": [
@@ -615,6 +615,35 @@
    ]
   },
   {
+   "polda": "Polda Jambi",
+   "provinsi": [
+    "15"
+   ],
+   "kasus": 38,
+   "perlu": 13,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 20,
+   "jalur_khusus": 2,
+   "melewati_batas": 10,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     15
+    ],
+    [
+     "narkoba",
+     10
+    ],
+    [
+     "darurat",
+     7
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sulawesi Tengah",
    "provinsi": [
     "72"
@@ -640,35 +669,6 @@
     [
      "jalanan",
      9
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Jambi",
-   "provinsi": [
-    "15"
-   ],
-   "kasus": 37,
-   "perlu": 12,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 20,
-   "jalur_khusus": 2,
-   "melewati_batas": 10,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     15
-    ],
-    [
-     "narkoba",
-     9
-    ],
-    [
-     "darurat",
-     7
     ]
    ]
   },
@@ -886,7 +886,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 10,
    "jalur_khusus": 2,
-   "melewati_batas": 4,
+   "melewati_batas": 5,
    "median_jeda_jam": 1.0,
    "n_jeda": 1,
    "topik_teratas": [
@@ -1105,6 +1105,26 @@
   }
  ],
  "titik_rawan": [
+  {
+   "kode_kab": "1406",
+   "kabkota": "Kabupaten Kampar",
+   "kode_prov": "14",
+   "provinsi": "Riau",
+   "polda": "Polda Riau",
+   "polres": "Polres Kampar",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 4,
+   "kasus": 6,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-01",
+    "2026-11-04",
+    "2026-11-08"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
+  },
   {
    "kode_kab": "3508",
    "kabkota": "Kabupaten Lumajang",
@@ -1465,25 +1485,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Serdang Bedagai bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1406",
-   "kabkota": "Kabupaten Kampar",
-   "kode_prov": "14",
-   "provinsi": "Riau",
-   "polda": "Polda Riau",
-   "polres": "Polres Kampar",
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-01",
-    "2026-11-04"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
   },
   {
    "kode_kab": "1406",
