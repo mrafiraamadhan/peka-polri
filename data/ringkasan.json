@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-08T20:08:42Z",
+ "diperbarui_utc": "2026-11-08T20:59:51Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -12,10 +12,10 @@
   "DARURAT": 4,
   "JALUR KHUSUS": 32,
   "TINDAK": 52,
-  "PANTAU": 117,
-  "TERCATAT": 1000
+  "PANTAU": 118,
+  "TERCATAT": 1003
  },
- "kasus_aktif": 1205,
+ "kasus_aktif": 1209,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,19 +23,19 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 76
+   "kasus": 77
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 274
+   "kasus": 273
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 81
+   "kasus": 82
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 215
+   "kasus": 217
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 382
+   "kasus": 383
   }
  },
  "provinsi": {
@@ -94,7 +94,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 5,
-   "TERCATAT": 38
+   "TERCATAT": 37
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -171,7 +171,7 @@
    "polda": "Polda Riau",
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 21
+   "TERCATAT": 20
   },
   "51": {
    "nama": "Bali",
@@ -198,7 +198,7 @@
    "polda": "Polda Kalimantan Selatan",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 10
+   "TERCATAT": 11
   },
   "36": {
    "nama": "Banten",
@@ -259,7 +259,7 @@
   "21": {
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 7
   },
   "19": {
@@ -308,40 +308,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 856,
-   "sumber": 3
+   "artikel": 855,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 3,
-   "sudah_ada": 850,
+   "relevan": 8,
+   "sudah_ada": 845,
    "hoaks": 0,
-   "tidak_relevan": 1,
+   "tidak_relevan": 0,
    "bukan_kejadian": 2,
    "luar_negeri": 0,
-   "kasus_baru": 0,
-   "digabung": 3
+   "kasus_baru": 6,
+   "digabung": 2
   },
   "timbang": {
    "DARURAT": 4,
    "JALUR KHUSUS": 32,
    "TINDAK": 52,
-   "PANTAU": 117,
-   "TERCATAT": 1000
+   "PANTAU": 118,
+   "TERCATAT": 1003
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 205
+   "kasus": 206
   },
   "kabarkan": {
    "tanggapan_terlihat": 507,
-   "kasus": 1205,
+   "kasus": 1209,
    "tanggapan_sejak_berita_pertama": 443,
    "median_jeda_jam": 13.9,
    "n_jeda": 64,
-   "melewati_batas": 107
+   "melewati_batas": 108
   },
   "arsipkan": {
-   "baris": 4843,
+   "baris": 4848,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 13
@@ -365,7 +365,16 @@
    "rata": 2.15
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kemarin": 0,
+   "rata28": 1.1,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 13,
  "gempa_darurat": [],
  "hoaks_terbaru": [

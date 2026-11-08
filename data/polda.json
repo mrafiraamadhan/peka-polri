@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-08T20:08:42Z",
+ "diperbarui_utc": "2026-11-08T20:59:51Z",
  "jendela_hari": 30,
  "hari_riwayat": 13,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2015,
+ "kasus_tanpa_polda": 2018,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -132,7 +132,7 @@
    "persen_tanggap": 19.6,
    "tanggap": 121,
    "jalur_khusus": 2,
-   "melewati_batas": 33,
+   "melewati_batas": 34,
    "median_jeda_jam": 2.0,
    "n_jeda": 9,
    "topik_teratas": [
@@ -387,10 +387,10 @@
    "provinsi": [
     "21"
    ],
-   "kasus": 46,
-   "perlu": 21,
+   "kasus": 47,
+   "perlu": 22,
    "perlu_tanggap": 6,
-   "persen_tanggap": 28.6,
+   "persen_tanggap": 27.3,
    "tanggap": 28,
    "jalur_khusus": 2,
    "melewati_batas": 10,
@@ -399,7 +399,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     13
+     14
     ],
     [
      "narkoba",
@@ -561,7 +561,7 @@
    "provinsi": [
     "63"
    ],
-   "kasus": 45,
+   "kasus": 46,
    "perlu": 14,
    "perlu_tanggap": 2,
    "persen_tanggap": 14.3,
@@ -572,12 +572,12 @@
    "n_jeda": 2,
    "topik_teratas": [
     [
-     "narkoba",
+     "darurat",
      13
     ],
     [
-     "darurat",
-     12
+     "narkoba",
+     13
     ],
     [
      "jalanan",
@@ -1283,6 +1283,25 @@
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "2171",
+   "kabkota": "Kota Batam",
+   "kode_prov": "21",
+   "provinsi": "Kepulauan Riau",
+   "polda": "Polda Kepulauan Riau",
+   "polres": "Polresta Barelang",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 10,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-06"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3672",
    "kabkota": "Kota Cilegon",
    "kode_prov": "36",
@@ -1319,25 +1338,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "2171",
-   "kabkota": "Kota Batam",
-   "kode_prov": "21",
-   "provinsi": "Kepulauan Riau",
-   "polda": "Polda Kepulauan Riau",
-   "polres": "Polresta Barelang",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 9,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-01",
-    "2026-11-06"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
   },
   {
    "kode_kab": "1671",
