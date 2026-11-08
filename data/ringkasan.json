@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-08T20:59:51Z",
+ "diperbarui_utc": "2026-11-08T21:08:33Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -309,17 +309,17 @@
  "langkah": {
   "dengar": {
    "artikel": 855,
-   "sumber": 4
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 8,
-   "sudah_ada": 845,
+   "relevan": 1,
+   "sudah_ada": 853,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 2,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 0,
    "luar_negeri": 0,
-   "kasus_baru": 6,
-   "digabung": 2
+   "kasus_baru": 0,
+   "digabung": 1
   },
   "timbang": {
    "DARURAT": 4,
@@ -365,16 +365,7 @@
    "rata": 2.15
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kemarin": 0,
-   "rata28": 1.1,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 13,
  "gempa_darurat": [],
  "hoaks_terbaru": [
