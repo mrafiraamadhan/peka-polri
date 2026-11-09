@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-08T23:42:43Z",
+ "diperbarui_utc": "2026-11-09T00:33:54Z",
  "jendela_hari": 30,
  "hari_riwayat": 13,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2025,
+ "kasus_tanpa_polda": 2033,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -12,13 +12,13 @@
    ],
    "kasus": 431,
    "perlu": 165,
-   "perlu_tanggap": 35,
-   "persen_tanggap": 21.2,
-   "tanggap": 201,
+   "perlu_tanggap": 36,
+   "persen_tanggap": 21.8,
+   "tanggap": 202,
    "jalur_khusus": 19,
    "melewati_batas": 92,
-   "median_jeda_jam": 11.2,
-   "n_jeda": 35,
+   "median_jeda_jam": 10.8,
+   "n_jeda": 36,
    "topik_teratas": [
     [
      "darurat",
@@ -40,12 +40,12 @@
     "32"
    ],
    "kasus": 229,
-   "perlu": 75,
+   "perlu": 74,
    "perlu_tanggap": 10,
-   "persen_tanggap": 13.3,
+   "persen_tanggap": 13.5,
    "tanggap": 96,
    "jalur_khusus": 3,
-   "melewati_batas": 46,
+   "melewati_batas": 45,
    "median_jeda_jam": 2.9,
    "n_jeda": 10,
    "topik_teratas": [
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 174,
-   "perlu": 58,
+   "kasus": 175,
+   "perlu": 59,
    "perlu_tanggap": 11,
-   "persen_tanggap": 19.0,
+   "persen_tanggap": 18.6,
    "tanggap": 83,
    "jalur_khusus": 10,
    "melewati_batas": 30,
@@ -213,7 +213,7 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 67,
+   "kasus": 68,
    "perlu": 33,
    "perlu_tanggap": 6,
    "persen_tanggap": 18.2,
@@ -228,11 +228,11 @@
      21
     ],
     [
-     "anggota",
-     9
+     "darurat",
+     10
     ],
     [
-     "darurat",
+     "anggota",
      9
     ]
    ]
@@ -445,11 +445,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 55,
+   "kasus": 56,
    "perlu": 16,
    "perlu_tanggap": 1,
    "persen_tanggap": 6.2,
-   "tanggap": 30,
+   "tanggap": 31,
    "jalur_khusus": 2,
    "melewati_batas": 10,
    "median_jeda_jam": 0.0,
@@ -654,7 +654,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 20,
    "jalur_khusus": 2,
-   "melewati_batas": 10,
+   "melewati_batas": 11,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [
@@ -677,11 +677,11 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 48,
+   "kasus": 49,
    "perlu": 12,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 31,
+   "tanggap": 32,
    "jalur_khusus": 1,
    "melewati_batas": 11,
    "median_jeda_jam": null,
@@ -689,7 +689,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     15
+     16
     ],
     [
      "darurat",
@@ -880,11 +880,11 @@
    "provinsi": [
     "17"
    ],
-   "kasus": 18,
+   "kasus": 19,
    "perlu": 7,
    "perlu_tanggap": 1,
    "persen_tanggap": 14.3,
-   "tanggap": 8,
+   "tanggap": 9,
    "jalur_khusus": 0,
    "melewati_batas": 2,
    "median_jeda_jam": 0.2,
@@ -899,8 +899,8 @@
      4
     ],
     [
-     "perempuan_anak",
-     3
+     "narkoba",
+     4
     ]
    ]
   },
@@ -1794,6 +1794,25 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polresta Palu bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "6171",
+   "kabkota": "Kota Pontianak",
+   "kode_prov": "61",
+   "provinsi": "Kalimantan Barat",
+   "polda": "Polda Kalimantan Barat",
+   "polres": "Polresta Pontianak",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 5,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-07"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Pontianak bersama pemerintah daerah"
   },
   {
    "kode_kab": "6472",
