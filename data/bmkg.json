@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-09T09:38:36Z",
+ "diperbarui_utc": "2026-11-09T10:30:07Z",
  "terbaru": {
-  "waktu_utc": "2026-11-09T00:44:58Z",
-  "magnitudo": 2.5,
+  "waktu_utc": "2026-11-09T09:48:29Z",
+  "magnitudo": 5.5,
   "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di laut 1 km timur Jailolo",
+  "wilayah": "Pusat gempa berada di laut 20 km barat laut Seram Bagian Timur",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Kab. Halmahera Barat",
-  "koordinat": "1.06,127.47",
-  "prov": "Maluku Utara",
-  "kode_prov": "82"
+  "dirasakan": "III-IV Kecamatan Bula",
+  "koordinat": "-2.93,130.44",
+  "prov": "Maluku",
+  "kode_prov": "81"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-09T09:48:29Z",
+   "magnitudo": 5.5,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 20 km barat laut Seram Bagian Timur",
+   "potensi": null,
+   "dirasakan": "III-IV Kecamatan Bula",
+   "koordinat": "-2.93,130.44",
+   "prov": "Maluku",
+   "kode_prov": "81"
+  },
   {
    "waktu_utc": "2026-11-09T00:44:58Z",
    "magnitudo": 2.5,
@@ -165,20 +176,20 @@
    "koordinat": "-2.49,140.66",
    "prov": "Papua",
    "kode_prov": "94"
-  },
-  {
-   "waktu_utc": "2026-11-02T08:13:10Z",
-   "magnitudo": 5.3,
-   "kedalaman": "148 km",
-   "wilayah": "Pusat gempa berada di darat 1 km Barat Daya Tomohon",
-   "potensi": null,
-   "dirasakan": "II - III Ternate, II Minahasa",
-   "koordinat": "1.31,124.83",
-   "prov": "Sulawesi Utara",
-   "kode_prov": "71"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-09T09:48:29Z",
+   "magnitudo": 5.5,
+   "kedalaman": "10 km",
+   "wilayah": "20 km BaratLaut SERAMBAGIANTIMUR-MALUKU",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-2.93,130.44",
+   "prov": "Maluku",
+   "kode_prov": "81"
+  },
   {
    "waktu_utc": "2026-11-02T08:13:10Z",
    "magnitudo": 5.3,
@@ -332,17 +343,6 @@
    "koordinat": "-8.73,106.47",
    "prov": "Jawa Barat",
    "kode_prov": "32"
-  },
-  {
-   "waktu_utc": "2026-10-09T05:11:04Z",
-   "magnitudo": 5.1,
-   "kedalaman": "10 km",
-   "wilayah": "125 km Tenggara BITUNG-SULUT",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "0.77,126.03",
-   "prov": "Sulawesi Utara",
-   "kode_prov": "71"
   }
  ]
 }
