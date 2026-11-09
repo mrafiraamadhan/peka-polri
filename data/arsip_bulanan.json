@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-09T19:36:29Z",
+ "diperbarui_utc": "2026-11-09T20:27:48Z",
  "bulan": [
   {
    "bulan": "2026-10",
@@ -69,7 +69,7 @@
   },
   {
    "bulan": "2026-11",
-   "kasus": 3867,
+   "kasus": 3869,
    "topik": {
     "jalanan": 906,
     "perempuan_anak": 257,
@@ -77,15 +77,15 @@
     "darurat": 1088,
     "konflik": 177,
     "penipuan": 292,
-    "anggota": 130,
-    "lalulintas": 199,
+    "anggota": 131,
+    "lalulintas": 200,
     "layanan": 9
    },
    "status": {
     "TERCATAT": 3214,
     "PANTAU": 382,
-    "TINDAK": 162,
-    "JALUR KHUSUS": 108,
+    "TINDAK": 163,
+    "JALUR KHUSUS": 109,
     "DARURAT": 1
    },
    "provinsi_teratas": [
@@ -123,14 +123,14 @@
     ],
     [
      "Banten",
-     77
+     78
     ],
     [
      "Riau",
      73
     ]
    ],
-   "tanggapan_terlihat": 1608,
+   "tanggapan_terlihat": 1609,
    "median_jeda_jam": 6.8,
    "n_jeda": 152
   }

@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-09T19:36:29Z",
+ "diperbarui_utc": "2026-11-09T20:27:48Z",
  "jendela_hari": 30,
  "hari_riwayat": 14,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2209,
+ "kasus_tanpa_polda": 2210,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -393,7 +393,7 @@
    "persen_tanggap": 26.1,
    "tanggap": 33,
    "jalur_khusus": 2,
-   "melewati_batas": 10,
+   "melewati_batas": 11,
    "median_jeda_jam": 11.6,
    "n_jeda": 6,
    "topik_teratas": [
@@ -441,6 +441,35 @@
    ]
   },
   {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 86,
+   "perlu": 18,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 11.1,
+   "tanggap": 53,
+   "jalur_khusus": 3,
+   "melewati_batas": 10,
+   "median_jeda_jam": 11.2,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "jalanan",
+     27
+    ],
+    [
+     "darurat",
+     20
+    ],
+    [
+     "lalulintas",
+     11
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kepulauan Bangka Belitung",
    "provinsi": [
     "19"
@@ -466,35 +495,6 @@
     [
      "jalanan",
      11
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 85,
-   "perlu": 17,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 11.8,
-   "tanggap": 53,
-   "jalur_khusus": 3,
-   "melewati_batas": 10,
-   "median_jeda_jam": 11.2,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "jalanan",
-     27
-    ],
-    [
-     "darurat",
-     20
-    ],
-    [
-     "lalulintas",
-     10
     ]
    ]
   },
