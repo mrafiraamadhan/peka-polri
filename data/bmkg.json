@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-09T00:51:51Z",
+ "diperbarui_utc": "2026-11-09T01:43:05Z",
  "terbaru": {
-  "waktu_utc": "2026-11-07T18:54:12Z",
-  "magnitudo": 3.3,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di darat 20 km timur Kendari",
+  "waktu_utc": "2026-11-09T00:44:58Z",
+  "magnitudo": 2.5,
+  "kedalaman": "10 km",
+  "wilayah": "Pusat gempa berada di laut 1 km timur Jailolo",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "",
-  "koordinat": "-4.01,122.69",
-  "prov": "Sulawesi Tenggara",
-  "kode_prov": "74"
+  "dirasakan": "II Kab. Halmahera Barat",
+  "koordinat": "1.06,127.47",
+  "prov": "Maluku Utara",
+  "kode_prov": "82"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-09T00:44:58Z",
+   "magnitudo": 2.5,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 1 km timur Jailolo",
+   "potensi": null,
+   "dirasakan": "II Kab. Halmahera Barat",
+   "koordinat": "1.06,127.47",
+   "prov": "Maluku Utara",
+   "kode_prov": "82"
+  },
   {
    "waktu_utc": "2026-11-07T18:54:12Z",
    "magnitudo": 3.3,
@@ -165,17 +176,6 @@
    "koordinat": "1.31,124.83",
    "prov": "Sulawesi Utara",
    "kode_prov": "71"
-  },
-  {
-   "waktu_utc": "2026-11-02T00:53:11Z",
-   "magnitudo": 5.5,
-   "kedalaman": "130 km",
-   "wilayah": "Pusat gempa berada di laut 169 km BaratLaut Tanimbar",
-   "potensi": null,
-   "dirasakan": "II Saumlaki",
-   "koordinat": "-7.08,130.07",
-   "prov": null,
-   "kode_prov": null
   }
  ],
  "m5": [
