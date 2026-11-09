@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-09T01:43:05Z",
+ "diperbarui_utc": "2026-11-09T02:34:15Z",
  "jendela_hari": 30,
  "hari_riwayat": 13,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2043,
+ "kasus_tanpa_polda": 2051,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -11,12 +11,12 @@
     "35"
    ],
    "kasus": 432,
-   "perlu": 166,
+   "perlu": 165,
    "perlu_tanggap": 36,
-   "persen_tanggap": 21.7,
+   "persen_tanggap": 21.8,
    "tanggap": 202,
    "jalur_khusus": 19,
-   "melewati_batas": 92,
+   "melewati_batas": 91,
    "median_jeda_jam": 10.8,
    "n_jeda": 36,
    "topik_teratas": [
@@ -43,7 +43,7 @@
    "perlu": 74,
    "perlu_tanggap": 10,
    "persen_tanggap": 13.5,
-   "tanggap": 96,
+   "tanggap": 97,
    "jalur_khusus": 3,
    "melewati_batas": 45,
    "median_jeda_jam": 2.9,
@@ -242,11 +242,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 109,
+   "kasus": 110,
    "perlu": 29,
    "perlu_tanggap": 7,
    "persen_tanggap": 24.1,
-   "tanggap": 76,
+   "tanggap": 77,
    "jalur_khusus": 5,
    "melewati_batas": 18,
    "median_jeda_jam": 36.6,
@@ -258,7 +258,7 @@
     ],
     [
      "narkoba",
-     28
+     29
     ],
     [
      "darurat",
@@ -358,11 +358,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 63,
+   "kasus": 64,
    "perlu": 24,
    "perlu_tanggap": 4,
    "persen_tanggap": 16.7,
-   "tanggap": 39,
+   "tanggap": 40,
    "jalur_khusus": 5,
    "melewati_batas": 16,
    "median_jeda_jam": 7.6,
@@ -370,7 +370,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     16
+     17
     ],
     [
      "narkoba",
@@ -445,11 +445,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 56,
+   "kasus": 57,
    "perlu": 16,
    "perlu_tanggap": 1,
    "persen_tanggap": 6.2,
-   "tanggap": 31,
+   "tanggap": 32,
    "jalur_khusus": 2,
    "melewati_batas": 10,
    "median_jeda_jam": 0.0,
@@ -464,8 +464,8 @@
      11
     ],
     [
-     "perempuan_anak",
-     8
+     "jalanan",
+     9
     ]
    ]
   },
@@ -793,11 +793,11 @@
    "provinsi": [
     "76"
    ],
-   "kasus": 19,
+   "kasus": 20,
    "perlu": 9,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 8,
+   "tanggap": 9,
    "jalur_khusus": 1,
    "melewati_batas": 7,
    "median_jeda_jam": null,
@@ -805,7 +805,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     6
+     7
     ],
     [
      "perempuan_anak",
