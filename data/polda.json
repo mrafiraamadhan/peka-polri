@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-09T14:46:52Z",
+ "diperbarui_utc": "2026-11-09T15:38:10Z",
  "jendela_hari": 30,
  "hari_riwayat": 13,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2189,
+ "kasus_tanpa_polda": 2198,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 480,
+   "kasus": 481,
    "perlu": 177,
    "perlu_tanggap": 38,
    "persen_tanggap": 21.5,
-   "tanggap": 233,
+   "tanggap": 234,
    "jalur_khusus": 23,
    "melewati_batas": 102,
    "median_jeda_jam": 10.8,
@@ -26,7 +26,7 @@
     ],
     [
      "jalanan",
-     110
+     111
     ],
     [
      "narkoba",
@@ -68,11 +68,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 253,
-   "perlu": 81,
+   "kasus": 257,
+   "perlu": 82,
    "perlu_tanggap": 14,
-   "persen_tanggap": 17.3,
-   "tanggap": 115,
+   "persen_tanggap": 17.1,
+   "tanggap": 118,
    "jalur_khusus": 4,
    "melewati_batas": 45,
    "median_jeda_jam": 4.9,
@@ -80,7 +80,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     82
+     85
     ],
     [
      "darurat",
@@ -97,11 +97,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 212,
+   "kasus": 213,
    "perlu": 69,
    "perlu_tanggap": 11,
    "persen_tanggap": 15.9,
-   "tanggap": 106,
+   "tanggap": 107,
    "jalur_khusus": 10,
    "melewati_batas": 32,
    "median_jeda_jam": 10.3,
@@ -109,7 +109,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     65
+     66
     ],
     [
      "darurat",
@@ -126,11 +126,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 197,
+   "kasus": 198,
    "perlu": 50,
    "perlu_tanggap": 9,
    "persen_tanggap": 18.0,
-   "tanggap": 131,
+   "tanggap": 132,
    "jalur_khusus": 2,
    "melewati_batas": 34,
    "median_jeda_jam": 2.0,
@@ -138,7 +138,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     79
+     80
     ],
     [
      "jalanan",
@@ -155,13 +155,13 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 108,
+   "kasus": 109,
    "perlu": 37,
    "perlu_tanggap": 8,
    "persen_tanggap": 21.6,
-   "tanggap": 67,
+   "tanggap": 68,
    "jalur_khusus": 3,
-   "melewati_batas": 21,
+   "melewati_batas": 22,
    "median_jeda_jam": 4.3,
    "n_jeda": 8,
    "topik_teratas": [
@@ -171,7 +171,7 @@
     ],
     [
      "jalanan",
-     18
+     19
     ],
     [
      "lalulintas",
@@ -300,10 +300,10 @@
    "provinsi": [
     "51"
    ],
-   "kasus": 103,
-   "perlu": 26,
+   "kasus": 104,
+   "perlu": 27,
    "perlu_tanggap": 2,
-   "persen_tanggap": 7.7,
+   "persen_tanggap": 7.4,
    "tanggap": 31,
    "jalur_khusus": 1,
    "melewati_batas": 21,
@@ -503,11 +503,11 @@
    "provinsi": [
     "64"
    ],
-   "kasus": 76,
+   "kasus": 77,
    "perlu": 17,
    "perlu_tanggap": 4,
    "persen_tanggap": 23.5,
-   "tanggap": 39,
+   "tanggap": 40,
    "jalur_khusus": 0,
    "melewati_batas": 8,
    "median_jeda_jam": 20.9,
@@ -523,7 +523,7 @@
     ],
     [
      "jalanan",
-     14
+     15
     ]
    ]
   },
@@ -532,11 +532,11 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 64,
+   "kasus": 65,
    "perlu": 16,
    "perlu_tanggap": 3,
    "persen_tanggap": 18.8,
-   "tanggap": 40,
+   "tanggap": 41,
    "jalur_khusus": 2,
    "melewati_batas": 13,
    "median_jeda_jam": 10.5,
@@ -548,7 +548,7 @@
     ],
     [
      "jalanan",
-     13
+     14
     ],
     [
      "darurat",
@@ -677,11 +677,11 @@
    "provinsi": [
     "15"
    ],
-   "kasus": 43,
+   "kasus": 44,
    "perlu": 14,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 23,
+   "tanggap": 24,
    "jalur_khusus": 2,
    "melewati_batas": 11,
    "median_jeda_jam": null,
@@ -689,7 +689,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     17
+     18
     ],
     [
      "narkoba",
@@ -1130,6 +1130,26 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3271",
+   "kabkota": "Kota Bogor",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polresta Bogor Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 4,
+   "kasus": 12,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-06",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1113",
    "kabkota": "Kabupaten Gayo Lues",
    "kode_prov": "11",
@@ -1422,25 +1442,6 @@
    "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
   },
   {
-   "kode_kab": "3271",
-   "kabkota": "Kota Bogor",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polresta Bogor Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-01",
-    "2026-11-06"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "3672",
    "kabkota": "Kota Cilegon",
    "kode_prov": "36",
@@ -1631,6 +1632,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Indramayu bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1571",
+   "kabkota": "Kota Jambi",
+   "kode_prov": "15",
+   "provinsi": "Jambi",
+   "polda": "Polda Jambi",
+   "polres": "Polresta Jambi",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-04",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polresta Jambi bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3671",
    "kabkota": "Kota Tangerang",
    "kode_prov": "36",
@@ -1648,6 +1668,25 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3201",
+   "kabkota": "Kabupaten Bogor",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Bogor",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 6,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-03",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Bogor bersama pemerintah daerah"
   },
   {
    "kode_kab": "1611",
@@ -1764,25 +1803,6 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
   },
   {
-   "kode_kab": "1571",
-   "kabkota": "Kota Jambi",
-   "kode_prov": "15",
-   "provinsi": "Jambi",
-   "polda": "Polda Jambi",
-   "polres": "Polresta Jambi",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-04",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polresta Jambi bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "7371",
    "kabkota": "Kota Makassar",
    "kode_prov": "73",
@@ -1838,25 +1858,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3201",
-   "kabkota": "Kabupaten Bogor",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polres Bogor",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-03",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Bogor bersama pemerintah daerah"
   },
   {
    "kode_kab": "3205",
