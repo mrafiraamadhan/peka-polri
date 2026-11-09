@@ -1,22 +1,22 @@
 {
- "diperbarui_utc": "2026-11-09T17:21:21Z",
+ "diperbarui_utc": "2026-11-09T18:45:09Z",
  "jendela_hari": 30,
  "hari_riwayat": 14,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2205,
+ "kasus_tanpa_polda": 2206,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 483,
+   "kasus": 484,
    "perlu": 179,
    "perlu_tanggap": 38,
    "persen_tanggap": 21.2,
    "tanggap": 234,
    "jalur_khusus": 23,
-   "melewati_batas": 103,
+   "melewati_batas": 102,
    "median_jeda_jam": 10.8,
    "n_jeda": 38,
    "topik_teratas": [
@@ -97,11 +97,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 213,
+   "kasus": 216,
    "perlu": 69,
    "perlu_tanggap": 11,
    "persen_tanggap": 15.9,
-   "tanggap": 107,
+   "tanggap": 110,
    "jalur_khusus": 10,
    "melewati_batas": 32,
    "median_jeda_jam": 10.3,
@@ -109,7 +109,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     66
+     69
     ],
     [
      "darurat",
@@ -422,7 +422,7 @@
    "persen_tanggap": 9.5,
    "tanggap": 39,
    "jalur_khusus": 2,
-   "melewati_batas": 10,
+   "melewati_batas": 11,
    "median_jeda_jam": 0.9,
    "n_jeda": 2,
    "topik_teratas": [
@@ -532,10 +532,10 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 65,
-   "perlu": 16,
+   "kasus": 66,
+   "perlu": 17,
    "perlu_tanggap": 3,
-   "persen_tanggap": 18.8,
+   "persen_tanggap": 17.6,
    "tanggap": 41,
    "jalur_khusus": 2,
    "melewati_batas": 13,
@@ -548,11 +548,40 @@
     ],
     [
      "jalanan",
-     14
+     15
     ],
     [
      "darurat",
      12
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sulawesi Tengah",
+   "provinsi": [
+    "72"
+   ],
+   "kasus": 56,
+   "perlu": 15,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 35,
+   "jalur_khusus": 1,
+   "melewati_batas": 10,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "narkoba",
+     17
+    ],
+    [
+     "jalanan",
+     14
+    ],
+    [
+     "darurat",
+     11
     ]
    ]
   },
@@ -582,35 +611,6 @@
     [
      "penipuan",
      5
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Tengah",
-   "provinsi": [
-    "72"
-   ],
-   "kasus": 55,
-   "perlu": 14,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 35,
-   "jalur_khusus": 1,
-   "melewati_batas": 10,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "narkoba",
-     17
-    ],
-    [
-     "jalanan",
-     13
-    ],
-    [
-     "darurat",
-     11
     ]
    ]
   },
