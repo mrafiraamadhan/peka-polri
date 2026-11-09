@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-09T21:19:02Z",
+ "diperbarui_utc": "2026-11-09T22:10:56Z",
  "jendela_hari": 30,
  "hari_riwayat": 14,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2210,
+ "kasus_tanpa_polda": 2215,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 484,
-   "perlu": 178,
+   "kasus": 486,
+   "perlu": 179,
    "perlu_tanggap": 38,
-   "persen_tanggap": 21.3,
-   "tanggap": 234,
+   "persen_tanggap": 21.2,
+   "tanggap": 235,
    "jalur_khusus": 23,
    "melewati_batas": 101,
    "median_jeda_jam": 10.8,
@@ -26,11 +26,40 @@
     ],
     [
      "jalanan",
-     111
+     113
     ],
     [
      "narkoba",
      70
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Metro Jaya",
+   "provinsi": [
+    "31"
+   ],
+   "kasus": 212,
+   "perlu": 83,
+   "perlu_tanggap": 19,
+   "persen_tanggap": 22.9,
+   "tanggap": 106,
+   "jalur_khusus": 4,
+   "melewati_batas": 38,
+   "median_jeda_jam": 1.8,
+   "n_jeda": 19,
+   "topik_teratas": [
+    [
+     "darurat",
+     52
+    ],
+    [
+     "jalanan",
+     48
+    ],
+    [
+     "narkoba",
+     43
     ]
    ]
   },
@@ -64,44 +93,15 @@
    ]
   },
   {
-   "polda": "Polda Metro Jaya",
-   "provinsi": [
-    "31"
-   ],
-   "kasus": 210,
-   "perlu": 82,
-   "perlu_tanggap": 19,
-   "persen_tanggap": 23.2,
-   "tanggap": 105,
-   "jalur_khusus": 4,
-   "melewati_batas": 38,
-   "median_jeda_jam": 1.8,
-   "n_jeda": 19,
-   "topik_teratas": [
-    [
-     "darurat",
-     52
-    ],
-    [
-     "jalanan",
-     46
-    ],
-    [
-     "narkoba",
-     43
-    ]
-   ]
-  },
-  {
    "polda": "Polda Jawa Tengah",
    "provinsi": [
     "33"
    ],
-   "kasus": 216,
+   "kasus": 217,
    "perlu": 69,
    "perlu_tanggap": 11,
    "persen_tanggap": 15.9,
-   "tanggap": 110,
+   "tanggap": 111,
    "jalur_khusus": 10,
    "melewati_batas": 32,
    "median_jeda_jam": 10.3,
@@ -109,7 +109,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     69
+     70
     ],
     [
      "darurat",
@@ -1657,6 +1657,25 @@
    "provinsi": "Banten",
    "polda": "Polda Metro Jaya",
    "polres": "Polres Metro Tangerang Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3671",
+   "kabkota": "Kota Tangerang",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Tangerang Kota",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "kejadian": 3,
@@ -1839,25 +1858,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polresta Padang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3671",
-   "kabkota": "Kota Tangerang",
-   "kode_prov": "36",
-   "provinsi": "Banten",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Tangerang Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3205",
@@ -2202,6 +2202,25 @@
    "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3376",
+   "kabkota": "Kota Tegal",
+   "kode_prov": "33",
+   "provinsi": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "polres": "Polres Tegal Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 5,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-04",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Tegal Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1107",
    "kabkota": "Kabupaten Aceh Barat",
    "kode_prov": "11",
@@ -2238,25 +2257,6 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polres Bangkalan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3325",
-   "kabkota": "Kabupaten Batang",
-   "kode_prov": "33",
-   "provinsi": "Jawa Tengah",
-   "polda": "Polda Jawa Tengah",
-   "polres": "Polres Batang",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 3,
-   "kasus": 4,
-   "tanggal": [
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Batang bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
