@@ -1,36 +1,36 @@
 {
- "diperbarui_utc": "2026-11-09T16:29:22Z",
+ "diperbarui_utc": "2026-11-09T17:21:21Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 11,
-  "anggota": 25
+  "anggota": 23
  },
- "anggota_sudah_ditangani": 11,
+ "anggota_sudah_ditangani": 12,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
-  "JALUR KHUSUS": 36,
+  "DARURAT": 2,
+  "JALUR KHUSUS": 34,
   "TINDAK": 54,
-  "PANTAU": 132,
-  "TERCATAT": 1156
+  "PANTAU": 131,
+  "TERCATAT": 1154
  },
- "kasus_aktif": 1379,
+ "kasus_aktif": 1375,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 38
+   "kasus": 37
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 94
+   "kasus": 93
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 255
+   "kasus": 253
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 78
+   "kasus": 79
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -38,7 +38,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 58
+   "kasus": 57
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -57,11 +57,11 @@
   "35": {
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
-   "DARURAT": 1,
+   "DARURAT": 2,
    "JALUR KHUSUS": 9,
    "TINDAK": 7,
    "PANTAU": 19,
-   "TERCATAT": 84
+   "TERCATAT": 83
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -73,10 +73,10 @@
   "16": {
    "nama": "Sumatera Selatan",
    "polda": "Polda Sumatera Selatan",
-   "JALUR KHUSUS": 3,
+   "JALUR KHUSUS": 2,
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 26
+   "TERCATAT": 27
   },
   "18": {
    "nama": "Lampung",
@@ -157,7 +157,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 2,
    "PANTAU": 11,
-   "TERCATAT": 25
+   "TERCATAT": 26
   },
   "75": {
    "nama": "Gorontalo",
@@ -178,7 +178,7 @@
    "polda": "Polda Sumatera Utara",
    "TINDAK": 5,
    "PANTAU": 1,
-   "TERCATAT": 39
+   "TERCATAT": 38
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -198,7 +198,7 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "TINDAK": 1,
-   "PANTAU": 2,
+   "PANTAU": 1,
    "TERCATAT": 39
   },
   "53": {
@@ -227,7 +227,7 @@
    "polda": "Polda Kepulauan Riau",
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -314,42 +314,42 @@
  "langkah": {
   "dengar": {
    "artikel": 903,
-   "sumber": 2
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 37,
-   "sudah_ada": 852,
+   "relevan": 21,
+   "sudah_ada": 873,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 10,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 8,
    "luar_negeri": 0,
-   "kasus_baru": 12,
-   "digabung": 25
+   "kasus_baru": 4,
+   "digabung": 17
   },
   "timbang": {
-   "DARURAT": 1,
-   "JALUR KHUSUS": 36,
+   "DARURAT": 2,
+   "JALUR KHUSUS": 34,
    "TINDAK": 54,
-   "PANTAU": 132,
-   "TERCATAT": 1156
+   "PANTAU": 131,
+   "TERCATAT": 1154
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 223
+   "kasus": 221
   },
   "kabarkan": {
-   "tanggapan_terlihat": 643,
-   "kasus": 1379,
-   "tanggapan_sejak_berita_pertama": 580,
+   "tanggapan_terlihat": 641,
+   "kasus": 1375,
+   "tanggapan_sejak_berita_pertama": 578,
    "median_jeda_jam": 8.9,
    "n_jeda": 63,
    "melewati_batas": 89
   },
   "arsipkan": {
-   "baris": 5434,
+   "baris": 5438,
    "dikoreksi": 77,
    "bulan": 2,
-   "hari_riwayat": 13
+   "hari_riwayat": 14
   }
  },
  "lonjakan_wilayah": [
@@ -359,7 +359,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 18,
-   "rata": 5.85
+   "rata": 6.71
   },
   {
    "kode_prov": "16",
@@ -367,15 +367,15 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 10,
-   "rata": 2.15
+   "rata": 2.71
   },
   {
    "kode_prov": "31",
    "prov": "DKI Jakarta",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
-   "rata": 1.69
+   "hari_ini": 7,
+   "rata": 2.0
   },
   {
    "kode_prov": "76",
@@ -383,7 +383,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 0.46
+   "rata": 0.93
   },
   {
    "kode_prov": "61",
@@ -391,7 +391,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 0.62
+   "rata": 1.07
   },
   {
    "kode_prov": "52",
@@ -399,7 +399,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 11,
-   "rata": 1.23
+   "rata": 1.93
   },
   {
    "kode_prov": "35",
@@ -407,7 +407,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 26,
-   "rata": 6.54
+   "rata": 7.93
   },
   {
    "kode_prov": "36",
@@ -415,7 +415,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 8,
-   "rata": 2.08
+   "rata": 2.5
   },
   {
    "kode_prov": "14",
@@ -423,7 +423,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 5,
-   "rata": 1.08
+   "rata": 1.36
   },
   {
    "kode_prov": "13",
@@ -431,7 +431,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 5,
-   "rata": 0.92
+   "rata": 1.21
   },
   {
    "kode_prov": "35",
@@ -439,7 +439,7 @@
    "topik": "anggota",
    "nama": "Perilaku anggota",
    "hari_ini": 6,
-   "rata": 2.15
+   "rata": 2.43
   },
   {
    "kode_prov": "31",
@@ -447,7 +447,7 @@
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "hari_ini": 5,
-   "rata": 1.69
+   "rata": 1.93
   },
   {
    "kode_prov": "33",
@@ -455,7 +455,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 24,
-   "rata": 3.23
+   "rata": 4.71
   },
   {
    "kode_prov": "12",
@@ -463,7 +463,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 3.23
+   "rata": 3.5
   },
   {
    "kode_prov": "73",
@@ -471,7 +471,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 1.62
+   "rata": 2.0
   },
   {
    "kode_prov": "34",
@@ -479,7 +479,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 5,
-   "rata": 0.69
+   "rata": 1.0
   },
   {
    "kode_prov": "51",
@@ -487,7 +487,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 8,
-   "rata": 0.85
+   "rata": 1.36
   },
   {
    "kode_prov": "11",
@@ -495,7 +495,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 0.77
+   "rata": 1.21
   },
   {
    "kode_prov": "64",
@@ -503,7 +503,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 6,
-   "rata": 0.69
+   "rata": 1.07
   },
   {
    "kode_prov": "62",
@@ -511,11 +511,42 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 8,
-   "rata": 0.46
+   "rata": 1.0
   }
  ],
  "lonjakan_nasional": [],
- "hari_riwayat": 13,
+ "hari_riwayat": 14,
  "gempa_darurat": [],
- "hoaks_terbaru": []
+ "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Pramono Anung Akan Memagar Semua Monumen di Jakarta, Mencegah Kejadian di Bundaran HI Terulang",
+   "url": "https://turnbackhoax.id/articles/37412-salah-pramono-anung-akan-memagar-semua-monumen-di-jakarta-mencegah-kejadian-di-bundaran-hi-terulang",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Warga Berjoget Akibat Kelangkaan BBM",
+   "url": "https://turnbackhoax.id/articles/37411-salah-warga-berjoget-akibat-kelangkaan-bbm",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Prabowo Minta Universitas Ganti Program KKN dengan Pelatihan Militer 3 Bulan",
+   "url": "https://turnbackhoax.id/articles/37410-salah-prabowo-minta-universitas-ganti-program-kkn-dengan-pelatihan-militer-3-bulan",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] TNI Bakal Berikan Pasien Gangguan Jiwa Pelatihan MIliter",
+   "url": "https://turnbackhoax.id/articles/37403-salah-tni-bakal-berikan-pasien-gangguan-jiwa-pelatihan-militer",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Menghirup Abu Pembakaran Daun Mint Bisa Obati Asma",
+   "url": "https://turnbackhoax.id/articles/37402-salah-menghirup-abu-pembakaran-daun-mint-bisa-obati-asma",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Video \"AHY Siap Dampingi Prabowo pada Pilpres 2029\"",
+   "url": "https://turnbackhoax.id/articles/37401-salah-video-ahy-siap-dampingi-prabowo-pada-pilpres-2029",
+   "terbit": null
+  }
+ ]
 }
