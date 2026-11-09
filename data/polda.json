@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-09T03:25:33Z",
+ "diperbarui_utc": "2026-11-09T04:16:47Z",
  "jendela_hari": 30,
  "hari_riwayat": 13,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2062,
+ "kasus_tanpa_polda": 2070,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -41,13 +41,13 @@
    ],
    "kasus": 229,
    "perlu": 74,
-   "perlu_tanggap": 10,
-   "persen_tanggap": 13.5,
-   "tanggap": 97,
+   "perlu_tanggap": 11,
+   "persen_tanggap": 14.9,
+   "tanggap": 98,
    "jalur_khusus": 3,
    "melewati_batas": 45,
-   "median_jeda_jam": 2.9,
-   "n_jeda": 10,
+   "median_jeda_jam": 4.1,
+   "n_jeda": 11,
    "topik_teratas": [
     [
      "darurat",
@@ -68,15 +68,15 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 192,
-   "perlu": 74,
-   "perlu_tanggap": 20,
-   "persen_tanggap": 27.0,
-   "tanggap": 97,
+   "kasus": 193,
+   "perlu": 73,
+   "perlu_tanggap": 19,
+   "persen_tanggap": 26.0,
+   "tanggap": 98,
    "jalur_khusus": 4,
    "melewati_batas": 36,
-   "median_jeda_jam": 2.6,
-   "n_jeda": 20,
+   "median_jeda_jam": 1.8,
+   "n_jeda": 19,
    "topik_teratas": [
     [
      "darurat",
@@ -84,7 +84,7 @@
     ],
     [
      "narkoba",
-     41
+     42
     ],
     [
      "jalanan",
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 176,
-   "perlu": 60,
+   "kasus": 178,
+   "perlu": 61,
    "perlu_tanggap": 11,
-   "persen_tanggap": 18.3,
+   "persen_tanggap": 18.0,
    "tanggap": 83,
    "jalur_khusus": 10,
    "melewati_batas": 30,
@@ -109,7 +109,7 @@
    "topik_teratas": [
     [
      "darurat",
-     50
+     51
     ],
     [
      "jalanan",
@@ -117,7 +117,7 @@
     ],
     [
      "narkoba",
-     23
+     24
     ]
    ]
   },
@@ -155,12 +155,12 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 101,
-   "perlu": 35,
+   "kasus": 102,
+   "perlu": 36,
    "perlu_tanggap": 7,
-   "persen_tanggap": 20.0,
+   "persen_tanggap": 19.4,
    "tanggap": 62,
-   "jalur_khusus": 2,
+   "jalur_khusus": 3,
    "melewati_batas": 21,
    "median_jeda_jam": 4.8,
    "n_jeda": 7,
@@ -175,7 +175,7 @@
     ],
     [
      "jalanan",
-     14
+     15
     ]
    ]
   },
@@ -219,7 +219,7 @@
    "persen_tanggap": 18.2,
    "tanggap": 32,
    "jalur_khusus": 8,
-   "melewati_batas": 17,
+   "melewati_batas": 18,
    "median_jeda_jam": 6.2,
    "n_jeda": 6,
    "topik_teratas": [
@@ -329,11 +329,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 65,
+   "kasus": 66,
    "perlu": 25,
    "perlu_tanggap": 4,
    "persen_tanggap": 16.0,
-   "tanggap": 40,
+   "tanggap": 41,
    "jalur_khusus": 5,
    "melewati_batas": 16,
    "median_jeda_jam": 7.6,
@@ -341,7 +341,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     17
+     18
     ],
     [
      "narkoba",
@@ -358,11 +358,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 82,
+   "kasus": 83,
    "perlu": 24,
    "perlu_tanggap": 3,
    "persen_tanggap": 12.5,
-   "tanggap": 53,
+   "tanggap": 54,
    "jalur_khusus": 7,
    "melewati_batas": 11,
    "median_jeda_jam": 14.7,
@@ -412,6 +412,35 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Barat",
+   "provinsi": [
+    "61"
+   ],
+   "kasus": 59,
+   "perlu": 18,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 5.6,
+   "tanggap": 32,
+   "jalur_khusus": 2,
+   "melewati_batas": 10,
+   "median_jeda_jam": 0.0,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "narkoba",
+     16
+    ],
+    [
+     "jalanan",
+     11
+    ],
+    [
+     "darurat",
+     11
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kepulauan Bangka Belitung",
    "provinsi": [
     "19"
@@ -437,35 +466,6 @@
     [
      "jalanan",
      9
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kalimantan Barat",
-   "provinsi": [
-    "61"
-   ],
-   "kasus": 58,
-   "perlu": 17,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 5.9,
-   "tanggap": 32,
-   "jalur_khusus": 2,
-   "melewati_batas": 10,
-   "median_jeda_jam": 0.0,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "narkoba",
-     16
-    ],
-    [
-     "darurat",
-     11
-    ],
-    [
-     "jalanan",
-     10
     ]
    ]
   },
@@ -567,7 +567,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 32,
    "jalur_khusus": 1,
-   "melewati_batas": 8,
+   "melewati_batas": 9,
    "median_jeda_jam": 9.6,
    "n_jeda": 2,
    "topik_teratas": [
@@ -625,7 +625,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 19,
    "jalur_khusus": 3,
-   "melewati_batas": 7,
+   "melewati_batas": 8,
    "median_jeda_jam": 41.7,
    "n_jeda": 2,
    "topik_teratas": [
@@ -822,11 +822,11 @@
    "provinsi": [
     "13"
    ],
-   "kasus": 61,
+   "kasus": 62,
    "perlu": 8,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 33,
+   "tanggap": 34,
    "jalur_khusus": 1,
    "melewati_batas": 7,
    "median_jeda_jam": null,
@@ -838,7 +838,7 @@
     ],
     [
      "jalanan",
-     11
+     12
     ],
     [
      "narkoba",
@@ -1226,6 +1226,25 @@
    "penanggung_jawab": "Kasat Binmas Polres(ta) Bandung bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3175",
+   "kabkota": "Kota Jakarta Utara",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Utara",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 3,
+   "kasus": 13,
+   "tanggal": [
+    "2026-11-01",
+    "2026-11-04",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Utara bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3577",
    "kabkota": "Kota Madiun",
    "kode_prov": "35",
@@ -1378,6 +1397,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Manokwari bersama pemerintah daerah"
   },
   {
+   "kode_kab": "5271",
+   "kabkota": "Kota Mataram",
+   "kode_prov": "52",
+   "provinsi": "Nusa Tenggara Barat",
+   "polda": "Polda Nusa Tenggara Barat",
+   "polres": "Polresta Mataram",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 8,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-03",
+    "2026-11-07"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1275",
    "kabkota": "Kota Medan",
    "kode_prov": "12",
@@ -1452,25 +1490,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polrestabes Bandung bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "5271",
-   "kabkota": "Kota Mataram",
-   "kode_prov": "52",
-   "provinsi": "Nusa Tenggara Barat",
-   "polda": "Polda Nusa Tenggara Barat",
-   "polres": "Polresta Mataram",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-03",
-    "2026-11-07"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
   },
   {
    "kode_kab": "3578",
@@ -1604,6 +1623,25 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Bontang bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "1371",
+   "kabkota": "Kota Padang",
+   "kode_prov": "13",
+   "provinsi": "Sumatera Barat",
+   "polda": "Polda Sumatera Barat",
+   "polres": "Polresta Padang",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 6,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-03",
+    "2026-11-08"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Padang bersama pemerintah daerah"
   },
   {
    "kode_kab": "5101",
@@ -1794,25 +1832,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1371",
-   "kabkota": "Kota Padang",
-   "kode_prov": "13",
-   "provinsi": "Sumatera Barat",
-   "polda": "Polda Sumatera Barat",
-   "polres": "Polresta Padang",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-08"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Padang bersama pemerintah daerah"
   },
   {
    "kode_kab": "7271",
@@ -2231,25 +2250,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Gunung Mas bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3502",
-   "kabkota": "Kabupaten Ponorogo",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polres Ponorogo",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 3,
-   "kasus": 3,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-07"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polres Ponorogo bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
