@@ -1,21 +1,21 @@
 {
- "diperbarui_utc": "2026-11-09T02:34:15Z",
+ "diperbarui_utc": "2026-11-09T03:25:33Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
-  "anggota": 22,
+  "anggota": 23,
   "kekerasan": 1
  },
- "anggota_sudah_ditangani": 7,
+ "anggota_sudah_ditangani": 6,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 2,
-  "JALUR KHUSUS": 31,
+  "DARURAT": 1,
+  "JALUR KHUSUS": 32,
   "TINDAK": 55,
-  "PANTAU": 121,
+  "PANTAU": 120,
   "TERCATAT": 995
  },
- "kasus_aktif": 1204,
+ "kasus_aktif": 1203,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,27 +23,27 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 79
+   "kasus": 80
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 268
+   "kasus": 262
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 89
+   "kasus": 88
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 220
+   "kasus": 223
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 60
+   "kasus": 58
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 81
+   "kasus": 80
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 375
+   "kasus": 380
   }
  },
  "provinsi": {
@@ -63,19 +63,10 @@
    "PANTAU": 8,
    "TERCATAT": 23
   },
-  "32": {
-   "nama": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "DARURAT": 1,
-   "TINDAK": 5,
-   "PANTAU": 8,
-   "TERCATAT": 55
-  },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 1,
-   "TINDAK": 1,
    "PANTAU": 4,
    "TERCATAT": 12
   },
@@ -84,8 +75,8 @@
    "polda": "Polda Jawa Tengah",
    "JALUR KHUSUS": 1,
    "TINDAK": 7,
-   "PANTAU": 5,
-   "TERCATAT": 34
+   "PANTAU": 4,
+   "TERCATAT": 33
   },
   "35": {
    "nama": "Jawa Timur",
@@ -93,14 +84,14 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 13,
    "PANTAU": 14,
-   "TERCATAT": 75
+   "TERCATAT": 74
   },
   "15": {
    "nama": "Jambi",
    "polda": "Polda Jambi",
    "JALUR KHUSUS": 1,
    "PANTAU": 3,
-   "TERCATAT": 10
+   "TERCATAT": 8
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -115,7 +106,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 26
+   "TERCATAT": 27
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -123,13 +114,13 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 6,
-   "TERCATAT": 15
+   "TERCATAT": 16
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
    "polda": "Polda Nusa Tenggara Barat",
    "JALUR KHUSUS": 1,
-   "PANTAU": 6,
+   "PANTAU": 7,
    "TERCATAT": 6
   },
   "76": {
@@ -152,6 +143,13 @@
    "TINDAK": 2,
    "PANTAU": 3,
    "TERCATAT": 5
+  },
+  "32": {
+   "nama": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "TINDAK": 5,
+   "PANTAU": 8,
+   "TERCATAT": 55
   },
   "75": {
    "nama": "Gorontalo",
@@ -184,14 +182,14 @@
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "TINDAK": 1,
-   "PANTAU": 4,
-   "TERCATAT": 16
+   "PANTAU": 3,
+   "TERCATAT": 15
   },
   "82": {
    "nama": "Maluku Utara",
    "polda": "Polda Maluku Utara",
    "TINDAK": 3,
-   "TERCATAT": 2
+   "TERCATAT": 1
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -205,7 +203,7 @@
    "polda": "Polda Banten",
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 19
+   "TERCATAT": 20
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -217,7 +215,7 @@
   "61": {
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
-   "TINDAK": 1,
+   "TINDAK": 2,
    "PANTAU": 3,
    "TERCATAT": 14
   },
@@ -283,7 +281,7 @@
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "PANTAU": 2,
-   "TERCATAT": 12
+   "TERCATAT": 13
   },
   "91": {
    "nama": "Papua Barat",
@@ -298,7 +296,7 @@
   "94": {
    "nama": "Papua",
    "polda": "Polda Papua",
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "97": {
    "nama": "Papua Pegunungan",
@@ -308,40 +306,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 852,
+   "artikel": 853,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 29,
-   "sudah_ada": 800,
+   "relevan": 41,
+   "sudah_ada": 789,
    "hoaks": 0,
-   "tidak_relevan": 6,
-   "bukan_kejadian": 15,
-   "luar_negeri": 2,
-   "kasus_baru": 12,
-   "digabung": 17
+   "tidak_relevan": 3,
+   "bukan_kejadian": 19,
+   "luar_negeri": 1,
+   "kasus_baru": 21,
+   "digabung": 20
   },
   "timbang": {
-   "DARURAT": 2,
-   "JALUR KHUSUS": 31,
+   "DARURAT": 1,
+   "JALUR KHUSUS": 32,
    "TINDAK": 55,
-   "PANTAU": 121,
+   "PANTAU": 120,
    "TERCATAT": 995
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 209
+   "kasus": 208
   },
   "kabarkan": {
-   "tanggapan_terlihat": 502,
-   "kasus": 1204,
-   "tanggapan_sejak_berita_pertama": 442,
-   "median_jeda_jam": 10.2,
-   "n_jeda": 60,
-   "melewati_batas": 100
+   "tanggapan_terlihat": 499,
+   "kasus": 1203,
+   "tanggapan_sejak_berita_pertama": 440,
+   "median_jeda_jam": 10.4,
+   "n_jeda": 59,
+   "melewati_batas": 98
   },
   "arsipkan": {
-   "baris": 4914,
+   "baris": 4935,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 13
@@ -349,19 +347,11 @@
  },
  "lonjakan_wilayah": [
   {
-   "kode_prov": "33",
-   "prov": "Jawa Tengah",
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "hari_ini": 5,
-   "rata": 1.23
-  },
-  {
    "kode_prov": null,
    "prov": "Tanpa lokasi",
    "topik": "anggota",
    "nama": "Perilaku anggota",
-   "hari_ini": 8,
+   "hari_ini": 9,
    "rata": 3.54
   },
   {
@@ -377,6 +367,11 @@
  "hari_riwayat": 13,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Gibran Ditetapkan Tersangka Penyadapan Presiden dan Seskab",
+   "url": "https://turnbackhoax.id/articles/37396-salah-gibran-ditetapkan-tersangka-penyadapan-presiden-dan-seskab",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Megawati Resmi Pensiun dari Partai, Pilih Ganjar jadi Ketua PDIP yang Baru",
    "url": "https://turnbackhoax.id/articles/37395-salah-megawati-resmi-pensiun-dari-partai-pilih-ganjar-jadi-ketua-pdip-yang-baru",
@@ -400,11 +395,6 @@
   {
    "judul": "[SALAH] Le Minerale Sebagai Sponsor Kegiatan Aksi Deklarasi Sumpah Pemuda Pada 29 Oktober 2026",
    "url": "https://turnbackhoax.id/articles/37388-salah-le-minerale-sebagai-sponsor-kegiatan-aksi-deklarasi-sumpah-pemuda-pada-29-oktober-2026",
-   "terbit": null
-  },
-  {
-   "judul": "[PENIPUAN] Tautan Informasi Program Pertanian",
-   "url": "https://turnbackhoax.id/articles/37378-penipuan-tautan-informasi-program-pertanian",
    "terbit": null
   }
  ]
