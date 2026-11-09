@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-09T22:10:56Z",
+ "diperbarui_utc": "2026-11-09T23:02:11Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 11,
@@ -10,11 +10,11 @@
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 35,
-  "TINDAK": 55,
-  "PANTAU": 129,
-  "TERCATAT": 1150
+  "TINDAK": 54,
+  "PANTAU": 130,
+  "TERCATAT": 1148
  },
- "kasus_aktif": 1369,
+ "kasus_aktif": 1367,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -26,11 +26,11 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 253
+   "kasus": 254
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 76
+   "kasus": 75
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 362
+   "kasus": 360
   }
  },
  "provinsi": {
@@ -135,7 +135,7 @@
    "polda": "Polda Bengkulu",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 5
+   "TERCATAT": 4
   },
   "51": {
    "nama": "Bali",
@@ -148,7 +148,7 @@
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "TINDAK": 10,
-   "PANTAU": 10,
+   "PANTAU": 11,
    "TERCATAT": 53
   },
   "31": {
@@ -168,9 +168,9 @@
   "61": {
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
-   "TINDAK": 3,
+   "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 18
+   "TERCATAT": 19
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -239,7 +239,7 @@
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "PANTAU": 3,
-   "TERCATAT": 20
+   "TERCATAT": 19
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -317,58 +317,42 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 27,
-   "sudah_ada": 875,
+   "relevan": 19,
+   "sudah_ada": 878,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 2,
-   "luar_negeri": 0,
-   "kasus_baru": 10,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 7,
+   "luar_negeri": 1,
+   "kasus_baru": 2,
    "digabung": 17
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 35,
-   "TINDAK": 55,
-   "PANTAU": 129,
-   "TERCATAT": 1150
+   "TINDAK": 54,
+   "PANTAU": 130,
+   "TERCATAT": 1148
   },
   "teruskan": {
    "polda": 36,
    "kasus": 219
   },
   "kabarkan": {
-   "tanggapan_terlihat": 647,
-   "kasus": 1369,
-   "tanggapan_sejak_berita_pertama": 584,
-   "median_jeda_jam": 8.9,
-   "n_jeda": 63,
-   "melewati_batas": 83
+   "tanggapan_terlihat": 648,
+   "kasus": 1367,
+   "tanggapan_sejak_berita_pertama": 583,
+   "median_jeda_jam": 9.0,
+   "n_jeda": 65,
+   "melewati_batas": 85
   },
   "arsipkan": {
-   "baris": 5461,
+   "baris": 5463,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 14
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "16",
-   "prov": "Sumatera Selatan",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 10,
-   "rata": 2.71
-  },
-  {
-   "kode_prov": "31",
-   "prov": "DKI Jakarta",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 8,
-   "rata": 2.07
-  },
   {
    "kode_prov": "76",
    "prov": "Sulawesi Barat",
@@ -399,7 +383,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 9,
-   "rata": 2.5
+   "rata": 2.57
   },
   {
    "kode_prov": "14",
@@ -418,12 +402,20 @@
    "rata": 1.21
   },
   {
+   "kode_prov": "33",
+   "prov": "Jawa Tengah",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 1.93
+  },
+  {
    "kode_prov": "35",
    "prov": "Jawa Timur",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 27,
-   "rata": 7.93
+   "rata": 8.07
   },
   {
    "kode_prov": "35",
@@ -455,7 +447,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 28,
-   "rata": 4.71
+   "rata": 4.79
   },
   {
    "kode_prov": "12",
@@ -472,6 +464,14 @@
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
    "rata": 2.0
+  },
+  {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 7,
+   "rata": 2.07
   },
   {
    "kode_prov": "34",
@@ -504,6 +504,14 @@
    "nama": "Kejahatan jalanan",
    "hari_ini": 6,
    "rata": 1.07
+  },
+  {
+   "kode_prov": "16",
+   "prov": "Sumatera Selatan",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 9,
+   "rata": 2.71
   },
   {
    "kode_prov": "62",
