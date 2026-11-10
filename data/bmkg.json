@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-10T02:56:13Z",
+ "diperbarui_utc": "2026-11-10T03:47:33Z",
  "terbaru": {
   "waktu_utc": "2026-11-10T01:53:28Z",
   "magnitudo": 5.4,
@@ -20,6 +20,17 @@
    "potensi": null,
    "dirasakan": "III Saumlaki",
    "koordinat": "-8.02,130.49",
+   "prov": null,
+   "kode_prov": null
+  },
+  {
+   "waktu_utc": "2026-11-10T00:49:12Z",
+   "magnitudo": 4.5,
+   "kedalaman": "14 km",
+   "wilayah": "Pusat gempa berada di laut 103 km selatan Bolaanguki-Bolsel",
+   "potensi": null,
+   "dirasakan": "II - III Luwuk",
+   "koordinat": "-0.52,123.76",
    "prov": null,
    "kode_prov": null
   },
@@ -165,17 +176,6 @@
    "koordinat": "-2.08,121.02",
    "prov": "Sulawesi Selatan",
    "kode_prov": "73"
-  },
-  {
-   "waktu_utc": "2026-11-03T15:37:50Z",
-   "magnitudo": 4.8,
-   "kedalaman": "87 km",
-   "wilayah": "Pusat gempa berada di laut 86 km Selatan Kota Gorontalo",
-   "potensi": null,
-   "dirasakan": "III Kab. Gorontalo, II - III Kab. Bone Bolango, II - III Kab. Gorontalo Utara, II - III Kota Gorontalo, II - III Kab. Banggai, II - III Kab. Banggai Kepulauan",
-   "koordinat": "-0.20,123.32",
-   "prov": "Gorontalo",
-   "kode_prov": "75"
   }
  ],
  "m5": [
