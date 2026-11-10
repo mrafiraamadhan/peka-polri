@@ -1,15 +1,15 @@
 {
- "diperbarui_utc": "2026-11-10T01:35:59Z",
+ "diperbarui_utc": "2026-11-10T02:04:30Z",
  "terbaru": {
-  "waktu_utc": "2026-11-09T10:38:54Z",
-  "magnitudo": 3.9,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di laut 44 km timur laut Mbay-Nagekeo",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Kab. Nagekeo",
-  "koordinat": "-8.34,121.52",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "waktu_utc": "2026-11-10T01:53:28Z",
+  "magnitudo": 5.4,
+  "kedalaman": "84 km",
+  "wilayah": "90 km BaratDaya TANIMBAR",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "-8.02,130.49",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
   {
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-10T01:53:28Z",
+   "magnitudo": 5.4,
+   "kedalaman": "84 km",
+   "wilayah": "90 km BaratDaya TANIMBAR",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-8.02,130.49",
+   "prov": null,
+   "kode_prov": null
+  },
+  {
    "waktu_utc": "2026-11-09T09:48:29Z",
    "magnitudo": 5.5,
    "kedalaman": "10 km",
@@ -332,17 +343,6 @@
    "koordinat": "0.64,121.75",
    "prov": "Gorontalo",
    "kode_prov": "75"
-  },
-  {
-   "waktu_utc": "2026-10-11T03:30:20Z",
-   "magnitudo": 5.7,
-   "kedalaman": "10 km",
-   "wilayah": "193 km BaratDaya KAB-SUKABUMI-JABAR",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-8.73,106.47",
-   "prov": "Jawa Barat",
-   "kode_prov": "32"
   }
  ]
 }
