@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-10T02:04:30Z",
+ "diperbarui_utc": "2026-11-10T02:56:13Z",
  "terbaru": {
   "waktu_utc": "2026-11-10T01:53:28Z",
   "magnitudo": 5.4,
   "kedalaman": "84 km",
-  "wilayah": "90 km BaratDaya TANIMBAR",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
+  "wilayah": "Pusat gempa berada di laut 90 km barat daya Tanimbar",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "III Saumlaki",
   "koordinat": "-8.02,130.49",
   "prov": null,
   "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-10T01:53:28Z",
+   "magnitudo": 5.4,
+   "kedalaman": "84 km",
+   "wilayah": "Pusat gempa berada di laut 90 km barat daya Tanimbar",
+   "potensi": null,
+   "dirasakan": "III Saumlaki",
+   "koordinat": "-8.02,130.49",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-09T10:38:54Z",
    "magnitudo": 3.9,
@@ -165,17 +176,6 @@
    "koordinat": "-0.20,123.32",
    "prov": "Gorontalo",
    "kode_prov": "75"
-  },
-  {
-   "waktu_utc": "2026-11-03T11:43:49Z",
-   "magnitudo": 4.2,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di laut 42 km Timur Laut Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "II - III Kab. Nagekeo, II - III Kab. Manggarai",
-   "koordinat": "-8.27,120.63",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [
