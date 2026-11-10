@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-10T15:46:27Z",
+ "diperbarui_utc": "2026-11-10T16:38:11Z",
  "jendela_hari": 30,
  "hari_riwayat": 14,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2394,
+ "kasus_tanpa_polda": 2400,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 519,
-   "perlu": 193,
+   "kasus": 521,
+   "perlu": 195,
    "perlu_tanggap": 42,
-   "persen_tanggap": 21.8,
+   "persen_tanggap": 21.5,
    "tanggap": 254,
    "jalur_khusus": 24,
    "melewati_batas": 107,
@@ -126,10 +126,10 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 214,
-   "perlu": 53,
+   "kasus": 215,
+   "perlu": 54,
    "perlu_tanggap": 11,
-   "persen_tanggap": 20.8,
+   "persen_tanggap": 20.4,
    "tanggap": 147,
    "jalur_khusus": 2,
    "melewati_batas": 33,
@@ -142,7 +142,7 @@
     ],
     [
      "jalanan",
-     56
+     57
     ],
     [
      "darurat",
@@ -155,11 +155,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 123,
+   "kasus": 124,
    "perlu": 46,
    "perlu_tanggap": 8,
    "persen_tanggap": 17.4,
-   "tanggap": 72,
+   "tanggap": 73,
    "jalur_khusus": 3,
    "melewati_batas": 23,
    "median_jeda_jam": 4.3,
@@ -167,7 +167,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     53
+     54
     ],
     [
      "jalanan",
@@ -184,11 +184,11 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 75,
-   "perlu": 40,
+   "kasus": 77,
+   "perlu": 41,
    "perlu_tanggap": 7,
-   "persen_tanggap": 17.5,
-   "tanggap": 33,
+   "persen_tanggap": 17.1,
+   "tanggap": 34,
    "jalur_khusus": 2,
    "melewati_batas": 28,
    "median_jeda_jam": 3.6,
@@ -196,7 +196,7 @@
    "topik_teratas": [
     [
      "konflik",
-     34
+     35
     ],
     [
      "jalanan",
@@ -215,13 +215,13 @@
    ],
    "kasus": 87,
    "perlu": 38,
-   "perlu_tanggap": 6,
-   "persen_tanggap": 15.8,
-   "tanggap": 46,
+   "perlu_tanggap": 7,
+   "persen_tanggap": 18.4,
+   "tanggap": 47,
    "jalur_khusus": 8,
-   "melewati_batas": 22,
-   "median_jeda_jam": 6.2,
-   "n_jeda": 6,
+   "melewati_batas": 21,
+   "median_jeda_jam": 7.7,
+   "n_jeda": 7,
    "topik_teratas": [
     [
      "jalanan",
@@ -271,7 +271,7 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 159,
+   "kasus": 160,
    "perlu": 31,
    "perlu_tanggap": 8,
    "persen_tanggap": 25.8,
@@ -283,7 +283,7 @@
    "topik_teratas": [
     [
      "darurat",
-     69
+     70
     ],
     [
      "narkoba",
@@ -1110,6 +1110,26 @@
  ],
  "titik_rawan": [
   {
+   "kode_kab": "3471",
+   "kabkota": "Kota Yogyakarta",
+   "kode_prov": "34",
+   "provinsi": "DI Yogyakarta",
+   "polda": "Polda DI Yogyakarta",
+   "polres": "Polresta Yogyakarta",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 4,
+   "kasus": 21,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-10"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1275",
    "kabkota": "Kota Medan",
    "kode_prov": "12",
@@ -1347,25 +1367,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Lumajang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3471",
-   "kabkota": "Kota Yogyakarta",
-   "kode_prov": "34",
-   "provinsi": "DI Yogyakarta",
-   "polda": "Polda DI Yogyakarta",
-   "polres": "Polresta Yogyakarta",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 3,
-   "kasus": 20,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-03",
-    "2026-11-07"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
   },
   {
    "kode_kab": "3578",

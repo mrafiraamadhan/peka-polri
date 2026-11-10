@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-10T15:46:27Z",
+ "diperbarui_utc": "2026-11-10T16:38:11Z",
  "terbaru": {
-  "waktu_utc": "2026-11-10T14:31:38Z",
+  "waktu_utc": "2026-11-10T16:04:15Z",
   "magnitudo": 4.0,
-  "kedalaman": "102 km",
-  "wilayah": "Pusat gempa berada di darat 15 km selatan Kota Sukabumi",
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 12 km timur Konawe Selatan",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Cianjur, II Sukabumi, II - III Ciwidey, II - III Pangalengan, II - III Nagrak, II Kec. Kebonpedes, II Cihanjuang, II Padalarang, II Cihideung, II Ngamprah, II Cisarua, II Lembang, II Karawang Selatan",
-  "koordinat": "-7.04,106.98",
-  "prov": "Jawa Barat",
-  "kode_prov": "32"
+  "dirasakan": "IV Konawe Selatan, III Kendari",
+  "koordinat": "-4.29,122.38",
+  "prov": "Sulawesi Tenggara",
+  "kode_prov": "74"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-10T16:04:15Z",
+   "magnitudo": 4.0,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 12 km timur Konawe Selatan",
+   "potensi": null,
+   "dirasakan": "IV Konawe Selatan, III Kendari",
+   "koordinat": "-4.29,122.38",
+   "prov": "Sulawesi Tenggara",
+   "kode_prov": "74"
+  },
   {
    "waktu_utc": "2026-11-10T14:31:38Z",
    "magnitudo": 4.0,
@@ -165,20 +176,20 @@
    "koordinat": "-1.14,120.15",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-11-04T00:50:34Z",
-   "magnitudo": 4.4,
-   "kedalaman": "15 km",
-   "wilayah": "Pusat gempa berada di laut 88 km timur laut Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "III Kab. Manggarai",
-   "koordinat": "-7.94,120.89",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-10T15:51:37Z",
+   "magnitudo": 5.1,
+   "kedalaman": "10 km",
+   "wilayah": "116 km TimurLaut HALMAHERASELATAN-MALUT",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-0.93,128.60",
+   "prov": "Maluku Utara",
+   "kode_prov": "82"
+  },
   {
    "waktu_utc": "2026-11-10T08:34:04Z",
    "magnitudo": 5.3,
@@ -332,17 +343,6 @@
    "koordinat": "3.79,95.72",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-10-18T08:00:08Z",
-   "magnitudo": 5.3,
-   "kedalaman": "10 km",
-   "wilayah": "60 km TimurLaut LABUANBAJO-NTT",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-8.09,120.26",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ]
 }
