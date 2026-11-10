@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-10T21:14:16Z",
+ "diperbarui_utc": "2026-11-10T22:05:28Z",
  "jendela_hari": 30,
  "hari_riwayat": 15,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -39,10 +39,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 226,
-   "perlu": 104,
+   "kasus": 227,
+   "perlu": 105,
    "perlu_tanggap": 22,
-   "persen_tanggap": 21.2,
+   "persen_tanggap": 21.0,
    "tanggap": 111,
    "jalur_khusus": 4,
    "melewati_batas": 57,
@@ -68,15 +68,15 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 275,
+   "kasus": 276,
    "perlu": 86,
-   "perlu_tanggap": 14,
-   "persen_tanggap": 16.3,
-   "tanggap": 127,
+   "perlu_tanggap": 15,
+   "persen_tanggap": 17.4,
+   "tanggap": 128,
    "jalur_khusus": 5,
    "melewati_batas": 49,
-   "median_jeda_jam": 4.9,
-   "n_jeda": 14,
+   "median_jeda_jam": 5.7,
+   "n_jeda": 15,
    "topik_teratas": [
     [
      "jalanan",
@@ -84,7 +84,7 @@
     ],
     [
      "darurat",
-     84
+     85
     ],
     [
      "narkoba",
@@ -97,12 +97,12 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 235,
-   "perlu": 74,
+   "kasus": 236,
+   "perlu": 75,
    "perlu_tanggap": 13,
-   "persen_tanggap": 17.6,
+   "persen_tanggap": 17.3,
    "tanggap": 123,
-   "jalur_khusus": 10,
+   "jalur_khusus": 11,
    "melewati_batas": 38,
    "median_jeda_jam": 12.8,
    "n_jeda": 13,
@@ -275,7 +275,7 @@
    "perlu": 31,
    "perlu_tanggap": 8,
    "persen_tanggap": 25.8,
-   "tanggap": 81,
+   "tanggap": 82,
    "jalur_khusus": 0,
    "melewati_batas": 20,
    "median_jeda_jam": 12.0,
@@ -358,7 +358,7 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 89,
+   "kasus": 91,
    "perlu": 29,
    "perlu_tanggap": 5,
    "persen_tanggap": 17.2,
@@ -378,7 +378,7 @@
     ],
     [
      "anggota",
-     11
+     12
     ]
    ]
   },
@@ -1768,6 +1768,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3275",
+   "kabkota": "Kota Bekasi",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Bekasi Kota",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 3,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-04",
+    "2026-11-08"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Bekasi Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1276",
    "kabkota": "Kota Binjai",
    "kode_prov": "12",
@@ -1996,25 +2015,6 @@
    "penanggung_jawab": "Kasat Binmas Polres Serdang Bedagai bersama pemerintah daerah"
   },
   {
-   "kode_kab": "3275",
-   "kabkota": "Kota Bekasi",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Bekasi Kota",
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kejadian": 3,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-04",
-    "2026-11-10"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Bekasi Kota bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "6474",
    "kabkota": "Kota Bontang",
    "kode_prov": "64",
@@ -2148,6 +2148,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3205",
+   "kabkota": "Kabupaten Garut",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Garut",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 3,
+   "kasus": 5,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-03",
+    "2026-11-11"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5104",
    "kabkota": "Kabupaten Gianyar",
    "kode_prov": "51",
@@ -2241,25 +2260,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "6108",
-   "kabkota": "Kabupaten Kapuas Hulu",
-   "kode_prov": "61",
-   "provinsi": "Kalimantan Barat",
-   "polda": "Polda Kalimantan Barat",
-   "polres": "Polres Kapuas Hulu",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-10"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Kapuas Hulu bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
