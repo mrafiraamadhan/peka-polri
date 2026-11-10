@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-10T14:03:37Z",
+ "diperbarui_utc": "2026-11-10T14:54:54Z",
  "terbaru": {
-  "waktu_utc": "2026-11-10T08:34:04Z",
-  "magnitudo": 5.3,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di laut 69 km barat laut Kebar Manokwari",
+  "waktu_utc": "2026-11-10T14:31:38Z",
+  "magnitudo": 4.0,
+  "kedalaman": "102 km",
+  "wilayah": "Pusat gempa berada di darat 15 km selatan Kota Sukabumi",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Manokwari",
-  "koordinat": "-0.19,132.98",
-  "prov": "Papua Barat",
-  "kode_prov": "91"
+  "dirasakan": "III Cianjur, II Sukabumi",
+  "koordinat": "-7.04,106.98",
+  "prov": "Jawa Barat",
+  "kode_prov": "32"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-10T14:31:38Z",
+   "magnitudo": 4.0,
+   "kedalaman": "102 km",
+   "wilayah": "Pusat gempa berada di darat 15 km selatan Kota Sukabumi",
+   "potensi": null,
+   "dirasakan": "III Cianjur, II Sukabumi",
+   "koordinat": "-7.04,106.98",
+   "prov": "Jawa Barat",
+   "kode_prov": "32"
+  },
   {
    "waktu_utc": "2026-11-10T08:34:04Z",
    "magnitudo": 5.3,
@@ -165,17 +176,6 @@
    "koordinat": "-7.94,120.89",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-04T00:46:08Z",
-   "magnitudo": 4.6,
-   "kedalaman": "23 km",
-   "wilayah": "Pusat gempa berada di laut 16 km utara Nabire",
-   "potensi": null,
-   "dirasakan": "II - III Nabire",
-   "koordinat": "-3.22,135.53",
-   "prov": "Papua Tengah",
-   "kode_prov": "96"
   }
  ],
  "m5": [
