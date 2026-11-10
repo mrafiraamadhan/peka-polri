@@ -1,13 +1,13 @@
 {
- "diperbarui_utc": "2026-11-10T08:05:01Z",
+ "diperbarui_utc": "2026-11-10T08:56:16Z",
  "terbaru": {
-  "waktu_utc": "2026-11-10T01:53:28Z",
-  "magnitudo": 5.4,
-  "kedalaman": "84 km",
-  "wilayah": "Pusat gempa berada di laut 90 km barat daya Tanimbar",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Saumlaki",
-  "koordinat": "-8.02,130.49",
+  "waktu_utc": "2026-11-10T08:34:04Z",
+  "magnitudo": 5.3,
+  "kedalaman": "10 km",
+  "wilayah": "69 km BaratLaut KEBARMANOKWARI-PAPUABRT",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "-0.19,132.98",
   "prov": null,
   "kode_prov": null
  },
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-10T08:34:04Z",
+   "magnitudo": 5.3,
+   "kedalaman": "10 km",
+   "wilayah": "69 km BaratLaut KEBARMANOKWARI-PAPUABRT",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-0.19,132.98",
+   "prov": null,
+   "kode_prov": null
+  },
+  {
    "waktu_utc": "2026-11-10T01:53:28Z",
    "magnitudo": 5.4,
    "kedalaman": "84 km",
@@ -332,17 +343,6 @@
    "koordinat": "-8.09,120.26",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-10-11T21:34:53Z",
-   "magnitudo": 5.7,
-   "kedalaman": "76 km",
-   "wilayah": "29 km BaratLaut POHUWATO-GORONTALO",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "0.64,121.75",
-   "prov": "Gorontalo",
-   "kode_prov": "75"
   }
  ]
 }
