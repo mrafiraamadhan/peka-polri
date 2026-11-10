@@ -1,22 +1,22 @@
 {
- "diperbarui_utc": "2026-11-10T09:45:43Z",
+ "diperbarui_utc": "2026-11-10T10:37:14Z",
  "jendela_hari": 30,
  "hari_riwayat": 14,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2325,
+ "kasus_tanpa_polda": 2340,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 505,
-   "perlu": 184,
+   "kasus": 507,
+   "perlu": 186,
    "perlu_tanggap": 40,
-   "persen_tanggap": 21.7,
+   "persen_tanggap": 21.5,
    "tanggap": 247,
-   "jalur_khusus": 24,
-   "melewati_batas": 105,
+   "jalur_khusus": 25,
+   "melewati_batas": 106,
    "median_jeda_jam": 10.8,
    "n_jeda": 40,
    "topik_teratas": [
@@ -26,7 +26,7 @@
     ],
     [
      "jalanan",
-     118
+     119
     ],
     [
      "narkoba",
@@ -68,7 +68,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 266,
+   "kasus": 267,
    "perlu": 84,
    "perlu_tanggap": 14,
    "persen_tanggap": 16.7,
@@ -84,7 +84,7 @@
     ],
     [
      "darurat",
-     81
+     82
     ],
     [
      "narkoba",
@@ -103,7 +103,7 @@
    "persen_tanggap": 18.1,
    "tanggap": 118,
    "jalur_khusus": 10,
-   "melewati_batas": 36,
+   "melewati_batas": 37,
    "median_jeda_jam": 12.8,
    "n_jeda": 13,
    "topik_teratas": [
@@ -180,6 +180,35 @@
    ]
   },
   {
+   "polda": "Polda DI Yogyakarta",
+   "provinsi": [
+    "34"
+   ],
+   "kasus": 72,
+   "perlu": 38,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 15.8,
+   "tanggap": 32,
+   "jalur_khusus": 2,
+   "melewati_batas": 28,
+   "median_jeda_jam": 4.8,
+   "n_jeda": 6,
+   "topik_teratas": [
+    [
+     "konflik",
+     32
+    ],
+    [
+     "jalanan",
+     15
+    ],
+    [
+     "darurat",
+     8
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sulawesi Selatan",
    "provinsi": [
     "73"
@@ -190,7 +219,7 @@
    "persen_tanggap": 16.2,
    "tanggap": 45,
    "jalur_khusus": 8,
-   "melewati_batas": 20,
+   "melewati_batas": 21,
    "median_jeda_jam": 6.2,
    "n_jeda": 6,
    "topik_teratas": [
@@ -209,45 +238,16 @@
    ]
   },
   {
-   "polda": "Polda DI Yogyakarta",
-   "provinsi": [
-    "34"
-   ],
-   "kasus": 71,
-   "perlu": 37,
-   "perlu_tanggap": 6,
-   "persen_tanggap": 16.2,
-   "tanggap": 32,
-   "jalur_khusus": 2,
-   "melewati_batas": 27,
-   "median_jeda_jam": 4.8,
-   "n_jeda": 6,
-   "topik_teratas": [
-    [
-     "konflik",
-     31
-    ],
-    [
-     "jalanan",
-     15
-    ],
-    [
-     "darurat",
-     8
-    ]
-   ]
-  },
-  {
    "polda": "Polda Lampung",
    "provinsi": [
     "18"
    ],
-   "kasus": 126,
+   "kasus": 127,
    "perlu": 33,
    "perlu_tanggap": 7,
    "persen_tanggap": 21.2,
-   "tanggap": 88,
-   "jalur_khusus": 5,
+   "tanggap": 89,
+   "jalur_khusus": 6,
    "melewati_batas": 20,
    "median_jeda_jam": 36.6,
    "n_jeda": 7,
@@ -261,7 +261,7 @@
      33
     ],
     [
-     "darurat",
+     "penipuan",
      12
     ]
    ]
@@ -329,11 +329,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 106,
+   "kasus": 107,
    "perlu": 29,
    "perlu_tanggap": 6,
    "persen_tanggap": 20.7,
-   "tanggap": 75,
+   "tanggap": 76,
    "jalur_khusus": 10,
    "melewati_batas": 14,
    "median_jeda_jam": 9.8,
@@ -449,7 +449,7 @@
    "perlu": 21,
    "perlu_tanggap": 2,
    "persen_tanggap": 9.5,
-   "tanggap": 54,
+   "tanggap": 55,
    "jalur_khusus": 3,
    "melewati_batas": 11,
    "median_jeda_jam": 11.2,
@@ -596,7 +596,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 38,
    "jalur_khusus": 1,
-   "melewati_batas": 11,
+   "melewati_batas": 12,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [
@@ -905,6 +905,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Utara",
+   "provinsi": [
+    "71"
+   ],
+   "kasus": 25,
+   "perlu": 7,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 14.3,
+   "tanggap": 10,
+   "jalur_khusus": 1,
+   "melewati_batas": 3,
+   "median_jeda_jam": 6.3,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "darurat",
+     9
+    ],
+    [
+     "jalanan",
+     7
+    ],
+    [
+     "lalulintas",
+     3
+    ]
+   ]
+  },
+  {
    "polda": "Polda Bengkulu",
    "provinsi": [
     "17"
@@ -955,35 +984,6 @@
     [
      "perempuan_anak",
      4
-    ],
-    [
-     "lalulintas",
-     2
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Utara",
-   "provinsi": [
-    "71"
-   ],
-   "kasus": 24,
-   "perlu": 6,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 16.7,
-   "tanggap": 10,
-   "jalur_khusus": 1,
-   "melewati_batas": 3,
-   "median_jeda_jam": 6.3,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "darurat",
-     9
-    ],
-    [
-     "jalanan",
-     7
     ],
     [
      "lalulintas",
@@ -1518,6 +1518,25 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polresta Jambi bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3571",
+   "kabkota": "Kota Kediri",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polres Kediri Kota",
+   "topik": "anggota",
+   "nama": "Perilaku anggota",
+   "kejadian": 3,
+   "kasus": 9,
+   "tanggal": [
+    "2026-10-28",
+    "2026-10-31",
+    "2026-11-10"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Kediri Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "5271",
@@ -2240,25 +2259,6 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polresta Bandar Lampung bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "6474",
-   "kabkota": "Kota Bontang",
-   "kode_prov": "64",
-   "provinsi": "Kalimantan Timur",
-   "polda": "Polda Kalimantan Timur",
-   "polres": "Polres Bontang",
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kejadian": 3,
-   "kasus": 5,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-01",
-    "2026-11-06"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Bontang bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
