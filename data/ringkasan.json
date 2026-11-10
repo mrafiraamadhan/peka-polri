@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-10T07:13:25Z",
+ "diperbarui_utc": "2026-11-10T08:05:01Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 10,
+  "perkara": 9,
   "anggota": 33
  },
  "anggota_sudah_ditangani": 15,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 43,
+  "JALUR KHUSUS": 42,
   "TINDAK": 58,
-  "PANTAU": 138,
-  "TERCATAT": 1189
+  "PANTAU": 140,
+  "TERCATAT": 1204
  },
- "kasus_aktif": 1429,
+ "kasus_aktif": 1445,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -22,11 +22,11 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 92
+   "kasus": 93
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 256
+   "kasus": 260
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -34,7 +34,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 446
+   "kasus": 452
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -42,15 +42,15 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 77
+   "kasus": 78
   },
   "layanan": {
    "nama": "Layanan kepolisian",
-   "kasus": 2
+   "kasus": 3
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 367
+   "kasus": 370
   }
  },
  "provinsi": {
@@ -60,7 +60,7 @@
    "DARURAT": 1,
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 42
+   "TERCATAT": 43
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -74,31 +74,39 @@
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 8,
    "TINDAK": 5,
-   "PANTAU": 20,
-   "TERCATAT": 93
+   "PANTAU": 22,
+   "TERCATAT": 92
   },
   "16": {
    "nama": "Sumatera Selatan",
    "polda": "Polda Sumatera Selatan",
    "JALUR KHUSUS": 4,
    "TINDAK": 1,
-   "PANTAU": 6,
+   "PANTAU": 5,
    "TERCATAT": 27
+  },
+  "12": {
+   "nama": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 5,
+   "PANTAU": 2,
+   "TERCATAT": 39
   },
   "18": {
    "nama": "Lampung",
    "polda": "Polda Lampung",
-   "JALUR KHUSUS": 2,
-   "TINDAK": 1,
+   "JALUR KHUSUS": 1,
+   "TINDAK": 2,
    "PANTAU": 5,
-   "TERCATAT": 32
+   "TERCATAT": 33
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
    "polda": "Polda Nusa Tenggara Barat",
    "JALUR KHUSUS": 2,
    "TINDAK": 1,
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 20
   },
   "76": {
@@ -113,14 +121,14 @@
    "polda": "Polda Riau",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 3,
-   "TERCATAT": 21
+   "PANTAU": 5,
+   "TERCATAT": 20
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "JALUR KHUSUS": 1,
-   "PANTAU": 7,
+   "PANTAU": 6,
    "TERCATAT": 10
   },
   "91": {
@@ -128,7 +136,7 @@
    "polda": "Polda Papua Barat",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "32": {
    "nama": "Jawa Barat",
@@ -145,14 +153,6 @@
    "PANTAU": 1,
    "TERCATAT": 3
   },
-  "12": {
-   "nama": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 5,
-   "PANTAU": 2,
-   "TERCATAT": 39
-  },
   "81": {
    "nama": "Maluku",
    "polda": "Polda Maluku",
@@ -166,14 +166,14 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 21
+   "TERCATAT": 23
   },
   "17": {
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "51": {
    "nama": "Bali",
@@ -185,15 +185,15 @@
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
-   "TINDAK": 12,
-   "PANTAU": 11,
-   "TERCATAT": 57
+   "TINDAK": 11,
+   "PANTAU": 10,
+   "TERCATAT": 59
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 2,
-   "PANTAU": 10,
+   "PANTAU": 11,
    "TERCATAT": 25
   },
   "75": {
@@ -207,7 +207,7 @@
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "TINDAK": 1,
-   "PANTAU": 3,
+   "PANTAU": 2,
    "TERCATAT": 24
   },
   "72": {
@@ -215,14 +215,14 @@
    "polda": "Polda Sulawesi Tengah",
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 11
+   "TERCATAT": 12
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 9
+   "TERCATAT": 8
   },
   "82": {
    "nama": "Maluku Utara",
@@ -235,15 +235,15 @@
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
    "TINDAK": 1,
-   "PANTAU": 3,
-   "TERCATAT": 13
+   "PANTAU": 2,
+   "TERCATAT": 14
   },
   "36": {
    "nama": "Banten",
    "polda": "Polda Banten",
    "TINDAK": 2,
    "PANTAU": 5,
-   "TERCATAT": 25
+   "TERCATAT": 24
   },
   "15": {
    "nama": "Jambi",
@@ -256,7 +256,7 @@
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "PANTAU": 3,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -290,7 +290,7 @@
   "63": {
    "nama": "Kalimantan Selatan",
    "polda": "Polda Kalimantan Selatan",
-   "PANTAU": 4,
+   "PANTAU": 5,
    "TERCATAT": 14
   },
   "64": {
@@ -318,102 +318,46 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 905,
-   "sumber": 4
+   "artikel": 906,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 50,
-   "sudah_ada": 824,
+   "relevan": 64,
+   "sudah_ada": 812,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 27,
-   "luar_negeri": 2,
-   "kasus_baru": 21,
-   "digabung": 29
+   "tidak_relevan": 8,
+   "bukan_kejadian": 21,
+   "luar_negeri": 1,
+   "kasus_baru": 36,
+   "digabung": 28
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 43,
+   "JALUR KHUSUS": 42,
    "TINDAK": 58,
-   "PANTAU": 138,
-   "TERCATAT": 1189
+   "PANTAU": 140,
+   "TERCATAT": 1204
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 240
+   "kasus": 241
   },
   "kabarkan": {
-   "tanggapan_terlihat": 683,
-   "kasus": 1429,
-   "tanggapan_sejak_berita_pertama": 613,
-   "median_jeda_jam": 9.8,
-   "n_jeda": 70,
-   "melewati_batas": 87
+   "tanggapan_terlihat": 689,
+   "kasus": 1445,
+   "tanggapan_sejak_berita_pertama": 614,
+   "median_jeda_jam": 9.5,
+   "n_jeda": 75,
+   "melewati_batas": 89
   },
   "arsipkan": {
-   "baris": 5656,
+   "baris": 5692,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 14
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "73",
-   "prov": "Sulawesi Selatan",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 11,
-   "rata": 2.0
-  },
-  {
-   "kode_prov": "14",
-   "prov": "Riau",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 5,
-   "rata": 1.43
-  },
-  {
-   "kode_prov": "32",
-   "prov": "Jawa Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 16,
-   "rata": 6.71
-  },
-  {
-   "kode_prov": "33",
-   "prov": "Jawa Tengah",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 31,
-   "rata": 4.79
-  },
-  {
-   "kode_prov": "36",
-   "prov": "Banten",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 10,
-   "rata": 2.64
-  },
-  {
-   "kode_prov": "76",
-   "prov": "Sulawesi Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 5,
-   "rata": 0.93
-  },
-  {
-   "kode_prov": "35",
-   "prov": "Jawa Timur",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 25,
-   "rata": 8.07
-  },
   {
    "kode_prov": "53",
    "prov": "Nusa Tenggara Timur",
@@ -427,16 +371,32 @@
    "prov": "Sulawesi Tengah",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
+   "hari_ini": 7,
    "rata": 1.0
+  },
+  {
+   "kode_prov": "35",
+   "prov": "Jawa Timur",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 25,
+   "rata": 8.14
   },
   {
    "kode_prov": "63",
    "prov": "Kalimantan Selatan",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 5,
+   "hari_ini": 6,
    "rata": 0.93
+  },
+  {
+   "kode_prov": "73",
+   "prov": "Sulawesi Selatan",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 9,
+   "rata": 2.0
   },
   {
    "kode_prov": "52",
@@ -451,8 +411,16 @@
    "prov": "DKI Jakarta",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 9,
+   "hari_ini": 10,
    "rata": 2.07
+  },
+  {
+   "kode_prov": "36",
+   "prov": "Banten",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 8,
+   "rata": 2.64
   },
   {
    "kode_prov": "51",
@@ -467,8 +435,24 @@
    "prov": "Aceh",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 9,
+   "hari_ini": 8,
    "rata": 1.21
+  },
+  {
+   "kode_prov": "33",
+   "prov": "Jawa Tengah",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 27,
+   "rata": 4.79
+  },
+  {
+   "kode_prov": "32",
+   "prov": "Jawa Barat",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 15,
+   "rata": 6.71
   },
   {
    "kode_prov": "12",
@@ -519,19 +503,20 @@
    "rata": 1.07
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kemarin": 3,
-   "rata28": 12.8,
-   "rasio": 0.24,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 14,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Kapolri Copot Kapolda Jateng Buntut Kasus Penggerebekan Pondok Pesantren di Sukoharjo",
+   "url": "https://turnbackhoax.id/articles/37426-salah-kapolri-copot-kapolda-jateng-buntut-kasus-penggerebekan-pondok-pesantren-di-sukoharjo",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Tautan Pendaftaran BPJS di Klinik Kopdes",
+   "url": "https://turnbackhoax.id/articles/37425-penipuan-tautan-pendaftaran-bpjs-di-klinik-kopdes",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Transaksi Digital Wajib Dipungut Pajak Mulai 9 November 2026",
    "url": "https://turnbackhoax.id/articles/37424-salah-transaksi-digital-wajib-dipungut-pajak-mulai-9-november-2026",
@@ -550,16 +535,6 @@
   {
    "judul": "Video “Anies Baswedan Bertemu Menlu dan Dubes Singapura Saat Hubungan Indonesia-Singapura Tegang Pada 2026”",
    "url": "https://turnbackhoax.id/articles/37421-video-anies-baswedan-bertemu-menlu-dan-dubes-singapura-saat-hubungan-indonesia-singapura-tegang-pada-2026",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Ormas Islam Selain NU dan Muhammadiyah akan Dibubarkan Kemenag",
-   "url": "https://turnbackhoax.id/articles/37420-salah-ormas-islam-selain-nu-dan-muhammadiyah-akan-dibubarkan-kemenag",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Listyo Sigit Ungkap bahwa Sri Mulyani yang Menyetujui Anggaran Menyadap Presiden Prabowo",
-   "url": "https://turnbackhoax.id/articles/37417-salah-listyo-sigit-ungkap-bahwa-sri-mulyani-yang-menyetujui-anggaran-menyadap-presiden-prabowo",
    "terbit": null
   }
  ]
