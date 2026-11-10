@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-10T22:05:28Z",
+ "diperbarui_utc": "2026-11-10T22:56:42Z",
  "terbaru": {
-  "waktu_utc": "2026-11-10T16:04:15Z",
-  "magnitudo": 4.0,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di darat 12 km timur Konawe Selatan",
+  "waktu_utc": "2026-11-10T22:09:09Z",
+  "magnitudo": 4.9,
+  "kedalaman": "4 km",
+  "wilayah": "Pusat gempa berada di darat 6 km utara Kab. Gayo Lues",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "IV Konawe Selatan, III Kendari",
-  "koordinat": "-4.29,122.38",
-  "prov": "Sulawesi Tenggara",
-  "kode_prov": "74"
+  "dirasakan": "III-IV Gayo Lues, III-IV Aceh Timur, III Aceh Tengah, III Bener Meriah, III Lhokseumawe",
+  "koordinat": "4.05,97.34",
+  "prov": "Aceh",
+  "kode_prov": "11"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-10T22:09:09Z",
+   "magnitudo": 4.9,
+   "kedalaman": "4 km",
+   "wilayah": "Pusat gempa berada di darat 6 km utara Kab. Gayo Lues",
+   "potensi": null,
+   "dirasakan": "III-IV Gayo Lues, III-IV Aceh Timur, III Aceh Tengah, III Bener Meriah, III Lhokseumawe",
+   "koordinat": "4.05,97.34",
+   "prov": "Aceh",
+   "kode_prov": "11"
+  },
   {
    "waktu_utc": "2026-11-10T16:04:15Z",
    "magnitudo": 4.0,
@@ -165,17 +176,6 @@
    "koordinat": "-1.19,98.73",
    "prov": "Sumatera Utara",
    "kode_prov": "12"
-  },
-  {
-   "waktu_utc": "2026-11-04T07:56:34Z",
-   "magnitudo": 3.4,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 40 km timur laut Sigi",
-   "potensi": null,
-   "dirasakan": "III Sigi, II Palu",
-   "koordinat": "-1.14,120.15",
-   "prov": null,
-   "kode_prov": null
   }
  ],
  "m5": [
