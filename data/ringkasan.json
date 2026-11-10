@@ -1,48 +1,48 @@
 {
- "diperbarui_utc": "2026-11-10T04:38:49Z",
+ "diperbarui_utc": "2026-11-10T05:30:49Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
-  "anggota": 29
+  "anggota": 30
  },
- "anggota_sudah_ditangani": 14,
+ "anggota_sudah_ditangani": 15,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 39,
+  "JALUR KHUSUS": 40,
   "TINDAK": 58,
-  "PANTAU": 127,
-  "TERCATAT": 1184
+  "PANTAU": 133,
+  "TERCATAT": 1191
  },
- "kasus_aktif": 1409,
+ "kasus_aktif": 1423,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 45
+   "kasus": 47
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 88
+   "kasus": 87
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 253
+   "kasus": 258
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 79
+   "kasus": 80
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 439
+   "kasus": 444
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 59
+   "kasus": 58
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 74
+   "kasus": 77
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -59,8 +59,8 @@
    "polda": "Polda Aceh",
    "DARURAT": 1,
    "TINDAK": 1,
-   "PANTAU": 2,
-   "TERCATAT": 42
+   "PANTAU": 3,
+   "TERCATAT": 43
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -106,7 +106,7 @@
    "polda": "Polda Sulawesi Barat",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 10
+   "TERCATAT": 11
   },
   "14": {
    "nama": "Riau",
@@ -114,7 +114,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 21
+   "TERCATAT": 22
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -151,7 +151,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 5,
    "PANTAU": 1,
-   "TERCATAT": 42
+   "TERCATAT": 41
   },
   "17": {
    "nama": "Bengkulu",
@@ -172,7 +172,7 @@
    "polda": "Polda Jawa Tengah",
    "TINDAK": 11,
    "PANTAU": 11,
-   "TERCATAT": 57
+   "TERCATAT": 58
   },
   "31": {
    "nama": "DKI Jakarta",
@@ -200,7 +200,7 @@
    "polda": "Polda Sulawesi Tengah",
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -220,7 +220,7 @@
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
    "TINDAK": 2,
-   "PANTAU": 2,
+   "PANTAU": 4,
    "TERCATAT": 19
   },
   "21": {
@@ -242,7 +242,7 @@
    "polda": "Polda Banten",
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 24
+   "TERCATAT": 25
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -253,7 +253,7 @@
   "19": {
    "nama": "Kepulauan Bangka Belitung",
    "polda": "Polda Kepulauan Bangka Belitung",
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 9
   },
   "65": {
@@ -282,14 +282,14 @@
   "63": {
    "nama": "Kalimantan Selatan",
    "polda": "Polda Kalimantan Selatan",
-   "PANTAU": 2,
+   "PANTAU": 4,
    "TERCATAT": 14
   },
   "64": {
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
    "PANTAU": 4,
-   "TERCATAT": 21
+   "TERCATAT": 22
   },
   "81": {
    "nama": "Maluku",
@@ -317,69 +317,45 @@
  "langkah": {
   "dengar": {
    "artikel": 905,
-   "sumber": 4
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 68,
-   "sudah_ada": 807,
-   "hoaks": 1,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 24,
+   "relevan": 69,
+   "sudah_ada": 817,
+   "hoaks": 0,
+   "tidak_relevan": 2,
+   "bukan_kejadian": 16,
    "luar_negeri": 1,
-   "kasus_baru": 35,
-   "digabung": 33
+   "kasus_baru": 29,
+   "digabung": 40
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 39,
+   "JALUR KHUSUS": 40,
    "TINDAK": 58,
-   "PANTAU": 127,
-   "TERCATAT": 1184
+   "PANTAU": 133,
+   "TERCATAT": 1191
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 225
+   "kasus": 232
   },
   "kabarkan": {
-   "tanggapan_terlihat": 668,
-   "kasus": 1409,
-   "tanggapan_sejak_berita_pertama": 602,
+   "tanggapan_terlihat": 672,
+   "kasus": 1423,
+   "tanggapan_sejak_berita_pertama": 606,
    "median_jeda_jam": 9.2,
    "n_jeda": 66,
-   "melewati_batas": 83
+   "melewati_batas": 87
   },
   "arsipkan": {
-   "baris": 5582,
+   "baris": 5611,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 14
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "35",
-   "prov": "Jawa Timur",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 27,
-   "rata": 8.07
-  },
-  {
-   "kode_prov": "35",
-   "prov": "Jawa Timur",
-   "topik": "anggota",
-   "nama": "Perilaku anggota",
-   "hari_ini": 7,
-   "rata": 2.43
-  },
-  {
-   "kode_prov": "32",
-   "prov": "Jawa Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 18,
-   "rata": 6.71
-  },
   {
    "kode_prov": "52",
    "prov": "Nusa Tenggara Barat",
@@ -393,8 +369,16 @@
    "prov": "Jawa Tengah",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 31,
+   "hari_ini": 32,
    "rata": 4.79
+  },
+  {
+   "kode_prov": "32",
+   "prov": "Jawa Barat",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 17,
+   "rata": 6.71
   },
   {
    "kode_prov": "63",
@@ -405,12 +389,12 @@
    "rata": 0.93
   },
   {
-   "kode_prov": "76",
-   "prov": "Sulawesi Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
-   "rata": 0.93
+   "kode_prov": "35",
+   "prov": "Jawa Timur",
+   "topik": "anggota",
+   "nama": "Perilaku anggota",
+   "hari_ini": 5,
+   "rata": 2.43
   },
   {
    "kode_prov": "14",
@@ -418,7 +402,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 6,
-   "rata": 1.36
+   "rata": 1.43
   },
   {
    "kode_prov": "12",
@@ -441,8 +425,24 @@
    "prov": "Banten",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 8,
+   "hari_ini": 9,
    "rata": 2.57
+  },
+  {
+   "kode_prov": "76",
+   "prov": "Sulawesi Barat",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 5,
+   "rata": 0.93
+  },
+  {
+   "kode_prov": "35",
+   "prov": "Jawa Timur",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 24,
+   "rata": 8.07
   },
   {
    "kode_prov": "72",
@@ -457,16 +457,8 @@
    "prov": "DKI Jakarta",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 8,
+   "hari_ini": 9,
    "rata": 2.07
-  },
-  {
-   "kode_prov": "34",
-   "prov": "DI Yogyakarta",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 5,
-   "rata": 1.0
   },
   {
    "kode_prov": "51",
@@ -481,7 +473,7 @@
    "prov": "Aceh",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 8,
+   "hari_ini": 9,
    "rata": 1.21
   },
   {
@@ -489,7 +481,7 @@
    "prov": "Kalimantan Timur",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 8,
+   "hari_ini": 9,
    "rata": 1.14
   },
   {
@@ -507,29 +499,30 @@
    "nama": "Kejahatan jalanan",
    "hari_ini": 10,
    "rata": 1.07
-  }
- ],
- "lonjakan_nasional": [
-  {
-   "topik": "layanan",
-   "nama": "Layanan kepolisian",
-   "kemarin": 2,
-   "rata28": 3.1,
-   "rasio": 0.65,
-   "lonjakan": false
   },
   {
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kemarin": 0,
-   "rata28": 0.0,
-   "rasio": 0.0,
-   "lonjakan": false
+   "kode_prov": "63",
+   "prov": "Kalimantan Selatan",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 1.07
   }
  ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 14,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Ormas Islam Selain NU dan Muhammadiyah akan Dibubarkan Kemenag",
+   "url": "https://turnbackhoax.id/articles/37420-salah-ormas-islam-selain-nu-dan-muhammadiyah-akan-dibubarkan-kemenag",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Listyo Sigit Ungkap bahwa Sri Mulyani yang Menyetujui Anggaran Menyadap Presiden Prabowo",
+   "url": "https://turnbackhoax.id/articles/37417-salah-listyo-sigit-ungkap-bahwa-sri-mulyani-yang-menyetujui-anggaran-menyadap-presiden-prabowo",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Rekaman Suara Prabowo Hasil Penyadapan",
    "url": "https://turnbackhoax.id/articles/37415-salah-rekaman-suara-prabowo-hasil-penyadapan",
@@ -548,16 +541,6 @@
   {
    "judul": "[SALAH] Pramono Anung Akan Memagar Semua Monumen di Jakarta, Mencegah Kejadian di Bundaran HI Terulang",
    "url": "https://turnbackhoax.id/articles/37412-salah-pramono-anung-akan-memagar-semua-monumen-di-jakarta-mencegah-kejadian-di-bundaran-hi-terulang",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Warga Berjoget Akibat Kelangkaan BBM",
-   "url": "https://turnbackhoax.id/articles/37411-salah-warga-berjoget-akibat-kelangkaan-bbm",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Prabowo Minta Universitas Ganti Program KKN dengan Pelatihan Militer 3 Bulan",
-   "url": "https://turnbackhoax.id/articles/37410-salah-prabowo-minta-universitas-ganti-program-kkn-dengan-pelatihan-militer-3-bulan",
    "terbit": null
   }
  ]
