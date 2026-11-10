@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-10T08:56:16Z",
+ "diperbarui_utc": "2026-11-10T09:45:43Z",
  "terbaru": {
   "waktu_utc": "2026-11-10T08:34:04Z",
   "magnitudo": 5.3,
   "kedalaman": "10 km",
-  "wilayah": "69 km BaratLaut KEBARMANOKWARI-PAPUABRT",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
+  "wilayah": "Pusat gempa berada di laut 69 km barat laut Kebar Manokwari",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "II - III Manokwari",
   "koordinat": "-0.19,132.98",
-  "prov": null,
-  "kode_prov": null
+  "prov": "Papua Barat",
+  "kode_prov": "91"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-10T08:34:04Z",
+   "magnitudo": 5.3,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 69 km barat laut Kebar Manokwari",
+   "potensi": null,
+   "dirasakan": "II - III Manokwari",
+   "koordinat": "-0.19,132.98",
+   "prov": "Papua Barat",
+   "kode_prov": "91"
+  },
   {
    "waktu_utc": "2026-11-10T01:53:28Z",
    "magnitudo": 5.4,
@@ -165,17 +176,6 @@
    "koordinat": "-3.22,135.53",
    "prov": "Papua Tengah",
    "kode_prov": "96"
-  },
-  {
-   "waktu_utc": "2026-11-03T20:28:35Z",
-   "magnitudo": 4.1,
-   "kedalaman": "6 km",
-   "wilayah": "Pusat gempa berada di darat 61 km utara Luwu Timur",
-   "potensi": null,
-   "dirasakan": "II - III Morowali Utara",
-   "koordinat": "-2.08,121.02",
-   "prov": "Sulawesi Selatan",
-   "kode_prov": "73"
   }
  ],
  "m5": [
