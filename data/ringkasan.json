@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-11T17:46:18Z",
+ "diperbarui_utc": "2026-11-11T18:37:35Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 49,
   "TINDAK": 54,
   "PANTAU": 220,
-  "TERCATAT": 1419
+  "TERCATAT": 1421
  },
- "kasus_aktif": 1743,
+ "kasus_aktif": 1745,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 121
+   "kasus": 122
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -31,7 +31,7 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 129
+   "kasus": 130
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -312,36 +312,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 14,
-   "sudah_ada": 886,
+   "relevan": 8,
+   "sudah_ada": 893,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 7,
+   "bukan_kejadian": 6,
    "luar_negeri": 0,
-   "kasus_baru": 9,
-   "digabung": 5
+   "kasus_baru": 2,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 49,
    "TINDAK": 54,
    "PANTAU": 220,
-   "TERCATAT": 1419
+   "TERCATAT": 1421
   },
   "teruskan": {
    "polda": 34,
    "kasus": 324
   },
   "kabarkan": {
-   "tanggapan_terlihat": 880,
-   "kasus": 1743,
-   "tanggapan_sejak_berita_pertama": 779,
+   "tanggapan_terlihat": 881,
+   "kasus": 1745,
+   "tanggapan_sejak_berita_pertama": 780,
    "median_jeda_jam": 14.5,
    "n_jeda": 101,
-   "melewati_batas": 145
+   "melewati_batas": 146
   },
   "arsipkan": {
-   "baris": 6419,
+   "baris": 6421,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 16
@@ -353,7 +353,7 @@
    "prov": "DI Yogyakarta",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "hari_ini": 36,
+   "hari_ini": 35,
    "rata": 4.56
   },
   {
