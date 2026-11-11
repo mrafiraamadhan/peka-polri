@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-11T02:41:54Z",
+ "diperbarui_utc": "2026-11-11T02:50:20Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -11,10 +11,10 @@
   "DARURAT": 0,
   "JALUR KHUSUS": 44,
   "TINDAK": 55,
-  "PANTAU": 166,
-  "TERCATAT": 1301
+  "PANTAU": 167,
+  "TERCATAT": 1302
  },
- "kasus_aktif": 1566,
+ "kasus_aktif": 1568,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -38,7 +38,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 76
+   "kasus": 77
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 372
+   "kasus": 373
   }
  },
  "provinsi": {
@@ -127,7 +127,7 @@
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "JALUR KHUSUS": 1,
-   "PANTAU": 14,
+   "PANTAU": 15,
    "TERCATAT": 20
   },
   "91": {
@@ -313,40 +313,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 905,
+   "artikel": 906,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 54,
-   "sudah_ada": 830,
+   "relevan": 8,
+   "sudah_ada": 888,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 17,
+   "tidak_relevan": 3,
+   "bukan_kejadian": 7,
    "luar_negeri": 0,
-   "kasus_baru": 28,
-   "digabung": 26
+   "kasus_baru": 2,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 44,
    "TINDAK": 55,
-   "PANTAU": 166,
-   "TERCATAT": 1301
+   "PANTAU": 167,
+   "TERCATAT": 1302
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 265
+   "kasus": 266
   },
   "kabarkan": {
    "tanggapan_terlihat": 764,
-   "kasus": 1566,
+   "kasus": 1568,
    "tanggapan_sejak_berita_pertama": 683,
    "median_jeda_jam": 11.7,
    "n_jeda": 81,
    "melewati_batas": 103
   },
   "arsipkan": {
-   "baris": 6011,
+   "baris": 6013,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 15
@@ -390,7 +390,7 @@
    "prov": "DI Yogyakarta",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "hari_ini": 18,
+   "hari_ini": 19,
    "rata": 2.4
   }
  ],
