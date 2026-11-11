@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-10T23:16:51Z",
+ "diperbarui_utc": "2026-11-11T00:08:07Z",
  "terbaru": {
-  "waktu_utc": "2026-11-10T22:09:09Z",
-  "magnitudo": 4.9,
-  "kedalaman": "4 km",
-  "wilayah": "Pusat gempa berada di darat 6 km utara Kab. Gayo Lues",
+  "waktu_utc": "2026-11-10T23:05:21Z",
+  "magnitudo": 4.3,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 23 km timur laut Kab. Gayo Lues",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III-IV Gayo Lues, III-IV Aceh Timur, III Aceh Tengah, III Bener Meriah, III Lhokseumawe",
-  "koordinat": "4.05,97.34",
+  "dirasakan": "III Gayo Lues, II-III Aceh Tengah, II-III Bener Meriah",
+  "koordinat": "4.15,97.49",
   "prov": "Aceh",
   "kode_prov": "11"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-10T23:05:21Z",
+   "magnitudo": 4.3,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 23 km timur laut Kab. Gayo Lues",
+   "potensi": null,
+   "dirasakan": "III Gayo Lues, II-III Aceh Tengah, II-III Bener Meriah",
+   "koordinat": "4.15,97.49",
+   "prov": "Aceh",
+   "kode_prov": "11"
+  },
   {
    "waktu_utc": "2026-11-10T22:09:09Z",
    "magnitudo": 4.9,
@@ -165,17 +176,6 @@
    "koordinat": "-2.96,122.31",
    "prov": "Sulawesi Tengah",
    "kode_prov": "72"
-  },
-  {
-   "waktu_utc": "2026-11-06T10:30:55Z",
-   "magnitudo": 4.3,
-   "kedalaman": "17 km",
-   "wilayah": "Pusat gempa berada di darat 130 km barat laut Kep. Mentawai",
-   "potensi": null,
-   "dirasakan": "III Siberut Barat, III Siberut Utara, II Siberut Tengah, I Kab. Nias Selatan",
-   "koordinat": "-1.19,98.73",
-   "prov": "Sumatera Utara",
-   "kode_prov": "12"
   }
  ],
  "m5": [
