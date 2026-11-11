@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-11T16:54:09Z",
+ "diperbarui_utc": "2026-11-11T17:46:18Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
@@ -12,10 +12,10 @@
   "DARURAT": 1,
   "JALUR KHUSUS": 49,
   "TINDAK": 54,
-  "PANTAU": 221,
-  "TERCATAT": 1421
+  "PANTAU": 220,
+  "TERCATAT": 1419
  },
- "kasus_aktif": 1746,
+ "kasus_aktif": 1743,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,15 +27,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 318
+   "kasus": 320
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 131
+   "kasus": 129
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 526
+   "kasus": 528
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 87
+   "kasus": 85
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 382
+   "kasus": 379
   }
  },
  "provinsi": {
@@ -77,7 +77,7 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 10,
    "PANTAU": 25,
-   "TERCATAT": 117
+   "TERCATAT": 116
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -145,7 +145,7 @@
    "polda": "Polda Kalimantan Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 9,
+   "PANTAU": 8,
    "TERCATAT": 23
   },
   "64": {
@@ -161,7 +161,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 5,
    "PANTAU": 14,
-   "TERCATAT": 64
+   "TERCATAT": 65
   },
   "82": {
    "nama": "Maluku Utara",
@@ -190,14 +190,14 @@
    "polda": "Polda Sumatera Utara",
    "TINDAK": 3,
    "PANTAU": 7,
-   "TERCATAT": 50
+   "TERCATAT": 49
   },
   "72": {
    "nama": "Sulawesi Tengah",
    "polda": "Polda Sulawesi Tengah",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 15
+   "TERCATAT": 14
   },
   "11": {
    "nama": "Aceh",
@@ -218,14 +218,14 @@
    "polda": "Polda Banten",
    "TINDAK": 4,
    "PANTAU": 8,
-   "TERCATAT": 28
+   "TERCATAT": 26
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 2,
    "PANTAU": 13,
-   "TERCATAT": 45
+   "TERCATAT": 46
   },
   "15": {
    "nama": "Jambi",
@@ -309,42 +309,42 @@
  "langkah": {
   "dengar": {
    "artikel": 907,
-   "sumber": 2
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 16,
-   "sudah_ada": 882,
+   "relevan": 14,
+   "sudah_ada": 886,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 4,
-   "luar_negeri": 3,
-   "kasus_baru": 6,
-   "digabung": 10
+   "tidak_relevan": 0,
+   "bukan_kejadian": 7,
+   "luar_negeri": 0,
+   "kasus_baru": 9,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 49,
    "TINDAK": 54,
-   "PANTAU": 221,
-   "TERCATAT": 1421
+   "PANTAU": 220,
+   "TERCATAT": 1419
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 325
+   "kasus": 324
   },
   "kabarkan": {
    "tanggapan_terlihat": 880,
-   "kasus": 1746,
+   "kasus": 1743,
    "tanggapan_sejak_berita_pertama": 779,
    "median_jeda_jam": 14.5,
    "n_jeda": 101,
-   "melewati_batas": 146
+   "melewati_batas": 145
   },
   "arsipkan": {
-   "baris": 6410,
+   "baris": 6419,
    "dikoreksi": 77,
    "bulan": 2,
-   "hari_riwayat": 15
+   "hari_riwayat": 16
   }
  },
  "lonjakan_wilayah": [
@@ -354,7 +354,7 @@
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "hari_ini": 36,
-   "rata": 2.47
+   "rata": 4.56
   },
   {
    "kode_prov": "11",
@@ -362,7 +362,7 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "hari_ini": 11,
-   "rata": 4.67
+   "rata": 5.06
   },
   {
    "kode_prov": null,
@@ -370,7 +370,7 @@
    "topik": "anggota",
    "nama": "Perilaku anggota",
    "hari_ini": 9,
-   "rata": 3.8
+   "rata": 4.12
   },
   {
    "kode_prov": "18",
@@ -378,7 +378,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 6,
-   "rata": 2.4
+   "rata": 2.62
   },
   {
    "kode_prov": "16",
@@ -386,7 +386,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 2.8
+   "rata": 3.06
   },
   {
    "kode_prov": "32",
@@ -394,7 +394,7 @@
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "hari_ini": 6,
-   "rata": 1.2
+   "rata": 1.5
   },
   {
    "kode_prov": "34",
@@ -402,7 +402,7 @@
    "topik": "anggota",
    "nama": "Perilaku anggota",
    "hari_ini": 5,
-   "rata": 0.0
+   "rata": 0.31
   },
   {
    "kode_prov": "31",
@@ -410,11 +410,42 @@
    "topik": "perempuan_anak",
    "nama": "Kekerasan terhadap perempuan dan anak",
    "hari_ini": 7,
-   "rata": 0.67
+   "rata": 1.06
   }
  ],
  "lonjakan_nasional": [],
- "hari_riwayat": 15,
+ "hari_riwayat": 16,
  "gempa_darurat": [],
- "hoaks_terbaru": []
+ "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Titiek Soeharto Setuju Jika Program MBG Diuangkan",
+   "url": "https://turnbackhoax.id/articles/37436-salah-titiek-soeharto-setuju-jika-program-mbg-diuangkan",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Ketua Umum Partai Golkar, Bahlil Lahadalia Terlibat Penyadapan Ilegal",
+   "url": "https://turnbackhoax.id/articles/37431-salah-ketua-umum-partai-golkar-bahlil-lahadalia-terlibat-penyadapan-ilegal",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Video Banjir Bandang yang Menerjang Kota Padang, Sumatera Barat Pada 10 Oktober 2026",
+   "url": "https://turnbackhoax.id/articles/37430-salah-video-banjir-bandang-yang-menerjang-kota-padang-sumatera-barat-pada-10-oktober-2026",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Kapolri Copot Kapolda Jateng Buntut Kasus Penggerebekan Pondok Pesantren di Sukoharjo",
+   "url": "https://turnbackhoax.id/articles/37426-salah-kapolri-copot-kapolda-jateng-buntut-kasus-penggerebekan-pondok-pesantren-di-sukoharjo",
+   "terbit": null
+  },
+  {
+   "judul": "[PENIPUAN] Tautan Pendaftaran BPJS di Klinik Kopdes",
+   "url": "https://turnbackhoax.id/articles/37425-penipuan-tautan-pendaftaran-bpjs-di-klinik-kopdes",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Transaksi Digital Wajib Dipungut Pajak Mulai 9 November 2026",
+   "url": "https://turnbackhoax.id/articles/37424-salah-transaksi-digital-wajib-dipungut-pajak-mulai-9-november-2026",
+   "terbit": null
+  }
+ ]
 }
