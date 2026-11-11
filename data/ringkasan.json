@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-11T18:40:54Z",
+ "diperbarui_utc": "2026-11-11T19:32:11Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
-  "anggota": 38,
+  "anggota": 37,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 30,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 49,
-  "TINDAK": 54,
-  "PANTAU": 220,
-  "TERCATAT": 1421
+  "JALUR KHUSUS": 48,
+  "TINDAK": 55,
+  "PANTAU": 237,
+  "TERCATAT": 1406
  },
- "kasus_aktif": 1745,
+ "kasus_aktif": 1747,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 72
+   "kasus": 71
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -31,19 +31,19 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 130
+   "kasus": 129
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 528
+   "kasus": 529
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 106
+   "kasus": 105
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 85
+   "kasus": 87
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 379
+   "kasus": 381
   }
  },
  "provinsi": {
@@ -106,7 +106,7 @@
    "nama": "Riau",
    "polda": "Polda Riau",
    "JALUR KHUSUS": 1,
-   "TINDAK": 2,
+   "TINDAK": 3,
    "PANTAU": 9,
    "TERCATAT": 30
   },
@@ -218,14 +218,14 @@
    "polda": "Polda Banten",
    "TINDAK": 4,
    "PANTAU": 8,
-   "TERCATAT": 26
+   "TERCATAT": 27
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 2,
-   "PANTAU": 13,
-   "TERCATAT": 46
+   "PANTAU": 30,
+   "TERCATAT": 30
   },
   "15": {
    "nama": "Jambi",
@@ -309,39 +309,39 @@
  "langkah": {
   "dengar": {
    "artikel": 907,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 1,
-   "sudah_ada": 905,
+   "relevan": 10,
+   "sudah_ada": 895,
    "hoaks": 0,
-   "tidak_relevan": 0,
+   "tidak_relevan": 1,
    "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 0,
-   "digabung": 1
+   "kasus_baru": 5,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 49,
-   "TINDAK": 54,
-   "PANTAU": 220,
-   "TERCATAT": 1421
+   "JALUR KHUSUS": 48,
+   "TINDAK": 55,
+   "PANTAU": 237,
+   "TERCATAT": 1406
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 324
+   "kasus": 341
   },
   "kabarkan": {
-   "tanggapan_terlihat": 881,
-   "kasus": 1745,
-   "tanggapan_sejak_berita_pertama": 780,
+   "tanggapan_terlihat": 882,
+   "kasus": 1747,
+   "tanggapan_sejak_berita_pertama": 781,
    "median_jeda_jam": 14.5,
    "n_jeda": 101,
-   "melewati_batas": 146
+   "melewati_batas": 157
   },
   "arsipkan": {
-   "baris": 6421,
+   "baris": 6426,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 16
@@ -353,7 +353,7 @@
    "prov": "DI Yogyakarta",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "hari_ini": 35,
+   "hari_ini": 34,
    "rata": 4.56
   },
   {
@@ -379,6 +379,14 @@
    "nama": "Narkoba",
    "hari_ini": 6,
    "rata": 2.62
+  },
+  {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 6,
+   "rata": 2.81
   },
   {
    "kode_prov": "16",
@@ -413,7 +421,16 @@
    "rata": 1.06
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "penipuan",
+   "nama": "Penipuan dan kejahatan daring",
+   "kemarin": 3,
+   "rata28": 5.2,
+   "rasio": 0.58,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 16,
  "gempa_darurat": [],
  "hoaks_terbaru": [

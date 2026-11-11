@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-11T18:40:54Z",
+ "diperbarui_utc": "2026-11-11T19:32:11Z",
  "jendela_hari": 30,
  "hari_riwayat": 16,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2586,
+ "kasus_tanpa_polda": 2588,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -35,6 +35,35 @@
    ]
   },
   {
+   "polda": "Polda Metro Jaya",
+   "provinsi": [
+    "31"
+   ],
+   "kasus": 254,
+   "perlu": 117,
+   "perlu_tanggap": 24,
+   "persen_tanggap": 20.5,
+   "tanggap": 127,
+   "jalur_khusus": 4,
+   "melewati_batas": 65,
+   "median_jeda_jam": 3.8,
+   "n_jeda": 24,
+   "topik_teratas": [
+    [
+     "darurat",
+     65
+    ],
+    [
+     "jalanan",
+     55
+    ],
+    [
+     "narkoba",
+     49
+    ]
+   ]
+  },
+  {
    "polda": "Polda Jawa Barat",
    "provinsi": [
     "32"
@@ -60,35 +89,6 @@
     [
      "narkoba",
      32
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Metro Jaya",
-   "provinsi": [
-    "31"
-   ],
-   "kasus": 253,
-   "perlu": 97,
-   "perlu_tanggap": 21,
-   "persen_tanggap": 21.6,
-   "tanggap": 127,
-   "jalur_khusus": 4,
-   "melewati_batas": 54,
-   "median_jeda_jam": 1.8,
-   "n_jeda": 21,
-   "topik_teratas": [
-    [
-     "darurat",
-     64
-    ],
-    [
-     "jalanan",
-     55
-    ],
-    [
-     "narkoba",
-     49
     ]
    ]
   },
@@ -213,10 +213,10 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 137,
-   "perlu": 50,
+   "kasus": 138,
+   "perlu": 51,
    "perlu_tanggap": 11,
-   "persen_tanggap": 22.0,
+   "persen_tanggap": 21.6,
    "tanggap": 84,
    "jalur_khusus": 3,
    "melewati_batas": 30,
@@ -233,7 +233,7 @@
     ],
     [
      "lalulintas",
-     20
+     21
     ]
    ]
   },
@@ -416,11 +416,11 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 105,
+   "kasus": 106,
    "perlu": 28,
    "perlu_tanggap": 4,
    "persen_tanggap": 14.3,
-   "tanggap": 64,
+   "tanggap": 65,
    "jalur_khusus": 3,
    "melewati_batas": 14,
    "median_jeda_jam": 11.7,
@@ -432,7 +432,7 @@
     ],
     [
      "darurat",
-     22
+     23
     ],
     [
      "lalulintas",
@@ -1110,6 +1110,27 @@
  ],
  "titik_rawan": [
   {
+   "kode_kab": "1406",
+   "kabkota": "Kabupaten Kampar",
+   "kode_prov": "14",
+   "provinsi": "Riau",
+   "polda": "Polda Riau",
+   "polres": "Polres Kampar",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 5,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-01",
+    "2026-11-04",
+    "2026-11-08",
+    "2026-11-11"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3471",
    "kabkota": "Kota Yogyakarta",
    "kode_prov": "34",
@@ -1348,26 +1369,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1406",
-   "kabkota": "Kabupaten Kampar",
-   "kode_prov": "14",
-   "provinsi": "Riau",
-   "polda": "Polda Riau",
-   "polres": "Polres Kampar",
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kejadian": 4,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-01",
-    "2026-11-04",
-    "2026-11-08"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
   },
   {
    "kode_kab": "1406",
