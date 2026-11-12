@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-12T14:03:58Z",
+ "diperbarui_utc": "2026-11-12T14:55:15Z",
  "terbaru": {
-  "waktu_utc": "2026-11-12T11:16:30Z",
-  "magnitudo": 4.8,
-  "kedalaman": "13 km",
-  "wilayah": "Pusat gempa berada di laut 73 km Timur Laut Ruteng, Manggarai",
+  "waktu_utc": "2026-11-12T14:19:05Z",
+  "magnitudo": 1.9,
+  "kedalaman": "17 km",
+  "wilayah": "Pusat gempa berada di darat 13 km utara Kolaka",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Kab. Manggarai",
-  "koordinat": "-8.06,120.81",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "II Kolaka",
+  "koordinat": "-3.95,121.66",
+  "prov": "Sulawesi Tenggara",
+  "kode_prov": "74"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-12T14:19:05Z",
+   "magnitudo": 1.9,
+   "kedalaman": "17 km",
+   "wilayah": "Pusat gempa berada di darat 13 km utara Kolaka",
+   "potensi": null,
+   "dirasakan": "II Kolaka",
+   "koordinat": "-3.95,121.66",
+   "prov": "Sulawesi Tenggara",
+   "kode_prov": "74"
+  },
   {
    "waktu_utc": "2026-11-12T11:16:30Z",
    "magnitudo": 4.8,
@@ -165,17 +176,6 @@
    "koordinat": "-1.13,120.22",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-11-06T18:32:08Z",
-   "magnitudo": 3.5,
-   "kedalaman": "18 km",
-   "wilayah": "Pusat gempa berada di laut 34 km barat daya Lombok Utara",
-   "potensi": null,
-   "dirasakan": "II Mataram, II Lombok Barat, II Lombok Tengah",
-   "koordinat": "-8.48,115.87",
-   "prov": "Nusa Tenggara Barat",
-   "kode_prov": "52"
   }
  ],
  "m5": [
