@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-12T20:00:00Z",
+ "diperbarui_utc": "2026-11-12T20:51:22Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -11,9 +11,9 @@
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 49,
-  "TINDAK": 57,
+  "TINDAK": 56,
   "PANTAU": 165,
-  "TERCATAT": 1317
+  "TERCATAT": 1318
  },
  "kasus_aktif": 1588,
  "topik": {
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 423
+   "kasus": 422
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 89
+   "kasus": 90
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -60,7 +60,7 @@
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 3,
    "PANTAU": 5,
-   "TERCATAT": 23
+   "TERCATAT": 22
   },
   "35": {
    "nama": "Jawa Timur",
@@ -187,7 +187,7 @@
   "36": {
    "nama": "Banten",
    "polda": "Polda Banten",
-   "TINDAK": 4,
+   "TINDAK": 3,
    "PANTAU": 5,
    "TERCATAT": 27
   },
@@ -305,46 +305,63 @@
  "langkah": {
   "dengar": {
    "artikel": 904,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 5,
-   "sudah_ada": 894,
+   "relevan": 4,
+   "sudah_ada": 898,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 4,
-   "luar_negeri": 0,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 1,
+   "luar_negeri": 1,
    "kasus_baru": 2,
-   "digabung": 3
+   "digabung": 2
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 49,
-   "TINDAK": 57,
+   "TINDAK": 56,
    "PANTAU": 165,
-   "TERCATAT": 1317
+   "TERCATAT": 1318
   },
   "teruskan": {
    "polda": 32,
-   "kasus": 271
+   "kasus": 270
   },
   "kabarkan": {
-   "tanggapan_terlihat": 785,
+   "tanggapan_terlihat": 784,
    "kasus": 1588,
-   "tanggapan_sejak_berita_pertama": 680,
+   "tanggapan_sejak_berita_pertama": 679,
    "median_jeda_jam": 18.1,
    "n_jeda": 105,
    "melewati_batas": 142
   },
   "arsipkan": {
-   "baris": 6767,
+   "baris": 6769,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 17
   }
  },
  "lonjakan_wilayah": [],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "anggota",
+   "nama": "Perilaku anggota",
+   "kemarin": 1,
+   "rata28": 1.4,
+   "rasio": 0.7,
+   "lonjakan": false
+  },
+  {
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kemarin": 1,
+   "rata28": 1.9,
+   "rasio": 0.52,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 17,
  "gempa_darurat": [],
  "hoaks_terbaru": [
