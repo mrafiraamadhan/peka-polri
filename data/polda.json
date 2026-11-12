@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-12T22:34:48Z",
+ "diperbarui_utc": "2026-11-12T23:26:07Z",
  "jendela_hari": 30,
  "hari_riwayat": 17,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2736,
+ "kasus_tanpa_polda": 2737,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 593,
+   "kasus": 594,
    "perlu": 218,
    "perlu_tanggap": 44,
    "persen_tanggap": 20.2,
-   "tanggap": 299,
+   "tanggap": 300,
    "jalur_khusus": 25,
    "melewati_batas": 124,
    "median_jeda_jam": 14.6,
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     93
+     94
     ]
    ]
   },
@@ -329,11 +329,11 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 179,
+   "kasus": 180,
    "perlu": 33,
    "perlu_tanggap": 8,
    "persen_tanggap": 24.2,
-   "tanggap": 85,
+   "tanggap": 86,
    "jalur_khusus": 0,
    "melewati_batas": 24,
    "median_jeda_jam": 12.0,
@@ -341,7 +341,7 @@
    "topik_teratas": [
     [
      "darurat",
-     85
+     86
     ],
     [
      "narkoba",
@@ -1192,6 +1192,26 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3578",
+   "kabkota": "Kota Surabaya",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polrestabes Surabaya",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 4,
+   "kasus": 14,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-08",
+    "2026-11-13"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3672",
    "kabkota": "Kota Cilegon",
    "kode_prov": "36",
@@ -1747,25 +1767,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Utara bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3578",
-   "kabkota": "Kota Surabaya",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polrestabes Surabaya",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 3,
-   "kasus": 13,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-01",
-    "2026-11-08"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
   },
   {
    "kode_kab": "1212",
