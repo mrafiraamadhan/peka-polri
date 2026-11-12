@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-12T10:39:00Z",
+ "diperbarui_utc": "2026-11-12T11:29:56Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-12T10:39:31Z",
+   "dicek_utc": "2026-11-12T11:30:28Z",
    "ok": true,
    "n": 903,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-12T10:39:33Z",
+   "dicek_utc": "2026-11-12T11:30:30Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-12T10:39:33Z",
+   "dicek_utc": "2026-11-12T11:30:31Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-12T10:39:33Z",
-   "ok": true,
+   "dicek_utc": "2026-11-12T11:30:56Z",
+   "ok": false,
    "n": 9,
-   "pesan": "deret per topik diperbarui setiap 6 jam; semua masih segar",
+   "pesan": "0 dari 1 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "10:39:01 PEKA mulai 2026-11-12T10:39:00Z ",
-  "10:39:31 dengar berita: 903 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "10:39:33 dengar GDELT: semua topik masih segar (< 6 jam)",
-  "10:39:33 pilah: {'masuk': 903, 'sudah_ada': 850, 'tidak_relevan': 2, 'bukan_kejadian': 18, 'luar_negeri': 3, 'gabung': 15, 'kasus_baru': 15, 'relevan': 30}",
-  "10:39:34 papan Polda: 38 Polda berkasus | titik rawan: 165"
+  "11:29:57 PEKA mulai 2026-11-12T11:29:56Z ",
+  "11:30:28 dengar berita: 903 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "11:30:56 dengar GDELT: 0/1 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "11:30:56 pilah: {'masuk': 903, 'sudah_ada': 846, 'bukan_kejadian': 14, 'luar_negeri': 3, 'tidak_relevan': 2, 'gabung': 18, 'kasus_baru': 20, 'relevan': 38}",
+  "11:30:56 papan Polda: 38 Polda berkasus | titik rawan: 166"
  ]
 }

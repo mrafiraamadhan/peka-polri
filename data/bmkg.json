@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-12T10:39:00Z",
+ "diperbarui_utc": "2026-11-12T11:29:56Z",
  "terbaru": {
-  "waktu_utc": "2026-11-10T23:05:21Z",
-  "magnitudo": 4.3,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di darat 23 km timur laut Kab. Gayo Lues",
+  "waktu_utc": "2026-11-12T11:16:30Z",
+  "magnitudo": 4.8,
+  "kedalaman": "13 km",
+  "wilayah": "Pusat gempa berada di laut 73 km Timur Laut Ruteng, Manggarai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Gayo Lues, II-III Aceh Tengah, II-III Bener Meriah",
-  "koordinat": "4.15,97.49",
-  "prov": "Aceh",
-  "kode_prov": "11"
+  "dirasakan": "II Kab. Manggarai",
+  "koordinat": "-8.06,120.81",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-12T11:16:30Z",
+   "magnitudo": 4.8,
+   "kedalaman": "13 km",
+   "wilayah": "Pusat gempa berada di laut 73 km Timur Laut Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "II Kab. Manggarai",
+   "koordinat": "-8.06,120.81",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-10T23:05:21Z",
    "magnitudo": 4.3,
@@ -165,17 +176,6 @@
    "koordinat": "-8.48,115.87",
    "prov": "Nusa Tenggara Barat",
    "kode_prov": "52"
-  },
-  {
-   "waktu_utc": "2026-11-06T17:38:52Z",
-   "magnitudo": 3.3,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di laut 54 km Tenggara Morowali",
-   "potensi": null,
-   "dirasakan": "II - III Bungku Morowali",
-   "koordinat": "-2.96,122.31",
-   "prov": "Sulawesi Tengah",
-   "kode_prov": "72"
   }
  ],
  "m5": [
