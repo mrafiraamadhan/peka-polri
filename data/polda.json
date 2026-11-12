@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-12T17:30:34Z",
+ "diperbarui_utc": "2026-11-12T18:17:24Z",
  "jendela_hari": 30,
  "hari_riwayat": 17,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2725,
+ "kasus_tanpa_polda": 2726,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 592,
-   "perlu": 217,
+   "kasus": 593,
+   "perlu": 218,
    "perlu_tanggap": 44,
-   "persen_tanggap": 20.3,
+   "persen_tanggap": 20.2,
    "tanggap": 299,
    "jalur_khusus": 25,
    "melewati_batas": 125,
@@ -296,6 +296,35 @@
    ]
   },
   {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 113,
+   "perlu": 36,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 16.7,
+   "tanggap": 67,
+   "jalur_khusus": 3,
+   "melewati_batas": 18,
+   "median_jeda_jam": 13.7,
+   "n_jeda": 6,
+   "topik_teratas": [
+    [
+     "jalanan",
+     33
+    ],
+    [
+     "darurat",
+     28
+    ],
+    [
+     "lalulintas",
+     16
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Barat",
    "provinsi": [
     "61"
@@ -408,35 +437,6 @@
     [
      "narkoba",
      17
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 111,
-   "perlu": 28,
-   "perlu_tanggap": 4,
-   "persen_tanggap": 14.3,
-   "tanggap": 67,
-   "jalur_khusus": 3,
-   "melewati_batas": 16,
-   "median_jeda_jam": 11.7,
-   "n_jeda": 4,
-   "topik_teratas": [
-    [
-     "jalanan",
-     33
-    ],
-    [
-     "darurat",
-     26
-    ],
-    [
-     "lalulintas",
-     16
     ]
    ]
   },
@@ -1192,6 +1192,26 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3672",
+   "kabkota": "Kota Cilegon",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Banten",
+   "polres": "Polres Cilegon",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 4,
+   "kasus": 13,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-11"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polres Cilegon bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3271",
    "kabkota": "Kota Bogor",
    "kode_prov": "32",
@@ -1230,26 +1250,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3672",
-   "kabkota": "Kota Cilegon",
-   "kode_prov": "36",
-   "provinsi": "Banten",
-   "polda": "Polda Banten",
-   "polres": "Polres Cilegon",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-11"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Cilegon bersama pemerintah daerah"
   },
   {
    "kode_kab": "1671",
