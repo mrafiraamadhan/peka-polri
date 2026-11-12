@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-12T19:08:42Z",
+ "diperbarui_utc": "2026-11-12T20:00:00Z",
  "terbaru": {
-  "waktu_utc": "2026-11-12T14:19:05Z",
-  "magnitudo": 1.9,
+  "waktu_utc": "2026-11-12T19:14:40Z",
+  "magnitudo": 4.6,
   "kedalaman": "17 km",
-  "wilayah": "Pusat gempa berada di darat 13 km utara Kolaka",
+  "wilayah": "Pusat gempa berada di laut 32 km barat laut Pulau Panjang",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Kolaka",
-  "koordinat": "-3.95,121.66",
-  "prov": "Sulawesi Tenggara",
-  "kode_prov": "74"
+  "dirasakan": "III Kab. Sumbawa, III Kab. Sumbawa Barat, III Kab. Lombok Utara, III Kab. Lombok Timur, II Kota Mataram",
+  "koordinat": "-8.20,116.76",
+  "prov": "Nusa Tenggara Barat",
+  "kode_prov": "52"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-12T19:14:40Z",
+   "magnitudo": 4.6,
+   "kedalaman": "17 km",
+   "wilayah": "Pusat gempa berada di laut 32 km barat laut Pulau Panjang",
+   "potensi": null,
+   "dirasakan": "III Kab. Sumbawa, III Kab. Sumbawa Barat, III Kab. Lombok Utara, III Kab. Lombok Timur, II Kota Mataram",
+   "koordinat": "-8.20,116.76",
+   "prov": "Nusa Tenggara Barat",
+   "kode_prov": "52"
+  },
   {
    "waktu_utc": "2026-11-12T14:19:05Z",
    "magnitudo": 1.9,
@@ -165,17 +176,6 @@
    "koordinat": "-8.37,116.54",
    "prov": "Nusa Tenggara Barat",
    "kode_prov": "52"
-  },
-  {
-   "waktu_utc": "2026-11-06T19:07:01Z",
-   "magnitudo": 4.9,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 47 km Timur Laut Sigi",
-   "potensi": null,
-   "dirasakan": "IV Sigi, III Palu",
-   "koordinat": "-1.13,120.22",
-   "prov": null,
-   "kode_prov": null
   }
  ],
  "m5": [

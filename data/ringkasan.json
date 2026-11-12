@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-12T19:08:42Z",
+ "diperbarui_utc": "2026-11-12T20:00:00Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 49,
-  "TINDAK": 58,
+  "TINDAK": 57,
   "PANTAU": 165,
-  "TERCATAT": 1318
+  "TERCATAT": 1317
  },
- "kasus_aktif": 1590,
+ "kasus_aktif": 1588,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -31,11 +31,11 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 132
+   "kasus": 133
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 426
+   "kasus": 423
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -66,7 +66,7 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 5,
-   "TINDAK": 19,
+   "TINDAK": 18,
    "PANTAU": 20,
    "TERCATAT": 99
   },
@@ -189,7 +189,7 @@
    "polda": "Polda Banten",
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 28
+   "TERCATAT": 27
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -203,7 +203,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 1,
    "PANTAU": 7,
-   "TERCATAT": 46
+   "TERCATAT": 45
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -308,36 +308,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 892,
+   "relevan": 5,
+   "sudah_ada": 894,
    "hoaks": 0,
    "tidak_relevan": 1,
-   "bukan_kejadian": 1,
-   "luar_negeri": 1,
-   "kasus_baru": 1,
-   "digabung": 8
+   "bukan_kejadian": 4,
+   "luar_negeri": 0,
+   "kasus_baru": 2,
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 49,
-   "TINDAK": 58,
+   "TINDAK": 57,
    "PANTAU": 165,
-   "TERCATAT": 1318
+   "TERCATAT": 1317
   },
   "teruskan": {
    "polda": 32,
-   "kasus": 272
+   "kasus": 271
   },
   "kabarkan": {
-   "tanggapan_terlihat": 786,
-   "kasus": 1590,
-   "tanggapan_sejak_berita_pertama": 681,
+   "tanggapan_terlihat": 785,
+   "kasus": 1588,
+   "tanggapan_sejak_berita_pertama": 680,
    "median_jeda_jam": 18.1,
    "n_jeda": 105,
-   "melewati_batas": 143
+   "melewati_batas": 142
   },
   "arsipkan": {
-   "baris": 6765,
+   "baris": 6767,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 17
