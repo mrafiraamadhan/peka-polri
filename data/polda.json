@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-12T01:31:38Z",
+ "diperbarui_utc": "2026-11-12T02:22:53Z",
  "jendela_hari": 30,
  "hari_riwayat": 16,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2612,
+ "kasus_tanpa_polda": 2618,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 565,
-   "perlu": 206,
+   "kasus": 567,
+   "perlu": 207,
    "perlu_tanggap": 42,
-   "persen_tanggap": 20.4,
-   "tanggap": 282,
+   "persen_tanggap": 20.3,
+   "tanggap": 283,
    "jalur_khusus": 24,
    "melewati_batas": 118,
    "median_jeda_jam": 14.2,
@@ -39,10 +39,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 256,
-   "perlu": 119,
+   "kasus": 259,
+   "perlu": 122,
    "perlu_tanggap": 24,
-   "persen_tanggap": 20.2,
+   "persen_tanggap": 19.7,
    "tanggap": 127,
    "jalur_khusus": 4,
    "melewati_batas": 66,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "darurat",
-     67
+     68
     ],
     [
      "jalanan",
@@ -103,7 +103,7 @@
    "persen_tanggap": 17.5,
    "tanggap": 131,
    "jalur_khusus": 11,
-   "melewati_batas": 43,
+   "melewati_batas": 44,
    "median_jeda_jam": 11.6,
    "n_jeda": 14,
    "topik_teratas": [
@@ -132,7 +132,7 @@
    "persen_tanggap": 22.7,
    "tanggap": 67,
    "jalur_khusus": 5,
-   "melewati_batas": 35,
+   "melewati_batas": 36,
    "median_jeda_jam": 5.7,
    "n_jeda": 15,
    "topik_teratas": [
@@ -219,7 +219,7 @@
    "persen_tanggap": 20.5,
    "tanggap": 97,
    "jalur_khusus": 8,
-   "melewati_batas": 24,
+   "melewati_batas": 25,
    "median_jeda_jam": 36.6,
    "n_jeda": 9,
    "topik_teratas": [
@@ -242,7 +242,7 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 93,
+   "kasus": 94,
    "perlu": 39,
    "perlu_tanggap": 7,
    "persen_tanggap": 17.9,
@@ -258,7 +258,7 @@
     ],
     [
      "darurat",
-     12
+     13
     ],
     [
      "narkoba",
@@ -300,11 +300,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 87,
+   "kasus": 88,
    "perlu": 33,
    "perlu_tanggap": 6,
    "persen_tanggap": 18.2,
-   "tanggap": 49,
+   "tanggap": 50,
    "jalur_khusus": 3,
    "melewati_batas": 18,
    "median_jeda_jam": 13.4,
@@ -312,7 +312,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     21
+     22
     ],
     [
      "jalanan",
@@ -422,7 +422,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 65,
    "jalur_khusus": 3,
-   "melewati_batas": 14,
+   "melewati_batas": 15,
    "median_jeda_jam": 11.7,
    "n_jeda": 4,
    "topik_teratas": [
@@ -619,10 +619,10 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 50,
-   "perlu": 16,
+   "kasus": 51,
+   "perlu": 17,
    "perlu_tanggap": 2,
-   "persen_tanggap": 12.5,
+   "persen_tanggap": 11.8,
    "tanggap": 29,
    "jalur_khusus": 3,
    "melewati_batas": 10,
@@ -634,12 +634,12 @@
      20
     ],
     [
-     "darurat",
+     "perempuan_anak",
      7
     ],
     [
-     "perempuan_anak",
-     6
+     "darurat",
+     7
     ]
    ]
   },
@@ -648,11 +648,11 @@
    "provinsi": [
     "15"
    ],
-   "kasus": 48,
+   "kasus": 49,
    "perlu": 16,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 26,
+   "tanggap": 27,
    "jalur_khusus": 2,
    "melewati_batas": 12,
    "median_jeda_jam": null,
@@ -660,7 +660,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     19
+     20
     ],
     [
      "narkoba",
@@ -1723,6 +1723,25 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1571",
+   "kabkota": "Kota Jambi",
+   "kode_prov": "15",
+   "provinsi": "Jambi",
+   "polda": "Polda Jambi",
+   "polres": "Polresta Jambi",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 3,
+   "kasus": 10,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-04",
+    "2026-11-09"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polresta Jambi bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3603",
    "kabkota": "Kabupaten Tangerang",
    "kode_prov": "36",
@@ -1740,25 +1759,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polresta Tangerang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1571",
-   "kabkota": "Kota Jambi",
-   "kode_prov": "15",
-   "provinsi": "Jambi",
-   "polda": "Polda Jambi",
-   "polres": "Polresta Jambi",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 9,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-04",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polresta Jambi bersama pemerintah daerah"
   },
   {
    "kode_kab": "3571",
