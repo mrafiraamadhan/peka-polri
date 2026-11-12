@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-12T18:17:24Z",
+ "diperbarui_utc": "2026-11-12T19:08:42Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -12,8 +12,8 @@
   "DARURAT": 0,
   "JALUR KHUSUS": 49,
   "TINDAK": 58,
-  "PANTAU": 171,
-  "TERCATAT": 1312
+  "PANTAU": 165,
+  "TERCATAT": 1318
  },
  "kasus_aktif": 1590,
  "topik": {
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 109
+   "kasus": 110
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 351
+   "kasus": 350
   }
  },
  "provinsi": {
@@ -146,7 +146,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 9,
-   "TERCATAT": 56
+   "TERCATAT": 57
   },
   "82": {
    "nama": "Maluku Utara",
@@ -188,8 +188,8 @@
    "nama": "Banten",
    "polda": "Polda Banten",
    "TINDAK": 4,
-   "PANTAU": 11,
-   "TERCATAT": 22
+   "PANTAU": 5,
+   "TERCATAT": 28
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -224,7 +224,7 @@
    "polda": "Polda Nusa Tenggara Timur",
    "TINDAK": 1,
    "PANTAU": 1,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -308,51 +308,42 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 889,
+   "relevan": 9,
+   "sudah_ada": 892,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 5,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 1,
    "luar_negeri": 1,
-   "kasus_baru": 4,
-   "digabung": 3
+   "kasus_baru": 1,
+   "digabung": 8
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 49,
    "TINDAK": 58,
-   "PANTAU": 171,
-   "TERCATAT": 1312
+   "PANTAU": 165,
+   "TERCATAT": 1318
   },
   "teruskan": {
    "polda": 32,
-   "kasus": 278
+   "kasus": 272
   },
   "kabarkan": {
-   "tanggapan_terlihat": 784,
+   "tanggapan_terlihat": 786,
    "kasus": 1590,
-   "tanggapan_sejak_berita_pertama": 680,
+   "tanggapan_sejak_berita_pertama": 681,
    "median_jeda_jam": 18.1,
-   "n_jeda": 104,
-   "melewati_batas": 145
+   "n_jeda": 105,
+   "melewati_batas": 143
   },
   "arsipkan": {
-   "baris": 6764,
+   "baris": 6765,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 17
   }
  },
- "lonjakan_wilayah": [
-  {
-   "kode_prov": "36",
-   "prov": "Banten",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 5,
-   "rata": 2.06
-  }
- ],
+ "lonjakan_wilayah": [],
  "lonjakan_nasional": [],
  "hari_riwayat": 17,
  "gempa_darurat": [],

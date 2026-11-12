@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-12T18:17:24Z",
+ "diperbarui_utc": "2026-11-12T19:08:42Z",
  "jendela_hari": 30,
  "hari_riwayat": 17,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -72,7 +72,7 @@
    "perlu": 100,
    "perlu_tanggap": 19,
    "persen_tanggap": 19.0,
-   "tanggap": 147,
+   "tanggap": 148,
    "jalur_khusus": 6,
    "melewati_batas": 59,
    "median_jeda_jam": 5.7,
@@ -97,11 +97,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 262,
+   "kasus": 263,
    "perlu": 82,
    "perlu_tanggap": 16,
    "persen_tanggap": 19.5,
-   "tanggap": 138,
+   "tanggap": 139,
    "jalur_khusus": 11,
    "melewati_batas": 47,
    "median_jeda_jam": 11.6,
@@ -296,35 +296,6 @@
    ]
   },
   {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 113,
-   "perlu": 36,
-   "perlu_tanggap": 6,
-   "persen_tanggap": 16.7,
-   "tanggap": 67,
-   "jalur_khusus": 3,
-   "melewati_batas": 18,
-   "median_jeda_jam": 13.7,
-   "n_jeda": 6,
-   "topik_teratas": [
-    [
-     "jalanan",
-     33
-    ],
-    [
-     "darurat",
-     28
-    ],
-    [
-     "lalulintas",
-     16
-    ]
-   ]
-  },
-  {
    "polda": "Polda Kalimantan Barat",
    "provinsi": [
     "61"
@@ -437,6 +408,35 @@
     [
      "narkoba",
      17
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 113,
+   "perlu": 28,
+   "perlu_tanggap": 4,
+   "persen_tanggap": 14.3,
+   "tanggap": 67,
+   "jalur_khusus": 3,
+   "melewati_batas": 16,
+   "median_jeda_jam": 11.7,
+   "n_jeda": 4,
+   "topik_teratas": [
+    [
+     "jalanan",
+     33
+    ],
+    [
+     "darurat",
+     28
+    ],
+    [
+     "lalulintas",
+     16
     ]
    ]
   },
