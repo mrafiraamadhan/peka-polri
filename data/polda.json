@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-12T09:16:27Z",
+ "diperbarui_utc": "2026-11-12T09:47:58Z",
  "jendela_hari": 30,
  "hari_riwayat": 16,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2676,
+ "kasus_tanpa_polda": 2681,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -45,7 +45,7 @@
    "persen_tanggap": 20.6,
    "tanggap": 130,
    "jalur_khusus": 4,
-   "melewati_batas": 72,
+   "melewati_batas": 73,
    "median_jeda_jam": 4.2,
    "n_jeda": 26,
    "topik_teratas": [
@@ -74,7 +74,7 @@
    "persen_tanggap": 18.4,
    "tanggap": 143,
    "jalur_khusus": 5,
-   "melewati_batas": 54,
+   "melewati_batas": 55,
    "median_jeda_jam": 4.9,
    "n_jeda": 18,
    "topik_teratas": [
@@ -97,7 +97,7 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 257,
+   "kasus": 258,
    "perlu": 81,
    "perlu_tanggap": 15,
    "persen_tanggap": 18.5,
@@ -113,7 +113,7 @@
     ],
     [
      "darurat",
-     66
+     67
     ],
     [
      "narkoba",
@@ -155,19 +155,19 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 240,
+   "kasus": 241,
    "perlu": 62,
-   "perlu_tanggap": 14,
-   "persen_tanggap": 22.6,
-   "tanggap": 166,
+   "perlu_tanggap": 15,
+   "persen_tanggap": 24.2,
+   "tanggap": 168,
    "jalur_khusus": 2,
-   "melewati_batas": 38,
-   "median_jeda_jam": 11.1,
-   "n_jeda": 14,
+   "melewati_batas": 40,
+   "median_jeda_jam": 9.5,
+   "n_jeda": 15,
    "topik_teratas": [
     [
      "narkoba",
-     102
+     103
     ],
     [
      "jalanan",
@@ -184,11 +184,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 143,
+   "kasus": 144,
    "perlu": 53,
    "perlu_tanggap": 11,
    "persen_tanggap": 20.8,
-   "tanggap": 87,
+   "tanggap": 88,
    "jalur_khusus": 3,
    "melewati_batas": 31,
    "median_jeda_jam": 13.4,
@@ -200,7 +200,7 @@
     ],
     [
      "jalanan",
-     26
+     27
     ],
     [
      "lalulintas",
@@ -219,7 +219,7 @@
    "persen_tanggap": 22.0,
    "tanggap": 102,
    "jalur_khusus": 8,
-   "melewati_batas": 27,
+   "melewati_batas": 28,
    "median_jeda_jam": 36.6,
    "n_jeda": 11,
    "topik_teratas": [
@@ -271,11 +271,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 126,
+   "kasus": 127,
    "perlu": 38,
    "perlu_tanggap": 8,
    "persen_tanggap": 21.1,
-   "tanggap": 88,
+   "tanggap": 89,
    "jalur_khusus": 10,
    "melewati_batas": 17,
    "median_jeda_jam": 9.8,
@@ -287,7 +287,7 @@
     ],
     [
      "narkoba",
-     28
+     29
     ],
     [
      "anggota",
@@ -329,7 +329,7 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 177,
+   "kasus": 178,
    "perlu": 33,
    "perlu_tanggap": 8,
    "persen_tanggap": 24.2,
@@ -341,7 +341,7 @@
    "topik_teratas": [
     [
      "darurat",
-     83
+     84
     ],
     [
      "narkoba",
@@ -445,11 +445,11 @@
    "provinsi": [
     "21"
    ],
-   "kasus": 68,
+   "kasus": 69,
    "perlu": 27,
    "perlu_tanggap": 7,
    "persen_tanggap": 25.9,
-   "tanggap": 43,
+   "tanggap": 44,
    "jalur_khusus": 3,
    "melewati_batas": 12,
    "median_jeda_jam": 12.8,
@@ -561,11 +561,11 @@
    "provinsi": [
     "19"
    ],
-   "kasus": 49,
+   "kasus": 50,
    "perlu": 19,
    "perlu_tanggap": 1,
    "persen_tanggap": 5.3,
-   "tanggap": 22,
+   "tanggap": 23,
    "jalur_khusus": 4,
    "melewati_batas": 13,
    "median_jeda_jam": 3.1,
@@ -1002,7 +1002,7 @@
    "persen_tanggap": 16.7,
    "tanggap": 24,
    "jalur_khusus": 0,
-   "melewati_batas": 4,
+   "melewati_batas": 5,
    "median_jeda_jam": 19.1,
    "n_jeda": 1,
    "topik_teratas": [
@@ -1110,6 +1110,27 @@
  ],
  "titik_rawan": [
   {
+   "kode_kab": "1275",
+   "kabkota": "Kota Medan",
+   "kode_prov": "12",
+   "provinsi": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "polres": "Polrestabes Medan",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 5,
+   "kasus": 19,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-08",
+    "2026-11-12"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -1169,26 +1190,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1275",
-   "kabkota": "Kota Medan",
-   "kode_prov": "12",
-   "provinsi": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "polres": "Polrestabes Medan",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 4,
-   "kasus": 18,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-08"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
   },
   {
    "kode_kab": "3271",
@@ -1726,6 +1727,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Madiun Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1212",
+   "kabkota": "Kabupaten Deli Serdang",
+   "kode_prov": "12",
+   "provinsi": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "polres": "Polresta Deli Serdang",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 3,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-12"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Deli Serdang bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "2171",
    "kabkota": "Kota Batam",
    "kode_prov": "21",
@@ -2256,25 +2276,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polrestabes Makassar bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1371",
-   "kabkota": "Kota Padang",
-   "kode_prov": "13",
-   "provinsi": "Sumatera Barat",
-   "polda": "Polda Sumatera Barat",
-   "polres": "Polresta Padang",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 3,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-08"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Padang bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {

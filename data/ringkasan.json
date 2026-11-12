@@ -1,41 +1,41 @@
 {
- "diperbarui_utc": "2026-11-12T09:16:27Z",
+ "diperbarui_utc": "2026-11-12T09:47:58Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
-  "anggota": 37,
+  "anggota": 36,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 30,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 48,
-  "TINDAK": 60,
-  "PANTAU": 201,
-  "TERCATAT": 1385
+  "JALUR KHUSUS": 47,
+  "TINDAK": 58,
+  "PANTAU": 199,
+  "TERCATAT": 1377
  },
- "kasus_aktif": 1694,
+ "kasus_aktif": 1681,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 71
+   "kasus": 70
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 121
+   "kasus": 120
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 301
+   "kasus": 302
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 138
+   "kasus": 137
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 494
+   "kasus": 485
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 92
+   "kasus": 91
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 364
+   "kasus": 363
   }
  },
  "provinsi": {
@@ -65,10 +65,10 @@
   "35": {
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
-   "JALUR KHUSUS": 6,
+   "JALUR KHUSUS": 5,
    "TINDAK": 13,
    "PANTAU": 20,
-   "TERCATAT": 110
+   "TERCATAT": 108
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -76,7 +76,7 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 3,
    "PANTAU": 5,
-   "TERCATAT": 35
+   "TERCATAT": 34
   },
   "81": {
    "nama": "Maluku",
@@ -91,7 +91,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
    "PANTAU": 13,
-   "TERCATAT": 32
+   "TERCATAT": 31
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -99,7 +99,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
    "PANTAU": 24,
-   "TERCATAT": 45
+   "TERCATAT": 44
   },
   "14": {
    "nama": "Riau",
@@ -107,13 +107,13 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 11,
-   "TERCATAT": 28
+   "TERCATAT": 29
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 2,
-   "TINDAK": 12,
+   "TINDAK": 10,
    "PANTAU": 10,
    "TERCATAT": 76
   },
@@ -152,7 +152,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 5,
    "PANTAU": 10,
-   "TERCATAT": 64
+   "TERCATAT": 65
   },
   "82": {
    "nama": "Maluku Utara",
@@ -167,7 +167,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 16
+   "TERCATAT": 17
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -194,8 +194,8 @@
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 3,
-   "PANTAU": 3,
-   "TERCATAT": 25
+   "PANTAU": 2,
+   "TERCATAT": 24
   },
   "36": {
    "nama": "Banten",
@@ -209,7 +209,7 @@
    "polda": "Polda Nusa Tenggara Barat",
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 30
+   "TERCATAT": 28
   },
   "31": {
    "nama": "DKI Jakarta",
@@ -222,8 +222,8 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "TINDAK": 1,
-   "PANTAU": 9,
-   "TERCATAT": 49
+   "PANTAU": 8,
+   "TERCATAT": 51
   },
   "15": {
    "nama": "Jambi",
@@ -237,7 +237,7 @@
    "polda": "Polda Sulawesi Tenggara",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 9
+   "TERCATAT": 8
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -281,7 +281,7 @@
    "nama": "Kepulauan Bangka Belitung",
    "polda": "Polda Kepulauan Bangka Belitung",
    "PANTAU": 1,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "76": {
    "nama": "Sulawesi Barat",
@@ -310,50 +310,42 @@
    "sumber": 4
   },
   "pilah": {
-   "relevan": 36,
-   "sudah_ada": 840,
+   "relevan": 21,
+   "sudah_ada": 870,
    "hoaks": 0,
-   "tidak_relevan": 8,
-   "bukan_kejadian": 18,
-   "luar_negeri": 1,
-   "kasus_baru": 14,
-   "digabung": 22
+   "tidak_relevan": 1,
+   "bukan_kejadian": 11,
+   "luar_negeri": 0,
+   "kasus_baru": 12,
+   "digabung": 9
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 48,
-   "TINDAK": 60,
-   "PANTAU": 201,
-   "TERCATAT": 1385
+   "JALUR KHUSUS": 47,
+   "TINDAK": 58,
+   "PANTAU": 199,
+   "TERCATAT": 1377
   },
   "teruskan": {
    "polda": 32,
-   "kasus": 309
+   "kasus": 304
   },
   "kabarkan": {
-   "tanggapan_terlihat": 868,
-   "kasus": 1694,
-   "tanggapan_sejak_berita_pertama": 756,
-   "median_jeda_jam": 17.0,
-   "n_jeda": 112,
-   "melewati_batas": 147
+   "tanggapan_terlihat": 862,
+   "kasus": 1681,
+   "tanggapan_sejak_berita_pertama": 749,
+   "median_jeda_jam": 16.4,
+   "n_jeda": 113,
+   "melewati_batas": 150
   },
   "arsipkan": {
-   "baris": 6624,
+   "baris": 6636,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 16
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "31",
-   "prov": "DKI Jakarta",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 8,
-   "rata": 3.0
-  },
   {
    "kode_prov": "34",
    "prov": "DI Yogyakarta",
@@ -377,21 +369,33 @@
    "nama": "Kekerasan terhadap perempuan dan anak",
    "hari_ini": 8,
    "rata": 1.06
-  }
- ],
- "lonjakan_nasional": [
+  },
   {
-   "topik": "penipuan",
-   "nama": "Penipuan dan kejahatan daring",
-   "kemarin": 2,
-   "rata28": 5.3,
-   "rasio": 0.38,
-   "lonjakan": false
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 7,
+   "rata": 3.0
+  },
+  {
+   "kode_prov": "14",
+   "prov": "Riau",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 5,
+   "rata": 1.5
   }
  ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 16,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Video “Kapolri Nyatakan Keterlibatan Pihak Asing Terkait Penyadapan Presiden Prabowo”",
+   "url": "https://turnbackhoax.id/articles/37445-salah-video-kapolri-nyatakan-keterlibatan-pihak-asing-terkait-penyadapan-presiden-prabowo",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Titiek Soeharto Setuju Jika Program MBG Diuangkan",
    "url": "https://turnbackhoax.id/articles/37436-salah-titiek-soeharto-setuju-jika-program-mbg-diuangkan",
@@ -415,11 +419,6 @@
   {
    "judul": "[PENIPUAN] Tautan Pendaftaran BPJS di Klinik Kopdes",
    "url": "https://turnbackhoax.id/articles/37425-penipuan-tautan-pendaftaran-bpjs-di-klinik-kopdes",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Transaksi Digital Wajib Dipungut Pajak Mulai 9 November 2026",
-   "url": "https://turnbackhoax.id/articles/37424-salah-transaksi-digital-wajib-dipungut-pajak-mulai-9-november-2026",
    "terbit": null
   }
  ]
