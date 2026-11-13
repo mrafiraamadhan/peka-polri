@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-13T17:09:41Z",
+ "diperbarui_utc": "2026-11-13T18:01:15Z",
  "jendela_hari": 30,
  "hari_riwayat": 18,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2851,
+ "kasus_tanpa_polda": 2852,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -97,7 +97,7 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 269,
+   "kasus": 270,
    "perlu": 85,
    "perlu_tanggap": 16,
    "persen_tanggap": 18.8,
@@ -113,7 +113,7 @@
     ],
     [
      "darurat",
-     68
+     69
     ],
     [
      "narkoba",
@@ -329,11 +329,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 105,
+   "kasus": 106,
    "perlu": 35,
    "perlu_tanggap": 9,
    "persen_tanggap": 25.7,
-   "tanggap": 69,
+   "tanggap": 70,
    "jalur_khusus": 6,
    "melewati_batas": 20,
    "median_jeda_jam": 14.3,
@@ -345,7 +345,7 @@
     ],
     [
      "narkoba",
-     24
+     25
     ],
     [
      "anggota",
@@ -909,7 +909,7 @@
    "provinsi": [
     "71"
    ],
-   "kasus": 28,
+   "kasus": 29,
    "perlu": 9,
    "perlu_tanggap": 1,
    "persen_tanggap": 11.1,
@@ -921,7 +921,7 @@
    "topik_teratas": [
     [
      "darurat",
-     9
+     10
     ],
     [
      "jalanan",
@@ -2253,6 +2253,25 @@
    "penanggung_jawab": "Kasat Binmas Polresta Malang Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "5271",
+   "kabkota": "Kota Mataram",
+   "kode_prov": "52",
+   "provinsi": "Nusa Tenggara Barat",
+   "polda": "Polda Nusa Tenggara Barat",
+   "polres": "Polresta Mataram",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 3,
+   "kasus": 8,
+   "tanggal": [
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-13"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1277",
    "kabkota": "Kota Padangsidimpuan",
    "kode_prov": "12",
@@ -2270,25 +2289,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Padangsidimpuan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1471",
-   "kabkota": "Kota Pekanbaru",
-   "kode_prov": "14",
-   "provinsi": "Riau",
-   "polda": "Polda Riau",
-   "polres": "Polresta Pekanbaru",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 3,
-   "kasus": 8,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-05",
-    "2026-11-10"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polresta Pekanbaru bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
