@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-13T20:36:16Z",
+ "diperbarui_utc": "2026-11-13T21:27:31Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
-  "anggota": 36,
+  "anggota": 35,
   "kekerasan": 3
  },
  "anggota_sudah_ditangani": 26,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 47,
+  "JALUR KHUSUS": 46,
   "TINDAK": 53,
   "PANTAU": 155,
-  "TERCATAT": 1127
+  "TERCATAT": 1126
  },
- "kasus_aktif": 1382,
+ "kasus_aktif": 1380,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 69
+   "kasus": 68
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 83
+   "kasus": 82
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -61,7 +61,7 @@
    "JALUR KHUSUS": 5,
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 16
+   "TERCATAT": 15
   },
   "35": {
    "nama": "Jawa Timur",
@@ -305,32 +305,32 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 5,
-   "sudah_ada": 899,
+   "relevan": 4,
+   "sudah_ada": 903,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 2,
-   "luar_negeri": 1,
-   "kasus_baru": 2,
-   "digabung": 3
+   "tidak_relevan": 0,
+   "bukan_kejadian": 1,
+   "luar_negeri": 0,
+   "kasus_baru": 0,
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 47,
+   "JALUR KHUSUS": 46,
    "TINDAK": 53,
    "PANTAU": 155,
-   "TERCATAT": 1127
+   "TERCATAT": 1126
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 255
+   "kasus": 254
   },
   "kabarkan": {
-   "tanggapan_terlihat": 671,
-   "kasus": 1382,
+   "tanggapan_terlihat": 670,
+   "kasus": 1380,
    "tanggapan_sejak_berita_pertama": 565,
-   "median_jeda_jam": 18.6,
-   "n_jeda": 106,
+   "median_jeda_jam": 18.1,
+   "n_jeda": 105,
    "melewati_batas": 132
   },
   "arsipkan": {
