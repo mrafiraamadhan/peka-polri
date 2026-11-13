@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-13T16:18:26Z",
+ "diperbarui_utc": "2026-11-13T17:09:41Z",
  "jendela_hari": 30,
- "hari_riwayat": 17,
+ "hari_riwayat": 18,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2848,
+ "kasus_tanpa_polda": 2851,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,11 +39,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 325,
+   "kasus": 326,
    "perlu": 109,
    "perlu_tanggap": 19,
    "persen_tanggap": 17.4,
-   "tanggap": 151,
+   "tanggap": 152,
    "jalur_khusus": 7,
    "melewati_batas": 63,
    "median_jeda_jam": 5.7,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     106
+     107
     ],
     [
      "darurat",
@@ -532,7 +532,7 @@
    "provinsi": [
     "63"
    ],
-   "kasus": 70,
+   "kasus": 71,
    "perlu": 21,
    "perlu_tanggap": 2,
    "persen_tanggap": 9.5,
@@ -552,7 +552,7 @@
     ],
     [
      "darurat",
-     17
+     18
     ]
    ]
   },
@@ -619,11 +619,11 @@
    "provinsi": [
     "74"
    ],
-   "kasus": 62,
+   "kasus": 64,
    "perlu": 18,
    "perlu_tanggap": 2,
    "persen_tanggap": 11.1,
-   "tanggap": 41,
+   "tanggap": 43,
    "jalur_khusus": 1,
    "melewati_batas": 12,
    "median_jeda_jam": 9.6,
@@ -631,11 +631,11 @@
    "topik_teratas": [
     [
      "narkoba",
-     20
+     21
     ],
     [
      "jalanan",
-     18
+     19
     ],
     [
      "darurat",
@@ -1293,6 +1293,26 @@
    "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3273",
+   "kabkota": "Kota Bandung",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polrestabes Bandung",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 4,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-04",
+    "2026-11-08",
+    "2026-11-12"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polrestabes Bandung bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1671",
    "kabkota": "Kota Palembang",
    "kode_prov": "16",
@@ -1311,26 +1331,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polrestabes Palembang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3273",
-   "kabkota": "Kota Bandung",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polrestabes Bandung",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 4,
-   "kasus": 10,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-04",
-    "2026-11-08",
-    "2026-11-12"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polrestabes Bandung bersama pemerintah daerah"
   },
   {
    "kode_kab": "1406",
