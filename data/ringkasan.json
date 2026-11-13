@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-13T19:44:58Z",
+ "diperbarui_utc": "2026-11-13T20:36:16Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 102
+   "kasus": 103
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -31,11 +31,11 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 109
+   "kasus": 108
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 304
+   "kasus": 303
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 322
+   "kasus": 323
   }
  },
  "provinsi": {
@@ -69,7 +69,7 @@
    "JALUR KHUSUS": 5,
    "TINDAK": 17,
    "PANTAU": 14,
-   "TERCATAT": 85
+   "TERCATAT": 86
   },
   "18": {
    "nama": "Lampung",
@@ -159,7 +159,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 16,
-   "TERCATAT": 37
+   "TERCATAT": 36
   },
   "51": {
    "nama": "Bali",
@@ -308,11 +308,11 @@
    "relevan": 5,
    "sudah_ada": 899,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 4,
-   "luar_negeri": 0,
-   "kasus_baru": 0,
-   "digabung": 5
+   "tidak_relevan": 1,
+   "bukan_kejadian": 2,
+   "luar_negeri": 1,
+   "kasus_baru": 2,
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 0,
@@ -326,15 +326,15 @@
    "kasus": 255
   },
   "kabarkan": {
-   "tanggapan_terlihat": 672,
+   "tanggapan_terlihat": 671,
    "kasus": 1382,
-   "tanggapan_sejak_berita_pertama": 566,
+   "tanggapan_sejak_berita_pertama": 565,
    "median_jeda_jam": 18.6,
    "n_jeda": 106,
    "melewati_batas": 132
   },
   "arsipkan": {
-   "baris": 7082,
+   "baris": 7084,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 18
