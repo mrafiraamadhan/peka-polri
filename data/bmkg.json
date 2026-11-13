@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-13T04:35:52Z",
+ "diperbarui_utc": "2026-11-13T05:27:09Z",
  "terbaru": {
-  "waktu_utc": "2026-11-12T19:14:40Z",
-  "magnitudo": 4.6,
+  "waktu_utc": "2026-11-13T04:49:34Z",
+  "magnitudo": 4.9,
   "kedalaman": "17 km",
-  "wilayah": "Pusat gempa berada di laut 32 km barat laut Pulau Panjang",
+  "wilayah": "Pusat gempa berada di laut 29 km Barat Laut PULAUPANJANG",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Kab. Sumbawa, III Kab. Sumbawa Barat, III Kab. Lombok Utara, III Kab. Lombok Timur, II Kota Mataram",
-  "koordinat": "-8.20,116.76",
+  "dirasakan": "IV Kab. Lombok Timur, III Kab. Lombok Tengah, III Kab. Lombok Barat, II-III Kota Mataram, II Kab. Sumbawa",
+  "koordinat": "-8.22,116.77",
   "prov": "Nusa Tenggara Barat",
   "kode_prov": "52"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-13T04:49:34Z",
+   "magnitudo": 4.9,
+   "kedalaman": "17 km",
+   "wilayah": "Pusat gempa berada di laut 29 km Barat Laut PULAUPANJANG",
+   "potensi": null,
+   "dirasakan": "IV Kab. Lombok Timur, III Kab. Lombok Tengah, III Kab. Lombok Barat, II-III Kota Mataram, II Kab. Sumbawa",
+   "koordinat": "-8.22,116.77",
+   "prov": "Nusa Tenggara Barat",
+   "kode_prov": "52"
+  },
   {
    "waktu_utc": "2026-11-12T19:14:40Z",
    "magnitudo": 4.6,
@@ -165,17 +176,6 @@
    "koordinat": "-4.01,122.69",
    "prov": "Sulawesi Tenggara",
    "kode_prov": "74"
-  },
-  {
-   "waktu_utc": "2026-11-07T10:05:52Z",
-   "magnitudo": 3.0,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 31 km utara Lombok Timur",
-   "potensi": null,
-   "dirasakan": "II Lombok Timur",
-   "koordinat": "-8.37,116.54",
-   "prov": "Nusa Tenggara Barat",
-   "kode_prov": "52"
   }
  ],
  "m5": [
