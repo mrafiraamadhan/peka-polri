@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-13T10:28:38Z",
+ "diperbarui_utc": "2026-11-13T11:19:58Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
-  "anggota": 39,
+  "anggota": 38,
   "kekerasan": 2
  },
- "anggota_sudah_ditangani": 27,
+ "anggota_sudah_ditangani": 26,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 49,
-  "TINDAK": 56,
-  "PANTAU": 166,
-  "TERCATAT": 1172
+  "JALUR KHUSUS": 48,
+  "TINDAK": 57,
+  "PANTAU": 158,
+  "TERCATAT": 1169
  },
- "kasus_aktif": 1444,
+ "kasus_aktif": 1433,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 72
+   "kasus": 70
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 109
+   "kasus": 107
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -31,11 +31,11 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 123
+   "kasus": 121
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 335
+   "kasus": 330
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 87
+   "kasus": 88
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 326
+   "kasus": 325
   }
  },
  "provinsi": {
@@ -74,16 +74,9 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 5,
-   "TINDAK": 19,
-   "PANTAU": 18,
-   "TERCATAT": 92
-  },
-  "81": {
-   "nama": "Maluku",
-   "polda": "Polda Maluku",
-   "JALUR KHUSUS": 1,
-   "PANTAU": 2,
-   "TERCATAT": 3
+   "TINDAK": 20,
+   "PANTAU": 17,
+   "TERCATAT": 91
   },
   "18": {
    "nama": "Lampung",
@@ -122,15 +115,15 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 4,
    "PANTAU": 7,
-   "TERCATAT": 25
+   "TERCATAT": 26
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 4,
-   "TINDAK": 6,
-   "PANTAU": 17,
-   "TERCATAT": 57
+   "TINDAK": 7,
+   "PANTAU": 16,
+   "TERCATAT": 56
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -144,7 +137,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 16
+   "TERCATAT": 15
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -152,14 +145,13 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 8,
-   "TERCATAT": 49
+   "TERCATAT": 46
   },
   "82": {
    "nama": "Maluku Utara",
    "polda": "Polda Maluku Utara",
    "JALUR KHUSUS": 1,
-   "PANTAU": 2,
-   "TERCATAT": 1
+   "PANTAU": 2
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -180,22 +172,22 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 14,
-   "TERCATAT": 40
+   "PANTAU": 7,
+   "TERCATAT": 47
   },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 18
+   "TERCATAT": 17
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
    "polda": "Polda Nusa Tenggara Barat",
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 21
+   "TERCATAT": 20
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -204,19 +196,19 @@
    "PANTAU": 7,
    "TERCATAT": 17
   },
-  "36": {
-   "nama": "Banten",
-   "polda": "Polda Banten",
-   "TINDAK": 2,
-   "PANTAU": 12,
-   "TERCATAT": 17
-  },
   "74": {
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "TINDAK": 1,
    "PANTAU": 2,
    "TERCATAT": 8
+  },
+  "36": {
+   "nama": "Banten",
+   "polda": "Polda Banten",
+   "TINDAK": 1,
+   "PANTAU": 12,
+   "TERCATAT": 17
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -254,20 +246,26 @@
   "15": {
    "nama": "Jambi",
    "polda": "Polda Jambi",
-   "PANTAU": 2,
+   "PANTAU": 3,
    "TERCATAT": 6
+  },
+  "81": {
+   "nama": "Maluku",
+   "polda": "Polda Maluku",
+   "PANTAU": 2,
+   "TERCATAT": 3
   },
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 3,
-   "TERCATAT": 38
+   "TERCATAT": 36
   },
   "62": {
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "PANTAU": 1,
-   "TERCATAT": 13
+   "TERCATAT": 14
   },
   "75": {
    "nama": "Gorontalo",
@@ -295,58 +293,55 @@
    "nama": "Kepulauan Bangka Belitung",
    "polda": "Polda Kepulauan Bangka Belitung",
    "TERCATAT": 6
+  },
+  "97": {
+   "nama": "Papua Pegunungan",
+   "polda": "Polda yang membawahi Papua Pegunungan",
+   "TERCATAT": 1
   }
  },
  "langkah": {
   "dengar": {
-   "artikel": 904,
-   "sumber": 3
+   "artikel": 908,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 41,
-   "sudah_ada": 846,
+   "relevan": 31,
+   "sudah_ada": 859,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 16,
-   "luar_negeri": 0,
-   "kasus_baru": 17,
-   "digabung": 24
+   "tidak_relevan": 5,
+   "bukan_kejadian": 12,
+   "luar_negeri": 1,
+   "kasus_baru": 13,
+   "digabung": 18
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 49,
-   "TINDAK": 56,
-   "PANTAU": 166,
-   "TERCATAT": 1172
+   "JALUR KHUSUS": 48,
+   "TINDAK": 57,
+   "PANTAU": 158,
+   "TERCATAT": 1169
   },
   "teruskan": {
    "polda": 32,
-   "kasus": 272
+   "kasus": 264
   },
   "kabarkan": {
-   "tanggapan_terlihat": 703,
-   "kasus": 1444,
-   "tanggapan_sejak_berita_pertama": 595,
+   "tanggapan_terlihat": 694,
+   "kasus": 1433,
+   "tanggapan_sejak_berita_pertama": 586,
    "median_jeda_jam": 18.6,
    "n_jeda": 108,
-   "melewati_batas": 150
+   "melewati_batas": 148
   },
   "arsipkan": {
-   "baris": 6968,
+   "baris": 6981,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 17
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "12",
-   "prov": "Sumatera Utara",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 5,
-   "rata": 2.24
-  },
   {
    "kode_prov": "36",
    "prov": "Banten",
@@ -356,7 +351,16 @@
    "rata": 2.06
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kemarin": 1,
+   "rata28": 9.7,
+   "rasio": 0.1,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 17,
  "gempa_darurat": [],
  "hoaks_terbaru": [
