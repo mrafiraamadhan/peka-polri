@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-13T18:01:15Z",
+ "diperbarui_utc": "2026-11-13T18:52:36Z",
  "jendela_hari": 30,
  "hari_riwayat": 18,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -155,11 +155,11 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 143,
+   "kasus": 144,
    "perlu": 72,
    "perlu_tanggap": 16,
    "persen_tanggap": 22.2,
-   "tanggap": 76,
+   "tanggap": 77,
    "jalur_khusus": 5,
    "melewati_batas": 51,
    "median_jeda_jam": 5.8,
@@ -167,7 +167,7 @@
    "topik_teratas": [
     [
      "konflik",
-     85
+     86
     ],
     [
      "jalanan",
@@ -561,11 +561,11 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 80,
+   "kasus": 81,
    "perlu": 20,
    "perlu_tanggap": 5,
    "persen_tanggap": 25.0,
-   "tanggap": 51,
+   "tanggap": 52,
    "jalur_khusus": 2,
    "melewati_batas": 15,
    "median_jeda_jam": 10.5,
@@ -573,7 +573,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     33
+     34
     ],
     [
      "jalanan",
@@ -2158,6 +2158,25 @@
    "penanggung_jawab": "Kasat Binmas Polres Indramayu bersama pemerintah daerah"
   },
   {
+   "kode_kab": "6202",
+   "kabkota": "Kabupaten Kotawaringin Timur",
+   "kode_prov": "62",
+   "provinsi": "Kalimantan Tengah",
+   "polda": "Polda Kalimantan Tengah",
+   "polres": "Polres Kotawaringin Timur",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 3,
+   "kasus": 8,
+   "tanggal": [
+    "2026-11-04",
+    "2026-11-08",
+    "2026-11-13"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Kotawaringin Timur bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "9105",
    "kabkota": "Kabupaten Manokwari",
    "kode_prov": "91",
@@ -2270,25 +2289,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1277",
-   "kabkota": "Kota Padangsidimpuan",
-   "kode_prov": "12",
-   "provinsi": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "polres": "Polres Padangsidimpuan",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 3,
-   "kasus": 8,
-   "tanggal": [
-    "2026-11-01",
-    "2026-11-04",
-    "2026-11-11"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Padangsidimpuan bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
