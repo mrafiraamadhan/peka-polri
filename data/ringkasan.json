@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-13T01:10:51Z",
+ "diperbarui_utc": "2026-11-13T02:02:05Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 50,
-  "TINDAK": 58,
-  "PANTAU": 169,
-  "TERCATAT": 1289
+  "TINDAK": 59,
+  "PANTAU": 168,
+  "TERCATAT": 1274
  },
- "kasus_aktif": 1566,
+ "kasus_aktif": 1551,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,15 +27,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 300
+   "kasus": 297
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 134
+   "kasus": 133
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 403
+   "kasus": 392
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 89
+   "kasus": 87
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 343
+   "kasus": 345
   }
  },
  "provinsi": {
@@ -60,14 +60,14 @@
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 3,
    "PANTAU": 5,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "35": {
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 5,
    "TINDAK": 19,
-   "PANTAU": 19,
+   "PANTAU": 18,
    "TERCATAT": 97
   },
   "81": {
@@ -83,7 +83,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
    "PANTAU": 7,
-   "TERCATAT": 39
+   "TERCATAT": 38
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -107,13 +107,13 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 4,
    "PANTAU": 7,
-   "TERCATAT": 27
+   "TERCATAT": 25
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 3,
-   "TINDAK": 7,
+   "TINDAK": 8,
    "PANTAU": 11,
    "TERCATAT": 64
   },
@@ -154,7 +154,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 8,
-   "TERCATAT": 57
+   "TERCATAT": 55
   },
   "82": {
    "nama": "Maluku Utara",
@@ -175,7 +175,7 @@
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "JALUR KHUSUS": 1,
-   "TERCATAT": 10
+   "TERCATAT": 9
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -190,14 +190,14 @@
    "polda": "Polda Bali",
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 22
+   "TERCATAT": 20
   },
   "36": {
    "nama": "Banten",
    "polda": "Polda Banten",
    "TINDAK": 3,
    "PANTAU": 5,
-   "TERCATAT": 25
+   "TERCATAT": 24
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -211,7 +211,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 1,
    "PANTAU": 6,
-   "TERCATAT": 46
+   "TERCATAT": 45
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -225,7 +225,7 @@
    "polda": "Polda Nusa Tenggara Timur",
    "TINDAK": 2,
    "PANTAU": 1,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -262,7 +262,7 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 4,
-   "TERCATAT": 40
+   "TERCATAT": 39
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -305,36 +305,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 19,
-   "sudah_ada": 871,
+   "relevan": 13,
+   "sudah_ada": 877,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 13,
-   "luar_negeri": 0,
-   "kasus_baru": 9,
-   "digabung": 10
+   "tidak_relevan": 5,
+   "bukan_kejadian": 8,
+   "luar_negeri": 1,
+   "kasus_baru": 5,
+   "digabung": 8
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 50,
-   "TINDAK": 58,
-   "PANTAU": 169,
-   "TERCATAT": 1289
+   "TINDAK": 59,
+   "PANTAU": 168,
+   "TERCATAT": 1274
   },
   "teruskan": {
    "polda": 33,
    "kasus": 277
   },
   "kabarkan": {
-   "tanggapan_terlihat": 771,
-   "kasus": 1566,
-   "tanggapan_sejak_berita_pertama": 666,
+   "tanggapan_terlihat": 757,
+   "kasus": 1551,
+   "tanggapan_sejak_berita_pertama": 652,
    "median_jeda_jam": 18.1,
    "n_jeda": 105,
-   "melewati_batas": 143
+   "melewati_batas": 146
   },
   "arsipkan": {
-   "baris": 6794,
+   "baris": 6799,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 17
