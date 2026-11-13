@@ -1,45 +1,45 @@
 {
- "diperbarui_utc": "2026-11-13T02:53:20Z",
+ "diperbarui_utc": "2026-11-13T03:44:32Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
   "anggota": 40,
   "kekerasan": 1
  },
- "anggota_sudah_ditangani": 29,
+ "anggota_sudah_ditangani": 30,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 50,
   "TINDAK": 60,
-  "PANTAU": 166,
-  "TERCATAT": 1258
+  "PANTAU": 164,
+  "TERCATAT": 1247
  },
- "kasus_aktif": 1534,
+ "kasus_aktif": 1521,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 73
+   "kasus": 75
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 111
+   "kasus": 110
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 293
+   "kasus": 291
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 132
+   "kasus": 130
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 378
+   "kasus": 370
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 113
+   "kasus": 111
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -67,14 +67,14 @@
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 5,
    "TINDAK": 19,
-   "PANTAU": 18,
-   "TERCATAT": 94
+   "PANTAU": 17,
+   "TERCATAT": 95
   },
   "81": {
    "nama": "Maluku",
    "polda": "Polda Maluku",
    "JALUR KHUSUS": 2,
-   "PANTAU": 3,
+   "PANTAU": 2,
    "TERCATAT": 3
   },
   "18": {
@@ -93,13 +93,20 @@
    "PANTAU": 23,
    "TERCATAT": 46
   },
+  "65": {
+   "nama": "Kalimantan Utara",
+   "polda": "Polda Kalimantan Utara",
+   "JALUR KHUSUS": 2,
+   "TINDAK": 1,
+   "TERCATAT": 1
+  },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 12,
-   "TERCATAT": 27
+   "TERCATAT": 26
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -114,8 +121,8 @@
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 3,
    "TINDAK": 8,
-   "PANTAU": 11,
-   "TERCATAT": 62
+   "PANTAU": 12,
+   "TERCATAT": 61
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -124,28 +131,20 @@
    "PANTAU": 1,
    "TERCATAT": 2
   },
-  "65": {
-   "nama": "Kalimantan Utara",
-   "polda": "Polda Kalimantan Utara",
-   "JALUR KHUSUS": 2,
-   "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 1
-  },
   "61": {
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 10,
-   "TERCATAT": 20
+   "TERCATAT": 19
   },
   "64": {
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 18
   },
   "33": {
@@ -153,8 +152,8 @@
    "polda": "Polda Jawa Tengah",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 8,
-   "TERCATAT": 54
+   "PANTAU": 7,
+   "TERCATAT": 53
   },
   "82": {
    "nama": "Maluku Utara",
@@ -169,13 +168,13 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 14
+   "TERCATAT": 12
   },
   "17": {
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "JALUR KHUSUS": 1,
-   "TERCATAT": 9
+   "TERCATAT": 8
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -211,7 +210,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 1,
    "PANTAU": 6,
-   "TERCATAT": 45
+   "TERCATAT": 46
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -244,7 +243,7 @@
    "nama": "Kalimantan Selatan",
    "polda": "Polda Kalimantan Selatan",
    "PANTAU": 5,
-   "TERCATAT": 13
+   "TERCATAT": 12
   },
   "15": {
    "nama": "Jambi",
@@ -256,13 +255,13 @@
    "nama": "Papua",
    "polda": "Polda Papua",
    "PANTAU": 2,
-   "TERCATAT": 8
+   "TERCATAT": 7
   },
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 3,
-   "TERCATAT": 39
+   "TERCATAT": 36
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -274,13 +273,13 @@
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "PANTAU": 1,
-   "TERCATAT": 13
+   "TERCATAT": 12
   },
   "75": {
    "nama": "Gorontalo",
    "polda": "Polda Gorontalo",
    "PANTAU": 1,
-   "TERCATAT": 5
+   "TERCATAT": 4
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -305,36 +304,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 22,
-   "sudah_ada": 863,
+   "relevan": 33,
+   "sudah_ada": 854,
    "hoaks": 0,
-   "tidak_relevan": 5,
-   "bukan_kejadian": 11,
-   "luar_negeri": 2,
-   "kasus_baru": 9,
-   "digabung": 13
+   "tidak_relevan": 6,
+   "bukan_kejadian": 10,
+   "luar_negeri": 0,
+   "kasus_baru": 13,
+   "digabung": 20
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 50,
    "TINDAK": 60,
-   "PANTAU": 166,
-   "TERCATAT": 1258
+   "PANTAU": 164,
+   "TERCATAT": 1247
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 276
+   "kasus": 274
   },
   "kabarkan": {
-   "tanggapan_terlihat": 747,
-   "kasus": 1534,
-   "tanggapan_sejak_berita_pertama": 641,
+   "tanggapan_terlihat": 736,
+   "kasus": 1521,
+   "tanggapan_sejak_berita_pertama": 630,
    "median_jeda_jam": 18.1,
    "n_jeda": 106,
    "melewati_batas": 145
   },
   "arsipkan": {
-   "baris": 6808,
+   "baris": 6821,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 17
@@ -355,6 +354,16 @@
  "gempa_darurat": [],
  "hoaks_terbaru": [
   {
+   "judul": "[SALAH] Yenny Wahid Akui Bergabung PSI",
+   "url": "https://turnbackhoax.id/articles/37453-salah-yenny-wahid-akui-bergabung-psi",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Prabowo Bakal Mengirim Perokok untuk Menghisap Asap Karhutla",
+   "url": "https://turnbackhoax.id/articles/37452-salah-prabowo-bakal-mengirim-perokok-untuk-menghisap-asap-karhutla",
+   "terbit": null
+  },
+  {
    "judul": "[SALAH] Dokumentasi Kanye West Mampir ke Solo Bertemu Jokowi Sebelum Pulang ke Amerika",
    "url": "https://turnbackhoax.id/articles/37450-salah-dokumentasi-kanye-west-mampir-ke-solo-bertemu-jokowi-sebelum-pulang-ke-amerika",
    "terbit": null
@@ -372,16 +381,6 @@
   {
    "judul": "[SALAH] Titiek Soeharto Setuju Jika Program MBG Diuangkan",
    "url": "https://turnbackhoax.id/articles/37436-salah-titiek-soeharto-setuju-jika-program-mbg-diuangkan",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Ketua Umum Partai Golkar, Bahlil Lahadalia Terlibat Penyadapan Ilegal",
-   "url": "https://turnbackhoax.id/articles/37431-salah-ketua-umum-partai-golkar-bahlil-lahadalia-terlibat-penyadapan-ilegal",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Video Banjir Bandang yang Menerjang Kota Padang, Sumatera Barat Pada 10 Oktober 2026",
-   "url": "https://turnbackhoax.id/articles/37430-salah-video-banjir-bandang-yang-menerjang-kota-padang-sumatera-barat-pada-10-oktober-2026",
    "terbit": null
   }
  ]
