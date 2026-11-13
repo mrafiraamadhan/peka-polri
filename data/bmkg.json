@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-13T07:54:21Z",
+ "diperbarui_utc": "2026-11-13T08:46:08Z",
  "terbaru": {
-  "waktu_utc": "2026-11-13T04:49:34Z",
-  "magnitudo": 4.9,
-  "kedalaman": "17 km",
-  "wilayah": "Pusat gempa berada di laut 29 km Barat Laut PULAUPANJANG",
+  "waktu_utc": "2026-11-13T07:31:39Z",
+  "magnitudo": 4.1,
+  "kedalaman": "24 km",
+  "wilayah": "Pusat gempa berada di laut 24 km selatan Enggano",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "IV Kab. Lombok Timur, III Kab. Lombok Tengah, III Kab. Lombok Barat, II-III Kota Mataram, II Kab. Sumbawa",
-  "koordinat": "-8.22,116.77",
-  "prov": "Nusa Tenggara Barat",
-  "kode_prov": "52"
+  "dirasakan": "II - III Enggano",
+  "koordinat": "-5.56,102.24",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-13T07:31:39Z",
+   "magnitudo": 4.1,
+   "kedalaman": "24 km",
+   "wilayah": "Pusat gempa berada di laut 24 km selatan Enggano",
+   "potensi": null,
+   "dirasakan": "II - III Enggano",
+   "koordinat": "-5.56,102.24",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-13T04:49:34Z",
    "magnitudo": 4.9,
@@ -165,17 +176,6 @@
    "koordinat": "1.06,127.47",
    "prov": "Maluku Utara",
    "kode_prov": "82"
-  },
-  {
-   "waktu_utc": "2026-11-07T18:54:12Z",
-   "magnitudo": 3.3,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di darat 20 km timur Kendari",
-   "potensi": null,
-   "dirasakan": "",
-   "koordinat": "-4.01,122.69",
-   "prov": "Sulawesi Tenggara",
-   "kode_prov": "74"
   }
  ],
  "m5": [
