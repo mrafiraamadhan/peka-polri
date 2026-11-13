@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-13T18:52:36Z",
+ "diperbarui_utc": "2026-11-13T19:44:58Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
@@ -302,16 +302,16 @@
  "langkah": {
   "dengar": {
    "artikel": 908,
-   "sumber": 4
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 896,
+   "relevan": 5,
+   "sudah_ada": 899,
    "hoaks": 0,
-   "tidak_relevan": 1,
+   "tidak_relevan": 0,
    "bukan_kejadian": 4,
    "luar_negeri": 0,
-   "kasus_baru": 2,
+   "kasus_baru": 0,
    "digabung": 5
   },
   "timbang": {
@@ -366,32 +366,7 @@
    "rata": 0.72
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "layanan",
-   "nama": "Layanan kepolisian",
-   "kemarin": 13,
-   "rata28": 3.2,
-   "rasio": 4.04,
-   "lonjakan": true
-  },
-  {
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kemarin": 4,
-   "rata28": 2.0,
-   "rasio": 2.04,
-   "lonjakan": false
-  },
-  {
-   "topik": "anggota",
-   "nama": "Perilaku anggota",
-   "kemarin": 1,
-   "rata28": 1.5,
-   "rasio": 0.68,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 18,
  "gempa_darurat": [],
  "hoaks_terbaru": [
