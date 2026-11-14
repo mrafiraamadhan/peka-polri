@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-14T09:11:15Z",
+ "diperbarui_utc": "2026-11-14T10:03:32Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-14T09:11:44Z",
+   "dicek_utc": "2026-11-14T10:04:03Z",
    "ok": true,
    "n": 906,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-14T09:12:26Z",
+   "dicek_utc": "2026-11-14T10:04:45Z",
    "ok": false,
    "n": 0,
    "pesan": "502 Server Error: Bad Gateway for url: https://turnbackhoax.id/feed",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-14T09:12:26Z",
+   "dicek_utc": "2026-11-14T10:04:46Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-14T09:13:07Z",
+   "dicek_utc": "2026-11-14T10:05:58Z",
    "ok": true,
    "n": 9,
-   "pesan": "1 dari 8 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "2 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "09:11:15 PEKA mulai 2026-11-14T09:11:15Z ",
-  "09:11:44 dengar berita: 906 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "09:13:07 dengar GDELT: 1/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "09:13:07 pilah: {'masuk': 906, 'sudah_ada': 850, 'bukan_kejadian': 12, 'luar_negeri': 1, 'hoaks': 1, 'tidak_relevan': 5, 'gabung': 27, 'kasus_baru': 10, 'relevan': 37}",
-  "09:13:07 papan Polda: 38 Polda berkasus | titik rawan: 215"
+  "10:03:32 PEKA mulai 2026-11-14T10:03:32Z ",
+  "10:04:03 dengar berita: 906 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "10:05:58 dengar GDELT: 2/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "10:05:58 pilah: {'masuk': 906, 'sudah_ada': 871, 'bukan_kejadian': 9, 'luar_negeri': 1, 'tidak_relevan': 1, 'kasus_baru': 12, 'gabung': 12, 'relevan': 24}",
+  "10:05:58 papan Polda: 38 Polda berkasus | titik rawan: 218"
  ]
 }
