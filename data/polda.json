@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-13T23:27:18Z",
+ "diperbarui_utc": "2026-11-14T00:18:41Z",
  "jendela_hari": 30,
  "hari_riwayat": 18,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2860,
+ "kasus_tanpa_polda": 2863,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -68,10 +68,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 327,
-   "perlu": 109,
+   "kasus": 328,
+   "perlu": 110,
    "perlu_tanggap": 19,
-   "persen_tanggap": 17.4,
+   "persen_tanggap": 17.3,
    "tanggap": 152,
    "jalur_khusus": 7,
    "melewati_batas": 63,
@@ -88,7 +88,7 @@
     ],
     [
      "narkoba",
-     35
+     36
     ]
    ]
   },
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 271,
-   "perlu": 86,
+   "kasus": 272,
+   "perlu": 87,
    "perlu_tanggap": 16,
-   "persen_tanggap": 18.6,
+   "persen_tanggap": 18.4,
    "tanggap": 141,
    "jalur_khusus": 11,
    "melewati_batas": 49,
@@ -109,7 +109,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     89
+     90
     ],
     [
      "darurat",
@@ -155,10 +155,10 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 257,
-   "perlu": 76,
+   "kasus": 258,
+   "perlu": 77,
    "perlu_tanggap": 17,
-   "persen_tanggap": 22.4,
+   "persen_tanggap": 22.1,
    "tanggap": 173,
    "jalur_khusus": 3,
    "melewati_batas": 46,
@@ -271,11 +271,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 145,
+   "kasus": 146,
    "perlu": 44,
    "perlu_tanggap": 8,
    "persen_tanggap": 18.2,
-   "tanggap": 97,
+   "tanggap": 98,
    "jalur_khusus": 11,
    "melewati_batas": 22,
    "median_jeda_jam": 9.8,
@@ -283,7 +283,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     57
+     58
     ],
     [
      "narkoba",
@@ -505,13 +505,13 @@
    ],
    "kasus": 59,
    "perlu": 22,
-   "perlu_tanggap": 5,
-   "persen_tanggap": 22.7,
-   "tanggap": 34,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 27.3,
+   "tanggap": 35,
    "jalur_khusus": 3,
    "melewati_batas": 11,
-   "median_jeda_jam": 5.4,
-   "n_jeda": 5,
+   "median_jeda_jam": 7.4,
+   "n_jeda": 6,
    "topik_teratas": [
     [
      "jalanan",
@@ -677,11 +677,11 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 74,
+   "kasus": 75,
    "perlu": 16,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 49,
+   "tanggap": 50,
    "jalur_khusus": 1,
    "melewati_batas": 15,
    "median_jeda_jam": null,
@@ -689,7 +689,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     21
+     22
     ],
     [
      "jalanan",
@@ -1152,6 +1152,27 @@
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1671",
+   "kabkota": "Kota Palembang",
+   "kode_prov": "16",
+   "provinsi": "Sumatera Selatan",
+   "polda": "Polda Sumatera Selatan",
+   "polres": "Polrestabes Palembang",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 5,
+   "kasus": 12,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-01",
+    "2026-11-06",
+    "2026-11-10",
+    "2026-11-14"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polrestabes Palembang bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -1182,7 +1203,7 @@
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "kejadian": 4,
-   "kasus": 42,
+   "kasus": 43,
    "tanggal": [
     "2026-10-28",
     "2026-11-03",
@@ -1311,26 +1332,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polrestabes Bandung bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1671",
-   "kabkota": "Kota Palembang",
-   "kode_prov": "16",
-   "provinsi": "Sumatera Selatan",
-   "polda": "Polda Sumatera Selatan",
-   "polres": "Polrestabes Palembang",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 4,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-01",
-    "2026-11-06",
-    "2026-11-10"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polrestabes Palembang bersama pemerintah daerah"
   },
   {
    "kode_kab": "3276",
