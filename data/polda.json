@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-14T17:56:02Z",
+ "diperbarui_utc": "2026-11-14T18:47:52Z",
  "jendela_hari": 30,
  "hari_riwayat": 19,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2949,
+ "kasus_tanpa_polda": 2950,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -1110,6 +1110,27 @@
  ],
  "titik_rawan": [
   {
+   "kode_kab": "3471",
+   "kabkota": "Kota Yogyakarta",
+   "kode_prov": "34",
+   "provinsi": "DI Yogyakarta",
+   "polda": "Polda DI Yogyakarta",
+   "polres": "Polresta Yogyakarta",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 5,
+   "kasus": 44,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-10",
+    "2026-11-14"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1275",
    "kabkota": "Kota Medan",
    "kode_prov": "12",
@@ -1213,26 +1234,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3471",
-   "kabkota": "Kota Yogyakarta",
-   "kode_prov": "34",
-   "provinsi": "DI Yogyakarta",
-   "polda": "Polda DI Yogyakarta",
-   "polres": "Polresta Yogyakarta",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 4,
-   "kasus": 43,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-10"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
   },
   {
    "kode_kab": "3508",
