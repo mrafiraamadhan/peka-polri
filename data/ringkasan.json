@@ -1,8 +1,8 @@
 {
- "diperbarui_utc": "2026-11-14T20:31:48Z",
+ "diperbarui_utc": "2026-11-14T21:24:12Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 4,
+  "perkara": 5,
   "anggota": 26,
   "kekerasan": 3
  },
@@ -10,10 +10,10 @@
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 33,
+  "JALUR KHUSUS": 34,
   "TINDAK": 47,
   "PANTAU": 132,
-  "TERCATAT": 927
+  "TERCATAT": 926
  },
  "kasus_aktif": 1139,
  "topik": {
@@ -31,11 +31,11 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 82
+   "kasus": 81
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 243
+   "kasus": 244
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -137,7 +137,7 @@
    "polda": "Polda Bali",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 13
+   "TERCATAT": 12
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -300,36 +300,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 4,
-   "sudah_ada": 901,
+   "relevan": 3,
+   "sudah_ada": 900,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 2,
+   "bukan_kejadian": 4,
    "luar_negeri": 0,
    "kasus_baru": 2,
-   "digabung": 2
+   "digabung": 1
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 33,
+   "JALUR KHUSUS": 34,
    "TINDAK": 47,
    "PANTAU": 132,
-   "TERCATAT": 927
+   "TERCATAT": 926
   },
   "teruskan": {
    "polda": 30,
-   "kasus": 212
+   "kasus": 213
   },
   "kabarkan": {
-   "tanggapan_terlihat": 534,
+   "tanggapan_terlihat": 533,
    "kasus": 1139,
-   "tanggapan_sejak_berita_pertama": 457,
+   "tanggapan_sejak_berita_pertama": 456,
    "median_jeda_jam": 18.1,
    "n_jeda": 77,
    "melewati_batas": 98
   },
   "arsipkan": {
-   "baris": 7366,
+   "baris": 7368,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 19
@@ -347,11 +347,19 @@
  ],
  "lonjakan_nasional": [
   {
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kemarin": 3,
-   "rata28": 12.9,
-   "rasio": 0.23,
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kemarin": 1,
+   "rata28": 9.6,
+   "rasio": 0.1,
+   "lonjakan": false
+  },
+  {
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kemarin": 0,
+   "rata28": 0.0,
+   "rasio": 0.0,
    "lonjakan": false
   }
  ],
