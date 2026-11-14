@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-14T18:47:52Z",
+ "diperbarui_utc": "2026-11-14T19:39:45Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -122,7 +122,7 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 1,
    "PANTAU": 7,
-   "TERCATAT": 39
+   "TERCATAT": 40
   },
   "32": {
    "nama": "Jawa Barat",
@@ -206,7 +206,7 @@
    "polda": "Polda Jambi",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 7
+   "TERCATAT": 6
   },
   "18": {
    "nama": "Lampung",
@@ -300,14 +300,14 @@
    "sumber": 2
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 889,
+   "relevan": 5,
+   "sudah_ada": 900,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 8,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 2,
    "luar_negeri": 0,
-   "kasus_baru": 1,
-   "digabung": 8
+   "kasus_baru": 2,
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 0,
@@ -321,15 +321,15 @@
    "kasus": 219
   },
   "kabarkan": {
-   "tanggapan_terlihat": 536,
+   "tanggapan_terlihat": 535,
    "kasus": 1140,
-   "tanggapan_sejak_berita_pertama": 459,
+   "tanggapan_sejak_berita_pertama": 458,
    "median_jeda_jam": 18.1,
    "n_jeda": 77,
    "melewati_batas": 100
   },
   "arsipkan": {
-   "baris": 7362,
+   "baris": 7364,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 19
