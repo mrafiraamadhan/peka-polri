@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-14T21:27:54Z",
+ "diperbarui_utc": "2026-11-14T22:19:56Z",
  "terbaru": {
-  "waktu_utc": "2026-11-13T07:31:39Z",
-  "magnitudo": 4.1,
-  "kedalaman": "24 km",
-  "wilayah": "Pusat gempa berada di laut 24 km selatan Enggano",
+  "waktu_utc": "2026-11-14T21:24:20Z",
+  "magnitudo": 4.5,
+  "kedalaman": "2 km",
+  "wilayah": "Pusat gempa berada di laut 56 km utara Ruteng, Manggarai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Enggano",
-  "koordinat": "-5.56,102.24",
-  "prov": null,
-  "kode_prov": null
+  "dirasakan": "II Manggarai",
+  "koordinat": "-8.10,120.49",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-14T21:24:20Z",
+   "magnitudo": 4.5,
+   "kedalaman": "2 km",
+   "wilayah": "Pusat gempa berada di laut 56 km utara Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "II Manggarai",
+   "koordinat": "-8.10,120.49",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-13T07:31:39Z",
    "magnitudo": 4.1,
@@ -165,17 +176,6 @@
    "koordinat": "-2.93,130.44",
    "prov": "Maluku",
    "kode_prov": "81"
-  },
-  {
-   "waktu_utc": "2026-11-09T00:44:58Z",
-   "magnitudo": 2.5,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di laut 1 km timur Jailolo",
-   "potensi": null,
-   "dirasakan": "II Kab. Halmahera Barat",
-   "koordinat": "1.06,127.47",
-   "prov": "Maluku Utara",
-   "kode_prov": "82"
   }
  ],
  "m5": [

@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-14T21:27:54Z",
+ "diperbarui_utc": "2026-11-14T22:19:56Z",
  "jendela_hari": 30,
  "hari_riwayat": 19,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2955,
+ "kasus_tanpa_polda": 2957,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -68,11 +68,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 291,
+   "kasus": 292,
    "perlu": 113,
    "perlu_tanggap": 27,
    "persen_tanggap": 23.9,
-   "tanggap": 144,
+   "tanggap": 145,
    "jalur_khusus": 4,
    "melewati_batas": 67,
    "median_jeda_jam": 4.1,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     62
+     63
     ],
     [
      "narkoba",
@@ -132,7 +132,7 @@
    "persen_tanggap": 22.6,
    "tanggap": 82,
    "jalur_khusus": 5,
-   "melewati_batas": 58,
+   "melewati_batas": 59,
    "median_jeda_jam": 7.7,
    "n_jeda": 19,
    "topik_teratas": [
@@ -161,7 +161,7 @@
    "persen_tanggap": 23.6,
    "tanggap": 181,
    "jalur_khusus": 3,
-   "melewati_batas": 45,
+   "melewati_batas": 46,
    "median_jeda_jam": 9.5,
    "n_jeda": 17,
    "topik_teratas": [
@@ -329,7 +329,7 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 194,
+   "kasus": 195,
    "perlu": 35,
    "perlu_tanggap": 8,
    "persen_tanggap": 22.9,
@@ -341,7 +341,7 @@
    "topik_teratas": [
     [
      "darurat",
-     93
+     94
     ],
     [
      "narkoba",
@@ -1194,6 +1194,27 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Palembang bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1113",
+   "kabkota": "Kabupaten Gayo Lues",
+   "kode_prov": "11",
+   "provinsi": "Aceh",
+   "polda": "Polda Aceh",
+   "polres": "Polres Gayo Lues",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 12,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-09",
+    "2026-11-14"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -1374,26 +1395,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1113",
-   "kabkota": "Kabupaten Gayo Lues",
-   "kode_prov": "11",
-   "provinsi": "Aceh",
-   "polda": "Polda Aceh",
-   "polres": "Polres Gayo Lues",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
   },
   {
    "kode_kab": "3273",
