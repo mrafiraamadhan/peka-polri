@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-14T02:53:55Z",
+ "diperbarui_utc": "2026-11-14T03:11:58Z",
  "jendela_hari": 30,
  "hari_riwayat": 18,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 2872,
+ "kasus_tanpa_polda": 2875,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -132,7 +132,7 @@
    "persen_tanggap": 22.8,
    "tanggap": 81,
    "jalur_khusus": 5,
-   "melewati_batas": 52,
+   "melewati_batas": 53,
    "median_jeda_jam": 6.8,
    "n_jeda": 18,
    "topik_teratas": [
@@ -155,13 +155,13 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 259,
-   "perlu": 68,
+   "kasus": 260,
+   "perlu": 78,
    "perlu_tanggap": 17,
-   "persen_tanggap": 25.0,
+   "persen_tanggap": 21.8,
    "tanggap": 174,
    "jalur_khusus": 3,
-   "melewati_batas": 43,
+   "melewati_batas": 48,
    "median_jeda_jam": 9.5,
    "n_jeda": 17,
    "topik_teratas": [
@@ -175,7 +175,7 @@
     ],
     [
      "darurat",
-     44
+     45
     ]
    ]
   },
@@ -615,6 +615,35 @@
    ]
   },
   {
+   "polda": "Polda Jambi",
+   "provinsi": [
+    "15"
+   ],
+   "kasus": 55,
+   "perlu": 20,
+   "perlu_tanggap": 1,
+   "persen_tanggap": 5.0,
+   "tanggap": 30,
+   "jalur_khusus": 2,
+   "melewati_batas": 13,
+   "median_jeda_jam": 41.0,
+   "n_jeda": 1,
+   "topik_teratas": [
+    [
+     "jalanan",
+     24
+    ],
+    [
+     "narkoba",
+     13
+    ],
+    [
+     "darurat",
+     8
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kepulauan Bangka Belitung",
    "provinsi": [
     "19"
@@ -640,35 +669,6 @@
     [
      "jalanan",
      12
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Jambi",
-   "provinsi": [
-    "15"
-   ],
-   "kasus": 54,
-   "perlu": 19,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 5.3,
-   "tanggap": 30,
-   "jalur_khusus": 2,
-   "melewati_batas": 13,
-   "median_jeda_jam": 41.0,
-   "n_jeda": 1,
-   "topik_teratas": [
-    [
-     "jalanan",
-     23
-    ],
-    [
-     "narkoba",
-     13
-    ],
-    [
-     "darurat",
-     8
     ]
    ]
   },
