@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-14T21:24:12Z",
+ "diperbarui_utc": "2026-11-14T21:27:54Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 5,
@@ -296,18 +296,18 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 907,
-   "sumber": 3
+   "artikel": 908,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 3,
-   "sudah_ada": 900,
+   "relevan": 0,
+   "sudah_ada": 908,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 4,
+   "bukan_kejadian": 0,
    "luar_negeri": 0,
-   "kasus_baru": 2,
-   "digabung": 1
+   "kasus_baru": 0,
+   "digabung": 0
   },
   "timbang": {
    "DARURAT": 0,
@@ -345,24 +345,7 @@
    "rata": 1.95
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kemarin": 1,
-   "rata28": 9.6,
-   "rasio": 0.1,
-   "lonjakan": false
-  },
-  {
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kemarin": 0,
-   "rata28": 0.0,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 19,
  "gempa_darurat": [],
  "hoaks_terbaru": []
