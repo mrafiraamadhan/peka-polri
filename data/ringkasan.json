@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-15T21:26:36Z",
+ "diperbarui_utc": "2026-11-15T21:46:22Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
-  "anggota": 23,
+  "anggota": 22,
   "kekerasan": 3
  },
  "anggota_sudah_ditangani": 21,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 2,
-  "JALUR KHUSUS": 30,
-  "TINDAK": 58,
-  "PANTAU": 164,
-  "TERCATAT": 849
+  "JALUR KHUSUS": 29,
+  "TINDAK": 57,
+  "PANTAU": 163,
+  "TERCATAT": 852
  },
  "kasus_aktif": 1103,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 47
+   "kasus": 46
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 59
+   "kasus": 58
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -39,7 +39,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 103
+   "kasus": 104
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 289
+   "kasus": 290
   }
  },
  "provinsi": {
@@ -110,14 +110,6 @@
    "PANTAU": 1,
    "TERCATAT": 10
   },
-  "12": {
-   "nama": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 2,
-   "PANTAU": 6,
-   "TERCATAT": 34
-  },
   "71": {
    "nama": "Sulawesi Utara",
    "polda": "Polda Sulawesi Utara",
@@ -156,6 +148,13 @@
    "PANTAU": 2,
    "TERCATAT": 17
   },
+  "31": {
+   "nama": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "TINDAK": 2,
+   "PANTAU": 6,
+   "TERCATAT": 22
+  },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
@@ -184,13 +183,6 @@
    "PANTAU": 2,
    "TERCATAT": 14
   },
-  "31": {
-   "nama": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "TINDAK": 3,
-   "PANTAU": 6,
-   "TERCATAT": 21
-  },
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
@@ -205,6 +197,13 @@
    "PANTAU": 1,
    "TERCATAT": 19
   },
+  "12": {
+   "nama": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "TINDAK": 2,
+   "PANTAU": 6,
+   "TERCATAT": 34
+  },
   "81": {
    "nama": "Maluku",
    "polda": "Polda Maluku",
@@ -216,7 +215,7 @@
    "polda": "Polda Sulawesi Barat",
    "TINDAK": 1,
    "PANTAU": 1,
-   "TERCATAT": 2
+   "TERCATAT": 1
   },
   "18": {
    "nama": "Lampung",
@@ -251,12 +250,6 @@
    "PANTAU": 3,
    "TERCATAT": 9
   },
-  "72": {
-   "nama": "Sulawesi Tengah",
-   "polda": "Polda Sulawesi Tengah",
-   "PANTAU": 1,
-   "TERCATAT": 9
-  },
   "63": {
    "nama": "Kalimantan Selatan",
    "polda": "Polda Kalimantan Selatan",
@@ -281,6 +274,11 @@
    "PANTAU": 1,
    "TERCATAT": 4
   },
+  "72": {
+   "nama": "Sulawesi Tengah",
+   "polda": "Polda Sulawesi Tengah",
+   "TERCATAT": 9
+  },
   "97": {
    "nama": "Papua Pegunungan",
    "polda": "Polda yang membawahi Papua Pegunungan",
@@ -304,40 +302,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 896,
+   "artikel": 895,
    "sumber": 2
   },
   "pilah": {
-   "relevan": 3,
-   "sudah_ada": 889,
+   "relevan": 13,
+   "sudah_ada": 881,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 3,
-   "luar_negeri": 1,
-   "kasus_baru": 1,
-   "digabung": 2
+   "tidak_relevan": 1,
+   "bukan_kejadian": 0,
+   "luar_negeri": 0,
+   "kasus_baru": 4,
+   "digabung": 9
   },
   "timbang": {
    "DARURAT": 2,
-   "JALUR KHUSUS": 30,
-   "TINDAK": 58,
-   "PANTAU": 164,
-   "TERCATAT": 849
+   "JALUR KHUSUS": 29,
+   "TINDAK": 57,
+   "PANTAU": 163,
+   "TERCATAT": 852
   },
   "teruskan": {
-   "polda": 32,
-   "kasus": 254
+   "polda": 31,
+   "kasus": 251
   },
   "kabarkan": {
-   "tanggapan_terlihat": 489,
+   "tanggapan_terlihat": 490,
    "kasus": 1103,
    "tanggapan_sejak_berita_pertama": 417,
-   "median_jeda_jam": 17.8,
-   "n_jeda": 72,
-   "melewati_batas": 120
+   "median_jeda_jam": 17.6,
+   "n_jeda": 73,
+   "melewati_batas": 119
   },
   "arsipkan": {
-   "baris": 7697,
+   "baris": 7701,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 20
@@ -357,7 +355,7 @@
    "prov": "Tanpa lokasi",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "hari_ini": 21,
+   "hari_ini": 22,
    "rata": 9.25
   },
   {
