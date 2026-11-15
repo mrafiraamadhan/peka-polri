@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-15T00:04:21Z",
+ "diperbarui_utc": "2026-11-15T00:56:16Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -9,13 +9,13 @@
  "anggota_sudah_ditangani": 23,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
+  "DARURAT": 2,
   "JALUR KHUSUS": 32,
-  "TINDAK": 47,
-  "PANTAU": 130,
-  "TERCATAT": 913
+  "TINDAK": 49,
+  "PANTAU": 124,
+  "TERCATAT": 903
  },
- "kasus_aktif": 1123,
+ "kasus_aktif": 1110,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,23 +23,23 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 73
+   "kasus": 72
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 219
+   "kasus": 218
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 78
+   "kasus": 75
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 242
+   "kasus": 239
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 89
+   "kasus": 88
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 295
+   "kasus": 291
   }
  },
  "provinsi": {
@@ -61,7 +61,14 @@
    "DARURAT": 1,
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 14
+   "TERCATAT": 13
+  },
+  "11": {
+   "nama": "Aceh",
+   "polda": "Polda Aceh",
+   "DARURAT": 1,
+   "PANTAU": 3,
+   "TERCATAT": 30
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -97,9 +104,9 @@
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "JALUR KHUSUS": 2,
-   "TINDAK": 1,
-   "PANTAU": 18,
-   "TERCATAT": 27
+   "TINDAK": 2,
+   "PANTAU": 16,
+   "TERCATAT": 26
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -137,9 +144,9 @@
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
-   "TINDAK": 5,
-   "PANTAU": 15,
-   "TERCATAT": 47
+   "TINDAK": 6,
+   "PANTAU": 14,
+   "TERCATAT": 46
   },
   "51": {
    "nama": "Bali",
@@ -159,7 +166,7 @@
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
    "TINDAK": 1,
-   "PANTAU": 4,
+   "PANTAU": 3,
    "TERCATAT": 17
   },
   "53": {
@@ -173,8 +180,8 @@
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "TINDAK": 5,
-   "PANTAU": 7,
-   "TERCATAT": 27
+   "PANTAU": 6,
+   "TERCATAT": 28
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -188,7 +195,7 @@
    "polda": "Polda Sulawesi Barat",
    "TINDAK": 1,
    "PANTAU": 1,
-   "TERCATAT": 5
+   "TERCATAT": 4
   },
   "94": {
    "nama": "Papua",
@@ -214,14 +221,14 @@
    "nama": "Lampung",
    "polda": "Polda Lampung",
    "TINDAK": 1,
-   "PANTAU": 3,
+   "PANTAU": 2,
    "TERCATAT": 25
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "PANTAU": 7,
-   "TERCATAT": 32
+   "TERCATAT": 31
   },
   "81": {
    "nama": "Maluku",
@@ -234,12 +241,6 @@
    "polda": "Polda Riau",
    "PANTAU": 5,
    "TERCATAT": 22
-  },
-  "11": {
-   "nama": "Aceh",
-   "polda": "Polda Aceh",
-   "PANTAU": 3,
-   "TERCATAT": 30
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -302,36 +303,36 @@
    "sumber": 2
   },
   "pilah": {
-   "relevan": 11,
-   "sudah_ada": 894,
+   "relevan": 16,
+   "sudah_ada": 882,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 1,
-   "luar_negeri": 0,
+   "tidak_relevan": 6,
+   "bukan_kejadian": 2,
+   "luar_negeri": 1,
    "kasus_baru": 3,
-   "digabung": 8
+   "digabung": 13
   },
   "timbang": {
-   "DARURAT": 1,
+   "DARURAT": 2,
    "JALUR KHUSUS": 32,
-   "TINDAK": 47,
-   "PANTAU": 130,
-   "TERCATAT": 913
+   "TINDAK": 49,
+   "PANTAU": 124,
+   "TERCATAT": 903
   },
   "teruskan": {
    "polda": 30,
-   "kasus": 210
+   "kasus": 207
   },
   "kabarkan": {
-   "tanggapan_terlihat": 523,
-   "kasus": 1123,
-   "tanggapan_sejak_berita_pertama": 448,
+   "tanggapan_terlihat": 520,
+   "kasus": 1110,
+   "tanggapan_sejak_berita_pertama": 445,
    "median_jeda_jam": 21.9,
    "n_jeda": 75,
-   "melewati_batas": 103
+   "melewati_batas": 99
   },
   "arsipkan": {
-   "baris": 7378,
+   "baris": 7381,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 19
