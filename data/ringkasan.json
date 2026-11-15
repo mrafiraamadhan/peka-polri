@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-15T19:42:27Z",
+ "diperbarui_utc": "2026-11-15T20:34:43Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -27,11 +27,11 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 209
+   "kasus": 208
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 84
+   "kasus": 85
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -161,7 +161,7 @@
    "polda": "Polda Riau",
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 22
+   "TERCATAT": 21
   },
   "51": {
    "nama": "Bali",
@@ -305,17 +305,17 @@
  "langkah": {
   "dengar": {
    "artikel": 897,
-   "sumber": 3
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 887,
+   "relevan": 4,
+   "sudah_ada": 888,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 3,
+   "bukan_kejadian": 5,
    "luar_negeri": 0,
    "kasus_baru": 1,
-   "digabung": 6
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 2,
@@ -329,15 +329,15 @@
    "kasus": 254
   },
   "kabarkan": {
-   "tanggapan_terlihat": 491,
+   "tanggapan_terlihat": 490,
    "kasus": 1105,
-   "tanggapan_sejak_berita_pertama": 419,
+   "tanggapan_sejak_berita_pertama": 418,
    "median_jeda_jam": 17.8,
    "n_jeda": 72,
-   "melewati_batas": 118
+   "melewati_batas": 120
   },
   "arsipkan": {
-   "baris": 7696,
+   "baris": 7697,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 20
@@ -357,7 +357,7 @@
    "prov": "Tanpa lokasi",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "hari_ini": 22,
+   "hari_ini": 21,
    "rata": 9.25
   },
   {
@@ -369,16 +369,7 @@
    "rata": 1.7
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kemarin": 0,
-   "rata28": 1.9,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 20,
  "gempa_darurat": [],
  "hoaks_terbaru": []
