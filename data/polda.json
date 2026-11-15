@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-15T17:58:17Z",
+ "diperbarui_utc": "2026-11-15T18:50:32Z",
  "jendela_hari": 30,
  "hari_riwayat": 20,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -68,11 +68,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 303,
-   "perlu": 117,
+   "kasus": 305,
+   "perlu": 118,
    "perlu_tanggap": 27,
-   "persen_tanggap": 23.1,
-   "tanggap": 150,
+   "persen_tanggap": 22.9,
+   "tanggap": 151,
    "jalur_khusus": 4,
    "melewati_batas": 70,
    "median_jeda_jam": 4.1,
@@ -387,11 +387,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 113,
+   "kasus": 114,
    "perlu": 36,
    "perlu_tanggap": 9,
    "persen_tanggap": 25.0,
-   "tanggap": 76,
+   "tanggap": 77,
    "jalur_khusus": 7,
    "melewati_batas": 20,
    "median_jeda_jam": 14.3,
@@ -399,7 +399,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     36
+     37
     ],
     [
      "narkoba",
@@ -532,11 +532,11 @@
    "provinsi": [
     "15"
    ],
-   "kasus": 62,
+   "kasus": 63,
    "perlu": 24,
    "perlu_tanggap": 2,
    "persen_tanggap": 8.3,
-   "tanggap": 32,
+   "tanggap": 33,
    "jalur_khusus": 4,
    "melewati_batas": 14,
    "median_jeda_jam": 68.5,
@@ -544,7 +544,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     24
+     25
     ],
     [
      "narkoba",
@@ -1440,6 +1440,46 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "5271",
+   "kabkota": "Kota Mataram",
+   "kode_prov": "52",
+   "provinsi": "Nusa Tenggara Barat",
+   "polda": "Polda Nusa Tenggara Barat",
+   "polres": "Polresta Mataram",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 4,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-13"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3173",
+   "kabkota": "Kota Jakarta Pusat",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Pusat",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 4,
+   "kasus": 10,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-04",
+    "2026-11-07",
+    "2026-11-15"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3173",
    "kabkota": "Kota Jakarta Pusat",
    "kode_prov": "31",
@@ -1460,26 +1500,6 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
   },
   {
-   "kode_kab": "5271",
-   "kabkota": "Kota Mataram",
-   "kode_prov": "52",
-   "provinsi": "Nusa Tenggara Barat",
-   "polda": "Polda Nusa Tenggara Barat",
-   "polres": "Polresta Mataram",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 4,
-   "kasus": 10,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-13"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "3276",
    "kabkota": "Kota Depok",
    "kode_prov": "32",
@@ -1498,26 +1518,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Metro Depok bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3173",
-   "kabkota": "Kota Jakarta Pusat",
-   "kode_prov": "31",
-   "provinsi": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Jakarta Pusat",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 4,
-   "kasus": 9,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-04",
-    "2026-11-07",
-    "2026-11-15"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
   },
   {
    "kode_kab": "3671",
