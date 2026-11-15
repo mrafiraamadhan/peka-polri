@@ -1,17 +1,17 @@
 {
- "diperbarui_utc": "2026-11-15T17:06:19Z",
+ "diperbarui_utc": "2026-11-15T17:58:17Z",
  "jendela_hari": 30,
  "hari_riwayat": 20,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3100,
+ "kasus_tanpa_polda": 3101,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 649,
-   "perlu": 241,
+   "kasus": 650,
+   "perlu": 242,
    "perlu_tanggap": 50,
    "persen_tanggap": 20.7,
    "tanggap": 331,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     161
+     162
     ],
     [
      "darurat",
@@ -39,11 +39,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 357,
-   "perlu": 123,
+   "kasus": 359,
+   "perlu": 124,
    "perlu_tanggap": 19,
-   "persen_tanggap": 15.4,
-   "tanggap": 164,
+   "persen_tanggap": 15.3,
+   "tanggap": 165,
    "jalur_khusus": 7,
    "melewati_batas": 73,
    "median_jeda_jam": 5.7,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     118
+     119
     ],
     [
      "darurat",
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 302,
-   "perlu": 116,
+   "kasus": 303,
+   "perlu": 117,
    "perlu_tanggap": 27,
-   "persen_tanggap": 23.3,
+   "persen_tanggap": 23.1,
    "tanggap": 150,
    "jalur_khusus": 4,
    "melewati_batas": 70,
@@ -190,7 +190,7 @@
    "persen_tanggap": 20.0,
    "tanggap": 96,
    "jalur_khusus": 0,
-   "melewati_batas": 40,
+   "melewati_batas": 41,
    "median_jeda_jam": 19.4,
    "n_jeda": 13,
    "topik_teratas": [
@@ -329,10 +329,10 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 107,
-   "perlu": 39,
+   "kasus": 108,
+   "perlu": 40,
    "perlu_tanggap": 7,
-   "persen_tanggap": 17.9,
+   "persen_tanggap": 17.5,
    "tanggap": 59,
    "jalur_khusus": 4,
    "melewati_batas": 24,
@@ -416,10 +416,10 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 121,
-   "perlu": 31,
+   "kasus": 122,
+   "perlu": 32,
    "perlu_tanggap": 5,
-   "persen_tanggap": 16.1,
+   "persen_tanggap": 15.6,
    "tanggap": 73,
    "jalur_khusus": 3,
    "melewati_batas": 18,
@@ -474,11 +474,11 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 70,
+   "kasus": 71,
    "perlu": 28,
    "perlu_tanggap": 7,
    "persen_tanggap": 25.0,
-   "tanggap": 40,
+   "tanggap": 41,
    "jalur_khusus": 3,
    "melewati_batas": 11,
    "median_jeda_jam": 9.4,
@@ -1500,6 +1500,26 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Depok bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3173",
+   "kabkota": "Kota Jakarta Pusat",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Pusat",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 4,
+   "kasus": 9,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-04",
+    "2026-11-07",
+    "2026-11-15"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3671",
    "kabkota": "Kota Tangerang",
    "kode_prov": "36",
@@ -1618,26 +1638,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3173",
-   "kabkota": "Kota Jakarta Pusat",
-   "kode_prov": "31",
-   "provinsi": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Jakarta Pusat",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 4,
-   "kasus": 8,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-04",
-    "2026-11-07",
-    "2026-11-15"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
   },
   {
    "kode_kab": "3171",
