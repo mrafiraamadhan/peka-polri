@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-15T12:49:12Z",
+ "diperbarui_utc": "2026-11-15T13:41:12Z",
  "jendela_hari": 30,
  "hari_riwayat": 19,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3062,
+ "kasus_tanpa_polda": 3075,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -16,7 +16,7 @@
    "persen_tanggap": 20.5,
    "tanggap": 330,
    "jalur_khusus": 27,
-   "melewati_batas": 144,
+   "melewati_batas": 145,
    "median_jeda_jam": 14.7,
    "n_jeda": 49,
    "topik_teratas": [
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 298,
-   "perlu": 114,
+   "kasus": 299,
+   "perlu": 115,
    "perlu_tanggap": 27,
-   "persen_tanggap": 23.7,
+   "persen_tanggap": 23.5,
    "tanggap": 148,
    "jalur_khusus": 4,
    "melewati_batas": 70,
@@ -184,10 +184,10 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 208,
-   "perlu": 62,
+   "kasus": 209,
+   "perlu": 63,
    "perlu_tanggap": 13,
-   "persen_tanggap": 21.0,
+   "persen_tanggap": 20.6,
    "tanggap": 96,
    "jalur_khusus": 0,
    "melewati_batas": 38,
@@ -196,7 +196,7 @@
    "topik_teratas": [
     [
      "darurat",
-     104
+     105
     ],
     [
      "narkoba",
@@ -242,11 +242,11 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 118,
+   "kasus": 120,
    "perlu": 52,
    "perlu_tanggap": 7,
    "persen_tanggap": 13.5,
-   "tanggap": 58,
+   "tanggap": 59,
    "jalur_khusus": 13,
    "melewati_batas": 31,
    "median_jeda_jam": 7.7,
@@ -258,7 +258,7 @@
     ],
     [
      "darurat",
-     18
+     19
     ],
     [
      "anggota",
@@ -300,11 +300,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 153,
+   "kasus": 155,
    "perlu": 48,
    "perlu_tanggap": 9,
    "persen_tanggap": 18.8,
-   "tanggap": 100,
+   "tanggap": 101,
    "jalur_khusus": 11,
    "melewati_batas": 26,
    "median_jeda_jam": 8.7,
@@ -316,11 +316,11 @@
     ],
     [
      "narkoba",
-     33
+     34
     ],
     [
      "darurat",
-     17
+     18
     ]
    ]
   },
@@ -329,12 +329,12 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 105,
-   "perlu": 38,
+   "kasus": 106,
+   "perlu": 39,
    "perlu_tanggap": 6,
-   "persen_tanggap": 15.8,
+   "persen_tanggap": 15.4,
    "tanggap": 57,
-   "jalur_khusus": 3,
+   "jalur_khusus": 4,
    "melewati_batas": 25,
    "median_jeda_jam": 13.4,
    "n_jeda": 6,
@@ -532,12 +532,12 @@
    "provinsi": [
     "15"
    ],
-   "kasus": 59,
-   "perlu": 22,
+   "kasus": 60,
+   "perlu": 23,
    "perlu_tanggap": 2,
-   "persen_tanggap": 9.1,
+   "persen_tanggap": 8.7,
    "tanggap": 32,
-   "jalur_khusus": 3,
+   "jalur_khusus": 4,
    "melewati_batas": 14,
    "median_jeda_jam": 68.5,
    "n_jeda": 2,
@@ -764,11 +764,11 @@
    "provinsi": [
     "13"
    ],
-   "kasus": 98,
+   "kasus": 99,
    "perlu": 15,
    "perlu_tanggap": 1,
    "persen_tanggap": 6.7,
-   "tanggap": 55,
+   "tanggap": 56,
    "jalur_khusus": 1,
    "melewati_batas": 12,
    "median_jeda_jam": 3.6,
@@ -1780,6 +1780,26 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3173",
+   "kabkota": "Kota Jakarta Pusat",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Pusat",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 4,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-04",
+    "2026-11-07",
+    "2026-11-15"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "6171",
    "kabkota": "Kota Pontianak",
    "kode_prov": "61",
@@ -2298,26 +2318,6 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polrestabes Semarang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3301",
-   "kabkota": "Kabupaten Cilacap",
-   "kode_prov": "33",
-   "provinsi": "Jawa Tengah",
-   "polda": "Polda Jawa Tengah",
-   "polres": "Polresta Cilacap",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 4,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-13"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polresta Cilacap bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
