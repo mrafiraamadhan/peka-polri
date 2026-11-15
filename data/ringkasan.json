@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-15T22:38:10Z",
+ "diperbarui_utc": "2026-11-15T23:30:56Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 2,
   "JALUR KHUSUS": 29,
-  "TINDAK": 58,
-  "PANTAU": 163,
-  "TERCATAT": 855
+  "TINDAK": 59,
+  "PANTAU": 145,
+  "TERCATAT": 876
  },
- "kasus_aktif": 1107,
+ "kasus_aktif": 1111,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,11 +27,11 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 208
+   "kasus": 210
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 86
+   "kasus": 85
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 92
+   "kasus": 93
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 292
+   "kasus": 294
   }
  },
  "provinsi": {
@@ -60,8 +60,8 @@
    "polda": "Polda Aceh",
    "DARURAT": 1,
    "TINDAK": 1,
-   "PANTAU": 24,
-   "TERCATAT": 14
+   "PANTAU": 4,
+   "TERCATAT": 34
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -100,7 +100,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 14,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -158,7 +158,7 @@
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
-   "TINDAK": 1,
+   "TINDAK": 2,
    "PANTAU": 5,
    "TERCATAT": 22
   },
@@ -174,13 +174,13 @@
    "polda": "Polda Sumatera Selatan",
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "TINDAK": 4,
-   "PANTAU": 2,
+   "PANTAU": 3,
    "TERCATAT": 14
   },
   "13": {
@@ -188,7 +188,7 @@
    "polda": "Polda Sumatera Barat",
    "TINDAK": 1,
    "PANTAU": 1,
-   "TERCATAT": 25
+   "TERCATAT": 24
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -208,7 +208,7 @@
    "nama": "Maluku",
    "polda": "Polda Maluku",
    "TINDAK": 1,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "76": {
    "nama": "Sulawesi Barat",
@@ -302,40 +302,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 894,
-   "sumber": 3
+   "artikel": 889,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 17,
-   "sudah_ada": 873,
-   "hoaks": 1,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 3,
+   "relevan": 14,
+   "sudah_ada": 868,
+   "hoaks": 0,
+   "tidak_relevan": 2,
+   "bukan_kejadian": 5,
    "luar_negeri": 0,
    "kasus_baru": 8,
-   "digabung": 9
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 29,
-   "TINDAK": 58,
-   "PANTAU": 163,
-   "TERCATAT": 855
+   "TINDAK": 59,
+   "PANTAU": 145,
+   "TERCATAT": 876
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 252
+   "kasus": 235
   },
   "kabarkan": {
    "tanggapan_terlihat": 489,
-   "kasus": 1107,
+   "kasus": 1111,
    "tanggapan_sejak_berita_pertama": 415,
    "median_jeda_jam": 16.1,
    "n_jeda": 74,
-   "melewati_batas": 119
+   "melewati_batas": 108
   },
   "arsipkan": {
-   "baris": 7709,
+   "baris": 7717,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 20
@@ -343,19 +343,11 @@
  },
  "lonjakan_wilayah": [
   {
-   "kode_prov": "11",
-   "prov": "Aceh",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 12,
-   "rata": 5.35
-  },
-  {
    "kode_prov": null,
    "prov": "Tanpa lokasi",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "hari_ini": 22,
+   "hari_ini": 23,
    "rata": 9.3
   },
   {
@@ -367,24 +359,7 @@
    "rata": 1.7
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kemarin": 0,
-   "rata28": 7.0,
-   "rasio": 0.0,
-   "lonjakan": false
-  },
-  {
-   "topik": "layanan",
-   "nama": "Layanan kepolisian",
-   "kemarin": 0,
-   "rata28": 3.3,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 20,
  "gempa_darurat": [],
  "hoaks_terbaru": []
