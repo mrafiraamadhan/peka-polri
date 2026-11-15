@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-15T18:50:32Z",
+ "diperbarui_utc": "2026-11-15T19:42:27Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 30,
   "TINDAK": 58,
   "PANTAU": 164,
-  "TERCATAT": 852
+  "TERCATAT": 851
  },
- "kasus_aktif": 1106,
+ "kasus_aktif": 1105,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 220
+   "kasus": 219
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -60,7 +60,7 @@
    "polda": "Polda Aceh",
    "DARURAT": 1,
    "TINDAK": 1,
-   "PANTAU": 23,
+   "PANTAU": 24,
    "TERCATAT": 14
   },
   "33": {
@@ -108,7 +108,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 1,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -129,8 +129,8 @@
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 7,
-   "PANTAU": 18,
-   "TERCATAT": 48
+   "PANTAU": 17,
+   "TERCATAT": 49
   },
   "15": {
    "nama": "Jambi",
@@ -304,17 +304,17 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 896,
-   "sumber": 2
+   "artikel": 897,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 10,
-   "sudah_ada": 882,
+   "relevan": 7,
+   "sudah_ada": 887,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 2,
-   "luar_negeri": 1,
-   "kasus_baru": 4,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 3,
+   "luar_negeri": 0,
+   "kasus_baru": 1,
    "digabung": 6
   },
   "timbang": {
@@ -322,7 +322,7 @@
    "JALUR KHUSUS": 30,
    "TINDAK": 58,
    "PANTAU": 164,
-   "TERCATAT": 852
+   "TERCATAT": 851
   },
   "teruskan": {
    "polda": 32,
@@ -330,28 +330,20 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 491,
-   "kasus": 1106,
-   "tanggapan_sejak_berita_pertama": 420,
-   "median_jeda_jam": 18.0,
-   "n_jeda": 71,
-   "melewati_batas": 116
+   "kasus": 1105,
+   "tanggapan_sejak_berita_pertama": 419,
+   "median_jeda_jam": 17.8,
+   "n_jeda": 72,
+   "melewati_batas": 118
   },
   "arsipkan": {
-   "baris": 7695,
+   "baris": 7696,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 20
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": null,
-   "prov": "Tanpa lokasi",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "hari_ini": 23,
-   "rata": 9.3
-  },
   {
    "kode_prov": "11",
    "prov": "Aceh",
@@ -361,15 +353,32 @@
    "rata": 5.35
   },
   {
+   "kode_prov": null,
+   "prov": "Tanpa lokasi",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "hari_ini": 22,
+   "rata": 9.25
+  },
+  {
    "kode_prov": "31",
    "prov": "DKI Jakarta",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "hari_ini": 5,
-   "rata": 1.65
+   "rata": 1.7
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kemarin": 0,
+   "rata28": 1.9,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 20,
  "gempa_darurat": [],
  "hoaks_terbaru": []
