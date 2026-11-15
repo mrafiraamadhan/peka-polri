@@ -1,15 +1,15 @@
 {
- "diperbarui_utc": "2026-11-15T20:34:43Z",
+ "diperbarui_utc": "2026-11-15T21:26:36Z",
  "terbaru": {
-  "waktu_utc": "2026-11-15T15:41:15Z",
+  "waktu_utc": "2026-11-15T20:51:57Z",
   "magnitudo": 5.4,
-  "kedalaman": "465 km",
-  "wilayah": "127 km BaratLaut GORONTALOUTARA-GORONTALO",
+  "kedalaman": "323 km",
+  "wilayah": "265 km Tenggara BURUSELATAN-MALUKU",
   "potensi": "Tidak berpotensi tsunami",
   "dirasakan": "-",
-  "koordinat": "1.79,122.30",
-  "prov": "Gorontalo",
-  "kode_prov": "75"
+  "koordinat": "-5.97,128.82",
+  "prov": "Maluku",
+  "kode_prov": "81"
  },
  "dirasakan": [
   {
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-15T20:51:57Z",
+   "magnitudo": 5.4,
+   "kedalaman": "323 km",
+   "wilayah": "265 km Tenggara BURUSELATAN-MALUKU",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-5.97,128.82",
+   "prov": "Maluku",
+   "kode_prov": "81"
+  },
+  {
    "waktu_utc": "2026-11-15T15:41:15Z",
    "magnitudo": 5.4,
    "kedalaman": "465 km",
@@ -332,17 +343,6 @@
    "koordinat": "-3.11,102.14",
    "prov": "Bengkulu",
    "kode_prov": "17"
-  },
-  {
-   "waktu_utc": "2026-10-21T07:44:15Z",
-   "magnitudo": 5.1,
-   "kedalaman": "96 km",
-   "wilayah": "62 km TimurLaut MALUKUBRTDAYA",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-7.75,128.18",
-   "prov": null,
-   "kode_prov": null
   }
  ]
 }

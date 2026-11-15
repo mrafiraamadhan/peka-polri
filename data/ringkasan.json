@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-15T20:34:43Z",
+ "diperbarui_utc": "2026-11-15T21:26:36Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 30,
   "TINDAK": 58,
   "PANTAU": 164,
-  "TERCATAT": 851
+  "TERCATAT": 849
  },
- "kasus_aktif": 1105,
+ "kasus_aktif": 1103,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 58
+   "kasus": 59
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 219
+   "kasus": 218
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 291
+   "kasus": 289
   }
  },
  "provinsi": {
@@ -138,7 +138,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 7
+   "TERCATAT": 6
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -304,34 +304,34 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 897,
+   "artikel": 896,
    "sumber": 2
   },
   "pilah": {
-   "relevan": 4,
-   "sudah_ada": 888,
+   "relevan": 3,
+   "sudah_ada": 889,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 5,
-   "luar_negeri": 0,
+   "bukan_kejadian": 3,
+   "luar_negeri": 1,
    "kasus_baru": 1,
-   "digabung": 3
+   "digabung": 2
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 30,
    "TINDAK": 58,
    "PANTAU": 164,
-   "TERCATAT": 851
+   "TERCATAT": 849
   },
   "teruskan": {
    "polda": 32,
    "kasus": 254
   },
   "kabarkan": {
-   "tanggapan_terlihat": 490,
-   "kasus": 1105,
-   "tanggapan_sejak_berita_pertama": 418,
+   "tanggapan_terlihat": 489,
+   "kasus": 1103,
+   "tanggapan_sejak_berita_pertama": 417,
    "median_jeda_jam": 17.8,
    "n_jeda": 72,
    "melewati_batas": 120
