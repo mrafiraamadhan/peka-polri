@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-16T19:05:35Z",
+ "diperbarui_utc": "2026-11-16T19:57:01Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 6,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 2,
   "JALUR KHUSUS": 41,
-  "TINDAK": 64,
-  "PANTAU": 111,
+  "TINDAK": 65,
+  "PANTAU": 112,
   "TERCATAT": 973
  },
- "kasus_aktif": 1191,
+ "kasus_aktif": 1193,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -39,11 +39,11 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 101
+   "kasus": 102
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 99
+   "kasus": 100
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -179,7 +179,7 @@
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
-   "TINDAK": 9,
+   "TINDAK": 10,
    "PANTAU": 4,
    "TERCATAT": 28
   },
@@ -187,7 +187,7 @@
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 4,
-   "PANTAU": 5,
+   "PANTAU": 6,
    "TERCATAT": 22
   },
   "13": {
@@ -306,46 +306,62 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 887,
+   "artikel": 788,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 877,
+   "relevan": 5,
+   "sudah_ada": 782,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 0,
-   "luar_negeri": 1,
-   "kasus_baru": 1,
-   "digabung": 8
+   "bukan_kejadian": 1,
+   "luar_negeri": 0,
+   "kasus_baru": 2,
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 41,
-   "TINDAK": 64,
-   "PANTAU": 111,
+   "TINDAK": 65,
+   "PANTAU": 112,
    "TERCATAT": 973
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 218
+   "kasus": 220
   },
   "kabarkan": {
    "tanggapan_terlihat": 518,
-   "kasus": 1191,
+   "kasus": 1193,
    "tanggapan_sejak_berita_pertama": 435,
    "median_jeda_jam": 12.6,
    "n_jeda": 83,
    "melewati_batas": 87
   },
   "arsipkan": {
-   "baris": 8134,
+   "baris": 8136,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 21
   }
  },
  "lonjakan_wilayah": [
+  {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "hari_ini": 5,
+   "rata": 1.86
+  },
+  {
+   "kode_prov": "33",
+   "prov": "Jawa Tengah",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "hari_ini": 5,
+   "rata": 1.52
+  },
   {
    "kode_prov": "32",
    "prov": "Jawa Barat",
