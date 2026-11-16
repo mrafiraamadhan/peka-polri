@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-16T18:13:53Z",
+ "diperbarui_utc": "2026-11-16T19:05:35Z",
  "bulan": [
   {
    "bulan": "2026-10",
@@ -69,7 +69,7 @@
   },
   {
    "bulan": "2026-11",
-   "kasus": 6551,
+   "kasus": 6552,
    "topik": {
     "jalanan": 1474,
     "perempuan_anak": 421,
@@ -78,15 +78,15 @@
     "konflik": 405,
     "penipuan": 543,
     "anggota": 257,
-    "lalulintas": 392,
+    "lalulintas": 393,
     "layanan": 13
    },
    "status": {
-    "TERCATAT": 5378,
-    "PANTAU": 701,
-    "TINDAK": 274,
+    "TERCATAT": 5379,
+    "PANTAU": 700,
+    "TINDAK": 276,
     "JALUR KHUSUS": 195,
-    "DARURAT": 3
+    "DARURAT": 2
    },
    "provinsi_teratas": [
     [
@@ -103,7 +103,7 @@
     ],
     [
      "Sumatera Utara",
-     220
+     221
     ],
     [
      "DKI Jakarta",
@@ -130,9 +130,9 @@
      137
     ]
    ],
-   "tanggapan_terlihat": 2761,
+   "tanggapan_terlihat": 2762,
    "median_jeda_jam": 10.4,
-   "n_jeda": 313
+   "n_jeda": 314
   }
  ]
 }
