@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-16T17:21:59Z",
+ "diperbarui_utc": "2026-11-16T18:13:53Z",
  "bulan": [
   {
    "bulan": "2026-10",
@@ -69,12 +69,12 @@
   },
   {
    "bulan": "2026-11",
-   "kasus": 6548,
+   "kasus": 6551,
    "topik": {
-    "jalanan": 1473,
-    "perempuan_anak": 420,
+    "jalanan": 1474,
+    "perempuan_anak": 421,
     "narkoba": 1288,
-    "darurat": 1757,
+    "darurat": 1758,
     "konflik": 405,
     "penipuan": 543,
     "anggota": 257,
@@ -82,11 +82,11 @@
     "layanan": 13
    },
    "status": {
-    "TERCATAT": 5373,
+    "TERCATAT": 5378,
     "PANTAU": 701,
-    "TINDAK": 275,
+    "TINDAK": 274,
     "JALUR KHUSUS": 195,
-    "DARURAT": 4
+    "DARURAT": 3
    },
    "provinsi_teratas": [
     [
@@ -107,7 +107,7 @@
     ],
     [
      "DKI Jakarta",
-     196
+     197
     ],
     [
      "Aceh",
@@ -130,9 +130,9 @@
      137
     ]
    ],
-   "tanggapan_terlihat": 2759,
+   "tanggapan_terlihat": 2761,
    "median_jeda_jam": 10.4,
-   "n_jeda": 312
+   "n_jeda": 313
   }
  ]
 }
