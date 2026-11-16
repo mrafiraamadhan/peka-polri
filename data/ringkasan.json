@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-16T22:11:04Z",
+ "diperbarui_utc": "2026-11-16T23:03:03Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 6,
@@ -9,13 +9,13 @@
  "anggota_sudah_ditangani": 25,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
+  "DARURAT": 0,
   "JALUR KHUSUS": 42,
   "TINDAK": 65,
-  "PANTAU": 144,
-  "TERCATAT": 944
+  "PANTAU": 143,
+  "TERCATAT": 941
  },
- "kasus_aktif": 1196,
+ "kasus_aktif": 1191,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 200
+   "kasus": 199
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,11 +35,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 244
+   "kasus": 242
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 104
+   "kasus": 103
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,18 +51,10 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 316
+   "kasus": 315
   }
  },
  "provinsi": {
-  "32": {
-   "nama": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "DARURAT": 1,
-   "TINDAK": 8,
-   "PANTAU": 16,
-   "TERCATAT": 52
-  },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
@@ -84,7 +76,7 @@
    "polda": "Polda DI Yogyakarta",
    "JALUR KHUSUS": 3,
    "TINDAK": 2,
-   "PANTAU": 7,
+   "PANTAU": 6,
    "TERCATAT": 10
   },
   "21": {
@@ -145,7 +137,14 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 25
+   "TERCATAT": 24
+  },
+  "32": {
+   "nama": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "TINDAK": 8,
+   "PANTAU": 16,
+   "TERCATAT": 53
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -159,7 +158,7 @@
    "polda": "Polda Sumatera Utara",
    "TINDAK": 3,
    "PANTAU": 8,
-   "TERCATAT": 38
+   "TERCATAT": 37
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -246,7 +245,7 @@
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "PANTAU": 2,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -305,34 +304,34 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 890,
-   "sumber": 3
+   "artikel": 0,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 11,
-   "sudah_ada": 877,
+   "relevan": 0,
+   "sudah_ada": 0,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 1,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 0,
    "luar_negeri": 0,
-   "kasus_baru": 4,
-   "digabung": 7
+   "kasus_baru": 0,
+   "digabung": 0
   },
   "timbang": {
-   "DARURAT": 1,
+   "DARURAT": 0,
    "JALUR KHUSUS": 42,
    "TINDAK": 65,
-   "PANTAU": 144,
-   "TERCATAT": 944
+   "PANTAU": 143,
+   "TERCATAT": 941
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 252
+   "kasus": 250
   },
   "kabarkan": {
-   "tanggapan_terlihat": 517,
-   "kasus": 1196,
-   "tanggapan_sejak_berita_pertama": 434,
+   "tanggapan_terlihat": 514,
+   "kasus": 1191,
+   "tanggapan_sejak_berita_pertama": 431,
    "median_jeda_jam": 12.1,
    "n_jeda": 83,
    "melewati_batas": 105
