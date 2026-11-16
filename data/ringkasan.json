@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-16T21:18:52Z",
+ "diperbarui_utc": "2026-11-16T22:11:04Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 6,
-  "anggota": 33,
+  "anggota": 34,
   "kekerasan": 2
  },
  "anggota_sudah_ditangani": 25,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 2,
-  "JALUR KHUSUS": 41,
+  "DARURAT": 1,
+  "JALUR KHUSUS": 42,
   "TINDAK": 65,
-  "PANTAU": 112,
-  "TERCATAT": 977
+  "PANTAU": 144,
+  "TERCATAT": 944
  },
- "kasus_aktif": 1197,
+ "kasus_aktif": 1196,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 60
+   "kasus": 61
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 62
+   "kasus": 61
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -31,15 +31,15 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 110
+   "kasus": 108
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 243
+   "kasus": 244
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 103
+   "kasus": 104
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,25 +51,17 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 317
+   "kasus": 316
   }
  },
  "provinsi": {
-  "11": {
-   "nama": "Aceh",
-   "polda": "Polda Aceh",
-   "DARURAT": 1,
-   "TINDAK": 1,
-   "PANTAU": 3,
-   "TERCATAT": 38
-  },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "DARURAT": 1,
    "TINDAK": 8,
-   "PANTAU": 15,
-   "TERCATAT": 51
+   "PANTAU": 16,
+   "TERCATAT": 52
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -93,7 +85,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 2,
    "PANTAU": 7,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -115,7 +107,7 @@
    "polda": "Polda Jambi",
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 5
   },
   "52": {
@@ -166,7 +158,7 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "TINDAK": 3,
-   "PANTAU": 9,
+   "PANTAU": 8,
    "TERCATAT": 38
   },
   "16": {
@@ -174,7 +166,7 @@
    "polda": "Polda Sumatera Selatan",
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -216,6 +208,13 @@
    "TINDAK": 4,
    "PANTAU": 3,
    "TERCATAT": 22
+  },
+  "11": {
+   "nama": "Aceh",
+   "polda": "Polda Aceh",
+   "TINDAK": 1,
+   "PANTAU": 3,
+   "TERCATAT": 39
   },
   "17": {
    "nama": "Bengkulu",
@@ -306,40 +305,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 789,
+   "artikel": 890,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 6,
-   "sudah_ada": 781,
+   "relevan": 11,
+   "sudah_ada": 877,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 2,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 3,
-   "digabung": 3
+   "kasus_baru": 4,
+   "digabung": 7
   },
   "timbang": {
-   "DARURAT": 2,
-   "JALUR KHUSUS": 41,
+   "DARURAT": 1,
+   "JALUR KHUSUS": 42,
    "TINDAK": 65,
-   "PANTAU": 112,
-   "TERCATAT": 977
+   "PANTAU": 144,
+   "TERCATAT": 944
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 220
+   "kasus": 252
   },
   "kabarkan": {
-   "tanggapan_terlihat": 519,
-   "kasus": 1197,
-   "tanggapan_sejak_berita_pertama": 436,
+   "tanggapan_terlihat": 517,
+   "kasus": 1196,
+   "tanggapan_sejak_berita_pertama": 434,
    "median_jeda_jam": 12.1,
    "n_jeda": 83,
-   "melewati_batas": 88
+   "melewati_batas": 105
   },
   "arsipkan": {
-   "baris": 8142,
+   "baris": 8146,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 21
@@ -353,6 +352,14 @@
    "nama": "Konflik dan kerumunan",
    "hari_ini": 5,
    "rata": 1.86
+  },
+  {
+   "kode_prov": null,
+   "prov": "Tanpa lokasi",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "hari_ini": 20,
+   "rata": 9.62
   },
   {
    "kode_prov": "33",
@@ -373,7 +380,9 @@
  ],
  "lonjakan_nasional": [],
  "hari_riwayat": 21,
- "gempa_darurat": [],
+ "gempa_darurat": [
+  "81"
+ ],
  "hoaks_terbaru": [
   {
    "judul": "[SALAH] Dokumentasi PM Singapura Berlutut ke Prabowo Minta Energi",

@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-16T21:18:52Z",
+ "diperbarui_utc": "2026-11-16T22:11:04Z",
  "terbaru": {
   "waktu_utc": "2026-11-16T21:11:20Z",
   "magnitudo": 7.1,
   "kedalaman": "115 km",
-  "wilayah": "130 km BaratDaya MALUKUTENGGARA",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
+  "wilayah": "Pusat gempa berada di 130km BaratDaya Maluku Tenggara",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "III Saumlaki, III Tiakur, III Dobo, III Sorong, III Manokwari, III Manokwari Selatan, III Bintuni, III Tual, III Fakfak, III Kaimana, II Nabire, II Serui",
   "koordinat": "-6.03,131.62",
-  "prov": null,
-  "kode_prov": null
+  "prov": "Maluku",
+  "kode_prov": "81"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-16T21:11:20Z",
+   "magnitudo": 7.1,
+   "kedalaman": "115 km",
+   "wilayah": "Pusat gempa berada di 130km BaratDaya Maluku Tenggara",
+   "potensi": null,
+   "dirasakan": "III Saumlaki, III Tiakur, III Dobo, III Sorong, III Manokwari, III Manokwari Selatan, III Bintuni, III Tual, III Fakfak, III Kaimana, II Nabire, II Serui",
+   "koordinat": "-6.03,131.62",
+   "prov": "Maluku",
+   "kode_prov": "81"
+  },
   {
    "waktu_utc": "2026-11-16T11:36:57Z",
    "magnitudo": 3.8,
@@ -165,17 +176,6 @@
    "koordinat": "-0.52,123.76",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-11-09T10:38:54Z",
-   "magnitudo": 3.9,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di laut 44 km timur laut Mbay-Nagekeo",
-   "potensi": null,
-   "dirasakan": "II - III Kab. Nagekeo",
-   "koordinat": "-8.34,121.52",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [
