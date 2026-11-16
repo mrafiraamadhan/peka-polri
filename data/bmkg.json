@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-16T11:21:12Z",
+ "diperbarui_utc": "2026-11-16T12:13:05Z",
  "terbaru": {
-  "waktu_utc": "2026-11-15T20:51:57Z",
-  "magnitudo": 5.4,
-  "kedalaman": "323 km",
-  "wilayah": "265 km Tenggara BURUSELATAN-MALUKU",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
-  "koordinat": "-5.97,128.82",
-  "prov": "Maluku",
-  "kode_prov": "81"
+  "waktu_utc": "2026-11-16T11:36:57Z",
+  "magnitudo": 3.8,
+  "kedalaman": "10 km",
+  "wilayah": "Pusat gempa berada di darat 12 km Barat Laut Tanggamus-Lampung",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "III Tanggamus",
+  "koordinat": "-5.41,104.60",
+  "prov": "Lampung",
+  "kode_prov": "18"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-16T11:36:57Z",
+   "magnitudo": 3.8,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di darat 12 km Barat Laut Tanggamus-Lampung",
+   "potensi": null,
+   "dirasakan": "III Tanggamus",
+   "koordinat": "-5.41,104.60",
+   "prov": "Lampung",
+   "kode_prov": "18"
+  },
   {
    "waktu_utc": "2026-11-14T21:24:20Z",
    "magnitudo": 4.5,
@@ -165,17 +176,6 @@
    "koordinat": "-8.34,121.52",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-09T09:48:29Z",
-   "magnitudo": 5.5,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di laut 20 km barat laut Seram Bagian Timur",
-   "potensi": null,
-   "dirasakan": "III-IV Kecamatan Bula",
-   "koordinat": "-2.93,130.44",
-   "prov": "Maluku",
-   "kode_prov": "81"
   }
  ],
  "m5": [
