@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-16T19:57:01Z",
+ "diperbarui_utc": "2026-11-16T20:26:29Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 6,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 41,
   "TINDAK": 65,
   "PANTAU": 112,
-  "TERCATAT": 973
+  "TERCATAT": 975
  },
- "kasus_aktif": 1193,
+ "kasus_aktif": 1195,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 199
+   "kasus": 200
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -39,11 +39,11 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 102
+   "kasus": 103
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 100
+   "kasus": 101
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 317
+   "kasus": 316
   }
  },
  "provinsi": {
@@ -265,7 +265,7 @@
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
    "PANTAU": 2,
-   "TERCATAT": 15
+   "TERCATAT": 14
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -306,40 +306,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 788,
-   "sumber": 3
+   "artikel": 883,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 5,
-   "sudah_ada": 782,
+   "relevan": 7,
+   "sudah_ada": 875,
    "hoaks": 0,
    "tidak_relevan": 0,
    "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 2,
-   "digabung": 3
+   "kasus_baru": 3,
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 41,
    "TINDAK": 65,
    "PANTAU": 112,
-   "TERCATAT": 973
+   "TERCATAT": 975
   },
   "teruskan": {
    "polda": 31,
    "kasus": 220
   },
   "kabarkan": {
-   "tanggapan_terlihat": 518,
-   "kasus": 1193,
-   "tanggapan_sejak_berita_pertama": 435,
+   "tanggapan_terlihat": 520,
+   "kasus": 1195,
+   "tanggapan_sejak_berita_pertama": 437,
    "median_jeda_jam": 12.6,
    "n_jeda": 83,
    "melewati_batas": 87
   },
   "arsipkan": {
-   "baris": 8136,
+   "baris": 8139,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 21
@@ -360,7 +360,7 @@
    "topik": "lalulintas",
    "nama": "Lalu lintas",
    "hari_ini": 5,
-   "rata": 1.52
+   "rata": 1.57
   },
   {
    "kode_prov": "32",
@@ -371,7 +371,16 @@
    "rata": 1.67
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kemarin": 1,
+   "rata28": 6.4,
+   "rasio": 0.16,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 21,
  "gempa_darurat": [],
  "hoaks_terbaru": [
