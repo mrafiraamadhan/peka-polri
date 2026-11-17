@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-17T00:51:37Z",
+ "diperbarui_utc": "2026-11-17T01:43:29Z",
  "terbaru": {
-  "waktu_utc": "2026-11-16T23:30:16Z",
-  "magnitudo": 2.6,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di darat 10 km selatan Kota Sukabumi",
+  "waktu_utc": "2026-11-17T00:49:17Z",
+  "magnitudo": 4.8,
+  "kedalaman": "2 km",
+  "wilayah": "Pusat gempa berada di laut 49 km timur laut Ruteng, Manggarai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Nyalindung",
-  "koordinat": "-7.00,106.95",
-  "prov": "Jawa Barat",
-  "kode_prov": "32"
+  "dirasakan": "III Kab. Manggarai",
+  "koordinat": "-8.22,120.66",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-17T00:49:17Z",
+   "magnitudo": 4.8,
+   "kedalaman": "2 km",
+   "wilayah": "Pusat gempa berada di laut 49 km timur laut Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "III Kab. Manggarai",
+   "koordinat": "-8.22,120.66",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-16T23:30:16Z",
    "magnitudo": 2.6,
@@ -165,17 +176,6 @@
    "koordinat": "-0.19,132.98",
    "prov": "Papua Barat",
    "kode_prov": "91"
-  },
-  {
-   "waktu_utc": "2026-11-10T01:53:28Z",
-   "magnitudo": 5.4,
-   "kedalaman": "84 km",
-   "wilayah": "Pusat gempa berada di laut 90 km barat daya Tanimbar",
-   "potensi": null,
-   "dirasakan": "III Saumlaki",
-   "koordinat": "-8.02,130.49",
-   "prov": null,
-   "kode_prov": null
   }
  ],
  "m5": [
