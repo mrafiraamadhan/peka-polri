@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-17T14:11:37Z",
+ "diperbarui_utc": "2026-11-17T15:03:17Z",
  "jendela_hari": 30,
  "hari_riwayat": 21,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3446,
+ "kasus_tanpa_polda": 3449,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,15 +39,15 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 404,
-   "perlu": 142,
-   "perlu_tanggap": 24,
-   "persen_tanggap": 16.9,
-   "tanggap": 186,
+   "kasus": 406,
+   "perlu": 144,
+   "perlu_tanggap": 25,
+   "persen_tanggap": 17.4,
+   "tanggap": 187,
    "jalur_khusus": 7,
    "melewati_batas": 83,
-   "median_jeda_jam": 10.9,
-   "n_jeda": 24,
+   "median_jeda_jam": 10.4,
+   "n_jeda": 25,
    "topik_teratas": [
     [
      "jalanan",
@@ -68,11 +68,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 338,
+   "kasus": 340,
    "perlu": 130,
    "perlu_tanggap": 32,
    "persen_tanggap": 24.6,
-   "tanggap": 171,
+   "tanggap": 172,
    "jalur_khusus": 4,
    "melewati_batas": 74,
    "median_jeda_jam": 3.8,
@@ -80,11 +80,11 @@
    "topik_teratas": [
     [
      "darurat",
-     91
+     92
     ],
     [
      "jalanan",
-     72
+     73
     ],
     [
      "narkoba",
@@ -126,10 +126,10 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 317,
-   "perlu": 99,
+   "kasus": 318,
+   "perlu": 100,
    "perlu_tanggap": 20,
-   "persen_tanggap": 20.2,
+   "persen_tanggap": 20.0,
    "tanggap": 208,
    "jalur_khusus": 4,
    "melewati_batas": 62,
@@ -138,7 +138,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     133
+     134
     ],
     [
      "jalanan",
@@ -155,10 +155,10 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 173,
-   "perlu": 92,
+   "kasus": 174,
+   "perlu": 93,
    "perlu_tanggap": 19,
-   "persen_tanggap": 20.7,
+   "persen_tanggap": 20.4,
    "tanggap": 88,
    "jalur_khusus": 9,
    "melewati_batas": 66,
@@ -167,7 +167,7 @@
    "topik_teratas": [
     [
      "konflik",
-     103
+     104
     ],
     [
      "jalanan",
@@ -358,11 +358,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 128,
+   "kasus": 129,
    "perlu": 41,
    "perlu_tanggap": 10,
    "persen_tanggap": 24.4,
-   "tanggap": 86,
+   "tanggap": 87,
    "jalur_khusus": 7,
    "melewati_batas": 21,
    "median_jeda_jam": 13.1,
@@ -374,7 +374,7 @@
     ],
     [
      "narkoba",
-     28
+     29
     ],
     [
      "anggota",
@@ -590,11 +590,11 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 100,
+   "kasus": 101,
    "perlu": 23,
    "perlu_tanggap": 5,
    "persen_tanggap": 21.7,
-   "tanggap": 63,
+   "tanggap": 64,
    "jalur_khusus": 2,
    "melewati_batas": 17,
    "median_jeda_jam": 10.5,
@@ -1119,7 +1119,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "kejadian": 6,
-   "kasus": 24,
+   "kasus": 25,
    "tanggal": [
     "2026-10-29",
     "2026-11-02",
@@ -1674,6 +1674,26 @@
    "penanggung_jawab": "Kasat Binmas Polres Madiun Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "5271",
+   "kabkota": "Kota Mataram",
+   "kode_prov": "52",
+   "provinsi": "Nusa Tenggara Barat",
+   "polda": "Polda Nusa Tenggara Barat",
+   "polres": "Polresta Mataram",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 4,
+   "kasus": 11,
+   "tanggal": [
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-13",
+    "2026-11-16"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1404",
    "kabkota": "Kabupaten Pelalawan",
    "kode_prov": "14",
@@ -1732,26 +1752,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kediri Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "5271",
-   "kabkota": "Kota Mataram",
-   "kode_prov": "52",
-   "provinsi": "Nusa Tenggara Barat",
-   "polda": "Polda Nusa Tenggara Barat",
-   "polres": "Polresta Mataram",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 4,
-   "kasus": 10,
-   "tanggal": [
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-13",
-    "2026-11-16"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
   },
   {
    "kode_kab": "3578",
