@@ -1,7 +1,7 @@
 {
- "diperbarui_utc": "2026-11-17T16:46:21Z",
+ "diperbarui_utc": "2026-11-17T17:37:55Z",
  "jendela_hari": 30,
- "hari_riwayat": 21,
+ "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
  "kasus_tanpa_polda": 3456,
  "polda": [
@@ -39,19 +39,19 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 407,
+   "kasus": 408,
    "perlu": 144,
    "perlu_tanggap": 25,
    "persen_tanggap": 17.4,
-   "tanggap": 188,
+   "tanggap": 189,
    "jalur_khusus": 7,
-   "melewati_batas": 84,
+   "melewati_batas": 85,
    "median_jeda_jam": 10.4,
    "n_jeda": 25,
    "topik_teratas": [
     [
      "jalanan",
-     128
+     129
     ],
     [
      "darurat",
@@ -132,7 +132,7 @@
    "persen_tanggap": 19.8,
    "tanggap": 208,
    "jalur_khusus": 4,
-   "melewati_batas": 62,
+   "melewati_batas": 63,
    "median_jeda_jam": 9.4,
    "n_jeda": 20,
    "topik_teratas": [
@@ -1427,6 +1427,27 @@
    "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3205",
+   "kabkota": "Kabupaten Garut",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Garut",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 5,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-06",
+    "2026-11-11",
+    "2026-11-17"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -2312,26 +2333,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Majalengka bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3507",
-   "kabkota": "Kabupaten Malang",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polres Malang",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-11",
-    "2026-11-17"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Malang bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
