@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-16T23:03:03Z",
+ "diperbarui_utc": "2026-11-17T00:00:13Z",
  "terbaru": {
-  "waktu_utc": "2026-11-16T21:11:20Z",
-  "magnitudo": 7.1,
-  "kedalaman": "115 km",
-  "wilayah": "Pusat gempa berada di 130km BaratDaya Maluku Tenggara",
+  "waktu_utc": "2026-11-16T23:30:16Z",
+  "magnitudo": 2.6,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 10 km selatan Kota Sukabumi",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Saumlaki, III Tiakur, III Dobo, III Sorong, III Manokwari, III Manokwari Selatan, III Bintuni, III Tual, III Fakfak, III Kaimana, II Nabire, II Serui",
-  "koordinat": "-6.03,131.62",
-  "prov": "Maluku",
-  "kode_prov": "81"
+  "dirasakan": "III Nyalindung",
+  "koordinat": "-7.00,106.95",
+  "prov": "Jawa Barat",
+  "kode_prov": "32"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-16T23:30:16Z",
+   "magnitudo": 2.6,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 10 km selatan Kota Sukabumi",
+   "potensi": null,
+   "dirasakan": "III Nyalindung",
+   "koordinat": "-7.00,106.95",
+   "prov": "Jawa Barat",
+   "kode_prov": "32"
+  },
   {
    "waktu_utc": "2026-11-16T21:11:20Z",
    "magnitudo": 7.1,
@@ -163,17 +174,6 @@
    "potensi": null,
    "dirasakan": "III Saumlaki",
    "koordinat": "-8.02,130.49",
-   "prov": null,
-   "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-11-10T00:49:12Z",
-   "magnitudo": 4.5,
-   "kedalaman": "14 km",
-   "wilayah": "Pusat gempa berada di laut 103 km selatan Bolaanguki-Bolsel",
-   "potensi": null,
-   "dirasakan": "II - III Luwuk",
-   "koordinat": "-0.52,123.76",
    "prov": null,
    "kode_prov": null
   }
