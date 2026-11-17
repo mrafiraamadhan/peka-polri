@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-17T21:55:32Z",
+ "diperbarui_utc": "2026-11-17T22:19:21Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3464,
+ "kasus_tanpa_polda": 3466,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 708,
+   "kasus": 709,
    "perlu": 261,
    "perlu_tanggap": 54,
    "persen_tanggap": 20.7,
-   "tanggap": 364,
+   "tanggap": 365,
    "jalur_khusus": 36,
    "melewati_batas": 158,
    "median_jeda_jam": 14.6,
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     107
+     108
     ]
    ]
   },
@@ -39,7 +39,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 408,
+   "kasus": 409,
    "perlu": 144,
    "perlu_tanggap": 25,
    "persen_tanggap": 17.4,
@@ -55,7 +55,7 @@
     ],
     [
      "darurat",
-     122
+     123
     ],
     [
      "narkoba",
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 343,
-   "perlu": 131,
+   "kasus": 344,
+   "perlu": 132,
    "perlu_tanggap": 32,
-   "persen_tanggap": 24.4,
+   "persen_tanggap": 24.2,
    "tanggap": 173,
    "jalur_khusus": 4,
    "melewati_batas": 75,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     74
+     75
     ],
     [
      "narkoba",
@@ -2115,6 +2115,26 @@
    "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3275",
+   "kabkota": "Kota Bekasi",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Bekasi Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 4,
+   "kasus": 8,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-05",
+    "2026-11-14",
+    "2026-11-18"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Bekasi Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1276",
    "kabkota": "Kota Binjai",
    "kode_prov": "12",
@@ -2313,26 +2333,6 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polres Kutai Kartanegara bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3524",
-   "kabkota": "Kabupaten Lamongan",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polres Lamongan",
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kejadian": 4,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-11"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
