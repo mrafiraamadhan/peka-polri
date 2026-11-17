@@ -1,21 +1,21 @@
 {
- "diperbarui_utc": "2026-11-17T21:03:51Z",
+ "diperbarui_utc": "2026-11-17T21:55:32Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3461,
+ "kasus_tanpa_polda": 3464,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 706,
-   "perlu": 259,
+   "kasus": 708,
+   "perlu": 261,
    "perlu_tanggap": 54,
-   "persen_tanggap": 20.8,
+   "persen_tanggap": 20.7,
    "tanggap": 364,
-   "jalur_khusus": 35,
+   "jalur_khusus": 36,
    "melewati_batas": 158,
    "median_jeda_jam": 14.6,
    "n_jeda": 54,
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 342,
-   "perlu": 130,
+   "kasus": 343,
+   "perlu": 131,
    "perlu_tanggap": 32,
-   "persen_tanggap": 24.6,
+   "persen_tanggap": 24.4,
    "tanggap": 173,
    "jalur_khusus": 4,
    "melewati_batas": 75,
@@ -238,6 +238,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Selatan",
+   "provinsi": [
+    "73"
+   ],
+   "kasus": 137,
+   "perlu": 56,
+   "perlu_tanggap": 7,
+   "persen_tanggap": 12.5,
+   "tanggap": 69,
+   "jalur_khusus": 16,
+   "melewati_batas": 33,
+   "median_jeda_jam": 7.7,
+   "n_jeda": 7,
+   "topik_teratas": [
+    [
+     "jalanan",
+     40
+    ],
+    [
+     "darurat",
+     21
+    ],
+    [
+     "anggota",
+     19
+    ]
+   ]
+  },
+  {
    "polda": "Polda Lampung",
    "provinsi": [
     "18"
@@ -263,35 +292,6 @@
     [
      "darurat",
      26
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Selatan",
-   "provinsi": [
-    "73"
-   ],
-   "kasus": 135,
-   "perlu": 55,
-   "perlu_tanggap": 7,
-   "persen_tanggap": 12.7,
-   "tanggap": 68,
-   "jalur_khusus": 16,
-   "melewati_batas": 33,
-   "median_jeda_jam": 7.7,
-   "n_jeda": 7,
-   "topik_teratas": [
-    [
-     "jalanan",
-     39
-    ],
-    [
-     "darurat",
-     21
-    ],
-    [
-     "anggota",
-     19
     ]
    ]
   },
@@ -416,19 +416,19 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 82,
-   "perlu": 35,
-   "perlu_tanggap": 11,
-   "persen_tanggap": 31.4,
-   "tanggap": 49,
+   "kasus": 84,
+   "perlu": 36,
+   "perlu_tanggap": 12,
+   "persen_tanggap": 33.3,
+   "tanggap": 51,
    "jalur_khusus": 3,
    "melewati_batas": 15,
-   "median_jeda_jam": 9.4,
-   "n_jeda": 11,
+   "median_jeda_jam": 13.8,
+   "n_jeda": 12,
    "topik_teratas": [
     [
      "perempuan_anak",
-     25
+     27
     ],
     [
      "jalanan",
@@ -474,11 +474,11 @@
    "provinsi": [
     "21"
    ],
-   "kasus": 92,
+   "kasus": 93,
    "perlu": 32,
    "perlu_tanggap": 7,
    "persen_tanggap": 21.9,
-   "tanggap": 61,
+   "tanggap": 62,
    "jalur_khusus": 6,
    "melewati_batas": 16,
    "median_jeda_jam": 12.8,
@@ -619,11 +619,11 @@
    "provinsi": [
     "63"
    ],
-   "kasus": 77,
+   "kasus": 78,
    "perlu": 22,
    "perlu_tanggap": 3,
    "persen_tanggap": 13.6,
-   "tanggap": 38,
+   "tanggap": 39,
    "jalur_khusus": 1,
    "melewati_batas": 17,
    "median_jeda_jam": 9.6,
@@ -635,7 +635,7 @@
     ],
     [
      "jalanan",
-     20
+     21
     ],
     [
      "darurat",
@@ -2075,6 +2075,26 @@
    "penanggung_jawab": "Kasat Binmas Polres Tanggamus bersama pemerintah daerah"
   },
   {
+   "kode_kab": "6371",
+   "kabkota": "Kota Banjarmasin",
+   "kode_prov": "63",
+   "provinsi": "Kalimantan Selatan",
+   "polda": "Polda Kalimantan Selatan",
+   "polres": "Polresta Banjarmasin",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 4,
+   "kasus": 8,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-05",
+    "2026-11-11",
+    "2026-11-17"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polresta Banjarmasin bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "2171",
    "kabkota": "Kota Batam",
    "kode_prov": "21",
@@ -2313,26 +2333,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3210",
-   "kabkota": "Kabupaten Majalengka",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polres Majalengka",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 4,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-09"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Majalengka bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
