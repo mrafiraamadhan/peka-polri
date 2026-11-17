@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-17T06:26:15Z",
+ "diperbarui_utc": "2026-11-17T07:18:29Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-17T06:27:43Z",
+   "dicek_utc": "2026-11-17T07:21:02Z",
    "ok": true,
-   "n": 808,
-   "pesan": "Google perempuan_anak: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=KDRT+OR+%22kekerasan+seksual%22+OR+pencabulan+OR+pemerkosaan+OR+%22kekerasan+terhadap+anak%22+O",
+   "n": 600,
+   "pesan": "Google penipuan: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22penipuan+online%22+OR+%22investasi+bodong%22+OR+%22pinjol+ilegal%22+OR+%22judi+online%22+OR+penipu",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-17T06:27:47Z",
+   "dicek_utc": "2026-11-17T07:21:03Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-17T06:27:48Z",
+   "dicek_utc": "2026-11-17T07:21:04Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-17T06:28:07Z",
+   "dicek_utc": "2026-11-17T07:21:25Z",
    "ok": false,
    "n": 9,
-   "pesan": "0 dari 6 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "06:26:16 PEKA mulai 2026-11-17T06:26:15Z ",
-  "06:27:43 dengar berita: 808 artikel dari 10 kueri (Google ok 9, Bing 1)",
-  "06:28:07 dengar GDELT: 0/6 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "06:28:07 pilah: {'masuk': 808, 'sudah_ada': 728, 'tidak_relevan': 7, 'bukan_kejadian': 24, 'luar_negeri': 1, 'hoaks': 1, 'gabung': 23, 'kasus_baru': 24, 'relevan': 47}",
-  "06:28:07 papan Polda: 38 Polda berkasus | titik rawan: 292"
+  "07:18:29 PEKA mulai 2026-11-17T07:18:29Z ",
+  "07:21:02 dengar berita: 600 artikel dari 10 kueri (Google ok 6, Bing 4)",
+  "07:21:25 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "07:21:25 pilah: {'masuk': 600, 'sudah_ada': 540, 'bukan_kejadian': 18, 'tidak_relevan': 4, 'luar_negeri': 1, 'gabung': 22, 'kasus_baru': 15, 'relevan': 37}",
+  "07:21:25 papan Polda: 38 Polda berkasus | titik rawan: 293"
  ]
 }
