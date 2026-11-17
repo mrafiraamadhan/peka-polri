@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-17T17:37:55Z",
+ "diperbarui_utc": "2026-11-17T18:29:16Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3456,
+ "kasus_tanpa_polda": 3458,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -74,7 +74,7 @@
    "persen_tanggap": 24.4,
    "tanggap": 173,
    "jalur_khusus": 4,
-   "melewati_batas": 75,
+   "melewati_batas": 76,
    "median_jeda_jam": 3.8,
    "n_jeda": 32,
    "topik_teratas": [
@@ -238,35 +238,6 @@
    ]
   },
   {
-   "polda": "Polda Sulawesi Selatan",
-   "provinsi": [
-    "73"
-   ],
-   "kasus": 135,
-   "perlu": 56,
-   "perlu_tanggap": 7,
-   "persen_tanggap": 12.5,
-   "tanggap": 68,
-   "jalur_khusus": 16,
-   "melewati_batas": 34,
-   "median_jeda_jam": 7.7,
-   "n_jeda": 7,
-   "topik_teratas": [
-    [
-     "jalanan",
-     39
-    ],
-    [
-     "darurat",
-     21
-    ],
-    [
-     "anggota",
-     19
-    ]
-   ]
-  },
-  {
    "polda": "Polda Lampung",
    "provinsi": [
     "18"
@@ -292,6 +263,35 @@
     [
      "darurat",
      26
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sulawesi Selatan",
+   "provinsi": [
+    "73"
+   ],
+   "kasus": 135,
+   "perlu": 55,
+   "perlu_tanggap": 7,
+   "persen_tanggap": 12.7,
+   "tanggap": 68,
+   "jalur_khusus": 16,
+   "melewati_batas": 33,
+   "median_jeda_jam": 7.7,
+   "n_jeda": 7,
+   "topik_teratas": [
+    [
+     "jalanan",
+     39
+    ],
+    [
+     "darurat",
+     21
+    ],
+    [
+     "anggota",
+     19
     ]
    ]
   },
