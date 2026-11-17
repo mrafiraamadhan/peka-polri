@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-17T19:20:38Z",
+ "diperbarui_utc": "2026-11-17T20:12:25Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3458,
+ "kasus_tanpa_polda": 3461,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -69,12 +69,12 @@
     "31"
    ],
    "kasus": 342,
-   "perlu": 131,
+   "perlu": 130,
    "perlu_tanggap": 32,
-   "persen_tanggap": 24.4,
+   "persen_tanggap": 24.6,
    "tanggap": 173,
    "jalur_khusus": 4,
-   "melewati_batas": 76,
+   "melewati_batas": 75,
    "median_jeda_jam": 3.8,
    "n_jeda": 32,
    "topik_teratas": [
@@ -354,35 +354,6 @@
    ]
   },
   {
-   "polda": "Polda Nusa Tenggara Barat",
-   "provinsi": [
-    "52"
-   ],
-   "kasus": 129,
-   "perlu": 41,
-   "perlu_tanggap": 10,
-   "persen_tanggap": 24.4,
-   "tanggap": 87,
-   "jalur_khusus": 7,
-   "melewati_batas": 21,
-   "median_jeda_jam": 13.1,
-   "n_jeda": 10,
-   "topik_teratas": [
-    [
-     "jalanan",
-     40
-    ],
-    [
-     "narkoba",
-     29
-    ],
-    [
-     "anggota",
-     15
-    ]
-   ]
-  },
-  {
    "polda": "Polda Kalimantan Barat",
    "provinsi": [
     "61"
@@ -408,6 +379,35 @@
     [
      "darurat",
      23
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Nusa Tenggara Barat",
+   "provinsi": [
+    "52"
+   ],
+   "kasus": 129,
+   "perlu": 40,
+   "perlu_tanggap": 9,
+   "persen_tanggap": 22.5,
+   "tanggap": 87,
+   "jalur_khusus": 7,
+   "melewati_batas": 21,
+   "median_jeda_jam": 14.3,
+   "n_jeda": 9,
+   "topik_teratas": [
+    [
+     "jalanan",
+     40
+    ],
+    [
+     "narkoba",
+     29
+    ],
+    [
+     "anggota",
+     15
     ]
    ]
   },
