@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-18T19:07:33Z",
+ "diperbarui_utc": "2026-11-18T19:59:06Z",
  "jendela_hari": 30,
  "hari_riwayat": 23,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -39,7 +39,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 431,
+   "kasus": 432,
    "perlu": 151,
    "perlu_tanggap": 26,
    "persen_tanggap": 17.2,
@@ -55,7 +55,7 @@
     ],
     [
      "darurat",
-     129
+     130
     ],
     [
      "narkoba",
@@ -68,7 +68,7 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 351,
+   "kasus": 352,
    "perlu": 136,
    "perlu_tanggap": 34,
    "persen_tanggap": 25.0,
@@ -80,7 +80,7 @@
    "topik_teratas": [
     [
      "darurat",
-     94
+     95
     ],
     [
      "jalanan",
@@ -499,6 +499,35 @@
    ]
   },
   {
+   "polda": "Polda Sumatera Barat",
+   "provinsi": [
+    "13"
+   ],
+   "kasus": 134,
+   "perlu": 31,
+   "perlu_tanggap": 3,
+   "persen_tanggap": 9.7,
+   "tanggap": 77,
+   "jalur_khusus": 2,
+   "melewati_batas": 21,
+   "median_jeda_jam": 3.6,
+   "n_jeda": 3,
+   "topik_teratas": [
+    [
+     "darurat",
+     47
+    ],
+    [
+     "jalanan",
+     27
+    ],
+    [
+     "narkoba",
+     27
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Timur",
    "provinsi": [
     "64"
@@ -640,35 +669,6 @@
     [
      "darurat",
      20
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sumatera Barat",
-   "provinsi": [
-    "13"
-   ],
-   "kasus": 132,
-   "perlu": 21,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 9.5,
-   "tanggap": 76,
-   "jalur_khusus": 2,
-   "melewati_batas": 16,
-   "median_jeda_jam": 9.2,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "darurat",
-     46
-    ],
-    [
-     "narkoba",
-     27
-    ],
-    [
-     "jalanan",
-     26
     ]
    ]
   },
@@ -876,6 +876,35 @@
    ]
   },
   {
+   "polda": "Polda Gorontalo",
+   "provinsi": [
+    "75"
+   ],
+   "kasus": 25,
+   "perlu": 12,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 11,
+   "jalur_khusus": 2,
+   "melewati_batas": 9,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     9
+    ],
+    [
+     "perempuan_anak",
+     4
+    ],
+    [
+     "darurat",
+     4
+    ]
+   ]
+  },
+  {
    "polda": "Polda yang membawahi Papua Tengah",
    "provinsi": [
     "96"
@@ -930,35 +959,6 @@
     [
      "narkoba",
      3
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Gorontalo",
-   "provinsi": [
-    "75"
-   ],
-   "kasus": 24,
-   "perlu": 11,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 11,
-   "jalur_khusus": 1,
-   "melewati_batas": 9,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     9
-    ],
-    [
-     "perempuan_anak",
-     4
-    ],
-    [
-     "darurat",
-     4
     ]
    ]
   },
@@ -1473,6 +1473,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Serdang Bedagai bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3174",
+   "kabkota": "Kota Jakarta Barat",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Barat",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 9,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-08",
+    "2026-11-14",
+    "2026-11-19"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "6472",
    "kabkota": "Kota Samarinda",
    "kode_prov": "64",
@@ -1799,7 +1820,7 @@
     "2026-10-27",
     "2026-11-02",
     "2026-11-06",
-    "2026-11-14"
+    "2026-11-19"
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Madiun Kota bersama pemerintah daerah"
@@ -1883,6 +1904,26 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3271",
+   "kabkota": "Kota Bogor",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polresta Bogor Kota",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 4,
+   "kasus": 10,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-04",
+    "2026-11-15",
+    "2026-11-19"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3173",
@@ -2105,26 +2146,6 @@
    "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
   },
   {
-   "kode_kab": "3271",
-   "kabkota": "Kota Bogor",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polresta Bogor Kota",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 9,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-04",
-    "2026-11-15",
-    "2026-11-19"
-   ],
-   "kejadian_ditanggapi": 0,
-   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "5171",
    "kabkota": "Kota Denpasar",
    "kode_prov": "51",
@@ -2323,26 +2344,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1813",
-   "kabkota": "Kabupaten Pesisir Barat",
-   "kode_prov": "18",
-   "provinsi": "Lampung",
-   "polda": "Polda Lampung",
-   "polres": "Polres Pesisir Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 4,
-   "kasus": 8,
-   "tanggal": [
-    "2026-11-02",
-    "2026-11-07",
-    "2026-11-12",
-    "2026-11-18"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Pesisir Barat bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
