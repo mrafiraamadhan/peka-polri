@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-18T03:28:46Z",
+ "diperbarui_utc": "2026-11-18T04:16:14Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 12,
-  "anggota": 45,
+  "anggota": 44,
   "kekerasan": 3
  },
  "anggota_sudah_ditangani": 29,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 60,
-  "TINDAK": 70,
-  "PANTAU": 150,
-  "TERCATAT": 1075
+  "JALUR KHUSUS": 59,
+  "TINDAK": 68,
+  "PANTAU": 152,
+  "TERCATAT": 1079
  },
- "kasus_aktif": 1355,
+ "kasus_aktif": 1358,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 80
+   "kasus": 79
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -27,15 +27,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 223
+   "kasus": 226
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 140
+   "kasus": 139
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 266
+   "kasus": 267
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -43,7 +43,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 95
+   "kasus": 94
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 364
+   "kasus": 366
   }
  },
  "provinsi": {
@@ -60,7 +60,7 @@
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 4,
    "TINDAK": 2,
-   "PANTAU": 6,
+   "PANTAU": 7,
    "TERCATAT": 15
   },
   "14": {
@@ -75,16 +75,16 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 11,
-   "TINDAK": 11,
+   "TINDAK": 10,
    "PANTAU": 13,
-   "TERCATAT": 59
+   "TERCATAT": 58
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "JALUR KHUSUS": 4,
    "TINDAK": 1,
-   "PANTAU": 7,
+   "PANTAU": 6,
    "TERCATAT": 8
   },
   "18": {
@@ -115,15 +115,15 @@
    "polda": "Polda Gorontalo",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 2
+   "TERCATAT": 1
   },
   "21": {
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 15
+   "PANTAU": 2,
+   "TERCATAT": 16
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -161,7 +161,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 24
+   "TERCATAT": 26
   },
   "32": {
    "nama": "Jawa Barat",
@@ -181,15 +181,15 @@
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "TINDAK": 10,
-   "PANTAU": 8,
-   "TERCATAT": 37
+   "PANTAU": 9,
+   "TERCATAT": 36
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 4,
    "PANTAU": 6,
-   "TERCATAT": 30
+   "TERCATAT": 29
   },
   "36": {
    "nama": "Banten",
@@ -203,13 +203,6 @@
    "polda": "Polda Maluku",
    "TINDAK": 1,
    "TERCATAT": 6
-  },
-  "76": {
-   "nama": "Sulawesi Barat",
-   "polda": "Polda Sulawesi Barat",
-   "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 3
   },
   "51": {
    "nama": "Bali",
@@ -235,7 +228,7 @@
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "PANTAU": 1,
-   "TERCATAT": 6
+   "TERCATAT": 7
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -261,11 +254,17 @@
    "PANTAU": 4,
    "TERCATAT": 13
   },
+  "76": {
+   "nama": "Sulawesi Barat",
+   "polda": "Polda Sulawesi Barat",
+   "PANTAU": 1,
+   "TERCATAT": 3
+  },
   "71": {
    "nama": "Sulawesi Utara",
    "polda": "Polda Sulawesi Utara",
    "PANTAU": 1,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -305,50 +304,42 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 34,
-   "sudah_ada": 842,
-   "hoaks": 1,
-   "tidak_relevan": 14,
-   "bukan_kejadian": 16,
-   "luar_negeri": 1,
-   "kasus_baru": 16,
-   "digabung": 18
+   "relevan": 38,
+   "sudah_ada": 829,
+   "hoaks": 0,
+   "tidak_relevan": 8,
+   "bukan_kejadian": 33,
+   "luar_negeri": 0,
+   "kasus_baru": 19,
+   "digabung": 19
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 60,
-   "TINDAK": 70,
-   "PANTAU": 150,
-   "TERCATAT": 1075
+   "JALUR KHUSUS": 59,
+   "TINDAK": 68,
+   "PANTAU": 152,
+   "TERCATAT": 1079
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 280
+   "kasus": 279
   },
   "kabarkan": {
-   "tanggapan_terlihat": 601,
-   "kasus": 1355,
-   "tanggapan_sejak_berita_pertama": 509,
-   "median_jeda_jam": 12.3,
-   "n_jeda": 92,
-   "melewati_batas": 119
+   "tanggapan_terlihat": 606,
+   "kasus": 1358,
+   "tanggapan_sejak_berita_pertama": 515,
+   "median_jeda_jam": 12.1,
+   "n_jeda": 91,
+   "melewati_batas": 118
   },
   "arsipkan": {
-   "baris": 8634,
+   "baris": 8653,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 22
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": null,
-   "prov": "Tanpa lokasi",
-   "topik": "anggota",
-   "nama": "Perilaku anggota",
-   "hari_ini": 15,
-   "rata": 4.95
-  },
   {
    "kode_prov": "32",
    "prov": "Jawa Barat",
@@ -362,14 +353,35 @@
    "prov": "Aceh",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 13,
+   "hari_ini": 14,
    "rata": 5.95
+  },
+  {
+   "kode_prov": null,
+   "prov": "Tanpa lokasi",
+   "topik": "anggota",
+   "nama": "Perilaku anggota",
+   "hari_ini": 14,
+   "rata": 4.95
+  },
+  {
+   "kode_prov": "13",
+   "prov": "Sumatera Barat",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 1.05
   }
  ],
  "lonjakan_nasional": [],
  "hari_riwayat": 22,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Video \"Dedi Mulyadi Ikuti Pencalonan Wapres\"",
+   "url": "https://turnbackhoax.id/articles/37478-salah-video-dedi-mulyadi-ikuti-pencalonan-wapres",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Prabowo Resmi Melantik Gatot Nurmantyo Sebagai Menko Polhukam",
    "url": "https://turnbackhoax.id/articles/37473-salah-prabowo-resmi-melantik-gatot-nurmantyo-sebagai-menko-polhukam",
@@ -393,11 +405,6 @@
   {
    "judul": "[SALAH] Yenny Wahid Akui Bergabung PSI",
    "url": "https://turnbackhoax.id/articles/37453-salah-yenny-wahid-akui-bergabung-psi",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Prabowo Bakal Mengirim Perokok untuk Menghisap Asap Karhutla",
-   "url": "https://turnbackhoax.id/articles/37452-salah-prabowo-bakal-mengirim-perokok-untuk-menghisap-asap-karhutla",
    "terbit": null
   }
  ]

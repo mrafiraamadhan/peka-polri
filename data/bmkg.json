@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-18T03:28:46Z",
+ "diperbarui_utc": "2026-11-18T04:16:14Z",
  "terbaru": {
   "waktu_utc": "2026-11-18T03:24:03Z",
   "magnitudo": 5.3,
   "kedalaman": "56 km",
-  "wilayah": "75 km BaratLaut INTANJAYA-PAPUATENGAH",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
+  "wilayah": "Pusat gempa berada di darat 75 kmk Barat Laut Intan Jaya",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "II-III Nabire",
   "koordinat": "-2.83,136.73",
-  "prov": null,
-  "kode_prov": null
+  "prov": "Papua Tengah",
+  "kode_prov": "96"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-18T03:24:03Z",
+   "magnitudo": 5.3,
+   "kedalaman": "56 km",
+   "wilayah": "Pusat gempa berada di darat 75 kmk Barat Laut Intan Jaya",
+   "potensi": null,
+   "dirasakan": "II-III Nabire",
+   "koordinat": "-2.83,136.73",
+   "prov": "Papua Tengah",
+   "kode_prov": "96"
+  },
   {
    "waktu_utc": "2026-11-17T00:49:17Z",
    "magnitudo": 4.8,
@@ -165,17 +176,6 @@
    "koordinat": "-7.04,106.98",
    "prov": "Jawa Barat",
    "kode_prov": "32"
-  },
-  {
-   "waktu_utc": "2026-11-10T08:34:04Z",
-   "magnitudo": 5.3,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di laut 69 km barat laut Kebar Manokwari",
-   "potensi": null,
-   "dirasakan": "II - III Manokwari",
-   "koordinat": "-0.19,132.98",
-   "prov": "Papua Barat",
-   "kode_prov": "91"
   }
  ],
  "m5": [
