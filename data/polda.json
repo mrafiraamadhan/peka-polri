@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-18T12:49:45Z",
+ "diperbarui_utc": "2026-11-18T13:07:08Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3600,
+ "kasus_tanpa_polda": 3604,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -97,7 +97,7 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 346,
+   "kasus": 347,
    "perlu": 117,
    "perlu_tanggap": 20,
    "persen_tanggap": 17.1,
@@ -113,7 +113,7 @@
     ],
     [
      "darurat",
-     91
+     92
     ],
     [
      "lalulintas",
@@ -300,7 +300,7 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 246,
+   "kasus": 247,
    "perlu": 51,
    "perlu_tanggap": 10,
    "persen_tanggap": 19.6,
@@ -312,7 +312,7 @@
    "topik_teratas": [
     [
      "darurat",
-     137
+     138
     ],
     [
      "narkoba",
@@ -509,7 +509,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 61,
    "jalur_khusus": 1,
-   "melewati_batas": 20,
+   "melewati_batas": 21,
    "median_jeda_jam": 20.9,
    "n_jeda": 4,
    "topik_teratas": [
@@ -1176,6 +1176,28 @@
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1113",
+   "kabkota": "Kabupaten Gayo Lues",
+   "kode_prov": "11",
+   "provinsi": "Aceh",
+   "polda": "Polda Aceh",
+   "polres": "Polres Gayo Lues",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 6,
+   "kasus": 13,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-09",
+    "2026-11-14",
+    "2026-11-18"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5371",
    "kabkota": "Kota Kupang",
    "kode_prov": "53",
@@ -1343,27 +1365,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polrestabes Palembang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1113",
-   "kabkota": "Kabupaten Gayo Lues",
-   "kode_prov": "11",
-   "provinsi": "Aceh",
-   "polda": "Polda Aceh",
-   "polres": "Polres Gayo Lues",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 12,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-09",
-    "2026-11-14"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
   },
   {
    "kode_kab": "5271",
