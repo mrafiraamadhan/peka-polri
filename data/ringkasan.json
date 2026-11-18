@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-18T20:50:30Z",
+ "diperbarui_utc": "2026-11-18T21:25:18Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 13,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 74,
-  "TINDAK": 74,
+  "TINDAK": 76,
   "PANTAU": 129,
-  "TERCATAT": 1185
+  "TERCATAT": 1189
  },
- "kasus_aktif": 1463,
+ "kasus_aktif": 1469,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 264
+   "kasus": 265
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -35,11 +35,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 288
+   "kasus": 291
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 97
+   "kasus": 99
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -86,7 +86,7 @@
    "JALUR KHUSUS": 13,
    "TINDAK": 12,
    "PANTAU": 12,
-   "TERCATAT": 67
+   "TERCATAT": 68
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -200,7 +200,7 @@
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
-   "TINDAK": 4,
+   "TINDAK": 6,
    "PANTAU": 6,
    "TERCATAT": 31
   },
@@ -235,7 +235,7 @@
    "polda": "Polda Kalimantan Tengah",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 13
+   "TERCATAT": 14
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -312,39 +312,39 @@
  "langkah": {
   "dengar": {
    "artikel": 908,
-   "sumber": 4
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 6,
-   "sudah_ada": 896,
+   "relevan": 13,
+   "sudah_ada": 890,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 3,
-   "luar_negeri": 1,
-   "kasus_baru": 4,
-   "digabung": 2
+   "tidak_relevan": 3,
+   "bukan_kejadian": 2,
+   "luar_negeri": 0,
+   "kasus_baru": 6,
+   "digabung": 7
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 74,
-   "TINDAK": 74,
+   "TINDAK": 76,
    "PANTAU": 129,
-   "TERCATAT": 1185
+   "TERCATAT": 1189
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 278
+   "kasus": 280
   },
   "kabarkan": {
-   "tanggapan_terlihat": 657,
-   "kasus": 1463,
-   "tanggapan_sejak_berita_pertama": 565,
+   "tanggapan_terlihat": 659,
+   "kasus": 1469,
+   "tanggapan_sejak_berita_pertama": 567,
    "median_jeda_jam": 12.8,
    "n_jeda": 92,
    "melewati_batas": 102
   },
   "arsipkan": {
-   "baris": 8993,
+   "baris": 8998,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 23
@@ -376,16 +376,7 @@
    "rata": 1.17
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kemarin": 0,
-   "rata28": 6.1,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 23,
  "gempa_darurat": [],
  "hoaks_terbaru": [
