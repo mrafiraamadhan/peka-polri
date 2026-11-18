@@ -1,15 +1,15 @@
 {
- "diperbarui_utc": "2026-11-18T02:37:01Z",
+ "diperbarui_utc": "2026-11-18T03:28:46Z",
  "terbaru": {
-  "waktu_utc": "2026-11-17T00:49:17Z",
-  "magnitudo": 4.8,
-  "kedalaman": "2 km",
-  "wilayah": "Pusat gempa berada di laut 49 km timur laut Ruteng, Manggarai",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Kab. Manggarai",
-  "koordinat": "-8.22,120.66",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "waktu_utc": "2026-11-18T03:24:03Z",
+  "magnitudo": 5.3,
+  "kedalaman": "56 km",
+  "wilayah": "75 km BaratLaut INTANJAYA-PAPUATENGAH",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "-2.83,136.73",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
   {
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-18T03:24:03Z",
+   "magnitudo": 5.3,
+   "kedalaman": "56 km",
+   "wilayah": "75 km BaratLaut INTANJAYA-PAPUATENGAH",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-2.83,136.73",
+   "prov": null,
+   "kode_prov": null
+  },
+  {
    "waktu_utc": "2026-11-16T21:11:20Z",
    "magnitudo": 7.1,
    "kedalaman": "115 km",
@@ -332,17 +343,6 @@
    "koordinat": "5.59,125.27",
    "prov": "Sulawesi Utara",
    "kode_prov": "71"
-  },
-  {
-   "waktu_utc": "2026-10-27T14:43:13Z",
-   "magnitudo": 5.4,
-   "kedalaman": "10 km",
-   "wilayah": "136 km BaratDaya GUNUNGKIDUL-DIY",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-9.20,110.39",
-   "prov": "DI Yogyakarta",
-   "kode_prov": "34"
   }
  ]
 }

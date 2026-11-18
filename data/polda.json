@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-18T02:37:01Z",
+ "diperbarui_utc": "2026-11-18T03:28:46Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3483,
+ "kasus_tanpa_polda": 3496,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -16,7 +16,7 @@
    "persen_tanggap": 20.5,
    "tanggap": 367,
    "jalur_khusus": 36,
-   "melewati_batas": 159,
+   "melewati_batas": 160,
    "median_jeda_jam": 14.6,
    "n_jeda": 54,
    "topik_teratas": [
@@ -39,11 +39,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 415,
+   "kasus": 416,
    "perlu": 148,
    "perlu_tanggap": 25,
    "persen_tanggap": 16.9,
-   "tanggap": 189,
+   "tanggap": 190,
    "jalur_khusus": 7,
    "melewati_batas": 87,
    "median_jeda_jam": 10.4,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     129
+     130
     ],
     [
      "darurat",
@@ -161,7 +161,7 @@
    "persen_tanggap": 22.1,
    "tanggap": 210,
    "jalur_khusus": 5,
-   "melewati_batas": 57,
+   "melewati_batas": 58,
    "median_jeda_jam": 9.5,
    "n_jeda": 19,
    "topik_teratas": [
@@ -190,7 +190,7 @@
    "persen_tanggap": 16.5,
    "tanggap": 105,
    "jalur_khusus": 0,
-   "melewati_batas": 59,
+   "melewati_batas": 60,
    "median_jeda_jam": 19.8,
    "n_jeda": 14,
    "topik_teratas": [
@@ -219,7 +219,7 @@
    "persen_tanggap": 20.3,
    "tanggap": 116,
    "jalur_khusus": 8,
-   "melewati_batas": 43,
+   "melewati_batas": 44,
    "median_jeda_jam": 13.5,
    "n_jeda": 14,
    "topik_teratas": [
@@ -234,6 +234,35 @@
     [
      "darurat",
      25
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Lampung",
+   "provinsi": [
+    "18"
+   ],
+   "kasus": 195,
+   "perlu": 58,
+   "perlu_tanggap": 13,
+   "persen_tanggap": 22.4,
+   "tanggap": 123,
+   "jalur_khusus": 11,
+   "melewati_batas": 33,
+   "median_jeda_jam": 20.3,
+   "n_jeda": 13,
+   "topik_teratas": [
+    [
+     "jalanan",
+     75
+    ],
+    [
+     "narkoba",
+     48
+    ],
+    [
+     "darurat",
+     27
     ]
    ]
   },
@@ -263,35 +292,6 @@
     [
      "anggota",
      19
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Lampung",
-   "provinsi": [
-    "18"
-   ],
-   "kasus": 193,
-   "perlu": 56,
-   "perlu_tanggap": 13,
-   "persen_tanggap": 23.2,
-   "tanggap": 123,
-   "jalur_khusus": 11,
-   "melewati_batas": 33,
-   "median_jeda_jam": 20.3,
-   "n_jeda": 13,
-   "topik_teratas": [
-    [
-     "jalanan",
-     74
-    ],
-    [
-     "narkoba",
-     47
-    ],
-    [
-     "darurat",
-     27
     ]
    ]
   },
@@ -654,7 +654,7 @@
    "persen_tanggap": 10.0,
    "tanggap": 68,
    "jalur_khusus": 2,
-   "melewati_batas": 15,
+   "melewati_batas": 16,
    "median_jeda_jam": 9.2,
    "n_jeda": 2,
    "topik_teratas": [
