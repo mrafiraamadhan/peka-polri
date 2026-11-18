@@ -1,17 +1,17 @@
 {
- "diperbarui_utc": "2026-11-18T21:25:18Z",
+ "diperbarui_utc": "2026-11-18T22:16:30Z",
  "jendela_hari": 30,
  "hari_riwayat": 23,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3648,
+ "kasus_tanpa_polda": 3649,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 740,
-   "perlu": 275,
+   "kasus": 741,
+   "perlu": 276,
    "perlu_tanggap": 57,
    "persen_tanggap": 20.7,
    "tanggap": 381,
@@ -39,7 +39,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 432,
+   "kasus": 433,
    "perlu": 151,
    "perlu_tanggap": 26,
    "persen_tanggap": 17.2,
@@ -55,7 +55,7 @@
     ],
     [
      "darurat",
-     130
+     131
     ],
     [
      "narkoba",
@@ -68,13 +68,13 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 354,
+   "kasus": 355,
    "perlu": 138,
    "perlu_tanggap": 34,
    "persen_tanggap": 24.6,
-   "tanggap": 176,
+   "tanggap": 177,
    "jalur_khusus": 5,
-   "melewati_batas": 79,
+   "melewati_batas": 80,
    "median_jeda_jam": 3.1,
    "n_jeda": 34,
    "topik_teratas": [
@@ -88,7 +88,7 @@
     ],
     [
      "narkoba",
-     58
+     59
     ]
    ]
   },
@@ -213,11 +213,11 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 143,
+   "kasus": 144,
    "perlu": 61,
    "perlu_tanggap": 7,
    "persen_tanggap": 11.5,
-   "tanggap": 70,
+   "tanggap": 72,
    "jalur_khusus": 17,
    "melewati_batas": 35,
    "median_jeda_jam": 7.7,
@@ -1887,6 +1887,26 @@
    "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3272",
+   "kabkota": "Kota Sukabumi",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Sukabumi Kota",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 4,
+   "kasus": 11,
+   "tanggal": [
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-10",
+    "2026-11-16"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Sukabumi Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1404",
    "kabkota": "Kabupaten Pelalawan",
    "kode_prov": "14",
@@ -2025,26 +2045,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Padangsidimpuan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3272",
-   "kabkota": "Kota Sukabumi",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polres Sukabumi Kota",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 10,
-   "tanggal": [
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-10",
-    "2026-11-16"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Sukabumi Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3578",
