@@ -1,22 +1,55 @@
 {
- "diperbarui_utc": "2026-11-18T04:16:14Z",
+ "diperbarui_utc": "2026-11-18T05:07:48Z",
  "terbaru": {
-  "waktu_utc": "2026-11-18T03:24:03Z",
-  "magnitudo": 5.3,
-  "kedalaman": "56 km",
-  "wilayah": "Pusat gempa berada di darat 75 kmk Barat Laut Intan Jaya",
+  "waktu_utc": "2026-11-18T04:41:32Z",
+  "magnitudo": 5.8,
+  "kedalaman": "10 km",
+  "wilayah": "Pusat gempa berada di laut 49 km timur laut Ruteng-Manggarai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II-III Nabire",
-  "koordinat": "-2.83,136.73",
-  "prov": "Papua Tengah",
-  "kode_prov": "96"
+  "dirasakan": "IV-V Kab. Manggarai, II-III Kab. Ngada, III-IV Kab. Sumba Timur , III-IV Kab. Sumba Barat Daya, III-IV Kab. Manggarai Barat",
+  "koordinat": "-8.17,120.54",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-18T04:41:32Z",
+   "magnitudo": 5.8,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 49 km timur laut Ruteng-Manggarai",
+   "potensi": null,
+   "dirasakan": "IV-V Kab. Manggarai, II-III Kab. Ngada, III-IV Kab. Sumba Timur , III-IV Kab. Sumba Barat Daya, III-IV Kab. Manggarai Barat",
+   "koordinat": "-8.17,120.54",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
+  {
+   "waktu_utc": "2026-11-18T04:21:37Z",
+   "magnitudo": 4.9,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 52 km utara Ruteng-Manggarai",
+   "potensi": null,
+   "dirasakan": "III-IV Kab. Manggarai",
+   "koordinat": "-8.16,120.58",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
+  {
+   "waktu_utc": "2026-11-18T04:11:52Z",
+   "magnitudo": 4.3,
+   "kedalaman": "3 km",
+   "wilayah": "Pusat gempa berada di laut 60 km utara Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "II - III Kab. Manggarai",
+   "koordinat": "-8.08,120.54",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-18T03:24:03Z",
    "magnitudo": 5.3,
    "kedalaman": "56 km",
-   "wilayah": "Pusat gempa berada di darat 75 kmk Barat Laut Intan Jaya",
+   "wilayah": "Pusat gempa berada di darat 75 km Barat Laut Intan Jaya",
    "potensi": null,
    "dirasakan": "II-III Nabire",
    "koordinat": "-2.83,136.73",
@@ -143,42 +176,20 @@
    "koordinat": "4.15,97.49",
    "prov": "Aceh",
    "kode_prov": "11"
-  },
-  {
-   "waktu_utc": "2026-11-10T22:09:09Z",
-   "magnitudo": 4.9,
-   "kedalaman": "4 km",
-   "wilayah": "Pusat gempa berada di darat 6 km utara Kab. Gayo Lues",
-   "potensi": null,
-   "dirasakan": "III-IV Gayo Lues, III-IV Aceh Timur, III Aceh Tengah, III Bener Meriah, III Lhokseumawe",
-   "koordinat": "4.05,97.34",
-   "prov": "Aceh",
-   "kode_prov": "11"
-  },
-  {
-   "waktu_utc": "2026-11-10T16:04:15Z",
-   "magnitudo": 4.0,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di darat 12 km timur Konawe Selatan",
-   "potensi": null,
-   "dirasakan": "IV Konawe Selatan, III Kendari",
-   "koordinat": "-4.29,122.38",
-   "prov": "Sulawesi Tenggara",
-   "kode_prov": "74"
-  },
-  {
-   "waktu_utc": "2026-11-10T14:31:38Z",
-   "magnitudo": 4.0,
-   "kedalaman": "102 km",
-   "wilayah": "Pusat gempa berada di darat 15 km selatan Kota Sukabumi",
-   "potensi": null,
-   "dirasakan": "III Cianjur, II Sukabumi, II - III Ciwidey, II - III Pangalengan, II - III Nagrak, II Kec. Kebonpedes, II Cihanjuang, II Padalarang, II Cihideung, II Ngamprah, II Cisarua, II Lembang, II Karawang Selatan",
-   "koordinat": "-7.04,106.98",
-   "prov": "Jawa Barat",
-   "kode_prov": "32"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-18T04:41:32Z",
+   "magnitudo": 5.8,
+   "kedalaman": "10 km",
+   "wilayah": "49 km TimurLaut RUTENG-MANGGARAI-NTT",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-8.17,120.54",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-18T03:24:03Z",
    "magnitudo": 5.3,
@@ -330,17 +341,6 @@
    "potensi": "Tidak berpotensi tsunami",
    "dirasakan": null,
    "koordinat": "5.30,125.42",
-   "prov": "Sulawesi Utara",
-   "kode_prov": "71"
-  },
-  {
-   "waktu_utc": "2026-10-28T01:11:54Z",
-   "magnitudo": 5.4,
-   "kedalaman": "10 km",
-   "wilayah": "221 km BaratLaut PULAUKARATUNG-SULUT",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "5.59,125.27",
    "prov": "Sulawesi Utara",
    "kode_prov": "71"
   }
