@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-18T01:45:24Z",
+ "diperbarui_utc": "2026-11-18T02:37:01Z",
  "jendela_hari": 30,
  "hari_riwayat": 22,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3479,
+ "kasus_tanpa_polda": 3483,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,10 +39,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 414,
-   "perlu": 147,
+   "kasus": 415,
+   "perlu": 148,
    "perlu_tanggap": 25,
-   "persen_tanggap": 17.0,
+   "persen_tanggap": 16.9,
    "tanggap": 189,
    "jalur_khusus": 7,
    "melewati_batas": 87,
@@ -103,7 +103,7 @@
    "persen_tanggap": 17.5,
    "tanggap": 165,
    "jalur_khusus": 11,
-   "melewati_batas": 60,
+   "melewati_batas": 61,
    "median_jeda_jam": 10.2,
    "n_jeda": 20,
    "topik_teratas": [
@@ -118,35 +118,6 @@
     [
      "lalulintas",
      37
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sumatera Utara",
-   "provinsi": [
-    "12"
-   ],
-   "kasus": 321,
-   "perlu": 101,
-   "perlu_tanggap": 20,
-   "persen_tanggap": 19.8,
-   "tanggap": 210,
-   "jalur_khusus": 5,
-   "melewati_batas": 65,
-   "median_jeda_jam": 9.4,
-   "n_jeda": 20,
-   "topik_teratas": [
-    [
-     "narkoba",
-     134
-    ],
-    [
-     "jalanan",
-     71
-    ],
-    [
-     "darurat",
-     58
     ]
    ]
   },
@@ -176,6 +147,35 @@
     [
      "lalulintas",
      14
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sumatera Utara",
+   "provinsi": [
+    "12"
+   ],
+   "kasus": 321,
+   "perlu": 86,
+   "perlu_tanggap": 19,
+   "persen_tanggap": 22.1,
+   "tanggap": 210,
+   "jalur_khusus": 5,
+   "melewati_batas": 57,
+   "median_jeda_jam": 9.5,
+   "n_jeda": 19,
+   "topik_teratas": [
+    [
+     "narkoba",
+     134
+    ],
+    [
+     "jalanan",
+     71
+    ],
+    [
+     "darurat",
+     58
     ]
    ]
   },
@@ -238,6 +238,35 @@
    ]
   },
   {
+   "polda": "Polda Sulawesi Selatan",
+   "provinsi": [
+    "73"
+   ],
+   "kasus": 138,
+   "perlu": 57,
+   "perlu_tanggap": 7,
+   "persen_tanggap": 12.3,
+   "tanggap": 69,
+   "jalur_khusus": 16,
+   "melewati_batas": 34,
+   "median_jeda_jam": 7.7,
+   "n_jeda": 7,
+   "topik_teratas": [
+    [
+     "jalanan",
+     40
+    ],
+    [
+     "darurat",
+     21
+    ],
+    [
+     "anggota",
+     19
+    ]
+   ]
+  },
+  {
    "polda": "Polda Lampung",
    "provinsi": [
     "18"
@@ -267,44 +296,15 @@
    ]
   },
   {
-   "polda": "Polda Sulawesi Selatan",
-   "provinsi": [
-    "73"
-   ],
-   "kasus": 137,
-   "perlu": 56,
-   "perlu_tanggap": 7,
-   "persen_tanggap": 12.5,
-   "tanggap": 69,
-   "jalur_khusus": 16,
-   "melewati_batas": 34,
-   "median_jeda_jam": 7.7,
-   "n_jeda": 7,
-   "topik_teratas": [
-    [
-     "jalanan",
-     40
-    ],
-    [
-     "darurat",
-     21
-    ],
-    [
-     "anggota",
-     19
-    ]
-   ]
-  },
-  {
    "polda": "Polda Sumatera Selatan",
    "provinsi": [
     "16"
    ],
-   "kasus": 170,
+   "kasus": 171,
    "perlu": 54,
    "perlu_tanggap": 9,
    "persen_tanggap": 16.7,
-   "tanggap": 109,
+   "tanggap": 110,
    "jalur_khusus": 13,
    "melewati_batas": 28,
    "median_jeda_jam": 8.7,
@@ -316,7 +316,7 @@
     ],
     [
      "narkoba",
-     35
+     36
     ],
     [
      "darurat",
@@ -416,11 +416,11 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 84,
+   "kasus": 86,
    "perlu": 36,
    "perlu_tanggap": 12,
    "persen_tanggap": 33.3,
-   "tanggap": 51,
+   "tanggap": 53,
    "jalur_khusus": 3,
    "melewati_batas": 15,
    "median_jeda_jam": 13.8,
@@ -432,7 +432,7 @@
     ],
     [
      "jalanan",
-     25
+     27
     ],
     [
      "darurat",
@@ -480,7 +480,7 @@
    "persen_tanggap": 21.9,
    "tanggap": 62,
    "jalur_khusus": 6,
-   "melewati_batas": 16,
+   "melewati_batas": 17,
    "median_jeda_jam": 12.8,
    "n_jeda": 7,
    "topik_teratas": [
@@ -1154,6 +1154,28 @@
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "5371",
+   "kabkota": "Kota Kupang",
+   "kode_prov": "53",
+   "provinsi": "Nusa Tenggara Timur",
+   "polda": "Polda Nusa Tenggara Timur",
+   "polres": "Polresta Kupang Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 6,
+   "kasus": 9,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-11",
+    "2026-11-14",
+    "2026-11-18"
+   ],
+   "kejadian_ditanggapi": 6,
+   "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3471",
    "kabkota": "Kota Yogyakarta",
    "kode_prov": "34",
@@ -1509,27 +1531,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polresta Barelang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "5371",
-   "kabkota": "Kota Kupang",
-   "kode_prov": "53",
-   "provinsi": "Nusa Tenggara Timur",
-   "polda": "Polda Nusa Tenggara Timur",
-   "polres": "Polresta Kupang Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 5,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-11",
-    "2026-11-14"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3517",
