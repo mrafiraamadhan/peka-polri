@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-19T04:14:43Z",
+ "diperbarui_utc": "2026-11-19T05:06:27Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-19T04:15:36Z",
+   "dicek_utc": "2026-11-19T05:06:56Z",
    "ok": true,
-   "n": 809,
-   "pesan": "Google jalanan: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=pencurian+OR+penganiayaan+OR+pengeroyokan+OR+pembunuhan+when%3A2d&hl=id&gl=ID&ceid=ID%3Aid",
+   "n": 909,
+   "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-19T04:15:38Z",
+   "dicek_utc": "2026-11-19T05:06:58Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-19T04:15:38Z",
+   "dicek_utc": "2026-11-19T05:06:59Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-19T04:15:59Z",
+   "dicek_utc": "2026-11-19T05:07:18Z",
    "ok": false,
    "n": 9,
    "pesan": "0 dari 9 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
@@ -31,10 +31,10 @@
   }
  },
  "log": [
-  "04:14:43 PEKA mulai 2026-11-19T04:14:43Z ",
-  "04:15:36 dengar berita: 809 artikel dari 10 kueri (Google ok 9, Bing 1)",
-  "04:15:59 dengar GDELT: 0/9 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "04:15:59 pilah: {'masuk': 809, 'sudah_ada': 756, 'tidak_relevan': 3, 'bukan_kejadian': 15, 'gabung': 18, 'kasus_baru': 17, 'relevan': 35}",
-  "04:15:59 papan Polda: 38 Polda berkasus | titik rawan: 341"
+  "05:06:27 PEKA mulai 2026-11-19T05:06:27Z ",
+  "05:06:56 dengar berita: 909 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "05:07:18 dengar GDELT: 0/9 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "05:07:18 pilah: {'masuk': 909, 'sudah_ada': 843, 'tidak_relevan': 7, 'bukan_kejadian': 15, 'luar_negeri': 1, 'kasus_baru': 22, 'gabung': 21, 'relevan': 43}",
+  "05:07:19 papan Polda: 38 Polda berkasus | titik rawan: 342"
  ]
 }
