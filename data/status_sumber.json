@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-19T20:44:41Z",
+ "diperbarui_utc": "2026-11-19T21:29:46Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-19T20:45:09Z",
+   "dicek_utc": "2026-11-19T21:30:15Z",
    "ok": true,
    "n": 908,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-19T20:45:11Z",
+   "dicek_utc": "2026-11-19T21:30:17Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-19T20:45:12Z",
+   "dicek_utc": "2026-11-19T21:30:17Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-19T20:45:54Z",
-   "ok": true,
+   "dicek_utc": "2026-11-19T21:30:43Z",
+   "ok": false,
    "n": 9,
-   "pesan": "1 dari 8 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "20:44:41 PEKA mulai 2026-11-19T20:44:41Z ",
-  "20:45:09 dengar berita: 908 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "20:45:54 dengar GDELT: 1/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "20:45:54 pilah: {'masuk': 908, 'sudah_ada': 895, 'bukan_kejadian': 6, 'tidak_relevan': 1, 'gabung': 5, 'kasus_baru': 1, 'relevan': 6}",
-  "20:45:54 papan Polda: 38 Polda berkasus | titik rawan: 363"
+  "21:29:47 PEKA mulai 2026-11-19T21:29:46Z ",
+  "21:30:15 dengar berita: 908 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "21:30:43 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "21:30:43 pilah: {'masuk': 908, 'sudah_ada': 893, 'tidak_relevan': 2, 'bukan_kejadian': 7, 'gabung': 2, 'kasus_baru': 4, 'relevan': 6}",
+  "21:30:43 papan Polda: 38 Polda berkasus | titik rawan: 363"
  ]
 }
