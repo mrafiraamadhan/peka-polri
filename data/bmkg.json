@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-19T05:57:54Z",
+ "diperbarui_utc": "2026-11-19T06:49:28Z",
  "terbaru": {
-  "waktu_utc": "2026-11-19T01:34:48Z",
-  "magnitudo": 5.4,
-  "kedalaman": "12 km",
-  "wilayah": "Pusat gempa berada di laut 114 km Barat Daya Nias Barat",
+  "waktu_utc": "2026-11-19T06:31:50Z",
+  "magnitudo": 3.6,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 20 km timur laut Luwu Timur",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Nias Selatan",
-  "koordinat": "0.47,96.56",
-  "prov": "Sumatera Utara",
-  "kode_prov": "12"
+  "dirasakan": "III Malili",
+  "koordinat": "-2.49,121.25",
+  "prov": "Sulawesi Selatan",
+  "kode_prov": "73"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-19T06:31:50Z",
+   "magnitudo": 3.6,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 20 km timur laut Luwu Timur",
+   "potensi": null,
+   "dirasakan": "III Malili",
+   "koordinat": "-2.49,121.25",
+   "prov": "Sulawesi Selatan",
+   "kode_prov": "73"
+  },
   {
    "waktu_utc": "2026-11-19T01:34:48Z",
    "magnitudo": 5.4,
@@ -163,17 +174,6 @@
    "potensi": null,
    "dirasakan": "III Kab. Manggarai",
    "koordinat": "-8.17,120.51",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T04:56:31Z",
-   "magnitudo": 4.0,
-   "kedalaman": "12 km",
-   "wilayah": "Pusat gempa berada di laut 45 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "II Kab. Manggarai",
-   "koordinat": "-8.20,120.46",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
   }
