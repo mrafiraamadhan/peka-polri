@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-19T19:01:18Z",
+ "diperbarui_utc": "2026-11-19T19:53:12Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
-  "anggota": 59,
+  "anggota": 60,
   "kekerasan": 4
  },
  "anggota_sudah_ditangani": 33,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 2,
-  "JALUR KHUSUS": 71,
+  "JALUR KHUSUS": 72,
   "TINDAK": 71,
-  "PANTAU": 121,
-  "TERCATAT": 1216
+  "PANTAU": 122,
+  "TERCATAT": 1221
  },
- "kasus_aktif": 1481,
+ "kasus_aktif": 1488,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 99
+   "kasus": 100
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -27,19 +27,19 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 305
+   "kasus": 307
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 156
+   "kasus": 158
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 272
+   "kasus": 273
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 81
+   "kasus": 80
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 372
+   "kasus": 374
   }
  },
  "provinsi": {
@@ -86,7 +86,7 @@
    "polda": "Polda Riau",
    "JALUR KHUSUS": 5,
    "PANTAU": 1,
-   "TERCATAT": 28
+   "TERCATAT": 29
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -153,7 +153,7 @@
   "12": {
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
-   "JALUR KHUSUS": 4,
+   "JALUR KHUSUS": 5,
    "TINDAK": 4,
    "PANTAU": 5,
    "TERCATAT": 65
@@ -195,7 +195,7 @@
    "polda": "Polda Nusa Tenggara Timur",
    "TINDAK": 5,
    "PANTAU": 5,
-   "TERCATAT": 16
+   "TERCATAT": 17
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -215,7 +215,7 @@
    "nama": "Jambi",
    "polda": "Polda Jambi",
    "TINDAK": 2,
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 12
   },
   "92": {
@@ -247,7 +247,7 @@
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
    "PANTAU": 4,
-   "TERCATAT": 12
+   "TERCATAT": 13
   },
   "97": {
    "nama": "Papua Pegunungan",
@@ -311,40 +311,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 808,
+   "artikel": 908,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 7,
-   "sudah_ada": 798,
+   "relevan": 14,
+   "sudah_ada": 876,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 2,
+   "tidak_relevan": 5,
+   "bukan_kejadian": 12,
    "luar_negeri": 1,
-   "kasus_baru": 2,
-   "digabung": 5
+   "kasus_baru": 8,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 2,
-   "JALUR KHUSUS": 71,
+   "JALUR KHUSUS": 72,
    "TINDAK": 71,
-   "PANTAU": 121,
-   "TERCATAT": 1216
+   "PANTAU": 122,
+   "TERCATAT": 1221
   },
   "teruskan": {
    "polda": 31,
-   "kasus": 265
+   "kasus": 267
   },
   "kabarkan": {
-   "tanggapan_terlihat": 690,
-   "kasus": 1481,
-   "tanggapan_sejak_berita_pertama": 596,
+   "tanggapan_terlihat": 691,
+   "kasus": 1488,
+   "tanggapan_sejak_berita_pertama": 597,
    "median_jeda_jam": 12.1,
    "n_jeda": 94,
    "melewati_batas": 94
   },
   "arsipkan": {
-   "baris": 9431,
+   "baris": 9439,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 24
@@ -356,7 +356,7 @@
    "prov": "Sumatera Utara",
    "topik": "anggota",
    "nama": "Perilaku anggota",
-   "hari_ini": 5,
+   "hari_ini": 6,
    "rata": 0.54
   },
   {
@@ -373,7 +373,7 @@
    "topik": "anggota",
    "nama": "Perilaku anggota",
    "hari_ini": 10,
-   "rata": 1.21
+   "rata": 1.25
   }
  ],
  "lonjakan_nasional": [],
