@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-19T03:23:23Z",
+ "diperbarui_utc": "2026-11-19T04:14:43Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 12,
+  "perkara": 11,
   "anggota": 53,
   "kekerasan": 4
  },
- "anggota_sudah_ditangani": 28,
+ "anggota_sudah_ditangani": 29,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 69,
-  "TINDAK": 74,
+  "JALUR KHUSUS": 68,
+  "TINDAK": 75,
   "PANTAU": 116,
-  "TERCATAT": 1199
+  "TERCATAT": 1195
  },
- "kasus_aktif": 1459,
+ "kasus_aktif": 1455,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 89
+   "kasus": 90
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 92
+   "kasus": 89
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -31,19 +31,19 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 150
+   "kasus": 149
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 286
+   "kasus": 282
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 96
+   "kasus": 95
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 93
+   "kasus": 95
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 375
+   "kasus": 377
   }
  },
  "provinsi": {
@@ -61,8 +61,8 @@
    "DARURAT": 1,
    "JALUR KHUSUS": 2,
    "TINDAK": 10,
-   "PANTAU": 15,
-   "TERCATAT": 68
+   "PANTAU": 14,
+   "TERCATAT": 67
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -70,7 +70,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 2,
    "PANTAU": 8,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "14": {
    "nama": "Riau",
@@ -79,21 +79,13 @@
    "PANTAU": 4,
    "TERCATAT": 23
   },
-  "35": {
-   "nama": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "JALUR KHUSUS": 11,
-   "TINDAK": 12,
-   "PANTAU": 12,
-   "TERCATAT": 66
-  },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "JALUR KHUSUS": 3,
    "TINDAK": 1,
    "PANTAU": 7,
-   "TERCATAT": 10
+   "TERCATAT": 9
   },
   "18": {
    "nama": "Lampung",
@@ -102,6 +94,14 @@
    "TINDAK": 2,
    "PANTAU": 4,
    "TERCATAT": 25
+  },
+  "35": {
+   "nama": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "JALUR KHUSUS": 10,
+   "TINDAK": 12,
+   "PANTAU": 12,
+   "TERCATAT": 67
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -115,15 +115,15 @@
    "nama": "Banten",
    "polda": "Polda Banten",
    "JALUR KHUSUS": 1,
-   "TINDAK": 3,
+   "TINDAK": 4,
    "PANTAU": 3,
-   "TERCATAT": 10
+   "TERCATAT": 11
   },
   "74": {
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "JALUR KHUSUS": 1,
-   "TERCATAT": 9
+   "TERCATAT": 11
   },
   "96": {
    "nama": "Papua Tengah",
@@ -151,7 +151,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 4,
    "PANTAU": 6,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -201,7 +201,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 5,
    "PANTAU": 6,
-   "TERCATAT": 33
+   "TERCATAT": 32
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -214,8 +214,8 @@
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 3,
-   "PANTAU": 6,
-   "TERCATAT": 20
+   "PANTAU": 7,
+   "TERCATAT": 19
   },
   "15": {
    "nama": "Jambi",
@@ -258,7 +258,7 @@
    "nama": "Kepulauan Bangka Belitung",
    "polda": "Polda Kepulauan Bangka Belitung",
    "PANTAU": 1,
-   "TERCATAT": 7
+   "TERCATAT": 6
   },
   "97": {
    "nama": "Papua Pegunungan",
@@ -269,7 +269,7 @@
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
-   "TERCATAT": 54
+   "TERCATAT": 53
   },
   "17": {
    "nama": "Bengkulu",
@@ -309,40 +309,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 909,
+   "artikel": 809,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 57,
-   "sudah_ada": 837,
+   "relevan": 35,
+   "sudah_ada": 756,
    "hoaks": 0,
-   "tidak_relevan": 5,
-   "bukan_kejadian": 8,
-   "luar_negeri": 2,
-   "kasus_baru": 28,
-   "digabung": 29
+   "tidak_relevan": 3,
+   "bukan_kejadian": 15,
+   "luar_negeri": 0,
+   "kasus_baru": 17,
+   "digabung": 18
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 69,
-   "TINDAK": 74,
+   "JALUR KHUSUS": 68,
+   "TINDAK": 75,
    "PANTAU": 116,
-   "TERCATAT": 1199
+   "TERCATAT": 1195
   },
   "teruskan": {
    "polda": 30,
    "kasus": 260
   },
   "kabarkan": {
-   "tanggapan_terlihat": 655,
-   "kasus": 1459,
-   "tanggapan_sejak_berita_pertama": 568,
+   "tanggapan_terlihat": 654,
+   "kasus": 1455,
+   "tanggapan_sejak_berita_pertama": 565,
    "median_jeda_jam": 12.6,
-   "n_jeda": 87,
-   "melewati_batas": 96
+   "n_jeda": 89,
+   "melewati_batas": 98
   },
   "arsipkan": {
-   "baris": 9078,
+   "baris": 9095,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 23
@@ -350,20 +350,20 @@
  },
  "lonjakan_wilayah": [
   {
-   "kode_prov": "21",
-   "prov": "Kepulauan Riau",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "hari_ini": 6,
-   "rata": 1.22
-  },
-  {
    "kode_prov": "31",
    "prov": "DKI Jakarta",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 5,
    "rata": 2.17
+  },
+  {
+   "kode_prov": "21",
+   "prov": "Kepulauan Riau",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 1.22
   },
   {
    "kode_prov": "12",
@@ -378,6 +378,11 @@
  "hari_riwayat": 23,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Sri Sultan Hamengkubuwono X Hentikan MBG di Jogja, Ubah Dana untuk Pendidikan",
+   "url": "https://turnbackhoax.id/articles/37488-salah-sri-sultan-hamengkubuwono-x-hentikan-mbg-di-jogja-ubah-dana-untuk-pendidikan",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Video \"Jalur pipa minyak Timur-Barat (East-West Pipeline) Arab Saudi kembali diserang\"",
    "url": "https://turnbackhoax.id/articles/37487-salah-video-jalur-pipa-minyak-timur-barat-east-west-pipeline-arab-saudi-kembali-diserang",
@@ -401,11 +406,6 @@
   {
    "judul": "[SALAH] Gibran Diperiksa Jadi Saksi di Mabes TNI",
    "url": "https://turnbackhoax.id/articles/37480-salah-gibran-diperiksa-jadi-saksi-di-mabes-tni",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Anggota DPR Eva Stevany Rataba Terdaftar sebagai Penerima PKH",
-   "url": "https://turnbackhoax.id/articles/37479-salah-anggota-dpr-eva-stevany-rataba-terdaftar-sebagai-penerima-pkh",
    "terbit": null
   }
  ]
