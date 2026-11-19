@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-19T19:53:12Z",
+ "diperbarui_utc": "2026-11-19T20:44:41Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 72,
   "TINDAK": 71,
   "PANTAU": 122,
-  "TERCATAT": 1221
+  "TERCATAT": 1219
  },
- "kasus_aktif": 1488,
+ "kasus_aktif": 1486,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -27,7 +27,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 307
+   "kasus": 308
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -39,7 +39,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 80
+   "kasus": 78
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 374
+   "kasus": 373
   }
  },
  "provinsi": {
@@ -133,7 +133,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 7,
    "PANTAU": 12,
-   "TERCATAT": 68
+   "TERCATAT": 67
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -156,7 +156,7 @@
    "JALUR KHUSUS": 5,
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 65
+   "TERCATAT": 66
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -188,7 +188,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 4,
    "PANTAU": 4,
-   "TERCATAT": 30
+   "TERCATAT": 29
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -312,39 +312,39 @@
  "langkah": {
   "dengar": {
    "artikel": 908,
-   "sumber": 3
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 14,
-   "sudah_ada": 876,
+   "relevan": 6,
+   "sudah_ada": 895,
    "hoaks": 0,
-   "tidak_relevan": 5,
-   "bukan_kejadian": 12,
-   "luar_negeri": 1,
-   "kasus_baru": 8,
-   "digabung": 6
+   "tidak_relevan": 1,
+   "bukan_kejadian": 6,
+   "luar_negeri": 0,
+   "kasus_baru": 1,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 72,
    "TINDAK": 71,
    "PANTAU": 122,
-   "TERCATAT": 1221
+   "TERCATAT": 1219
   },
   "teruskan": {
    "polda": 31,
    "kasus": 267
   },
   "kabarkan": {
-   "tanggapan_terlihat": 691,
-   "kasus": 1488,
-   "tanggapan_sejak_berita_pertama": 597,
+   "tanggapan_terlihat": 690,
+   "kasus": 1486,
+   "tanggapan_sejak_berita_pertama": 596,
    "median_jeda_jam": 12.1,
    "n_jeda": 94,
    "melewati_batas": 94
   },
   "arsipkan": {
-   "baris": 9439,
+   "baris": 9440,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 24
@@ -357,7 +357,7 @@
    "topik": "anggota",
    "nama": "Perilaku anggota",
    "hari_ini": 6,
-   "rata": 0.54
+   "rata": 0.58
   },
   {
    "kode_prov": "16",
@@ -376,7 +376,16 @@
    "rata": 1.25
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "layanan",
+   "nama": "Layanan kepolisian",
+   "kemarin": 0,
+   "rata28": 2.2,
+   "rasio": 0.0,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 24,
  "gempa_darurat": [],
  "hoaks_terbaru": [
