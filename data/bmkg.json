@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-20T17:39:24Z",
+ "diperbarui_utc": "2026-11-20T18:30:44Z",
  "terbaru": {
-  "waktu_utc": "2026-11-20T13:51:01Z",
-  "magnitudo": 3.6,
-  "kedalaman": "3 km",
-  "wilayah": "Pusat gempa berada di laut 57 km utara Ruteng-Manggarai",
+  "waktu_utc": "2026-11-20T17:50:26Z",
+  "magnitudo": 4.6,
+  "kedalaman": "17 km",
+  "wilayah": "Pusat gempa berada di laut 66 km selatan Kota Sukabumi",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Kab. Manggarai",
-  "koordinat": "-8.10,120.49",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "III Lengkong, III Pabuaran, III Ciemas, III Cidolog, II - III Palabuanratu, II - III Nagrak, II Kota Cimahi, II Ciparay, II Pangalengan, II Kab. Bandung",
+  "koordinat": "-7.51,106.85",
+  "prov": "Jawa Barat",
+  "kode_prov": "32"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-20T17:50:26Z",
+   "magnitudo": 4.6,
+   "kedalaman": "17 km",
+   "wilayah": "Pusat gempa berada di laut 66 km selatan Kota Sukabumi",
+   "potensi": null,
+   "dirasakan": "III Lengkong, III Pabuaran, III Ciemas, III Cidolog, II - III Palabuanratu, II - III Nagrak, II Kota Cimahi, II Ciparay, II Pangalengan, II Kab. Bandung",
+   "koordinat": "-7.51,106.85",
+   "prov": "Jawa Barat",
+   "kode_prov": "32"
+  },
   {
    "waktu_utc": "2026-11-20T13:51:01Z",
    "magnitudo": 3.6,
@@ -163,17 +174,6 @@
    "potensi": null,
    "dirasakan": "III-IV Kab. Manggarai",
    "koordinat": "-8.08,120.56",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T05:23:41Z",
-   "magnitudo": 4.5,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di laut 49 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "III Kab. Manggarai",
-   "koordinat": "-8.17,120.51",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
   }
