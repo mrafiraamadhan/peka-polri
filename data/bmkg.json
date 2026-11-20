@@ -1,15 +1,15 @@
 {
- "diperbarui_utc": "2026-11-20T12:23:49Z",
+ "diperbarui_utc": "2026-11-20T13:15:25Z",
  "terbaru": {
-  "waktu_utc": "2026-11-20T11:34:42Z",
-  "magnitudo": 3.2,
-  "kedalaman": "6 km",
-  "wilayah": "Pusat gempa berada di laut 10 km Utara Kendari",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Kota Kendari, II - III Konawe Selatan",
-  "koordinat": "-3.88,122.51",
-  "prov": "Sulawesi Tenggara",
-  "kode_prov": "74"
+  "waktu_utc": "2026-11-20T13:09:01Z",
+  "magnitudo": 5.2,
+  "kedalaman": "10 km",
+  "wilayah": "199 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "5.38,125.21",
+  "prov": "Sulawesi Utara",
+  "kode_prov": "71"
  },
  "dirasakan": [
   {
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-20T13:09:01Z",
+   "magnitudo": 5.2,
+   "kedalaman": "10 km",
+   "wilayah": "199 km BaratLaut TAHUNA-KEP.SANGIHE-SULUT",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "5.38,125.21",
+   "prov": "Sulawesi Utara",
+   "kode_prov": "71"
+  },
+  {
    "waktu_utc": "2026-11-19T01:34:48Z",
    "magnitudo": 5.4,
    "kedalaman": "12 km",
@@ -330,17 +341,6 @@
    "potensi": "Tidak berpotensi tsunami",
    "dirasakan": null,
    "koordinat": "-5.45,141.90",
-   "prov": null,
-   "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-10-28T22:06:47Z",
-   "magnitudo": 6.4,
-   "kedalaman": "160 km",
-   "wilayah": "201 km BaratLaut TANIMBAR",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-6.34,130.52",
    "prov": null,
    "kode_prov": null
   }
