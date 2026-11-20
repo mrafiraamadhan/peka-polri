@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-20T21:55:31Z",
+ "diperbarui_utc": "2026-11-20T22:46:44Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3999,
+ "kasus_tanpa_polda": 4002,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 807,
-   "perlu": 299,
+   "kasus": 808,
+   "perlu": 300,
    "perlu_tanggap": 63,
-   "persen_tanggap": 21.1,
+   "persen_tanggap": 21.0,
    "tanggap": 420,
    "jalur_khusus": 40,
    "melewati_batas": 176,
@@ -39,13 +39,13 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 464,
+   "kasus": 465,
    "perlu": 158,
    "perlu_tanggap": 29,
    "persen_tanggap": 18.4,
-   "tanggap": 221,
+   "tanggap": 222,
    "jalur_khusus": 9,
-   "melewati_batas": 95,
+   "melewati_batas": 96,
    "median_jeda_jam": 10.4,
    "n_jeda": 29,
    "topik_teratas": [
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 396,
-   "perlu": 154,
+   "kasus": 397,
+   "perlu": 155,
    "perlu_tanggap": 37,
-   "persen_tanggap": 24.0,
+   "persen_tanggap": 23.9,
    "tanggap": 203,
    "jalur_khusus": 5,
    "melewati_batas": 89,
@@ -1668,6 +1668,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3524",
+   "kabkota": "Kabupaten Lamongan",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polres Lamongan",
+   "topik": "lalulintas",
+   "nama": "Lalu lintas",
+   "kejadian": 5,
+   "kasus": 9,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-15",
+    "2026-11-20"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Lamongan bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3174",
    "kabkota": "Kota Jakarta Barat",
    "kode_prov": "31",
@@ -2345,26 +2366,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3272",
-   "kabkota": "Kota Sukabumi",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polres Sukabumi Kota",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 4,
-   "kasus": 11,
-   "tanggal": [
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-10",
-    "2026-11-16"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Sukabumi Kota bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
