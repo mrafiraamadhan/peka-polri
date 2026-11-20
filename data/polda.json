@@ -1,28 +1,28 @@
 {
- "diperbarui_utc": "2026-11-20T10:53:17Z",
+ "diperbarui_utc": "2026-11-20T11:32:05Z",
  "jendela_hari": 30,
  "hari_riwayat": 24,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3948,
+ "kasus_tanpa_polda": 3957,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 794,
-   "perlu": 297,
+   "kasus": 798,
+   "perlu": 298,
    "perlu_tanggap": 61,
    "persen_tanggap": 20.5,
-   "tanggap": 409,
+   "tanggap": 412,
    "jalur_khusus": 40,
-   "melewati_batas": 172,
+   "melewati_batas": 173,
    "median_jeda_jam": 14.7,
    "n_jeda": 61,
    "topik_teratas": [
     [
      "jalanan",
-     196
+     197
     ],
     [
      "darurat",
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     129
+     130
     ]
    ]
   },
@@ -39,11 +39,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 457,
+   "kasus": 458,
    "perlu": 157,
    "perlu_tanggap": 29,
    "persen_tanggap": 18.5,
-   "tanggap": 215,
+   "tanggap": 216,
    "jalur_khusus": 9,
    "melewati_batas": 95,
    "median_jeda_jam": 10.4,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     138
+     139
     ],
     [
      "darurat",
@@ -68,13 +68,13 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 383,
+   "kasus": 385,
    "perlu": 151,
    "perlu_tanggap": 37,
    "persen_tanggap": 24.5,
-   "tanggap": 194,
+   "tanggap": 196,
    "jalur_khusus": 5,
-   "melewati_batas": 86,
+   "melewati_batas": 87,
    "median_jeda_jam": 4.1,
    "n_jeda": 37,
    "topik_teratas": [
@@ -103,7 +103,7 @@
    "persen_tanggap": 17.3,
    "tanggap": 198,
    "jalur_khusus": 14,
-   "melewati_batas": 68,
+   "melewati_batas": 69,
    "median_jeda_jam": 10.3,
    "n_jeda": 23,
    "topik_teratas": [
@@ -300,11 +300,11 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 273,
+   "kasus": 276,
    "perlu": 54,
    "perlu_tanggap": 10,
    "persen_tanggap": 18.5,
-   "tanggap": 112,
+   "tanggap": 114,
    "jalur_khusus": 0,
    "melewati_batas": 41,
    "median_jeda_jam": 16.9,
@@ -312,7 +312,7 @@
    "topik_teratas": [
     [
      "darurat",
-     156
+     157
     ],
     [
      "narkoba",
@@ -364,7 +364,7 @@
    "persen_tanggap": 14.6,
    "tanggap": 76,
    "jalur_khusus": 4,
-   "melewati_batas": 22,
+   "melewati_batas": 23,
    "median_jeda_jam": 11.5,
    "n_jeda": 7,
    "topik_teratas": [
@@ -445,12 +445,12 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 102,
-   "perlu": 42,
+   "kasus": 103,
+   "perlu": 43,
    "perlu_tanggap": 13,
-   "persen_tanggap": 31.0,
+   "persen_tanggap": 30.2,
    "tanggap": 60,
-   "jalur_khusus": 3,
+   "jalur_khusus": 4,
    "melewati_batas": 20,
    "median_jeda_jam": 18.2,
    "n_jeda": 13,
@@ -1286,6 +1286,28 @@
    "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3205",
+   "kabkota": "Kabupaten Garut",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Garut",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 6,
+   "kasus": 8,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-06",
+    "2026-11-11",
+    "2026-11-17",
+    "2026-11-20"
+   ],
+   "kejadian_ditanggapi": 6,
+   "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "2171",
    "kabkota": "Kota Batam",
    "kode_prov": "21",
@@ -1789,27 +1811,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polresta Deli Serdang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3205",
-   "kabkota": "Kabupaten Garut",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polres Garut",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 5,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-11",
-    "2026-11-17"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
   },
   {
    "kode_kab": "3525",
