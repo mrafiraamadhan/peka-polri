@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-20T21:03:31Z",
+ "diperbarui_utc": "2026-11-20T21:55:31Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 3997,
+ "kasus_tanpa_polda": 3999,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -190,7 +190,7 @@
    "persen_tanggap": 15.3,
    "tanggap": 125,
    "jalur_khusus": 14,
-   "melewati_batas": 37,
+   "melewati_batas": 36,
    "median_jeda_jam": 8.7,
    "n_jeda": 11,
    "topik_teratas": [
@@ -789,6 +789,35 @@
    ]
   },
   {
+   "polda": "Polda Bengkulu",
+   "provinsi": [
+    "17"
+   ],
+   "kasus": 55,
+   "perlu": 15,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 13.3,
+   "tanggap": 27,
+   "jalur_khusus": 1,
+   "melewati_batas": 6,
+   "median_jeda_jam": 32.2,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "darurat",
+     19
+    ],
+    [
+     "jalanan",
+     15
+    ],
+    [
+     "narkoba",
+     8
+    ]
+   ]
+  },
+  {
    "polda": "Polda Maluku Utara",
    "provinsi": [
     "82"
@@ -813,35 +842,6 @@
     ],
     [
      "anggota",
-     8
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Bengkulu",
-   "provinsi": [
-    "17"
-   ],
-   "kasus": 54,
-   "perlu": 14,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 14.3,
-   "tanggap": 27,
-   "jalur_khusus": 1,
-   "melewati_batas": 6,
-   "median_jeda_jam": 32.2,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "darurat",
-     19
-    ],
-    [
-     "jalanan",
-     14
-    ],
-    [
-     "narkoba",
      8
     ]
    ]
