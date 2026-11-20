@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-20T20:12:07Z",
+ "diperbarui_utc": "2026-11-20T21:03:31Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 5,
   "anggota": 51,
   "kekerasan": 1
  },
- "anggota_sudah_ditangani": 23,
+ "anggota_sudah_ditangani": 24,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
+  "DARURAT": 0,
   "JALUR KHUSUS": 57,
   "TINDAK": 70,
-  "PANTAU": 145,
-  "TERCATAT": 1229
+  "PANTAU": 146,
+  "TERCATAT": 1236
  },
- "kasus_aktif": 1502,
+ "kasus_aktif": 1509,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 77
+   "kasus": 78
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 154
+   "kasus": 155
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -35,11 +35,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 275
+   "kasus": 278
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 85
+   "kasus": 86
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,18 +51,10 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 366
+   "kasus": 367
   }
  },
  "provinsi": {
-  "31": {
-   "nama": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "DARURAT": 1,
-   "TINDAK": 6,
-   "PANTAU": 5,
-   "TERCATAT": 34
-  },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
@@ -176,6 +168,13 @@
    "PANTAU": 3,
    "TERCATAT": 21
   },
+  "31": {
+   "nama": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "TINDAK": 6,
+   "PANTAU": 5,
+   "TERCATAT": 36
+  },
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
@@ -195,7 +194,7 @@
    "polda": "Polda Jambi",
    "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 15
+   "TERCATAT": 16
   },
   "51": {
    "nama": "Bali",
@@ -221,7 +220,7 @@
    "polda": "Polda Kalimantan Tengah",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 7
+   "TERCATAT": 8
   },
   "17": {
    "nama": "Bengkulu",
@@ -257,7 +256,7 @@
   "18": {
    "nama": "Lampung",
    "polda": "Polda Lampung",
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 19
   },
   "97": {
@@ -276,7 +275,7 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 2,
-   "TERCATAT": 50
+   "TERCATAT": 51
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -314,40 +313,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 908,
-   "sumber": 3
+   "artikel": 909,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 17,
-   "sudah_ada": 879,
-   "hoaks": 1,
+   "relevan": 12,
+   "sudah_ada": 891,
+   "hoaks": 0,
    "tidak_relevan": 1,
-   "bukan_kejadian": 10,
-   "luar_negeri": 0,
-   "kasus_baru": 6,
-   "digabung": 11
+   "bukan_kejadian": 3,
+   "luar_negeri": 2,
+   "kasus_baru": 7,
+   "digabung": 5
   },
   "timbang": {
-   "DARURAT": 1,
+   "DARURAT": 0,
    "JALUR KHUSUS": 57,
    "TINDAK": 70,
-   "PANTAU": 145,
-   "TERCATAT": 1229
+   "PANTAU": 146,
+   "TERCATAT": 1236
   },
   "teruskan": {
    "polda": 35,
    "kasus": 273
   },
   "kabarkan": {
-   "tanggapan_terlihat": 694,
-   "kasus": 1502,
-   "tanggapan_sejak_berita_pertama": 607,
+   "tanggapan_terlihat": 698,
+   "kasus": 1509,
+   "tanggapan_sejak_berita_pertama": 611,
    "median_jeda_jam": 12.6,
    "n_jeda": 87,
    "melewati_batas": 104
   },
   "arsipkan": {
-   "baris": 9886,
+   "baris": 9893,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 25
@@ -407,7 +406,7 @@
    "prov": "Jawa Tengah",
    "topik": "perempuan_anak",
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "hari_ini": 6,
+   "hari_ini": 5,
    "rata": 1.12
   },
   {
@@ -427,7 +426,24 @@
    "rata": 0.56
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kemarin": 1,
+   "rata28": 4.0,
+   "rasio": 0.25,
+   "lonjakan": false
+  },
+  {
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kemarin": 1,
+   "rata28": 6.0,
+   "rasio": 0.17,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 25,
  "gempa_darurat": [],
  "hoaks_terbaru": [
