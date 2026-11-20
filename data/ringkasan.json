@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-20T19:22:37Z",
+ "diperbarui_utc": "2026-11-20T20:12:07Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 5,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 57,
   "TINDAK": 70,
   "PANTAU": 145,
-  "TERCATAT": 1224
+  "TERCATAT": 1229
  },
- "kasus_aktif": 1497,
+ "kasus_aktif": 1502,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,7 +23,7 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 155
+   "kasus": 154
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 274
+   "kasus": 275
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 361
+   "kasus": 366
   }
  },
  "provinsi": {
@@ -61,7 +61,7 @@
    "DARURAT": 1,
    "TINDAK": 6,
    "PANTAU": 5,
-   "TERCATAT": 33
+   "TERCATAT": 34
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -115,7 +115,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 5,
    "PANTAU": 6,
-   "TERCATAT": 53
+   "TERCATAT": 54
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -276,7 +276,7 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 2,
-   "TERCATAT": 48
+   "TERCATAT": 50
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -318,36 +318,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 13,
-   "sudah_ada": 889,
-   "hoaks": 0,
+   "relevan": 17,
+   "sudah_ada": 879,
+   "hoaks": 1,
    "tidak_relevan": 1,
-   "bukan_kejadian": 5,
+   "bukan_kejadian": 10,
    "luar_negeri": 0,
-   "kasus_baru": 4,
-   "digabung": 9
+   "kasus_baru": 6,
+   "digabung": 11
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 57,
    "TINDAK": 70,
    "PANTAU": 145,
-   "TERCATAT": 1224
+   "TERCATAT": 1229
   },
   "teruskan": {
    "polda": 35,
    "kasus": 273
   },
   "kabarkan": {
-   "tanggapan_terlihat": 693,
-   "kasus": 1497,
-   "tanggapan_sejak_berita_pertama": 606,
+   "tanggapan_terlihat": 694,
+   "kasus": 1502,
+   "tanggapan_sejak_berita_pertama": 607,
    "median_jeda_jam": 12.6,
    "n_jeda": 87,
    "melewati_batas": 104
   },
   "arsipkan": {
-   "baris": 9880,
+   "baris": 9886,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 25
