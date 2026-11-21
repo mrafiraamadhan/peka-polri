@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-21T19:11:13Z",
+ "diperbarui_utc": "2026-11-21T20:02:32Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -11,10 +11,10 @@
   "DARURAT": 3,
   "JALUR KHUSUS": 41,
   "TINDAK": 68,
-  "PANTAU": 152,
-  "TERCATAT": 1154
+  "PANTAU": 153,
+  "TERCATAT": 1155
  },
- "kasus_aktif": 1418,
+ "kasus_aktif": 1420,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -42,7 +42,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 94
+   "kasus": 95
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 357
+   "kasus": 358
   }
  },
  "provinsi": {
@@ -59,8 +59,8 @@
    "polda": "Polda Metro Jaya",
    "DARURAT": 1,
    "TINDAK": 6,
-   "PANTAU": 18,
-   "TERCATAT": 32
+   "PANTAU": 17,
+   "TERCATAT": 33
   },
   "36": {
    "nama": "Banten",
@@ -68,7 +68,7 @@
    "DARURAT": 2,
    "JALUR KHUSUS": 1,
    "TINDAK": 6,
-   "PANTAU": 14,
+   "PANTAU": 16,
    "TERCATAT": 13
   },
   "73": {
@@ -299,40 +299,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 865,
+   "artikel": 863,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 14,
-   "sudah_ada": 850,
+   "relevan": 9,
+   "sudah_ada": 851,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 1,
+   "bukan_kejadian": 3,
    "luar_negeri": 0,
-   "kasus_baru": 6,
-   "digabung": 8
+   "kasus_baru": 3,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 3,
    "JALUR KHUSUS": 41,
    "TINDAK": 68,
-   "PANTAU": 152,
-   "TERCATAT": 1154
+   "PANTAU": 153,
+   "TERCATAT": 1155
   },
   "teruskan": {
    "polda": 35,
-   "kasus": 264
+   "kasus": 265
   },
   "kabarkan": {
    "tanggapan_terlihat": 664,
-   "kasus": 1418,
+   "kasus": 1420,
    "tanggapan_sejak_berita_pertama": 575,
    "median_jeda_jam": 11.5,
    "n_jeda": 89,
-   "melewati_batas": 125
+   "melewati_batas": 124
   },
   "arsipkan": {
-   "baris": 10221,
+   "baris": 10224,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 26
@@ -344,7 +344,7 @@
    "prov": "Banten",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 6,
+   "hari_ini": 8,
    "rata": 2.35
   },
   {
