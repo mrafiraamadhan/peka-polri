@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-20T23:38:28Z",
+ "diperbarui_utc": "2026-11-21T00:29:45Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -10,11 +10,11 @@
    "provinsi": [
     "35"
    ],
-   "kasus": 810,
+   "kasus": 811,
    "perlu": 300,
    "perlu_tanggap": 63,
    "persen_tanggap": 21.0,
-   "tanggap": 422,
+   "tanggap": 423,
    "jalur_khusus": 40,
    "melewati_batas": 176,
    "median_jeda_jam": 14.7,
@@ -39,10 +39,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 465,
-   "perlu": 158,
+   "kasus": 466,
+   "perlu": 159,
    "perlu_tanggap": 29,
-   "persen_tanggap": 18.4,
+   "persen_tanggap": 18.2,
    "tanggap": 222,
    "jalur_khusus": 9,
    "melewati_batas": 96,
@@ -51,7 +51,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     140
+     141
     ],
     [
      "darurat",
@@ -68,7 +68,7 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 397,
+   "kasus": 398,
    "perlu": 155,
    "perlu_tanggap": 37,
    "persen_tanggap": 23.9,
@@ -80,7 +80,7 @@
    "topik_teratas": [
     [
      "darurat",
-     101
+     102
     ],
     [
      "jalanan",
@@ -126,11 +126,11 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 199,
+   "kasus": 200,
    "perlu": 108,
    "perlu_tanggap": 19,
    "persen_tanggap": 17.6,
-   "tanggap": 97,
+   "tanggap": 98,
    "jalur_khusus": 9,
    "melewati_batas": 77,
    "median_jeda_jam": 7.7,
@@ -190,7 +190,7 @@
    "persen_tanggap": 15.3,
    "tanggap": 125,
    "jalur_khusus": 14,
-   "melewati_batas": 36,
+   "melewati_batas": 37,
    "median_jeda_jam": 8.7,
    "n_jeda": 11,
    "topik_teratas": [
@@ -213,11 +213,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 214,
+   "kasus": 215,
    "perlu": 71,
    "perlu_tanggap": 15,
    "persen_tanggap": 21.1,
-   "tanggap": 132,
+   "tanggap": 133,
    "jalur_khusus": 8,
    "melewati_batas": 47,
    "median_jeda_jam": 13.6,
@@ -233,7 +233,7 @@
     ],
     [
      "darurat",
-     29
+     30
     ]
    ]
   },
@@ -271,11 +271,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 210,
+   "kasus": 211,
    "perlu": 59,
    "perlu_tanggap": 13,
    "persen_tanggap": 22.0,
-   "tanggap": 134,
+   "tanggap": 135,
    "jalur_khusus": 11,
    "melewati_batas": 39,
    "median_jeda_jam": 20.3,
@@ -538,7 +538,7 @@
    "persen_tanggap": 9.7,
    "tanggap": 47,
    "jalur_khusus": 4,
-   "melewati_batas": 18,
+   "melewati_batas": 19,
    "median_jeda_jam": 41.0,
    "n_jeda": 3,
    "topik_teratas": [
@@ -644,6 +644,35 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Utara",
+   "provinsi": [
+    "65"
+   ],
+   "kasus": 71,
+   "perlu": 25,
+   "perlu_tanggap": 3,
+   "persen_tanggap": 12.0,
+   "tanggap": 41,
+   "jalur_khusus": 3,
+   "melewati_batas": 17,
+   "median_jeda_jam": 4.5,
+   "n_jeda": 3,
+   "topik_teratas": [
+    [
+     "narkoba",
+     33
+    ],
+    [
+     "darurat",
+     13
+    ],
+    [
+     "jalanan",
+     13
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sumatera Barat",
    "provinsi": [
     "13"
@@ -702,48 +731,19 @@
    ]
   },
   {
-   "polda": "Polda Kalimantan Utara",
-   "provinsi": [
-    "65"
-   ],
-   "kasus": 71,
-   "perlu": 24,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 8.3,
-   "tanggap": 41,
-   "jalur_khusus": 3,
-   "melewati_batas": 17,
-   "median_jeda_jam": 9.2,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "narkoba",
-     33
-    ],
-    [
-     "darurat",
-     13
-    ],
-    [
-     "jalanan",
-     13
-    ]
-   ]
-  },
-  {
    "polda": "Polda Sulawesi Tengah",
    "provinsi": [
     "72"
    ],
    "kasus": 98,
    "perlu": 23,
-   "perlu_tanggap": 1,
-   "persen_tanggap": 4.3,
-   "tanggap": 62,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 8.7,
+   "tanggap": 63,
    "jalur_khusus": 2,
    "melewati_batas": 16,
-   "median_jeda_jam": 0.0,
-   "n_jeda": 1,
+   "median_jeda_jam": 4.6,
+   "n_jeda": 2,
    "topik_teratas": [
     [
      "narkoba",
@@ -1110,6 +1110,29 @@
  ],
  "titik_rawan": [
   {
+   "kode_kab": "3271",
+   "kabkota": "Kota Bogor",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polresta Bogor Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 7,
+   "kasus": 16,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-06",
+    "2026-11-09",
+    "2026-11-13",
+    "2026-11-17",
+    "2026-11-21"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3471",
    "kabkota": "Kota Yogyakarta",
    "kode_prov": "34",
@@ -1218,28 +1241,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polrestabes Bandung bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3271",
-   "kabkota": "Kota Bogor",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polresta Bogor Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 6,
-   "kasus": 15,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-01",
-    "2026-11-06",
-    "2026-11-09",
-    "2026-11-13",
-    "2026-11-17"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "1671",
