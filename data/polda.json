@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-21T09:12:08Z",
+ "diperbarui_utc": "2026-11-21T09:45:59Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4075,
+ "kasus_tanpa_polda": 4074,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 818,
+   "kasus": 819,
    "perlu": 301,
    "perlu_tanggap": 63,
    "persen_tanggap": 20.9,
-   "tanggap": 427,
+   "tanggap": 428,
    "jalur_khusus": 40,
    "melewati_batas": 182,
    "median_jeda_jam": 14.7,
@@ -39,10 +39,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 471,
-   "perlu": 161,
+   "kasus": 472,
+   "perlu": 162,
    "perlu_tanggap": 29,
-   "persen_tanggap": 18.0,
+   "persen_tanggap": 17.9,
    "tanggap": 224,
    "jalur_khusus": 9,
    "melewati_batas": 100,
@@ -68,11 +68,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 410,
+   "kasus": 411,
    "perlu": 159,
    "perlu_tanggap": 39,
    "persen_tanggap": 24.5,
-   "tanggap": 210,
+   "tanggap": 211,
    "jalur_khusus": 5,
    "melewati_batas": 90,
    "median_jeda_jam": 4.1,
@@ -88,7 +88,7 @@
     ],
     [
      "narkoba",
-     66
+     67
     ]
    ]
   },
@@ -103,7 +103,7 @@
    "persen_tanggap": 18.1,
    "tanggap": 204,
    "jalur_khusus": 14,
-   "melewati_batas": 75,
+   "melewati_batas": 76,
    "median_jeda_jam": 10.0,
    "n_jeda": 25,
    "topik_teratas": [
@@ -217,7 +217,7 @@
    "perlu": 71,
    "perlu_tanggap": 15,
    "persen_tanggap": 21.1,
-   "tanggap": 134,
+   "tanggap": 135,
    "jalur_khusus": 8,
    "melewati_batas": 48,
    "median_jeda_jam": 13.6,
@@ -300,11 +300,11 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 282,
+   "kasus": 283,
    "perlu": 54,
    "perlu_tanggap": 11,
    "persen_tanggap": 20.4,
-   "tanggap": 120,
+   "tanggap": 121,
    "jalur_khusus": 0,
    "melewati_batas": 43,
    "median_jeda_jam": 14.4,
@@ -316,7 +316,7 @@
     ],
     [
      "narkoba",
-     55
+     56
     ],
     [
      "jalanan",
@@ -420,9 +420,9 @@
    "perlu": 44,
    "perlu_tanggap": 6,
    "persen_tanggap": 13.6,
-   "tanggap": 77,
+   "tanggap": 78,
    "jalur_khusus": 4,
-   "melewati_batas": 24,
+   "melewati_batas": 25,
    "median_jeda_jam": 15.9,
    "n_jeda": 6,
    "topik_teratas": [
@@ -538,7 +538,7 @@
    "persen_tanggap": 17.1,
    "tanggap": 71,
    "jalur_khusus": 1,
-   "melewati_batas": 23,
+   "melewati_batas": 24,
    "median_jeda_jam": 4.5,
    "n_jeda": 6,
    "topik_teratas": [
@@ -596,7 +596,7 @@
    "persen_tanggap": 17.9,
    "tanggap": 69,
    "jalur_khusus": 2,
-   "melewati_batas": 20,
+   "melewati_batas": 21,
    "median_jeda_jam": 10.5,
    "n_jeda": 5,
    "topik_teratas": [
@@ -741,7 +741,7 @@
    "persen_tanggap": 8.7,
    "tanggap": 65,
    "jalur_khusus": 2,
-   "melewati_batas": 16,
+   "melewati_batas": 17,
    "median_jeda_jam": 4.6,
    "n_jeda": 2,
    "topik_teratas": [
@@ -1110,6 +1110,29 @@
  ],
  "titik_rawan": [
   {
+   "kode_kab": "3471",
+   "kabkota": "Kota Yogyakarta",
+   "kode_prov": "34",
+   "provinsi": "DI Yogyakarta",
+   "polda": "Polda DI Yogyakarta",
+   "polres": "Polresta Yogyakarta",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 7,
+   "kasus": 50,
+   "tanggal": [
+    "2026-10-28",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-10",
+    "2026-11-14",
+    "2026-11-18",
+    "2026-11-21"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3271",
    "kabkota": "Kota Bogor",
    "kode_prov": "32",
@@ -1131,28 +1154,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3471",
-   "kabkota": "Kota Yogyakarta",
-   "kode_prov": "34",
-   "provinsi": "DI Yogyakarta",
-   "polda": "Polda DI Yogyakarta",
-   "polres": "Polresta Yogyakarta",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 6,
-   "kasus": 49,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-10",
-    "2026-11-14",
-    "2026-11-18"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
   },
   {
    "kode_kab": "1275",
