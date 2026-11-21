@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-21T14:55:03Z",
+ "diperbarui_utc": "2026-11-21T15:46:55Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4114,
+ "kasus_tanpa_polda": 4122,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -190,7 +190,7 @@
    "persen_tanggap": 14.9,
    "tanggap": 129,
    "jalur_khusus": 14,
-   "melewati_batas": 38,
+   "melewati_batas": 39,
    "median_jeda_jam": 8.7,
    "n_jeda": 11,
    "topik_teratas": [
@@ -213,19 +213,19 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 175,
-   "perlu": 73,
+   "kasus": 176,
+   "perlu": 74,
    "perlu_tanggap": 10,
-   "persen_tanggap": 13.7,
+   "persen_tanggap": 13.5,
    "tanggap": 92,
    "jalur_khusus": 25,
-   "melewati_batas": 40,
+   "melewati_batas": 41,
    "median_jeda_jam": 6.5,
    "n_jeda": 10,
    "topik_teratas": [
     [
      "jalanan",
-     46
+     47
     ],
     [
      "anggota",
@@ -242,11 +242,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 219,
+   "kasus": 220,
    "perlu": 72,
    "perlu_tanggap": 15,
    "persen_tanggap": 20.8,
-   "tanggap": 135,
+   "tanggap": 136,
    "jalur_khusus": 8,
    "melewati_batas": 48,
    "median_jeda_jam": 13.6,
@@ -254,7 +254,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     85
+     86
     ],
     [
      "jalanan",
@@ -300,19 +300,19 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 151,
-   "perlu": 57,
+   "kasus": 152,
+   "perlu": 58,
    "perlu_tanggap": 10,
-   "persen_tanggap": 17.5,
+   "persen_tanggap": 17.2,
    "tanggap": 80,
    "jalur_khusus": 4,
-   "melewati_batas": 30,
+   "melewati_batas": 31,
    "median_jeda_jam": 9.4,
    "n_jeda": 10,
    "topik_teratas": [
     [
      "darurat",
-     44
+     45
     ],
     [
      "jalanan",
@@ -387,7 +387,7 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 152,
+   "kasus": 153,
    "perlu": 48,
    "perlu_tanggap": 10,
    "persen_tanggap": 20.8,
@@ -909,11 +909,11 @@
    "provinsi": [
     "96"
    ],
-   "kasus": 37,
+   "kasus": 38,
    "perlu": 12,
    "perlu_tanggap": 2,
    "persen_tanggap": 16.7,
-   "tanggap": 20,
+   "tanggap": 21,
    "jalur_khusus": 2,
    "melewati_batas": 7,
    "median_jeda_jam": 9.4,
@@ -929,7 +929,7 @@
     ],
     [
      "jalanan",
-     5
+     6
     ]
    ]
   },
