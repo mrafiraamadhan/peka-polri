@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-21T20:02:32Z",
+ "diperbarui_utc": "2026-11-21T20:53:55Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 4,
@@ -12,9 +12,9 @@
   "JALUR KHUSUS": 41,
   "TINDAK": 68,
   "PANTAU": 153,
-  "TERCATAT": 1155
+  "TERCATAT": 1152
  },
- "kasus_aktif": 1420,
+ "kasus_aktif": 1417,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -30,7 +30,7 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 99
+   "kasus": 98
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -38,7 +38,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 79
+   "kasus": 77
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -299,25 +299,25 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 863,
+   "artikel": 862,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 851,
+   "relevan": 5,
+   "sudah_ada": 852,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 3,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 4,
    "luar_negeri": 0,
-   "kasus_baru": 3,
-   "digabung": 6
+   "kasus_baru": 0,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 3,
    "JALUR KHUSUS": 41,
    "TINDAK": 68,
    "PANTAU": 153,
-   "TERCATAT": 1155
+   "TERCATAT": 1152
   },
   "teruskan": {
    "polda": 35,
@@ -325,7 +325,7 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 664,
-   "kasus": 1420,
+   "kasus": 1417,
    "tanggapan_sejak_berita_pertama": 575,
    "median_jeda_jam": 11.5,
    "n_jeda": 89,
@@ -358,9 +358,7 @@
  ],
  "lonjakan_nasional": [],
  "hari_riwayat": 26,
- "gempa_darurat": [
-  "81"
- ],
+ "gempa_darurat": [],
  "hoaks_terbaru": [
   {
    "judul": "[SALAH] Prabowo Meminta TNI dan Polri Menindaklanjuti Aksi Demonstrasi Belakangan Ini",

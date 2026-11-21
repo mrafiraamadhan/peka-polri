@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-21T20:02:32Z",
+ "diperbarui_utc": "2026-11-21T20:53:55Z",
  "terbaru": {
-  "waktu_utc": "2026-11-21T09:42:11Z",
-  "magnitudo": 7.2,
-  "kedalaman": "125 km",
-  "wilayah": "Pusat gempa berada di laut 43 km barat laut Maluku Barat Daya",
+  "waktu_utc": "2026-11-21T19:52:18Z",
+  "magnitudo": 4.2,
+  "kedalaman": "55 km",
+  "wilayah": "Pusat gempa berada di laut 34 km Barat Pesisir Selatan",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "IV Tiakur, III Saumlaki, III Waingapu, II-III Kupang, III Kab. Alor, IV Romang, IV Pulau Babar, II-III Kota Kupang, II-III Kab. Kupang, II-III Kab. Timur Tengah Utara, II-III Kab. Malaka, II-III Kab. Melu, II-III Kab. Lembata",
-  "koordinat": "-7.88,127.51",
-  "prov": "Maluku",
-  "kode_prov": "81"
+  "dirasakan": "II - III Kota Padang, II - III Pesisir Selatan, I - II Solok",
+  "koordinat": "-1.27,100.28",
+  "prov": "Sumatera Barat",
+  "kode_prov": "13"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-21T19:52:18Z",
+   "magnitudo": 4.2,
+   "kedalaman": "55 km",
+   "wilayah": "Pusat gempa berada di laut 34 km Barat Pesisir Selatan",
+   "potensi": null,
+   "dirasakan": "II - III Kota Padang, II - III Pesisir Selatan, I - II Solok",
+   "koordinat": "-1.27,100.28",
+   "prov": "Sumatera Barat",
+   "kode_prov": "13"
+  },
   {
    "waktu_utc": "2026-11-21T09:42:11Z",
    "magnitudo": 7.2,
@@ -163,17 +174,6 @@
    "potensi": null,
    "dirasakan": "II - III Kab. Manggarai",
    "koordinat": "-8.24,120.52",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T06:52:16Z",
-   "magnitudo": 4.0,
-   "kedalaman": "2 km",
-   "wilayah": "Pusat gempa berada di laut 57 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "II - III Kab. Manggarai",
-   "koordinat": "-8.10,120.51",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
   }
