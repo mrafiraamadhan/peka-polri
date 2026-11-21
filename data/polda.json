@@ -1,16 +1,16 @@
 {
- "diperbarui_utc": "2026-11-21T00:29:45Z",
+ "diperbarui_utc": "2026-11-21T01:21:12Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4000,
+ "kasus_tanpa_polda": 4003,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 811,
+   "kasus": 812,
    "perlu": 300,
    "perlu_tanggap": 63,
    "persen_tanggap": 21.0,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     178
+     179
     ],
     [
      "narkoba",
@@ -45,7 +45,7 @@
    "persen_tanggap": 18.2,
    "tanggap": 222,
    "jalur_khusus": 9,
-   "melewati_batas": 96,
+   "melewati_batas": 97,
    "median_jeda_jam": 10.4,
    "n_jeda": 29,
    "topik_teratas": [
@@ -68,19 +68,19 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 398,
-   "perlu": 155,
+   "kasus": 399,
+   "perlu": 156,
    "perlu_tanggap": 37,
-   "persen_tanggap": 23.9,
+   "persen_tanggap": 23.7,
    "tanggap": 203,
    "jalur_khusus": 5,
-   "melewati_batas": 89,
+   "melewati_batas": 90,
    "median_jeda_jam": 4.1,
    "n_jeda": 37,
    "topik_teratas": [
     [
      "darurat",
-     102
+     103
     ],
     [
      "jalanan",
@@ -242,12 +242,12 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 167,
+   "kasus": 168,
    "perlu": 71,
    "perlu_tanggap": 10,
    "persen_tanggap": 14.1,
-   "tanggap": 87,
-   "jalur_khusus": 24,
+   "tanggap": 88,
+   "jalur_khusus": 25,
    "melewati_batas": 40,
    "median_jeda_jam": 6.5,
    "n_jeda": 10,
@@ -258,7 +258,7 @@
     ],
     [
      "anggota",
-     31
+     32
     ],
     [
      "narkoba",
@@ -851,8 +851,8 @@
    "provinsi": [
     "76"
    ],
-   "kasus": 42,
-   "perlu": 12,
+   "kasus": 43,
+   "perlu": 13,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
    "tanggap": 28,
@@ -872,6 +872,35 @@
     [
      "narkoba",
      6
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sulawesi Utara",
+   "provinsi": [
+    "71"
+   ],
+   "kasus": 40,
+   "perlu": 12,
+   "perlu_tanggap": 2,
+   "persen_tanggap": 16.7,
+   "tanggap": 18,
+   "jalur_khusus": 3,
+   "melewati_batas": 6,
+   "median_jeda_jam": 6.2,
+   "n_jeda": 2,
+   "topik_teratas": [
+    [
+     "darurat",
+     12
+    ],
+    [
+     "jalanan",
+     9
+    ],
+    [
+     "narkoba",
+     5
     ]
    ]
   },
@@ -930,35 +959,6 @@
     [
      "darurat",
      4
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Utara",
-   "provinsi": [
-    "71"
-   ],
-   "kasus": 39,
-   "perlu": 11,
-   "perlu_tanggap": 2,
-   "persen_tanggap": 18.2,
-   "tanggap": 18,
-   "jalur_khusus": 3,
-   "melewati_batas": 6,
-   "median_jeda_jam": 6.2,
-   "n_jeda": 2,
-   "topik_teratas": [
-    [
-     "darurat",
-     12
-    ],
-    [
-     "jalanan",
-     9
-    ],
-    [
-     "narkoba",
-     5
     ]
    ]
   },
@@ -1921,6 +1921,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Gresik bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3517",
+   "kabkota": "Kabupaten Jombang",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polres Jombang",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-10",
+    "2026-11-16"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polres Jombang bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -2024,27 +2045,6 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polresta Cilacap bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3517",
-   "kabkota": "Kabupaten Jombang",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polres Jombang",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-10",
-    "2026-11-16"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polres Jombang bersama pemerintah daerah"
   },
   {
    "kode_kab": "5102",
