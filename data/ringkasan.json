@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-21T04:03:53Z",
+ "diperbarui_utc": "2026-11-21T04:55:20Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 5,
-  "anggota": 52,
+  "anggota": 51,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 21,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
-  "JALUR KHUSUS": 58,
+  "JALUR KHUSUS": 57,
   "TINDAK": 72,
   "PANTAU": 140,
-  "TERCATAT": 1217
+  "TERCATAT": 1202
  },
- "kasus_aktif": 1488,
+ "kasus_aktif": 1472,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 76
+   "kasus": 75
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -27,23 +27,23 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 308
+   "kasus": 304
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 122
+   "kasus": 119
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 275
+   "kasus": 272
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 88
+   "kasus": 87
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 96
+   "kasus": 97
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 359
+   "kasus": 354
   }
  },
  "provinsi": {
@@ -61,7 +61,7 @@
    "DARURAT": 1,
    "TINDAK": 6,
    "PANTAU": 7,
-   "TERCATAT": 38
+   "TERCATAT": 37
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -69,7 +69,7 @@
    "JALUR KHUSUS": 11,
    "TINDAK": 1,
    "PANTAU": 5,
-   "TERCATAT": 19
+   "TERCATAT": 20
   },
   "14": {
    "nama": "Riau",
@@ -92,14 +92,14 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 5,
    "PANTAU": 15,
-   "TERCATAT": 9
+   "TERCATAT": 10
   },
   "74": {
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 12
+   "TERCATAT": 10
   },
   "32": {
    "nama": "Jawa Barat",
@@ -107,7 +107,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 3,
    "PANTAU": 10,
-   "TERCATAT": 54
+   "TERCATAT": 53
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -136,7 +136,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 6,
    "PANTAU": 14,
-   "TERCATAT": 54
+   "TERCATAT": 53
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -159,7 +159,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 14
+   "TERCATAT": 13
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -188,7 +188,7 @@
    "polda": "Polda Sumatera Barat",
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 30
+   "TERCATAT": 27
   },
   "15": {
    "nama": "Jambi",
@@ -252,7 +252,7 @@
    "nama": "Maluku Utara",
    "polda": "Polda Maluku Utara",
    "PANTAU": 2,
-   "TERCATAT": 3
+   "TERCATAT": 2
   },
   "81": {
    "nama": "Maluku",
@@ -276,7 +276,7 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 2,
-   "TERCATAT": 49
+   "TERCATAT": 48
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -316,40 +316,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 898,
+   "artikel": 891,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 37,
+   "relevan": 33,
    "sudah_ada": 840,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 17,
+   "tidak_relevan": 5,
+   "bukan_kejadian": 13,
    "luar_negeri": 0,
-   "kasus_baru": 12,
-   "digabung": 25
+   "kasus_baru": 11,
+   "digabung": 22
   },
   "timbang": {
    "DARURAT": 1,
-   "JALUR KHUSUS": 58,
+   "JALUR KHUSUS": 57,
    "TINDAK": 72,
    "PANTAU": 140,
-   "TERCATAT": 1217
+   "TERCATAT": 1202
   },
   "teruskan": {
    "polda": 37,
-   "kasus": 271
+   "kasus": 270
   },
   "kabarkan": {
-   "tanggapan_terlihat": 690,
-   "kasus": 1488,
-   "tanggapan_sejak_berita_pertama": 600,
-   "median_jeda_jam": 12.4,
-   "n_jeda": 90,
-   "melewati_batas": 99
+   "tanggapan_terlihat": 681,
+   "kasus": 1472,
+   "tanggapan_sejak_berita_pertama": 593,
+   "median_jeda_jam": 11.9,
+   "n_jeda": 88,
+   "melewati_batas": 101
   },
   "arsipkan": {
-   "baris": 9963,
+   "baris": 9974,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 25
