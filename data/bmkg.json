@@ -1,17 +1,39 @@
 {
- "diperbarui_utc": "2026-11-21T03:12:39Z",
+ "diperbarui_utc": "2026-11-21T04:03:53Z",
  "terbaru": {
-  "waktu_utc": "2026-11-20T17:50:26Z",
-  "magnitudo": 4.6,
-  "kedalaman": "17 km",
-  "wilayah": "Pusat gempa berada di laut 66 km selatan Kota Sukabumi",
+  "waktu_utc": "2026-11-21T02:37:18Z",
+  "magnitudo": 4.0,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di laut 52 km utara Ruteng, Manggarai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Lengkong, III Pabuaran, III Ciemas, III Cidolog, II - III Palabuanratu, II - III Nagrak, II Kota Cimahi, II Ciparay, II Pangalengan, II Kab. Bandung",
-  "koordinat": "-7.51,106.85",
-  "prov": "Jawa Barat",
-  "kode_prov": "32"
+  "dirasakan": "II - III Kab. Manggarai",
+  "koordinat": "-8.14,120.46",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-21T02:37:18Z",
+   "magnitudo": 4.0,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di laut 52 km utara Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "II - III Kab. Manggarai",
+   "koordinat": "-8.14,120.46",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
+  {
+   "waktu_utc": "2026-11-20T22:16:05Z",
+   "magnitudo": 4.1,
+   "kedalaman": "3 km",
+   "wilayah": "Pusat gempa berada di laut 61 km utara Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "II - III Kab. Manggarai",
+   "koordinat": "-8.07,120.56",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-20T17:50:26Z",
    "magnitudo": 4.6,
@@ -152,28 +174,6 @@
    "potensi": null,
    "dirasakan": "III Kab. Manggarai",
    "koordinat": "-8.12,120.51",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T05:48:50Z",
-   "magnitudo": 4.1,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di laut 49 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "II Kab. Manggarai",
-   "koordinat": "-8.17,120.50",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T05:24:54Z",
-   "magnitudo": 4.8,
-   "kedalaman": "2 km",
-   "wilayah": "Pusat gempa berada di laut 60 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "III-IV Kab. Manggarai",
-   "koordinat": "-8.08,120.56",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
   }

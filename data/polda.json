@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-21T03:12:39Z",
+ "diperbarui_utc": "2026-11-21T04:03:53Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4017,
+ "kasus_tanpa_polda": 4022,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -16,7 +16,7 @@
    "persen_tanggap": 21.0,
    "tanggap": 425,
    "jalur_khusus": 40,
-   "melewati_batas": 177,
+   "melewati_batas": 178,
    "median_jeda_jam": 14.7,
    "n_jeda": 63,
    "topik_teratas": [
@@ -45,7 +45,7 @@
    "persen_tanggap": 18.1,
    "tanggap": 223,
    "jalur_khusus": 9,
-   "melewati_batas": 97,
+   "melewati_batas": 98,
    "median_jeda_jam": 10.4,
    "n_jeda": 29,
    "topik_teratas": [
@@ -103,7 +103,7 @@
    "persen_tanggap": 17.5,
    "tanggap": 202,
    "jalur_khusus": 14,
-   "melewati_batas": 72,
+   "melewati_batas": 73,
    "median_jeda_jam": 10.2,
    "n_jeda": 24,
    "topik_teratas": [
@@ -126,11 +126,11 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 200,
+   "kasus": 201,
    "perlu": 108,
    "perlu_tanggap": 19,
    "persen_tanggap": 17.6,
-   "tanggap": 98,
+   "tanggap": 99,
    "jalur_khusus": 9,
    "melewati_batas": 77,
    "median_jeda_jam": 7.7,
@@ -138,7 +138,7 @@
    "topik_teratas": [
     [
      "konflik",
-     115
+     116
     ],
     [
      "jalanan",
@@ -213,11 +213,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 215,
+   "kasus": 216,
    "perlu": 71,
    "perlu_tanggap": 15,
    "persen_tanggap": 21.1,
-   "tanggap": 133,
+   "tanggap": 134,
    "jalur_khusus": 8,
    "melewati_batas": 47,
    "median_jeda_jam": 13.6,
@@ -233,7 +233,7 @@
     ],
     [
      "darurat",
-     30
+     31
     ]
    ]
   },
@@ -387,11 +387,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 147,
+   "kasus": 148,
    "perlu": 47,
    "perlu_tanggap": 10,
    "persen_tanggap": 21.3,
-   "tanggap": 98,
+   "tanggap": 99,
    "jalur_khusus": 10,
    "melewati_batas": 22,
    "median_jeda_jam": 16.2,
@@ -399,7 +399,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     45
+     46
     ],
     [
      "narkoba",
@@ -503,11 +503,11 @@
    "provinsi": [
     "64"
    ],
-   "kasus": 138,
+   "kasus": 139,
    "perlu": 34,
    "perlu_tanggap": 6,
    "persen_tanggap": 17.6,
-   "tanggap": 66,
+   "tanggap": 68,
    "jalur_khusus": 1,
    "melewati_batas": 22,
    "median_jeda_jam": 4.5,
@@ -590,11 +590,11 @@
    "provinsi": [
     "19"
    ],
-   "kasus": 70,
+   "kasus": 71,
    "perlu": 27,
    "perlu_tanggap": 3,
    "persen_tanggap": 11.1,
-   "tanggap": 34,
+   "tanggap": 35,
    "jalur_khusus": 4,
    "melewati_batas": 18,
    "median_jeda_jam": 38.1,
@@ -602,7 +602,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     24
+     25
     ],
     [
      "jalanan",
@@ -648,11 +648,11 @@
    "provinsi": [
     "65"
    ],
-   "kasus": 71,
+   "kasus": 72,
    "perlu": 25,
    "perlu_tanggap": 3,
    "persen_tanggap": 12.0,
-   "tanggap": 41,
+   "tanggap": 42,
    "jalur_khusus": 3,
    "melewati_batas": 17,
    "median_jeda_jam": 4.5,
@@ -851,11 +851,11 @@
    "provinsi": [
     "76"
    ],
-   "kasus": 43,
+   "kasus": 44,
    "perlu": 13,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 28,
+   "tanggap": 29,
    "jalur_khusus": 1,
    "melewati_batas": 10,
    "median_jeda_jam": null,
@@ -1539,7 +1539,7 @@
     "2026-11-16",
     "2026-11-19"
    ],
-   "kejadian_ditanggapi": 1,
+   "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Kutai Kartanegara bersama pemerintah daerah"
   },
   {
