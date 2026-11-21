@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-21T09:45:59Z",
+ "diperbarui_utc": "2026-11-21T10:37:20Z",
  "terbaru": {
-  "waktu_utc": "2026-11-21T02:37:18Z",
-  "magnitudo": 4.0,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di laut 52 km utara Ruteng, Manggarai",
+  "waktu_utc": "2026-11-21T09:42:11Z",
+  "magnitudo": 7.2,
+  "kedalaman": "125 km",
+  "wilayah": "Pusat gempa berada di laut 43 km barat laut Maluku Barat Daya",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Kab. Manggarai",
-  "koordinat": "-8.14,120.46",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "IV Tiakur, III Saumlaki, III Waingapu, II-III Kupang, III Kab. Alor, IV Romang, IV Pulau Babar, II-III Kota Kupang, II-III Kab. Kupang, II-III Kab. Timur Tengah Utara, II-III Kab. Malaka, II-III Kab. Melu, II-III Kab. Lembata",
+  "koordinat": "-7.88,127.51",
+  "prov": "Maluku",
+  "kode_prov": "81"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-21T09:42:11Z",
+   "magnitudo": 7.2,
+   "kedalaman": "125 km",
+   "wilayah": "Pusat gempa berada di laut 43 km barat laut Maluku Barat Daya",
+   "potensi": null,
+   "dirasakan": "IV Tiakur, III Saumlaki, III Waingapu, II-III Kupang, III Kab. Alor, IV Romang, IV Pulau Babar, II-III Kota Kupang, II-III Kab. Kupang, II-III Kab. Timur Tengah Utara, II-III Kab. Malaka, II-III Kab. Melu, II-III Kab. Lembata",
+   "koordinat": "-7.88,127.51",
+   "prov": "Maluku",
+   "kode_prov": "81"
+  },
   {
    "waktu_utc": "2026-11-21T02:37:18Z",
    "magnitudo": 4.0,
@@ -165,20 +176,20 @@
    "koordinat": "-8.10,120.51",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T05:49:33Z",
-   "magnitudo": 4.1,
-   "kedalaman": "3 km",
-   "wilayah": "Pusat gempa berada di laut 55 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "III Kab. Manggarai",
-   "koordinat": "-8.12,120.51",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-21T09:42:11Z",
+   "magnitudo": 7.2,
+   "kedalaman": "125 km",
+   "wilayah": "43 km BaratLaut MALUKUBRTDAYA",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-7.88,127.51",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-20T13:09:01Z",
    "magnitudo": 5.2,
@@ -332,17 +343,6 @@
    "koordinat": "-4.40,132.49",
    "prov": "Maluku",
    "kode_prov": "81"
-  },
-  {
-   "waktu_utc": "2026-10-29T03:26:49Z",
-   "magnitudo": 6.0,
-   "kedalaman": "120 km",
-   "wilayah": "153 km Tenggara OKSIBIL-PAPUAPGNGN",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-5.45,141.90",
-   "prov": null,
-   "kode_prov": null
   }
  ]
 }
