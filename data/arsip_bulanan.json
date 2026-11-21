@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-21T07:29:27Z",
+ "diperbarui_utc": "2026-11-21T08:20:49Z",
  "bulan": [
   {
    "bulan": "2026-10",
@@ -69,33 +69,33 @@
   },
   {
    "bulan": "2026-11",
-   "kasus": 8457,
+   "kasus": 8480,
    "topik": {
-    "jalanan": 1835,
-    "perempuan_anak": 607,
-    "narkoba": 1658,
-    "darurat": 2217,
-    "konflik": 517,
+    "jalanan": 1844,
+    "perempuan_anak": 608,
+    "narkoba": 1660,
+    "darurat": 2221,
+    "konflik": 520,
     "penipuan": 722,
     "anggota": 369,
-    "lalulintas": 513,
+    "lalulintas": 517,
     "layanan": 19
    },
    "status": {
-    "TERCATAT": 6907,
-    "PANTAU": 907,
-    "TINDAK": 361,
+    "TERCATAT": 6922,
+    "PANTAU": 912,
+    "TINDAK": 363,
     "JALUR KHUSUS": 281,
-    "DARURAT": 1
+    "DARURAT": 2
    },
    "provinsi_teratas": [
     [
      "Jawa Timur",
-     678
+     679
     ],
     [
      "Jawa Barat",
-     443
+     444
     ],
     [
      "Jawa Tengah",
@@ -103,11 +103,11 @@
     ],
     [
      "Sumatera Utara",
-     300
+     301
     ],
     [
      "DKI Jakarta",
-     261
+     262
     ],
     [
      "Aceh",
@@ -115,24 +115,24 @@
     ],
     [
      "Lampung",
-     185
+     187
+    ],
+    [
+     "Sumatera Selatan",
+     183
     ],
     [
      "Riau",
      182
     ],
     [
-     "Sumatera Selatan",
-     181
-    ],
-    [
      "DI Yogyakarta",
-     172
+     175
     ]
    ],
-   "tanggapan_terlihat": 3630,
-   "median_jeda_jam": 10.7,
-   "n_jeda": 402
+   "tanggapan_terlihat": 3640,
+   "median_jeda_jam": 10.5,
+   "n_jeda": 403
   }
  ]
 }
