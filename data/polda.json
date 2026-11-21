@@ -1,22 +1,22 @@
 {
- "diperbarui_utc": "2026-11-21T02:21:21Z",
+ "diperbarui_utc": "2026-11-21T03:12:39Z",
  "jendela_hari": 30,
  "hari_riwayat": 25,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4011,
+ "kasus_tanpa_polda": 4017,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 813,
+   "kasus": 814,
    "perlu": 300,
    "perlu_tanggap": 63,
    "persen_tanggap": 21.0,
-   "tanggap": 424,
+   "tanggap": 425,
    "jalur_khusus": 40,
-   "melewati_batas": 176,
+   "melewati_batas": 177,
    "median_jeda_jam": 14.7,
    "n_jeda": 63,
    "topik_teratas": [
@@ -68,10 +68,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 400,
-   "perlu": 156,
+   "kasus": 402,
+   "perlu": 158,
    "perlu_tanggap": 37,
-   "persen_tanggap": 23.7,
+   "persen_tanggap": 23.4,
    "tanggap": 204,
    "jalur_khusus": 5,
    "melewati_batas": 90,
@@ -88,7 +88,7 @@
     ],
     [
      "narkoba",
-     64
+     65
     ]
    ]
   },
@@ -155,11 +155,11 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 373,
+   "kasus": 374,
    "perlu": 101,
    "perlu_tanggap": 21,
    "persen_tanggap": 20.8,
-   "tanggap": 244,
+   "tanggap": 245,
    "jalur_khusus": 8,
    "melewati_batas": 64,
    "median_jeda_jam": 9.5,
@@ -171,7 +171,7 @@
     ],
     [
      "jalanan",
-     83
+     84
     ],
     [
      "darurat",
@@ -329,10 +329,10 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 144,
-   "perlu": 51,
+   "kasus": 145,
+   "perlu": 52,
    "perlu_tanggap": 7,
-   "persen_tanggap": 13.7,
+   "persen_tanggap": 13.5,
    "tanggap": 76,
    "jalur_khusus": 4,
    "melewati_batas": 27,
@@ -349,7 +349,7 @@
     ],
     [
      "lalulintas",
-     18
+     19
     ]
    ]
   },
@@ -416,11 +416,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 130,
+   "kasus": 132,
    "perlu": 44,
    "perlu_tanggap": 7,
    "persen_tanggap": 15.9,
-   "tanggap": 69,
+   "tanggap": 70,
    "jalur_khusus": 4,
    "melewati_batas": 30,
    "median_jeda_jam": 18.1,
@@ -431,11 +431,11 @@
      34
     ],
     [
-     "jalanan",
-     26
+     "darurat",
+     27
     ],
     [
-     "darurat",
+     "jalanan",
      26
     ]
    ]
@@ -474,10 +474,10 @@
    "provinsi": [
     "21"
    ],
-   "kasus": 109,
-   "perlu": 38,
+   "kasus": 110,
+   "perlu": 39,
    "perlu_tanggap": 7,
-   "persen_tanggap": 18.4,
+   "persen_tanggap": 17.9,
    "tanggap": 71,
    "jalur_khusus": 7,
    "melewati_batas": 23,
@@ -534,13 +534,13 @@
    ],
    "kasus": 88,
    "perlu": 32,
-   "perlu_tanggap": 3,
-   "persen_tanggap": 9.4,
-   "tanggap": 47,
+   "perlu_tanggap": 4,
+   "persen_tanggap": 12.5,
+   "tanggap": 48,
    "jalur_khusus": 4,
    "melewati_batas": 19,
-   "median_jeda_jam": 41.0,
-   "n_jeda": 3,
+   "median_jeda_jam": 37.4,
+   "n_jeda": 4,
    "topik_teratas": [
     [
      "jalanan",
@@ -561,7 +561,7 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 112,
+   "kasus": 113,
    "perlu": 27,
    "perlu_tanggap": 5,
    "persen_tanggap": 18.5,
@@ -581,7 +581,7 @@
     ],
     [
      "darurat",
-     22
+     23
     ]
    ]
   },
@@ -2149,6 +2149,26 @@
    "penanggung_jawab": "Kasat Binmas Polresta Deli Serdang bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3175",
+   "kabkota": "Kota Jakarta Utara",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Utara",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 4,
+   "kasus": 14,
+   "tanggal": [
+    "2026-11-01",
+    "2026-11-04",
+    "2026-11-09",
+    "2026-11-21"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Utara bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5103",
    "kabkota": "Kabupaten Badung",
    "kode_prov": "51",
@@ -2347,26 +2367,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polres Kediri Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "5271",
-   "kabkota": "Kota Mataram",
-   "kode_prov": "52",
-   "provinsi": "Nusa Tenggara Barat",
-   "polda": "Polda Nusa Tenggara Barat",
-   "polres": "Polresta Mataram",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 4,
-   "kasus": 11,
-   "tanggal": [
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-13",
-    "2026-11-16"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polresta Mataram bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
