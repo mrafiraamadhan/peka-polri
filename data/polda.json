@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-21T22:36:38Z",
+ "diperbarui_utc": "2026-11-21T23:12:01Z",
  "jendela_hari": 30,
  "hari_riwayat": 26,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4141,
+ "kasus_tanpa_polda": 4143,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,15 +39,15 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 419,
-   "perlu": 172,
-   "perlu_tanggap": 40,
-   "persen_tanggap": 23.3,
-   "tanggap": 216,
+   "kasus": 420,
+   "perlu": 173,
+   "perlu_tanggap": 41,
+   "persen_tanggap": 23.7,
+   "tanggap": 217,
    "jalur_khusus": 5,
    "melewati_batas": 100,
-   "median_jeda_jam": 3.8,
-   "n_jeda": 40,
+   "median_jeda_jam": 4.1,
+   "n_jeda": 41,
    "topik_teratas": [
     [
      "darurat",
@@ -155,7 +155,7 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 383,
+   "kasus": 384,
    "perlu": 103,
    "perlu_tanggap": 22,
    "persen_tanggap": 21.4,
@@ -175,7 +175,7 @@
     ],
     [
      "darurat",
-     64
+     65
     ]
    ]
   },
@@ -213,11 +213,11 @@
    "provinsi": [
     "73"
    ],
-   "kasus": 177,
+   "kasus": 178,
    "perlu": 74,
    "perlu_tanggap": 10,
    "persen_tanggap": 13.5,
-   "tanggap": 93,
+   "tanggap": 94,
    "jalur_khusus": 25,
    "melewati_batas": 41,
    "median_jeda_jam": 6.5,
@@ -233,7 +233,7 @@
     ],
     [
      "narkoba",
-     26
+     27
     ]
    ]
   },
@@ -766,13 +766,13 @@
    ],
    "kasus": 39,
    "perlu": 19,
-   "perlu_tanggap": 4,
-   "persen_tanggap": 21.1,
-   "tanggap": 22,
+   "perlu_tanggap": 5,
+   "persen_tanggap": 26.3,
+   "tanggap": 23,
    "jalur_khusus": 4,
    "melewati_batas": 10,
-   "median_jeda_jam": 6.0,
-   "n_jeda": 4,
+   "median_jeda_jam": 6.3,
+   "n_jeda": 5,
    "topik_teratas": [
     [
      "narkoba",
@@ -1591,6 +1591,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Selatan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1275",
+   "kabkota": "Kota Medan",
+   "kode_prov": "12",
+   "provinsi": "Sumatera Utara",
+   "polda": "Polda Sumatera Utara",
+   "polres": "Polrestabes Medan",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-01",
+    "2026-11-13",
+    "2026-11-17",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3272",
    "kabkota": "Kota Sukabumi",
    "kode_prov": "32",
@@ -2360,26 +2381,6 @@
    ],
    "kejadian_ditanggapi": 1,
    "penanggung_jawab": "Kasat Binmas Polresta Deli Serdang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3173",
-   "kabkota": "Kota Jakarta Pusat",
-   "kode_prov": "31",
-   "provinsi": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Jakarta Pusat",
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kejadian": 4,
-   "kasus": 13,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-04",
-    "2026-11-07",
-    "2026-11-15"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
