@@ -1,15 +1,15 @@
 {
- "diperbarui_utc": "2026-11-22T07:26:49Z",
+ "diperbarui_utc": "2026-11-22T08:18:21Z",
  "terbaru": {
-  "waktu_utc": "2026-11-21T23:16:01Z",
-  "magnitudo": 4.8,
-  "kedalaman": "6 km",
-  "wilayah": "Pusat gempa berada di laut 35 km barat laut Sentani",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Kota Jayapura, II - III Kab. Jayapura",
-  "koordinat": "-2.29,140.30",
-  "prov": "Papua",
-  "kode_prov": "94"
+  "waktu_utc": "2026-11-22T07:54:39Z",
+  "magnitudo": 5.4,
+  "kedalaman": "10 km",
+  "wilayah": "98 km BaratDaya MELONGUANE-SULUT",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "3.12,126.57",
+  "prov": "Sulawesi Utara",
+  "kode_prov": "71"
  },
  "dirasakan": [
   {
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-22T07:54:39Z",
+   "magnitudo": 5.4,
+   "kedalaman": "10 km",
+   "wilayah": "98 km BaratDaya MELONGUANE-SULUT",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "3.12,126.57",
+   "prov": "Sulawesi Utara",
+   "kode_prov": "71"
+  },
+  {
    "waktu_utc": "2026-11-21T09:42:11Z",
    "magnitudo": 7.2,
    "kedalaman": "125 km",
@@ -332,17 +343,6 @@
    "koordinat": "-7.08,130.07",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-10-29T20:32:13Z",
-   "magnitudo": 5.3,
-   "kedalaman": "10 km",
-   "wilayah": "139 km BaratLaut TUAL-MALUKU",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-4.40,132.49",
-   "prov": "Maluku",
-   "kode_prov": "81"
   }
  ]
 }

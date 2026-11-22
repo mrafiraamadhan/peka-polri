@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-22T07:26:49Z",
+ "diperbarui_utc": "2026-11-22T08:18:21Z",
  "jendela_hari": 30,
  "hari_riwayat": 26,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4193,
+ "kasus_tanpa_polda": 4202,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 832,
-   "perlu": 310,
+   "kasus": 834,
+   "perlu": 311,
    "perlu_tanggap": 65,
-   "persen_tanggap": 21.0,
+   "persen_tanggap": 20.9,
    "tanggap": 433,
    "jalur_khusus": 40,
    "melewati_batas": 186,
@@ -22,11 +22,11 @@
    "topik_teratas": [
     [
      "jalanan",
-     207
+     208
     ],
     [
      "darurat",
-     181
+     182
     ],
     [
      "narkoba",
@@ -39,10 +39,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 428,
-   "perlu": 177,
+   "kasus": 429,
+   "perlu": 178,
    "perlu_tanggap": 42,
-   "persen_tanggap": 23.7,
+   "persen_tanggap": 23.6,
    "tanggap": 222,
    "jalur_khusus": 5,
    "melewati_batas": 104,
@@ -74,7 +74,7 @@
    "persen_tanggap": 17.8,
    "tanggap": 225,
    "jalur_khusus": 9,
-   "melewati_batas": 102,
+   "melewati_batas": 103,
    "median_jeda_jam": 10.4,
    "n_jeda": 29,
    "topik_teratas": [
@@ -132,7 +132,7 @@
    "persen_tanggap": 21.4,
    "tanggap": 108,
    "jalur_khusus": 9,
-   "melewati_batas": 77,
+   "melewati_batas": 78,
    "median_jeda_jam": 11.0,
    "n_jeda": 24,
    "topik_teratas": [
@@ -277,7 +277,7 @@
    "persen_tanggap": 18.8,
    "tanggap": 85,
    "jalur_khusus": 4,
-   "melewati_batas": 36,
+   "melewati_batas": 37,
    "median_jeda_jam": 9.2,
    "n_jeda": 13,
    "topik_teratas": [
@@ -300,11 +300,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 225,
+   "kasus": 226,
    "perlu": 62,
    "perlu_tanggap": 13,
    "persen_tanggap": 21.0,
-   "tanggap": 144,
+   "tanggap": 145,
    "jalur_khusus": 11,
    "melewati_batas": 41,
    "median_jeda_jam": 20.3,
@@ -619,11 +619,11 @@
    "provinsi": [
     "13"
    ],
-   "kasus": 158,
+   "kasus": 159,
    "perlu": 26,
    "perlu_tanggap": 2,
    "persen_tanggap": 7.7,
-   "tanggap": 90,
+   "tanggap": 91,
    "jalur_khusus": 2,
    "melewati_batas": 21,
    "median_jeda_jam": 9.2,
@@ -639,7 +639,7 @@
     ],
     [
      "jalanan",
-     29
+     30
     ]
    ]
   },
@@ -822,11 +822,11 @@
    "provinsi": [
     "82"
    ],
-   "kasus": 45,
+   "kasus": 46,
    "perlu": 16,
    "perlu_tanggap": 0,
    "persen_tanggap": 0.0,
-   "tanggap": 17,
+   "tanggap": 18,
    "jalur_khusus": 3,
    "melewati_batas": 10,
    "median_jeda_jam": null,
@@ -843,6 +843,35 @@
     [
      "anggota",
      8
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sulawesi Barat",
+   "provinsi": [
+    "76"
+   ],
+   "kasus": 45,
+   "perlu": 14,
+   "perlu_tanggap": 0,
+   "persen_tanggap": 0.0,
+   "tanggap": 29,
+   "jalur_khusus": 1,
+   "melewati_batas": 10,
+   "median_jeda_jam": null,
+   "n_jeda": 0,
+   "topik_teratas": [
+    [
+     "jalanan",
+     15
+    ],
+    [
+     "perempuan_anak",
+     7
+    ],
+    [
+     "narkoba",
+     6
     ]
    ]
   },
@@ -872,35 +901,6 @@
     [
      "jalanan",
      7
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Sulawesi Barat",
-   "provinsi": [
-    "76"
-   ],
-   "kasus": 44,
-   "perlu": 13,
-   "perlu_tanggap": 0,
-   "persen_tanggap": 0.0,
-   "tanggap": 29,
-   "jalur_khusus": 1,
-   "melewati_batas": 10,
-   "median_jeda_jam": null,
-   "n_jeda": 0,
-   "topik_teratas": [
-    [
-     "jalanan",
-     14
-    ],
-    [
-     "perempuan_anak",
-     7
-    ],
-    [
-     "narkoba",
-     6
     ]
    ]
   },
@@ -1463,6 +1463,28 @@
    ],
    "kejadian_ditanggapi": 6,
    "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3515",
+   "kabkota": "Kabupaten Sidoarjo",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polresta Sidoarjo",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 6,
+   "kasus": 8,
+   "tanggal": [
+    "2026-11-01",
+    "2026-11-05",
+    "2026-11-10",
+    "2026-11-15",
+    "2026-11-18",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
   },
   {
    "kode_kab": "2171",
@@ -2178,27 +2200,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3515",
-   "kabkota": "Kabupaten Sidoarjo",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polresta Sidoarjo",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 7,
-   "tanggal": [
-    "2026-11-01",
-    "2026-11-05",
-    "2026-11-10",
-    "2026-11-15",
-    "2026-11-18"
-   ],
-   "kejadian_ditanggapi": 0,
-   "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
   },
   {
    "kode_kab": "3272",
