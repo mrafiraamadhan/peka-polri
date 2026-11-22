@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-22T08:18:21Z",
+ "diperbarui_utc": "2026-11-22T09:10:03Z",
  "terbaru": {
   "waktu_utc": "2026-11-22T07:54:39Z",
   "magnitudo": 5.4,
   "kedalaman": "10 km",
-  "wilayah": "98 km BaratDaya MELONGUANE-SULUT",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
+  "wilayah": "Pusat gempa berada di laut 98 km BaratDaya Melonguane",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "II Tahuna",
   "koordinat": "3.12,126.57",
-  "prov": "Sulawesi Utara",
-  "kode_prov": "71"
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-22T07:54:39Z",
+   "magnitudo": 5.4,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 98 km BaratDaya Melonguane",
+   "potensi": null,
+   "dirasakan": "II Tahuna",
+   "koordinat": "3.12,126.57",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-21T23:16:01Z",
    "magnitudo": 4.8,
@@ -165,17 +176,6 @@
    "koordinat": "-8.10,120.49",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-18T15:43:09Z",
-   "magnitudo": 2.0,
-   "kedalaman": "4 km",
-   "wilayah": "Pusat gempa berada di darat 9 km barat daya Kendari",
-   "potensi": null,
-   "dirasakan": "II Kendari",
-   "koordinat": "-4.04,122.46",
-   "prov": "Sulawesi Tenggara",
-   "kode_prov": "74"
   }
  ],
  "m5": [
