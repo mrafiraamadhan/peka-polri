@@ -1,16 +1,16 @@
 {
- "diperbarui_utc": "2026-11-22T09:10:03Z",
+ "diperbarui_utc": "2026-11-22T10:01:24Z",
  "jendela_hari": 30,
  "hari_riwayat": 26,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4220,
+ "kasus_tanpa_polda": 4230,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 836,
+   "kasus": 837,
    "perlu": 311,
    "perlu_tanggap": 67,
    "persen_tanggap": 21.5,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     183
+     184
     ],
     [
      "narkoba",
@@ -39,23 +39,23 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 431,
-   "perlu": 164,
-   "perlu_tanggap": 41,
-   "persen_tanggap": 25.0,
-   "tanggap": 223,
+   "kasus": 434,
+   "perlu": 180,
+   "perlu_tanggap": 42,
+   "persen_tanggap": 23.3,
+   "tanggap": 225,
    "jalur_khusus": 5,
-   "melewati_batas": 96,
+   "melewati_batas": 105,
    "median_jeda_jam": 4.2,
-   "n_jeda": 41,
+   "n_jeda": 42,
    "topik_teratas": [
     [
      "darurat",
-     113
+     114
     ],
     [
      "jalanan",
-     100
+     102
     ],
     [
      "narkoba",
@@ -68,7 +68,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 478,
+   "kasus": 480,
    "perlu": 163,
    "perlu_tanggap": 29,
    "persen_tanggap": 17.8,
@@ -84,7 +84,7 @@
     ],
     [
      "darurat",
-     141
+     143
     ],
     [
      "narkoba",
@@ -155,7 +155,7 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 385,
+   "kasus": 386,
    "perlu": 103,
    "perlu_tanggap": 22,
    "persen_tanggap": 21.4,
@@ -175,7 +175,7 @@
     ],
     [
      "darurat",
-     66
+     67
     ]
    ]
   },
@@ -219,7 +219,7 @@
    "persen_tanggap": 20.3,
    "tanggap": 139,
    "jalur_khusus": 8,
-   "melewati_batas": 48,
+   "melewati_batas": 49,
    "median_jeda_jam": 13.6,
    "n_jeda": 15,
    "topik_teratas": [
@@ -271,19 +271,19 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 169,
+   "kasus": 170,
    "perlu": 73,
-   "perlu_tanggap": 13,
-   "persen_tanggap": 17.8,
-   "tanggap": 85,
+   "perlu_tanggap": 15,
+   "persen_tanggap": 20.5,
+   "tanggap": 88,
    "jalur_khusus": 4,
-   "melewati_batas": 37,
-   "median_jeda_jam": 9.2,
-   "n_jeda": 13,
+   "melewati_batas": 36,
+   "median_jeda_jam": 7.4,
+   "n_jeda": 15,
    "topik_teratas": [
     [
      "darurat",
-     62
+     63
     ],
     [
      "jalanan",
@@ -364,7 +364,7 @@
    "persen_tanggap": 13.5,
    "tanggap": 79,
    "jalur_khusus": 1,
-   "melewati_batas": 38,
+   "melewati_batas": 39,
    "median_jeda_jam": 6.9,
    "n_jeda": 7,
    "topik_teratas": [
@@ -1399,6 +1399,28 @@
    "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3515",
+   "kabkota": "Kabupaten Sidoarjo",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polresta Sidoarjo",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 6,
+   "kasus": 10,
+   "tanggal": [
+    "2026-11-01",
+    "2026-11-05",
+    "2026-11-10",
+    "2026-11-15",
+    "2026-11-18",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1871",
    "kabkota": "Kota Bandar Lampung",
    "kode_prov": "18",
@@ -1419,28 +1441,6 @@
    ],
    "kejadian_ditanggapi": 3,
    "penanggung_jawab": "Kasat Binmas Polresta Bandar Lampung bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3515",
-   "kabkota": "Kabupaten Sidoarjo",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polresta Sidoarjo",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 6,
-   "kasus": 9,
-   "tanggal": [
-    "2026-11-01",
-    "2026-11-05",
-    "2026-11-10",
-    "2026-11-15",
-    "2026-11-18",
-    "2026-11-22"
-   ],
-   "kejadian_ditanggapi": 0,
-   "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
   },
   {
    "kode_kab": "2171",
@@ -1591,6 +1591,27 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Selatan bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3671",
+   "kabkota": "Kota Tangerang",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Tangerang Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 5,
+   "kasus": 12,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "1406",
@@ -2181,6 +2202,27 @@
    "penanggung_jawab": "Kasat Binmas Polresta Jambi bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3204",
+   "kabkota": "Kabupaten Bandung",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polresta Bandung",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-05",
+    "2026-11-08",
+    "2026-11-14",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polresta Bandung bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3325",
    "kabkota": "Kabupaten Batang",
    "kode_prov": "33",
@@ -2347,48 +2389,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Pringsewu bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "5102",
-   "kabkota": "Kabupaten Tabanan",
-   "kode_prov": "51",
-   "provinsi": "Bali",
-   "polda": "Polda Bali",
-   "polres": "Polres Tabanan",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-13",
-    "2026-11-17"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Tabanan bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1276",
-   "kabkota": "Kota Binjai",
-   "kode_prov": "12",
-   "provinsi": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "polres": "Polres Binjai",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-30",
-    "2026-11-06",
-    "2026-11-09",
-    "2026-11-12",
-    "2026-11-17"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polres Binjai bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
