@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-22T18:10:20Z",
+ "diperbarui_utc": "2026-11-22T19:01:52Z",
  "jendela_hari": 30,
  "hari_riwayat": 27,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4291,
+ "kasus_tanpa_polda": 4295,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 839,
-   "perlu": 313,
+   "kasus": 840,
+   "perlu": 314,
    "perlu_tanggap": 67,
-   "persen_tanggap": 21.4,
+   "persen_tanggap": 21.3,
    "tanggap": 437,
    "jalur_khusus": 40,
    "melewati_batas": 189,
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 438,
+   "kasus": 439,
    "perlu": 167,
    "perlu_tanggap": 42,
    "persen_tanggap": 25.1,
-   "tanggap": 226,
+   "tanggap": 227,
    "jalur_khusus": 5,
    "melewati_batas": 98,
    "median_jeda_jam": 4.6,
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     102
+     103
     ],
     [
      "narkoba",
@@ -190,7 +190,7 @@
    "persen_tanggap": 21.0,
    "tanggap": 95,
    "jalur_khusus": 4,
-   "melewati_batas": 37,
+   "melewati_batas": 39,
    "median_jeda_jam": 5.5,
    "n_jeda": 17,
    "topik_teratas": [
@@ -335,7 +335,7 @@
    "persen_tanggap": 19.6,
    "tanggap": 121,
    "jalur_khusus": 0,
-   "melewati_batas": 44,
+   "melewati_batas": 45,
    "median_jeda_jam": 14.4,
    "n_jeda": 11,
    "topik_teratas": [
@@ -557,6 +557,35 @@
    ]
   },
   {
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "provinsi": [
+    "19"
+   ],
+   "kasus": 75,
+   "perlu": 29,
+   "perlu_tanggap": 3,
+   "persen_tanggap": 10.3,
+   "tanggap": 37,
+   "jalur_khusus": 4,
+   "melewati_batas": 20,
+   "median_jeda_jam": 38.1,
+   "n_jeda": 3,
+   "topik_teratas": [
+    [
+     "narkoba",
+     26
+    ],
+    [
+     "jalanan",
+     20
+    ],
+    [
+     "darurat",
+     15
+    ]
+   ]
+  },
+  {
    "polda": "Polda Kalimantan Tengah",
    "provinsi": [
     "62"
@@ -582,35 +611,6 @@
     [
      "jalanan",
      24
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "provinsi": [
-    "19"
-   ],
-   "kasus": 74,
-   "perlu": 28,
-   "perlu_tanggap": 3,
-   "persen_tanggap": 10.7,
-   "tanggap": 37,
-   "jalur_khusus": 4,
-   "melewati_batas": 19,
-   "median_jeda_jam": 38.1,
-   "n_jeda": 3,
-   "topik_teratas": [
-    [
-     "narkoba",
-     26
-    ],
-    [
-     "jalanan",
-     19
-    ],
-    [
-     "darurat",
-     15
     ]
    ]
   },
