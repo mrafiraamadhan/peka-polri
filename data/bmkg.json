@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-21T23:12:01Z",
+ "diperbarui_utc": "2026-11-22T00:03:22Z",
  "terbaru": {
-  "waktu_utc": "2026-11-21T19:52:18Z",
-  "magnitudo": 4.2,
-  "kedalaman": "55 km",
-  "wilayah": "Pusat gempa berada di laut 34 km Barat Pesisir Selatan",
+  "waktu_utc": "2026-11-21T23:16:01Z",
+  "magnitudo": 4.8,
+  "kedalaman": "6 km",
+  "wilayah": "Pusat gempa berada di laut 35 km barat laut Sentani",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Kota Padang, II - III Pesisir Selatan, I - II Solok",
-  "koordinat": "-1.27,100.28",
-  "prov": "Sumatera Barat",
-  "kode_prov": "13"
+  "dirasakan": "II - III Kota Jayapura, II - III Kab. Jayapura",
+  "koordinat": "-2.29,140.30",
+  "prov": "Papua",
+  "kode_prov": "94"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-21T23:16:01Z",
+   "magnitudo": 4.8,
+   "kedalaman": "6 km",
+   "wilayah": "Pusat gempa berada di laut 35 km barat laut Sentani",
+   "potensi": null,
+   "dirasakan": "II - III Kota Jayapura, II - III Kab. Jayapura",
+   "koordinat": "-2.29,140.30",
+   "prov": "Papua",
+   "kode_prov": "94"
+  },
   {
    "waktu_utc": "2026-11-21T19:52:18Z",
    "magnitudo": 4.2,
@@ -165,17 +176,6 @@
    "koordinat": "-4.04,122.46",
    "prov": "Sulawesi Tenggara",
    "kode_prov": "74"
-  },
-  {
-   "waktu_utc": "2026-11-18T08:01:44Z",
-   "magnitudo": 4.2,
-   "kedalaman": "19 km",
-   "wilayah": "Pusat gempa berada di laut 42 km utara Ruteng-Manggarai",
-   "potensi": null,
-   "dirasakan": "II - III Kab. Manggarai",
-   "koordinat": "-8.24,120.52",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [

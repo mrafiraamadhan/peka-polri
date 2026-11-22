@@ -1,19 +1,19 @@
 {
- "diperbarui_utc": "2026-11-21T23:12:01Z",
+ "diperbarui_utc": "2026-11-22T00:03:22Z",
  "jendela_hari": 30,
  "hari_riwayat": 26,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4143,
+ "kasus_tanpa_polda": 4144,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 826,
-   "perlu": 305,
+   "kasus": 827,
+   "perlu": 306,
    "perlu_tanggap": 65,
-   "persen_tanggap": 21.3,
+   "persen_tanggap": 21.2,
    "tanggap": 432,
    "jalur_khusus": 40,
    "melewati_batas": 184,
@@ -39,19 +39,19 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 420,
-   "perlu": 173,
+   "kasus": 422,
+   "perlu": 175,
    "perlu_tanggap": 41,
-   "persen_tanggap": 23.7,
+   "persen_tanggap": 23.4,
    "tanggap": 217,
    "jalur_khusus": 5,
-   "melewati_batas": 100,
+   "melewati_batas": 101,
    "median_jeda_jam": 4.1,
    "n_jeda": 41,
    "topik_teratas": [
     [
      "darurat",
-     110
+     111
     ],
     [
      "jalanan",
@@ -267,6 +267,35 @@
    ]
   },
   {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 157,
+   "perlu": 62,
+   "perlu_tanggap": 11,
+   "persen_tanggap": 17.7,
+   "tanggap": 82,
+   "jalur_khusus": 4,
+   "melewati_batas": 34,
+   "median_jeda_jam": 9.2,
+   "n_jeda": 11,
+   "topik_teratas": [
+    [
+     "darurat",
+     50
+    ],
+    [
+     "jalanan",
+     37
+    ],
+    [
+     "lalulintas",
+     19
+    ]
+   ]
+  },
+  {
    "polda": "Polda Lampung",
    "provinsi": [
     "18"
@@ -292,35 +321,6 @@
     [
      "darurat",
      30
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 156,
-   "perlu": 61,
-   "perlu_tanggap": 11,
-   "persen_tanggap": 18.0,
-   "tanggap": 82,
-   "jalur_khusus": 4,
-   "melewati_batas": 34,
-   "median_jeda_jam": 9.2,
-   "n_jeda": 11,
-   "topik_teratas": [
-    [
-     "darurat",
-     49
-    ],
-    [
-     "jalanan",
-     37
-    ],
-    [
-     "lalulintas",
-     19
     ]
    ]
   },
@@ -503,11 +503,11 @@
    "provinsi": [
     "64"
    ],
-   "kasus": 143,
+   "kasus": 144,
    "perlu": 35,
    "perlu_tanggap": 6,
    "persen_tanggap": 17.1,
-   "tanggap": 71,
+   "tanggap": 72,
    "jalur_khusus": 1,
    "melewati_batas": 25,
    "median_jeda_jam": 4.5,
@@ -523,7 +523,7 @@
     ],
     [
      "jalanan",
-     24
+     25
     ]
    ]
   },
@@ -683,7 +683,7 @@
    "persen_tanggap": 12.0,
    "tanggap": 42,
    "jalur_khusus": 3,
-   "melewati_batas": 19,
+   "melewati_batas": 20,
    "median_jeda_jam": 4.5,
    "n_jeda": 3,
    "topik_teratas": [
@@ -1528,6 +1528,27 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3171",
+   "kabkota": "Kota Jakarta Selatan",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Selatan",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 12,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-06",
+    "2026-11-10",
+    "2026-11-15",
+    "2026-11-21"
+   ],
+   "kejadian_ditanggapi": 2,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Selatan bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "1406",
    "kabkota": "Kabupaten Kampar",
    "kode_prov": "14",
@@ -1568,27 +1589,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Pusat bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3171",
-   "kabkota": "Kota Jakarta Selatan",
-   "kode_prov": "31",
-   "provinsi": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Jakarta Selatan",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-06",
-    "2026-11-10",
-    "2026-11-15",
-    "2026-11-21"
-   ],
-   "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Selatan bersama pemerintah daerah"
   },
   {
    "kode_kab": "1275",
