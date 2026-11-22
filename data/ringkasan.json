@@ -1,44 +1,44 @@
 {
- "diperbarui_utc": "2026-11-22T05:43:04Z",
+ "diperbarui_utc": "2026-11-22T06:35:15Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 5,
-  "anggota": 30
+  "anggota": 29
  },
  "anggota_sudah_ditangani": 21,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 6,
-  "JALUR KHUSUS": 35,
-  "TINDAK": 65,
-  "PANTAU": 157,
-  "TERCATAT": 1097
+  "DARURAT": 5,
+  "JALUR KHUSUS": 34,
+  "TINDAK": 66,
+  "PANTAU": 156,
+  "TERCATAT": 1089
  },
- "kasus_aktif": 1360,
+ "kasus_aktif": 1350,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 52
+   "kasus": 51
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 160
+   "kasus": 158
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 256
+   "kasus": 254
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 90
+   "kasus": 86
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 266
+   "kasus": 262
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 80
+   "kasus": 81
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,23 +50,23 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 353
+   "kasus": 355
   }
  },
  "provinsi": {
   "36": {
    "nama": "Banten",
    "polda": "Polda Banten",
-   "DARURAT": 6,
+   "DARURAT": 5,
    "JALUR KHUSUS": 1,
    "TINDAK": 5,
-   "PANTAU": 19,
-   "TERCATAT": 15
+   "PANTAU": 20,
+   "TERCATAT": 14
   },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
-   "JALUR KHUSUS": 11,
+   "JALUR KHUSUS": 10,
    "TINDAK": 1,
    "PANTAU": 5,
    "TERCATAT": 21
@@ -75,9 +75,9 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 2,
-   "TINDAK": 10,
+   "TINDAK": 11,
    "PANTAU": 13,
-   "TERCATAT": 79
+   "TERCATAT": 78
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -85,15 +85,15 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 50
+   "TERCATAT": 48
   },
   "32": {
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
-   "PANTAU": 11,
-   "TERCATAT": 48
+   "PANTAU": 10,
+   "TERCATAT": 47
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -133,7 +133,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 17
+   "TERCATAT": 15
   },
   "75": {
    "nama": "Gorontalo",
@@ -154,7 +154,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 6,
    "PANTAU": 21,
-   "TERCATAT": 35
+   "TERCATAT": 36
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -174,7 +174,7 @@
    "polda": "Polda Sumatera Barat",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 22
+   "TERCATAT": 23
   },
   "76": {
    "nama": "Sulawesi Barat",
@@ -220,26 +220,20 @@
   "82": {
    "nama": "Maluku Utara",
    "polda": "Polda Maluku Utara",
-   "PANTAU": 3,
+   "PANTAU": 2,
    "TERCATAT": 1
   },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
    "PANTAU": 3,
-   "TERCATAT": 23
+   "TERCATAT": 24
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
    "polda": "Polda Kepulauan Bangka Belitung",
    "PANTAU": 4,
    "TERCATAT": 5
-  },
-  "97": {
-   "nama": "Papua Pegunungan",
-   "polda": "Polda yang membawahi Papua Pegunungan",
-   "PANTAU": 2,
-   "TERCATAT": 2
   },
   "18": {
    "nama": "Lampung",
@@ -250,7 +244,7 @@
   "64": {
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
-   "PANTAU": 5,
+   "PANTAU": 6,
    "TERCATAT": 19
   },
   "74": {
@@ -259,11 +253,17 @@
    "PANTAU": 1,
    "TERCATAT": 7
   },
+  "97": {
+   "nama": "Papua Pegunungan",
+   "polda": "Polda yang membawahi Papua Pegunungan",
+   "PANTAU": 1,
+   "TERCATAT": 3
+  },
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 4,
-   "TERCATAT": 40
+   "TERCATAT": 41
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -303,40 +303,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 856,
-   "sumber": 4
+   "artikel": 854,
+   "sumber": 3
   },
   "pilah": {
    "relevan": 41,
    "sudah_ada": 795,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 16,
-   "luar_negeri": 0,
-   "kasus_baru": 19,
-   "digabung": 22
+   "tidak_relevan": 3,
+   "bukan_kejadian": 13,
+   "luar_negeri": 2,
+   "kasus_baru": 12,
+   "digabung": 29
   },
   "timbang": {
-   "DARURAT": 6,
-   "JALUR KHUSUS": 35,
-   "TINDAK": 65,
-   "PANTAU": 157,
-   "TERCATAT": 1097
+   "DARURAT": 5,
+   "JALUR KHUSUS": 34,
+   "TINDAK": 66,
+   "PANTAU": 156,
+   "TERCATAT": 1089
   },
   "teruskan": {
    "polda": 36,
-   "kasus": 263
+   "kasus": 261
   },
   "kabarkan": {
-   "tanggapan_terlihat": 634,
-   "kasus": 1360,
-   "tanggapan_sejak_berita_pertama": 546,
+   "tanggapan_terlihat": 627,
+   "kasus": 1350,
+   "tanggapan_sejak_berita_pertama": 537,
    "median_jeda_jam": 10.7,
-   "n_jeda": 88,
-   "melewati_batas": 128
+   "n_jeda": 90,
+   "melewati_batas": 130
   },
   "arsipkan": {
-   "baris": 10317,
+   "baris": 10329,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 26
@@ -344,20 +344,20 @@
  },
  "lonjakan_wilayah": [
   {
-   "kode_prov": "36",
-   "prov": "Banten",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 16,
-   "rata": 2.38
-  },
-  {
    "kode_prov": "31",
    "prov": "DKI Jakarta",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 8,
+   "hari_ini": 7,
    "rata": 3.08
+  },
+  {
+   "kode_prov": "36",
+   "prov": "Banten",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 15,
+   "rata": 2.38
   },
   {
    "kode_prov": "35",
@@ -368,24 +368,7 @@
    "rata": 2.96
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kemarin": 3,
-   "rata28": 4.3,
-   "rasio": 0.69,
-   "lonjakan": false
-  },
-  {
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kemarin": 0,
-   "rata28": 0.0,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 26,
  "gempa_darurat": [],
  "hoaks_terbaru": [
