@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-22T21:17:29Z",
+ "diperbarui_utc": "2026-11-22T22:09:07Z",
  "jendela_hari": 30,
  "hari_riwayat": 27,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4304,
+ "kasus_tanpa_polda": 4306,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -45,7 +45,7 @@
    "persen_tanggap": 25.1,
    "tanggap": 228,
    "jalur_khusus": 5,
-   "melewati_batas": 98,
+   "melewati_batas": 99,
    "median_jeda_jam": 4.6,
    "n_jeda": 42,
    "topik_teratas": [
@@ -68,7 +68,7 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 483,
+   "kasus": 485,
    "perlu": 165,
    "perlu_tanggap": 29,
    "persen_tanggap": 17.6,
@@ -84,7 +84,7 @@
     ],
     [
      "darurat",
-     143
+     145
     ],
     [
      "narkoba",
@@ -190,7 +190,7 @@
    "persen_tanggap": 21.0,
    "tanggap": 95,
    "jalur_khusus": 4,
-   "melewati_batas": 39,
+   "melewati_batas": 38,
    "median_jeda_jam": 5.5,
    "n_jeda": 17,
    "topik_teratas": [
@@ -532,11 +532,11 @@
    "provinsi": [
     "15"
    ],
-   "kasus": 95,
+   "kasus": 96,
    "perlu": 33,
    "perlu_tanggap": 4,
    "persen_tanggap": 12.1,
-   "tanggap": 53,
+   "tanggap": 54,
    "jalur_khusus": 5,
    "melewati_batas": 22,
    "median_jeda_jam": 37.4,
@@ -548,7 +548,7 @@
     ],
     [
      "narkoba",
-     20
+     21
     ],
     [
      "darurat",
@@ -1210,7 +1210,7 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "kejadian": 6,
-   "kasus": 23,
+   "kasus": 24,
    "tanggal": [
     "2026-10-29",
     "2026-11-01",
@@ -1654,6 +1654,27 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Pelalawan bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3271",
+   "kabkota": "Kota Bogor",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polresta Bogor Kota",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 5,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-04",
+    "2026-11-15",
+    "2026-11-19",
+    "2026-11-23"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3174",
@@ -2368,27 +2389,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Sukabumi Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3578",
-   "kabkota": "Kota Surabaya",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polrestabes Surabaya",
-   "topik": "anggota",
-   "nama": "Perilaku anggota",
-   "kejadian": 5,
-   "kasus": 7,
-   "tanggal": [
-    "2026-10-28",
-    "2026-11-03",
-    "2026-11-09",
-    "2026-11-13",
-    "2026-11-19"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
