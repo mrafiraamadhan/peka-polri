@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-22T19:01:52Z",
+ "diperbarui_utc": "2026-11-22T19:34:08Z",
  "jendela_hari": 30,
  "hari_riwayat": 27,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4295,
+ "kasus_tanpa_polda": 4299,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 439,
+   "kasus": 440,
    "perlu": 167,
    "perlu_tanggap": 42,
    "persen_tanggap": 25.1,
-   "tanggap": 227,
+   "tanggap": 228,
    "jalur_khusus": 5,
    "melewati_batas": 98,
    "median_jeda_jam": 4.6,
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     103
+     104
     ],
     [
      "narkoba",
@@ -1656,6 +1656,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Pelalawan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3174",
+   "kabkota": "Kota Jakarta Barat",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Barat",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 5,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-04",
+    "2026-11-10",
+    "2026-11-17",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3173",
    "kabkota": "Kota Jakarta Pusat",
    "kode_prov": "31",
@@ -1884,27 +1905,6 @@
     "2026-11-19"
    ],
    "kejadian_ditanggapi": 2,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3174",
-   "kabkota": "Kota Jakarta Barat",
-   "kode_prov": "31",
-   "provinsi": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Jakarta Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 5,
-   "kasus": 10,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-04",
-    "2026-11-10",
-    "2026-11-17",
-    "2026-11-22"
-   ],
-   "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
   },
   {
