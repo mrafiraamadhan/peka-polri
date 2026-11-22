@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-22T22:09:07Z",
+ "diperbarui_utc": "2026-11-22T23:00:29Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 6,
@@ -11,11 +11,11 @@
  "status": {
   "DARURAT": 0,
   "JALUR KHUSUS": 23,
-  "TINDAK": 50,
+  "TINDAK": 49,
   "PANTAU": 145,
-  "TERCATAT": 1084
+  "TERCATAT": 1086
  },
- "kasus_aktif": 1302,
+ "kasus_aktif": 1303,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -39,7 +39,7 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 77
+   "kasus": 76
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 356
+   "kasus": 358
   }
  },
  "provinsi": {
@@ -69,7 +69,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 9,
    "PANTAU": 11,
-   "TERCATAT": 67
+   "TERCATAT": 68
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -150,7 +150,7 @@
    "polda": "Polda Sumatera Selatan",
    "TINDAK": 5,
    "PANTAU": 4,
-   "TERCATAT": 17
+   "TERCATAT": 18
   },
   "81": {
    "nama": "Maluku",
@@ -161,7 +161,7 @@
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
-   "TINDAK": 4,
+   "TINDAK": 3,
    "PANTAU": 6,
    "TERCATAT": 54
   },
@@ -177,14 +177,14 @@
    "polda": "Polda Jawa Tengah",
    "TINDAK": 3,
    "PANTAU": 13,
-   "TERCATAT": 38
+   "TERCATAT": 37
   },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 20
+   "TERCATAT": 19
   },
   "96": {
    "nama": "Papua Tengah",
@@ -299,39 +299,39 @@
  "langkah": {
   "dengar": {
    "artikel": 846,
-   "sumber": 3
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 11,
-   "sudah_ada": 827,
+   "relevan": 17,
+   "sudah_ada": 822,
    "hoaks": 0,
-   "tidak_relevan": 2,
+   "tidak_relevan": 0,
    "bukan_kejadian": 5,
-   "luar_negeri": 1,
-   "kasus_baru": 5,
-   "digabung": 6
+   "luar_negeri": 2,
+   "kasus_baru": 7,
+   "digabung": 10
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 23,
-   "TINDAK": 50,
+   "TINDAK": 49,
    "PANTAU": 145,
-   "TERCATAT": 1084
+   "TERCATAT": 1086
   },
   "teruskan": {
    "polda": 35,
-   "kasus": 218
+   "kasus": 217
   },
   "kabarkan": {
-   "tanggapan_terlihat": 608,
-   "kasus": 1302,
-   "tanggapan_sejak_berita_pertama": 519,
+   "tanggapan_terlihat": 609,
+   "kasus": 1303,
+   "tanggapan_sejak_berita_pertama": 520,
    "median_jeda_jam": 9.2,
    "n_jeda": 89,
    "melewati_batas": 114
   },
   "arsipkan": {
-   "baris": 10571,
+   "baris": 10578,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 27
@@ -343,43 +343,12 @@
    "prov": "Banten",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 25,
+   "hari_ini": 24,
    "rata": 3.37
   }
  ],
  "lonjakan_nasional": [],
  "hari_riwayat": 27,
  "gempa_darurat": [],
- "hoaks_terbaru": [
-  {
-   "judul": "[SALAH] Prabowo Meminta TNI dan Polri Menindaklanjuti Aksi Demonstrasi Belakangan Ini",
-   "url": "https://turnbackhoax.id/articles/37499-salah-prabowo-meminta-tni-dan-polri-menindaklanjuti-aksi-demonstrasi-belakangan-ini",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Foto Jokowi Ditangkap Pasukan Brimob",
-   "url": "https://turnbackhoax.id/articles/37489-salah-foto-jokowi-ditangkap-pasukan-brimob",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Sri Sultan Hamengkubuwono X Hentikan MBG di Jogja, Ubah Dana untuk Pendidikan",
-   "url": "https://turnbackhoax.id/articles/37488-salah-sri-sultan-hamengkubuwono-x-hentikan-mbg-di-jogja-ubah-dana-untuk-pendidikan",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Video \"Jalur pipa minyak Timur-Barat (East-West Pipeline) Arab Saudi kembali diserang\"",
-   "url": "https://turnbackhoax.id/articles/37487-salah-video-jalur-pipa-minyak-timur-barat-east-west-pipeline-arab-saudi-kembali-diserang",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Foto Aksi Jutaan Orang Membela Wapres Gibran dari Pemakzulan",
-   "url": "https://turnbackhoax.id/articles/37484-salah-foto-aksi-jutaan-orang-membela-wapres-gibran-dari-pemakzulan",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] BPJS Akan Diganti dengan Klinik Kopdes",
-   "url": "https://turnbackhoax.id/articles/37483-salah-bpjs-akan-diganti-dengan-klinik-kopdes",
-   "terbit": null
-  }
- ]
+ "hoaks_terbaru": []
 }
