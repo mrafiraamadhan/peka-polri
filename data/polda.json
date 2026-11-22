@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-22T14:43:57Z",
+ "diperbarui_utc": "2026-11-22T15:35:47Z",
  "jendela_hari": 30,
  "hari_riwayat": 26,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4274,
+ "kasus_tanpa_polda": 4278,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,10 +39,10 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 437,
-   "perlu": 166,
+   "kasus": 438,
+   "perlu": 167,
    "perlu_tanggap": 42,
-   "persen_tanggap": 25.3,
+   "persen_tanggap": 25.1,
    "tanggap": 226,
    "jalur_khusus": 5,
    "melewati_batas": 97,
@@ -184,19 +184,19 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 180,
-   "perlu": 79,
+   "kasus": 181,
+   "perlu": 80,
    "perlu_tanggap": 17,
-   "persen_tanggap": 21.5,
+   "persen_tanggap": 21.2,
    "tanggap": 94,
    "jalur_khusus": 4,
-   "melewati_batas": 38,
+   "melewati_batas": 37,
    "median_jeda_jam": 5.5,
    "n_jeda": 17,
    "topik_teratas": [
     [
      "darurat",
-     73
+     74
     ],
     [
      "jalanan",
@@ -248,7 +248,7 @@
    "persen_tanggap": 13.2,
    "tanggap": 95,
    "jalur_khusus": 26,
-   "melewati_batas": 43,
+   "melewati_batas": 44,
    "median_jeda_jam": 6.5,
    "n_jeda": 10,
    "topik_teratas": [
@@ -561,7 +561,7 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 118,
+   "kasus": 119,
    "perlu": 28,
    "perlu_tanggap": 5,
    "persen_tanggap": 17.9,
@@ -577,7 +577,7 @@
     ],
     [
      "darurat",
-     25
+     26
     ],
     [
      "jalanan",
@@ -648,10 +648,10 @@
    "provinsi": [
     "74"
    ],
-   "kasus": 86,
-   "perlu": 25,
+   "kasus": 87,
+   "perlu": 26,
    "perlu_tanggap": 4,
-   "persen_tanggap": 16.0,
+   "persen_tanggap": 15.4,
    "tanggap": 59,
    "jalur_khusus": 3,
    "melewati_batas": 16,
@@ -664,7 +664,7 @@
     ],
     [
      "jalanan",
-     23
+     24
     ],
     [
      "darurat",
@@ -1698,6 +1698,27 @@
    "penanggung_jawab": "Kasat Binmas Polrestabes Medan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1471",
+   "kabkota": "Kota Pekanbaru",
+   "kode_prov": "14",
+   "provinsi": "Riau",
+   "polda": "Polda Riau",
+   "polres": "Polresta Pekanbaru",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 5,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-05",
+    "2026-11-10",
+    "2026-11-19",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polresta Pekanbaru bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3272",
    "kabkota": "Kota Sukabumi",
    "kode_prov": "32",
@@ -2368,27 +2389,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3301",
-   "kabkota": "Kabupaten Cilacap",
-   "kode_prov": "33",
-   "provinsi": "Jawa Tengah",
-   "polda": "Polda Jawa Tengah",
-   "polres": "Polresta Cilacap",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 5,
-   "kasus": 6,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-03",
-    "2026-11-07",
-    "2026-11-13",
-    "2026-11-20"
-   ],
-   "kejadian_ditanggapi": 1,
-   "penanggung_jawab": "Kasat Binmas Polresta Cilacap bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
