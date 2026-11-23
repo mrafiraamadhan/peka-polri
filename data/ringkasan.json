@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-23T21:06:09Z",
+ "diperbarui_utc": "2026-11-23T21:18:21Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -12,10 +12,10 @@
   "DARURAT": 0,
   "JALUR KHUSUS": 21,
   "TINDAK": 57,
-  "PANTAU": 190,
+  "PANTAU": 189,
   "TERCATAT": 1099
  },
- "kasus_aktif": 1367,
+ "kasus_aktif": 1366,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 250
+   "kasus": 249
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -171,6 +171,13 @@
    "PANTAU": 16,
    "TERCATAT": 49
   },
+  "33": {
+   "nama": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "TINDAK": 2,
+   "PANTAU": 8,
+   "TERCATAT": 34
+  },
   "72": {
    "nama": "Sulawesi Tengah",
    "polda": "Polda Sulawesi Tengah",
@@ -184,13 +191,6 @@
    "TINDAK": 1,
    "PANTAU": 1,
    "TERCATAT": 4
-  },
-  "33": {
-   "nama": "Jawa Tengah",
-   "polda": "Polda Jawa Tengah",
-   "TINDAK": 2,
-   "PANTAU": 8,
-   "TERCATAT": 34
   },
   "18": {
    "nama": "Lampung",
@@ -217,7 +217,7 @@
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "TINDAK": 1,
-   "PANTAU": 2,
+   "PANTAU": 1,
    "TERCATAT": 4
   },
   "51": {
@@ -298,37 +298,37 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 865,
+   "artikel": 864,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 2,
-   "sudah_ada": 861,
+   "relevan": 5,
+   "sudah_ada": 858,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 2,
+   "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 2,
-   "digabung": 0
+   "kasus_baru": 0,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 21,
    "TINDAK": 57,
-   "PANTAU": 190,
+   "PANTAU": 189,
    "TERCATAT": 1099
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 268
+   "kasus": 267
   },
   "kabarkan": {
    "tanggapan_terlihat": 620,
-   "kasus": 1367,
+   "kasus": 1366,
    "tanggapan_sejak_berita_pertama": 524,
    "median_jeda_jam": 9.8,
    "n_jeda": 96,
-   "melewati_batas": 124
+   "melewati_batas": 123
   },
   "arsipkan": {
    "baris": 11074,
