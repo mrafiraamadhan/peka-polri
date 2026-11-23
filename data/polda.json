@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-23T06:49:47Z",
+ "diperbarui_utc": "2026-11-23T07:41:01Z",
  "jendela_hari": 30,
  "hari_riwayat": 27,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4376,
+ "kasus_tanpa_polda": 4390,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 853,
+   "kasus": 855,
    "perlu": 317,
    "perlu_tanggap": 67,
    "persen_tanggap": 21.1,
-   "tanggap": 441,
+   "tanggap": 442,
    "jalur_khusus": 40,
    "melewati_batas": 189,
    "median_jeda_jam": 14.3,
@@ -26,11 +26,11 @@
     ],
     [
      "darurat",
-     189
+     190
     ],
     [
      "narkoba",
-     133
+     134
     ]
    ]
   },
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 457,
-   "perlu": 192,
+   "kasus": 459,
+   "perlu": 193,
    "perlu_tanggap": 44,
-   "persen_tanggap": 22.9,
-   "tanggap": 237,
+   "persen_tanggap": 22.8,
+   "tanggap": 238,
    "jalur_khusus": 5,
    "melewati_batas": 114,
    "median_jeda_jam": 4.6,
@@ -68,10 +68,10 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 498,
-   "perlu": 170,
+   "kasus": 499,
+   "perlu": 171,
    "perlu_tanggap": 29,
-   "persen_tanggap": 17.1,
+   "persen_tanggap": 17.0,
    "tanggap": 229,
    "jalur_khusus": 9,
    "melewati_batas": 104,
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 424,
-   "perlu": 145,
+   "kasus": 425,
+   "perlu": 146,
    "perlu_tanggap": 27,
-   "persen_tanggap": 18.6,
+   "persen_tanggap": 18.5,
    "tanggap": 214,
    "jalur_khusus": 14,
    "melewati_batas": 86,
@@ -122,40 +122,11 @@
    ]
   },
   {
-   "polda": "Polda Sumatera Utara",
-   "provinsi": [
-    "12"
-   ],
-   "kasus": 393,
-   "perlu": 114,
-   "perlu_tanggap": 22,
-   "persen_tanggap": 19.3,
-   "tanggap": 254,
-   "jalur_khusus": 9,
-   "melewati_batas": 73,
-   "median_jeda_jam": 9.7,
-   "n_jeda": 22,
-   "topik_teratas": [
-    [
-     "narkoba",
-     159
-    ],
-    [
-     "jalanan",
-     88
-    ],
-    [
-     "darurat",
-     70
-    ]
-   ]
-  },
-  {
    "polda": "Polda DI Yogyakarta",
    "provinsi": [
     "34"
    ],
-   "kasus": 211,
+   "kasus": 212,
    "perlu": 113,
    "perlu_tanggap": 25,
    "persen_tanggap": 22.1,
@@ -180,15 +151,44 @@
    ]
   },
   {
+   "polda": "Polda Sumatera Utara",
+   "provinsi": [
+    "12"
+   ],
+   "kasus": 393,
+   "perlu": 105,
+   "perlu_tanggap": 22,
+   "persen_tanggap": 21.0,
+   "tanggap": 254,
+   "jalur_khusus": 9,
+   "melewati_batas": 70,
+   "median_jeda_jam": 9.7,
+   "n_jeda": 22,
+   "topik_teratas": [
+    [
+     "narkoba",
+     159
+    ],
+    [
+     "jalanan",
+     88
+    ],
+    [
+     "darurat",
+     70
+    ]
+   ]
+  },
+  {
    "polda": "Polda Banten",
    "provinsi": [
     "36"
    ],
-   "kasus": 202,
+   "kasus": 203,
    "perlu": 97,
    "perlu_tanggap": 21,
    "persen_tanggap": 21.6,
-   "tanggap": 102,
+   "tanggap": 103,
    "jalur_khusus": 4,
    "melewati_batas": 46,
    "median_jeda_jam": 4.4,
@@ -204,7 +204,7 @@
     ],
     [
      "lalulintas",
-     19
+     20
     ]
    ]
   },
@@ -213,11 +213,11 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 231,
+   "kasus": 232,
    "perlu": 76,
    "perlu_tanggap": 16,
    "persen_tanggap": 21.1,
-   "tanggap": 143,
+   "tanggap": 144,
    "jalur_khusus": 10,
    "melewati_batas": 50,
    "median_jeda_jam": 14.5,
@@ -225,7 +225,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     90
+     91
     ],
     [
      "jalanan",
@@ -325,15 +325,44 @@
    ]
   },
   {
+   "polda": "Polda Bali",
+   "provinsi": [
+    "51"
+   ],
+   "kasus": 205,
+   "perlu": 63,
+   "perlu_tanggap": 8,
+   "persen_tanggap": 12.7,
+   "tanggap": 86,
+   "jalur_khusus": 1,
+   "melewati_batas": 45,
+   "median_jeda_jam": 5.0,
+   "n_jeda": 8,
+   "topik_teratas": [
+    [
+     "darurat",
+     82
+    ],
+    [
+     "jalanan",
+     58
+    ],
+    [
+     "narkoba",
+     27
+    ]
+   ]
+  },
+  {
    "polda": "Polda Aceh",
    "provinsi": [
     "11"
    ],
-   "kasus": 291,
+   "kasus": 292,
    "perlu": 56,
    "perlu_tanggap": 11,
    "persen_tanggap": 19.6,
-   "tanggap": 121,
+   "tanggap": 122,
    "jalur_khusus": 0,
    "melewati_batas": 45,
    "median_jeda_jam": 14.4,
@@ -349,36 +378,7 @@
     ],
     [
      "jalanan",
-     31
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Bali",
-   "provinsi": [
-    "51"
-   ],
-   "kasus": 203,
-   "perlu": 54,
-   "perlu_tanggap": 8,
-   "persen_tanggap": 14.8,
-   "tanggap": 86,
-   "jalur_khusus": 1,
-   "melewati_batas": 42,
-   "median_jeda_jam": 5.0,
-   "n_jeda": 8,
-   "topik_teratas": [
-    [
-     "darurat",
-     80
-    ],
-    [
-     "jalanan",
-     58
-    ],
-    [
-     "narkoba",
-     27
+     32
     ]
    ]
   },
@@ -387,11 +387,11 @@
    "provinsi": [
     "52"
    ],
-   "kasus": 163,
+   "kasus": 164,
    "perlu": 48,
    "perlu_tanggap": 10,
    "persen_tanggap": 20.8,
-   "tanggap": 108,
+   "tanggap": 109,
    "jalur_khusus": 10,
    "melewati_batas": 24,
    "median_jeda_jam": 16.2,
@@ -407,7 +407,7 @@
     ],
     [
      "perempuan_anak",
-     20
+     21
     ]
    ]
   },
@@ -418,13 +418,13 @@
    ],
    "kasus": 110,
    "perlu": 48,
-   "perlu_tanggap": 15,
-   "persen_tanggap": 31.2,
-   "tanggap": 64,
+   "perlu_tanggap": 16,
+   "persen_tanggap": 33.3,
+   "tanggap": 65,
    "jalur_khusus": 5,
-   "melewati_batas": 24,
-   "median_jeda_jam": 9.4,
-   "n_jeda": 15,
+   "melewati_batas": 23,
+   "median_jeda_jam": 13.8,
+   "n_jeda": 16,
    "topik_teratas": [
     [
      "perempuan_anak",
@@ -445,11 +445,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 139,
+   "kasus": 141,
    "perlu": 45,
    "perlu_tanggap": 7,
    "persen_tanggap": 15.6,
-   "tanggap": 74,
+   "tanggap": 76,
    "jalur_khusus": 4,
    "melewati_batas": 32,
    "median_jeda_jam": 18.1,
@@ -457,7 +457,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     35
+     37
     ],
     [
      "darurat",
@@ -619,10 +619,10 @@
    "provinsi": [
     "65"
    ],
-   "kasus": 76,
-   "perlu": 27,
+   "kasus": 77,
+   "perlu": 28,
    "perlu_tanggap": 3,
-   "persen_tanggap": 11.1,
+   "persen_tanggap": 10.7,
    "tanggap": 43,
    "jalur_khusus": 3,
    "melewati_batas": 20,
@@ -634,11 +634,11 @@
      33
     ],
     [
-     "darurat",
-     14
+     "jalanan",
+     15
     ],
     [
-     "jalanan",
+     "darurat",
      14
     ]
    ]
@@ -741,7 +741,7 @@
    "persen_tanggap": 8.7,
    "tanggap": 68,
    "jalur_khusus": 2,
-   "melewati_batas": 17,
+   "melewati_batas": 18,
    "median_jeda_jam": 4.6,
    "n_jeda": 2,
    "topik_teratas": [
@@ -857,7 +857,7 @@
    "persen_tanggap": 0.0,
    "tanggap": 29,
    "jalur_khusus": 1,
-   "melewati_batas": 10,
+   "melewati_batas": 11,
    "median_jeda_jam": null,
    "n_jeda": 0,
    "topik_teratas": [

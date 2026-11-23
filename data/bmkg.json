@@ -1,13 +1,13 @@
 {
- "diperbarui_utc": "2026-11-23T06:49:47Z",
+ "diperbarui_utc": "2026-11-23T07:41:01Z",
  "terbaru": {
-  "waktu_utc": "2026-11-22T07:54:39Z",
+  "waktu_utc": "2026-11-23T07:36:24Z",
   "magnitudo": 5.4,
-  "kedalaman": "10 km",
-  "wilayah": "Pusat gempa berada di laut 98 km BaratDaya Melonguane",
-  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Tahuna",
-  "koordinat": "3.12,126.57",
+  "kedalaman": "141 km",
+  "wilayah": "87 km TimurLaut MALUKUBRTDAYA",
+  "potensi": "Tidak berpotensi tsunami",
+  "dirasakan": "-",
+  "koordinat": "-7.63,128.38",
   "prov": null,
   "kode_prov": null
  },
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-23T07:36:24Z",
+   "magnitudo": 5.4,
+   "kedalaman": "141 km",
+   "wilayah": "87 km TimurLaut MALUKUBRTDAYA",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-7.63,128.38",
+   "prov": null,
+   "kode_prov": null
+  },
+  {
    "waktu_utc": "2026-11-22T07:54:39Z",
    "magnitudo": 5.4,
    "kedalaman": "10 km",
@@ -332,17 +343,6 @@
    "koordinat": "1.31,124.83",
    "prov": "Sulawesi Utara",
    "kode_prov": "71"
-  },
-  {
-   "waktu_utc": "2026-11-02T00:53:11Z",
-   "magnitudo": 5.5,
-   "kedalaman": "130 km",
-   "wilayah": "169 km BaratLaut TANIMBAR",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-7.08,130.07",
-   "prov": null,
-   "kode_prov": null
   }
  ]
 }
