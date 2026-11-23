@@ -1,21 +1,21 @@
 {
- "diperbarui_utc": "2026-11-23T11:39:38Z",
+ "diperbarui_utc": "2026-11-23T12:31:08Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 8,
+  "perkara": 9,
   "anggota": 10,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 17,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 4,
-  "JALUR KHUSUS": 19,
-  "TINDAK": 57,
-  "PANTAU": 161,
-  "TERCATAT": 1127
+  "DARURAT": 3,
+  "JALUR KHUSUS": 20,
+  "TINDAK": 56,
+  "PANTAU": 179,
+  "TERCATAT": 1112
  },
- "kasus_aktif": 1368,
+ "kasus_aktif": 1370,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,27 +23,27 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 149
+   "kasus": 148
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 237
+   "kasus": 238
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 94
+   "kasus": 95
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 255
+   "kasus": 256
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 77
+   "kasus": 76
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 108
+   "kasus": 109
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -58,9 +58,9 @@
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
-   "DARURAT": 3,
-   "PANTAU": 17,
-   "TERCATAT": 16
+   "DARURAT": 2,
+   "PANTAU": 18,
+   "TERCATAT": 15
   },
   "36": {
    "nama": "Banten",
@@ -68,15 +68,14 @@
    "DARURAT": 1,
    "TINDAK": 1,
    "PANTAU": 38,
-   "TERCATAT": 37
+   "TERCATAT": 38
   },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 2,
-   "TINDAK": 1,
    "PANTAU": 6,
-   "TERCATAT": 14
+   "TERCATAT": 13
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -84,14 +83,14 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 6,
    "PANTAU": 3,
-   "TERCATAT": 38
+   "TERCATAT": 37
   },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
    "JALUR KHUSUS": 2,
    "PANTAU": 4,
-   "TERCATAT": 23
+   "TERCATAT": 24
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -105,7 +104,7 @@
    "polda": "Polda Jambi",
    "JALUR KHUSUS": 1,
    "PANTAU": 1,
-   "TERCATAT": 16
+   "TERCATAT": 17
   },
   "75": {
    "nama": "Gorontalo",
@@ -176,7 +175,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 7,
    "PANTAU": 14,
-   "TERCATAT": 45
+   "TERCATAT": 46
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -209,21 +208,15 @@
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 2,
-   "PANTAU": 13,
-   "TERCATAT": 67
+   "PANTAU": 31,
+   "TERCATAT": 49
   },
   "17": {
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 6
-  },
-  "13": {
-   "nama": "Sumatera Barat",
-   "polda": "Polda Sumatera Barat",
-   "PANTAU": 2,
-   "TERCATAT": 22
+   "TERCATAT": 5
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -253,7 +246,7 @@
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
    "PANTAU": 1,
-   "TERCATAT": 16
+   "TERCATAT": 15
   },
   "82": {
    "nama": "Maluku Utara",
@@ -261,11 +254,17 @@
    "PANTAU": 1,
    "TERCATAT": 3
   },
+  "13": {
+   "nama": "Sumatera Barat",
+   "polda": "Polda Sumatera Barat",
+   "PANTAU": 1,
+   "TERCATAT": 20
+  },
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 1,
-   "TERCATAT": 26
+   "TERCATAT": 23
   },
   "96": {
    "nama": "Papua Tengah",
@@ -287,7 +286,7 @@
   "97": {
    "nama": "Papua Pegunungan",
    "polda": "Polda yang membawahi Papua Pegunungan",
-   "TERCATAT": 3
+   "TERCATAT": 4
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -297,40 +296,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 864,
+   "artikel": 868,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 64,
-   "sudah_ada": 775,
+   "relevan": 55,
+   "sudah_ada": 797,
    "hoaks": 0,
-   "tidak_relevan": 2,
-   "bukan_kejadian": 18,
-   "luar_negeri": 5,
-   "kasus_baru": 28,
-   "digabung": 36
+   "tidak_relevan": 3,
+   "bukan_kejadian": 12,
+   "luar_negeri": 1,
+   "kasus_baru": 26,
+   "digabung": 29
   },
   "timbang": {
-   "DARURAT": 4,
-   "JALUR KHUSUS": 19,
-   "TINDAK": 57,
-   "PANTAU": 161,
-   "TERCATAT": 1127
+   "DARURAT": 3,
+   "JALUR KHUSUS": 20,
+   "TINDAK": 56,
+   "PANTAU": 179,
+   "TERCATAT": 1112
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 241
+   "kasus": 258
   },
   "kabarkan": {
    "tanggapan_terlihat": 637,
-   "kasus": 1368,
-   "tanggapan_sejak_berita_pertama": 542,
-   "median_jeda_jam": 9.2,
-   "n_jeda": 95,
-   "melewati_batas": 120
+   "kasus": 1370,
+   "tanggapan_sejak_berita_pertama": 540,
+   "median_jeda_jam": 10.4,
+   "n_jeda": 97,
+   "melewati_batas": 133
   },
   "arsipkan": {
-   "baris": 10941,
+   "baris": 10967,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 27
@@ -342,8 +341,16 @@
    "prov": "Banten",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 22,
+   "hari_ini": 21,
    "rata": 3.52
+  },
+  {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 7,
+   "rata": 3.15
   },
   {
    "kode_prov": "51",
@@ -351,7 +358,7 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "hari_ini": 10,
-   "rata": 2.81
+   "rata": 2.85
   },
   {
    "kode_prov": "32",
@@ -374,7 +381,7 @@
    "prov": "DKI Jakarta",
    "topik": "penipuan",
    "nama": "Penipuan dan kejahatan daring",
-   "hari_ini": 11,
+   "hari_ini": 12,
    "rata": 0.63
   }
  ],
