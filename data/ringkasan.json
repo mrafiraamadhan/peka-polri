@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-23T00:43:35Z",
+ "diperbarui_utc": "2026-11-23T00:49:51Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 6,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 23,
   "TINDAK": 49,
   "PANTAU": 144,
-  "TERCATAT": 1086
+  "TERCATAT": 1085
  },
- "kasus_aktif": 1302,
+ "kasus_aktif": 1301,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -35,7 +35,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 262
+   "kasus": 261
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -302,21 +302,21 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 32,
-   "sudah_ada": 805,
-   "hoaks": 1,
+   "relevan": 5,
+   "sudah_ada": 839,
+   "hoaks": 0,
    "tidak_relevan": 3,
-   "bukan_kejadian": 6,
-   "luar_negeri": 1,
-   "kasus_baru": 14,
-   "digabung": 18
+   "bukan_kejadian": 1,
+   "luar_negeri": 0,
+   "kasus_baru": 0,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 23,
    "TINDAK": 49,
    "PANTAU": 144,
-   "TERCATAT": 1086
+   "TERCATAT": 1085
   },
   "teruskan": {
    "polda": 35,
@@ -324,11 +324,11 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 610,
-   "kasus": 1302,
+   "kasus": 1301,
    "tanggapan_sejak_berita_pertama": 521,
    "median_jeda_jam": 9.2,
    "n_jeda": 89,
-   "melewati_batas": 114
+   "melewati_batas": 115
   },
   "arsipkan": {
    "baris": 10600,
@@ -344,7 +344,7 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "hari_ini": 25,
-   "rata": 3.41
+   "rata": 3.44
   },
   {
    "kode_prov": "51",
@@ -352,7 +352,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 5,
-   "rata": 2.07
+   "rata": 2.11
   }
  ],
  "lonjakan_nasional": [],
