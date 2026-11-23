@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-23T16:48:56Z",
+ "diperbarui_utc": "2026-11-23T17:40:16Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
   "anggota": 10,
   "kekerasan": 1
  },
- "anggota_sudah_ditangani": 16,
+ "anggota_sudah_ditangani": 17,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 2,
   "JALUR KHUSUS": 20,
-  "TINDAK": 58,
-  "PANTAU": 200,
-  "TERCATAT": 1088
+  "TINDAK": 57,
+  "PANTAU": 190,
+  "TERCATAT": 1097
  },
- "kasus_aktif": 1368,
+ "kasus_aktif": 1366,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 29
+   "kasus": 30
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 134
+   "kasus": 132
   },
   "narkoba": {
    "nama": "Narkoba",
@@ -35,15 +35,15 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 253
+   "kasus": 252
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 71
+   "kasus": 72
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 113
+   "kasus": 112
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -74,8 +74,8 @@
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 2,
    "TINDAK": 6,
-   "PANTAU": 14,
-   "TERCATAT": 24
+   "PANTAU": 3,
+   "TERCATAT": 35
   },
   "14": {
    "nama": "Riau",
@@ -83,7 +83,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 26
+   "TERCATAT": 25
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -134,14 +134,14 @@
    "polda": "Polda Jawa Timur",
    "TINDAK": 12,
    "PANTAU": 9,
-   "TERCATAT": 70
+   "TERCATAT": 69
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
-   "TINDAK": 5,
+   "TINDAK": 4,
    "PANTAU": 3,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -168,12 +168,13 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 7,
    "PANTAU": 17,
-   "TERCATAT": 46
+   "TERCATAT": 47
   },
   "72": {
    "nama": "Sulawesi Tengah",
    "polda": "Polda Sulawesi Tengah",
    "TINDAK": 1,
+   "PANTAU": 1,
    "TERCATAT": 8
   },
   "76": {
@@ -188,7 +189,7 @@
    "polda": "Polda Jawa Tengah",
    "TINDAK": 2,
    "PANTAU": 8,
-   "TERCATAT": 34
+   "TERCATAT": 33
   },
   "18": {
    "nama": "Lampung",
@@ -228,7 +229,7 @@
    "nama": "Sulawesi Utara",
    "polda": "Polda Sulawesi Utara",
    "PANTAU": 1,
-   "TERCATAT": 4
+   "TERCATAT": 3
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -296,69 +297,53 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 863,
+   "artikel": 864,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 22,
-   "sudah_ada": 828,
+   "relevan": 10,
+   "sudah_ada": 849,
    "hoaks": 0,
-   "tidak_relevan": 3,
-   "bukan_kejadian": 10,
-   "luar_negeri": 0,
-   "kasus_baru": 9,
-   "digabung": 13
+   "tidak_relevan": 2,
+   "bukan_kejadian": 2,
+   "luar_negeri": 1,
+   "kasus_baru": 5,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 20,
-   "TINDAK": 58,
-   "PANTAU": 200,
-   "TERCATAT": 1088
+   "TINDAK": 57,
+   "PANTAU": 190,
+   "TERCATAT": 1097
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 280
+   "kasus": 269
   },
   "kabarkan": {
-   "tanggapan_terlihat": 622,
-   "kasus": 1368,
-   "tanggapan_sejak_berita_pertama": 527,
+   "tanggapan_terlihat": 619,
+   "kasus": 1366,
+   "tanggapan_sejak_berita_pertama": 524,
    "median_jeda_jam": 9.2,
    "n_jeda": 95,
-   "melewati_batas": 136
+   "melewati_batas": 130
   },
   "arsipkan": {
-   "baris": 11052,
+   "baris": 11057,
    "dikoreksi": 77,
    "bulan": 2,
-   "hari_riwayat": 27
+   "hari_riwayat": 28
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "31",
-   "prov": "DKI Jakarta",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 8,
-   "rata": 3.15
-  },
   {
    "kode_prov": "36",
    "prov": "Banten",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "hari_ini": 18,
-   "rata": 3.52
-  },
-  {
-   "kode_prov": "12",
-   "prov": "Sumatera Utara",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 5,
-   "rata": 2.48
+   "rata": 4.04
   },
   {
    "kode_prov": "51",
@@ -366,7 +351,15 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "hari_ini": 11,
-   "rata": 2.85
+   "rata": 3.14
+  },
+  {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 7,
+   "rata": 3.32
   },
   {
    "kode_prov": "32",
@@ -374,7 +367,7 @@
    "topik": "lalulintas",
    "nama": "Lalu lintas",
    "hari_ini": 6,
-   "rata": 1.67
+   "rata": 1.82
   },
   {
    "kode_prov": "62",
@@ -382,7 +375,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 12,
-   "rata": 1.59
+   "rata": 1.96
   },
   {
    "kode_prov": "32",
@@ -390,7 +383,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 5,
-   "rata": 2.19
+   "rata": 2.29
   },
   {
    "kode_prov": "31",
@@ -398,13 +391,18 @@
    "topik": "penipuan",
    "nama": "Penipuan dan kejahatan daring",
    "hari_ini": 14,
-   "rata": 0.63
+   "rata": 1.11
   }
  ],
  "lonjakan_nasional": [],
- "hari_riwayat": 27,
+ "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Rumah Puan Maharani Dirusak Massa",
+   "url": "https://turnbackhoax.id/articles/37509-salah-rumah-puan-maharani-dirusak-massa",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Prabowo Kumpulkan 10 Mantan Kapolri untuk Bahas Pembubaran Polri dan Pengalihan Tugasnya ke TNI",
    "url": "https://turnbackhoax.id/articles/37504-salah-prabowo-kumpulkan-10-mantan-kapolri-untuk-bahas-pembubaran-polri-dan-pengalihan-tugasnya-ke-tni",
@@ -428,11 +426,6 @@
   {
    "judul": "[SALAH] Sri Sultan Hamengkubuwono X Hentikan MBG di Jogja, Ubah Dana untuk Pendidikan",
    "url": "https://turnbackhoax.id/articles/37488-salah-sri-sultan-hamengkubuwono-x-hentikan-mbg-di-jogja-ubah-dana-untuk-pendidikan",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Video \"Jalur pipa minyak Timur-Barat (East-West Pipeline) Arab Saudi kembali diserang\"",
-   "url": "https://turnbackhoax.id/articles/37487-salah-video-jalur-pipa-minyak-timur-barat-east-west-pipeline-arab-saudi-kembali-diserang",
    "terbit": null
   }
  ]

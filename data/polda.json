@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-23T16:48:56Z",
+ "diperbarui_utc": "2026-11-23T17:40:16Z",
  "jendela_hari": 30,
- "hari_riwayat": 27,
+ "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4506,
+ "kasus_tanpa_polda": 4509,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -45,7 +45,7 @@
    "persen_tanggap": 22.8,
    "tanggap": 247,
    "jalur_khusus": 5,
-   "melewati_batas": 119,
+   "melewati_batas": 120,
    "median_jeda_jam": 4.2,
    "n_jeda": 47,
    "topik_teratas": [
@@ -68,22 +68,22 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 513,
+   "kasus": 514,
    "perlu": 178,
    "perlu_tanggap": 30,
    "persen_tanggap": 16.9,
-   "tanggap": 235,
+   "tanggap": 236,
    "jalur_khusus": 9,
    "melewati_batas": 106,
    "median_jeda_jam": 10.9,
    "n_jeda": 30,
    "topik_teratas": [
     [
-     "jalanan",
-     152
+     "darurat",
+     153
     ],
     [
-     "darurat",
+     "jalanan",
      152
     ],
     [
@@ -122,35 +122,6 @@
    ]
   },
   {
-   "polda": "Polda Sumatera Utara",
-   "provinsi": [
-    "12"
-   ],
-   "kasus": 398,
-   "perlu": 117,
-   "perlu_tanggap": 22,
-   "persen_tanggap": 18.8,
-   "tanggap": 256,
-   "jalur_khusus": 9,
-   "melewati_batas": 78,
-   "median_jeda_jam": 9.7,
-   "n_jeda": 22,
-   "topik_teratas": [
-    [
-     "narkoba",
-     159
-    ],
-    [
-     "jalanan",
-     90
-    ],
-    [
-     "darurat",
-     72
-    ]
-   ]
-  },
-  {
    "polda": "Polda DI Yogyakarta",
    "provinsi": [
     "34"
@@ -176,6 +147,35 @@
     [
      "lalulintas",
      19
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Sumatera Utara",
+   "provinsi": [
+    "12"
+   ],
+   "kasus": 398,
+   "perlu": 106,
+   "perlu_tanggap": 22,
+   "persen_tanggap": 20.8,
+   "tanggap": 256,
+   "jalur_khusus": 9,
+   "melewati_batas": 72,
+   "median_jeda_jam": 9.7,
+   "n_jeda": 22,
+   "topik_teratas": [
+    [
+     "narkoba",
+     159
+    ],
+    [
+     "jalanan",
+     90
+    ],
+    [
+     "darurat",
+     72
     ]
    ]
   },
@@ -735,10 +735,10 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 102,
-   "perlu": 23,
+   "kasus": 103,
+   "perlu": 24,
    "perlu_tanggap": 2,
-   "persen_tanggap": 8.7,
+   "persen_tanggap": 8.3,
    "tanggap": 68,
    "jalur_khusus": 2,
    "melewati_batas": 18,
