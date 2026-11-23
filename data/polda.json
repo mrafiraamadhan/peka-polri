@@ -1,17 +1,17 @@
 {
- "diperbarui_utc": "2026-11-23T14:14:20Z",
+ "diperbarui_utc": "2026-11-23T15:05:57Z",
  "jendela_hari": 30,
  "hari_riwayat": 27,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4487,
+ "kasus_tanpa_polda": 4496,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 869,
-   "perlu": 322,
+   "kasus": 870,
+   "perlu": 323,
    "perlu_tanggap": 68,
    "persen_tanggap": 21.1,
    "tanggap": 449,
@@ -30,7 +30,7 @@
     ],
     [
      "narkoba",
-     136
+     137
     ]
    ]
   },
@@ -39,13 +39,13 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 477,
-   "perlu": 204,
+   "kasus": 478,
+   "perlu": 205,
    "perlu_tanggap": 47,
-   "persen_tanggap": 23.0,
+   "persen_tanggap": 22.9,
    "tanggap": 247,
    "jalur_khusus": 5,
-   "melewati_batas": 118,
+   "melewati_batas": 119,
    "median_jeda_jam": 4.2,
    "n_jeda": 47,
    "topik_teratas": [
@@ -97,10 +97,10 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 434,
-   "perlu": 149,
+   "kasus": 435,
+   "perlu": 150,
    "perlu_tanggap": 28,
-   "persen_tanggap": 18.8,
+   "persen_tanggap": 18.7,
    "tanggap": 220,
    "jalur_khusus": 14,
    "melewati_batas": 87,
@@ -117,7 +117,7 @@
     ],
     [
      "lalulintas",
-     49
+     50
     ]
    ]
   },
@@ -190,7 +190,7 @@
    "persen_tanggap": 22.5,
    "tanggap": 105,
    "jalur_khusus": 4,
-   "melewati_batas": 54,
+   "melewati_batas": 53,
    "median_jeda_jam": 5.5,
    "n_jeda": 23,
    "topik_teratas": [
@@ -213,11 +213,11 @@
    "provinsi": [
     "16"
    ],
-   "kasus": 223,
+   "kasus": 224,
    "perlu": 77,
    "perlu_tanggap": 11,
    "persen_tanggap": 14.3,
-   "tanggap": 134,
+   "tanggap": 135,
    "jalur_khusus": 14,
    "melewati_batas": 44,
    "median_jeda_jam": 8.7,
@@ -225,7 +225,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     75
+     76
     ],
     [
      "narkoba",
@@ -474,11 +474,11 @@
    "provinsi": [
     "21"
    ],
-   "kasus": 115,
+   "kasus": 116,
    "perlu": 43,
    "perlu_tanggap": 9,
    "persen_tanggap": 20.9,
-   "tanggap": 74,
+   "tanggap": 75,
    "jalur_khusus": 8,
    "melewati_batas": 25,
    "median_jeda_jam": 16.5,
@@ -532,10 +532,10 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 136,
-   "perlu": 33,
+   "kasus": 137,
+   "perlu": 34,
    "perlu_tanggap": 5,
-   "persen_tanggap": 15.2,
+   "persen_tanggap": 14.7,
    "tanggap": 83,
    "jalur_khusus": 2,
    "melewati_batas": 22,
@@ -1833,6 +1833,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
   },
   {
+   "kode_kab": "1606",
+   "kabkota": "Kabupaten Musi Banyuasin",
+   "kode_prov": "16",
+   "provinsi": "Sumatera Selatan",
+   "polda": "Polda Sumatera Selatan",
+   "polres": "Polres Musi Banyuasin",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 5,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-06",
+    "2026-11-12",
+    "2026-11-16",
+    "2026-11-21"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polres Musi Banyuasin bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3174",
    "kabkota": "Kota Jakarta Barat",
    "kode_prov": "31",
@@ -1978,27 +1999,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Kutai Kartanegara bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1606",
-   "kabkota": "Kabupaten Musi Banyuasin",
-   "kode_prov": "16",
-   "provinsi": "Sumatera Selatan",
-   "polda": "Polda Sumatera Selatan",
-   "polres": "Polres Musi Banyuasin",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 5,
-   "kasus": 10,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-06",
-    "2026-11-12",
-    "2026-11-16",
-    "2026-11-21"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polres Musi Banyuasin bersama pemerintah daerah"
   },
   {
    "kode_kab": "1218",
