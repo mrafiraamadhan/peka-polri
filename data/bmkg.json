@@ -1,13 +1,13 @@
 {
- "diperbarui_utc": "2026-11-23T10:48:20Z",
+ "diperbarui_utc": "2026-11-23T11:39:38Z",
  "terbaru": {
-  "waktu_utc": "2026-11-23T07:36:24Z",
-  "magnitudo": 5.4,
-  "kedalaman": "141 km",
-  "wilayah": "87 km TimurLaut MALUKUBRTDAYA",
+  "waktu_utc": "2026-11-23T11:24:32Z",
+  "magnitudo": 5.3,
+  "kedalaman": "10 km",
+  "wilayah": "241 km TimurLaut RAJAAMPAT-PAPUABRTDY",
   "potensi": "Tidak berpotensi tsunami",
   "dirasakan": "-",
-  "koordinat": "-7.63,128.38",
+  "koordinat": "1.44,131.96",
   "prov": null,
   "kode_prov": null
  },
@@ -180,6 +180,17 @@
  ],
  "m5": [
   {
+   "waktu_utc": "2026-11-23T11:24:32Z",
+   "magnitudo": 5.3,
+   "kedalaman": "10 km",
+   "wilayah": "241 km TimurLaut RAJAAMPAT-PAPUABRTDY",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "1.44,131.96",
+   "prov": null,
+   "kode_prov": null
+  },
+  {
    "waktu_utc": "2026-11-23T07:36:24Z",
    "magnitudo": 5.4,
    "kedalaman": "141 km",
@@ -332,17 +343,6 @@
    "koordinat": "-2.93,130.44",
    "prov": "Maluku",
    "kode_prov": "81"
-  },
-  {
-   "waktu_utc": "2026-11-02T08:13:10Z",
-   "magnitudo": 5.3,
-   "kedalaman": "148 km",
-   "wilayah": "1 km BaratDaya TOMOHON-SULUT",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "1.31,124.83",
-   "prov": "Sulawesi Utara",
-   "kode_prov": "71"
   }
  ]
 }
