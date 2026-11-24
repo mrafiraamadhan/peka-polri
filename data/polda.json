@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-24T17:21:44Z",
+ "diperbarui_utc": "2026-11-24T17:38:54Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4696,
+ "kasus_tanpa_polda": 4698,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -126,10 +126,10 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 223,
-   "perlu": 122,
+   "kasus": 224,
+   "perlu": 123,
    "perlu_tanggap": 26,
-   "persen_tanggap": 21.3,
+   "persen_tanggap": 21.1,
    "tanggap": 113,
    "jalur_khusus": 9,
    "melewati_batas": 83,
@@ -138,7 +138,7 @@
    "topik_teratas": [
     [
      "konflik",
-     128
+     129
     ],
     [
      "jalanan",
@@ -155,10 +155,10 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 234,
-   "perlu": 117,
+   "kasus": 235,
+   "perlu": 118,
    "perlu_tanggap": 26,
-   "persen_tanggap": 22.2,
+   "persen_tanggap": 22.0,
    "tanggap": 119,
    "jalur_khusus": 5,
    "melewati_batas": 68,
@@ -167,7 +167,7 @@
    "topik_teratas": [
     [
      "darurat",
-     113
+     114
     ],
     [
      "jalanan",
@@ -331,13 +331,13 @@
    ],
    "kasus": 325,
    "perlu": 64,
-   "perlu_tanggap": 14,
-   "persen_tanggap": 21.9,
-   "tanggap": 141,
+   "perlu_tanggap": 15,
+   "persen_tanggap": 23.4,
+   "tanggap": 142,
    "jalur_khusus": 5,
    "melewati_batas": 45,
-   "median_jeda_jam": 6.2,
-   "n_jeda": 14,
+   "median_jeda_jam": 2.9,
+   "n_jeda": 15,
    "topik_teratas": [
     [
      "darurat",
@@ -619,11 +619,11 @@
    "provinsi": [
     "19"
    ],
-   "kasus": 79,
+   "kasus": 80,
    "perlu": 29,
    "perlu_tanggap": 3,
    "persen_tanggap": 10.3,
-   "tanggap": 40,
+   "tanggap": 41,
    "jalur_khusus": 4,
    "melewati_batas": 20,
    "median_jeda_jam": 38.1,
@@ -1118,8 +1118,8 @@
    "polres": "Polresta Yogyakarta",
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
-   "kejadian": 7,
-   "kasus": 50,
+   "kejadian": 8,
+   "kasus": 51,
    "tanggal": [
     "2026-10-28",
     "2026-11-03",
@@ -1127,7 +1127,8 @@
     "2026-11-10",
     "2026-11-14",
     "2026-11-18",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-25"
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polresta Yogyakarta bersama pemerintah daerah"
