@@ -1,45 +1,45 @@
 {
- "diperbarui_utc": "2026-11-24T10:16:40Z",
+ "diperbarui_utc": "2026-11-24T11:08:07Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 8,
-  "anggota": 21,
+  "perkara": 9,
+  "anggota": 22,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 22,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 2,
-  "JALUR KHUSUS": 30,
-  "TINDAK": 58,
-  "PANTAU": 177,
-  "TERCATAT": 1156
+  "JALUR KHUSUS": 32,
+  "TINDAK": 56,
+  "PANTAU": 180,
+  "TERCATAT": 1170
  },
- "kasus_aktif": 1423,
+ "kasus_aktif": 1440,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 46
+   "kasus": 48
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 112
+   "kasus": 115
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 275
+   "kasus": 277
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 103
+   "kasus": 104
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 279
+   "kasus": 283
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 62
+   "kasus": 61
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -47,11 +47,11 @@
   },
   "layanan": {
    "nama": "Layanan kepolisian",
-   "kasus": 2
+   "kasus": 3
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 445
+   "kasus": 450
   }
  },
  "provinsi": {
@@ -60,8 +60,8 @@
    "polda": "Polda Riau",
    "DARURAT": 1,
    "JALUR KHUSUS": 2,
-   "PANTAU": 10,
-   "TERCATAT": 25
+   "PANTAU": 11,
+   "TERCATAT": 26
   },
   "36": {
    "nama": "Banten",
@@ -70,12 +70,12 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 47,
-   "TERCATAT": 41
+   "TERCATAT": 43
   },
   "73": {
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
-   "JALUR KHUSUS": 1,
+   "JALUR KHUSUS": 2,
    "PANTAU": 8,
    "TERCATAT": 17
   },
@@ -83,22 +83,22 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "JALUR KHUSUS": 3,
-   "TINDAK": 5,
-   "PANTAU": 3,
-   "TERCATAT": 36
-  },
-  "74": {
-   "nama": "Sulawesi Tenggara",
-   "polda": "Polda Sulawesi Tenggara",
-   "JALUR KHUSUS": 2,
-   "PANTAU": 1,
-   "TERCATAT": 1
+   "TINDAK": 4,
+   "PANTAU": 4,
+   "TERCATAT": 35
   },
   "15": {
    "nama": "Jambi",
    "polda": "Polda Jambi",
    "JALUR KHUSUS": 2,
    "TERCATAT": 16
+  },
+  "74": {
+   "nama": "Sulawesi Tenggara",
+   "polda": "Polda Sulawesi Tenggara",
+   "JALUR KHUSUS": 2,
+   "PANTAU": 1,
+   "TERCATAT": 2
   },
   "11": {
    "nama": "Aceh",
@@ -114,13 +114,14 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "21": {
    "nama": "Kepulauan Riau",
    "polda": "Polda Kepulauan Riau",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
+   "PANTAU": 1,
    "TERCATAT": 7
   },
   "13": {
@@ -128,7 +129,7 @@
    "polda": "Polda Sumatera Barat",
    "JALUR KHUSUS": 1,
    "PANTAU": 2,
-   "TERCATAT": 21
+   "TERCATAT": 20
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -144,7 +145,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 11,
    "PANTAU": 10,
-   "TERCATAT": 65
+   "TERCATAT": 63
   },
   "94": {
    "nama": "Papua",
@@ -157,28 +158,28 @@
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 5,
-   "PANTAU": 5,
-   "TERCATAT": 12
+   "PANTAU": 6,
+   "TERCATAT": 13
   },
   "16": {
    "nama": "Sumatera Selatan",
    "polda": "Polda Sumatera Selatan",
    "TINDAK": 5,
    "PANTAU": 4,
-   "TERCATAT": 15
+   "TERCATAT": 16
   },
   "81": {
    "nama": "Maluku",
    "polda": "Polda Maluku",
-   "TINDAK": 2,
-   "TERCATAT": 2
+   "TINDAK": 1,
+   "TERCATAT": 3
   },
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "TINDAK": 5,
    "PANTAU": 10,
-   "TERCATAT": 31
+   "TERCATAT": 32
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -192,7 +193,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 5,
    "PANTAU": 16,
-   "TERCATAT": 48
+   "TERCATAT": 51
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -212,7 +213,7 @@
    "nama": "Lampung",
    "polda": "Polda Lampung",
    "TINDAK": 4,
-   "PANTAU": 7,
+   "PANTAU": 6,
    "TERCATAT": 25
   },
   "17": {
@@ -220,7 +221,7 @@
    "polda": "Polda Bengkulu",
    "TINDAK": 2,
    "PANTAU": 1,
-   "TERCATAT": 5
+   "TERCATAT": 6
   },
   "31": {
    "nama": "DKI Jakarta",
@@ -233,7 +234,7 @@
    "nama": "Bali",
    "polda": "Polda Bali",
    "PANTAU": 5,
-   "TERCATAT": 28
+   "TERCATAT": 29
   },
   "82": {
    "nama": "Maluku Utara",
@@ -300,54 +301,46 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 908,
+   "artikel": 907,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 57,
-   "sudah_ada": 833,
+   "relevan": 67,
+   "sudah_ada": 827,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 14,
-   "luar_negeri": 0,
-   "kasus_baru": 33,
-   "digabung": 24
+   "tidak_relevan": 1,
+   "bukan_kejadian": 11,
+   "luar_negeri": 1,
+   "kasus_baru": 36,
+   "digabung": 31
   },
   "timbang": {
    "DARURAT": 2,
-   "JALUR KHUSUS": 30,
-   "TINDAK": 58,
-   "PANTAU": 177,
-   "TERCATAT": 1156
+   "JALUR KHUSUS": 32,
+   "TINDAK": 56,
+   "PANTAU": 180,
+   "TERCATAT": 1170
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 267
+   "kasus": 270
   },
   "kabarkan": {
-   "tanggapan_terlihat": 640,
-   "kasus": 1423,
-   "tanggapan_sejak_berita_pertama": 542,
+   "tanggapan_terlihat": 646,
+   "kasus": 1440,
+   "tanggapan_sejak_berita_pertama": 550,
    "median_jeda_jam": 9.2,
-   "n_jeda": 98,
-   "melewati_batas": 131
+   "n_jeda": 96,
+   "melewati_batas": 132
   },
   "arsipkan": {
-   "baris": 11358,
+   "baris": 11394,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "62",
-   "prov": "Kalimantan Tengah",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "hari_ini": 7,
-   "rata": 2.0
-  },
   {
    "kode_prov": "36",
    "prov": "Banten",
@@ -357,20 +350,28 @@
    "rata": 4.14
   },
   {
-   "kode_prov": "31",
-   "prov": "DKI Jakarta",
-   "topik": "penipuan",
-   "nama": "Penipuan dan kejahatan daring",
-   "hari_ini": 5,
-   "rata": 1.18
-  },
-  {
    "kode_prov": null,
    "prov": "Tanpa lokasi",
    "topik": "anggota",
    "nama": "Perilaku anggota",
-   "hari_ini": 12,
+   "hari_ini": 13,
    "rata": 5.36
+  },
+  {
+   "kode_prov": "62",
+   "prov": "Kalimantan Tengah",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 2.0
+  },
+  {
+   "kode_prov": "16",
+   "prov": "Sumatera Selatan",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 6,
+   "rata": 2.75
   },
   {
    "kode_prov": "14",
@@ -385,7 +386,7 @@
    "prov": "Aceh",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
+   "hari_ini": 7,
    "rata": 1.18
   },
   {
@@ -401,6 +402,16 @@
  "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Barack Obama Terpilih Kembali Menjadi Presiden AS Pada November 2026",
+   "url": "https://turnbackhoax.id/articles/37523-salah-barack-obama-terpilih-kembali-menjadi-presiden-as-pada-november-2026",
+   "terbit": null
+  },
+  {
+   "judul": "[SALAH] Kapolri Suyudi Umumkan Kebijakan SIM Seumur Hidup",
+   "url": "https://turnbackhoax.id/articles/37522-salah-kapolri-suyudi-umumkan-kebijakan-sim-seumur-hidup",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Foto Dokumentasi Kopdes Merah Putih Tertimbun Longsor",
    "url": "https://turnbackhoax.id/articles/37518-salah-foto-dokumentasi-kopdes-merah-putih-tertimbun-longsor",
@@ -419,16 +430,6 @@
   {
    "judul": "[SALAH] Penyadapan Presiden Menggunakan Kalung Kucing",
    "url": "https://turnbackhoax.id/articles/37515-salah-penyadapan-presiden-menggunakan-kalung-kucing",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Rumah Puan Maharani Dirusak Massa",
-   "url": "https://turnbackhoax.id/articles/37509-salah-rumah-puan-maharani-dirusak-massa",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Prabowo Kumpulkan 10 Mantan Kapolri untuk Bahas Pembubaran Polri dan Pengalihan Tugasnya ke TNI",
-   "url": "https://turnbackhoax.id/articles/37504-salah-prabowo-kumpulkan-10-mantan-kapolri-untuk-bahas-pembubaran-polri-dan-pengalihan-tugasnya-ke-tni",
    "terbit": null
   }
  ]
