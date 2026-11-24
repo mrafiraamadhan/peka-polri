@@ -1,25 +1,25 @@
 {
- "diperbarui_utc": "2026-11-24T20:17:15Z",
+ "diperbarui_utc": "2026-11-24T21:08:37Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
-  "anggota": 27,
+  "anggota": 28,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 27,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 36,
+  "JALUR KHUSUS": 37,
   "TINDAK": 51,
   "PANTAU": 199,
   "TERCATAT": 1200
  },
- "kasus_aktif": 1486,
+ "kasus_aktif": 1487,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 58
+   "kasus": 59
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -159,19 +159,20 @@
    "PANTAU": 1,
    "TERCATAT": 1
   },
+  "16": {
+   "nama": "Sumatera Selatan",
+   "polda": "Polda Sumatera Selatan",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 4,
+   "PANTAU": 6,
+   "TERCATAT": 21
+  },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 3,
    "PANTAU": 8,
    "TERCATAT": 14
-  },
-  "16": {
-   "nama": "Sumatera Selatan",
-   "polda": "Polda Sumatera Selatan",
-   "TINDAK": 4,
-   "PANTAU": 6,
-   "TERCATAT": 21
   },
   "81": {
    "nama": "Maluku",
@@ -199,7 +200,7 @@
    "polda": "Polda Jawa Barat",
    "TINDAK": 6,
    "PANTAU": 15,
-   "TERCATAT": 55
+   "TERCATAT": 56
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -234,7 +235,7 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 4,
    "PANTAU": 13,
-   "TERCATAT": 60
+   "TERCATAT": 59
   },
   "51": {
    "nama": "Bali",
@@ -304,36 +305,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 15,
-   "sudah_ada": 888,
+   "relevan": 5,
+   "sudah_ada": 900,
    "hoaks": 0,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 2,
-   "luar_negeri": 0,
-   "kasus_baru": 7,
-   "digabung": 8
+   "tidak_relevan": 2,
+   "bukan_kejadian": 1,
+   "luar_negeri": 1,
+   "kasus_baru": 2,
+   "digabung": 3
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 36,
+   "JALUR KHUSUS": 37,
    "TINDAK": 51,
    "PANTAU": 199,
    "TERCATAT": 1200
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 286
+   "kasus": 287
   },
   "kabarkan": {
    "tanggapan_terlihat": 664,
-   "kasus": 1486,
+   "kasus": 1487,
    "tanggapan_sejak_berita_pertama": 559,
    "median_jeda_jam": 7.8,
    "n_jeda": 105,
    "melewati_batas": 145
   },
   "arsipkan": {
-   "baris": 11536,
+   "baris": 11538,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -354,7 +355,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 7,
-   "rata": 2.96
+   "rata": 3.0
   },
   {
    "kode_prov": "13",
