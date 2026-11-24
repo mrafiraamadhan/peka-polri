@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-24T03:18:50Z",
+ "diperbarui_utc": "2026-11-24T04:10:18Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 7,
@@ -13,9 +13,9 @@
   "JALUR KHUSUS": 22,
   "TINDAK": 55,
   "PANTAU": 178,
-  "TERCATAT": 1126
+  "TERCATAT": 1114
  },
- "kasus_aktif": 1383,
+ "kasus_aktif": 1371,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -23,19 +23,19 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 125
+   "kasus": 122
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 247
+   "kasus": 246
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 98
+   "kasus": 96
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 255
+   "kasus": 253
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 444
+   "kasus": 440
   }
  },
  "provinsi": {
@@ -70,7 +70,7 @@
    "DARURAT": 1,
    "TINDAK": 6,
    "PANTAU": 14,
-   "TERCATAT": 47
+   "TERCATAT": 46
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -170,7 +170,7 @@
    "polda": "Polda Kepulauan Bangka Belitung",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 7
+   "TERCATAT": 6
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -191,7 +191,7 @@
    "polda": "Polda Sulawesi Barat",
    "TINDAK": 1,
    "PANTAU": 1,
-   "TERCATAT": 4
+   "TERCATAT": 3
   },
   "18": {
    "nama": "Lampung",
@@ -249,7 +249,7 @@
    "nama": "Aceh",
    "polda": "Polda Aceh",
    "PANTAU": 1,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "96": {
    "nama": "Papua Tengah",
@@ -278,7 +278,7 @@
    "nama": "Kalimantan Utara",
    "polda": "Polda Kalimantan Utara",
    "PANTAU": 3,
-   "TERCATAT": 3
+   "TERCATAT": 2
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -298,37 +298,37 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 875,
-   "sumber": 3
+   "artikel": 0,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 40,
-   "sudah_ada": 818,
-   "hoaks": 1,
-   "tidak_relevan": 4,
-   "bukan_kejadian": 10,
-   "luar_negeri": 2,
-   "kasus_baru": 16,
-   "digabung": 24
+   "relevan": 0,
+   "sudah_ada": 0,
+   "hoaks": 0,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 0,
+   "luar_negeri": 0,
+   "kasus_baru": 0,
+   "digabung": 0
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 22,
    "TINDAK": 55,
    "PANTAU": 178,
-   "TERCATAT": 1126
+   "TERCATAT": 1114
   },
   "teruskan": {
    "polda": 33,
    "kasus": 257
   },
   "kabarkan": {
-   "tanggapan_terlihat": 627,
-   "kasus": 1383,
-   "tanggapan_sejak_berita_pertama": 530,
+   "tanggapan_terlihat": 621,
+   "kasus": 1371,
+   "tanggapan_sejak_berita_pertama": 524,
    "median_jeda_jam": 10.9,
    "n_jeda": 97,
-   "melewati_batas": 113
+   "melewati_batas": 121
   },
   "arsipkan": {
    "baris": 11154,
@@ -338,30 +338,6 @@
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "32",
-   "prov": "Jawa Barat",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "hari_ini": 6,
-   "rata": 2.32
-  },
-  {
-   "kode_prov": "51",
-   "prov": "Bali",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 12,
-   "rata": 3.14
-  },
-  {
-   "kode_prov": "31",
-   "prov": "DKI Jakarta",
-   "topik": "penipuan",
-   "nama": "Penipuan dan kejahatan daring",
-   "hari_ini": 16,
-   "rata": 1.18
-  },
   {
    "kode_prov": "32",
    "prov": "Jawa Barat",
@@ -379,6 +355,14 @@
    "rata": 4.11
   },
   {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "penipuan",
+   "nama": "Penipuan dan kejahatan daring",
+   "hari_ini": 15,
+   "rata": 1.18
+  },
+  {
    "kode_prov": "13",
    "prov": "Sumatera Barat",
    "topik": "darurat",
@@ -387,18 +371,39 @@
    "rata": 2.21
   },
   {
+   "kode_prov": "51",
+   "prov": "Bali",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 10,
+   "rata": 3.14
+  },
+  {
    "kode_prov": "62",
    "prov": "Kalimantan Tengah",
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 10,
    "rata": 2.0
+  },
+  {
+   "kode_prov": "32",
+   "prov": "Jawa Barat",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 2.32
   }
  ],
  "lonjakan_nasional": [],
  "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Aksi Besar di Solo Desak Gibran Kembali Jadi Wakil Presiden",
+   "url": "https://turnbackhoax.id/articles/37516-salah-aksi-besar-di-solo-desak-gibran-kembali-jadi-wakil-presiden",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Penyadapan Presiden Menggunakan Kalung Kucing",
    "url": "https://turnbackhoax.id/articles/37515-salah-penyadapan-presiden-menggunakan-kalung-kucing",
@@ -422,11 +427,6 @@
   {
    "judul": "[SALAH] Prabowo Meminta TNI dan Polri Menindaklanjuti Aksi Demonstrasi Belakangan Ini",
    "url": "https://turnbackhoax.id/articles/37499-salah-prabowo-meminta-tni-dan-polri-menindaklanjuti-aksi-demonstrasi-belakangan-ini",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Foto Jokowi Ditangkap Pasukan Brimob",
-   "url": "https://turnbackhoax.id/articles/37489-salah-foto-jokowi-ditangkap-pasukan-brimob",
    "terbit": null
   }
  ]
