@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-25T19:47:47Z",
+ "diperbarui_utc": "2026-11-25T20:39:05Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -12,9 +12,9 @@
   "JALUR KHUSUS": 56,
   "TINDAK": 64,
   "PANTAU": 173,
-  "TERCATAT": 1352
+  "TERCATAT": 1353
  },
- "kasus_aktif": 1648,
+ "kasus_aktif": 1649,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -30,15 +30,15 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 150
+   "kasus": 151
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 290
+   "kasus": 291
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 83
+   "kasus": 80
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 526
+   "kasus": 528
   }
  },
  "provinsi": {
@@ -69,7 +69,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 3,
-   "TERCATAT": 94
+   "TERCATAT": 95
   },
   "51": {
    "nama": "Bali",
@@ -201,7 +201,7 @@
    "polda": "Polda Jawa Tengah",
    "TINDAK": 11,
    "PANTAU": 14,
-   "TERCATAT": 29
+   "TERCATAT": 30
   },
   "32": {
    "nama": "Jawa Barat",
@@ -310,25 +310,25 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 910,
-   "sumber": 3
+   "artikel": 909,
+   "sumber": 4
   },
   "pilah": {
-   "relevan": 5,
-   "sudah_ada": 900,
+   "relevan": 9,
+   "sudah_ada": 897,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 3,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 2,
    "luar_negeri": 1,
-   "kasus_baru": 3,
-   "digabung": 2
+   "kasus_baru": 4,
+   "digabung": 5
   },
   "timbang": {
    "DARURAT": 3,
    "JALUR KHUSUS": 56,
    "TINDAK": 64,
    "PANTAU": 173,
-   "TERCATAT": 1352
+   "TERCATAT": 1353
   },
   "teruskan": {
    "polda": 32,
@@ -336,14 +336,14 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 691,
-   "kasus": 1648,
+   "kasus": 1649,
    "tanggapan_sejak_berita_pertama": 592,
    "median_jeda_jam": 14.2,
    "n_jeda": 99,
    "melewati_batas": 115
   },
   "arsipkan": {
-   "baris": 11994,
+   "baris": 11998,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -375,7 +375,32 @@
    "rata": 2.11
   }
  ],
- "lonjakan_nasional": [],
+ "lonjakan_nasional": [
+  {
+   "topik": "penipuan",
+   "nama": "Penipuan dan kejahatan daring",
+   "kemarin": 8,
+   "rata28": 1.7,
+   "rasio": 4.77,
+   "lonjakan": true
+  },
+  {
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kemarin": 2,
+   "rata28": 0.8,
+   "rasio": 2.43,
+   "lonjakan": false
+  },
+  {
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kemarin": 3,
+   "rata28": 1.8,
+   "rasio": 1.71,
+   "lonjakan": false
+  }
+ ],
  "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
