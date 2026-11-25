@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-25T13:40:33Z",
+ "diperbarui_utc": "2026-11-25T14:32:33Z",
  "terbaru": {
-  "waktu_utc": "2026-11-25T12:08:11Z",
-  "magnitudo": 5.5,
-  "kedalaman": "56 km",
-  "wilayah": "Pusat gempa berada di laut 56 km timur laut Pulau Puah",
+  "waktu_utc": "2026-11-25T13:28:30Z",
+  "magnitudo": 3.5,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di darat 29 km Utara Ruteng, Manggarai",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Luwuk, III Kota Gorontalo, III Kab. Gorontalo, III Bone Bolango, III Gorontalo Utara, III Pohuwato, III Minahasa Tenggara, III Boalemo",
-  "koordinat": "-0.43,123.08",
-  "prov": "Gorontalo",
-  "kode_prov": "75"
+  "dirasakan": "II - III Kab. Manggarai",
+  "koordinat": "-8.36,120.52",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-25T13:28:30Z",
+   "magnitudo": 3.5,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di darat 29 km Utara Ruteng, Manggarai",
+   "potensi": null,
+   "dirasakan": "II - III Kab. Manggarai",
+   "koordinat": "-8.36,120.52",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-25T12:08:11Z",
    "magnitudo": 5.5,
@@ -165,17 +176,6 @@
    "koordinat": "-8.34,117.52",
    "prov": "Nusa Tenggara Barat",
    "kode_prov": "52"
-  },
-  {
-   "waktu_utc": "2026-11-19T06:31:50Z",
-   "magnitudo": 3.6,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di darat 20 km timur laut Luwu Timur",
-   "potensi": null,
-   "dirasakan": "III Malili",
-   "koordinat": "-2.49,121.25",
-   "prov": "Sulawesi Selatan",
-   "kode_prov": "73"
   }
  ],
  "m5": [

@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-25T13:40:33Z",
+ "diperbarui_utc": "2026-11-25T14:32:33Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -35,46 +35,17 @@
    ]
   },
   {
-   "polda": "Polda Jawa Barat",
-   "provinsi": [
-    "32"
-   ],
-   "kasus": 557,
-   "perlu": 219,
-   "perlu_tanggap": 32,
-   "persen_tanggap": 14.6,
-   "tanggap": 255,
-   "jalur_khusus": 9,
-   "melewati_batas": 137,
-   "median_jeda_jam": 12.1,
-   "n_jeda": 32,
-   "topik_teratas": [
-    [
-     "darurat",
-     172
-    ],
-    [
-     "jalanan",
-     159
-    ],
-    [
-     "narkoba",
-     57
-    ]
-   ]
-  },
-  {
    "polda": "Polda Metro Jaya",
    "provinsi": [
     "31"
    ],
    "kasus": 527,
-   "perlu": 201,
+   "perlu": 195,
    "perlu_tanggap": 47,
-   "persen_tanggap": 23.4,
+   "persen_tanggap": 24.1,
    "tanggap": 266,
    "jalur_khusus": 5,
-   "melewati_batas": 126,
+   "melewati_batas": 121,
    "median_jeda_jam": 5.0,
    "n_jeda": 47,
    "topik_teratas": [
@@ -89,6 +60,35 @@
     [
      "narkoba",
      82
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Jawa Barat",
+   "provinsi": [
+    "32"
+   ],
+   "kasus": 557,
+   "perlu": 189,
+   "perlu_tanggap": 31,
+   "persen_tanggap": 16.4,
+   "tanggap": 255,
+   "jalur_khusus": 9,
+   "melewati_batas": 118,
+   "median_jeda_jam": 11.3,
+   "n_jeda": 31,
+   "topik_teratas": [
+    [
+     "darurat",
+     172
+    ],
+    [
+     "jalanan",
+     159
+    ],
+    [
+     "narkoba",
+     57
     ]
    ]
   },
@@ -190,7 +190,7 @@
    "persen_tanggap": 14.1,
    "tanggap": 147,
    "jalur_khusus": 15,
-   "melewati_batas": 47,
+   "melewati_batas": 49,
    "median_jeda_jam": 11.7,
    "n_jeda": 12,
    "topik_teratas": [
@@ -335,7 +335,7 @@
    "persen_tanggap": 23.5,
    "tanggap": 149,
    "jalur_khusus": 7,
-   "melewati_batas": 45,
+   "melewati_batas": 46,
    "median_jeda_jam": 2.8,
    "n_jeda": 16,
    "topik_teratas": [
