@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-25T04:59:12Z",
+ "diperbarui_utc": "2026-11-25T05:50:27Z",
  "terbaru": {
-  "waktu_utc": "2026-11-23T11:24:32Z",
-  "magnitudo": 5.3,
-  "kedalaman": "10 km",
-  "wilayah": "241 km TimurLaut RAJAAMPAT-PAPUABRTDY",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
-  "koordinat": "1.44,131.96",
-  "prov": null,
-  "kode_prov": null
+  "waktu_utc": "2026-11-25T05:33:27Z",
+  "magnitudo": 4.0,
+  "kedalaman": "5 km",
+  "wilayah": "Pusat gempa berada di laut 53 km utara Ruteng-Manggarai",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "II Kab. Manggarai",
+  "koordinat": "-8.14,120.49",
+  "prov": "Nusa Tenggara Timur",
+  "kode_prov": "53"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-25T05:33:27Z",
+   "magnitudo": 4.0,
+   "kedalaman": "5 km",
+   "wilayah": "Pusat gempa berada di laut 53 km utara Ruteng-Manggarai",
+   "potensi": null,
+   "dirasakan": "II Kab. Manggarai",
+   "koordinat": "-8.14,120.49",
+   "prov": "Nusa Tenggara Timur",
+   "kode_prov": "53"
+  },
   {
    "waktu_utc": "2026-11-22T07:54:39Z",
    "magnitudo": 5.4,
@@ -165,17 +176,6 @@
    "koordinat": "0.47,96.56",
    "prov": "Sumatera Utara",
    "kode_prov": "12"
-  },
-  {
-   "waktu_utc": "2026-11-18T16:11:00Z",
-   "magnitudo": 4.0,
-   "kedalaman": "3 km",
-   "wilayah": "Pusat gempa berada di laut 57 km utara Ruteng - Manggarai",
-   "potensi": null,
-   "dirasakan": "II Kab. Manggarai",
-   "koordinat": "-8.10,120.49",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
   }
  ],
  "m5": [
