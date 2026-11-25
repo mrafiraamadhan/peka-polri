@@ -1,16 +1,16 @@
 {
- "diperbarui_utc": "2026-11-25T18:56:10Z",
+ "diperbarui_utc": "2026-11-25T19:47:47Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4899,
+ "kasus_tanpa_polda": 4901,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 927,
+   "kasus": 928,
    "perlu": 340,
    "perlu_tanggap": 70,
    "persen_tanggap": 20.6,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     210
+     211
     ],
     [
      "narkoba",
@@ -296,6 +296,35 @@
    ]
   },
   {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 247,
+   "perlu": 70,
+   "perlu_tanggap": 9,
+   "persen_tanggap": 12.9,
+   "tanggap": 122,
+   "jalur_khusus": 5,
+   "melewati_batas": 45,
+   "median_jeda_jam": 11.5,
+   "n_jeda": 9,
+   "topik_teratas": [
+    [
+     "darurat",
+     122
+    ],
+    [
+     "jalanan",
+     43
+    ],
+    [
+     "narkoba",
+     20
+    ]
+   ]
+  },
+  {
    "polda": "Polda Aceh",
    "provinsi": [
     "11"
@@ -321,35 +350,6 @@
     [
      "jalanan",
      50
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 247,
-   "perlu": 69,
-   "perlu_tanggap": 9,
-   "persen_tanggap": 13.0,
-   "tanggap": 122,
-   "jalur_khusus": 5,
-   "melewati_batas": 44,
-   "median_jeda_jam": 11.5,
-   "n_jeda": 9,
-   "topik_teratas": [
-    [
-     "darurat",
-     122
-    ],
-    [
-     "jalanan",
-     43
-    ],
-    [
-     "narkoba",
-     20
     ]
    ]
   },
@@ -1387,6 +1387,29 @@
    "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3515",
+   "kabkota": "Kabupaten Sidoarjo",
+   "kode_prov": "35",
+   "provinsi": "Jawa Timur",
+   "polda": "Polda Jawa Timur",
+   "polres": "Polresta Sidoarjo",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 7,
+   "kasus": 11,
+   "tanggal": [
+    "2026-11-01",
+    "2026-11-05",
+    "2026-11-10",
+    "2026-11-15",
+    "2026-11-18",
+    "2026-11-22",
+    "2026-11-26"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5371",
    "kabkota": "Kota Kupang",
    "kode_prov": "53",
@@ -1739,28 +1762,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polresta Deli Serdang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3515",
-   "kabkota": "Kabupaten Sidoarjo",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polresta Sidoarjo",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 6,
-   "kasus": 10,
-   "tanggal": [
-    "2026-11-01",
-    "2026-11-05",
-    "2026-11-10",
-    "2026-11-15",
-    "2026-11-18",
-    "2026-11-22"
-   ],
-   "kejadian_ditanggapi": 0,
-   "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
   },
   {
    "kode_kab": "3575",
