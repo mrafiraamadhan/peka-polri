@@ -1,37 +1,37 @@
 {
- "diperbarui_utc": "2026-11-25T02:23:22Z",
+ "diperbarui_utc": "2026-11-25T03:15:33Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 8,
-  "anggota": 31,
+  "anggota": 32,
   "kekerasan": 1
  },
  "anggota_sudah_ditangani": 26,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 40,
-  "TINDAK": 53,
-  "PANTAU": 193,
-  "TERCATAT": 1223
+  "JALUR KHUSUS": 41,
+  "TINDAK": 52,
+  "PANTAU": 198,
+  "TERCATAT": 1234
  },
- "kasus_aktif": 1509,
+ "kasus_aktif": 1525,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 61
+   "kasus": 62
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 114
+   "kasus": 115
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 283
+   "kasus": 290
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 121
+   "kasus": 122
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -39,11 +39,11 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 58
+   "kasus": 60
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 99
+   "kasus": 100
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -51,7 +51,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 476
+   "kasus": 479
   }
  },
  "provinsi": {
@@ -68,14 +68,14 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 36
+   "TERCATAT": 37
   },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
    "JALUR KHUSUS": 2,
    "PANTAU": 13,
-   "TERCATAT": 25
+   "TERCATAT": 24
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -103,14 +103,14 @@
    "polda": "Polda Kepulauan Riau",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 6
   },
   "13": {
    "nama": "Sumatera Barat",
    "polda": "Polda Sumatera Barat",
    "JALUR KHUSUS": 2,
-   "PANTAU": 1,
+   "PANTAU": 2,
    "TERCATAT": 19
   },
   "52": {
@@ -118,8 +118,8 @@
    "polda": "Polda Nusa Tenggara Barat",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 3,
-   "TERCATAT": 19
+   "PANTAU": 4,
+   "TERCATAT": 20
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -133,8 +133,8 @@
    "polda": "Polda Banten",
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
-   "PANTAU": 49,
-   "TERCATAT": 51
+   "PANTAU": 50,
+   "TERCATAT": 52
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -142,7 +142,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 3,
    "PANTAU": 4,
-   "TERCATAT": 36
+   "TERCATAT": 37
   },
   "35": {
    "nama": "Jawa Timur",
@@ -150,7 +150,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 8,
    "PANTAU": 11,
-   "TERCATAT": 70
+   "TERCATAT": 71
   },
   "94": {
    "nama": "Papua",
@@ -165,13 +165,13 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 6,
-   "TERCATAT": 21
+   "TERCATAT": 22
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 3,
-   "PANTAU": 9,
+   "PANTAU": 11,
    "TERCATAT": 14
   },
   "81": {
@@ -193,7 +193,7 @@
    "polda": "Polda Jawa Tengah",
    "TINDAK": 7,
    "PANTAU": 12,
-   "TERCATAT": 29
+   "TERCATAT": 28
   },
   "32": {
    "nama": "Jawa Barat",
@@ -207,14 +207,7 @@
    "polda": "Polda Sulawesi Tengah",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 5
-  },
-  "76": {
-   "nama": "Sulawesi Barat",
-   "polda": "Polda Sulawesi Barat",
-   "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 2
+   "TERCATAT": 6
   },
   "18": {
    "nama": "Lampung",
@@ -235,13 +228,13 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 4,
    "PANTAU": 12,
-   "TERCATAT": 58
+   "TERCATAT": 59
   },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
-   "PANTAU": 7,
-   "TERCATAT": 29
+   "PANTAU": 6,
+   "TERCATAT": 30
   },
   "75": {
    "nama": "Gorontalo",
@@ -258,6 +251,12 @@
    "polda": "Polda yang membawahi Papua Tengah",
    "PANTAU": 1,
    "TERCATAT": 6
+  },
+  "76": {
+   "nama": "Sulawesi Barat",
+   "polda": "Polda Sulawesi Barat",
+   "PANTAU": 1,
+   "TERCATAT": 2
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -305,50 +304,42 @@
    "sumber": 4
   },
   "pilah": {
-   "relevan": 11,
-   "sudah_ada": 893,
+   "relevan": 51,
+   "sudah_ada": 837,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 5,
-   "luar_negeri": 0,
-   "kasus_baru": 5,
-   "digabung": 6
+   "tidak_relevan": 5,
+   "bukan_kejadian": 15,
+   "luar_negeri": 1,
+   "kasus_baru": 25,
+   "digabung": 26
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 40,
-   "TINDAK": 53,
-   "PANTAU": 193,
-   "TERCATAT": 1223
+   "JALUR KHUSUS": 41,
+   "TINDAK": 52,
+   "PANTAU": 198,
+   "TERCATAT": 1234
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 286
+   "kasus": 291
   },
   "kabarkan": {
-   "tanggapan_terlihat": 661,
-   "kasus": 1509,
-   "tanggapan_sejak_berita_pertama": 561,
+   "tanggapan_terlihat": 667,
+   "kasus": 1525,
+   "tanggapan_sejak_berita_pertama": 566,
    "median_jeda_jam": 7.8,
-   "n_jeda": 100,
+   "n_jeda": 101,
    "melewati_batas": 142
   },
   "arsipkan": {
-   "baris": 11601,
+   "baris": 11626,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
   }
  },
  "lonjakan_wilayah": [
-  {
-   "kode_prov": "36",
-   "prov": "Banten",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 16,
-   "rata": 4.89
-  },
   {
    "kode_prov": null,
    "prov": "Tanpa lokasi",
@@ -360,18 +351,26 @@
   {
    "kode_prov": "16",
    "prov": "Sumatera Selatan",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
-   "rata": 3.0
-  },
-  {
-   "kode_prov": "16",
-   "prov": "Sumatera Selatan",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 6,
+   "hari_ini": 7,
    "rata": 2.25
+  },
+  {
+   "kode_prov": "36",
+   "prov": "Banten",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "hari_ini": 15,
+   "rata": 4.89
+  },
+  {
+   "kode_prov": "31",
+   "prov": "DKI Jakarta",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 2.21
   },
   {
    "kode_prov": "11",
@@ -379,7 +378,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "hari_ini": 12,
-   "rata": 1.57
+   "rata": 1.61
   },
   {
    "kode_prov": "14",
@@ -394,31 +393,44 @@
    "prov": "Aceh",
    "topik": "anggota",
    "nama": "Perilaku anggota",
-   "hari_ini": 9,
+   "hari_ini": 10,
    "rata": 0.32
+  },
+  {
+   "kode_prov": "21",
+   "prov": "Kepulauan Riau",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "hari_ini": 5,
+   "rata": 1.25
+  },
+  {
+   "kode_prov": "36",
+   "prov": "Banten",
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "hari_ini": 5,
+   "rata": 0.5
   }
  ],
  "lonjakan_nasional": [
   {
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kemarin": 2,
-   "rata28": 0.8,
-   "rasio": 2.43,
-   "lonjakan": false
-  },
-  {
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kemarin": 3,
-   "rata28": 1.8,
-   "rasio": 1.71,
-   "lonjakan": false
+   "topik": "penipuan",
+   "nama": "Penipuan dan kejahatan daring",
+   "kemarin": 8,
+   "rata28": 1.7,
+   "rasio": 4.77,
+   "lonjakan": true
   }
  ],
  "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
+  {
+   "judul": "[SALAH] Foto Listyo Sigit Sakit di Dalam Penjara",
+   "url": "https://turnbackhoax.id/articles/37527-salah-foto-listyo-sigit-sakit-di-dalam-penjara",
+   "terbit": null
+  },
   {
    "judul": "[SALAH] Barack Obama Terpilih Kembali Menjadi Presiden AS Pada November 2026",
    "url": "https://turnbackhoax.id/articles/37523-salah-barack-obama-terpilih-kembali-menjadi-presiden-as-pada-november-2026",
@@ -442,11 +454,6 @@
   {
    "judul": "[SALAH] Aksi Besar di Solo Desak Gibran Kembali Jadi Wakil Presiden",
    "url": "https://turnbackhoax.id/articles/37516-salah-aksi-besar-di-solo-desak-gibran-kembali-jadi-wakil-presiden",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Penyadapan Presiden Menggunakan Kalung Kucing",
-   "url": "https://turnbackhoax.id/articles/37515-salah-penyadapan-presiden-menggunakan-kalung-kucing",
    "terbit": null
   }
  ]
