@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-25T16:22:05Z",
+ "diperbarui_utc": "2026-11-25T17:13:34Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4892,
+ "kasus_tanpa_polda": 4893,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -12,13 +12,13 @@
    ],
    "kasus": 924,
    "perlu": 339,
-   "perlu_tanggap": 69,
-   "persen_tanggap": 20.4,
-   "tanggap": 475,
+   "perlu_tanggap": 70,
+   "persen_tanggap": 20.6,
+   "tanggap": 476,
    "jalur_khusus": 44,
    "melewati_batas": 200,
-   "median_jeda_jam": 14.3,
-   "n_jeda": 69,
+   "median_jeda_jam": 14.1,
+   "n_jeda": 70,
    "topik_teratas": [
     [
      "jalanan",
@@ -68,11 +68,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 563,
+   "kasus": 564,
    "perlu": 190,
    "perlu_tanggap": 31,
    "persen_tanggap": 16.3,
-   "tanggap": 259,
+   "tanggap": 260,
    "jalur_khusus": 9,
    "melewati_batas": 118,
    "median_jeda_jam": 11.3,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     164
+     165
     ],
     [
      "narkoba",
@@ -445,11 +445,11 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 119,
+   "kasus": 120,
    "perlu": 53,
    "perlu_tanggap": 17,
    "persen_tanggap": 32.1,
-   "tanggap": 69,
+   "tanggap": 70,
    "jalur_khusus": 7,
    "melewati_batas": 25,
    "median_jeda_jam": 18.2,
@@ -457,7 +457,7 @@
    "topik_teratas": [
     [
      "perempuan_anak",
-     41
+     42
     ],
     [
      "jalanan",
@@ -474,7 +474,7 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 153,
+   "kasus": 154,
    "perlu": 50,
    "perlu_tanggap": 7,
    "persen_tanggap": 14.0,
@@ -490,7 +490,7 @@
     ],
     [
      "darurat",
-     33
+     34
     ],
     [
      "jalanan",
@@ -561,12 +561,12 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 144,
+   "kasus": 145,
    "perlu": 35,
    "perlu_tanggap": 6,
    "persen_tanggap": 17.1,
-   "tanggap": 88,
-   "jalur_khusus": 2,
+   "tanggap": 89,
+   "jalur_khusus": 3,
    "melewati_batas": 28,
    "median_jeda_jam": 18.3,
    "n_jeda": 6,
@@ -764,10 +764,10 @@
    "provinsi": [
     "81"
    ],
-   "kasus": 42,
-   "perlu": 20,
+   "kasus": 43,
+   "perlu": 21,
    "perlu_tanggap": 5,
-   "persen_tanggap": 25.0,
+   "persen_tanggap": 23.8,
    "tanggap": 24,
    "jalur_khusus": 5,
    "melewati_batas": 12,
@@ -776,7 +776,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     16
+     17
     ],
     [
      "jalanan",
@@ -1895,6 +1895,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Binjai bersama pemerintah daerah"
   },
   {
+   "kode_kab": "5371",
+   "kabkota": "Kota Kupang",
+   "kode_prov": "53",
+   "provinsi": "Nusa Tenggara Timur",
+   "polda": "Polda Nusa Tenggara Timur",
+   "polres": "Polresta Kupang Kota",
+   "topik": "perempuan_anak",
+   "nama": "Kekerasan terhadap perempuan dan anak",
+   "kejadian": 5,
+   "kasus": 28,
+   "tanggal": [
+    "2026-11-02",
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-19",
+    "2026-11-25"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3508",
    "kabkota": "Kabupaten Lumajang",
    "kode_prov": "35",
@@ -1914,27 +1935,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Lumajang bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "5371",
-   "kabkota": "Kota Kupang",
-   "kode_prov": "53",
-   "provinsi": "Nusa Tenggara Timur",
-   "polda": "Polda Nusa Tenggara Timur",
-   "polres": "Polresta Kupang Kota",
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kejadian": 5,
-   "kasus": 27,
-   "tanggal": [
-    "2026-11-02",
-    "2026-11-13",
-    "2026-11-16",
-    "2026-11-19",
-    "2026-11-25"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "1212",
