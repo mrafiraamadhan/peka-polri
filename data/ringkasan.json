@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-25T22:29:13Z",
+ "diperbarui_utc": "2026-11-25T23:20:32Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -8,13 +8,13 @@
  "anggota_sudah_ditangani": 27,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 2,
+  "DARURAT": 1,
   "JALUR KHUSUS": 56,
   "TINDAK": 65,
-  "PANTAU": 173,
-  "TERCATAT": 1352
+  "PANTAU": 172,
+  "TERCATAT": 1348
  },
- "kasus_aktif": 1648,
+ "kasus_aktif": 1642,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -30,7 +30,7 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 151
+   "kasus": 150
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
@@ -38,11 +38,11 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 79
+   "kasus": 77
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 95
+   "kasus": 94
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,19 +50,10 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 522
+   "kasus": 520
   }
  },
  "provinsi": {
-  "36": {
-   "nama": "Banten",
-   "polda": "Polda Banten",
-   "DARURAT": 1,
-   "JALUR KHUSUS": 1,
-   "TINDAK": 3,
-   "PANTAU": 3,
-   "TERCATAT": 95
-  },
   "51": {
    "nama": "Bali",
    "polda": "Polda Bali",
@@ -144,6 +135,14 @@
    "PANTAU": 5,
    "TERCATAT": 18
   },
+  "36": {
+   "nama": "Banten",
+   "polda": "Polda Banten",
+   "JALUR KHUSUS": 1,
+   "TINDAK": 3,
+   "PANTAU": 3,
+   "TERCATAT": 94
+  },
   "12": {
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
@@ -158,7 +157,7 @@
    "JALUR KHUSUS": 4,
    "TINDAK": 10,
    "PANTAU": 9,
-   "TERCATAT": 80
+   "TERCATAT": 79
   },
   "94": {
    "nama": "Papua",
@@ -186,7 +185,7 @@
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 5,
-   "PANTAU": 9,
+   "PANTAU": 8,
    "TERCATAT": 16
   },
   "19": {
@@ -311,37 +310,37 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 909,
-   "sumber": 3
+   "artikel": 0,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 1,
-   "sudah_ada": 906,
+   "relevan": 0,
+   "sudah_ada": 0,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 1,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 0,
    "luar_negeri": 0,
-   "kasus_baru": 1,
+   "kasus_baru": 0,
    "digabung": 0
   },
   "timbang": {
-   "DARURAT": 2,
+   "DARURAT": 1,
    "JALUR KHUSUS": 56,
    "TINDAK": 65,
-   "PANTAU": 173,
-   "TERCATAT": 1352
+   "PANTAU": 172,
+   "TERCATAT": 1348
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 296
+   "kasus": 294
   },
   "kabarkan": {
-   "tanggapan_terlihat": 694,
-   "kasus": 1648,
-   "tanggapan_sejak_berita_pertama": 592,
-   "median_jeda_jam": 14.1,
-   "n_jeda": 102,
-   "melewati_batas": 114
+   "tanggapan_terlihat": 689,
+   "kasus": 1642,
+   "tanggapan_sejak_berita_pertama": 588,
+   "median_jeda_jam": 14.2,
+   "n_jeda": 101,
+   "melewati_batas": 112
   },
   "arsipkan": {
    "baris": 12008,

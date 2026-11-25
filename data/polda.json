@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-25T22:29:13Z",
+ "diperbarui_utc": "2026-11-25T23:20:32Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -296,35 +296,6 @@
    ]
   },
   {
-   "polda": "Polda Banten",
-   "provinsi": [
-    "36"
-   ],
-   "kasus": 249,
-   "perlu": 70,
-   "perlu_tanggap": 9,
-   "persen_tanggap": 12.9,
-   "tanggap": 122,
-   "jalur_khusus": 5,
-   "melewati_batas": 45,
-   "median_jeda_jam": 11.5,
-   "n_jeda": 9,
-   "topik_teratas": [
-    [
-     "darurat",
-     124
-    ],
-    [
-     "jalanan",
-     43
-    ],
-    [
-     "narkoba",
-     20
-    ]
-   ]
-  },
-  {
    "polda": "Polda Aceh",
    "provinsi": [
     "11"
@@ -350,6 +321,35 @@
     [
      "jalanan",
      50
+    ]
+   ]
+  },
+  {
+   "polda": "Polda Banten",
+   "provinsi": [
+    "36"
+   ],
+   "kasus": 249,
+   "perlu": 69,
+   "perlu_tanggap": 9,
+   "persen_tanggap": 13.0,
+   "tanggap": 122,
+   "jalur_khusus": 5,
+   "melewati_batas": 44,
+   "median_jeda_jam": 11.5,
+   "n_jeda": 9,
+   "topik_teratas": [
+    [
+     "darurat",
+     124
+    ],
+    [
+     "jalanan",
+     43
+    ],
+    [
+     "narkoba",
+     20
     ]
    ]
   },
