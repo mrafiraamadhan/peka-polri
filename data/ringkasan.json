@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-25T22:23:25Z",
+ "diperbarui_utc": "2026-11-25T22:29:13Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -26,7 +26,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 303
+   "kasus": 304
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 523
+   "kasus": 522
   }
  },
  "provinsi": {
@@ -150,7 +150,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 4,
    "PANTAU": 7,
-   "TERCATAT": 41
+   "TERCATAT": 42
   },
   "35": {
    "nama": "Jawa Timur",
@@ -312,17 +312,17 @@
  "langkah": {
   "dengar": {
    "artikel": 909,
-   "sumber": 4
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 19,
-   "sudah_ada": 887,
+   "relevan": 1,
+   "sudah_ada": 906,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 3,
+   "tidak_relevan": 1,
+   "bukan_kejadian": 1,
    "luar_negeri": 0,
-   "kasus_baru": 7,
-   "digabung": 12
+   "kasus_baru": 1,
+   "digabung": 0
   },
   "timbang": {
    "DARURAT": 2,
@@ -336,15 +336,15 @@
    "kasus": 296
   },
   "kabarkan": {
-   "tanggapan_terlihat": 693,
+   "tanggapan_terlihat": 694,
    "kasus": 1648,
-   "tanggapan_sejak_berita_pertama": 591,
+   "tanggapan_sejak_berita_pertama": 592,
    "median_jeda_jam": 14.1,
    "n_jeda": 102,
    "melewati_batas": 114
   },
   "arsipkan": {
-   "baris": 12007,
+   "baris": 12008,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -376,24 +376,7 @@
    "rata": 2.11
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "konflik",
-   "nama": "Konflik dan kerumunan",
-   "kemarin": 4,
-   "rata28": 1.8,
-   "rasio": 2.2,
-   "lonjakan": false
-  },
-  {
-   "topik": "lalulintas",
-   "nama": "Lalu lintas",
-   "kemarin": 0,
-   "rata28": 0.0,
-   "rasio": 0.0,
-   "lonjakan": false
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
