@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-25T20:39:05Z",
+ "diperbarui_utc": "2026-11-25T21:31:39Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -34,11 +34,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 291
+   "kasus": 292
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 80
+   "kasus": 79
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -91,7 +91,7 @@
    "JALUR KHUSUS": 7,
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 46
+   "TERCATAT": 48
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -187,7 +187,7 @@
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 5,
    "PANTAU": 9,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -310,18 +310,18 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 909,
+   "artikel": 908,
    "sumber": 4
   },
   "pilah": {
-   "relevan": 9,
-   "sudah_ada": 897,
+   "relevan": 6,
+   "sudah_ada": 898,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 2,
-   "luar_negeri": 1,
-   "kasus_baru": 4,
-   "digabung": 5
+   "tidak_relevan": 1,
+   "bukan_kejadian": 3,
+   "luar_negeri": 0,
+   "kasus_baru": 2,
+   "digabung": 4
   },
   "timbang": {
    "DARURAT": 3,
@@ -343,7 +343,7 @@
    "melewati_batas": 115
   },
   "arsipkan": {
-   "baris": 11998,
+   "baris": 12000,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -377,27 +377,11 @@
  ],
  "lonjakan_nasional": [
   {
-   "topik": "penipuan",
-   "nama": "Penipuan dan kejahatan daring",
-   "kemarin": 8,
-   "rata28": 1.7,
-   "rasio": 4.77,
-   "lonjakan": true
-  },
-  {
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
+   "topik": "layanan",
+   "nama": "Layanan kepolisian",
    "kemarin": 2,
-   "rata28": 0.8,
-   "rasio": 2.43,
-   "lonjakan": false
-  },
-  {
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kemarin": 3,
-   "rata28": 1.8,
-   "rasio": 1.71,
+   "rata28": 0.9,
+   "rasio": 2.15,
    "lonjakan": false
   }
  ],
