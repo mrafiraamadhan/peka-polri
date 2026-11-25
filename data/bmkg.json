@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-25T11:50:03Z",
+ "diperbarui_utc": "2026-11-25T12:41:50Z",
  "terbaru": {
-  "waktu_utc": "2026-11-25T05:33:27Z",
-  "magnitudo": 4.0,
-  "kedalaman": "5 km",
-  "wilayah": "Pusat gempa berada di laut 53 km utara Ruteng-Manggarai",
+  "waktu_utc": "2026-11-25T12:08:11Z",
+  "magnitudo": 5.5,
+  "kedalaman": "56 km",
+  "wilayah": "Pusat gempa berada di laut 56 km timur laut Pulau Puah",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Kab. Manggarai",
-  "koordinat": "-8.14,120.49",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "III Luwuk, III Kota Gorontalo, III Kab. Gorontalo, III Bone Bolango, III Gorontalo Utara, III Pohuwato, III Minahasa Tenggara, III Boalemo",
+  "koordinat": "-0.43,123.08",
+  "prov": "Gorontalo",
+  "kode_prov": "75"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-25T12:08:11Z",
+   "magnitudo": 5.5,
+   "kedalaman": "56 km",
+   "wilayah": "Pusat gempa berada di laut 56 km timur laut Pulau Puah",
+   "potensi": null,
+   "dirasakan": "III Luwuk, III Kota Gorontalo, III Kab. Gorontalo, III Bone Bolango, III Gorontalo Utara, III Pohuwato, III Minahasa Tenggara, III Boalemo",
+   "koordinat": "-0.43,123.08",
+   "prov": "Gorontalo",
+   "kode_prov": "75"
+  },
   {
    "waktu_utc": "2026-11-25T05:33:27Z",
    "magnitudo": 4.0,
@@ -165,20 +176,20 @@
    "koordinat": "-2.49,121.25",
    "prov": "Sulawesi Selatan",
    "kode_prov": "73"
-  },
-  {
-   "waktu_utc": "2026-11-19T01:34:48Z",
-   "magnitudo": 5.4,
-   "kedalaman": "12 km",
-   "wilayah": "Pusat gempa berada di laut 114 km Barat Daya Nias Barat",
-   "potensi": null,
-   "dirasakan": "II Nias Selatan",
-   "koordinat": "0.47,96.56",
-   "prov": "Sumatera Utara",
-   "kode_prov": "12"
   }
  ],
  "m5": [
+  {
+   "waktu_utc": "2026-11-25T12:08:11Z",
+   "magnitudo": 5.5,
+   "kedalaman": "56 km",
+   "wilayah": "56 km TimurLaut PULAUPUAH-SULTENG",
+   "potensi": "Tidak berpotensi tsunami",
+   "dirasakan": null,
+   "koordinat": "-0.43,123.08",
+   "prov": "Sulawesi Tengah",
+   "kode_prov": "72"
+  },
   {
    "waktu_utc": "2026-11-23T11:24:32Z",
    "magnitudo": 5.3,
@@ -332,17 +343,6 @@
    "koordinat": "-8.02,130.49",
    "prov": null,
    "kode_prov": null
-  },
-  {
-   "waktu_utc": "2026-11-09T09:48:29Z",
-   "magnitudo": 5.5,
-   "kedalaman": "10 km",
-   "wilayah": "20 km BaratLaut SERAMBAGIANTIMUR-MALUKU",
-   "potensi": "Tidak berpotensi tsunami",
-   "dirasakan": null,
-   "koordinat": "-2.93,130.44",
-   "prov": "Maluku",
-   "kode_prov": "81"
   }
  ]
 }
