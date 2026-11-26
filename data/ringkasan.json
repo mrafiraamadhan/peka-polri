@@ -1,24 +1,24 @@
 {
- "diperbarui_utc": "2026-11-26T05:00:10Z",
+ "diperbarui_utc": "2026-11-26T05:51:36Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 11,
+  "perkara": 10,
   "anggota": 49
  },
  "anggota_sudah_ditangani": 31,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 0,
-  "JALUR KHUSUS": 60,
+  "JALUR KHUSUS": 59,
   "TINDAK": 66,
-  "PANTAU": 169,
-  "TERCATAT": 1309
+  "PANTAU": 168,
+  "TERCATAT": 1303
  },
- "kasus_aktif": 1604,
+ "kasus_aktif": 1596,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 83
+   "kasus": 82
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -26,15 +26,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 305
+   "kasus": 304
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 148
+   "kasus": 146
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 282
+   "kasus": 283
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -42,7 +42,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 91
+   "kasus": 87
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 494
+   "kasus": 493
   }
  },
  "provinsi": {
@@ -73,8 +73,8 @@
    "polda": "Polda Aceh",
    "JALUR KHUSUS": 8,
    "TINDAK": 1,
-   "PANTAU": 3,
-   "TERCATAT": 48
+   "PANTAU": 4,
+   "TERCATAT": 49
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -87,7 +87,7 @@
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
-   "JALUR KHUSUS": 2,
+   "JALUR KHUSUS": 1,
    "PANTAU": 4,
    "TERCATAT": 33
   },
@@ -111,7 +111,7 @@
    "polda": "Polda Sumatera Barat",
    "JALUR KHUSUS": 2,
    "PANTAU": 3,
-   "TERCATAT": 20
+   "TERCATAT": 18
   },
   "52": {
    "nama": "Nusa Tenggara Barat",
@@ -119,7 +119,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 20
+   "TERCATAT": 19
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -135,7 +135,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 5,
-   "TERCATAT": 86
+   "TERCATAT": 84
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -150,8 +150,8 @@
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 4,
    "TINDAK": 10,
-   "PANTAU": 9,
-   "TERCATAT": 75
+   "PANTAU": 8,
+   "TERCATAT": 76
   },
   "94": {
    "nama": "Papua",
@@ -166,28 +166,28 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 7,
-   "TERCATAT": 20
+   "TERCATAT": 21
   },
   "62": {
    "nama": "Kalimantan Tengah",
    "polda": "Polda Kalimantan Tengah",
    "JALUR KHUSUS": 1,
    "PANTAU": 5,
-   "TERCATAT": 15
+   "TERCATAT": 14
   },
   "34": {
    "nama": "DI Yogyakarta",
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 5,
    "PANTAU": 8,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
    "polda": "Polda Kepulauan Bangka Belitung",
    "TINDAK": 1,
    "PANTAU": 4,
-   "TERCATAT": 7
+   "TERCATAT": 6
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -200,8 +200,8 @@
    "nama": "Jawa Barat",
    "polda": "Polda Jawa Barat",
    "TINDAK": 7,
-   "PANTAU": 17,
-   "TERCATAT": 70
+   "PANTAU": 16,
+   "TERCATAT": 71
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -215,14 +215,14 @@
    "polda": "Polda Lampung",
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 17
+   "TERCATAT": 18
   },
   "31": {
    "nama": "DKI Jakarta",
    "polda": "Polda Metro Jaya",
    "TINDAK": 4,
    "PANTAU": 15,
-   "TERCATAT": 59
+   "TERCATAT": 55
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -262,7 +262,7 @@
    "nama": "Papua Tengah",
    "polda": "Polda yang membawahi Papua Tengah",
    "PANTAU": 1,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -279,7 +279,8 @@
   "75": {
    "nama": "Gorontalo",
    "polda": "Polda Gorontalo",
-   "PANTAU": 1
+   "PANTAU": 1,
+   "TERCATAT": 1
   },
   "97": {
    "nama": "Papua Pegunungan",
@@ -310,40 +311,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 909,
-   "sumber": 3
+   "artikel": 906,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 12,
-   "sudah_ada": 887,
+   "relevan": 37,
+   "sudah_ada": 853,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 10,
-   "luar_negeri": 0,
-   "kasus_baru": 4,
-   "digabung": 8
+   "tidak_relevan": 2,
+   "bukan_kejadian": 13,
+   "luar_negeri": 1,
+   "kasus_baru": 19,
+   "digabung": 18
   },
   "timbang": {
    "DARURAT": 0,
-   "JALUR KHUSUS": 60,
+   "JALUR KHUSUS": 59,
    "TINDAK": 66,
-   "PANTAU": 169,
-   "TERCATAT": 1309
+   "PANTAU": 168,
+   "TERCATAT": 1303
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 295
+   "kasus": 293
   },
   "kabarkan": {
-   "tanggapan_terlihat": 672,
-   "kasus": 1604,
-   "tanggapan_sejak_berita_pertama": 572,
+   "tanggapan_terlihat": 663,
+   "kasus": 1596,
+   "tanggapan_sejak_berita_pertama": 564,
    "median_jeda_jam": 14.2,
-   "n_jeda": 100,
-   "melewati_batas": 123
+   "n_jeda": 99,
+   "melewati_batas": 124
   },
   "arsipkan": {
-   "baris": 12108,
+   "baris": 12127,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -355,7 +356,7 @@
    "prov": "Kalimantan Timur",
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
-   "hari_ini": 6,
+   "hari_ini": 5,
    "rata": 2.11
   },
   {
@@ -378,36 +379,5 @@
  "lonjakan_nasional": [],
  "hari_riwayat": 28,
  "gempa_darurat": [],
- "hoaks_terbaru": [
-  {
-   "judul": "[SALAH] Perusahaan Diwajibkan Setor Dana Pesangon ke Danantara",
-   "url": "https://turnbackhoax.id/articles/37535-salah-perusahaan-diwajibkan-setor-dana-pesangon-ke-danantara",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Foto Sekawanan Badak Digiring TNI ke Dalam Truk",
-   "url": "https://turnbackhoax.id/articles/37528-salah-foto-sekawanan-badak-digiring-tni-ke-dalam-truk",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Foto Listyo Sigit Sakit di Dalam Penjara",
-   "url": "https://turnbackhoax.id/articles/37527-salah-foto-listyo-sigit-sakit-di-dalam-penjara",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Barack Obama Terpilih Kembali Menjadi Presiden AS Pada November 2026",
-   "url": "https://turnbackhoax.id/articles/37523-salah-barack-obama-terpilih-kembali-menjadi-presiden-as-pada-november-2026",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Kapolri Suyudi Umumkan Kebijakan SIM Seumur Hidup",
-   "url": "https://turnbackhoax.id/articles/37522-salah-kapolri-suyudi-umumkan-kebijakan-sim-seumur-hidup",
-   "terbit": null
-  },
-  {
-   "judul": "[SALAH] Foto Dokumentasi Kopdes Merah Putih Tertimbun Longsor",
-   "url": "https://turnbackhoax.id/articles/37518-salah-foto-dokumentasi-kopdes-merah-putih-tertimbun-longsor",
-   "terbit": null
-  }
- ]
+ "hoaks_terbaru": []
 }

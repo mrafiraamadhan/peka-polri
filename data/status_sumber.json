@@ -1,29 +1,29 @@
 {
- "diperbarui_utc": "2026-11-26T05:00:10Z",
+ "diperbarui_utc": "2026-11-26T05:51:36Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-26T05:00:39Z",
+   "dicek_utc": "2026-11-26T05:52:05Z",
    "ok": true,
-   "n": 909,
+   "n": 906,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-26T05:00:41Z",
-   "ok": true,
-   "n": 10,
-   "pesan": "10 klaim terbaru",
+   "dicek_utc": "2026-11-26T05:52:30Z",
+   "ok": false,
+   "n": 0,
+   "pesan": "403 Client Error: Forbidden for url: https://turnbackhoax.id/feed",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-26T05:00:41Z",
+   "dicek_utc": "2026-11-26T05:52:30Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-26T05:01:06Z",
+   "dicek_utc": "2026-11-26T05:52:50Z",
    "ok": false,
    "n": 9,
    "pesan": "0 dari 8 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
@@ -31,10 +31,10 @@
   }
  },
  "log": [
-  "05:00:10 PEKA mulai 2026-11-26T05:00:10Z ",
-  "05:00:39 dengar berita: 909 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "05:01:06 dengar GDELT: 0/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "05:01:06 pilah: {'masuk': 909, 'sudah_ada': 887, 'bukan_kejadian': 10, 'gabung': 8, 'kasus_baru': 4, 'relevan': 12}",
-  "05:01:07 papan Polda: 38 Polda berkasus | titik rawan: 503"
+  "05:51:36 PEKA mulai 2026-11-26T05:51:36Z ",
+  "05:52:05 dengar berita: 906 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "05:52:50 dengar GDELT: 0/8 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "05:52:50 pilah: {'masuk': 906, 'sudah_ada': 853, 'bukan_kejadian': 13, 'tidak_relevan': 2, 'luar_negeri': 1, 'gabung': 18, 'kasus_baru': 19, 'relevan': 37}",
+  "05:52:51 papan Polda: 38 Polda berkasus | titik rawan: 503"
  ]
 }
