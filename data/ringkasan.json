@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-26T16:01:33Z",
+ "diperbarui_utc": "2026-11-26T16:53:03Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
-  "anggota": 62
+  "anggota": 61
  },
- "anggota_sudah_ditangani": 33,
+ "anggota_sudah_ditangani": 34,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
-  "JALUR KHUSUS": 72,
-  "TINDAK": 66,
-  "PANTAU": 223,
-  "TERCATAT": 1228
+  "DARURAT": 2,
+  "JALUR KHUSUS": 71,
+  "TINDAK": 65,
+  "PANTAU": 224,
+  "TERCATAT": 1231
  },
- "kasus_aktif": 1590,
+ "kasus_aktif": 1593,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -26,7 +26,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 323
+   "kasus": 327
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -34,11 +34,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 305
+   "kasus": 302
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 80
+   "kasus": 81
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,10 +50,18 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 473
+   "kasus": 474
   }
  },
  "provinsi": {
+  "31": {
+   "nama": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "DARURAT": 1,
+   "TINDAK": 3,
+   "PANTAU": 9,
+   "TERCATAT": 37
+  },
   "74": {
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
@@ -82,8 +90,8 @@
    "polda": "Polda Aceh",
    "JALUR KHUSUS": 9,
    "TINDAK": 2,
-   "PANTAU": 4,
-   "TERCATAT": 55
+   "PANTAU": 5,
+   "TERCATAT": 56
   },
   "15": {
    "nama": "Jambi",
@@ -127,7 +135,7 @@
    "nama": "Banten",
    "polda": "Polda Banten",
    "JALUR KHUSUS": 2,
-   "TINDAK": 4,
+   "TINDAK": 3,
    "PANTAU": 5,
    "TERCATAT": 70
   },
@@ -137,7 +145,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 5,
    "PANTAU": 6,
-   "TERCATAT": 47
+   "TERCATAT": 46
   },
   "94": {
    "nama": "Papua",
@@ -175,7 +183,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 6,
    "PANTAU": 11,
-   "TERCATAT": 72
+   "TERCATAT": 74
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -205,13 +213,6 @@
    "TINDAK": 1,
    "PANTAU": 2,
    "TERCATAT": 6
-  },
-  "31": {
-   "nama": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "TINDAK": 3,
-   "PANTAU": 9,
-   "TERCATAT": 38
   },
   "64": {
    "nama": "Kalimantan Timur",
@@ -267,17 +268,17 @@
    "PANTAU": 1,
    "TERCATAT": 5
   },
-  "51": {
-   "nama": "Bali",
-   "polda": "Polda Bali",
-   "PANTAU": 5,
-   "TERCATAT": 15
-  },
   "65": {
    "nama": "Kalimantan Utara",
    "polda": "Polda Kalimantan Utara",
    "PANTAU": 5,
    "TERCATAT": 4
+  },
+  "51": {
+   "nama": "Bali",
+   "polda": "Polda Bali",
+   "PANTAU": 4,
+   "TERCATAT": 15
   },
   "75": {
    "nama": "Gorontalo",
@@ -313,40 +314,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 902,
+   "artikel": 908,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 31,
-   "sudah_ada": 854,
+   "relevan": 24,
+   "sudah_ada": 874,
    "hoaks": 0,
-   "tidak_relevan": 0,
-   "bukan_kejadian": 15,
-   "luar_negeri": 2,
-   "kasus_baru": 15,
-   "digabung": 16
+   "tidak_relevan": 3,
+   "bukan_kejadian": 6,
+   "luar_negeri": 1,
+   "kasus_baru": 9,
+   "digabung": 15
   },
   "timbang": {
-   "DARURAT": 1,
-   "JALUR KHUSUS": 72,
-   "TINDAK": 66,
-   "PANTAU": 223,
-   "TERCATAT": 1228
+   "DARURAT": 2,
+   "JALUR KHUSUS": 71,
+   "TINDAK": 65,
+   "PANTAU": 224,
+   "TERCATAT": 1231
   },
   "teruskan": {
    "polda": 33,
    "kasus": 362
   },
   "kabarkan": {
-   "tanggapan_terlihat": 648,
-   "kasus": 1590,
-   "tanggapan_sejak_berita_pertama": 549,
+   "tanggapan_terlihat": 650,
+   "kasus": 1593,
+   "tanggapan_sejak_berita_pertama": 553,
    "median_jeda_jam": 14.2,
-   "n_jeda": 99,
-   "melewati_batas": 161
+   "n_jeda": 97,
+   "melewati_batas": 160
   },
   "arsipkan": {
-   "baris": 12421,
+   "baris": 12430,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -366,7 +367,7 @@
    "prov": "Tanpa lokasi",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 67,
+   "hari_ini": 70,
    "rata": 30.29
   }
  ],

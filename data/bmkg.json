@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-26T16:01:33Z",
+ "diperbarui_utc": "2026-11-26T16:53:03Z",
  "terbaru": {
-  "waktu_utc": "2026-11-26T09:08:39Z",
-  "magnitudo": 5.6,
-  "kedalaman": "10 km",
-  "wilayah": "230 km Tenggara SUMBAWABARAT-NTB",
-  "potensi": "Tidak berpotensi tsunami",
-  "dirasakan": "-",
-  "koordinat": "-10.79,117.26",
-  "prov": "Nusa Tenggara Barat",
-  "kode_prov": "52"
+  "waktu_utc": "2026-11-26T15:40:36Z",
+  "magnitudo": 4.2,
+  "kedalaman": "14 km",
+  "wilayah": "Pusat gempa berada di laut 34 km utara Ransiki",
+  "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
+  "dirasakan": "II-III Manokwari",
+  "koordinat": "-1.22,134.27",
+  "prov": "Papua Barat",
+  "kode_prov": "91"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-26T15:40:36Z",
+   "magnitudo": 4.2,
+   "kedalaman": "14 km",
+   "wilayah": "Pusat gempa berada di laut 34 km utara Ransiki",
+   "potensi": null,
+   "dirasakan": "II-III Manokwari",
+   "koordinat": "-1.22,134.27",
+   "prov": "Papua Barat",
+   "kode_prov": "91"
+  },
   {
    "waktu_utc": "2026-11-25T13:28:30Z",
    "magnitudo": 3.5,
@@ -165,17 +176,6 @@
    "koordinat": "-8.19,120.52",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-19T09:08:41Z",
-   "magnitudo": 3.5,
-   "kedalaman": "10 km",
-   "wilayah": "Pusat gempa berada di darat 19 km timur laut Sumbawa",
-   "potensi": null,
-   "dirasakan": "II - III Sumbawa",
-   "koordinat": "-8.34,117.52",
-   "prov": "Nusa Tenggara Barat",
-   "kode_prov": "52"
   }
  ],
  "m5": [
