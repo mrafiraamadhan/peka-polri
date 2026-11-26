@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-26T21:10:45Z",
+ "diperbarui_utc": "2026-11-26T22:02:10Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 5126,
+ "kasus_tanpa_polda": 5125,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 956,
+   "kasus": 959,
    "perlu": 350,
    "perlu_tanggap": 74,
    "persen_tanggap": 21.1,
-   "tanggap": 494,
+   "tanggap": 496,
    "jalur_khusus": 46,
    "melewati_batas": 205,
    "median_jeda_jam": 14.1,
@@ -22,11 +22,11 @@
    "topik_teratas": [
     [
      "jalanan",
-     241
+     242
     ],
     [
      "darurat",
-     217
+     218
     ],
     [
      "narkoba",
@@ -68,11 +68,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 587,
+   "kasus": 589,
    "perlu": 197,
    "perlu_tanggap": 31,
    "persen_tanggap": 15.7,
-   "tanggap": 275,
+   "tanggap": 277,
    "jalur_khusus": 11,
    "melewati_batas": 130,
    "median_jeda_jam": 11.3,
@@ -84,7 +84,7 @@
     ],
     [
      "jalanan",
-     171
+     172
     ],
     [
      "narkoba",
@@ -97,11 +97,11 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 483,
+   "kasus": 482,
    "perlu": 178,
    "perlu_tanggap": 29,
    "persen_tanggap": 16.3,
-   "tanggap": 229,
+   "tanggap": 228,
    "jalur_khusus": 15,
    "melewati_batas": 103,
    "median_jeda_jam": 6.7,
@@ -706,10 +706,10 @@
    "provinsi": [
     "63"
    ],
-   "kasus": 90,
-   "perlu": 28,
+   "kasus": 91,
+   "perlu": 29,
    "perlu_tanggap": 5,
-   "persen_tanggap": 17.9,
+   "persen_tanggap": 17.2,
    "tanggap": 45,
    "jalur_khusus": 1,
    "melewati_batas": 20,
@@ -735,12 +735,12 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 110,
-   "perlu": 26,
+   "kasus": 109,
+   "perlu": 25,
    "perlu_tanggap": 3,
-   "persen_tanggap": 11.5,
+   "persen_tanggap": 12.0,
    "tanggap": 72,
-   "jalur_khusus": 2,
+   "jalur_khusus": 1,
    "melewati_batas": 19,
    "median_jeda_jam": 9.2,
    "n_jeda": 3,
@@ -1031,7 +1031,7 @@
    "persen_tanggap": 20.0,
    "tanggap": 7,
    "jalur_khusus": 0,
-   "melewati_batas": 3,
+   "melewati_batas": 4,
    "median_jeda_jam": 20.9,
    "n_jeda": 1,
    "topik_teratas": [
@@ -1083,11 +1083,11 @@
    "provinsi": [
     "92"
    ],
-   "kasus": 9,
+   "kasus": 10,
    "perlu": 4,
    "perlu_tanggap": 1,
    "persen_tanggap": 25.0,
-   "tanggap": 4,
+   "tanggap": 5,
    "jalur_khusus": 1,
    "melewati_batas": 2,
    "median_jeda_jam": 17.9,
@@ -1102,8 +1102,8 @@
      2
     ],
     [
-     "konflik",
-     1
+     "jalanan",
+     2
     ]
    ]
   }
@@ -1413,6 +1413,29 @@
    "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3205",
+   "kabkota": "Kabupaten Garut",
+   "kode_prov": "32",
+   "provinsi": "Jawa Barat",
+   "polda": "Polda Jawa Barat",
+   "polres": "Polres Garut",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 7,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-06",
+    "2026-11-11",
+    "2026-11-17",
+    "2026-11-20",
+    "2026-11-24"
+   ],
+   "kejadian_ditanggapi": 7,
+   "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3515",
    "kabkota": "Kabupaten Sidoarjo",
    "kode_prov": "35",
@@ -1434,29 +1457,6 @@
    ],
    "kejadian_ditanggapi": 0,
    "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3205",
-   "kabkota": "Kabupaten Garut",
-   "kode_prov": "32",
-   "provinsi": "Jawa Barat",
-   "polda": "Polda Jawa Barat",
-   "polres": "Polres Garut",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 7,
-   "kasus": 10,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-11",
-    "2026-11-17",
-    "2026-11-20",
-    "2026-11-24"
-   ],
-   "kejadian_ditanggapi": 7,
-   "penanggung_jawab": "Kasat Binmas Polres Garut bersama pemerintah daerah"
   },
   {
    "kode_kab": "5371",
@@ -2085,7 +2085,7 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "kejadian": 5,
-   "kasus": 27,
+   "kasus": 28,
    "tanggal": [
     "2026-10-29",
     "2026-11-01",

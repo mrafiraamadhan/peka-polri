@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-26T21:10:45Z",
+ "diperbarui_utc": "2026-11-26T22:02:10Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
@@ -11,10 +11,10 @@
   "DARURAT": 2,
   "JALUR KHUSUS": 72,
   "TINDAK": 68,
-  "PANTAU": 224,
+  "PANTAU": 226,
   "TERCATAT": 1240
  },
- "kasus_aktif": 1606,
+ "kasus_aktif": 1608,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -30,15 +30,15 @@
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 124
+   "kasus": 125
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 306
+   "kasus": 308
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 86
+   "kasus": 88
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 478
+   "kasus": 475
   }
  },
  "provinsi": {
@@ -60,7 +60,7 @@
    "DARURAT": 1,
    "TINDAK": 3,
    "PANTAU": 9,
-   "TERCATAT": 41
+   "TERCATAT": 40
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -114,7 +114,7 @@
    "JALUR KHUSUS": 6,
    "TINDAK": 10,
    "PANTAU": 10,
-   "TERCATAT": 77
+   "TERCATAT": 80
   },
   "13": {
    "nama": "Sumatera Barat",
@@ -138,7 +138,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 4,
    "PANTAU": 5,
-   "TERCATAT": 70
+   "TERCATAT": 69
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -176,7 +176,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 4,
-   "TERCATAT": 18
+   "TERCATAT": 17
   },
   "32": {
    "nama": "Jawa Barat",
@@ -184,7 +184,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 6,
    "PANTAU": 11,
-   "TERCATAT": 75
+   "TERCATAT": 76
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -212,7 +212,7 @@
    "nama": "Kalimantan Selatan",
    "polda": "Polda Kalimantan Selatan",
    "TINDAK": 1,
-   "PANTAU": 2,
+   "PANTAU": 3,
    "TERCATAT": 6
   },
   "64": {
@@ -299,7 +299,7 @@
   "92": {
    "nama": "Papua Barat Daya",
    "polda": "Polda yang membawahi Papua Barat Daya",
-   "TERCATAT": 3
+   "TERCATAT": 4
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -314,40 +314,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 898,
+   "artikel": 896,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 11,
-   "sudah_ada": 882,
+   "relevan": 14,
+   "sudah_ada": 872,
    "hoaks": 0,
    "tidak_relevan": 0,
-   "bukan_kejadian": 4,
-   "luar_negeri": 1,
-   "kasus_baru": 2,
-   "digabung": 9
+   "bukan_kejadian": 10,
+   "luar_negeri": 0,
+   "kasus_baru": 6,
+   "digabung": 8
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 72,
    "TINDAK": 68,
-   "PANTAU": 224,
+   "PANTAU": 226,
    "TERCATAT": 1240
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 366
+   "kasus": 368
   },
   "kabarkan": {
-   "tanggapan_terlihat": 653,
-   "kasus": 1606,
-   "tanggapan_sejak_berita_pertama": 553,
+   "tanggapan_terlihat": 655,
+   "kasus": 1608,
+   "tanggapan_sejak_berita_pertama": 555,
    "median_jeda_jam": 14.2,
    "n_jeda": 100,
-   "melewati_batas": 159
+   "melewati_batas": 160
   },
   "arsipkan": {
-   "baris": 12454,
+   "baris": 12460,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -367,7 +367,7 @@
    "prov": "Tanpa lokasi",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 70,
+   "hari_ini": 71,
    "rata": 32.11
   },
   {
