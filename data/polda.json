@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-26T04:35:54Z",
+ "diperbarui_utc": "2026-11-26T05:00:10Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4948,
+ "kasus_tanpa_polda": 4949,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -97,7 +97,7 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 468,
+   "kasus": 469,
    "perlu": 171,
    "perlu_tanggap": 28,
    "persen_tanggap": 16.4,
@@ -113,7 +113,7 @@
     ],
     [
      "darurat",
-     119
+     120
     ],
     [
      "lalulintas",
@@ -219,7 +219,7 @@
    "persen_tanggap": 11.9,
    "tanggap": 104,
    "jalur_khusus": 27,
-   "melewati_batas": 51,
+   "melewati_batas": 52,
    "median_jeda_jam": 6.5,
    "n_jeda": 10,
    "topik_teratas": [
@@ -393,7 +393,7 @@
    "persen_tanggap": 14.3,
    "tanggap": 84,
    "jalur_khusus": 1,
-   "melewati_batas": 36,
+   "melewati_batas": 37,
    "median_jeda_jam": 4.5,
    "n_jeda": 8,
    "topik_teratas": [
@@ -445,11 +445,11 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 122,
+   "kasus": 123,
    "perlu": 53,
    "perlu_tanggap": 17,
    "persen_tanggap": 32.1,
-   "tanggap": 72,
+   "tanggap": 73,
    "jalur_khusus": 8,
    "melewati_batas": 25,
    "median_jeda_jam": 18.2,
@@ -457,7 +457,7 @@
    "topik_teratas": [
     [
      "perempuan_anak",
-     44
+     45
     ],
     [
      "jalanan",
@@ -615,6 +615,35 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Utara",
+   "provinsi": [
+    "65"
+   ],
+   "kasus": 82,
+   "perlu": 32,
+   "perlu_tanggap": 3,
+   "persen_tanggap": 9.4,
+   "tanggap": 44,
+   "jalur_khusus": 3,
+   "melewati_batas": 25,
+   "median_jeda_jam": 4.5,
+   "n_jeda": 3,
+   "topik_teratas": [
+    [
+     "narkoba",
+     34
+    ],
+    [
+     "jalanan",
+     16
+    ],
+    [
+     "darurat",
+     15
+    ]
+   ]
+  },
+  {
    "polda": "Polda Sumatera Barat",
    "provinsi": [
     "13"
@@ -640,35 +669,6 @@
     [
      "jalanan",
      32
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kalimantan Utara",
-   "provinsi": [
-    "65"
-   ],
-   "kasus": 81,
-   "perlu": 31,
-   "perlu_tanggap": 3,
-   "persen_tanggap": 9.7,
-   "tanggap": 44,
-   "jalur_khusus": 3,
-   "melewati_batas": 25,
-   "median_jeda_jam": 4.5,
-   "n_jeda": 3,
-   "topik_teratas": [
-    [
-     "narkoba",
-     34
-    ],
-    [
-     "jalanan",
-     16
-    ],
-    [
-     "darurat",
-     15
     ]
    ]
   },
@@ -1874,6 +1874,28 @@
    "penanggung_jawab": "Kasat Binmas Polres Batang bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3301",
+   "kabkota": "Kabupaten Cilacap",
+   "kode_prov": "33",
+   "provinsi": "Jawa Tengah",
+   "polda": "Polda Jawa Tengah",
+   "polres": "Polresta Cilacap",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 6,
+   "kasus": 7,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-13",
+    "2026-11-20",
+    "2026-11-26"
+   ],
+   "kejadian_ditanggapi": 1,
+   "penanggung_jawab": "Kasat Binmas Polresta Cilacap bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5102",
    "kabkota": "Kabupaten Tabanan",
    "kode_prov": "51",
@@ -2399,27 +2421,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Timur bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3571",
-   "kabkota": "Kota Kediri",
-   "kode_prov": "35",
-   "provinsi": "Jawa Timur",
-   "polda": "Polda Jawa Timur",
-   "polres": "Polres Kediri Kota",
-   "topik": "perempuan_anak",
-   "nama": "Kekerasan terhadap perempuan dan anak",
-   "kejadian": 5,
-   "kasus": 11,
-   "tanggal": [
-    "2026-11-05",
-    "2026-11-09",
-    "2026-11-15",
-    "2026-11-18",
-    "2026-11-24"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Kediri Kota bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
