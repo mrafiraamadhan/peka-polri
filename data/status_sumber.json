@@ -1,40 +1,40 @@
 {
- "diperbarui_utc": "2026-11-26T16:53:03Z",
+ "diperbarui_utc": "2026-11-26T17:44:31Z",
  "sumber": {
   "Berita daring (Google News RSS)": {
-   "dicek_utc": "2026-11-26T16:53:33Z",
+   "dicek_utc": "2026-11-26T17:45:00Z",
    "ok": true,
-   "n": 908,
+   "n": 901,
    "pesan": "10 dari 10 kueri berhasil",
    "berkas": "kasus_terkini.json"
   },
   "Daftar hoaks TurnBackHoax (MAFINDO)": {
-   "dicek_utc": "2026-11-26T16:53:34Z",
+   "dicek_utc": "2026-11-26T17:45:02Z",
    "ok": true,
    "n": 10,
    "pesan": "10 klaim terbaru",
    "berkas": "ringkasan.json"
   },
   "Gempa BMKG": {
-   "dicek_utc": "2026-11-26T16:53:36Z",
+   "dicek_utc": "2026-11-26T17:45:02Z",
    "ok": true,
    "n": 3,
    "pesan": "3 dari 3 berkas",
    "berkas": "bmkg.json"
   },
   "Volume berita GDELT (90 hari)": {
-   "dicek_utc": "2026-11-26T16:53:55Z",
+   "dicek_utc": "2026-11-26T17:45:23Z",
    "ok": false,
    "n": 9,
-   "pesan": "0 dari 6 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
+   "pesan": "0 dari 7 topik diperbarui; topik lain memakai deret terakhir (GDELT membatasi permintaan (429))",
    "berkas": "gdelt_tren.json"
   }
  },
  "log": [
-  "16:53:04 PEKA mulai 2026-11-26T16:53:03Z ",
-  "16:53:33 dengar berita: 908 artikel dari 10 kueri (Google ok 10, Bing 0)",
-  "16:53:55 dengar GDELT: 0/6 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
-  "16:53:55 pilah: {'masuk': 908, 'sudah_ada': 874, 'tidak_relevan': 3, 'bukan_kejadian': 6, 'luar_negeri': 1, 'gabung': 15, 'kasus_baru': 9, 'relevan': 24}",
-  "16:53:55 papan Polda: 38 Polda berkasus | titik rawan: 518"
+  "17:44:31 PEKA mulai 2026-11-26T17:44:31Z ",
+  "17:45:00 dengar berita: 901 artikel dari 10 kueri (Google ok 10, Bing 0)",
+  "17:45:23 dengar GDELT: 0/7 topik diperbarui | berhenti: GDELT membatasi permintaan (429)",
+  "17:45:23 pilah: {'masuk': 901, 'sudah_ada': 868, 'bukan_kejadian': 11, 'kasus_baru': 6, 'gabung': 16, 'relevan': 22}",
+  "17:45:23 papan Polda: 38 Polda berkasus | titik rawan: 518"
  ]
 }
