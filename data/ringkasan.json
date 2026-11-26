@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-26T18:36:00Z",
+ "diperbarui_utc": "2026-11-26T19:27:48Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
@@ -10,11 +10,11 @@
  "status": {
   "DARURAT": 2,
   "JALUR KHUSUS": 72,
-  "TINDAK": 67,
+  "TINDAK": 68,
   "PANTAU": 224,
-  "TERCATAT": 1231
+  "TERCATAT": 1233
  },
- "kasus_aktif": 1596,
+ "kasus_aktif": 1599,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -26,7 +26,7 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 323
+   "kasus": 324
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -38,11 +38,11 @@
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 83
+   "kasus": 85
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 76
+   "kasus": 77
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 476
+   "kasus": 475
   }
  },
  "provinsi": {
@@ -113,7 +113,7 @@
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 6,
    "TINDAK": 10,
-   "PANTAU": 9,
+   "PANTAU": 10,
    "TERCATAT": 77
   },
   "13": {
@@ -190,8 +190,8 @@
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "JALUR KHUSUS": 1,
-   "TINDAK": 14,
-   "PANTAU": 13,
+   "TINDAK": 15,
+   "PANTAU": 12,
    "TERCATAT": 30
   },
   "34": {
@@ -314,40 +314,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 908,
+   "artikel": 906,
    "sumber": 4
   },
   "pilah": {
-   "relevan": 30,
-   "sudah_ada": 866,
+   "relevan": 10,
+   "sudah_ada": 891,
    "hoaks": 0,
    "tidak_relevan": 2,
-   "bukan_kejadian": 8,
-   "luar_negeri": 2,
-   "kasus_baru": 7,
-   "digabung": 23
+   "bukan_kejadian": 3,
+   "luar_negeri": 0,
+   "kasus_baru": 4,
+   "digabung": 6
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 72,
-   "TINDAK": 67,
+   "TINDAK": 68,
    "PANTAU": 224,
-   "TERCATAT": 1231
+   "TERCATAT": 1233
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 365
+   "kasus": 366
   },
   "kabarkan": {
    "tanggapan_terlihat": 650,
-   "kasus": 1596,
+   "kasus": 1599,
    "tanggapan_sejak_berita_pertama": 551,
    "median_jeda_jam": 14.2,
    "n_jeda": 99,
    "melewati_batas": 159
   },
   "arsipkan": {
-   "baris": 12443,
+   "baris": 12447,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -368,7 +368,7 @@
    "topik": "narkoba",
    "nama": "Narkoba",
    "hari_ini": 70,
-   "rata": 32.07
+   "rata": 32.11
   },
   {
    "kode_prov": "36",
@@ -376,16 +376,16 @@
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "hari_ini": 5,
-   "rata": 0.79
+   "rata": 0.82
   }
  ],
  "lonjakan_nasional": [
   {
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kemarin": 9,
+   "topik": "penipuan",
+   "nama": "Penipuan dan kejahatan daring",
+   "kemarin": 21,
    "rata28": 1.9,
-   "rasio": 4.85,
+   "rasio": 10.89,
    "lonjakan": true
   }
  ],
