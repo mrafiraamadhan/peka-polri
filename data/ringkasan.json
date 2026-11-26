@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-26T19:27:48Z",
+ "diperbarui_utc": "2026-11-26T20:19:31Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
@@ -11,10 +11,10 @@
   "DARURAT": 2,
   "JALUR KHUSUS": 72,
   "TINDAK": 68,
-  "PANTAU": 224,
-  "TERCATAT": 1233
+  "PANTAU": 225,
+  "TERCATAT": 1237
  },
- "kasus_aktif": 1599,
+ "kasus_aktif": 1604,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -34,11 +34,11 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 304
+   "kasus": 306
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 85
+   "kasus": 86
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 475
+   "kasus": 477
   }
  },
  "provinsi": {
@@ -82,7 +82,7 @@
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 2,
-   "PANTAU": 7,
+   "PANTAU": 8,
    "TERCATAT": 10
   },
   "11": {
@@ -146,7 +146,7 @@
    "JALUR KHUSUS": 3,
    "TINDAK": 5,
    "PANTAU": 6,
-   "TERCATAT": 46
+   "TERCATAT": 47
   },
   "94": {
    "nama": "Papua",
@@ -314,40 +314,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 906,
-   "sumber": 4
+   "artikel": 907,
+   "sumber": 3
   },
   "pilah": {
-   "relevan": 10,
-   "sudah_ada": 891,
+   "relevan": 13,
+   "sudah_ada": 887,
    "hoaks": 0,
    "tidak_relevan": 2,
    "bukan_kejadian": 3,
-   "luar_negeri": 0,
-   "kasus_baru": 4,
-   "digabung": 6
+   "luar_negeri": 2,
+   "kasus_baru": 5,
+   "digabung": 8
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 72,
    "TINDAK": 68,
-   "PANTAU": 224,
-   "TERCATAT": 1233
+   "PANTAU": 225,
+   "TERCATAT": 1237
   },
   "teruskan": {
    "polda": 33,
-   "kasus": 366
+   "kasus": 367
   },
   "kabarkan": {
-   "tanggapan_terlihat": 650,
-   "kasus": 1599,
-   "tanggapan_sejak_berita_pertama": 551,
+   "tanggapan_terlihat": 652,
+   "kasus": 1604,
+   "tanggapan_sejak_berita_pertama": 553,
    "median_jeda_jam": 14.2,
    "n_jeda": 99,
    "melewati_batas": 159
   },
   "arsipkan": {
-   "baris": 12447,
+   "baris": 12452,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -379,16 +379,7 @@
    "rata": 0.82
   }
  ],
- "lonjakan_nasional": [
-  {
-   "topik": "penipuan",
-   "nama": "Penipuan dan kejahatan daring",
-   "kemarin": 21,
-   "rata28": 1.9,
-   "rasio": 10.89,
-   "lonjakan": true
-  }
- ],
+ "lonjakan_nasional": [],
  "hari_riwayat": 28,
  "gempa_darurat": [],
  "hoaks_terbaru": [
