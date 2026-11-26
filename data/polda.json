@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-26T20:19:31Z",
+ "diperbarui_utc": "2026-11-26T21:10:45Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -39,15 +39,15 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 548,
+   "kasus": 549,
    "perlu": 204,
-   "perlu_tanggap": 47,
-   "persen_tanggap": 23.0,
-   "tanggap": 273,
+   "perlu_tanggap": 48,
+   "persen_tanggap": 23.5,
+   "tanggap": 275,
    "jalur_khusus": 5,
    "melewati_batas": 128,
-   "median_jeda_jam": 5.0,
-   "n_jeda": 47,
+   "median_jeda_jam": 5.6,
+   "n_jeda": 48,
    "topik_teratas": [
     [
      "darurat",
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     118
+     119
     ],
     [
      "narkoba",
@@ -416,11 +416,11 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 125,
+   "kasus": 124,
    "perlu": 53,
    "perlu_tanggap": 17,
    "persen_tanggap": 32.1,
-   "tanggap": 75,
+   "tanggap": 74,
    "jalur_khusus": 9,
    "melewati_batas": 27,
    "median_jeda_jam": 18.2,
@@ -428,7 +428,7 @@
    "topik_teratas": [
     [
      "perempuan_anak",
-     46
+     45
     ],
     [
      "jalanan",
@@ -1527,6 +1527,28 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Selatan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3174",
+   "kabkota": "Kota Jakarta Barat",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Barat",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 6,
+   "kasus": 14,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-04",
+    "2026-11-10",
+    "2026-11-17",
+    "2026-11-22",
+    "2026-11-26"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3578",
    "kabkota": "Kota Surabaya",
    "kode_prov": "35",
@@ -1569,28 +1591,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3174",
-   "kabkota": "Kota Jakarta Barat",
-   "kode_prov": "31",
-   "provinsi": "DKI Jakarta",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Jakarta Barat",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 6,
-   "kasus": 13,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-04",
-    "2026-11-10",
-    "2026-11-17",
-    "2026-11-22",
-    "2026-11-26"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
   },
   {
    "kode_kab": "6202",
