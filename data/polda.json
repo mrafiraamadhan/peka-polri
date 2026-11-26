@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-26T09:17:50Z",
+ "diperbarui_utc": "2026-11-26T10:09:09Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 5021,
+ "kasus_tanpa_polda": 5038,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 939,
-   "perlu": 342,
+   "kasus": 942,
+   "perlu": 343,
    "perlu_tanggap": 74,
    "persen_tanggap": 21.6,
-   "tanggap": 487,
+   "tanggap": 489,
    "jalur_khusus": 45,
    "melewati_batas": 201,
    "median_jeda_jam": 14.1,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     234
+     235
     ],
     [
      "darurat",
@@ -45,7 +45,7 @@
    "persen_tanggap": 23.4,
    "tanggap": 270,
    "jalur_khusus": 5,
-   "melewati_batas": 122,
+   "melewati_batas": 123,
    "median_jeda_jam": 5.0,
    "n_jeda": 47,
    "topik_teratas": [
@@ -97,13 +97,13 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 475,
+   "kasus": 476,
    "perlu": 174,
    "perlu_tanggap": 29,
    "persen_tanggap": 16.7,
    "tanggap": 226,
    "jalur_khusus": 15,
-   "melewati_batas": 96,
+   "melewati_batas": 98,
    "median_jeda_jam": 6.7,
    "n_jeda": 29,
    "topik_teratas": [
@@ -113,7 +113,7 @@
     ],
     [
      "darurat",
-     122
+     123
     ],
     [
      "lalulintas",
@@ -480,7 +480,7 @@
    "persen_tanggap": 17.6,
    "tanggap": 79,
    "jalur_khusus": 8,
-   "melewati_batas": 30,
+   "melewati_batas": 31,
    "median_jeda_jam": 16.5,
    "n_jeda": 9,
    "topik_teratas": [
@@ -528,6 +528,35 @@
    ]
   },
   {
+   "polda": "Polda Kalimantan Tengah",
+   "provinsi": [
+    "62"
+   ],
+   "kasus": 147,
+   "perlu": 37,
+   "perlu_tanggap": 6,
+   "persen_tanggap": 16.2,
+   "tanggap": 89,
+   "jalur_khusus": 3,
+   "melewati_batas": 28,
+   "median_jeda_jam": 18.3,
+   "n_jeda": 6,
+   "topik_teratas": [
+    [
+     "narkoba",
+     61
+    ],
+    [
+     "darurat",
+     28
+    ],
+    [
+     "jalanan",
+     24
+    ]
+   ]
+  },
+  {
    "polda": "Polda Jambi",
    "provinsi": [
     "15"
@@ -553,35 +582,6 @@
     [
      "darurat",
      20
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Kalimantan Tengah",
-   "provinsi": [
-    "62"
-   ],
-   "kasus": 146,
-   "perlu": 36,
-   "perlu_tanggap": 6,
-   "persen_tanggap": 16.7,
-   "tanggap": 89,
-   "jalur_khusus": 3,
-   "melewati_batas": 28,
-   "median_jeda_jam": 18.3,
-   "n_jeda": 6,
-   "topik_teratas": [
-    [
-     "narkoba",
-     61
-    ],
-    [
-     "darurat",
-     28
-    ],
-    [
-     "jalanan",
-     24
     ]
    ]
   },
@@ -677,11 +677,11 @@
    "provinsi": [
     "74"
    ],
-   "kasus": 97,
+   "kasus": 98,
    "perlu": 31,
    "perlu_tanggap": 5,
    "persen_tanggap": 16.1,
-   "tanggap": 64,
+   "tanggap": 65,
    "jalur_khusus": 5,
    "melewati_batas": 19,
    "median_jeda_jam": 15.3,
@@ -689,7 +689,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     32
+     33
     ],
     [
      "jalanan",
@@ -2258,6 +2258,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Timur bersama pemerintah daerah"
   },
   {
+   "kode_kab": "7471",
+   "kabkota": "Kota Kendari",
+   "kode_prov": "74",
+   "provinsi": "Sulawesi Tenggara",
+   "polda": "Polda Sulawesi Tenggara",
+   "polres": "Polresta Kendari",
+   "topik": "narkoba",
+   "nama": "Narkoba",
+   "kejadian": 5,
+   "kasus": 13,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-03",
+    "2026-11-11",
+    "2026-11-18",
+    "2026-11-26"
+   ],
+   "kejadian_ditanggapi": 4,
+   "penanggung_jawab": "Kasat Binmas Polresta Kendari bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "5271",
    "kabkota": "Kota Mataram",
    "kode_prov": "52",
@@ -2403,27 +2424,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polres Kampar bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "8171",
-   "kabkota": "Kota Ambon",
-   "kode_prov": "81",
-   "provinsi": "Maluku",
-   "polda": "Polda Maluku",
-   "polres": "Polresta Pulau Ambon dan Pulau-Pulau Lease",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 5,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-31",
-    "2026-11-12",
-    "2026-11-16",
-    "2026-11-20",
-    "2026-11-24"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polresta Pulau Ambon dan Pulau-Pulau Lease bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
