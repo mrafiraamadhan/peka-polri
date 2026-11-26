@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-25T23:20:32Z",
+ "diperbarui_utc": "2026-11-26T00:18:23Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 4904,
+ "kasus_tanpa_polda": 4913,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -39,13 +39,13 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 529,
-   "perlu": 196,
+   "kasus": 532,
+   "perlu": 198,
    "perlu_tanggap": 47,
-   "persen_tanggap": 24.0,
-   "tanggap": 267,
+   "persen_tanggap": 23.7,
+   "tanggap": 268,
    "jalur_khusus": 5,
-   "melewati_batas": 121,
+   "melewati_batas": 122,
    "median_jeda_jam": 5.0,
    "n_jeda": 47,
    "topik_teratas": [
@@ -155,13 +155,13 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 435,
+   "kasus": 436,
    "perlu": 118,
    "perlu_tanggap": 26,
    "persen_tanggap": 22.0,
-   "tanggap": 283,
+   "tanggap": 284,
    "jalur_khusus": 12,
-   "melewati_batas": 73,
+   "melewati_batas": 74,
    "median_jeda_jam": 12.6,
    "n_jeda": 26,
    "topik_teratas": [
@@ -171,7 +171,7 @@
     ],
     [
      "jalanan",
-     98
+     99
     ],
     [
      "darurat",
@@ -474,11 +474,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 156,
+   "kasus": 157,
    "perlu": 50,
    "perlu_tanggap": 7,
    "persen_tanggap": 14.0,
-   "tanggap": 85,
+   "tanggap": 86,
    "jalur_khusus": 5,
    "melewati_batas": 35,
    "median_jeda_jam": 18.1,
@@ -486,7 +486,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     44
+     45
     ],
     [
      "darurat",
@@ -1212,7 +1212,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "kejadian": 7,
-   "kasus": 24,
+   "kasus": 25,
    "tanggal": [
     "2026-10-30",
     "2026-11-05",
@@ -2379,6 +2379,27 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Bekasi Kota bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3172",
+   "kabkota": "Kota Jakarta Timur",
+   "kode_prov": "31",
+   "provinsi": "DKI Jakarta",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Jakarta Timur",
+   "topik": "konflik",
+   "nama": "Konflik dan kerumunan",
+   "kejadian": 5,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-30",
+    "2026-11-04",
+    "2026-11-16",
+    "2026-11-19",
+    "2026-11-22"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Timur bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3571",
    "kabkota": "Kota Kediri",
    "kode_prov": "35",
@@ -2398,27 +2419,6 @@
    ],
    "kejadian_ditanggapi": 4,
    "penanggung_jawab": "Kasat Binmas Polres Kediri Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1277",
-   "kabkota": "Kota Padangsidimpuan",
-   "kode_prov": "12",
-   "provinsi": "Sumatera Utara",
-   "polda": "Polda Sumatera Utara",
-   "polres": "Polres Padangsidimpuan",
-   "topik": "narkoba",
-   "nama": "Narkoba",
-   "kejadian": 5,
-   "kasus": 11,
-   "tanggal": [
-    "2026-11-01",
-    "2026-11-04",
-    "2026-11-11",
-    "2026-11-18",
-    "2026-11-25"
-   ],
-   "kejadian_ditanggapi": 4,
-   "penanggung_jawab": "Kasat Binmas Polres Padangsidimpuan bersama pemerintah daerah"
   }
  ],
  "aturan_rawan": {
