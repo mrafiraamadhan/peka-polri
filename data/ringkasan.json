@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-26T23:44:49Z",
+ "diperbarui_utc": "2026-11-26T23:49:42Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 10,
@@ -137,7 +137,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 5,
    "PANTAU": 5,
-   "TERCATAT": 69
+   "TERCATAT": 70
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -276,7 +276,7 @@
    "nama": "Bali",
    "polda": "Polda Bali",
    "PANTAU": 4,
-   "TERCATAT": 15
+   "TERCATAT": 14
   },
   "75": {
    "nama": "Gorontalo",
@@ -313,18 +313,18 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 897,
+   "artikel": 907,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 38,
-   "sudah_ada": 850,
+   "relevan": 10,
+   "sudah_ada": 895,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 8,
+   "tidak_relevan": 2,
+   "bukan_kejadian": 0,
    "luar_negeri": 0,
-   "kasus_baru": 14,
-   "digabung": 24
+   "kasus_baru": 1,
+   "digabung": 9
   },
   "timbang": {
    "DARURAT": 1,
@@ -338,15 +338,15 @@
    "kasus": 364
   },
   "kabarkan": {
-   "tanggapan_terlihat": 661,
+   "tanggapan_terlihat": 662,
    "kasus": 1609,
-   "tanggapan_sejak_berita_pertama": 559,
+   "tanggapan_sejak_berita_pertama": 560,
    "median_jeda_jam": 14.1,
    "n_jeda": 102,
    "melewati_batas": 159
   },
   "arsipkan": {
-   "baris": 12478,
+   "baris": 12479,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
