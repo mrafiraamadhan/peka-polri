@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-27T18:42:08Z",
+ "diperbarui_utc": "2026-11-27T18:55:35Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -11,10 +11,10 @@
   "DARURAT": 0,
   "JALUR KHUSUS": 63,
   "TINDAK": 58,
-  "PANTAU": 143,
-  "TERCATAT": 1265
+  "PANTAU": 145,
+  "TERCATAT": 1267
  },
- "kasus_aktif": 1529,
+ "kasus_aktif": 1533,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -34,7 +34,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 304
+   "kasus": 307
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 451
+   "kasus": 452
   }
  },
  "provinsi": {
@@ -143,7 +143,7 @@
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 2,
    "TINDAK": 7,
-   "PANTAU": 9,
+   "PANTAU": 10,
    "TERCATAT": 85
   },
   "33": {
@@ -165,7 +165,7 @@
    "nama": "Jambi",
    "polda": "Polda Jambi",
    "TINDAK": 2,
-   "PANTAU": 3,
+   "PANTAU": 4,
    "TERCATAT": 14
   },
   "63": {
@@ -208,7 +208,7 @@
    "polda": "Polda Kalimantan Timur",
    "TINDAK": 2,
    "PANTAU": 7,
-   "TERCATAT": 23
+   "TERCATAT": 24
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -317,36 +317,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 14,
-   "sudah_ada": 882,
-   "hoaks": 1,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 1,
+   "relevan": 6,
+   "sudah_ada": 889,
+   "hoaks": 0,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 4,
    "luar_negeri": 0,
-   "kasus_baru": 3,
-   "digabung": 11
+   "kasus_baru": 4,
+   "digabung": 2
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 63,
    "TINDAK": 58,
-   "PANTAU": 143,
-   "TERCATAT": 1265
+   "PANTAU": 145,
+   "TERCATAT": 1267
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 264
+   "kasus": 266
   },
   "kabarkan": {
-   "tanggapan_terlihat": 617,
-   "kasus": 1529,
-   "tanggapan_sejak_berita_pertama": 520,
+   "tanggapan_terlihat": 618,
+   "kasus": 1533,
+   "tanggapan_sejak_berita_pertama": 521,
    "median_jeda_jam": 10.9,
    "n_jeda": 97,
-   "melewati_batas": 119
+   "melewati_batas": 121
   },
   "arsipkan": {
-   "baris": 12839,
+   "baris": 12843,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
