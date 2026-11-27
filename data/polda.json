@@ -1,16 +1,16 @@
 {
- "diperbarui_utc": "2026-11-26T23:49:42Z",
+ "diperbarui_utc": "2026-11-27T00:40:57Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 5129,
+ "kasus_tanpa_polda": 5130,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 962,
+   "kasus": 963,
    "perlu": 352,
    "perlu_tanggap": 76,
    "persen_tanggap": 21.6,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     219
+     220
     ],
     [
      "narkoba",
@@ -39,13 +39,13 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 551,
-   "perlu": 205,
+   "kasus": 552,
+   "perlu": 204,
    "perlu_tanggap": 48,
-   "persen_tanggap": 23.4,
-   "tanggap": 276,
+   "persen_tanggap": 23.5,
+   "tanggap": 277,
    "jalur_khusus": 5,
-   "melewati_batas": 130,
+   "melewati_batas": 129,
    "median_jeda_jam": 5.6,
    "n_jeda": 48,
    "topik_teratas": [
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     120
+     121
     ],
     [
      "narkoba",
@@ -68,11 +68,11 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 591,
+   "kasus": 593,
    "perlu": 197,
    "perlu_tanggap": 31,
    "persen_tanggap": 15.7,
-   "tanggap": 279,
+   "tanggap": 280,
    "jalur_khusus": 11,
    "melewati_batas": 130,
    "median_jeda_jam": 11.3,
@@ -80,11 +80,11 @@
    "topik_teratas": [
     [
      "darurat",
-     180
+     181
     ],
     [
      "jalanan",
-     173
+     174
     ],
     [
      "narkoba",
@@ -157,13 +157,13 @@
    ],
    "kasus": 446,
    "perlu": 120,
-   "perlu_tanggap": 26,
-   "persen_tanggap": 21.7,
-   "tanggap": 289,
+   "perlu_tanggap": 27,
+   "persen_tanggap": 22.5,
+   "tanggap": 290,
    "jalur_khusus": 12,
    "melewati_batas": 75,
    "median_jeda_jam": 12.6,
-   "n_jeda": 26,
+   "n_jeda": 27,
    "topik_teratas": [
     [
      "narkoba",
@@ -271,11 +271,11 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 360,
+   "kasus": 359,
    "perlu": 75,
    "perlu_tanggap": 17,
    "persen_tanggap": 22.7,
-   "tanggap": 154,
+   "tanggap": 153,
    "jalur_khusus": 9,
    "melewati_batas": 49,
    "median_jeda_jam": 2.8,
@@ -291,7 +291,7 @@
     ],
     [
      "jalanan",
-     52
+     51
     ]
    ]
   },
@@ -329,11 +329,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 252,
+   "kasus": 253,
    "perlu": 74,
    "perlu_tanggap": 16,
    "persen_tanggap": 21.6,
-   "tanggap": 163,
+   "tanggap": 164,
    "jalur_khusus": 11,
    "melewati_batas": 49,
    "median_jeda_jam": 28.5,
@@ -341,7 +341,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     99
+     100
     ],
     [
      "narkoba",
@@ -416,10 +416,10 @@
    "provinsi": [
     "53"
    ],
-   "kasus": 124,
-   "perlu": 53,
+   "kasus": 125,
+   "perlu": 54,
    "perlu_tanggap": 17,
-   "persen_tanggap": 32.1,
+   "persen_tanggap": 31.5,
    "tanggap": 74,
    "jalur_khusus": 9,
    "melewati_batas": 27,
@@ -432,7 +432,7 @@
     ],
     [
      "jalanan",
-     33
+     34
     ],
     [
      "darurat",
@@ -1143,7 +1143,7 @@
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
    "kejadian": 8,
-   "kasus": 19,
+   "kasus": 20,
    "tanggal": [
     "2026-10-28",
     "2026-11-04",
@@ -1204,6 +1204,30 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "5371",
+   "kabkota": "Kota Kupang",
+   "kode_prov": "53",
+   "provinsi": "Nusa Tenggara Timur",
+   "polda": "Polda Nusa Tenggara Timur",
+   "polres": "Polresta Kupang Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 8,
+   "kasus": 11,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-11",
+    "2026-11-14",
+    "2026-11-18",
+    "2026-11-23",
+    "2026-11-27"
+   ],
+   "kejadian_ditanggapi": 7,
+   "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3578",
@@ -1459,29 +1483,6 @@
    "penanggung_jawab": "Kasat Binmas Polresta Sidoarjo bersama pemerintah daerah"
   },
   {
-   "kode_kab": "5371",
-   "kabkota": "Kota Kupang",
-   "kode_prov": "53",
-   "provinsi": "Nusa Tenggara Timur",
-   "polda": "Polda Nusa Tenggara Timur",
-   "polres": "Polresta Kupang Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 7,
-   "kasus": 10,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-11",
-    "2026-11-14",
-    "2026-11-18",
-    "2026-11-23"
-   ],
-   "kejadian_ditanggapi": 7,
-   "penanggung_jawab": "Kasat Binmas Polresta Kupang Kota bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "5102",
    "kabkota": "Kabupaten Tabanan",
    "kode_prov": "51",
@@ -1527,6 +1528,28 @@
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Selatan bersama pemerintah daerah"
   },
   {
+   "kode_kab": "3671",
+   "kabkota": "Kota Tangerang",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Tangerang Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 6,
+   "kasus": 15,
+   "tanggal": [
+    "2026-10-29",
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16",
+    "2026-11-22",
+    "2026-11-27"
+   ],
+   "kejadian_ditanggapi": 6,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3174",
    "kabkota": "Kota Jakarta Barat",
    "kode_prov": "31",
@@ -1569,28 +1592,6 @@
    ],
    "kejadian_ditanggapi": 2,
    "penanggung_jawab": "Kasat Binmas Polrestabes Surabaya bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3671",
-   "kabkota": "Kota Tangerang",
-   "kode_prov": "36",
-   "provinsi": "Banten",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Tangerang Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 6,
-   "kasus": 14,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-09",
-    "2026-11-16",
-    "2026-11-22",
-    "2026-11-27"
-   ],
-   "kejadian_ditanggapi": 5,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "3671",
