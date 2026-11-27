@@ -1,32 +1,32 @@
 {
- "diperbarui_utc": "2026-11-27T15:16:33Z",
+ "diperbarui_utc": "2026-11-27T16:08:08Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
   "anggota": 54
  },
- "anggota_sudah_ditangani": 33,
+ "anggota_sudah_ditangani": 32,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 1,
   "JALUR KHUSUS": 63,
-  "TINDAK": 60,
+  "TINDAK": 59,
   "PANTAU": 143,
-  "TERCATAT": 1273
+  "TERCATAT": 1266
  },
- "kasus_aktif": 1540,
+ "kasus_aktif": 1532,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 90
+   "kasus": 89
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 100
+   "kasus": 98
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 298
+   "kasus": 296
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -34,7 +34,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 305
+   "kasus": 304
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -42,7 +42,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 75
+   "kasus": 73
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -72,7 +72,7 @@
    "nama": "Sulawesi Selatan",
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 1,
-   "PANTAU": 8,
+   "PANTAU": 9,
    "TERCATAT": 11
   },
   "11": {
@@ -81,7 +81,7 @@
    "JALUR KHUSUS": 7,
    "TINDAK": 1,
    "PANTAU": 8,
-   "TERCATAT": 53
+   "TERCATAT": 54
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -102,9 +102,17 @@
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 6,
-   "TINDAK": 7,
+   "TINDAK": 6,
    "PANTAU": 9,
-   "TERCATAT": 86
+   "TERCATAT": 85
+  },
+  "19": {
+   "nama": "Kepulauan Bangka Belitung",
+   "polda": "Polda Kepulauan Bangka Belitung",
+   "JALUR KHUSUS": 3,
+   "TINDAK": 2,
+   "PANTAU": 4,
+   "TERCATAT": 3
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -135,7 +143,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 7,
-   "TERCATAT": 48
+   "TERCATAT": 47
   },
   "32": {
    "nama": "Jawa Barat",
@@ -153,20 +161,12 @@
    "PANTAU": 13,
    "TERCATAT": 35
   },
-  "19": {
-   "nama": "Kepulauan Bangka Belitung",
-   "polda": "Polda Kepulauan Bangka Belitung",
-   "JALUR KHUSUS": 3,
-   "TINDAK": 2,
-   "PANTAU": 4,
-   "TERCATAT": 4
-  },
   "14": {
    "nama": "Riau",
    "polda": "Polda Riau",
    "JALUR KHUSUS": 1,
    "PANTAU": 3,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -187,7 +187,7 @@
    "polda": "Polda DI Yogyakarta",
    "TINDAK": 2,
    "PANTAU": 8,
-   "TERCATAT": 19
+   "TERCATAT": 18
   },
   "21": {
    "nama": "Kepulauan Riau",
@@ -261,12 +261,6 @@
    "PANTAU": 1,
    "TERCATAT": 5
   },
-  "75": {
-   "nama": "Gorontalo",
-   "polda": "Polda Gorontalo",
-   "PANTAU": 1,
-   "TERCATAT": 4
-  },
   "18": {
    "nama": "Lampung",
    "polda": "Polda Lampung",
@@ -294,60 +288,66 @@
   "97": {
    "nama": "Papua Pegunungan",
    "polda": "Polda yang membawahi Papua Pegunungan",
-   "PANTAU": 1
+   "PANTAU": 1,
+   "TERCATAT": 1
   },
   "92": {
    "nama": "Papua Barat Daya",
    "polda": "Polda yang membawahi Papua Barat Daya",
    "TERCATAT": 4
   },
-  "71": {
-   "nama": "Sulawesi Utara",
-   "polda": "Polda Sulawesi Utara",
+  "75": {
+   "nama": "Gorontalo",
+   "polda": "Polda Gorontalo",
    "TERCATAT": 4
   },
   "91": {
    "nama": "Papua Barat",
    "polda": "Polda Papua Barat",
    "TERCATAT": 1
+  },
+  "71": {
+   "nama": "Sulawesi Utara",
+   "polda": "Polda Sulawesi Utara",
+   "TERCATAT": 3
   }
  },
  "langkah": {
   "dengar": {
-   "artikel": 901,
+   "artikel": 903,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 54,
-   "sudah_ada": 822,
+   "relevan": 17,
+   "sudah_ada": 875,
    "hoaks": 0,
-   "tidak_relevan": 6,
-   "bukan_kejadian": 18,
-   "luar_negeri": 1,
-   "kasus_baru": 22,
-   "digabung": 32
+   "tidak_relevan": 4,
+   "bukan_kejadian": 7,
+   "luar_negeri": 0,
+   "kasus_baru": 6,
+   "digabung": 11
   },
   "timbang": {
    "DARURAT": 1,
    "JALUR KHUSUS": 63,
-   "TINDAK": 60,
+   "TINDAK": 59,
    "PANTAU": 143,
-   "TERCATAT": 1273
+   "TERCATAT": 1266
   },
   "teruskan": {
-   "polda": 35,
-   "kasus": 267
+   "polda": 34,
+   "kasus": 266
   },
   "kabarkan": {
-   "tanggapan_terlihat": 622,
-   "kasus": 1540,
-   "tanggapan_sejak_berita_pertama": 527,
+   "tanggapan_terlihat": 617,
+   "kasus": 1532,
+   "tanggapan_sejak_berita_pertama": 522,
    "median_jeda_jam": 10.9,
    "n_jeda": 95,
-   "melewati_batas": 122
+   "melewati_batas": 120
   },
   "arsipkan": {
-   "baris": 12818,
+   "baris": 12824,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -359,16 +359,8 @@
    "prov": "Banten",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
+   "hari_ini": 5,
    "rata": 2.07
-  },
-  {
-   "kode_prov": "31",
-   "prov": "DKI Jakarta",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "hari_ini": 8,
-   "rata": 2.75
   }
  ],
  "lonjakan_nasional": [],
