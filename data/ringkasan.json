@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-27T16:08:08Z",
+ "diperbarui_utc": "2026-11-27T16:59:26Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -8,13 +8,13 @@
  "anggota_sudah_ditangani": 32,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 1,
+  "DARURAT": 0,
   "JALUR KHUSUS": 63,
   "TINDAK": 59,
   "PANTAU": 143,
-  "TERCATAT": 1266
+  "TERCATAT": 1265
  },
- "kasus_aktif": 1532,
+ "kasus_aktif": 1530,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -22,11 +22,11 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 98
+   "kasus": 97
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 296
+   "kasus": 298
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
@@ -34,7 +34,7 @@
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 304
+   "kasus": 303
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -50,17 +50,10 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 452
+   "kasus": 450
   }
  },
  "provinsi": {
-  "51": {
-   "nama": "Bali",
-   "polda": "Polda Bali",
-   "DARURAT": 1,
-   "PANTAU": 3,
-   "TERCATAT": 12
-  },
   "53": {
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
@@ -73,7 +66,7 @@
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 1,
    "PANTAU": 9,
-   "TERCATAT": 11
+   "TERCATAT": 10
   },
   "11": {
    "nama": "Aceh",
@@ -81,7 +74,7 @@
    "JALUR KHUSUS": 7,
    "TINDAK": 1,
    "PANTAU": 8,
-   "TERCATAT": 54
+   "TERCATAT": 53
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -120,7 +113,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 4,
    "PANTAU": 2,
-   "TERCATAT": 47
+   "TERCATAT": 46
   },
   "62": {
    "nama": "Kalimantan Tengah",
@@ -151,7 +144,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 7,
    "PANTAU": 9,
-   "TERCATAT": 87
+   "TERCATAT": 85
   },
   "33": {
    "nama": "Jawa Tengah",
@@ -168,19 +161,19 @@
    "PANTAU": 3,
    "TERCATAT": 18
   },
-  "63": {
-   "nama": "Kalimantan Selatan",
-   "polda": "Polda Kalimantan Selatan",
-   "TINDAK": 1,
-   "PANTAU": 1,
-   "TERCATAT": 10
-  },
   "15": {
    "nama": "Jambi",
    "polda": "Polda Jambi",
    "TINDAK": 2,
    "PANTAU": 3,
    "TERCATAT": 14
+  },
+  "63": {
+   "nama": "Kalimantan Selatan",
+   "polda": "Polda Kalimantan Selatan",
+   "TINDAK": 1,
+   "PANTAU": 1,
+   "TERCATAT": 10
   },
   "34": {
    "nama": "DI Yogyakarta",
@@ -201,7 +194,7 @@
    "polda": "Polda Sumatera Barat",
    "TINDAK": 2,
    "PANTAU": 2,
-   "TERCATAT": 12
+   "TERCATAT": 11
   },
   "31": {
    "nama": "DKI Jakarta",
@@ -222,7 +215,7 @@
    "polda": "Polda Kalimantan Barat",
    "TINDAK": 1,
    "PANTAU": 2,
-   "TERCATAT": 21
+   "TERCATAT": 22
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -279,6 +272,12 @@
    "PANTAU": 1,
    "TERCATAT": 1
   },
+  "51": {
+   "nama": "Bali",
+   "polda": "Polda Bali",
+   "PANTAU": 3,
+   "TERCATAT": 13
+  },
   "94": {
    "nama": "Papua",
    "polda": "Polda Papua",
@@ -314,40 +313,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 903,
+   "artikel": 907,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 17,
-   "sudah_ada": 875,
+   "relevan": 15,
+   "sudah_ada": 882,
    "hoaks": 0,
    "tidak_relevan": 4,
-   "bukan_kejadian": 7,
+   "bukan_kejadian": 6,
    "luar_negeri": 0,
    "kasus_baru": 6,
-   "digabung": 11
+   "digabung": 9
   },
   "timbang": {
-   "DARURAT": 1,
+   "DARURAT": 0,
    "JALUR KHUSUS": 63,
    "TINDAK": 59,
    "PANTAU": 143,
-   "TERCATAT": 1266
+   "TERCATAT": 1265
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 266
+   "kasus": 265
   },
   "kabarkan": {
-   "tanggapan_terlihat": 617,
-   "kasus": 1532,
-   "tanggapan_sejak_berita_pertama": 522,
+   "tanggapan_terlihat": 616,
+   "kasus": 1530,
+   "tanggapan_sejak_berita_pertama": 521,
    "median_jeda_jam": 10.9,
    "n_jeda": 95,
-   "melewati_batas": 120
+   "melewati_batas": 119
   },
   "arsipkan": {
-   "baris": 12824,
+   "baris": 12830,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28

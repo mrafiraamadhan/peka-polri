@@ -1,9 +1,9 @@
 {
- "diperbarui_utc": "2026-11-27T16:08:08Z",
+ "diperbarui_utc": "2026-11-27T16:59:26Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 5246,
+ "kasus_tanpa_polda": 5251,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
@@ -242,12 +242,12 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 264,
+   "kasus": 263,
    "perlu": 82,
    "perlu_tanggap": 17,
    "persen_tanggap": 20.7,
-   "tanggap": 161,
-   "jalur_khusus": 10,
+   "tanggap": 160,
+   "jalur_khusus": 9,
    "melewati_batas": 55,
    "median_jeda_jam": 15.4,
    "n_jeda": 17,
@@ -359,12 +359,12 @@
     "51"
    ],
    "kasus": 232,
-   "perlu": 62,
+   "perlu": 61,
    "perlu_tanggap": 9,
-   "persen_tanggap": 14.5,
+   "persen_tanggap": 14.8,
    "tanggap": 94,
    "jalur_khusus": 1,
-   "melewati_batas": 49,
+   "melewati_batas": 48,
    "median_jeda_jam": 6.9,
    "n_jeda": 9,
    "topik_teratas": [
@@ -474,11 +474,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 165,
+   "kasus": 166,
    "perlu": 50,
    "perlu_tanggap": 8,
    "persen_tanggap": 16.0,
-   "tanggap": 91,
+   "tanggap": 92,
    "jalur_khusus": 5,
    "melewati_batas": 35,
    "median_jeda_jam": 13.4,
@@ -494,7 +494,7 @@
     ],
     [
      "jalanan",
-     31
+     32
     ]
    ]
   },
@@ -735,11 +735,11 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 115,
+   "kasus": 114,
    "perlu": 26,
    "perlu_tanggap": 4,
    "persen_tanggap": 15.4,
-   "tanggap": 77,
+   "tanggap": 76,
    "jalur_khusus": 1,
    "melewati_batas": 19,
    "median_jeda_jam": 5.3,
