@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-27T20:38:34Z",
+ "diperbarui_utc": "2026-11-27T21:36:33Z",
  "terbaru": {
-  "waktu_utc": "2026-11-27T03:59:44Z",
-  "magnitudo": 2.6,
-  "kedalaman": "3 km",
-  "wilayah": "Pusat gempa berada di darat 13 km barat Bener Meriah",
+  "waktu_utc": "2026-11-27T19:28:05Z",
+  "magnitudo": 4.3,
+  "kedalaman": "4 km",
+  "wilayah": "Pusat gempa berada di darat 7 km barat Poso",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II - III Bener Meriah",
-  "koordinat": "4.74,96.74",
-  "prov": "Aceh",
-  "kode_prov": "11"
+  "dirasakan": "III Pendolo",
+  "koordinat": "-2.06,120.62",
+  "prov": null,
+  "kode_prov": null
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-27T19:28:05Z",
+   "magnitudo": 4.3,
+   "kedalaman": "4 km",
+   "wilayah": "Pusat gempa berada di darat 7 km barat Poso",
+   "potensi": null,
+   "dirasakan": "III Pendolo",
+   "koordinat": "-2.06,120.62",
+   "prov": null,
+   "kode_prov": null
+  },
   {
    "waktu_utc": "2026-11-27T03:59:44Z",
    "magnitudo": 2.6,
@@ -165,17 +176,6 @@
    "koordinat": "-8.07,120.56",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-20T17:50:26Z",
-   "magnitudo": 4.6,
-   "kedalaman": "17 km",
-   "wilayah": "Pusat gempa berada di laut 66 km selatan Kota Sukabumi",
-   "potensi": null,
-   "dirasakan": "III Lengkong, III Pabuaran, III Ciemas, III Cidolog, II - III Palabuanratu, II - III Nagrak, II Kota Cimahi, II Ciparay, II Pangalengan, II Kab. Bandung",
-   "koordinat": "-7.51,106.85",
-   "prov": "Jawa Barat",
-   "kode_prov": "32"
   }
  ],
  "m5": [
