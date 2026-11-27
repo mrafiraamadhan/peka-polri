@@ -1,24 +1,24 @@
 {
- "diperbarui_utc": "2026-11-27T10:07:54Z",
+ "diperbarui_utc": "2026-11-27T10:59:13Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
-  "perkara": 11,
-  "anggota": 58
+  "perkara": 10,
+  "anggota": 57
  },
  "anggota_sudah_ditangani": 35,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 0,
-  "JALUR KHUSUS": 69,
-  "TINDAK": 63,
-  "PANTAU": 146,
-  "TERCATAT": 1276
+  "DARURAT": 1,
+  "JALUR KHUSUS": 67,
+  "TINDAK": 62,
+  "PANTAU": 144,
+  "TERCATAT": 1272
  },
- "kasus_aktif": 1554,
+ "kasus_aktif": 1546,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 97
+   "kasus": 96
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
@@ -26,15 +26,15 @@
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 307
+   "kasus": 305
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 124
+   "kasus": 123
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 305
+   "kasus": 299
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
@@ -42,7 +42,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 77
+   "kasus": 75
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,16 +50,23 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 448
+   "kasus": 452
   }
  },
  "provinsi": {
+  "51": {
+   "nama": "Bali",
+   "polda": "Polda Bali",
+   "DARURAT": 1,
+   "PANTAU": 3,
+   "TERCATAT": 12
+  },
   "53": {
    "nama": "Nusa Tenggara Timur",
    "polda": "Polda Nusa Tenggara Timur",
    "JALUR KHUSUS": 5,
    "PANTAU": 4,
-   "TERCATAT": 11
+   "TERCATAT": 12
   },
   "73": {
    "nama": "Sulawesi Selatan",
@@ -71,10 +78,10 @@
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
-   "JALUR KHUSUS": 9,
+   "JALUR KHUSUS": 8,
    "TINDAK": 2,
    "PANTAU": 8,
-   "TERCATAT": 55
+   "TERCATAT": 54
   },
   "74": {
    "nama": "Sulawesi Tenggara",
@@ -83,14 +90,6 @@
    "TINDAK": 2,
    "PANTAU": 2,
    "TERCATAT": 5
-  },
-  "15": {
-   "nama": "Jambi",
-   "polda": "Polda Jambi",
-   "JALUR KHUSUS": 1,
-   "TINDAK": 2,
-   "PANTAU": 3,
-   "TERCATAT": 14
   },
   "81": {
    "nama": "Maluku",
@@ -126,9 +125,9 @@
    "nama": "Sumatera Selatan",
    "polda": "Polda Sumatera Selatan",
    "JALUR KHUSUS": 1,
-   "TINDAK": 2,
+   "TINDAK": 1,
    "PANTAU": 8,
-   "TERCATAT": 23
+   "TERCATAT": 22
   },
   "12": {
    "nama": "Sumatera Utara",
@@ -151,14 +150,14 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 2,
    "PANTAU": 1,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "36": {
    "nama": "Banten",
    "polda": "Polda Banten",
    "JALUR KHUSUS": 1,
-   "TINDAK": 4,
-   "PANTAU": 6,
+   "TINDAK": 5,
+   "PANTAU": 7,
    "TERCATAT": 58
   },
   "32": {
@@ -166,14 +165,14 @@
    "polda": "Polda Jawa Barat",
    "JALUR KHUSUS": 2,
    "TINDAK": 7,
-   "PANTAU": 8,
-   "TERCATAT": 85
+   "PANTAU": 7,
+   "TERCATAT": 84
   },
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
    "JALUR KHUSUS": 1,
-   "TINDAK": 16,
+   "TINDAK": 15,
    "PANTAU": 12,
    "TERCATAT": 35
   },
@@ -184,6 +183,13 @@
    "TINDAK": 1,
    "PANTAU": 4,
    "TERCATAT": 5
+  },
+  "14": {
+   "nama": "Riau",
+   "polda": "Polda Riau",
+   "JALUR KHUSUS": 1,
+   "PANTAU": 3,
+   "TERCATAT": 19
   },
   "63": {
    "nama": "Kalimantan Selatan",
@@ -211,14 +217,14 @@
    "polda": "Polda Metro Jaya",
    "TINDAK": 1,
    "PANTAU": 12,
-   "TERCATAT": 44
+   "TERCATAT": 46
   },
   "64": {
    "nama": "Kalimantan Timur",
    "polda": "Polda Kalimantan Timur",
    "TINDAK": 1,
    "PANTAU": 6,
-   "TERCATAT": 22
+   "TERCATAT": 23
   },
   "61": {
    "nama": "Kalimantan Barat",
@@ -226,6 +232,13 @@
    "TINDAK": 1,
    "PANTAU": 2,
    "TERCATAT": 20
+  },
+  "15": {
+   "nama": "Jambi",
+   "polda": "Polda Jambi",
+   "TINDAK": 2,
+   "PANTAU": 3,
+   "TERCATAT": 14
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -252,18 +265,6 @@
    "PANTAU": 1,
    "TERCATAT": 5
   },
-  "14": {
-   "nama": "Riau",
-   "polda": "Polda Riau",
-   "PANTAU": 4,
-   "TERCATAT": 20
-  },
-  "51": {
-   "nama": "Bali",
-   "polda": "Polda Bali",
-   "PANTAU": 4,
-   "TERCATAT": 14
-  },
   "75": {
    "nama": "Gorontalo",
    "polda": "Polda Gorontalo",
@@ -274,7 +275,7 @@
    "nama": "Lampung",
    "polda": "Polda Lampung",
    "PANTAU": 3,
-   "TERCATAT": 20
+   "TERCATAT": 21
   },
   "65": {
    "nama": "Kalimantan Utara",
@@ -286,7 +287,7 @@
    "nama": "Bengkulu",
    "polda": "Polda Bengkulu",
    "PANTAU": 1,
-   "TERCATAT": 3
+   "TERCATAT": 1
   },
   "97": {
    "nama": "Papua Pegunungan",
@@ -311,40 +312,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 902,
+   "artikel": 903,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 52,
-   "sudah_ada": 824,
+   "relevan": 41,
+   "sudah_ada": 837,
    "hoaks": 0,
    "tidak_relevan": 3,
-   "bukan_kejadian": 19,
-   "luar_negeri": 4,
-   "kasus_baru": 30,
+   "bukan_kejadian": 17,
+   "luar_negeri": 5,
+   "kasus_baru": 19,
    "digabung": 22
   },
   "timbang": {
-   "DARURAT": 0,
-   "JALUR KHUSUS": 69,
-   "TINDAK": 63,
-   "PANTAU": 146,
-   "TERCATAT": 1276
+   "DARURAT": 1,
+   "JALUR KHUSUS": 67,
+   "TINDAK": 62,
+   "PANTAU": 144,
+   "TERCATAT": 1272
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 278
+   "kasus": 274
   },
   "kabarkan": {
-   "tanggapan_terlihat": 634,
-   "kasus": 1554,
-   "tanggapan_sejak_berita_pertama": 540,
-   "median_jeda_jam": 12.0,
-   "n_jeda": 94,
+   "tanggapan_terlihat": 625,
+   "kasus": 1546,
+   "tanggapan_sejak_berita_pertama": 534,
+   "median_jeda_jam": 11.4,
+   "n_jeda": 91,
    "melewati_batas": 117
   },
   "arsipkan": {
-   "baris": 12696,
+   "baris": 12715,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -352,11 +353,19 @@
  },
  "lonjakan_wilayah": [
   {
+   "kode_prov": "36",
+   "prov": "Banten",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "hari_ini": 5,
+   "rata": 2.07
+  },
+  {
    "kode_prov": "31",
    "prov": "DKI Jakarta",
    "topik": "jalanan",
    "nama": "Kejahatan jalanan",
-   "hari_ini": 6,
+   "hari_ini": 7,
    "rata": 2.71
   }
  ],
