@@ -1,17 +1,50 @@
 {
- "diperbarui_utc": "2026-11-27T04:06:31Z",
+ "diperbarui_utc": "2026-11-27T04:57:54Z",
  "terbaru": {
-  "waktu_utc": "2026-11-27T02:39:21Z",
-  "magnitudo": 4.3,
-  "kedalaman": "21 km",
-  "wilayah": "Pusat gempa berada dilaut 92 km utara Ruteng-Manggarai",
+  "waktu_utc": "2026-11-27T03:59:44Z",
+  "magnitudo": 2.6,
+  "kedalaman": "3 km",
+  "wilayah": "Pusat gempa berada di darat 13 km barat Bener Meriah",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "II Manggarai",
-  "koordinat": "-7.79,120.49",
-  "prov": "Nusa Tenggara Timur",
-  "kode_prov": "53"
+  "dirasakan": "II - III Bener Meriah",
+  "koordinat": "4.74,96.74",
+  "prov": "Aceh",
+  "kode_prov": "11"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-27T03:59:44Z",
+   "magnitudo": 2.6,
+   "kedalaman": "3 km",
+   "wilayah": "Pusat gempa berada di darat 13 km barat Bener Meriah",
+   "potensi": null,
+   "dirasakan": "II - III Bener Meriah",
+   "koordinat": "4.74,96.74",
+   "prov": "Aceh",
+   "kode_prov": "11"
+  },
+  {
+   "waktu_utc": "2026-11-27T03:56:37Z",
+   "magnitudo": 3.1,
+   "kedalaman": "10 km",
+   "wilayah": "Pusat gempa berada di laut 18 km barat laut Lombok Barat",
+   "potensi": null,
+   "dirasakan": "III Kota Mataram , III Kab. Lombok Barat",
+   "koordinat": "-8.55,116.04",
+   "prov": "Nusa Tenggara Barat",
+   "kode_prov": "52"
+  },
+  {
+   "waktu_utc": "2026-11-27T03:51:14Z",
+   "magnitudo": 2.8,
+   "kedalaman": "16 km",
+   "wilayah": "Pusat gempa berada di darat 8 km barat laut Kota Jayapura",
+   "potensi": null,
+   "dirasakan": "III Kota Jayapura",
+   "koordinat": "-2.49,140.66",
+   "prov": "Papua",
+   "kode_prov": "94"
+  },
   {
    "waktu_utc": "2026-11-27T02:39:21Z",
    "magnitudo": 4.3,
@@ -143,39 +176,6 @@
    "koordinat": "-7.51,106.85",
    "prov": "Jawa Barat",
    "kode_prov": "32"
-  },
-  {
-   "waktu_utc": "2026-11-20T13:51:01Z",
-   "magnitudo": 3.6,
-   "kedalaman": "3 km",
-   "wilayah": "Pusat gempa berada di laut 57 km utara Ruteng-Manggarai",
-   "potensi": null,
-   "dirasakan": "II - III Kab. Manggarai",
-   "koordinat": "-8.10,120.49",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-20T11:34:42Z",
-   "magnitudo": 3.2,
-   "kedalaman": "6 km",
-   "wilayah": "Pusat gempa berada di laut 10 km Utara Kendari",
-   "potensi": null,
-   "dirasakan": "III Kota Kendari, II - III Konawe Selatan",
-   "koordinat": "-3.88,122.51",
-   "prov": "Sulawesi Tenggara",
-   "kode_prov": "74"
-  },
-  {
-   "waktu_utc": "2026-11-20T11:33:00Z",
-   "magnitudo": 3.7,
-   "kedalaman": "5 km",
-   "wilayah": "Pusat gempa berada di laut 5 km Utara Kendari",
-   "potensi": null,
-   "dirasakan": "III-IV Kota Kendari, II-III Konawe Selatan, III Konawe Utara",
-   "koordinat": "-3.93,122.51",
-   "prov": "Sulawesi Tenggara",
-   "kode_prov": "74"
   }
  ],
  "m5": [
