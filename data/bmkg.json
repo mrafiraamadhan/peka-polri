@@ -1,17 +1,28 @@
 {
- "diperbarui_utc": "2026-11-28T08:18:47Z",
+ "diperbarui_utc": "2026-11-28T09:10:13Z",
  "terbaru": {
-  "waktu_utc": "2026-11-27T19:28:05Z",
-  "magnitudo": 4.3,
-  "kedalaman": "4 km",
-  "wilayah": "Pusat gempa berada di darat 7 km barat Poso",
+  "waktu_utc": "2026-11-28T08:30:40Z",
+  "magnitudo": 4.6,
+  "kedalaman": "11 km",
+  "wilayah": "Pusat gempa berada di laut 125 km barat Jantho-Aceh Besar",
   "potensi": "Gempa ini dirasakan untuk diteruskan pada masyarakat",
-  "dirasakan": "III Pendolo",
-  "koordinat": "-2.06,120.62",
-  "prov": null,
-  "kode_prov": null
+  "dirasakan": "II - III Banda Aceh, II - III Aceh Besar",
+  "koordinat": "5.03,94.50",
+  "prov": "Aceh",
+  "kode_prov": "11"
  },
  "dirasakan": [
+  {
+   "waktu_utc": "2026-11-28T08:30:40Z",
+   "magnitudo": 4.6,
+   "kedalaman": "11 km",
+   "wilayah": "Pusat gempa berada di laut 125 km barat Jantho-Aceh Besar",
+   "potensi": null,
+   "dirasakan": "II - III Banda Aceh, II - III Aceh Besar",
+   "koordinat": "5.03,94.50",
+   "prov": "Aceh",
+   "kode_prov": "11"
+  },
   {
    "waktu_utc": "2026-11-27T19:28:05Z",
    "magnitudo": 4.3,
@@ -163,17 +174,6 @@
    "potensi": null,
    "dirasakan": "II - III Kab. Manggarai",
    "koordinat": "-8.14,120.46",
-   "prov": "Nusa Tenggara Timur",
-   "kode_prov": "53"
-  },
-  {
-   "waktu_utc": "2026-11-20T22:16:05Z",
-   "magnitudo": 4.1,
-   "kedalaman": "3 km",
-   "wilayah": "Pusat gempa berada di laut 61 km utara Ruteng, Manggarai",
-   "potensi": null,
-   "dirasakan": "II - III Kab. Manggarai",
-   "koordinat": "-8.07,120.56",
    "prov": "Nusa Tenggara Timur",
    "kode_prov": "53"
   }
