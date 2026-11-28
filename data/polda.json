@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-28T15:30:34Z",
+ "diperbarui_utc": "2026-11-28T16:22:03Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 5280,
+ "kasus_tanpa_polda": 5275,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 968,
+   "kasus": 966,
    "perlu": 355,
    "perlu_tanggap": 78,
    "persen_tanggap": 22.0,
-   "tanggap": 496,
+   "tanggap": 495,
    "jalur_khusus": 43,
    "melewati_batas": 201,
    "median_jeda_jam": 10.4,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     227
+     226
     ],
     [
      "narkoba",
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 562,
+   "kasus": 560,
    "perlu": 213,
    "perlu_tanggap": 49,
    "persen_tanggap": 23.0,
-   "tanggap": 277,
+   "tanggap": 275,
    "jalur_khusus": 5,
    "melewati_batas": 137,
    "median_jeda_jam": 6.2,
@@ -55,7 +55,7 @@
     ],
     [
      "jalanan",
-     129
+     127
     ],
     [
      "narkoba",
@@ -155,7 +155,7 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 444,
+   "kasus": 443,
    "perlu": 119,
    "perlu_tanggap": 28,
    "persen_tanggap": 23.5,
@@ -175,7 +175,7 @@
     ],
     [
      "darurat",
-     77
+     76
     ]
    ]
   },
@@ -300,11 +300,11 @@
    "provinsi": [
     "36"
    ],
-   "kasus": 269,
+   "kasus": 268,
    "perlu": 76,
    "perlu_tanggap": 11,
    "persen_tanggap": 14.5,
-   "tanggap": 125,
+   "tanggap": 124,
    "jalur_khusus": 6,
    "melewati_batas": 50,
    "median_jeda_jam": 14.2,
@@ -316,7 +316,7 @@
     ],
     [
      "jalanan",
-     44
+     43
     ],
     [
      "lalulintas",
@@ -445,7 +445,7 @@
    "provinsi": [
     "64"
    ],
-   "kasus": 184,
+   "kasus": 183,
    "perlu": 52,
    "perlu_tanggap": 9,
    "persen_tanggap": 17.3,
@@ -457,7 +457,7 @@
    "topik_teratas": [
     [
      "darurat",
-     63
+     62
     ],
     [
      "narkoba",
@@ -474,13 +474,13 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 163,
-   "perlu": 49,
+   "kasus": 162,
+   "perlu": 48,
    "perlu_tanggap": 8,
-   "persen_tanggap": 16.3,
+   "persen_tanggap": 16.7,
    "tanggap": 88,
    "jalur_khusus": 5,
-   "melewati_batas": 36,
+   "melewati_batas": 35,
    "median_jeda_jam": 13.4,
    "n_jeda": 8,
    "topik_teratas": [
@@ -1391,29 +1391,6 @@
    "penanggung_jawab": "Kasat Binmas Polres Dumai bersama pemerintah daerah"
   },
   {
-   "kode_kab": "6472",
-   "kabkota": "Kota Samarinda",
-   "kode_prov": "64",
-   "provinsi": "Kalimantan Timur",
-   "polda": "Polda Kalimantan Timur",
-   "polres": "Polresta Samarinda",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 7,
-   "kasus": 11,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-06",
-    "2026-11-11",
-    "2026-11-17",
-    "2026-11-20",
-    "2026-11-25"
-   ],
-   "kejadian_ditanggapi": 0,
-   "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
-  },
-  {
    "kode_kab": "5371",
    "kabkota": "Kota Kupang",
    "kode_prov": "53",
@@ -1547,28 +1524,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Barat bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "3671",
-   "kabkota": "Kota Tangerang",
-   "kode_prov": "36",
-   "provinsi": "Banten",
-   "polda": "Polda Metro Jaya",
-   "polres": "Polres Metro Tangerang Kota",
-   "topik": "jalanan",
-   "nama": "Kejahatan jalanan",
-   "kejadian": 6,
-   "kasus": 16,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-09",
-    "2026-11-16",
-    "2026-11-22",
-    "2026-11-27"
-   ],
-   "kejadian_ditanggapi": 6,
-   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "1113",
@@ -2011,6 +1966,28 @@
    "penanggung_jawab": "Kasat Binmas Polres Tulungagung bersama pemerintah daerah"
   },
   {
+   "kode_kab": "6472",
+   "kabkota": "Kota Samarinda",
+   "kode_prov": "64",
+   "provinsi": "Kalimantan Timur",
+   "polda": "Polda Kalimantan Timur",
+   "polres": "Polresta Samarinda",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 6,
+   "kasus": 10,
+   "tanggal": [
+    "2026-11-02",
+    "2026-11-06",
+    "2026-11-11",
+    "2026-11-17",
+    "2026-11-20",
+    "2026-11-25"
+   ],
+   "kejadian_ditanggapi": 0,
+   "penanggung_jawab": "Kasat Binmas Polresta Samarinda bersama pemerintah daerah"
+  },
+  {
    "kode_kab": "3301",
    "kabkota": "Kabupaten Cilacap",
    "kode_prov": "33",
@@ -2268,6 +2245,27 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polres Metro Jakarta Utara bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "3671",
+   "kabkota": "Kota Tangerang",
+   "kode_prov": "36",
+   "provinsi": "Banten",
+   "polda": "Polda Metro Jaya",
+   "polres": "Polres Metro Tangerang Kota",
+   "topik": "jalanan",
+   "nama": "Kejahatan jalanan",
+   "kejadian": 5,
+   "kasus": 15,
+   "tanggal": [
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-16",
+    "2026-11-22",
+    "2026-11-27"
+   ],
+   "kejadian_ditanggapi": 5,
+   "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
   },
   {
    "kode_kab": "5103",
