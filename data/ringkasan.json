@@ -1,56 +1,56 @@
 {
- "diperbarui_utc": "2026-11-28T11:13:10Z",
+ "diperbarui_utc": "2026-11-28T12:04:31Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
   "anggota": 45
  },
- "anggota_sudah_ditangani": 29,
+ "anggota_sudah_ditangani": 30,
  "jendela_jam": 72,
  "status": {
   "DARURAT": 2,
   "JALUR KHUSUS": 54,
-  "TINDAK": 68,
-  "PANTAU": 125,
-  "TERCATAT": 1207
+  "TINDAK": 65,
+  "PANTAU": 123,
+  "TERCATAT": 1198
  },
- "kasus_aktif": 1456,
+ "kasus_aktif": 1442,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
-   "kasus": 76
+   "kasus": 77
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 97
+   "kasus": 95
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 265
+   "kasus": 266
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 99
+   "kasus": 95
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 323
+   "kasus": 321
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 81
+   "kasus": 80
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 70
+   "kasus": 67
   },
   "layanan": {
    "nama": "Layanan kepolisian",
-   "kasus": 5
+   "kasus": 4
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 440
+   "kasus": 437
   }
  },
  "provinsi": {
@@ -75,7 +75,7 @@
    "polda": "Polda Sulawesi Selatan",
    "JALUR KHUSUS": 1,
    "TINDAK": 1,
-   "PANTAU": 8,
+   "PANTAU": 7,
    "TERCATAT": 9
   },
   "81": {
@@ -88,25 +88,25 @@
   "11": {
    "nama": "Aceh",
    "polda": "Polda Aceh",
-   "JALUR KHUSUS": 4,
+   "JALUR KHUSUS": 3,
    "TINDAK": 2,
    "PANTAU": 8,
-   "TERCATAT": 46
+   "TERCATAT": 45
   },
   "35": {
    "nama": "Jawa Timur",
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 4,
-   "TINDAK": 17,
-   "PANTAU": 13,
-   "TERCATAT": 84
+   "TINDAK": 15,
+   "PANTAU": 12,
+   "TERCATAT": 85
   },
   "74": {
    "nama": "Sulawesi Tenggara",
    "polda": "Polda Sulawesi Tenggara",
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
-   "PANTAU": 2,
+   "PANTAU": 3,
    "TERCATAT": 9
   },
   "19": {
@@ -145,7 +145,7 @@
    "polda": "Polda Riau",
    "JALUR KHUSUS": 2,
    "PANTAU": 5,
-   "TERCATAT": 17
+   "TERCATAT": 16
   },
   "16": {
    "nama": "Sumatera Selatan",
@@ -158,8 +158,8 @@
   "12": {
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
-   "TINDAK": 3,
-   "PANTAU": 4,
+   "TINDAK": 2,
+   "PANTAU": 3,
    "TERCATAT": 42
   },
   "15": {
@@ -200,13 +200,13 @@
    "polda": "Polda Kalimantan Timur",
    "TINDAK": 1,
    "PANTAU": 6,
-   "TERCATAT": 20
+   "TERCATAT": 19
   },
   "61": {
    "nama": "Kalimantan Barat",
    "polda": "Polda Kalimantan Barat",
    "TINDAK": 1,
-   "TERCATAT": 22
+   "TERCATAT": 21
   },
   "72": {
    "nama": "Sulawesi Tengah",
@@ -307,40 +307,40 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 890,
+   "artikel": 906,
    "sumber": 3
   },
   "pilah": {
-   "relevan": 44,
-   "sudah_ada": 831,
-   "hoaks": 1,
+   "relevan": 32,
+   "sudah_ada": 856,
+   "hoaks": 0,
    "tidak_relevan": 3,
-   "bukan_kejadian": 11,
-   "luar_negeri": 0,
-   "kasus_baru": 20,
-   "digabung": 24
+   "bukan_kejadian": 14,
+   "luar_negeri": 1,
+   "kasus_baru": 11,
+   "digabung": 21
   },
   "timbang": {
    "DARURAT": 2,
    "JALUR KHUSUS": 54,
-   "TINDAK": 68,
-   "PANTAU": 125,
-   "TERCATAT": 1207
+   "TINDAK": 65,
+   "PANTAU": 123,
+   "TERCATAT": 1198
   },
   "teruskan": {
    "polda": 34,
-   "kasus": 249
+   "kasus": 244
   },
   "kabarkan": {
-   "tanggapan_terlihat": 582,
-   "kasus": 1456,
-   "tanggapan_sejak_berita_pertama": 488,
+   "tanggapan_terlihat": 576,
+   "kasus": 1442,
+   "tanggapan_sejak_berita_pertama": 484,
    "median_jeda_jam": 11.2,
-   "n_jeda": 94,
-   "melewati_batas": 111
+   "n_jeda": 92,
+   "melewati_batas": 108
   },
   "arsipkan": {
-   "baris": 13095,
+   "baris": 13106,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -352,7 +352,7 @@
    "prov": "Sulawesi Tenggara",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 5,
+   "hari_ini": 7,
    "rata": 1.11
   }
  ],
