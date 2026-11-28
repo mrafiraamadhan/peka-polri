@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-28T14:39:12Z",
+ "diperbarui_utc": "2026-11-28T15:30:34Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -8,13 +8,13 @@
  "anggota_sudah_ditangani": 31,
  "jendela_jam": 72,
  "status": {
-  "DARURAT": 3,
+  "DARURAT": 2,
   "JALUR KHUSUS": 51,
   "TINDAK": 65,
-  "PANTAU": 119,
-  "TERCATAT": 1197
+  "PANTAU": 117,
+  "TERCATAT": 1207
  },
- "kasus_aktif": 1435,
+ "kasus_aktif": 1442,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -22,23 +22,23 @@
   },
   "perempuan_anak": {
    "nama": "Kekerasan terhadap perempuan dan anak",
-   "kasus": 95
+   "kasus": 96
   },
   "narkoba": {
    "nama": "Narkoba",
-   "kasus": 271
+   "kasus": 272
   },
   "penipuan": {
    "nama": "Penipuan dan kejahatan daring",
-   "kasus": 84
+   "kasus": 83
   },
   "jalanan": {
    "nama": "Kejahatan jalanan",
-   "kasus": 329
+   "kasus": 332
   },
   "konflik": {
    "nama": "Konflik dan kerumunan",
-   "kasus": 76
+   "kasus": 78
   },
   "lalulintas": {
    "nama": "Lalu lintas",
@@ -50,18 +50,18 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 439
+   "kasus": 440
   }
  },
  "provinsi": {
   "33": {
    "nama": "Jawa Tengah",
    "polda": "Polda Jawa Tengah",
-   "DARURAT": 3,
+   "DARURAT": 2,
    "JALUR KHUSUS": 1,
    "TINDAK": 12,
    "PANTAU": 9,
-   "TERCATAT": 41
+   "TERCATAT": 43
   },
   "53": {
    "nama": "Nusa Tenggara Timur",
@@ -83,7 +83,7 @@
    "polda": "Polda Maluku",
    "JALUR KHUSUS": 2,
    "PANTAU": 1,
-   "TERCATAT": 2
+   "TERCATAT": 3
   },
   "11": {
    "nama": "Aceh",
@@ -98,7 +98,7 @@
    "polda": "Polda Jawa Timur",
    "JALUR KHUSUS": 3,
    "TINDAK": 15,
-   "PANTAU": 13,
+   "PANTAU": 12,
    "TERCATAT": 89
   },
   "74": {
@@ -107,7 +107,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 2,
    "PANTAU": 3,
-   "TERCATAT": 10
+   "TERCATAT": 11
   },
   "19": {
    "nama": "Kepulauan Bangka Belitung",
@@ -130,7 +130,7 @@
    "JALUR KHUSUS": 1,
    "TINDAK": 4,
    "PANTAU": 6,
-   "TERCATAT": 37
+   "TERCATAT": 38
   },
   "32": {
    "nama": "Jawa Barat",
@@ -138,7 +138,7 @@
    "JALUR KHUSUS": 2,
    "TINDAK": 8,
    "PANTAU": 10,
-   "TERCATAT": 82
+   "TERCATAT": 79
   },
   "14": {
    "nama": "Riau",
@@ -159,8 +159,8 @@
    "nama": "Sumatera Utara",
    "polda": "Polda Sumatera Utara",
    "TINDAK": 2,
-   "PANTAU": 3,
-   "TERCATAT": 42
+   "PANTAU": 2,
+   "TERCATAT": 43
   },
   "15": {
    "nama": "Jambi",
@@ -232,7 +232,7 @@
    "polda": "Polda Lampung",
    "TINDAK": 1,
    "PANTAU": 3,
-   "TERCATAT": 17
+   "TERCATAT": 18
   },
   "82": {
    "nama": "Maluku Utara",
@@ -250,7 +250,7 @@
    "nama": "Sulawesi Barat",
    "polda": "Polda Sulawesi Barat",
    "PANTAU": 2,
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "97": {
    "nama": "Papua Pegunungan",
@@ -297,7 +297,7 @@
   "75": {
    "nama": "Gorontalo",
    "polda": "Polda Gorontalo",
-   "TERCATAT": 4
+   "TERCATAT": 5
   },
   "71": {
    "nama": "Sulawesi Utara",
@@ -311,36 +311,36 @@
    "sumber": 3
   },
   "pilah": {
-   "relevan": 36,
-   "sudah_ada": 847,
+   "relevan": 41,
+   "sudah_ada": 843,
    "hoaks": 0,
-   "tidak_relevan": 1,
-   "bukan_kejadian": 13,
-   "luar_negeri": 1,
-   "kasus_baru": 14,
-   "digabung": 22
+   "tidak_relevan": 2,
+   "bukan_kejadian": 12,
+   "luar_negeri": 0,
+   "kasus_baru": 22,
+   "digabung": 19
   },
   "timbang": {
-   "DARURAT": 3,
+   "DARURAT": 2,
    "JALUR KHUSUS": 51,
    "TINDAK": 65,
-   "PANTAU": 119,
-   "TERCATAT": 1197
+   "PANTAU": 117,
+   "TERCATAT": 1207
   },
   "teruskan": {
    "polda": 35,
-   "kasus": 238
+   "kasus": 235
   },
   "kabarkan": {
    "tanggapan_terlihat": 580,
-   "kasus": 1435,
+   "kasus": 1442,
    "tanggapan_sejak_berita_pertama": 489,
    "median_jeda_jam": 10.5,
    "n_jeda": 91,
-   "melewati_batas": 107
+   "melewati_batas": 105
   },
   "arsipkan": {
-   "baris": 13159,
+   "baris": 13181,
    "dikoreksi": 77,
    "bulan": 2,
    "hari_riwayat": 28
@@ -352,7 +352,7 @@
    "prov": "Sulawesi Tenggara",
    "topik": "narkoba",
    "nama": "Narkoba",
-   "hari_ini": 7,
+   "hari_ini": 8,
    "rata": 1.11
   }
  ],
