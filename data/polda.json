@@ -1,20 +1,20 @@
 {
- "diperbarui_utc": "2026-11-28T13:47:05Z",
+ "diperbarui_utc": "2026-11-28T14:39:12Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
- "kasus_tanpa_polda": 5276,
+ "kasus_tanpa_polda": 5277,
  "polda": [
   {
    "polda": "Polda Jawa Timur",
    "provinsi": [
     "35"
    ],
-   "kasus": 966,
+   "kasus": 967,
    "perlu": 354,
    "perlu_tanggap": 77,
    "persen_tanggap": 21.8,
-   "tanggap": 494,
+   "tanggap": 495,
    "jalur_khusus": 43,
    "melewati_batas": 201,
    "median_jeda_jam": 10.4,
@@ -22,7 +22,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     248
+     249
     ],
     [
      "darurat",
@@ -39,11 +39,11 @@
    "provinsi": [
     "31"
    ],
-   "kasus": 563,
+   "kasus": 562,
    "perlu": 213,
    "perlu_tanggap": 49,
    "persen_tanggap": 23.0,
-   "tanggap": 278,
+   "tanggap": 277,
    "jalur_khusus": 5,
    "melewati_batas": 137,
    "median_jeda_jam": 6.2,
@@ -59,7 +59,7 @@
     ],
     [
      "narkoba",
-     89
+     88
     ]
    ]
   },
@@ -68,23 +68,23 @@
    "provinsi": [
     "32"
    ],
-   "kasus": 603,
+   "kasus": 601,
    "perlu": 198,
    "perlu_tanggap": 30,
    "persen_tanggap": 15.2,
-   "tanggap": 282,
+   "tanggap": 281,
    "jalur_khusus": 9,
-   "melewati_batas": 128,
+   "melewati_batas": 129,
    "median_jeda_jam": 14.2,
    "n_jeda": 30,
    "topik_teratas": [
     [
      "darurat",
-     189
+     188
     ],
     [
      "jalanan",
-     177
+     176
     ],
     [
      "narkoba",
@@ -97,23 +97,23 @@
    "provinsi": [
     "33"
    ],
-   "kasus": 506,
+   "kasus": 505,
    "perlu": 185,
    "perlu_tanggap": 30,
    "persen_tanggap": 16.2,
-   "tanggap": 236,
+   "tanggap": 235,
    "jalur_khusus": 15,
-   "melewati_batas": 113,
+   "melewati_batas": 114,
    "median_jeda_jam": 7.0,
    "n_jeda": 30,
    "topik_teratas": [
     [
      "darurat",
-     137
+     138
     ],
     [
      "jalanan",
-     132
+     131
     ],
     [
      "lalulintas",
@@ -126,19 +126,19 @@
    "provinsi": [
     "34"
    ],
-   "kasus": 234,
-   "perlu": 124,
+   "kasus": 232,
+   "perlu": 122,
    "perlu_tanggap": 29,
-   "persen_tanggap": 23.4,
+   "persen_tanggap": 23.8,
    "tanggap": 125,
    "jalur_khusus": 8,
-   "melewati_batas": 90,
+   "melewati_batas": 88,
    "median_jeda_jam": 11.7,
    "n_jeda": 29,
    "topik_teratas": [
     [
      "konflik",
-     130
+     128
     ],
     [
      "jalanan",
@@ -155,13 +155,13 @@
    "provinsi": [
     "12"
    ],
-   "kasus": 445,
-   "perlu": 120,
+   "kasus": 444,
+   "perlu": 119,
    "perlu_tanggap": 28,
-   "persen_tanggap": 23.3,
+   "persen_tanggap": 23.5,
    "tanggap": 288,
    "jalur_khusus": 12,
-   "melewati_batas": 75,
+   "melewati_batas": 74,
    "median_jeda_jam": 12.6,
    "n_jeda": 28,
    "topik_teratas": [
@@ -213,19 +213,19 @@
    "provinsi": [
     "14"
    ],
-   "kasus": 265,
-   "perlu": 85,
-   "perlu_tanggap": 17,
-   "persen_tanggap": 20.0,
-   "tanggap": 160,
+   "kasus": 263,
+   "perlu": 84,
+   "perlu_tanggap": 16,
+   "persen_tanggap": 19.0,
+   "tanggap": 158,
    "jalur_khusus": 10,
    "melewati_batas": 57,
-   "median_jeda_jam": 15.4,
-   "n_jeda": 17,
+   "median_jeda_jam": 14.5,
+   "n_jeda": 16,
    "topik_teratas": [
     [
      "narkoba",
-     105
+     104
     ],
     [
      "darurat",
@@ -271,7 +271,7 @@
    "provinsi": [
     "11"
    ],
-   "kasus": 362,
+   "kasus": 361,
    "perlu": 82,
    "perlu_tanggap": 18,
    "persen_tanggap": 22.0,
@@ -283,7 +283,7 @@
    "topik_teratas": [
     [
      "darurat",
-     189
+     188
     ],
     [
      "narkoba",
@@ -329,11 +329,11 @@
    "provinsi": [
     "18"
    ],
-   "kasus": 251,
+   "kasus": 250,
    "perlu": 75,
    "perlu_tanggap": 16,
    "persen_tanggap": 21.3,
-   "tanggap": 160,
+   "tanggap": 159,
    "jalur_khusus": 10,
    "melewati_batas": 51,
    "median_jeda_jam": 28.5,
@@ -341,7 +341,7 @@
    "topik_teratas": [
     [
      "jalanan",
-     101
+     100
     ],
     [
      "narkoba",
@@ -532,11 +532,11 @@
    "provinsi": [
     "62"
    ],
-   "kasus": 151,
+   "kasus": 150,
    "perlu": 39,
    "perlu_tanggap": 6,
    "persen_tanggap": 15.4,
-   "tanggap": 90,
+   "tanggap": 89,
    "jalur_khusus": 2,
    "melewati_batas": 32,
    "median_jeda_jam": 18.3,
@@ -544,7 +544,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     62
+     61
     ],
     [
      "darurat",
@@ -561,11 +561,11 @@
    "provinsi": [
     "15"
    ],
-   "kasus": 121,
+   "kasus": 122,
    "perlu": 39,
    "perlu_tanggap": 5,
    "persen_tanggap": 12.8,
-   "tanggap": 67,
+   "tanggap": 68,
    "jalur_khusus": 7,
    "melewati_batas": 25,
    "median_jeda_jam": 33.7,
@@ -577,7 +577,7 @@
     ],
     [
      "narkoba",
-     27
+     28
     ],
     [
      "darurat",
@@ -619,11 +619,11 @@
    "provinsi": [
     "74"
    ],
-   "kasus": 108,
+   "kasus": 109,
    "perlu": 36,
    "perlu_tanggap": 6,
    "persen_tanggap": 16.7,
-   "tanggap": 71,
+   "tanggap": 72,
    "jalur_khusus": 6,
    "melewati_batas": 20,
    "median_jeda_jam": 8.7,
@@ -631,7 +631,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     40
+     41
     ],
     [
      "jalanan",
@@ -648,11 +648,11 @@
    "provinsi": [
     "13"
    ],
-   "kasus": 191,
+   "kasus": 190,
    "perlu": 33,
    "perlu_tanggap": 2,
    "persen_tanggap": 6.1,
-   "tanggap": 101,
+   "tanggap": 100,
    "jalur_khusus": 4,
    "melewati_batas": 26,
    "median_jeda_jam": 9.2,
@@ -660,7 +660,7 @@
    "topik_teratas": [
     [
      "darurat",
-     74
+     73
     ],
     [
      "narkoba",
@@ -735,11 +735,11 @@
    "provinsi": [
     "72"
    ],
-   "kasus": 113,
+   "kasus": 114,
    "perlu": 26,
    "perlu_tanggap": 4,
    "persen_tanggap": 15.4,
-   "tanggap": 75,
+   "tanggap": 76,
    "jalur_khusus": 1,
    "melewati_batas": 19,
    "median_jeda_jam": 5.3,
@@ -747,7 +747,7 @@
    "topik_teratas": [
     [
      "narkoba",
-     36
+     37
     ],
     [
      "jalanan",
@@ -793,7 +793,7 @@
    "provinsi": [
     "17"
    ],
-   "kasus": 62,
+   "kasus": 63,
    "perlu": 20,
    "perlu_tanggap": 2,
    "persen_tanggap": 10.0,
@@ -805,7 +805,7 @@
    "topik_teratas": [
     [
      "darurat",
-     19
+     20
     ],
     [
      "jalanan",
@@ -1119,9 +1119,9 @@
    "topik": "konflik",
    "nama": "Konflik dan kerumunan",
    "kejadian": 9,
-   "kasus": 45,
+   "kasus": 44,
    "tanggal": [
-    "2026-10-29",
+    "2026-10-30",
     "2026-11-03",
     "2026-11-07",
     "2026-11-10",
@@ -1144,10 +1144,10 @@
    "topik": "darurat",
    "nama": "Bencana dan keadaan darurat",
    "kejadian": 8,
-   "kasus": 30,
+   "kasus": 29,
    "tanggal": [
-    "2026-10-29",
-    "2026-11-01",
+    "2026-10-30",
+    "2026-11-02",
     "2026-11-07",
     "2026-11-12",
     "2026-11-16",
@@ -1343,29 +1343,6 @@
    ],
    "kejadian_ditanggapi": 5,
    "penanggung_jawab": "Kasat Binmas Polresta Bogor Kota bersama pemerintah daerah"
-  },
-  {
-   "kode_kab": "1113",
-   "kabkota": "Kabupaten Gayo Lues",
-   "kode_prov": "11",
-   "provinsi": "Aceh",
-   "polda": "Polda Aceh",
-   "polres": "Polres Gayo Lues",
-   "topik": "darurat",
-   "nama": "Bencana dan keadaan darurat",
-   "kejadian": 7,
-   "kasus": 15,
-   "tanggal": [
-    "2026-10-29",
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-09",
-    "2026-11-14",
-    "2026-11-18",
-    "2026-11-25"
-   ],
-   "kejadian_ditanggapi": 3,
-   "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
   },
   {
    "kode_kab": "5271",
@@ -1593,6 +1570,28 @@
    ],
    "kejadian_ditanggapi": 6,
    "penanggung_jawab": "Kasat Binmas Polres Metro Tangerang Kota bersama pemerintah daerah"
+  },
+  {
+   "kode_kab": "1113",
+   "kabkota": "Kabupaten Gayo Lues",
+   "kode_prov": "11",
+   "provinsi": "Aceh",
+   "polda": "Polda Aceh",
+   "polres": "Polres Gayo Lues",
+   "topik": "darurat",
+   "nama": "Bencana dan keadaan darurat",
+   "kejadian": 6,
+   "kasus": 14,
+   "tanggal": [
+    "2026-10-31",
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-14",
+    "2026-11-18",
+    "2026-11-25"
+   ],
+   "kejadian_ditanggapi": 3,
+   "penanggung_jawab": "Kasat Binmas Polres Gayo Lues bersama pemerintah daerah"
   },
   {
    "kode_kab": "3172",
