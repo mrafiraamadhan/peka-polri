@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-28T17:20:22Z",
+ "diperbarui_utc": "2026-11-28T18:11:45Z",
  "jendela_hari": 30,
  "hari_riwayat": 28,
  "arsip_sejak_utc": "2026-10-27T13:00:00Z",
@@ -10,7 +10,7 @@
    "provinsi": [
     "35"
    ],
-   "kasus": 970,
+   "kasus": 969,
    "perlu": 355,
    "perlu_tanggap": 78,
    "persen_tanggap": 22.0,
@@ -26,7 +26,7 @@
     ],
     [
      "darurat",
-     227
+     226
     ],
     [
      "narkoba",
@@ -70,13 +70,13 @@
    ],
    "kasus": 601,
    "perlu": 199,
-   "perlu_tanggap": 30,
-   "persen_tanggap": 15.1,
-   "tanggap": 280,
+   "perlu_tanggap": 31,
+   "persen_tanggap": 15.6,
+   "tanggap": 281,
    "jalur_khusus": 9,
    "melewati_batas": 129,
-   "median_jeda_jam": 14.2,
-   "n_jeda": 30,
+   "median_jeda_jam": 12.9,
+   "n_jeda": 31,
    "topik_teratas": [
     [
      "darurat",
@@ -209,6 +209,35 @@
    ]
   },
   {
+   "polda": "Polda Aceh",
+   "provinsi": [
+    "11"
+   ],
+   "kasus": 363,
+   "perlu": 84,
+   "perlu_tanggap": 19,
+   "persen_tanggap": 22.6,
+   "tanggap": 149,
+   "jalur_khusus": 10,
+   "melewati_batas": 56,
+   "median_jeda_jam": 2.9,
+   "n_jeda": 19,
+   "topik_teratas": [
+    [
+     "darurat",
+     188
+    ],
+    [
+     "narkoba",
+     59
+    ],
+    [
+     "jalanan",
+     52
+    ]
+   ]
+  },
+  {
    "polda": "Polda Riau",
    "provinsi": [
     "14"
@@ -263,35 +292,6 @@
     [
      "anggota",
      28
-    ]
-   ]
-  },
-  {
-   "polda": "Polda Aceh",
-   "provinsi": [
-    "11"
-   ],
-   "kasus": 362,
-   "perlu": 83,
-   "perlu_tanggap": 19,
-   "persen_tanggap": 22.9,
-   "tanggap": 149,
-   "jalur_khusus": 9,
-   "melewati_batas": 56,
-   "median_jeda_jam": 2.9,
-   "n_jeda": 19,
-   "topik_teratas": [
-    [
-     "darurat",
-     188
-    ],
-    [
-     "narkoba",
-     59
-    ],
-    [
-     "jalanan",
-     52
     ]
    ]
   },
@@ -474,11 +474,11 @@
    "provinsi": [
     "61"
    ],
-   "kasus": 162,
+   "kasus": 161,
    "perlu": 48,
    "perlu_tanggap": 8,
    "persen_tanggap": 16.7,
-   "tanggap": 88,
+   "tanggap": 87,
    "jalur_khusus": 5,
    "melewati_batas": 35,
    "median_jeda_jam": 13.4,
@@ -494,7 +494,7 @@
     ],
     [
      "jalanan",
-     31
+     30
     ]
    ]
   },
@@ -880,10 +880,10 @@
    "provinsi": [
     "96"
    ],
-   "kasus": 52,
-   "perlu": 16,
+   "kasus": 53,
+   "perlu": 17,
    "perlu_tanggap": 2,
-   "persen_tanggap": 12.5,
+   "persen_tanggap": 11.8,
    "tanggap": 30,
    "jalur_khusus": 2,
    "melewati_batas": 10,
