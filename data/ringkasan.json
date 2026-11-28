@@ -1,5 +1,5 @@
 {
- "diperbarui_utc": "2026-11-28T01:53:44Z",
+ "diperbarui_utc": "2026-11-28T01:57:01Z",
  "versi_aturan": "2026-10-31",
  "jalur_khusus_jenis": {
   "perkara": 9,
@@ -12,9 +12,9 @@
   "JALUR KHUSUS": 60,
   "TINDAK": 58,
   "PANTAU": 143,
-  "TERCATAT": 1246
+  "TERCATAT": 1244
  },
- "kasus_aktif": 1507,
+ "kasus_aktif": 1505,
  "topik": {
   "anggota": {
    "nama": "Perilaku anggota",
@@ -42,7 +42,7 @@
   },
   "lalulintas": {
    "nama": "Lalu lintas",
-   "kasus": 69
+   "kasus": 68
   },
   "layanan": {
    "nama": "Layanan kepolisian",
@@ -50,7 +50,7 @@
   },
   "darurat": {
    "nama": "Bencana dan keadaan darurat",
-   "kasus": 447
+   "kasus": 446
   }
  },
  "provinsi": {
@@ -316,25 +316,25 @@
  },
  "langkah": {
   "dengar": {
-   "artikel": 902,
-   "sumber": 3
+   "artikel": 0,
+   "sumber": 2
   },
   "pilah": {
-   "relevan": 29,
-   "sudah_ada": 855,
-   "hoaks": 1,
-   "tidak_relevan": 3,
-   "bukan_kejadian": 11,
-   "luar_negeri": 3,
-   "kasus_baru": 10,
-   "digabung": 19
+   "relevan": 0,
+   "sudah_ada": 0,
+   "hoaks": 0,
+   "tidak_relevan": 0,
+   "bukan_kejadian": 0,
+   "luar_negeri": 0,
+   "kasus_baru": 0,
+   "digabung": 0
   },
   "timbang": {
    "DARURAT": 0,
    "JALUR KHUSUS": 60,
    "TINDAK": 58,
    "PANTAU": 143,
-   "TERCATAT": 1246
+   "TERCATAT": 1244
   },
   "teruskan": {
    "polda": 35,
@@ -342,7 +342,7 @@
   },
   "kabarkan": {
    "tanggapan_terlihat": 614,
-   "kasus": 1507,
+   "kasus": 1505,
    "tanggapan_sejak_berita_pertama": 518,
    "median_jeda_jam": 11.8,
    "n_jeda": 96,
